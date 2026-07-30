@@ -21,10 +21,6 @@ jobs:
             target: dist:win
 
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: desktop
-
     steps:
       - uses: actions/checkout@v4
 
@@ -32,13 +28,11 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: desktop/package-lock.json
 
       - run: npm ci
       - run: npm run typecheck
       - run: npm run ${{ matrix.target }}
         env:
-          # Builds are unsigned for now; skip notarisation rather than fail.
           CSC_IDENTITY_AUTO_DISCOVERY: 'false'
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -46,9 +40,10 @@ jobs:
         with:
           name: brocaly-${{ matrix.os }}
           path: |
-            desktop/release/*.dmg
-            desktop/release/*.zip
-            desktop/release/*.exe
+            release/*.dmg
+            release/*.zip
+            release/*.exe
+            release/*.nsis.7z
           if-no-files-found: error
 
   publish:
