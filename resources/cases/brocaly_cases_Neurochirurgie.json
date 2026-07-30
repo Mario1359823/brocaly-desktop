@@ -1,0 +1,1966 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank - Neurochirurgie Expert",
+    "fachgebiet": "Neurochirurgie",
+    "version": "1.1.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "grundlagen_diagnostik_recht": {
+      "label": "Grundlagen, Diagnostik & Recht",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "N001",
+          "titel": "Hirntodfeststellung nach SHT",
+          "tags": [
+            "Recht",
+            "Ethik"
+          ],
+          "patient": "45-j. nach Polytrauma",
+          "praesentation": "GCS 3, Apnoe",
+          "befunde": [
+            "Null-Linien-EEG",
+            "Perfusionsstopp"
+          ],
+          "diagnose": "Irreversibler Hirnfunktionsausfall",
+          "therapie": [
+            "Dokumentation BÄK"
+          ],
+          "lernpunkte": [
+            "Zwei Untersucher-Prinzip"
+          ]
+        },
+        {
+          "id": "N002",
+          "titel": "Präoperative Aufklärung Meningeom",
+          "tags": [
+            "Forensik"
+          ],
+          "patient": "58-j. Patient",
+          "praesentation": "Elektive OP",
+          "befunde": [
+            "MRT-Nachweis"
+          ],
+          "diagnose": "Aufklärungssituation",
+          "therapie": [
+            "Risikodarstellung"
+          ],
+          "lernpunkte": [
+            "Stufenaufklärung"
+          ]
+        },
+        {
+          "id": "N003",
+          "titel": "Gutachten bei Wegeunfall",
+          "tags": [
+            "Versicherungsrecht"
+          ],
+          "patient": "32-j. nach SHT",
+          "praesentation": "Posttraumatische Kopfschmerzen",
+          "befunde": [
+            "CT initial blank"
+          ],
+          "diagnose": "MdE-Einschätzung",
+          "therapie": [
+            "Neuropsychologische Testung"
+          ],
+          "lernpunkte": [
+            "Kausalitätsprüfung"
+          ]
+        },
+        {
+          "id": "N004",
+          "titel": "Lagerungsschaden N. ulnaris",
+          "tags": [
+            "OP-Management"
+          ],
+          "patient": "Postoperative Kontrolle",
+          "praesentation": "Kribbelparästhesien Dig. IV/V",
+          "befunde": [
+            "Druckstelle Ellenbogen"
+          ],
+          "diagnose": "Lagerungsbedingte Ulnaris-Neuropathie",
+          "therapie": [
+            "Polsterung",
+            "Physio"
+          ],
+          "lernpunkte": [
+            "Haftungsrelevanz"
+          ]
+        },
+        {
+          "id": "N005",
+          "titel": "ICP-Monitoring (Kocher-Punkt)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Hirnödem-Patient",
+          "praesentation": "Vigilanz↓",
+          "befunde": [
+            "ICP > 20 mmHg"
+          ],
+          "diagnose": "Intrakranielle Hypertension",
+          "therapie": [
+            "Sondenanlage"
+          ],
+          "lernpunkte": [
+            "CPP = MAP - ICP"
+          ]
+        },
+        {
+          "id": "N006",
+          "titel": "Liquordiagnostik (Meningitis)",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "Patient nach Kraniotomie",
+          "praesentation": "Fieber, Nackensteifigkeit",
+          "befunde": [
+            "Laktat↑",
+            "Glukose↓"
+          ],
+          "diagnose": "Postoperative Meningitis",
+          "therapie": [
+            "Kalkulierte Antibiose"
+          ],
+          "lernpunkte": [
+            "Zellzahl-Monitoring"
+          ]
+        },
+        {
+          "id": "N007",
+          "titel": "Transkranielle Dopplersonographie",
+          "tags": [
+            "Ultraschall"
+          ],
+          "patient": "SAB-Patient",
+          "praesentation": "Monitoring",
+          "befunde": [
+            "Fließgeschwindigkeit Vmax↑"
+          ],
+          "diagnose": "Zerebraler Vasospasmus",
+          "therapie": [
+            "Triple-H-Therapie"
+          ],
+          "lernpunkte": [
+            "Lindegaard-Ratio"
+          ]
+        },
+        {
+          "id": "N008",
+          "titel": "Dokumentation § 630 f BGB",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Allgemeiner Fall",
+          "praesentation": "Fehlende Dokumentation",
+          "befunde": [
+            "Nachträgliche Notiz ohne zeitnahe Dokumentation"
+          ],
+          "diagnose": "Beweislastumkehr",
+          "therapie": [
+            "Lückenlose Doku"
+          ],
+          "lernpunkte": [
+            "Nicht dokumentiert = nicht erfolgt"
+          ]
+        },
+        {
+          "id": "N009",
+          "titel": "Hirndruckzeichen im MRT",
+          "tags": [
+            "Radiologie"
+          ],
+          "patient": "Patient mit Übelkeit",
+          "praesentation": "Nüchternerbrechen",
+          "befunde": [
+            "Verschrichene Sulci",
+            "MLV"
+          ],
+          "diagnose": "Raumforderung",
+          "therapie": [
+            "Dekompression"
+          ],
+          "lernpunkte": [
+            "Zeichen der drohenden Einklemmung"
+          ]
+        },
+        {
+          "id": "N010",
+          "titel": "Stellvertretende Einwilligung",
+          "tags": [
+            "Betreuungsrecht"
+          ],
+          "patient": "Dementer Patient, Notfall",
+          "praesentation": "Akutes Hämatom",
+          "befunde": [
+            "GCS 5"
+          ],
+          "diagnose": "Mutmaßlicher Wille",
+          "therapie": [
+            "Vitalindikation nutzen"
+          ],
+          "lernpunkte": [
+            "Betreuungsgericht informieren"
+          ]
+        }
+      ]
+    },
+    "traumatologie": {
+      "label": "Neurotraumatologie",
+      "emoji": "🚑",
+      "faelle": [
+        {
+          "id": "N011",
+          "titel": "Akutes Epiduralhämatom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "22-j. Sturz",
+          "praesentation": "Freies Intervall",
+          "befunde": [
+            "Linsenförmiges Hämatom"
+          ],
+          "diagnose": "aEDH",
+          "therapie": [
+            "Trepanation"
+          ],
+          "lernpunkte": [
+            "A. meningea media"
+          ]
+        },
+        {
+          "id": "N012",
+          "titel": "Akutes Subduralhämatom",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "70-j. unter OAK",
+          "praesentation": "Hemiparese",
+          "befunde": [
+            "Sichelförmige Blutung"
+          ],
+          "diagnose": "aSDH",
+          "therapie": [
+            "Kraniektomie"
+          ],
+          "lernpunkte": [
+            "Brückenvenenabriss"
+          ]
+        },
+        {
+          "id": "N013",
+          "titel": "Chronisches Subduralhämatom",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "85-j. verwirrt",
+          "praesentation": "Gangstörung",
+          "befunde": [
+            "Hypodense Sichel"
+          ],
+          "diagnose": "cSDH",
+          "therapie": [
+            "Bohrlochspülung"
+          ],
+          "lernpunkte": [
+            "Pseudodemenz"
+          ]
+        },
+        {
+          "id": "N014",
+          "titel": "Frontobasale Liquorfistel",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "35-j. Motorradunfall",
+          "praesentation": "Rhinorrhö",
+          "befunde": [
+            "Beta-Trace positiv"
+          ],
+          "diagnose": "Durale Fistel",
+          "therapie": [
+            "Deckung der Basis"
+          ],
+          "lernpunkte": [
+            "Meningitisrisiko"
+          ]
+        },
+        {
+          "id": "N015",
+          "titel": "Diffuses Axonaltrauma (DAI)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "25-j. Hochrasanz",
+          "praesentation": "Koma bei CT blank",
+          "befunde": [
+            "MRT: Punktförmige Blutungen"
+          ],
+          "diagnose": "DAI",
+          "therapie": [
+            "Rehabilitation"
+          ],
+          "lernpunkte": [
+            "Schermechanismen"
+          ]
+        },
+        {
+          "id": "N016",
+          "titel": "Impressionsfraktur offen",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Schlagtrauma",
+          "praesentation": "Wunde",
+          "befunde": [
+            "Fragment-Eindrückung"
+          ],
+          "diagnose": "Offene Fraktur",
+          "therapie": [
+            "Herausheben",
+            "Debridement"
+          ],
+          "lernpunkte": [
+            "Infektionsprophylaxe"
+          ]
+        },
+        {
+          "id": "N017",
+          "titel": "Zerebrale Kontusionsblutung",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Sturz auf Hinterkopf",
+          "praesentation": "Vigilanz↓",
+          "befunde": [
+            "Coup-Contrecoup"
+          ],
+          "diagnose": "Kontusion",
+          "therapie": [
+            "Konservativ vs. OP"
+          ],
+          "lernpunkte": [
+            "Nachblutungsmonitoring"
+          ]
+        },
+        {
+          "id": "N018",
+          "titel": "Dekompressive Kraniektomie",
+          "tags": [
+            "Intensivmed."
+          ],
+          "patient": "Junger Pat., massives Ödem",
+          "praesentation": "Herniation droht",
+          "befunde": [
+            "ICP therapierefraktär"
+          ],
+          "diagnose": "Refraktärer Hirndruck",
+          "therapie": [
+            "Großflächige Deckelentfernung"
+          ],
+          "lernpunkte": [
+            "Syndrom des trepanierten Schädels"
+          ]
+        },
+        {
+          "id": "N019",
+          "titel": "Felsenbeinfraktur längs",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Sturz seitlich",
+          "praesentation": "Otorrhö, Schwerhörigkeit",
+          "befunde": [
+            "Stufenbildung Felsenbein"
+          ],
+          "diagnose": "Felsenbein-Längsfraktur",
+          "therapie": [
+            "Konservativ",
+            "Ggf. Amboss-Luxation Korr."
+          ],
+          "lernpunkte": [
+            "Trommelfellbeteiligung"
+          ]
+        },
+        {
+          "id": "N020",
+          "titel": "Traumatische Carotisdissektion",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "Schleudertrauma",
+          "praesentation": "Horner-Syndrom, Stroke",
+          "befunde": [
+            "CTA: Wandhämatom"
+          ],
+          "diagnose": "Carotisdissektion",
+          "therapie": [
+            "Antikoagulation/Stenting"
+          ],
+          "lernpunkte": [
+            "Hals-Gefäß-Check bei Trauma"
+          ]
+        },
+        {
+          "id": "N021",
+          "titel": "Kopfschwarten-Avulsion",
+          "tags": [
+            "Weichteile"
+          ],
+          "patient": "Maschinenunfall",
+          "praesentation": "Skalpierung",
+          "befunde": [
+            "Periost freiliegend"
+          ],
+          "diagnose": "Skalptrauma",
+          "therapie": [
+            "Replantation",
+            "Hämostase"
+          ],
+          "lernpunkte": [
+            "Hoher Blutverlust"
+          ]
+        },
+        {
+          "id": "N022",
+          "titel": "Rezidiv-cSDH unter Plavix",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Patient nach cSDH-OP",
+          "praesentation": "Erneute Symptomatik",
+          "befunde": [
+            "Neues Hämatom"
+          ],
+          "diagnose": "Rezidivhämatom",
+          "therapie": [
+            "Revision",
+            "Embolisation A. meningea media"
+          ],
+          "lernpunkte": [
+            "MMA-Embolisation als Trend"
+          ]
+        },
+        {
+          "id": "N023",
+          "titel": "Orbitabodenfraktur (Blow-out)",
+          "tags": [
+            "Gesicht"
+          ],
+          "patient": "Faustschlag Auge",
+          "praesentation": "Doppelbilder bei Aufblick",
+          "befunde": [
+            "Eingeklemmter M. rectus inf."
+          ],
+          "diagnose": "Blow-out Fraktur",
+          "therapie": [
+            "Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Hängeboden-Zeichen"
+          ]
+        },
+        {
+          "id": "N024",
+          "titel": "Pneumozephalus (Ventil)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Nach NNH-OP",
+          "praesentation": "Kopfschmerz, Verwirrtheit",
+          "befunde": [
+            "Luft intrakraniell (Mount Fuji)"
+          ],
+          "diagnose": "Ventilpneumozephalus",
+          "therapie": [
+            "Bohrlochtubus",
+            "Deckung"
+          ],
+          "lernpunkte": [
+            "Spannungspneumozephalus = Notfall"
+          ]
+        },
+        {
+          "id": "N025",
+          "titel": "Hirnstammkontusion",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Schweres SHT",
+          "praesentation": "Dezerebrationszeichen",
+          "befunde": [
+            "MRT: Läsion im Tegmentum"
+          ],
+          "diagnose": "Hirnstammtrauma",
+          "therapie": [
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose"
+          ]
+        }
+      ]
+    },
+    "vaskulaer": {
+      "label": "Vaskuläre Neurochirurgie",
+      "emoji": "🩸",
+      "faelle": [
+        {
+          "id": "N026",
+          "titel": "SAB (ACoA-Aneurysma)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "52-j. Frau",
+          "praesentation": "Vernichtungskopfschmerz",
+          "befunde": [
+            "Angio: ACoA Aneurysma"
+          ],
+          "diagnose": "SAB Hunt & Hess II",
+          "therapie": [
+            "Clipping vs. Coiling"
+          ],
+          "lernpunkte": [
+            "Fisher-Grading"
+          ]
+        },
+        {
+          "id": "N027",
+          "titel": "Vasospasmus nach SAB",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. an Tag 7 nach SAB",
+          "praesentation": "Ischämische Defizite",
+          "befunde": [
+            "Angio: Gefäßverengung"
+          ],
+          "diagnose": "DCI (Delayed Ischemia)",
+          "therapie": [
+            "Nimodipin",
+            "Hypertonie-Induktion"
+          ],
+          "lernpunkte": [
+            "Transkranieller Doppler"
+          ]
+        },
+        {
+          "id": "N028",
+          "titel": "Arteriovenöse Malformation (AVM)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "30-j. Erst-Anfall",
+          "praesentation": "Krampfanfall",
+          "befunde": [
+            "Angio: Nidus",
+            "Shunt"
+          ],
+          "diagnose": "AVM Spetzler-Martin II",
+          "therapie": [
+            "Resektion nach Embolisation"
+          ],
+          "lernpunkte": [
+            "Blutungsrisiko ca. 3% p.a."
+          ]
+        },
+        {
+          "id": "N029",
+          "titel": "Kavernom-Blutung (Pons)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "45-j. Schwindel",
+          "praesentation": "Hirnnervenparesen",
+          "befunde": [
+            "MRT: Popcorn-Läsion"
+          ],
+          "diagnose": "Ponskavernom",
+          "therapie": [
+            "Wait & See vs. OP"
+          ],
+          "lernpunkte": [
+            "Angio-okkult"
+          ]
+        },
+        {
+          "id": "N030",
+          "titel": "Dural-AV-Fistel (dAVF)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "55-j. puls. Tinnitus",
+          "praesentation": "Geräusch im Ohr",
+          "befunde": [
+            "DSA: Shunt Sinus transv."
+          ],
+          "diagnose": "dAVF",
+          "therapie": [
+            "Endovaskulärer Verschluss"
+          ],
+          "lernpunkte": [
+            "Klassifikation nach Cognard"
+          ]
+        },
+        {
+          "id": "N031",
+          "titel": "Symptomatische Carotisstenose",
+          "tags": [
+            "Stroke"
+          ],
+          "patient": "70-j. Amaurosis fugax",
+          "praesentation": "Flüchtige Erblindung",
+          "befunde": [
+            "Ultraschall: 85% Stenose"
+          ],
+          "diagnose": "ACI-Stenose",
+          "therapie": [
+            "Carotis-Endarteriektomie"
+          ],
+          "lernpunkte": [
+            "NASCET-Messung"
+          ]
+        },
+        {
+          "id": "N032",
+          "titel": "Moyamoya-Erkrankung",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "20-j. rezidiv. TIAs",
+          "praesentation": "Wortfindungsstörung",
+          "befunde": [
+            "Angio: Puff of smoke"
+          ],
+          "diagnose": "Moyamoya",
+          "therapie": [
+            "STA-MCA Bypass"
+          ],
+          "lernpunkte": [
+            "Direkte vs. indirekte Revask."
+          ]
+        },
+        {
+          "id": "N033",
+          "titel": "Mittelhirnblutung (Hypertonie)",
+          "tags": [
+            "Stroke"
+          ],
+          "patient": "65-j. Hypertoniker",
+          "praesentation": "Akute Hemiparese",
+          "befunde": [
+            "CCT: Basalganglienblutung"
+          ],
+          "diagnose": "Spontane ICB",
+          "therapie": [
+            "Konservativ (RR-Einst.)"
+          ],
+          "lernpunkte": [
+            "Lokalisationstypisch"
+          ]
+        },
+        {
+          "id": "N034",
+          "titel": "Kleinhirnblutung (Entlastung)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "72-j. Erbrechen, Ataxie",
+          "praesentation": "Vigilanz↓",
+          "befunde": [
+            "ICB Kleinhirn > 3cm"
+          ],
+          "diagnose": "Kleinhirnblutung",
+          "therapie": [
+            "Hinterhaupt-Trepanation"
+          ],
+          "lernpunkte": [
+            "Liquorabflussstörung droht"
+          ]
+        },
+        {
+          "id": "N035",
+          "titel": "Sinusvenenthrombose",
+          "tags": [
+            "Venoes"
+          ],
+          "patient": "Frau, Pille, Raucherin",
+          "praesentation": "Kopfschmerz, Stauungspapille",
+          "befunde": [
+            "MRV: Empty Delta Sign"
+          ],
+          "diagnose": "SVT",
+          "therapie": [
+            "Heparinisierung"
+          ],
+          "lernpunkte": [
+            "Gefahr der Stauungsblutung"
+          ]
+        },
+        {
+          "id": "N036",
+          "titel": "PCoA-Aneurysma (Okulomotorius)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "48-j. Doppelbilder",
+          "praesentation": "Ptose, Mydriasis",
+          "befunde": [
+            "Angio: PCoA Aneurysma"
+          ],
+          "diagnose": "Symptomatisches Aneurysma",
+          "therapie": [
+            "Clipping zur Dekompression"
+          ],
+          "lernpunkte": [
+            "N. III Parese = Warnsymptom"
+          ]
+        },
+        {
+          "id": "N037",
+          "titel": "Spontane Liquorfistel (Idiopathisch)",
+          "tags": [
+            "Liquor"
+          ],
+          "patient": "Adipöse Frau",
+          "praesentation": "Kopfschmerz bei Stehen",
+          "befunde": [
+            "MRT: Pachymeningitis"
+          ],
+          "diagnose": "Liquorunterdrucksyndrom",
+          "therapie": [
+            "Epidural Blood Patch"
+          ],
+          "lernpunkte": [
+            "Bernstein-Syndrom"
+          ]
+        },
+        {
+          "id": "N038",
+          "titel": "Telangiektasie (Zufallsbefund)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "Kopfschmerz-Abklärung",
+          "praesentation": "Normaler Befund",
+          "befunde": [
+            "MRT: Brush-like enhancement"
+          ],
+          "diagnose": "Kapilläre Telangiektasie",
+          "therapie": [
+            "Keine"
+          ],
+          "lernpunkte": [
+            "Don't touch lesion"
+          ]
+        },
+        {
+          "id": "N039",
+          "titel": "A. vertebralis Dissektion",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Nach Chiropraktik",
+          "praesentation": "Nackenschmerz, Wallenberg",
+          "befunde": [
+            "MRA: Wandschlitzung"
+          ],
+          "diagnose": "Vertebralisdissektion",
+          "therapie": [
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Hinterer Kreislauf"
+          ]
+        },
+        {
+          "id": "N040",
+          "titel": "Aneurysma-Re-Blutung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. wartet auf OP",
+          "praesentation": "Atemstillstand nach Kopfschm.",
+          "befunde": [
+            "CCT: Massive Zunahme Blut"
+          ],
+          "diagnose": "Re-Blutung",
+          "therapie": [
+            "Sofort-Ausschaltung"
+          ],
+          "lernpunkte": [
+            "Zeit ist Hirn"
+          ]
+        }
+      ]
+    },
+    "neuroonkologie": {
+      "label": "Neuroonkologie",
+      "emoji": "🏥",
+      "faelle": [
+        {
+          "id": "N041",
+          "titel": "Glioblastom (Erstdiagnose)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "68-j. Mann",
+          "praesentation": "Wesensveränderung",
+          "befunde": [
+            "MRT: Ringförmiges Enhancement"
+          ],
+          "diagnose": "Glioblastom (WHO IV)",
+          "therapie": [
+            "Resektion + Radio/Chemo"
+          ],
+          "lernpunkte": [
+            "IDH-Wildtyp"
+          ]
+        },
+        {
+          "id": "N042",
+          "titel": "Diffuses Astrozytom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "35-j. Erst-Anfall",
+          "praesentation": "V.a. Narbe im MRT",
+          "befunde": [
+            "MRT: T2-Signalhyperintensität"
+          ],
+          "diagnose": "Astrozytom (WHO II)",
+          "therapie": [
+            "Frühe Resektion"
+          ],
+          "lernpunkte": [
+            "IDH-Mutation"
+          ]
+        },
+        {
+          "id": "N043",
+          "titel": "Konvexitätsmeningeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Kopfschmerz, fokaler Anfall",
+          "befunde": [
+            "MRT: Dural Tail"
+          ],
+          "diagnose": "Meningeom (WHO I)",
+          "therapie": [
+            "Simpson I Resektion"
+          ],
+          "lernpunkte": [
+            "Günstige Prognose"
+          ]
+        },
+        {
+          "id": "N044",
+          "titel": "Vestibularisschwannom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "42-j. Tinnitus",
+          "praesentation": "Hörverlust einseitig",
+          "befunde": [
+            "MRT: KHBW Tumor"
+          ],
+          "diagnose": "Akustikusneurinom",
+          "therapie": [
+            "Mikrochirurgie vs. GammaKnife"
+          ],
+          "lernpunkte": [
+            "Erhalt N. facialis"
+          ]
+        },
+        {
+          "id": "N045",
+          "titel": "Hypophysenadenom (inaktiv)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "50-j. Sehstörung",
+          "praesentation": "Bitemporale Hemianopsie",
+          "befunde": [
+            "MRT: Sella-Prozess"
+          ],
+          "diagnose": "Inaktives Makroadenom",
+          "therapie": [
+            "Transsphenoidale Resektion"
+          ],
+          "lernpunkte": [
+            "Chiasma-Kompression"
+          ]
+        },
+        {
+          "id": "N046",
+          "titel": "Prolaktinom",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Amenorrhö, Galaktorrhö",
+          "befunde": [
+            "Labor: Prolaktin > 200"
+          ],
+          "diagnose": "Prolaktinom",
+          "therapie": [
+            "Dopaminagonisten"
+          ],
+          "lernpunkte": [
+            "Primär konservativ"
+          ]
+        },
+        {
+          "id": "N047",
+          "titel": "Solitäre Hirnmetastase (NSCLC)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "62-j. bekanntes Karzinom",
+          "praesentation": "Akute Hemiparese",
+          "befunde": [
+            "MRT: Einzelläsion"
+          ],
+          "diagnose": "Metastase",
+          "therapie": [
+            "Resektion + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Systemische Kontrolle entscheident"
+          ]
+        },
+        {
+          "id": "N048",
+          "titel": "Medulloblastom (Kind)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Morgendliches Erbrechen",
+          "befunde": [
+            "MRT: IV. Ventrikel Tumor"
+          ],
+          "diagnose": "Medulloblastom (WHO IV)",
+          "therapie": [
+            "Resektion + Kraniospinale Bestr."
+          ],
+          "lernpunkte": [
+            "Abtropfmetastasen"
+          ]
+        },
+        {
+          "id": "N049",
+          "titel": "Oligodendrogliom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "40-j. Anfall",
+          "praesentation": "Langsame Progredienz",
+          "befunde": [
+            "MRT: Verkalkungen"
+          ],
+          "diagnose": "Oligodendrogliom (WHO II)",
+          "therapie": [
+            "Resektion"
+          ],
+          "lernpunkte": [
+            "1p/19q Kodeletion"
+          ]
+        },
+        {
+          "id": "N050",
+          "titel": "M. Cushing (ACTH-Adenom)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "Frau, Vollmondgesicht",
+          "praesentation": "Hypertonie, Striae",
+          "befunde": [
+            "Labor: ACTH↑, Cortisol↑"
+          ],
+          "diagnose": "Hypophysärer M. Cushing",
+          "therapie": [
+            "Resektion Mikroadenom"
+          ],
+          "lernpunkte": [
+            "Selektive Adenomektomie"
+          ]
+        },
+        {
+          "id": "N051",
+          "titel": "Hämangioblastom (VHL)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "35-j. Ataxie",
+          "praesentation": "Kopfschmerz",
+          "befunde": [
+            "MRT: Zyste mit Knoten"
+          ],
+          "diagnose": "Von-Hippel-Lindau",
+          "therapie": [
+            "Knoten-Resektion"
+          ],
+          "lernpunkte": [
+            "Screening Niere/Auge"
+          ]
+        },
+        {
+          "id": "N052",
+          "titel": "Ependymom (Spinal)",
+          "tags": [
+            "Spinal"
+          ],
+          "patient": "50-j. Paraspastik",
+          "praesentation": "Gefühlsstörung Beine",
+          "befunde": [
+            "MRT: Intramedullär"
+          ],
+          "diagnose": "Spinales Ependymom",
+          "therapie": [
+            "Mikrochirurgische Resektion"
+          ],
+          "lernpunkte": [
+            "Cleavage Plane"
+          ]
+        },
+        {
+          "id": "N053",
+          "titel": "Pinealistumor",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "22-j. Doppelbilder",
+          "praesentation": "Parinaud-Syndrom",
+          "befunde": [
+            "MRT: Pinealisregion"
+          ],
+          "diagnose": "Germinom vs. Pineozytom",
+          "therapie": [
+            "Biopsie / Resektion"
+          ],
+          "lernpunkte": [
+            "Markertestung Liquor (AFP/HCG)"
+          ]
+        },
+        {
+          "id": "N054",
+          "titel": "Keilbeinflügelmeningeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "55-j. Exophthalmus",
+          "praesentation": "Gesichtsfeldeinschränkung",
+          "befunde": [
+            "MRT: Sphenoorbital"
+          ],
+          "diagnose": "Meningeom WHO I",
+          "therapie": [
+            "Radikale Resektion"
+          ],
+          "lernpunkte": [
+            "Hyperostose"
+          ]
+        },
+        {
+          "id": "N055",
+          "titel": "Craniopharyngeom",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "12-j. Wachstumsstopp",
+          "praesentation": "Sehstörung",
+          "befunde": [
+            "MRT: Zystisch/Verkalkt"
+          ],
+          "diagnose": "Craniopharyngeom",
+          "therapie": [
+            "Teilresektion + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Hypothalamusschaden"
+          ]
+        },
+        {
+          "id": "N056",
+          "titel": "Lymphom (Primär ZNS)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "Immunsupprimiert",
+          "praesentation": "Rasche Demenz",
+          "befunde": [
+            "MRT: Kontrastmittel-homogen"
+          ],
+          "diagnose": "PZNSL",
+          "therapie": [
+            "MTX-Chemo (keine OP!)"
+          ],
+          "lernpunkte": [
+            "Biopsie zur Sicherung"
+          ]
+        },
+        {
+          "id": "N057",
+          "titel": "Chordom (Clivus)",
+          "tags": [
+            "Schädelbasis"
+          ],
+          "patient": "45-j. Abducensparese",
+          "praesentation": "Chronischer Kopfschmerz",
+          "befunde": [
+            "MRT: Clivus-Destruktion"
+          ],
+          "diagnose": "Chordom",
+          "therapie": [
+            "Radikale OP + Protonen"
+          ],
+          "lernpunkte": [
+            "Lokal aggressiv"
+          ]
+        },
+        {
+          "id": "N058",
+          "titel": "Epidermoidzyste (KHBW)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "38-j. Gesichtsschmerz",
+          "praesentation": "Trigeminusneuralgie",
+          "befunde": [
+            "MRT: Perlmuttglanz"
+          ],
+          "diagnose": "Epidermoid",
+          "therapie": [
+            "Vollständige Kapselentf."
+          ],
+          "lernpunkte": [
+            "Aseptische Meningitis postop"
+          ]
+        },
+        {
+          "id": "N059",
+          "titel": "Multiple Hirnmetastasen",
+          "tags": [
+            "Palliativ"
+          ],
+          "patient": "70-j. fortgeschr. Karzinom",
+          "praesentation": "Verwirrtheit",
+          "befunde": [
+            "MRT: > 10 Herde"
+          ],
+          "diagnose": "Hirnfiliae",
+          "therapie": [
+            "Ganzhirnbestrahlung"
+          ],
+          "lernpunkte": [
+            "Lebensqualität im Fokus"
+          ]
+        },
+        {
+          "id": "N060",
+          "titel": "Olfaktorius-Meningeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "65-j. Anosmie",
+          "praesentation": "Persönlichkeitsänderung",
+          "befunde": [
+            "MRT: Vordere Schädelbasis"
+          ],
+          "diagnose": "Meningeom WHO I",
+          "therapie": [
+            "Frontale Kraniotomie"
+          ],
+          "lernpunkte": [
+            "Frühsymptom Geruchverlust"
+          ]
+        },
+        {
+          "id": "N061",
+          "titel": "Foramen Magnum Meningeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "50-j. Nackenschmerz",
+          "praesentation": "Gangstörung",
+          "befunde": [
+            "MRT: Foramen magnum"
+          ],
+          "diagnose": "Meningeom",
+          "therapie": [
+            "Far lateral Approach"
+          ],
+          "lernpunkte": [
+            "A. vertebralis Relation"
+          ]
+        },
+        {
+          "id": "N062",
+          "titel": "Anaplastisches Astrozytom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "48-j. epilept. Anfall",
+          "praesentation": "Wortfindungsstörung",
+          "befunde": [
+            "MRT: Inhomogen"
+          ],
+          "diagnose": "Astrozytom (WHO III)",
+          "therapie": [
+            "Resektion + Radio/Chemo"
+          ],
+          "lernpunkte": [
+            "Progression zum GBM"
+          ]
+        },
+        {
+          "id": "N063",
+          "titel": "Akromegalie (STH-Adenom)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "42-j. Mann",
+          "praesentation": "Größere Hände/Schuhe",
+          "befunde": [
+            "Labor: IGF-1↑, STH↑"
+          ],
+          "diagnose": "Hypophysenadenom",
+          "therapie": [
+            "OP + Somatostatin-Analoga"
+          ],
+          "lernpunkte": [
+            "Kardiomyopathie-Risiko"
+          ]
+        },
+        {
+          "id": "N064",
+          "titel": "Hämangioperizytom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "55-j. Raumforderung",
+          "praesentation": "Meningeom-ähnlich",
+          "befunde": [
+            "MRT: Knochendestruktion"
+          ],
+          "diagnose": "Solitärer fibröser Tumor",
+          "therapie": [
+            "Radikale Resektion"
+          ],
+          "lernpunkte": [
+            "Metastasierungsgefahr (Lunge)"
+          ]
+        },
+        {
+          "id": "N065",
+          "titel": "Vierte-Ventrikel-Ependymom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Halssteife, Erbrechen",
+          "befunde": [
+            "MRT: Plastizität (Foramina)"
+          ],
+          "diagnose": "Ependymom (WHO II/III)",
+          "therapie": [
+            "Vollständige Resektion"
+          ],
+          "lernpunkte": [
+            "Boden IV. Ventrikel"
+          ]
+        }
+      ]
+    },
+    "wirbelsaeule": {
+      "label": "Wirbelsäule & Rückenmark",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "N066",
+          "titel": "Bandscheibenvorfall L5/S1",
+          "tags": [
+            "NPP"
+          ],
+          "patient": "42-j. Mann",
+          "praesentation": "Ischialgie, Fußsenkerschwäche",
+          "befunde": [
+            "MRT: NPP mediolateral"
+          ],
+          "diagnose": "S1-Syndrom",
+          "therapie": [
+            "Mikrosequestrektomie"
+          ],
+          "lernpunkte": [
+            "ASR fehlt"
+          ]
+        },
+        {
+          "id": "N067",
+          "titel": "Kauda-Syndrom (Notfall)",
+          "tags": [
+            "NPP"
+          ],
+          "patient": "40-j. massiver Rückenschm.",
+          "praesentation": "Sattelanästhesie",
+          "befunde": [
+            "MRT: Massenprolaps"
+          ],
+          "diagnose": "Cauda equina Syndrom",
+          "therapie": [
+            "Notfall-OP < 6h"
+          ],
+          "lernpunkte": [
+            "Blasen-Mastdarm-Störung"
+          ]
+        },
+        {
+          "id": "N068",
+          "titel": "Zervikale Myelopathie",
+          "tags": [
+            "Stenose"
+          ],
+          "patient": "65-j. Gangunsicher",
+          "praesentation": "Feinmotorikstörung Hände",
+          "befunde": [
+            "MRT: Myelonsignal↑"
+          ],
+          "diagnose": "Spinalkanalstenose HWS",
+          "therapie": [
+            "Ventrale Fusion (ACDF)"
+          ],
+          "lernpunkte": [
+            "Hoffmann-Reflex"
+          ]
+        },
+        {
+          "id": "N069",
+          "titel": "Densfraktur Typ II (Anderson)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "80-j. Sturz",
+          "praesentation": "Genickschmerz",
+          "befunde": [
+            "CT: Bruch Densbasis"
+          ],
+          "diagnose": "Densfraktur Typ II",
+          "therapie": [
+            "Ventrale Verschraubung"
+          ],
+          "lernpunkte": [
+            "Hohe Pseudarthroserate"
+          ]
+        },
+        {
+          "id": "N070",
+          "titel": "Spinales Neurinom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "50-j. gürtelförmiger Schm.",
+          "praesentation": "Wurzelschmerz",
+          "befunde": [
+            "MRT: Sanduhr-Tumor"
+          ],
+          "diagnose": "Schwannom",
+          "therapie": [
+            "Resektion"
+          ],
+          "lernpunkte": [
+            "Intradural extramedullär"
+          ]
+        },
+        {
+          "id": "N071",
+          "titel": "Lumbale Spinalkanalstenose",
+          "tags": [
+            "Stenose"
+          ],
+          "patient": "72-j. Claudicatio",
+          "praesentation": "Besserung bei Vornüberbeugen",
+          "befunde": [
+            "MRT: Sanduhr-Stenose"
+          ],
+          "diagnose": "Kanalstenose LWS",
+          "therapie": [
+            "Dekompression (Crossover)"
+          ],
+          "lernpunkte": [
+            "Schaufensterkrankheit"
+          ]
+        },
+        {
+          "id": "N072",
+          "titel": "Spondylolisthese L4/5",
+          "tags": [
+            "Gleitwirbel"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Belastungsschmerz LWS",
+          "befunde": [
+            "Rö: Gleitwirbel Meyerding II"
+          ],
+          "diagnose": "Spondylolisthese",
+          "therapie": [
+            "Fusion (PLIF/TLIF)"
+          ],
+          "lernpunkte": [
+            "Instabilität"
+          ]
+        },
+        {
+          "id": "N073",
+          "titel": "Spinale Metastase (Plasmozytom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Rückenschmerz",
+          "praesentation": "Beginnende Paraparese",
+          "befunde": [
+            "CT: Osteolyse BWK 10"
+          ],
+          "diagnose": "Pathologische Fraktur",
+          "therapie": [
+            "Stabilisierung + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Onkologischer Notfall"
+          ]
+        },
+        {
+          "id": "N074",
+          "titel": "Bandscheibenvorfall C5/6",
+          "tags": [
+            "NPP"
+          ],
+          "patient": "45-j. Nackenschmerz",
+          "praesentation": "Bizeps-Parese",
+          "befunde": [
+            "MRT: Prolaps zervikal"
+          ],
+          "diagnose": "C6-Syndrom",
+          "therapie": [
+            "Ventrale Diskektomie"
+          ],
+          "lernpunkte": [
+            "BSR abgeschwächt"
+          ]
+        },
+        {
+          "id": "N075",
+          "titel": "Spondylodiszitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Diabetiker, Fieber",
+          "praesentation": "Heftiger Klopfschmerz",
+          "befunde": [
+            "MRT: Ödem Endplatten"
+          ],
+          "diagnose": "Spondylodiszitis",
+          "therapie": [
+            "Antibiose + ggf. OP"
+          ],
+          "lernpunkte": [
+            "Staph. aureus"
+          ]
+        },
+        {
+          "id": "N076",
+          "titel": "Syringomyelie (Chiari)",
+          "tags": [
+            "Fehlbildung"
+          ],
+          "patient": "30-j. Gefühlsstörung",
+          "praesentation": "Thermhypästhesie Schultern",
+          "befunde": [
+            "MRT: Zentrale Höhle"
+          ],
+          "diagnose": "Syrinx bei Chiari I",
+          "therapie": [
+            "Foramen magnum Erweit."
+          ],
+          "lernpunkte": [
+            "Dissociierte Empfindungsst."
+          ]
+        },
+        {
+          "id": "N077",
+          "titel": "Atlanto-axiale Instabilität (RA)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Rheumatikerin",
+          "praesentation": "Halssteife, Defizite",
+          "befunde": [
+            "Rö: Atlanto-dental-Abst.↑"
+          ],
+          "diagnose": "Instabilität C1/2",
+          "therapie": [
+            "Harms-Verschraubung"
+          ],
+          "lernpunkte": [
+            "Gefahr der hohen Querschn."
+          ]
+        },
+        {
+          "id": "N078",
+          "titel": "Spinale AVM (COBB)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "Junger Pat. Lähmung",
+          "praesentation": "Schlagartige Paraplegie",
+          "befunde": [
+            "MRT: Flow-voids spinal"
+          ],
+          "diagnose": "Spinale AVM",
+          "therapie": [
+            "Embolisation / OP"
+          ],
+          "lernpunkte": [
+            "Foix-Alajouanine-Syndrom"
+          ]
+        },
+        {
+          "id": "N079",
+          "titel": "Wirbelkörperfraktur (AO-B)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Sturz vom Dach",
+          "praesentation": "Rückenschmerz",
+          "befunde": [
+            "CT: Berstungsfraktur"
+          ],
+          "diagnose": "Instabile Fraktur",
+          "therapie": [
+            "Fixateur interne"
+          ],
+          "lernpunkte": [
+            "Hinterkantenbeteiligung"
+          ]
+        },
+        {
+          "id": "N080",
+          "titel": "Epidurales Spinalhämatom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. unter Marcumar",
+          "praesentation": "Akuter Querschnitt",
+          "befunde": [
+            "MRT: Epidurales Blut"
+          ],
+          "diagnose": "Spinales EDH",
+          "therapie": [
+            "Notfall-Laminektomie"
+          ],
+          "lernpunkte": [
+            "Vigilanz bei Rückenschmerz"
+          ]
+        },
+        {
+          "id": "N081",
+          "titel": "Tethered Cord Syndrom",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Kind, Blasenstörung",
+          "praesentation": "Hohlfußbildung",
+          "befunde": [
+            "MRT: Tiefstand Conus"
+          ],
+          "diagnose": "Tethered Cord",
+          "therapie": [
+            "Filum-Durchtrennung"
+          ],
+          "lernpunkte": [
+            "Wachstumsproblematik"
+          ]
+        },
+        {
+          "id": "N082",
+          "titel": "Thoracic-Outlet-Syndrom",
+          "tags": [
+            "Peripher"
+          ],
+          "patient": "25-j. Kraftsportler",
+          "praesentation": "Armschmerz bei Heben",
+          "befunde": [
+            "Angio: Kompression A."
+          ],
+          "diagnose": "Neurogenes TOS",
+          "therapie": [
+            "1. Rippe Resektion"
+          ],
+          "lernpunkte": [
+            "Plexus-Reizung"
+          ]
+        },
+        {
+          "id": "N083",
+          "titel": "Brachialgia paraesthetica noct.",
+          "tags": [
+            "NPP"
+          ],
+          "patient": "38-j. Frau",
+          "praesentation": "Nächtliches Einschlafen Arm",
+          "befunde": [
+            "MRT: Foramenstenose C6/7"
+          ],
+          "diagnose": "C7-Radikulopathie",
+          "therapie": [
+            "Konservativ / OP"
+          ],
+          "lernpunkte": [
+            "Lagerungstest"
+          ]
+        },
+        {
+          "id": "N084",
+          "titel": "Wirbelkörperhämangiom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Zufallsbefund MRT",
+          "praesentation": "Keine Schmerzen",
+          "befunde": [
+            "MRT: Gestreifter Wirbel"
+          ],
+          "diagnose": "Hämangiom",
+          "therapie": [
+            "Keine"
+          ],
+          "lernpunkte": [
+            "Polka-Dot Zeichen"
+          ]
+        },
+        {
+          "id": "N085",
+          "titel": "Chronisches Schmerzsyndrom (LWS)",
+          "tags": [
+            "Funktionell"
+          ],
+          "patient": "Pat. nach 3x Vorfall-OP",
+          "praesentation": "Dauerschmerz",
+          "befunde": [
+            "Vernarbungen (FBSS)"
+          ],
+          "diagnose": "Postdiskektomie-Syndrom",
+          "therapie": [
+            "SCS (Rückenmarkstim.)"
+          ],
+          "lernpunkte": [
+            "Keine erneute Revision"
+          ]
+        }
+      ]
+    },
+    "paediatrie": {
+      "label": "Pädiatrische Neurochirurgie",
+      "emoji": "👶",
+      "faelle": [
+        {
+          "id": "N086",
+          "titel": "Sagittalnahtsynostose",
+          "tags": [
+            "Fehlbildung"
+          ],
+          "patient": "Säugling 4 Mo.",
+          "praesentation": "Langschädel",
+          "befunde": [
+            "Klinik: tastbarer Wulst"
+          ],
+          "diagnose": "Skaphozephalus",
+          "therapie": [
+            "Schädelrekonstruktion"
+          ],
+          "lernpunkte": [
+            "Häufigste Synostose"
+          ]
+        },
+        {
+          "id": "N087",
+          "titel": "Hydrocephalus occlusus (Aquädukt)",
+          "tags": [
+            "Liquor"
+          ],
+          "patient": "Kleinkind",
+          "praesentation": "Sonnenuntergangsphänomen",
+          "befunde": [
+            "MRT: Ventrikel I-III weit"
+          ],
+          "diagnose": "Aquäduktstenose",
+          "therapie": [
+            "ETV (Ventriculostomie)"
+          ],
+          "lernpunkte": [
+            "Shunt-Vermeidung"
+          ]
+        },
+        {
+          "id": "N088",
+          "titel": "Myelomeningozele (MMC)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Offener Rücken",
+          "befunde": [
+            "Defekt lumbal"
+          ],
+          "diagnose": "MMC",
+          "therapie": [
+            "Verschluss < 24h"
+          ],
+          "lernpunkte": [
+            "Folsäure-Prophylaxe"
+          ]
+        },
+        {
+          "id": "N089",
+          "titel": "Pilozytisches Astrozytom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "7-j. Ataxie",
+          "praesentation": "Erbrechen",
+          "befunde": [
+            "MRT: Zyste Kleinhirn"
+          ],
+          "diagnose": "Astrozytom WHO I",
+          "therapie": [
+            "Vollständige Resektion"
+          ],
+          "lernpunkte": [
+            "Heilungschance hoch"
+          ]
+        },
+        {
+          "id": "N090",
+          "titel": "Enzephalozele (Occipital)",
+          "tags": [
+            "Fehlbildung"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Beule Hinterkopf",
+          "befunde": [
+            "MRT: Hirnprolaps"
+          ],
+          "diagnose": "Enzephalozele",
+          "therapie": [
+            "Plastischer Verschluss"
+          ],
+          "lernpunkte": [
+            "Kognitive Prognose variabel"
+          ]
+        },
+        {
+          "id": "N091",
+          "titel": "Dandy-Walker-Malformation",
+          "tags": [
+            "Fehlbildung"
+          ],
+          "patient": "Säugling",
+          "praesentation": "Zunehmender Kopfumfang",
+          "befunde": [
+            "MRT: IV. Ventrikel Zyste"
+          ],
+          "diagnose": "Dandy-Walker",
+          "therapie": [
+            "Zysto-perit. Shunt"
+          ],
+          "lernpunkte": [
+            "Kleinhirnhypoplasie"
+          ]
+        },
+        {
+          "id": "N092",
+          "titel": "Plexuspapillom",
+          "tags": [
+            "Liquor"
+          ],
+          "patient": "Säugling",
+          "praesentation": "Prall gesp. Fontanelle",
+          "befunde": [
+            "MRT: Hypersekretion"
+          ],
+          "diagnose": "Plexuspapillom",
+          "therapie": [
+            "Resektion"
+          ],
+          "lernpunkte": [
+            "Liquorüberproduktion"
+          ]
+        },
+        {
+          "id": "N093",
+          "titel": "Shunt-Infektion",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Kind mit Shunt",
+          "praesentation": "Fieber, Bauchschmerz",
+          "befunde": [
+            "Liquor: Pleozytose"
+          ],
+          "diagnose": "Ventrikulitis",
+          "therapie": [
+            "EVD + Antibiose"
+          ],
+          "lernpunkte": [
+            "Staph. epidermidis"
+          ]
+        }
+      ]
+    },
+    "funktionell_peripher": {
+      "label": "Funktionelle Chirurgie & Peripherie",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "N094",
+          "titel": "Trigeminusneuralgie",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "65-j. Blitzschmerz",
+          "praesentation": "Trigger beim Kauen",
+          "befunde": [
+            "MRT: Gefäß-Nerv-Konflikt"
+          ],
+          "diagnose": "Neuralgie",
+          "therapie": [
+            "Janetta-OP"
+          ],
+          "lernpunkte": [
+            "A. cerebelli superior"
+          ]
+        },
+        {
+          "id": "N095",
+          "titel": "M. Parkinson (THS)",
+          "tags": [
+            "Parkinson"
+          ],
+          "patient": "60-j. Rigor/Tremor",
+          "praesentation": "Wirkungsfluktuationen",
+          "befunde": [
+            "L-Dopa-Test positiv"
+          ],
+          "diagnose": "Morbus Parkinson",
+          "therapie": [
+            "THS (STN)"
+          ],
+          "lernpunkte": [
+            "Off-Zeit Reduktion"
+          ]
+        },
+        {
+          "id": "N096",
+          "titel": "Facialis-Hemispasmus",
+          "tags": [
+            "Gesicht"
+          ],
+          "patient": "50-j. Augenzucken",
+          "praesentation": "Unwillk. Kontraktion",
+          "befunde": [
+            "MRT: Konflikt N. VII"
+          ],
+          "diagnose": "Hemispasmus",
+          "therapie": [
+            "Mikrovask. Dekompression"
+          ],
+          "lernpunkte": [
+            "Differenzialdiagnose Tic"
+          ]
+        },
+        {
+          "id": "N097",
+          "titel": "Karpaltunnelsyndrom (KTS)",
+          "tags": [
+            "Peripher"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Nächtliche Parästhesien",
+          "befunde": [
+            "NLG: Latenzverzögerung"
+          ],
+          "diagnose": "KTS",
+          "therapie": [
+            "Karpaldachspaltung"
+          ],
+          "lernpunkte": [
+            "Thenar-Atrophie"
+          ]
+        },
+        {
+          "id": "N098",
+          "titel": "Sulcus-ulnaris-Syndrom",
+          "tags": [
+            "Peripher"
+          ],
+          "patient": "55-j. Kribbeln IV/V",
+          "praesentation": "Krallenhand-Ansatz",
+          "befunde": [
+            "NLG: Block Ellenbogen"
+          ],
+          "diagnose": "Ulnarisneuropathie",
+          "therapie": [
+            "Neurolyse in situ"
+          ],
+          "lernpunkte": [
+            "Lagerung"
+          ]
+        },
+        {
+          "id": "N099",
+          "titel": "Normaldruckhydrozephalus (NPH)",
+          "tags": [
+            "Demenz"
+          ],
+          "patient": "75-j. Hakim-Trias",
+          "praesentation": "Magnetisches Gangbild",
+          "befunde": [
+            "Tap-Test: Besserung"
+          ],
+          "diagnose": "NPH",
+          "therapie": [
+            "VP-Shunt (verstellbar)"
+          ],
+          "lernpunkte": [
+            "Behandelbare Demenz"
+          ]
+        },
+        {
+          "id": "N100",
+          "titel": "Wesensveränderung (Frontalhirn)",
+          "tags": [
+            "Psych"
+          ],
+          "patient": "60-j. enthemmt",
+          "praesentation": "Witzelsucht, Apathie",
+          "befunde": [
+            "MRT: Olfaktorius-Meningeom"
+          ],
+          "diagnose": "Frontalhirnsyndrom",
+          "therapie": [
+            "Resektion"
+          ],
+          "lernpunkte": [
+            "Neurochirurgische DD Psych."
+          ]
+        }
+      ]
+    }
+  }
+}

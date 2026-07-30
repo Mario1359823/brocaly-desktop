@@ -1,0 +1,2029 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Allgemein- und Viszeralchirurgie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "grundlagen_technik": {
+      "label": "Grundlagen & Arbeitstechniken",
+      "emoji": "🔪",
+      "faelle": [
+        {
+          "id": "SUR_G001",
+          "titel": "Präoperative Risiko-Evaluation (ASA)",
+          "tags": [
+            "Management",
+            "Vorbereitung"
+          ],
+          "patient": "68-jähriger Patient zur elektiven Cholezystektomie",
+          "praesentation": "Anamnese: Bekannte KHK, COPD Gold II, insulinpflichtiger Diabetes.",
+          "befunde": [
+            "Belastungsdyspnoe",
+            "HbA1c 7,8%",
+            "Belastungs-EKG: stabil"
+          ],
+          "diagnose": "ASA-Klassifikation III",
+          "therapie": [
+            "Präoperative Optimierung",
+            "Anästhesie-Konsil",
+            "Perioperatives Glucose-Management"
+          ],
+          "lernpunkte": [
+            "ASA III: Schwere Systemerkrankung mit funktioneller Einschränkung",
+            "OP-Risiko bei Multimorbidität"
+          ]
+        },
+        {
+          "id": "SUR_G002",
+          "titel": "Wunddebridement (Chirurgisch)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "45-j. mit infizierter Platzwunde",
+          "praesentation": "Wunde am Unterschenkel, nekrotische Ränder, Rötung.",
+          "befunde": [
+            "Eiteransammlung",
+            "Beläge"
+          ],
+          "diagnose": "Wundinfektion nach Trauma",
+          "therapie": [
+            "Scharfes Debridement",
+            "Wundspülung",
+            "Sekundärheilung"
+          ],
+          "lernpunkte": [
+            "Entfernung von avitalem Gewebe als Infektionsschutz"
+          ]
+        },
+        {
+          "id": "SUR_G003",
+          "titel": "Lokalänästhesie (Infiltration)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "30-j. zur Atheromentfernung",
+          "praesentation": "Geplante kleinchirurgische Maßnahme am Rücken.",
+          "befunde": [
+            "Keine Allergien bekannt"
+          ],
+          "diagnose": "Atherom nuchal",
+          "therapie": [
+            "Infiltrationsanästhesie (Lidocain)"
+          ],
+          "lernpunkte": [
+            "Maximaldosen beachten (Lidocain 3-5 mg/kg KG)"
+          ]
+        },
+        {
+          "id": "SUR_G004",
+          "titel": "Oberflächenanästhesie (EMLA)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "6-j. Kind zur Punktion",
+          "praesentation": "Angst vor Nadelstich.",
+          "befunde": [
+            "Intakte Haut"
+          ],
+          "diagnose": "Prävention von Punktionsschmerz",
+          "therapie": [
+            "EMLA-Pflaster 60 Min. präinterventionell"
+          ],
+          "lernpunkte": [
+            "Einwirkzeit bei Kindern beachten"
+          ]
+        },
+        {
+          "id": "SUR_G005",
+          "titel": "Bakteriologische Untersuchung (Abstrich)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "55-j. mit Abszess",
+          "praesentation": "V.a. MRSA-Besiedlung präoperativ.",
+          "befunde": [
+            "Chronische Wunde"
+          ],
+          "diagnose": "V.a. Wundbesiedlung",
+          "therapie": [
+            "Abstrich mit Transportmedium"
+          ],
+          "lernpunkte": [
+            "Abnahme vom Wundgrund, nicht vom oberflächlichen Eiter"
+          ]
+        },
+        {
+          "id": "SUR_G006",
+          "titel": "Klammernaht-Technik",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "70-j. nach Darmresektion",
+          "praesentation": "Intraoperative Anastomose geplant.",
+          "befunde": [
+            "Gute Durchblutung der Darmenden"
+          ],
+          "diagnose": "Ileotransversostomie",
+          "therapie": [
+            "Seit-zu-Seit Anastomose via GIA-Stapler"
+          ],
+          "lernpunkte": [
+            "Stapler-Anastomosen sind zeitsparend und standardisiert"
+          ]
+        },
+        {
+          "id": "SUR_G007",
+          "titel": "Blutstillung (Elektrokoagulation)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Routine-OP",
+          "praesentation": "Diffuse kapilläre Sickerblutung im OP-Feld.",
+          "befunde": [
+            "Keine Gefäßverletzung erkennbar"
+          ],
+          "diagnose": "Oberflächliche Sickerblutung",
+          "therapie": [
+            "Monopolare Koagulation"
+          ],
+          "lernpunkte": [
+            "Verbrennungsgefahr bei falscher Neutralelektroden-Lage"
+          ]
+        },
+        {
+          "id": "SUR_G008",
+          "titel": "Drainagen-Management (Jackson-Pratt)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Pat. nach Leberresektion",
+          "praesentation": "Postoperative Kontrolle auf Station.",
+          "befunde": [
+            "Galle-Austritt in der Drainage"
+          ],
+          "diagnose": "Gallefistel postoperativ",
+          "therapie": [
+            "Drainage belassen",
+            "Labor (Bilirubin in Drainageflüssigkeit)"
+          ],
+          "lernpunkte": [
+            "Differenzierung Sero-Sanguinös vs. Galle"
+          ]
+        },
+        {
+          "id": "SUR_G009",
+          "titel": "Thromboseprophylaxe (Perioperativ)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "40-j. Pat. nach laparoskopischer OP",
+          "praesentation": "Postoperative Mobilisation.",
+          "befunde": [
+            "Mäßiges Thromboserisiko"
+          ],
+          "diagnose": "Status nach Chirurgie",
+          "therapie": [
+            "Niedermolekulares Heparin (NMH) s.c.",
+            "Frühmobilisation"
+          ],
+          "lernpunkte": [
+            "Standard nach Caprini-Score oder S3-Leitlinie"
+          ]
+        },
+        {
+          "id": "SUR_G010",
+          "titel": "Postoperativer Ileus (Paralytisch)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "65-j. nach großer Laparotomie",
+          "praesentation": "Tag 3 postop: Erbrechen, kein Stuhl/Windabgang.",
+          "befunde": [
+            "Abdomen gebläht, keine Darmgeräusche"
+          ],
+          "diagnose": "Paralytischer Ileus",
+          "therapie": [
+            "Magensonde",
+            "Prokinetika",
+            "Parenterale Ernährung"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum mechanischen Ileus (Rö-Abdomen)"
+          ]
+        }
+      ]
+    },
+    "trauma_notfall": {
+      "label": "Traumatologie & Notfallchirurgie",
+      "emoji": "🚑",
+      "faelle": [
+        {
+          "id": "SUR_T011",
+          "titel": "Stumpfes Abdominaltrauma (Milzruptur)",
+          "tags": [
+            "Trauma",
+            "Notfall"
+          ],
+          "patient": "22-jähriger nach Fahrradsturz auf den Lenker",
+          "praesentation": "Schmerzen im linken Oberbauch, Kehr-Zeichen positiv, RR 90/60 mmHg.",
+          "befunde": [
+            "FAST-Sono: Freie Flüssigkeit im Morrison/Koller-Pouch",
+            "Hb-Abfall"
+          ],
+          "diagnose": "Milzruptur (Grad III-IV)",
+          "therapie": [
+            "Notfall-Laparotomie",
+            "Splenektomie (vs. Milzerhalt bei Stabilität)"
+          ],
+          "lernpunkte": [
+            "FAST-Sonographie als Standard im Schockraum",
+            "Zweizeitige Milzruptur beachten"
+          ]
+        },
+        {
+          "id": "SUR_T012",
+          "titel": "Thorax-Trauma (Spannungspneumothorax)",
+          "tags": [
+            "Trauma",
+            "Notfall"
+          ],
+          "patient": "35-j. nach PKW-Unfall",
+          "praesentation": "Akute Atemnot, gestaute Halsvenen, hypersonorer Klopfschall re.",
+          "befunde": [
+            "Hautemphysem",
+            "Trachealverlagerung"
+          ],
+          "diagnose": "Spannungspneumothorax rechts",
+          "therapie": [
+            "Nadeldekompression (Monaldi)",
+            "Bülau-Drainage"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose vor Röntgen! Lebensgefahr"
+          ]
+        },
+        {
+          "id": "SUR_T013",
+          "titel": "Peritonitis (Hohlorganperforation)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. mit bekanntem Ulcus ventriculi",
+          "praesentation": "Plötzlicher 'Vernichtungsschmerz', bretthartes Abdomen.",
+          "befunde": [
+            "Rö-Thorax stehend: Freie Luft unter dem Zwerchfell"
+          ],
+          "diagnose": "Perforiertes Magenulkus",
+          "therapie": [
+            "Notfall-Laparotomie",
+            "Übernähung",
+            "Peritoneallavage"
+          ],
+          "lernpunkte": [
+            "Freie Luft ist beweisend für Hohlorganperforation"
+          ]
+        },
+        {
+          "id": "SUR_T014",
+          "titel": "Mesenterialinfarkt (Akut)",
+          "tags": [
+            "Notfall",
+            "Vaskulär"
+          ],
+          "patient": "75-j. Pat. mit Vorhofflimmern",
+          "praesentation": "Stärkster Bauchschmerz, 'schmerzfreies Intervall', dann Schock.",
+          "befunde": [
+            "Darmgeräusche fehlen",
+            "Laktat stark erhöht",
+            "CTA: Verschluss AMS"
+          ],
+          "diagnose": "Akute Mesenterialischämie",
+          "therapie": [
+            "Embolektomie / Bypass",
+            "Darmresektion bei Nekrose"
+          ],
+          "lernpunkte": [
+            "Frühdiagnose schwierig, Zeit entscheidet über Darmverlust"
+          ]
+        },
+        {
+          "id": "SUR_T015",
+          "titel": "Eingeklemmte Leistenhernie",
+          "tags": [
+            "Notfall",
+            "Hernie"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Schmerzhafte Schwellung Leiste, nicht repetibel, Erbrechen.",
+          "befunde": [
+            "Lokale Rötung/Druckschmerz"
+          ],
+          "diagnose": "Inkarzerierte Inguinalhernie",
+          "therapie": [
+            "Notfall-OP",
+            "Bruchsack-Eröffnung",
+            "Darm-Check"
+          ],
+          "lernpunkte": [
+            "Keine Taxisversuche bei Verdacht auf Darmgangrän!"
+          ]
+        },
+        {
+          "id": "SUR_T016",
+          "titel": "Leberlazeration (Trauma)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. nach Sturz aus großer Höhe",
+          "praesentation": "Schmerzen rechter Oberbauch, Kreislauf instabil.",
+          "befunde": [
+            "CT: Lazeration Segmente VII/VIII"
+          ],
+          "diagnose": "Lebertrauma (Grad IV)",
+          "therapie": [
+            "Packing (Damage Control Surgery)",
+            "Laparotomie"
+          ],
+          "lernpunkte": [
+            "Primärziel: Blutstillung (Packing) vor definitiver Versorgung"
+          ]
+        },
+        {
+          "id": "SUR_T017",
+          "titel": "Mechanischer Dünndarmileus (Briden)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "60-j. nach Appendektomie in Jugend",
+          "praesentation": "Schwallartiges Erbrechen, kolikartige Schmerzen.",
+          "befunde": [
+            "Rö-Abdomen: Spiegelbildung, Strickleiterphänomen"
+          ],
+          "diagnose": "Bridenileus",
+          "therapie": [
+            "Konservativ (Magen-Ablauf-Sonde) vs. Adhäsiolyse"
+          ],
+          "lernpunkte": [
+            "Briden sind häufigste Ursache nach Voroperationen"
+          ]
+        },
+        {
+          "id": "SUR_T018",
+          "titel": "Akute Sigmadivertikulitis (Perforiert)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Schmerz linker Unterbauch, Fieber, Abwehrspannung.",
+          "befunde": [
+            "CT: Freie Luft, Abszess parakolisch"
+          ],
+          "diagnose": "Divertikelperforation (Hinchey III)",
+          "therapie": [
+            "Hartmann-Operation (Resektion + Stoma)"
+          ],
+          "lernpunkte": [
+            "Hartmann-Situation bei eitriger/sterkoraler Peritonitis"
+          ]
+        },
+        {
+          "id": "SUR_T019",
+          "titel": "Akute Appendizitis (Phlegmonös)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "18-j. Patient",
+          "praesentation": "Schmerzwanderung vom Nabel zum re. Unterbauch.",
+          "befunde": [
+            "Lanz-Punkt schmerzhaft",
+            "Sono: Target-Phänomen Appendix"
+          ],
+          "diagnose": "Akute Appendizitis",
+          "therapie": [
+            "Laparoskopische Appendektomie"
+          ],
+          "lernpunkte": [
+            "Frühzeitige OP zur Vermeidung der Perforation"
+          ]
+        },
+        {
+          "id": "SUR_T020",
+          "titel": "Zwerchfellruptur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "55-j. nach Quetschtrauma",
+          "praesentation": "Dyspnoe, Bauchschmerzen.",
+          "befunde": [
+            "Rö: Magenblase im Thorax re."
+          ],
+          "diagnose": "Traumatische Zwerchfellruptur links",
+          "therapie": [
+            "Zwerchfellnaht (Laparotomie)"
+          ],
+          "lernpunkte": [
+            "Oft Fehldiagnose als Pneumothorax"
+          ]
+        },
+        {
+          "id": "SUR_T021",
+          "titel": "Pankreasruptur (Trauma)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "15-j. nach Sturz vom Skateboard",
+          "praesentation": "Schmerzen Epigastrium.",
+          "befunde": [
+            "Lipase↑",
+            "CT: Durchtrennung Pankreaskorpus"
+          ],
+          "diagnose": "Pankreas-Trauma (Grad III)",
+          "therapie": [
+            "Linksresektion Pankreas"
+          ],
+          "lernpunkte": [
+            "Gefahr der Pseudozystenbildung bei Verpassen"
+          ]
+        },
+        {
+          "id": "SUR_T022",
+          "titel": "Incarcerierte Nabelhernie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. adipöse Patientin",
+          "praesentation": "Schwellung Nabel, livide Verfärbung.",
+          "befunde": [
+            "Darmgeräusche hochgestellt"
+          ],
+          "diagnose": "Eingeklemmte Hernie",
+          "therapie": [
+            "Herniotomie",
+            "Bruchpfortenverschluss"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko bei Adipositas/Alter"
+          ]
+        },
+        {
+          "id": "SUR_T023",
+          "titel": "Fournier-Gangrän",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Rötung und Schmerzen Skrotum/Perineum, rasche Ausbreitung.",
+          "befunde": [
+            "Knistern der Haut (Hautemphysem)"
+          ],
+          "diagnose": "Nekrotisierende Fasziitis (Fournier)",
+          "therapie": [
+            "Radikales Debridement",
+            "Breitbandantibiose"
+          ],
+          "lernpunkte": [
+            "Letalität bis 50%, Zeitfaktor entscheidend!"
+          ]
+        },
+        {
+          "id": "SUR_T024",
+          "titel": "Ösophagusperforation (Boerhaave)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "45-j. nach massivem Erbrechen",
+          "praesentation": "Akuter retrosternaler Schmerz, Hautemphysem am Hals.",
+          "befunde": [
+            "Rö: Mediastinalemphysem"
+          ],
+          "diagnose": "Boerhaave-Syndrom",
+          "therapie": [
+            "Thorakotomie/Laparotomie",
+            "Ösophagusübernähung"
+          ],
+          "lernpunkte": [
+            "Mackler-Trias: Erbrechen, Thoraxschmerz, Hautemphysem"
+          ]
+        },
+        {
+          "id": "SUR_T025",
+          "titel": "Hämorrhoidalkrise (Prokto-Notfall)",
+          "tags": [
+            "Notfall",
+            "Proktologie"
+          ],
+          "patient": "38-j. nach schwerem Heben",
+          "praesentation": "Massive Schmerzen, blauschwarze Knoten anal.",
+          "befunde": [
+            "Fixierte, thrombosierte Prolaps-Hämorrhoiden"
+          ],
+          "diagnose": "Inkarzerierte Hämorrhoiden",
+          "therapie": [
+            "Kühlung",
+            "Heparin-Salbe",
+            "ggf. notfallmäßig Milligan-Morgan"
+          ],
+          "lernpunkte": [
+            "Extremer Schmerz durch Ödem und Ischämie"
+          ]
+        }
+      ]
+    },
+    "oberer_gi_trakt": {
+      "label": "Ösophagus, Magen & Dünndarm",
+      "emoji": "🥣",
+      "faelle": [
+        {
+          "id": "SUR_OGI026",
+          "titel": "Refluxkrankheit (Fundoplicatio)",
+          "tags": [
+            "Ösophagus",
+            "Reflux"
+          ],
+          "patient": "45-jährige Frau",
+          "praesentation": "Sodbrennen, Regurgitationen seit Jahren, PPI-Resistenz.",
+          "befunde": [
+            "Gastroskopie: Refluxösophagitis Grad III",
+            "24h-pH-Metrie positiv"
+          ],
+          "diagnose": "GERD bei axialer Hiatushernie",
+          "therapie": [
+            "Laparoskopische Fundoplicatio nach Nissen"
+          ],
+          "lernpunkte": [
+            "360° Manschette (Nissen) vs. 270° (Toupet)"
+          ]
+        },
+        {
+          "id": "SUR_OGI027",
+          "titel": "Achalasie (Heller-Myotomie)",
+          "tags": [
+            "Ösophagus"
+          ],
+          "patient": "30-j. Patient",
+          "praesentation": "Dysphagie für Feste und Flüssigkeiten, Gewichtsverlust.",
+          "befunde": [
+            "Manometrie: Fehlende Relaxation UÖS",
+            "Rö: Sektglasform"
+          ],
+          "diagnose": "Achalasie",
+          "therapie": [
+            "Laparoskopische Myotomie nach Heller + Toupet"
+          ],
+          "lernpunkte": [
+            "Myotomie der Ösophaguslängsmuskulatur"
+          ]
+        },
+        {
+          "id": "SUR_OGI028",
+          "titel": "Ösophaguskarzinom (Mitteldrittel)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Raucher/Trinker",
+          "praesentation": "Progrediente Dysphagie.",
+          "befunde": [
+            "Histologie: Plattenepithelkarzinom",
+            "CT: cT3 cN1 M0"
+          ],
+          "diagnose": "Ösophagus-CA",
+          "therapie": [
+            "Neoadjuvante Radiochemotherapie",
+            "Ösophagusresektion"
+          ],
+          "lernpunkte": [
+            "Ivor-Lewis-Ösophagektomie (abdominothorakal)"
+          ]
+        },
+        {
+          "id": "SUR_OGI029",
+          "titel": "Magenkarzinom (Antrum)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Völlegefühl, Anämie, Gewichtsverlust.",
+          "befunde": [
+            "Histologie: Adenokarzinom",
+            "Endosono: uT2 N+"
+          ],
+          "diagnose": "Magenkarzinom",
+          "therapie": [
+            "Totale Gastrektomie mit D2-Lymphadenektomie"
+          ],
+          "lernpunkte": [
+            "Rekonstruktion nach Roux-en-Y oder Hunt-Lawrence-Pouch"
+          ]
+        },
+        {
+          "id": "SUR_OGI030",
+          "titel": "GIST (Magen)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Oberbauchbeschwerden, Teerstuhl.",
+          "befunde": [
+            "Endo: Submuköser Tumor Hinterwand",
+            "CD117 positiv"
+          ],
+          "diagnose": "Gastrointestinaler Stromatumor (GIST)",
+          "therapie": [
+            "Keilresektion des Magens"
+          ],
+          "lernpunkte": [
+            "Keine weite Lymphadenektomie nötig"
+          ]
+        },
+        {
+          "id": "SUR_OGI031",
+          "titel": "Dumping-Syndrom (Postgastrektomie)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "60-j. nach Gastrektomie",
+          "praesentation": "Zittern, Kaltschweißigkeit 2h nach Mahlzeit.",
+          "befunde": [
+            "BZ 40 mg/dl (Spätdumping)"
+          ],
+          "diagnose": "Spätdumping-Syndrom",
+          "therapie": [
+            "Ernährungsumstellung (kleine Portionen, wenig Kohlenhydrate)"
+          ],
+          "lernpunkte": [
+            "Frühdumping (Hypovolämie) vs. Spätdumping (Hyperinsulinismus)"
+          ]
+        },
+        {
+          "id": "SUR_OGI032",
+          "titel": "Morbus Crohn (Dünndarmstenose)",
+          "tags": [
+            "Dünndarm"
+          ],
+          "patient": "35-j. mit bekanntem M. Crohn",
+          "praesentation": "Subileus-Symptomatik.",
+          "befunde": [
+            "MRT-Sellink: 5cm Stenose terminales Ileum"
+          ],
+          "diagnose": "Vernarbte Stenose bei M. Crohn",
+          "therapie": [
+            "Ileozökalresektion (oder Strikturoplastik)"
+          ],
+          "lernpunkte": [
+            "Chirurgie bei Crohn so sparsam wie möglich"
+          ]
+        },
+        {
+          "id": "SUR_OGI033",
+          "titel": "Zenker-Divertikel",
+          "tags": [
+            "Ösophagus"
+          ],
+          "patient": "78-j. Mann",
+          "praesentation": "Regurgitation unverdauter Speisen, Foetor ex ore.",
+          "befunde": [
+            "Rö-Schluck: Divertikel im Killian-Dreieck"
+          ],
+          "diagnose": "Zenker-Divertikel (Pulsionsdivertikel)",
+          "therapie": [
+            "Divertikel-Abtragung und Myotomie"
+          ],
+          "lernpunkte": [
+            "Killian-Dreieck zwischen Pars thyropharyngea und cricopharyngea"
+          ]
+        },
+        {
+          "id": "SUR_OGI034",
+          "titel": "Meckel-Divertikel (Entzündet)",
+          "tags": [
+            "Dünndarm"
+          ],
+          "patient": "20-j. Mann",
+          "praesentation": "V.a. Appendizitis, intraoperativ Appendix jedoch blank.",
+          "befunde": [
+            "Dünndarm-Läsion ca. 60 cm präzökal"
+          ],
+          "diagnose": "Meckel-Divertikulitis",
+          "therapie": [
+            "Divertikelektomie"
+          ],
+          "lernpunkte": [
+            "2er-Regel: 2% Inzidenz, 2 Fuß präzökal, 2 Gewebearten"
+          ]
+        },
+        {
+          "id": "SUR_OGI035",
+          "titel": "Adipositaschirurgie (Magenbypass)",
+          "tags": [
+            "Adipositas"
+          ],
+          "patient": "40-j. Frau, BMI 45",
+          "praesentation": "Metabolisches Syndrom, Versagen konservativer Therapie.",
+          "befunde": [
+            "Begleiterkrankungen vorhanden"
+          ],
+          "diagnose": "Morbide Adipositas",
+          "therapie": [
+            "Laparoskopischer Magenbypass (Roux-en-Y)"
+          ],
+          "lernpunkte": [
+            "Restriktion + Malabsorption"
+          ]
+        },
+        {
+          "id": "SUR_OGI036",
+          "titel": "Schlauchmagen (Sleeve-Gastrektomie)",
+          "tags": [
+            "Adipositas"
+          ],
+          "patient": "35-j. Mann, BMI 52",
+          "praesentation": "Extremes Übergewicht.",
+          "befunde": [
+            "Geringer Reflux"
+          ],
+          "diagnose": "Morbide Adipositas",
+          "therapie": [
+            "Laparoskopische Sleeve-Gastrektomie"
+          ],
+          "lernpunkte": [
+            "Rein restriktives Verfahren"
+          ]
+        },
+        {
+          "id": "SUR_OGI037",
+          "titel": "Malt-Lymphom (Chirurgische Rolle)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Oberbauchschmerzen, Gastroskopie zeigt Infiltrat.",
+          "befunde": [
+            "H.p. Nachweis",
+            "Lymphom-Diagnostik"
+          ],
+          "diagnose": "Malt-Lymphom des Magens",
+          "therapie": [
+            "Primär H.p. Eradikation (Chirurgie nur bei Blutung/Perforation)"
+          ],
+          "lernpunkte": [
+            "Paradigmenwechsel zur konservativen Therapie"
+          ]
+        },
+        {
+          "id": "SUR_OGI038",
+          "titel": "Gastroparese (Nach Vagotomie)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "70-j. nach alter Ulkuschirurgie",
+          "praesentation": "Völlegefühl, Erbrechen nach Stunden.",
+          "befunde": [
+            "Szintigraphie: Entleerungsverzögerung"
+          ],
+          "diagnose": "Chronische Gastroparese",
+          "therapie": [
+            "Prokinetika",
+            "ggf. Gastroenterostomie"
+          ],
+          "lernpunkte": [
+            "Verschwindendes Krankheitsbild durch PPI"
+          ]
+        },
+        {
+          "id": "SUR_OGI039",
+          "titel": "Kurzdarmsyndrom",
+          "tags": [
+            "Dünndarm"
+          ],
+          "patient": "45-j. nach massiver Resektion (Ischämie)",
+          "praesentation": "Malabsorption, Diarrhö.",
+          "befunde": [
+            "Restdarm < 100 cm"
+          ],
+          "diagnose": "Kurzdarmsyndrom",
+          "therapie": [
+            "Parenterale Ernährung",
+            "GLP-2-Analoga"
+          ],
+          "lernpunkte": [
+            "Ileum-Erhalt ist entscheidend für Vitamin B12/Gallensäuren"
+          ]
+        },
+        {
+          "id": "SUR_OGI040",
+          "titel": "Barrett-Ösophagus (Disziplin)",
+          "tags": [
+            "Ösophagus"
+          ],
+          "patient": "58-j. Mann",
+          "praesentation": "Chronischer Reflux.",
+          "befunde": [
+            "Zylinderepithel-Metaplasie > 1cm (C1M3)"
+          ],
+          "diagnose": "Barrett-Ösophagus",
+          "therapie": [
+            "Überwachung",
+            "PPI",
+            "ggf. Radiofrequenzablation"
+          ],
+          "lernpunkte": [
+            "Präkanzerose für Adenokarzinom"
+          ]
+        }
+      ]
+    },
+    "unterer_gi_trakt": {
+      "label": "Kolon, Rektum & Proktologie",
+      "emoji": "🍑",
+      "faelle": [
+        {
+          "id": "SUR_UGI041",
+          "titel": "Kolonkarzinom (Zökum)",
+          "tags": [
+            "Kolon",
+            "Onkologie"
+          ],
+          "patient": "65-jährige Patientin",
+          "praesentation": "Anämie (Hb 9,0), keine Stuhlgangsänderung.",
+          "befunde": [
+            "Koloskopie: Exophytischer Tumor re.",
+            "Histologie: Adenokarzinom"
+          ],
+          "diagnose": "Rechtsseitiges Kolonkarzinom",
+          "therapie": [
+            "Onkologische Hemikolektomie rechts",
+            "D3-Lymphadenektomie"
+          ],
+          "lernpunkte": [
+            "Zentraladligatur (A. ileocolica) obligat"
+          ]
+        },
+        {
+          "id": "SUR_UGI042",
+          "titel": "Rektumkarzinom (TME)",
+          "tags": [
+            "Rektum",
+            "Onkologie"
+          ],
+          "patient": "62-j. Mann",
+          "praesentation": "Blutbeimengung, Stuhlunregelmäßigkeit.",
+          "befunde": [
+            "Rektoskopie: Tumor 8 cm ab Analkante",
+            "MRT: cT3 cN0 M0"
+          ],
+          "diagnose": "Rektumkarzinom (Mittleres Drittel)",
+          "therapie": [
+            "Neoadjuvante Radiochemotherapie",
+            "TME-Resektion"
+          ],
+          "lernpunkte": [
+            "Totale Mesorektale Exzision (TME) ist Standard"
+          ]
+        },
+        {
+          "id": "SUR_UGI043",
+          "titel": "Sigmadivertikulitis (Elektiv)",
+          "tags": [
+            "Darm",
+            "Entzündung"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Rezidivierende Episoden linker Unterbauchschmerz.",
+          "befunde": [
+            "CT: Wandverdickung, Narben nach Entzündung"
+          ],
+          "diagnose": "Chronisch-rezidivierende Divertikulitis",
+          "therapie": [
+            "Laparoskopische Sigmaresektion"
+          ],
+          "lernpunkte": [
+            "Indikation nach 2-3 Schüben oder Komplikation"
+          ]
+        },
+        {
+          "id": "SUR_UGI044",
+          "titel": "Colitis ulcerosa (Proktokolektomie)",
+          "tags": [
+            "Darm",
+            "Autoimmun"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Therapierefraktärer Verlauf, Dysplasien in Biopsie.",
+          "befunde": [
+            "Pancolitis"
+          ],
+          "diagnose": "Colitis ulcerosa",
+          "therapie": [
+            "Proktokolektomie mit ileoanalem Pouch (IPAA)"
+          ],
+          "lernpunkte": [
+            "Kurative chirurgische Therapie möglich"
+          ]
+        },
+        {
+          "id": "SUR_UGI045",
+          "titel": "Analfistel (Transsphinktär)",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "42-j. Mann",
+          "praesentation": "Nässende Öffnung perianal nach Abszess-OP.",
+          "befunde": [
+            "Sondierbarer Gang durch Schließmuskel"
+          ],
+          "diagnose": "Transsphinktäre Analfistel",
+          "therapie": [
+            "Fistulotomie (wenn <1/3 Muskel) vs. Fadendrainage"
+          ],
+          "lernpunkte": [
+            "Klassifikation nach Parks"
+          ]
+        },
+        {
+          "id": "SUR_UGI046",
+          "titel": "Hämorrhoiden Grad III",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Prolaps beim Stuhlgang, muss manuell reponiert werden.",
+          "befunde": [
+            "Gestaute Gefäßpolster"
+          ],
+          "diagnose": "Hämorrhoidalleiden Stadium III",
+          "therapie": [
+            "OP nach Longo (Stapler) vs. Parks"
+          ],
+          "lernpunkte": [
+            "Longo: Mukosaprolaps-Ausräumung"
+          ]
+        },
+        {
+          "id": "SUR_UGI047",
+          "titel": "Analprolaps (Full thickness)",
+          "tags": [
+            "Rektum"
+          ],
+          "patient": "75-j. Frau",
+          "praesentation": "Darm tritt aus, Inkontinenz.",
+          "befunde": [
+            "Zirkuläre Falten im Prolaps"
+          ],
+          "diagnose": "Rektumprolaps",
+          "therapie": [
+            "Laparoskopische Rektopexie"
+          ],
+          "lernpunkte": [
+            "Differenzierung zum Analprolaps (radiale Falten)"
+          ]
+        },
+        {
+          "id": "SUR_UGI048",
+          "titel": "Fissura ani (Chronisch)",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "35-j. Patient",
+          "praesentation": "Stechender Schmerz beim Stuhlgang, helles Blut.",
+          "befunde": [
+            "6-Uhr-Lage: Tiefer Einriss, Vorpostenfalte"
+          ],
+          "diagnose": "Chronische Analfissur",
+          "therapie": [
+            "Nitroglyzerin-Salbe vs. Fissurektomie"
+          ],
+          "lernpunkte": [
+            "Hoher Sphinktertonus als Ursache"
+          ]
+        },
+        {
+          "id": "SUR_UGI049",
+          "titel": "Sinus pilonidalis (Abszedierend)",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "22-j. behaarter Mann",
+          "praesentation": "Schmerzhafte Rötung über dem Steißbein.",
+          "befunde": [
+            "Fluktuation, Pits in der Mitte"
+          ],
+          "diagnose": "Pilonidalsinus-Abszess",
+          "therapie": [
+            "Entlastung (Inzision) + Später radikale Exzision (Pit picking)"
+          ],
+          "lernpunkte": [
+            "Hohe Rezidivrate bei Primärnaht"
+          ]
+        },
+        {
+          "id": "SUR_UGI050",
+          "titel": "Analkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. Frau (HPV+)",
+          "praesentation": "Derber Knoten am Analrand, Schmerzen.",
+          "befunde": [
+            "Histologie: Plattenepithelkarzinom"
+          ],
+          "diagnose": "Analkarzinom",
+          "therapie": [
+            "Primär Radiochemotherapie (Nigro-Schema)"
+          ],
+          "lernpunkte": [
+            "Chirurgie nur bei Residualtumor (APR)"
+          ]
+        },
+        {
+          "id": "SUR_UGI051",
+          "titel": "Ileostoma-Prolaps",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "65-j. nach Kolektomie",
+          "praesentation": "Stoma ragt 10 cm aus dem Hautniveau.",
+          "befunde": [
+            "Schwellung, Funktion erhalten"
+          ],
+          "diagnose": "Stomaprolaps",
+          "therapie": [
+            "Konservativ (Reposition) vs. Operative Korrektur"
+          ],
+          "lernpunkte": [
+            "Oft Folge von zu großer Faszieneröffnung"
+          ]
+        },
+        {
+          "id": "SUR_UGI052",
+          "titel": "Polyp (Endoskopische Resektion)",
+          "tags": [
+            "Vorsorge"
+          ],
+          "patient": "50-j. bei Vorsorge-Kolo",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "2 cm breitbasiger Polyp im Colon ascendens"
+          ],
+          "diagnose": "Tubulovillöses Adenom",
+          "therapie": [
+            "Endoskopische Mukosaresektion (EMR)"
+          ],
+          "lernpunkte": [
+            "Adenom-Karzinom-Sequenz"
+          ]
+        },
+        {
+          "id": "SUR_UGI053",
+          "titel": "Volvulus (Sigmoid)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "85-j. bettlägeriger Pat.",
+          "praesentation": "Massive Blähungen, kein Stuhl.",
+          "befunde": [
+            "Rö: Coffee Bean Sign"
+          ],
+          "diagnose": "Sigmoidealer Volvulus",
+          "therapie": [
+            "Endoskopische Detorsion vs. Resektion"
+          ],
+          "lernpunkte": [
+            "Typisch für ältere Menschen mit Megacolon"
+          ]
+        },
+        {
+          "id": "SUR_UGI054",
+          "titel": "Kolon-Pseudoobstruktion (Ogilvie)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "70-j. nach Hüft-OP",
+          "praesentation": "Geblähtes Abdomen, kaum Schmerzen.",
+          "befunde": [
+            "Rö: Massiv dilatierter Rahmen, kein mechanisches Hindernis"
+          ],
+          "diagnose": "Ogilvie-Syndrom",
+          "therapie": [
+            "Neostigmin i.v.",
+            "Entlastungskoloskopie"
+          ],
+          "lernpunkte": [
+            "Gefahr der Zökumperforation bei Dilatation > 12cm"
+          ]
+        },
+        {
+          "id": "SUR_UGI055",
+          "titel": "Hartmann-Wiederanschluss",
+          "tags": [
+            "Rekonstruktion"
+          ],
+          "patient": "66-j. Mann 6 Monate nach Notfall-Resektion",
+          "praesentation": "Wunsch nach Stomarückverlegung.",
+          "befunde": [
+            "Rektumstumpf ausreichend lang"
+          ],
+          "diagnose": "Zustand nach Hartmann-OP",
+          "therapie": [
+            "Descendorektostomie"
+          ],
+          "lernpunkte": [
+            "Technisch oft anspruchsvoll durch Verwachsungen"
+          ]
+        },
+        {
+          "id": "SUR_UGI056",
+          "titel": "Obstipation (Slow Transit)",
+          "tags": [
+            "Chirurgie?"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Stuhlgang alle 10-14 Tage.",
+          "befunde": [
+            "Hinton-Test: Retention im gesamten Rahmen"
+          ],
+          "diagnose": "Slow-transit-Constipation",
+          "therapie": [
+            "Ultima ratio: Subtotale Kolektomie"
+          ],
+          "lernpunkte": [
+            "Extrem strenge Indikationsstellung zur OP"
+          ]
+        },
+        {
+          "id": "SUR_UGI057",
+          "titel": "Rektovaginale Fistel",
+          "tags": [
+            "Gyn/Sur"
+          ],
+          "patient": "40-j. nach Geburtstrauma",
+          "praesentation": "Stuhl/Wind-Abgang aus der Vagina.",
+          "befunde": [
+            "Sichtbarer Fistelgang"
+          ],
+          "diagnose": "Rektovaginale Fistel",
+          "therapie": [
+            "Transanaler Verschiebelappen"
+          ],
+          "lernpunkte": [
+            "Häufige Ursachen: Geburtsverletzung, Crohn, Radiatio"
+          ]
+        },
+        {
+          "id": "SUR_UGI058",
+          "titel": "Familiäre Adenomatöse Polyposis (FAP)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "18-j. Patient",
+          "praesentation": "Screening wegen Familienanamnese.",
+          "befunde": [
+            "Kolo: > 1000 Polypen im Dickdarm"
+          ],
+          "diagnose": "FAP (APC-Gen Mutation)",
+          "therapie": [
+            "Prophylaktische Proktokolektomie"
+          ],
+          "lernpunkte": [
+            "Nahezu 100% Karzinomrisiko bis zum 40. Lebensjahr"
+          ]
+        },
+        {
+          "id": "SUR_UGI059",
+          "titel": "Perianale Thrombose",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Plötzlicher, schmerzhafter blauer Knoten am Afterrand.",
+          "befunde": [
+            "Kein Prolaps, subkutanes Hämatom"
+          ],
+          "diagnose": "Analthrombose",
+          "therapie": [
+            "Inzision/Exzision in Lokalanästhesie"
+          ],
+          "lernpunkte": [
+            "Schmerzmaximum in den ersten 48h"
+          ]
+        },
+        {
+          "id": "SUR_UGI060",
+          "titel": "Stomaparastomalhernie",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "70-j. mit Kolostoma",
+          "praesentation": "Vorwölbung neben dem Stoma.",
+          "befunde": [
+            "Herniensack tastbar"
+          ],
+          "diagnose": "Parastomale Hernie",
+          "therapie": [
+            "Konservativ (Bandage) vs. Netz-Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Zunehmende Verwendung von Prophylaxenetzen"
+          ]
+        }
+      ]
+    },
+    "hpb_chirurgie": {
+      "label": "Leber, Galle & Pankreas",
+      "emoji": "🧪",
+      "faelle": [
+        {
+          "id": "SUR_HPB061",
+          "titel": "Cholezystolithiasis (Symptomatisch)",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "48-jährige Patientin, 5-F-Regel",
+          "praesentation": "Postprandiale Koliken rechter Oberbauch.",
+          "befunde": [
+            "Sono: Konkremente mit Schallschatten, keine Wandverdickung"
+          ],
+          "diagnose": "Symptomatische Cholezystolithiasis",
+          "therapie": [
+            "Laparoskopische Cholezystektomie (LCHE)"
+          ],
+          "lernpunkte": [
+            "Goldstandard LCHE, Indikation bei Beschwerden"
+          ]
+        },
+        {
+          "id": "SUR_HPB062",
+          "titel": "Akute Cholezystitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Dauerschmerz re. Oberbauch, Fieber, Murphy-Zeichen+.",
+          "befunde": [
+            "Sono: Wandverdickung >4mm, Dreischichtung"
+          ],
+          "diagnose": "Akute Cholezystitis",
+          "therapie": [
+            "Früh-LCHE innerhalb von 24h"
+          ],
+          "lernpunkte": [
+            "Früh-OP senkt Gesamtkomplikationsrate"
+          ]
+        },
+        {
+          "id": "SUR_HPB063",
+          "titel": "Choledocholithiasis (Verschlussikterus)",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Ikterus, dunkler Urin, kolikartige Schmerzen.",
+          "befunde": [
+            "Labor: Bili direkt↑, AP/gamma-GT↑",
+            "Sono: Dilatierte Gallenwege"
+          ],
+          "diagnose": "Choledocholithiasis",
+          "therapie": [
+            "ERCP (Steinextraktion) gefolgt von LCHE"
+          ],
+          "lernpunkte": [
+            "Zweistufiges Vorgehen (ERCP + LCHE)"
+          ]
+        },
+        {
+          "id": "SUR_HPB064",
+          "titel": "Pankreaskopfkarzinom (Whipple)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "68-j. Patient",
+          "praesentation": "Schmerzloser Ikterus (Courvoisier-Zeichen), Gewichtsverlust.",
+          "befunde": [
+            "CT: Raumforderung Pankreaskopf 3cm"
+          ],
+          "diagnose": "Pankreaskopfkarzinom",
+          "therapie": [
+            "Kausch-Whipple Operation (Partielle Pankreatoduodenektomie)"
+          ],
+          "lernpunkte": [
+            "Entfernung Kopf, Duodenum, dist. Choledochus, Gallenblase"
+          ]
+        },
+        {
+          "id": "SUR_HPB065",
+          "titel": "Lebermetastase (Kolorektal)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "62-j. nach Colon-CA OP vor 2 Jahren",
+          "praesentation": "Routine-Nachsorge, CEA-Anstieg.",
+          "befunde": [
+            "CT: Solitäre Metastase Segment V/VI"
+          ],
+          "diagnose": "Metastatische Erkrankung",
+          "therapie": [
+            "Leberteilresektion (anatomisch vs. atypisch)"
+          ],
+          "lernpunkte": [
+            "Multimodaler Ansatz bei kolorektalen Metastasen oft kurativ"
+          ]
+        },
+        {
+          "id": "SUR_HPB066",
+          "titel": "HPT (Hepatocelluläres Karzinom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. mit Leberzirrhose (HBV)",
+          "praesentation": "Verschlechterung Child-Pugh Score.",
+          "befunde": [
+            "AFP massiv↑",
+            "CT: Arterielle Hypervaskularisation"
+          ],
+          "diagnose": "HCC",
+          "therapie": [
+            "Resektion vs. TACE vs. Lebertransplantation"
+          ],
+          "lernpunkte": [
+            "Milan-Kriterien für Transplantation"
+          ]
+        },
+        {
+          "id": "SUR_HPB067",
+          "titel": "Akute Pankreatitis (Biliär)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Gürtelförmiger Oberbauchschmerz, Lipase 1500 U/l.",
+          "befunde": [
+            "Sono: Gallensteine, Pankreasödem"
+          ],
+          "diagnose": "Akute biliäre Pankreatitis",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "ERCP bei Cholestase",
+            "Intervall-LCHE"
+          ],
+          "lernpunkte": [
+            "Chirurgie primär nur bei infizierter Nekrose (Step-up)"
+          ]
+        },
+        {
+          "id": "SUR_HPB068",
+          "titel": "Gallenblasenkarzinom (Zufallsfund)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Frau",
+          "praesentation": "Post-LCHE wegen Cholezystitis.",
+          "befunde": [
+            "Histologie: Adenokarzinom pT2"
+          ],
+          "diagnose": "Gallenblasen-CA",
+          "therapie": [
+            "Nachexzision des Leberbettes und Lymphadenektomie"
+          ],
+          "lernpunkte": [
+            "pT1a benötigt meist keine Nach-OP"
+          ]
+        },
+        {
+          "id": "SUR_HPB069",
+          "titel": "Leberabszess (Pyogen)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Fieber, Schüttelfrost, Schmerz re. Oberbauch.",
+          "befunde": [
+            "Sono: Abszesshöhle 6 cm"
+          ],
+          "diagnose": "Pyogener Leberabszess",
+          "therapie": [
+            "CT-gesteuerte Drainage + Antibiose"
+          ],
+          "lernpunkte": [
+            "Eintrittspforten: Biliär, portal (Divertikulitis), arteriell"
+          ]
+        },
+        {
+          "id": "SUR_HPB070",
+          "titel": "Echinokokkuszyste (Leber)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "40-j. Patient aus Endemiegebiet",
+          "praesentation": "Zufallsbefund Sono.",
+          "befunde": [
+            "Sono: Zyste mit Tochterblasen",
+            "Serologie positiv"
+          ],
+          "diagnose": "Echinococcus granulosus (Hundebandwurm)",
+          "therapie": [
+            "Perizystektomie (nach PAIR-Methode oder chirurgisch)"
+          ],
+          "lernpunkte": [
+            "Vorsicht: Rupturgefahr (anaphylaktischer Schock)"
+          ]
+        },
+        {
+          "id": "SUR_HPB071",
+          "titel": "Gallengangskarzinom (Klatskin)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Patient",
+          "praesentation": "Ikterus.",
+          "befunde": [
+            "MRCP: Stenose an der Hepatikusgabel"
+          ],
+          "diagnose": "Klatskin-Tumor (Hilus-CA)",
+          "therapie": [
+            "Resektion Hilus + Lebersegmente + Hepatikojejunostomie"
+          ],
+          "lernpunkte": [
+            "Bismuth-Corlette Klassifikation"
+          ]
+        },
+        {
+          "id": "SUR_HPB072",
+          "titel": "Pankreaspseudozyste",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "45-j. Alkoholiker, 6 Wochen nach Pankreatitis",
+          "praesentation": "Völlegefühl, Erbrechen.",
+          "befunde": [
+            "CT: 10 cm Zyste mit Kapsel"
+          ],
+          "diagnose": "Pankreaspseudozyste",
+          "therapie": [
+            "Endoskopische Zystogastrostomie"
+          ],
+          "lernpunkte": [
+            "Reifung der Zystenwand (6 Wochen) abwarten"
+          ]
+        },
+        {
+          "id": "SUR_HPB073",
+          "titel": "Hämangiom (Leber)",
+          "tags": [
+            "Gutartig"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Zufallsbefund Sono.",
+          "befunde": [
+            "Sono: Echoreich, scharf begrenzt",
+            "CT: Irisblendenphänomen"
+          ],
+          "diagnose": "Leberhämangiom",
+          "therapie": [
+            "Keine nötig (Watch and Wait)"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner Lebertumor"
+          ]
+        },
+        {
+          "id": "SUR_HPB074",
+          "titel": "FNH (Fokale Noduläre Hyperplasie)",
+          "tags": [
+            "Gutartig"
+          ],
+          "patient": "30-j. Frau (Pilleneinnahme)",
+          "praesentation": "Oberbauchbeschwerden.",
+          "befunde": [
+            "MRT: Zentrale Narbe"
+          ],
+          "diagnose": "FNH",
+          "therapie": [
+            "Keine nötig (meist konservativ)"
+          ],
+          "lernpunkte": [
+            "Häufiger Befund bei jungen Frauen"
+          ]
+        },
+        {
+          "id": "SUR_HPB075",
+          "titel": "Leberadenom",
+          "tags": [
+            "Risiko"
+          ],
+          "patient": "28-j. Frau (Pille)",
+          "praesentation": "Akuter Schmerz re. Oberbauch.",
+          "befunde": [
+            "Zustand nach Einblutung in Adenom"
+          ],
+          "diagnose": "Hepatozelluläres Adenom",
+          "therapie": [
+            "Absetzen der Hormone, Resektion bei > 5cm"
+          ],
+          "lernpunkte": [
+            "Malignitäts- und Blutungsrisiko"
+          ]
+        },
+        {
+          "id": "SUR_HPB076",
+          "titel": "Splenomegalie (Splenektomie-Indikation)",
+          "tags": [
+            "Milz"
+          ],
+          "patient": "45-j. Patient mit ITP",
+          "praesentation": "Petechien, therapieresistente Thrombozytopenie.",
+          "befunde": [
+            "Milz 16 cm"
+          ],
+          "diagnose": "Immunthrombozytopenie (ITP)",
+          "therapie": [
+            "Splenektomie"
+          ],
+          "lernpunkte": [
+            "Präoperative Impfung (Pneumokokken, Meningo, Hib) obligat"
+          ]
+        },
+        {
+          "id": "SUR_HPB077",
+          "titel": "Karzinoid (Dünndarm)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Flush-Symptomatik, Diarrhö.",
+          "befunde": [
+            "Labor: 5-HIES im Sammelurin↑",
+            "CT: Mesenterial-Tumor"
+          ],
+          "diagnose": "Neuroendokriner Tumor (NET)",
+          "therapie": [
+            "Dünndarm-Resektion + Lymphadenektomie"
+          ],
+          "lernpunkte": [
+            "Karzinoid-Syndrom meist erst bei Lebermetastasen"
+          ]
+        },
+        {
+          "id": "SUR_HPB078",
+          "titel": "Insulinom (Pankreas)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Hypoglykämien bei Fasten (Zittern, Hunger).",
+          "befunde": [
+            "Whipple-Trias positiv"
+          ],
+          "diagnose": "Insulinom",
+          "therapie": [
+            "Enukleation des Tumors"
+          ],
+          "lernpunkte": [
+            "Häufigster endokriner Pankreastumor, meist benigne"
+          ]
+        },
+        {
+          "id": "SUR_HPB079",
+          "titel": "Biliäre Atresie (Pädiatrie)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Persistierender Ikterus, entfärbte Stühle.",
+          "befunde": [
+            "Bili direkt↑",
+            "Sono: Kein Gallenfluss"
+          ],
+          "diagnose": "Biliäre Atresie",
+          "therapie": [
+            "Kasai-Operation (Hepatoportojejunostomie)"
+          ],
+          "lernpunkte": [
+            "Timing entscheidend (< 60 Tage)"
+          ]
+        },
+        {
+          "id": "SUR_HPB080",
+          "titel": "Chronische Pankreatitis (Chirurgie)",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "50-j. Alkoholiker",
+          "praesentation": "Dauerschmerz, exokrine Insuffizienz.",
+          "befunde": [
+            "CT: Kalibersprung Wirsungianus, Verkalkungen"
+          ],
+          "diagnose": "Chronische Pankreatitis",
+          "therapie": [
+            "Drainage-OP (Partington-Rochelle) vs. Resektion"
+          ],
+          "lernpunkte": [
+            "Operationsziel: Schmerzreduktion und Organerhalt"
+          ]
+        }
+      ]
+    },
+    "hernien_weichteile": {
+      "label": "Hernien & Weichteilchirurgie",
+      "emoji": "🧶",
+      "faelle": [
+        {
+          "id": "SUR_H081",
+          "titel": "Inidirekte Leistenhernie (Lichtenstein)",
+          "tags": [
+            "Hernie"
+          ],
+          "patient": "45-jähriger Mann",
+          "praesentation": "Vorwölbung Leiste bei Belastung.",
+          "befunde": [
+            "Husten-Anprall positiv",
+            "repetibel"
+          ],
+          "diagnose": "Leistenhernie",
+          "therapie": [
+            "OP nach Lichtenstein (Offen mit Netz)"
+          ],
+          "lernpunkte": [
+            "Lichtenstein ist Goldstandard der offenen Chirurgie"
+          ]
+        },
+        {
+          "id": "SUR_H082",
+          "titel": "Minimal-invasive Hernien-OP (TAPP)",
+          "tags": [
+            "Hernie"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Beidseitige Leistenhernie.",
+          "befunde": [
+            "Mediale Hernie bds."
+          ],
+          "diagnose": "Bilateral Inguinalhernie",
+          "therapie": [
+            "Laparoskopische TAPP (Transabdominelle Präperitoneale Plastik)"
+          ],
+          "lernpunkte": [
+            "TAPP vs. TEP (Total Extraperitoneal)"
+          ]
+        },
+        {
+          "id": "SUR_H083",
+          "titel": "Schenkelhernie (Femoral)",
+          "tags": [
+            "Hernie"
+          ],
+          "patient": "70-j. zierliche Frau",
+          "praesentation": "Schwellung unterhalb des Leistenbandes.",
+          "befunde": [
+            "Schmerzhaft, kaum reponibel"
+          ],
+          "diagnose": "Schenkelhernie",
+          "therapie": [
+            "Rasche OP wegen Inkarzerationsgefahr"
+          ],
+          "lernpunkte": [
+            "Femoralhernien betreffen meist Frauen"
+          ]
+        },
+        {
+          "id": "SUR_H084",
+          "titel": "Narbenhernie (Sublay)",
+          "tags": [
+            "Hernie"
+          ],
+          "patient": "65-j. nach früherer Laparotomie",
+          "praesentation": "Großer Defekt an der Mittellinie.",
+          "befunde": [
+            "Pforten-Ø 8 cm"
+          ],
+          "diagnose": "Große Narbenhernie",
+          "therapie": [
+            "Netzplastik in Sublay-Technik"
+          ],
+          "lernpunkte": [
+            "Sublay (hinter Rektusmuskel) hat niedrigste Rezidivrate"
+          ]
+        },
+        {
+          "id": "SUR_H085",
+          "titel": "Epigastrische Hernie",
+          "tags": [
+            "Hernie"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Kleiner schmerzhafter Punkt im Epigastrium.",
+          "befunde": [
+            "Resistenz in der Linea alba"
+          ],
+          "diagnose": "Epigastrische Hernie",
+          "therapie": [
+            "Direktverschluss (Spitzy)"
+          ],
+          "lernpunkte": [
+            "Oft inkarzeriertes präperitoneales Fettgewebe"
+          ]
+        },
+        {
+          "id": "SUR_H086",
+          "titel": "Lipom (Exstirpation)",
+          "tags": [
+            "Weichteile"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Weich-elastische Schwellung am Oberarm.",
+          "befunde": [
+            "Verschieblich, schmerzfrei"
+          ],
+          "diagnose": "Lipom",
+          "therapie": [
+            "Operative Entfernung"
+          ],
+          "lernpunkte": [
+            "Benigner Fettgewebstumor"
+          ]
+        },
+        {
+          "id": "SUR_H087",
+          "titel": "Atherom (Infiziert)",
+          "tags": [
+            "Weichteile"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Schmerzhafte Schwellung Nacken, gerötet.",
+          "befunde": [
+            "Fluktuation, zentrale Pore"
+          ],
+          "diagnose": "Abszedierendes Atherom",
+          "therapie": [
+            "Inzision im Entzündungsstadium, später Exzision"
+          ],
+          "lernpunkte": [
+            "Entfernung der Kapsel im entzündungsfreien Intervall"
+          ]
+        },
+        {
+          "id": "SUR_H088",
+          "titel": "Weichteilsarkom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Patient",
+          "praesentation": "Rasant wachsender derber Tumor am Oberschenkel.",
+          "befunde": [
+            "MRT: Infiltratives Wachstum, tief unter Faszie"
+          ],
+          "diagnose": "V.a. Liposarkom",
+          "therapie": [
+            "Probebiopsie, dann radikale Resektion + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Nie unüberlegt inkarnerieren ('Whoops-Procedure' vermeiden)"
+          ]
+        },
+        {
+          "id": "SUR_H089",
+          "titel": "Paralumbalhernie (Richter-Grynfelt)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Vorwölbung im hinteren Lendenbereich.",
+          "befunde": [
+            "Trigonum lumbale"
+          ],
+          "diagnose": "Lendenhernie",
+          "therapie": [
+            "Verschluss mit Netz"
+          ],
+          "lernpunkte": [
+            "Seltene anatomische Schwachstelle"
+          ]
+        },
+        {
+          "id": "SUR_H090",
+          "titel": "Hydrocele testis",
+          "tags": [
+            "Uro/Sur"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Zunehmende Skrotumschwellung.",
+          "befunde": [
+            "Diaphanoskopie positiv (lichtdurchlässig)"
+          ],
+          "diagnose": "Hydrozele",
+          "therapie": [
+            "OP nach Jaboulay oder Lord"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum Hodentumor (Sono!)"
+          ]
+        }
+      ]
+    },
+    "endokrin_thorax_diverses": {
+      "label": "Endokrine Chirurgie & Diverses",
+      "emoji": "🦋",
+      "faelle": [
+        {
+          "id": "SUR_E091",
+          "titel": "Struma nodosa (Resektion)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "45-jährige Frau",
+          "praesentation": "Druckgefühl am Hals, Knoten im Ultraschall.",
+          "befunde": [
+            "Sono: Echoarmer Knoten 2,5 cm",
+            "Szinti: 'Kalter' Knoten"
+          ],
+          "diagnose": "Struma nodosa (V.a. Malignität)",
+          "therapie": [
+            "Hemithyreoidektomie mit Neuromonitoring"
+          ],
+          "lernpunkte": [
+            "Kalter Knoten = Malignomrisiko 5%",
+            "Neuromonitoring für N. laryngeus recurrens"
+          ]
+        },
+        {
+          "id": "SUR_E092",
+          "titel": "Morbus Basedow (Chirurgie)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "38-j. Frau",
+          "praesentation": "Hyperthyreose, Exophthalmus, erfolglose Medikation.",
+          "befunde": [
+            "TRAK massiv↑",
+            "Hypervaskularisation Thyroid"
+          ],
+          "diagnose": "M. Basedow",
+          "therapie": [
+            "Totale Thyreoidektomie"
+          ],
+          "lernpunkte": [
+            "Postoperative Kontrolle auf Hypokalzämie (Nebenschilddrüsen)"
+          ]
+        },
+        {
+          "id": "SUR_E093",
+          "titel": "Primärer Hyperparathyreoidismus",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Nierensteine, Knochenschmerz, Magenulkus.",
+          "befunde": [
+            "Calcium↑, PTH↑"
+          ],
+          "diagnose": "Nebenschilddrüsenadenom",
+          "therapie": [
+            "Parathyreoidektomie (Minimal-invasiv)"
+          ],
+          "lernpunkte": [
+            "Lokalisation mittels Sestamibi-Szintigrafie"
+          ]
+        },
+        {
+          "id": "SUR_E094",
+          "titel": "Phäochromozytom",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Anfallsartiger Bluthochdruck, Kopfschmerz, Schwitzen.",
+          "befunde": [
+            "Metanephrine im Plasma↑",
+            "Raumforderung Nebenniere"
+          ],
+          "diagnose": "Phäochromozytom",
+          "therapie": [
+            "Adrenalektomie nach Alpha-Blockade"
+          ],
+          "lernpunkte": [
+            "Präoperative Alpha-Blockade (Phenoxybenzamin) ist lebenswichtig"
+          ]
+        },
+        {
+          "id": "SUR_E095",
+          "titel": "Malignes Melanom (Thoraxwand)",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Tumor an der vorderen Thoraxwand.",
+          "befunde": [
+            "Infiltration von Weichteilen"
+          ],
+          "diagnose": "Weichteiltumor Thorax",
+          "therapie": [
+            "Radikale Resektion + Deckung"
+          ],
+          "lernpunkte": [
+            "Oft Kooperation mit Plastischer Chirurgie"
+          ]
+        },
+        {
+          "id": "SUR_E096",
+          "titel": "Pleurapunktion (Technik)",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "72-j. nach Lungen-OP",
+          "praesentation": "Zunehmende Dyspnoe.",
+          "befunde": [
+            "Dämpfung bei Perkussion",
+            "Sono: Flüssigkeitssaum"
+          ],
+          "diagnose": "Pleuraerguss",
+          "therapie": [
+            "Punktion am Oberrand der Rippe"
+          ],
+          "lernpunkte": [
+            "Vermeidung des Nerv-Gefäß-Bündels (Unterrand Rippe)"
+          ]
+        },
+        {
+          "id": "SUR_E097",
+          "titel": "Pneumothorax (Spontan)",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "20-j. schlanker Mann",
+          "praesentation": "Plötzlicher atemabhängiger Schmerz, Husten.",
+          "befunde": [
+            "Rö: Fehlende Lungenzeichnung apikal"
+          ],
+          "diagnose": "Primärer Spontanpneumothorax",
+          "therapie": [
+            "Drainage-Einlage",
+            "ggf. VATS bei Rezidiv"
+          ],
+          "lernpunkte": [
+            "Ruptur subpleuraler Blebs"
+          ]
+        },
+        {
+          "id": "SUR_E098",
+          "titel": "Empyem (Pleura)",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "65-j. nach Pneumonie",
+          "praesentation": "Sepsis, Atembeschwerden.",
+          "befunde": [
+            "Punktat: Eitrig, Bakterien+"
+          ],
+          "diagnose": "Pleuraempyem",
+          "therapie": [
+            "Drainage + Spülung + VATS (Dekortikation)"
+          ],
+          "lernpunkte": [
+            "Chirurgie bei Stadium II-III indiziert"
+          ]
+        },
+        {
+          "id": "SUR_E099",
+          "titel": "Milzabszess",
+          "tags": [
+            "Milz"
+          ],
+          "patient": "40-j. i.v. Drogenabusus",
+          "praesentation": "Linksseitiger Oberbauchschmerz, Fieber.",
+          "befunde": [
+            "Sono: Abszess in der Milz"
+          ],
+          "diagnose": "Milzabszess",
+          "therapie": [
+            "Splenektomie"
+          ],
+          "lernpunkte": [
+            "Meist hämatogene Aussaat bei Endokarditis"
+          ]
+        },
+        {
+          "id": "SUR_E100",
+          "titel": "Thoracic-Outlet-Syndrom (Chirurgie)",
+          "tags": [
+            "Diverses"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Kompression von A. subclavia und Plexus brachialis.",
+          "befunde": [
+            "Halsrippe im Röntgen"
+          ],
+          "diagnose": "TOS",
+          "therapie": [
+            "Resektion der Halsrippe / 1. Rippe"
+          ],
+          "lernpunkte": [
+            "Interdisziplinäre Abklärung mit Neurologie/Vaskulärer Chirurgie"
+          ]
+        }
+      ]
+    }
+  }
+}

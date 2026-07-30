@@ -1,0 +1,2059 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Urologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "diagnostik_grundlagen": {
+      "label": "Diagnostik & Grundlagen",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "URO_D001",
+          "titel": "PSA-Wert-Abklärung (Screening)",
+          "tags": [
+            "Diagnostik",
+            "Onkologie"
+          ],
+          "patient": "55-jähriger Patient zur Vorsorge",
+          "praesentation": "Beschwerdefrei, Wunsch nach PSA-Test.",
+          "befunde": [
+            "PSA 4,2 ng/ml",
+            "DRU: glatt begrenzt, elastisch, ca. 30ml",
+            "f/t-PSA Ratio 12%"
+          ],
+          "diagnose": "Erhöhter PSA-Wert bei V.a. Prostatakarzinom",
+          "therapie": [
+            "mpMRT der Prostata (PI-RADS)",
+            "Gezielte Fusionsbiopsie"
+          ],
+          "lernpunkte": [
+            "PSA-Anstieg ist organspezifisch, nicht tumorspezifisch",
+            "PI-RADS Klassifikation zur Risikostratifizierung"
+          ]
+        },
+        {
+          "id": "URO_D002",
+          "titel": "Hämaturie-Abklärung (Makro)",
+          "tags": [
+            "Leitsymptom"
+          ],
+          "patient": "65-j. Raucher",
+          "praesentation": "Schmerzlose totale Makrohämaturie.",
+          "befunde": [
+            "U-Status: massiv Erythrozyten",
+            "Sono: unauffällig"
+          ],
+          "diagnose": "V.a. Urothelkarzinom",
+          "therapie": [
+            "Zystoskopie",
+            "CT-Urographie"
+          ],
+          "lernpunkte": [
+            "Schmerzlose Makrohämaturie ist bis zum Beweis des Gegenteils ein Malignom"
+          ]
+        },
+        {
+          "id": "URO_D003",
+          "titel": "Uroflowmetrie (Obstruktion)",
+          "tags": [
+            "Funktion"
+          ],
+          "patient": "68-j. Mann, abgeschwächter Harnstrahl",
+          "praesentation": "Miktion dauert lange, Restharngefühl.",
+          "befunde": [
+            "Qmax 8 ml/s (↑)",
+            "Glockenförmige Kurve fehlt (Plateau)"
+          ],
+          "diagnose": "Infravesikale Obstruktion (V.a. BPH)",
+          "therapie": [
+            "IPSS-Fragebogen",
+            "Sonographie der Prostata"
+          ],
+          "lernpunkte": [
+            "Qmax < 10 ml/s deutet auf signifikante Obstruktion hin"
+          ]
+        },
+        {
+          "id": "URO_D004",
+          "titel": "Restharnbestimmung",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "75-j. Mann, Pollakisurie",
+          "praesentation": "Häufiges Wasserlassen kleiner Mengen.",
+          "befunde": [
+            "Sono nach Miktion: 250 ml Restharn"
+          ],
+          "diagnose": "Chronische Harnretention",
+          "therapie": [
+            "Einleitung einer medikamentösen Therapie (Alpha-Blocker)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Überlaufblase und Hydronephrose"
+          ]
+        },
+        {
+          "id": "URO_D005",
+          "titel": "Mikrohämaturie (Asymptomatisch)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "40-j. Frau, Zufallsbefund",
+          "praesentation": "Urin-Stix bei Routinecheck positiv.",
+          "befunde": [
+            "Urin-Sediment: > 3 Ery/Gesichtsfeld",
+            "Ausschluss HWI"
+          ],
+          "diagnose": "Asymptomatische Mikrohämaturie",
+          "therapie": [
+            "Anamnese (Rauchen, Berufsexposition)",
+            "Sono-Nieren/Blase"
+          ],
+          "lernpunkte": [
+            "Standardisierte Abklärung ab dem 35./40. Lebensjahr"
+          ]
+        },
+        {
+          "id": "URO_D006",
+          "titel": "TRUS (Transrektaler Ultraschall)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "60-j. Mann zur Biopsieplanung",
+          "praesentation": "V.a. Prostata-CA.",
+          "befunde": [
+            "Zonale Anatomie (Periphere Zone suspekt)",
+            "Volumetrie: 45 ml"
+          ],
+          "diagnose": "Vorbereitung zur Biopsie",
+          "therapie": [
+            "Systematische 12-Kern-Biopsie"
+          ],
+          "lernpunkte": [
+            "TRUS zur Volumenbestimmung und Steuerung der Biopsie"
+          ]
+        },
+        {
+          "id": "URO_D007",
+          "titel": "Zystoskopie (Indikation)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "50-j. mit rezidivierenden HWIs",
+          "praesentation": "Ausschluss anatomische Ursache.",
+          "befunde": [
+            "Starre/Flexible Zystoskopie"
+          ],
+          "diagnose": "Makroskopisch unauffällige Urethra/Blase",
+          "therapie": [
+            "Keine interventionelle Maßnahme"
+          ],
+          "lernpunkte": [
+            "Unterscheidung flexibles vs. starres Instrumentarium"
+          ]
+        },
+        {
+          "id": "URO_D008",
+          "titel": "Urethrographie (Retrograd)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "Pat. nach Beckenfraktur",
+          "praesentation": "Blut am Meatus, kein Harnlassen möglich.",
+          "befunde": [
+            "KM-Austritt in der Pars membranacea"
+          ],
+          "diagnose": "Harnröhrenabriss",
+          "therapie": [
+            "Suprapubischer Blasenkatheter",
+            "Sekundäre Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Kein blinder Katheterisierungsversuch bei Blut am Meatus!"
+          ]
+        },
+        {
+          "id": "URO_D009",
+          "titel": "Nierenszintigraphie (MAG3)",
+          "tags": [
+            "Nuklearmedizin"
+          ],
+          "patient": "Kind mit Hydronephrose",
+          "praesentation": "V.a. Ureterabgangsstenose.",
+          "befunde": [
+            "Seitengetrennte Funktion 45/55%",
+            "Abflusskurve obstruktiv"
+          ],
+          "diagnose": "Ureterabgangsstenose links",
+          "therapie": [
+            "Furosemid-Test",
+            "ggf. Nierenbeckenplastik"
+          ],
+          "lernpunkte": [
+            "Differenzierung funktionelle vs. fixierte Obstruktion"
+          ]
+        },
+        {
+          "id": "URO_D010",
+          "titel": "Kreatinin-Clearance vs. GFR",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "Pat. vor Kontrastmittel-CT",
+          "praesentation": "Prüfung der Nierenfunktion.",
+          "befunde": [
+            "Kreatinin 1,5 mg/dl",
+            "GFR (nach MDRD) 50 ml/min"
+          ],
+          "diagnose": "Niereninsuffizienz Stadium 3",
+          "therapie": [
+            "Hydrierung",
+            "Metformin-Pause"
+          ],
+          "lernpunkte": [
+            "Kreatinin allein ist unzuverlässig bei geringer Muskelmasse"
+          ]
+        }
+      ]
+    },
+    "infektiologie_entzündungen": {
+      "label": "Infektiologie & Entzündungen",
+      "emoji": "🦠",
+      "faelle": [
+        {
+          "id": "URO_I011",
+          "titel": "Unkomplizierte Zystitis",
+          "tags": [
+            "Infekt",
+            "Ambulant"
+          ],
+          "patient": "24-jährige Frau",
+          "praesentation": "Dysurie, Pollakisurie, kein Fieber.",
+          "befunde": [
+            "Nitrit positiv",
+            "Leukozyturie",
+            "Kultur: E. coli"
+          ],
+          "diagnose": "Akute unkomplizierte Zystitis",
+          "therapie": [
+            "Fosfomycin Einmaldosis oder Nitrofurantoin"
+          ],
+          "lernpunkte": [
+            "Antibiotic Stewardship: Fluorchinolone vermeiden",
+            "Keine AB bei asymptomatischer Bakteriurie (außer Schwangerschaft/OP)"
+          ]
+        },
+        {
+          "id": "URO_I012",
+          "titel": "Akute Pyelonephritis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Flankenschmerz, Schüttelfrost, Fieber 39,5°C.",
+          "befunde": [
+            "Klopfschmerz Nierenlager",
+            "CRP 150 mg/l",
+            "Sono: Kein Harnstau"
+          ],
+          "diagnose": "Akute Pyelonephritis",
+          "therapie": [
+            "Ciprofloxacin oder Ceftriaxon"
+          ],
+          "lernpunkte": [
+            "Ausschluss einer obstruktiven Pyelonephritis (Notfall!)"
+          ]
+        },
+        {
+          "id": "URO_I013",
+          "titel": "Akute bakterielle Prostatitis",
+          "tags": [
+            "Infekt",
+            "Notfall"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Heftiges Fieber, Schmerzen im Perineum, Miktionsbeschwerden.",
+          "befunde": [
+            "DRU: Prostata extrem schmerzhaft, geschwollen"
+          ],
+          "diagnose": "Akute Prostatitis",
+          "therapie": [
+            "Stationäre i.v. Antibiose",
+            "ggf. suprapubischer Katheter"
+          ],
+          "lernpunkte": [
+            "Keine transurethrale Instrumentierung im Akutstadium"
+          ]
+        },
+        {
+          "id": "URO_I014",
+          "titel": "Fournier-Gangrän",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Rasante Rötung und Schmerzen im Skrotalbereich, Sepsis.",
+          "befunde": [
+            "Hautknistern (Emphysem)",
+            "Lividität/Nekrosen"
+          ],
+          "diagnose": "Nekrotisierende Fasziitis (Fournier)",
+          "therapie": [
+            "Radikales chirurgisches Debridement",
+            "Breitbandantibiose"
+          ],
+          "lernpunkte": [
+            "Urologischer Notfall mit hoher Letalität"
+          ]
+        },
+        {
+          "id": "URO_I015",
+          "titel": "Urosepsis bei Harnstau",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "75-j. Mann, Harnstein bekannt",
+          "praesentation": "Verwirrtheit, Tachykardie, Fieber.",
+          "befunde": [
+            "Sono: Hydronephrose Grad III",
+            "Laktat 4,0 mmol/l"
+          ],
+          "diagnose": "Obstruktive Urosepsis",
+          "therapie": [
+            "Sofortige Entlastung (Harnleiterschiene/PNS)",
+            "i.v. Antibiose"
+          ],
+          "lernpunkte": [
+            "Kausaltherapie: 'Ubi pus, ibi evacua' (Harnableitung vor Steinsanierung)"
+          ]
+        },
+        {
+          "id": "URO_I016",
+          "titel": "Epididymitis akut",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "22-j. sexuell aktiver Mann",
+          "praesentation": "Einseitige schmerzhafte Hodenschwellung.",
+          "befunde": [
+            "Prehn-Zeichen positiv",
+            "Sono: Hyperperfusion Nebenhoden"
+          ],
+          "diagnose": "Akute Epididymitis (V.a. Chlamydien)",
+          "therapie": [
+            "Ceftriaxon + Doxycyclin",
+            "Kühlung",
+            "Hodenhochlage"
+          ],
+          "lernpunkte": [
+            "Wichtigste DD: Hodentorsion (Prehn neg., Ischämie)"
+          ]
+        },
+        {
+          "id": "URO_I017",
+          "titel": "Chronisches Beckenschmerzsyndrom (CPPS)",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Dauerschmerz Damm/Blase seit 6 Monaten, Kulturen negativ.",
+          "befunde": [
+            "DRU o.B.",
+            "kein Infektnachweis"
+          ],
+          "diagnose": "Prostatitis-Syndrom Typ III (CPPS)",
+          "therapie": [
+            "Alpha-Blocker",
+            "Multimodale Therapie (Physio, Psychosomatik)"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose, belastend für den Patienten"
+          ]
+        },
+        {
+          "id": "URO_I018",
+          "titel": "Candida-Zystitis",
+          "tags": [
+            "Infekt",
+            "Pilz"
+          ],
+          "patient": "Pat. auf Intensivstation, Dauerkatheter",
+          "praesentation": "Trüber Urin.",
+          "befunde": [
+            "Urin-Kultur: Candida albicans"
+          ],
+          "diagnose": "Pilz-Infekt der Harnwege",
+          "therapie": [
+            "Katheterwechsel",
+            "ggf. Fluconazol bei Systemzeichen"
+          ],
+          "lernpunkte": [
+            "Oft nur Kolonisation, invasive Infektion selten"
+          ]
+        },
+        {
+          "id": "URO_I019",
+          "titel": "Genitaltuberkulose",
+          "tags": [
+            "TBC"
+          ],
+          "patient": "45-j. Mann, rezidivierende Epididymitis",
+          "praesentation": "Perlschnurartige Verdickung des Samenleiters.",
+          "befunde": [
+            "Sterile Leukozyturie",
+            "Urin-PCR auf M. tuberculosis positiv"
+          ],
+          "diagnose": "Urogenital-TBC",
+          "therapie": [
+            "Tuberkulostatika (PERI-Schema)"
+          ],
+          "lernpunkte": [
+            "Häufigste extrapulmonale TBC-Lokalisation beim Mann"
+          ]
+        },
+        {
+          "id": "URO_I020",
+          "titel": "Syphilis (Ulcus durum)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "30-j. Mann (MSM)",
+          "praesentation": "Schmerzloses, derbes Ulkus am Präputium.",
+          "befunde": [
+            "Lymphknotenschwellung Leiste schmerzlos",
+            "TPPA positiv"
+          ],
+          "diagnose": "Lues Stadium I",
+          "therapie": [
+            "Benzathin-Penicillin G 2,4 Mio IE i.m."
+          ],
+          "lernpunkte": [
+            "Schmerzloses Ulkus = Lues-Verdacht"
+          ]
+        },
+        {
+          "id": "URO_I021",
+          "titel": "Interstitielle Zystitis (IC)",
+          "tags": [
+            "Schmerz",
+            "Selten"
+          ],
+          "patient": "45-j. Frau, Schmerzen bei voller Blase",
+          "praesentation": "Extreme Pollakisurie (bis 60x/Tag).",
+          "befunde": [
+            "Zystoskopie: Hunner-Läsionen, Glomerulationen"
+          ],
+          "diagnose": "Bladder Pain Syndrome (BPS/IC)",
+          "therapie": [
+            "Pentosanpolysulfat (PPS)",
+            "Instillationstherapie"
+          ],
+          "lernpunkte": [
+            "Häufig lange Leidenswege bis zur Diagnose"
+          ]
+        },
+        {
+          "id": "URO_I022",
+          "titel": "Xanthogranulomatöse Pyelonephritis",
+          "tags": [
+            "Infekt",
+            "Niere"
+          ],
+          "patient": "55-j. mit Korallenstein",
+          "praesentation": "Chronisches Flankenzuggefühl, Anämie.",
+          "befunde": [
+            "CT: Niere massiv zerstört, fettreiche Infiltrate"
+          ],
+          "diagnose": "XGP (Destruierende Entzündung)",
+          "therapie": [
+            "Nephrektomie"
+          ],
+          "lernpunkte": [
+            "Simulation eines Malignoms im CT möglich"
+          ]
+        },
+        {
+          "id": "URO_I023",
+          "titel": "Malakoplakie der Blase",
+          "tags": [
+            "Infekt",
+            "Pathologie"
+          ],
+          "patient": "Pat. mit rez. HWIs",
+          "praesentation": "Hämaturie.",
+          "befunde": [
+            "Zystoskopie: Gelbliche Plaques",
+            "Histologie: Michaelis-Gutmann-Körperchen"
+          ],
+          "diagnose": "Malakoplakie",
+          "therapie": [
+            "Langzeitantibiose (Chinolone/Cotrim)",
+            "Vitamin C"
+          ],
+          "lernpunkte": [
+            "Defekt der Phagozytose bei Makrophagen"
+          ]
+        },
+        {
+          "id": "URO_I024",
+          "titel": "Emphysematöse Pyelonephritis",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "70-j. Diabetikerin, Sepsis",
+          "praesentation": "Flankenschmerz.",
+          "befunde": [
+            "CT: Gas im Nierenparenchym"
+          ],
+          "diagnose": "Emphysematöse Pyelonephritis",
+          "therapie": [
+            "Antibiose + Drainage",
+            "oft Nephrektomie nötig"
+          ],
+          "lernpunkte": [
+            "Hochlebensbedrohliche Komplikation bei Diabetikern"
+          ]
+        },
+        {
+          "id": "URO_I025",
+          "titel": "Rezidivierende HWIs der Frau",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "38-j. Patientin, 5 Infekte/Jahr",
+          "praesentation": "Wunsch nach Prophylaxe.",
+          "befunde": [
+            "Sono: o.B., Restharn neg."
+          ],
+          "diagnose": "Rezidivierende Zystitis",
+          "therapie": [
+            "Immunstimulation (Uro-Vaxom)",
+            "D-Mannose",
+            "ggf. Langzeitprophylaxe"
+          ],
+          "lernpunkte": [
+            "Definition: >= 3 Infekte pro Jahr"
+          ]
+        }
+      ]
+    },
+    "steinerkrankungen": {
+      "label": "Urolithiasis (Steinerkrankungen)",
+      "emoji": "💎",
+      "faelle": [
+        {
+          "id": "URO_S026",
+          "titel": "Nierenkolik (Akut)",
+          "tags": [
+            "Stein",
+            "Notfall"
+          ],
+          "patient": "45-jähriger Mann",
+          "praesentation": "Wellenförmige, stärkste Flankenschmerzen, Ausstrahlung in Hoden.",
+          "befunde": [
+            "U-Status: Mikrohämaturie",
+            "Sono: Konkrement 5mm im distalem Harnleiter, Hydronephrose I"
+          ],
+          "diagnose": "Harnleiterstein (Ureterolithiasis)",
+          "therapie": [
+            "Metamizol/NSAR i.v.",
+            "Tamsulosin (MET)",
+            "Flüssigkeit"
+          ],
+          "lernpunkte": [
+            "Spontanabgangswahrscheinlichkeit bei < 5mm hoch",
+            "Ausschluss Infekt/Fieber zwingend"
+          ]
+        },
+        {
+          "id": "URO_S027",
+          "titel": "Nierenbecken-Ausgussstein",
+          "tags": [
+            "Stein"
+          ],
+          "patient": "55-j. Frau, rez. Harnwegsinfekte",
+          "praesentation": "Dumpfer Flankenschmerz.",
+          "befunde": [
+            "Rö-Abdomen: Schatten füllt gesamtes Hohlsystem aus"
+          ],
+          "diagnose": "Korallenstein (meist Struvit)",
+          "therapie": [
+            "PNL (Perkutane Nephrolitholapaxie)"
+          ],
+          "lernpunkte": [
+            "Struvitsteine sind Infektsteine (Proteus mirabilis)"
+          ]
+        },
+        {
+          "id": "URO_S028",
+          "titel": "Harnsäuresteine (Lithiolyse)",
+          "tags": [
+            "Stein",
+            "Stoffwechsel"
+          ],
+          "patient": "60-j. Mann mit Gicht",
+          "praesentation": "Harnleiterstein im CT, im Röntgen nicht sichtbar.",
+          "befunde": [
+            "Urin-pH dauerhaft 5,0",
+            "CT-Dichte 400 HE"
+          ],
+          "diagnose": "Urat-Stein",
+          "therapie": [
+            "Alkalinisierung des Urins (pH 7,0-7,2) mit Alkalizitrat"
+          ],
+          "lernpunkte": [
+            "Einzige Steingattung, die chemisch aufgelöst werden kann"
+          ]
+        },
+        {
+          "id": "URO_S029",
+          "titel": "ESWL (Extrakorporale Stoßwellenlithotripsie)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit Nierenstein 10mm Oberpol",
+          "praesentation": "Wunsch nach ambulanter Therapie.",
+          "befunde": [
+            "Konkrement gut fokussierbar"
+          ],
+          "diagnose": "Nierenstein",
+          "therapie": [
+            "ESWL-Behandlung"
+          ],
+          "lernpunkte": [
+            "Kontraindikationen: Schwangerschaft, unbehandelte Gerinnungsstörung"
+          ]
+        },
+        {
+          "id": "URO_S030",
+          "titel": "Harnleiterschiene (DJ-Katheter)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit inkarzeriertem Stein",
+          "praesentation": "Hydronephrose, persistierender Schmerz.",
+          "befunde": [
+            "Kreatinin-Anstieg"
+          ],
+          "diagnose": "Obstruktive Uropathie",
+          "therapie": [
+            "Einlage Doppel-J-Schiene"
+          ],
+          "lernpunkte": [
+            "Komplikation: Reizblase, Dislokation, Inkrustation"
+          ]
+        },
+        {
+          "id": "URO_S031",
+          "titel": "URS (Ureterorenoskopie)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit Harnleiterstein 8mm Mitte",
+          "praesentation": "Kein Spontanabgang nach 2 Wochen.",
+          "befunde": [
+            "CT: Präzise Lokalisation"
+          ],
+          "diagnose": "Harnleiterstein",
+          "therapie": [
+            "Retrograde Ureterorenoskopie mit Laser-Lithotripsie"
+          ],
+          "lernpunkte": [
+            "Flexibles Instrumentarium erreicht auch Nierenbeckenkelche"
+          ]
+        },
+        {
+          "id": "URO_S032",
+          "titel": "Zystinsteine",
+          "tags": [
+            "Stein",
+            "Genetik"
+          ],
+          "patient": "15-j. Jugendlicher, rez. Steine",
+          "praesentation": "Klassische Kolik.",
+          "befunde": [
+            "Urin: Sechseckige Kristalle im Sediment"
+          ],
+          "diagnose": "Zystinurie (Aminosäure-Transportstörung)",
+          "therapie": [
+            "Hohe Trinkmenge (> 4L/Tag)",
+            "Urin-Alkalinisierung"
+          ],
+          "lernpunkte": [
+            "Hereditäre Erkrankung, Steine oft sehr hart"
+          ]
+        },
+        {
+          "id": "URO_S033",
+          "titel": "Calciumoxalat-Steine",
+          "tags": [
+            "Stein"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Erstereignis Kolik.",
+          "befunde": [
+            "Stein-Analyse: Whewellit (Monohydrat)"
+          ],
+          "diagnose": "Calciumoxalat-Urolithiasis",
+          "therapie": [
+            "Flüssigkeit",
+            "Oxalat-arme Diät"
+          ],
+          "lernpunkte": [
+            "Häufigste Steinart (ca. 75-80%)"
+          ]
+        },
+        {
+          "id": "URO_S034",
+          "titel": "Blasensteine",
+          "tags": [
+            "Stein",
+            "BPH"
+          ],
+          "patient": "72-j. Mann mit Prostatavergrößerung",
+          "praesentation": "Harnstrahl bricht plötzlich ab, Hämaturie.",
+          "befunde": [
+            "Sono: Bewegliches echoreiches Gebilde in der Blase"
+          ],
+          "diagnose": "Blasenlithiasis bei BPH",
+          "therapie": [
+            "Mechanische Lithotripsie + TUR-Prostata"
+          ],
+          "lernpunkte": [
+            "Blasensteine sind meist Folge einer infravesikalen Obstruktion"
+          ]
+        },
+        {
+          "id": "URO_S035",
+          "titel": "Steinstraße",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach ESWL eines großen Steins",
+          "praesentation": "Krämpfe, kein Urinfluss.",
+          "befunde": [
+            "Sono: Multiple Steinfragmente wie Perlenkette im distalen Ureter"
+          ],
+          "diagnose": "Steinstraße nach Stoßwelle",
+          "therapie": [
+            "DJ-Einlage",
+            "ggf. URS"
+          ],
+          "lernpunkte": [
+            "Häufig bei Steinen > 2 cm ohne präoperative Schienung"
+          ]
+        }
+      ]
+    },
+    "uro_onkologie": {
+      "label": "Uro-Onkologie",
+      "emoji": "🏥",
+      "faelle": [
+        {
+          "id": "URO_O036",
+          "titel": "Prostatakarzinom (Lokal begrenzt)",
+          "tags": [
+            "Onkologie",
+            "Prostata"
+          ],
+          "patient": "65-jähriger Patient, PSA 6,5",
+          "praesentation": "Biopsie: Adenokarzinom, Gleason 3+4=7a, ISUP Grad 2.",
+          "befunde": [
+            "mpMRT: cT2a N0 M0"
+          ],
+          "diagnose": "Lokalisiertes Prostatakarzinom",
+          "therapie": [
+            "Radikale Prostatektomie oder Radiatio oder Active Surveillance"
+          ],
+          "lernpunkte": [
+            "Active Surveillance nur bei Low-Risk (ISUP 1)"
+          ]
+        },
+        {
+          "id": "URO_O037",
+          "titel": "Nierenzellkarzinom (RCC)",
+          "tags": [
+            "Onkologie",
+            "Niere"
+          ],
+          "patient": "55-j. Frau, Zufallsfund Ultraschall",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "Sono: Raumforderung Nierenpol 3cm",
+            "CT: KM-Aufnahme (Kontrastmittelenhancement)"
+          ],
+          "diagnose": "RCC (Klarzellig)",
+          "therapie": [
+            "Nierenteilresektion (Organerhaltend)"
+          ],
+          "lernpunkte": [
+            "Roboter-assistierte Teilresektion als Standard bei T1a"
+          ]
+        },
+        {
+          "id": "URO_O038",
+          "titel": "Nicht-muskelinvasives Blasenkarzinom (NMIBC)",
+          "tags": [
+            "Onkologie",
+            "Blase"
+          ],
+          "patient": "60-j. Raucher, Makrohämaturie",
+          "praesentation": "Zystoskopie: Blumenkohlartige Struktur.",
+          "befunde": [
+            "TUR-B: pTa G2 (Low Grade)"
+          ],
+          "diagnose": "Oberflächliches Blasenkarzinom",
+          "therapie": [
+            "TUR-B + Frühinstillation (Mitomycin)"
+          ],
+          "lernpunkte": [
+            "Hohe Rezidivrate erfordert lebenslange Nachsorge"
+          ]
+        },
+        {
+          "id": "URO_O039",
+          "titel": "Muskelinvasives Blasenkarzinom (MIBC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "68-j. Mann",
+          "praesentation": "Rezidivbefund nach Vor-OP.",
+          "befunde": [
+            "TUR-B: pT2 G3 (High Grade)"
+          ],
+          "diagnose": "Invasives Urothelkarzinom",
+          "therapie": [
+            "Radikale Zystektomie + Harnableitung (Ileumconduit/Neoblase)"
+          ],
+          "lernpunkte": [
+            "Neoadjuvante Chemotherapie verbessert das Überleben"
+          ]
+        },
+        {
+          "id": "URO_O040",
+          "titel": "Hodentumor (Seminom)",
+          "tags": [
+            "Onkologie",
+            "Jung"
+          ],
+          "patient": "28-j. Mann, schmerzlose Hodenverhärtung",
+          "praesentation": "Schweregefühl im Skrotum.",
+          "befunde": [
+            "Marker: HCG↑, AFP normal",
+            "Sono: Inhomogenes Echo"
+          ],
+          "diagnose": "Seminom Stadium I",
+          "therapie": [
+            "Ablatio testis via inguinalem Zugang"
+          ],
+          "lernpunkte": [
+            "AFP-Erhöhung schließt Seminom aus (dann Nicht-Seminom)"
+          ]
+        },
+        {
+          "id": "URO_O041",
+          "titel": "Peniskarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Mann, Phimose",
+          "praesentation": "Übelriechende Sekretion, derbes Ulkus an der Glans.",
+          "befunde": [
+            "Histologie: Plattenepithelkarzinom"
+          ],
+          "diagnose": "Peniskarzinom",
+          "therapie": [
+            "Teilamputation (Penektomie) + LK-Staging Leiste"
+          ],
+          "lernpunkte": [
+            "Assoziation mit HPV 16/18"
+          ]
+        },
+        {
+          "id": "URO_O042",
+          "titel": "Metastasiertes Prostatakarzinom (ADT)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "75-j. Mann, PSA 250",
+          "praesentation": "Rückenschmerzen (ossäre Filiae).",
+          "befunde": [
+            "Ganzkörperszinti: Multipler Knochenuptake"
+          ],
+          "diagnose": "mHSPC (Hormonsensitiv)",
+          "therapie": [
+            "Androgendeprivation (GnRH-Antagonisten) + Docetaxel/Abirateron"
+          ],
+          "lernpunkte": [
+            "Kombinationstherapie ('Triple-Therapy') als aktueller Standard"
+          ]
+        },
+        {
+          "id": "URO_O043",
+          "titel": "Kastrationsresistenz (mCRPC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. unter LHRH-Agonist",
+          "praesentation": "PSA steigt trotz Kastrationsspiegel (< 50 ng/dl).",
+          "befunde": [
+            "Progress in der Bildgebung"
+          ],
+          "diagnose": "mCRPC",
+          "therapie": [
+            "Enzalutamid / Apalutamid / Lu-177-PSMA"
+          ],
+          "lernpunkte": [
+            "Theranostik mit PSMA-Radioliganden als neue Option"
+          ]
+        },
+        {
+          "id": "URO_O044",
+          "titel": "Wilms-Tumor (Nephroblastom)",
+          "tags": [
+            "Onkologie",
+            "Pädiatrie"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Schmerzlose Zunahme des Bauchumfangs.",
+          "befunde": [
+            "Großer solider Nierentumor im CT"
+          ],
+          "diagnose": "Wilms-Tumor",
+          "therapie": [
+            "Präoperative Chemo -> Nephrektomie"
+          ],
+          "lernpunkte": [
+            "Häufigster Bauchtumor im Kindesalter, gute Prognose"
+          ]
+        },
+        {
+          "id": "URO_O045",
+          "titel": "Harnleiterkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Raucher",
+          "praesentation": "Zufallsfund Hydronephrose ohne Stein.",
+          "befunde": [
+            "Ureterorenoskopie: Exophytischer Tumor im Harnleiter"
+          ],
+          "diagnose": "Uretherkarzinom (Oberer Harntrakt)",
+          "therapie": [
+            "Nephroureterektomie mit Blasenmanschette"
+          ],
+          "lernpunkte": [
+            "Urotheltumoren sind oft multifokal (Field-Cancerization)"
+          ]
+        },
+        {
+          "id": "URO_O046",
+          "titel": "Nebennierenkarzinom",
+          "tags": [
+            "Onkologie",
+            "Endokrin"
+          ],
+          "patient": "45-j. Frau, Virilisierung",
+          "praesentation": "Vollmondgesicht, Hypertonus.",
+          "befunde": [
+            "Große Raumforderung Nebenniere > 6cm"
+          ],
+          "diagnose": "Nebennierenrindenkarzinom",
+          "therapie": [
+            "Radikale Adrenalektomie + Mitotane"
+          ],
+          "lernpunkte": [
+            "Oft hormonell aktiv (Cushing/Conn/Virilisierung)"
+          ]
+        },
+        {
+          "id": "URO_O047",
+          "titel": "Hoden-Nicht-Seminom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "24-j. Mann, Gynäkomastie",
+          "praesentation": "Hodenschwellung.",
+          "befunde": [
+            "Marker: AFP massiv↑, HCG↑"
+          ],
+          "diagnose": "Embryonales Karzinom (Misch-Nicht-Seminom)",
+          "therapie": [
+            "Ablatio + Chemotherapie (PEB)"
+          ],
+          "lernpunkte": [
+            "Sehr aggressiv, aber hochempfindlich für Platin-basierte Chemo"
+          ]
+        },
+        {
+          "id": "URO_O048",
+          "titel": "V.a. Hodgkin-Lymphom (Urologische Sicht)",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Tastbare Massen im Retroperitoneum.",
+          "befunde": [
+            "CT: Konglomerattumor um Aorta"
+          ],
+          "diagnose": "Retroperitoneale Lymphadenopathie",
+          "therapie": [
+            "Biopsie zur Differenzierung (Seminom vs. Lymphom)"
+          ],
+          "lernpunkte": [
+            "Lymphome benötigen keine Resektion, sondern Chemo"
+          ]
+        },
+        {
+          "id": "URO_O049",
+          "titel": "CUP-Syndrom (Urologie)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. mit Knochenmetastasen (osteoblastisch)",
+          "praesentation": "PSA normal, Primärtumorsuche.",
+          "befunde": [
+            "Harnblase/Niere im CT frei"
+          ],
+          "diagnose": "CUP (Prostata-CA bei PSA-negativen Varianten?)",
+          "therapie": [
+            "Neuroendokrine Differenzierung prüfen"
+          ],
+          "lernpunkte": [
+            "Seltene PSA-negative Karzinome"
+          ]
+        },
+        {
+          "id": "URO_O050",
+          "titel": "BPH vs. Karzinom",
+          "tags": [
+            "Prostata"
+          ],
+          "patient": "70-j. Mann, Nykturie",
+          "praesentation": "PSA 3,0 (normal).",
+          "befunde": [
+            "DRU: Fest, aber knotig",
+            "Biopsie: Gleason 6"
+          ],
+          "diagnose": "Prostatakarzinom",
+          "therapie": [
+            "Active Surveillance"
+          ],
+          "lernpunkte": [
+            "Normaler PSA schließt Karzinom nicht aus"
+          ]
+        },
+        {
+          "id": "URO_O051",
+          "titel": "Zystektomie-Nachsorge (Rehabilitation)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Pat. 3 Monate nach Ileum-Conduit",
+          "praesentation": "Hautirritationen um das Stoma.",
+          "befunde": [
+            "Mazeration durch undichte Platte"
+          ],
+          "diagnose": "Stomakomplikation",
+          "therapie": [
+            "Stomaberatung",
+            "Wechsel des Systems"
+          ],
+          "lernpunkte": [
+            "Stomatherapeuten in Nachsorge einbinden"
+          ]
+        },
+        {
+          "id": "URO_O052",
+          "titel": "Angiomyolipom der Niere",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "40-j. Frau, Zufallsfund",
+          "praesentation": "Zysten-Verdacht.",
+          "befunde": [
+            "CT: Fetthaltiger Tumor (negative HE-Werte)"
+          ],
+          "diagnose": "Angiomyolipom",
+          "therapie": [
+            "Beobachtung < 4cm, Embolisation/OP bei > 4cm"
+          ],
+          "lernpunkte": [
+            "Wunderlich-Syndrom: Spontanrupturgefahr"
+          ]
+        },
+        {
+          "id": "URO_O053",
+          "titel": "Onkozytom der Niere",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Raumforderung Niere.",
+          "befunde": [
+            "CT: Radspeichenstruktur (Spoke-wheel)"
+          ],
+          "diagnose": "V.a. Onkozytom",
+          "therapie": [
+            "Nierenteilresektion (Sicherung nötig!)"
+          ],
+          "lernpunkte": [
+            "Makroskopisch schwer vom RCC zu unterscheiden"
+          ]
+        },
+        {
+          "id": "URO_O054",
+          "titel": "Urothel-Carcinoma in situ (CIS)",
+          "tags": [
+            "Onkologie",
+            "Blase"
+          ],
+          "patient": "65-j. mit chronischem Reizblasensyndrom",
+          "praesentation": "Zytologie: Tumorzellen vorhanden, Zystoskopie unauffällig.",
+          "befunde": [
+            "PDD (Hexvix): Samtartige rote Areale"
+          ],
+          "diagnose": "CIS der Harnblase",
+          "therapie": [
+            "BCG-Instillationstherapie"
+          ],
+          "lernpunkte": [
+            "CIS ist hochmaligne (High Grade), wird oft übersehen"
+          ]
+        },
+        {
+          "id": "URO_O055",
+          "titel": "BCG-Sepsis",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "Pat. nach BCG-Instillation",
+          "praesentation": "Hohes Fieber, Schüttelfrost, Dyspnoe.",
+          "befunde": [
+            "Sepsis-Zeichen"
+          ],
+          "diagnose": "Systemische BCG-Reaktion",
+          "therapie": [
+            "Tuberkulostatika + Steroide"
+          ],
+          "lernpunkte": [
+            "Vermeidung bei traumatischer Katheterisierung"
+          ]
+        },
+        {
+          "id": "URO_O056",
+          "titel": "Priapismus bei Leukämie",
+          "tags": [
+            "Notfall",
+            "Onkologie"
+          ],
+          "patient": "22-j. Mann",
+          "praesentation": "Schmerzhafte Dauererektion > 6h.",
+          "befunde": [
+            "Labor: Leukos 300.000"
+          ],
+          "diagnose": "Ischämischer Priapismus bei CML",
+          "therapie": [
+            "Punktion + Spülung + Leukapherese"
+          ],
+          "lernpunkte": [
+            "Hämatologische Notfälle können urologisch imponieren"
+          ]
+        },
+        {
+          "id": "URO_O057",
+          "titel": "Knochenmetastasen (Pathologische Fraktur)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. mit mCRPC",
+          "praesentation": "Sturz, Hüftschmerz.",
+          "befunde": [
+            "Rö: Osteoblastische Metastase am Schenkelhals mit Bruch"
+          ],
+          "diagnose": "Pathologische Schenkelhalsfraktur",
+          "therapie": [
+            "Stabilisierende OP + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Knochenschutz mit Denosumab/Zoledronat"
+          ]
+        },
+        {
+          "id": "URO_O058",
+          "titel": "Metastasiertes RCC (Immuntherapie)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. Patient, Lungenherde",
+          "praesentation": "Z.n. Nephrektomie.",
+          "befunde": [
+            "Clear-cell Histologie"
+          ],
+          "diagnose": "Nierenzell-CA Stadium IV",
+          "therapie": [
+            "Kombination Nivolumab + Ipilimumab"
+          ],
+          "lernpunkte": [
+            "Erfolge der Immuncheckpoint-Inhibition beim RCC"
+          ]
+        },
+        {
+          "id": "URO_O059",
+          "titel": "Urachuskarzinom",
+          "tags": [
+            "Onkologie",
+            "Selten"
+          ],
+          "patient": "45-j. Mann, Hämaturie",
+          "praesentation": "Schleimabgang beim Wasserlassen.",
+          "befunde": [
+            "CT: Tumor am Blasendach in der Mittellinie"
+          ],
+          "diagnose": "Urachus-Adenokarzinom",
+          "therapie": [
+            "Teilresektion Blase + Urachusstrang-Exstirpation"
+          ],
+          "lernpunkte": [
+            "Embryonales Überbleibsel"
+          ]
+        },
+        {
+          "id": "URO_O060",
+          "titel": "Harnleiterstent-Inkrustation",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Tumorpatient, Palliativer DJ",
+          "praesentation": "Flankenschmerz, Stent seit 12 Monaten vergessen.",
+          "befunde": [
+            "Rö: Massiver Kalkpanzer um den DJ"
+          ],
+          "diagnose": "Inkrustierte Harnleiterschiene",
+          "therapie": [
+            "Multimodale Sanierung (URS/ESWL)"
+          ],
+          "lernpunkte": [
+            "Regelmäßige Wechselintervalle einhalten"
+          ]
+        }
+      ]
+    },
+    "funktionsstörungen_urogynäkologie": {
+      "label": "Funktionsstörungen & Urogynäkologie",
+      "emoji": "🚻",
+      "faelle": [
+        {
+          "id": "URO_F061",
+          "titel": "Überaktive Blase (OAB)",
+          "tags": [
+            "Urogyn",
+            "Funktion"
+          ],
+          "patient": "50-jährige Frau",
+          "praesentation": "Plötzlicher, nicht unterdrückbarer Harndrang (Urgency), Nykturie.",
+          "befunde": [
+            "Urodynamik: Unwillkürliche Detrusorkontraktionen"
+          ],
+          "diagnose": "Dranginkontinenz (Wet OAB)",
+          "therapie": [
+            "Anticholinergika (Solifenacin) oder Beta-3-Agonist (Mirabegron)"
+          ],
+          "lernpunkte": [
+            "Ausschluss HWI/Malignom primär"
+          ]
+        },
+        {
+          "id": "URO_F062",
+          "titel": "Belastungsinkontinenz (Frau)",
+          "tags": [
+            "Urogyn"
+          ],
+          "patient": "45-j. Multipara",
+          "praesentation": "Urinverlust beim Husten, Lachen, Sport.",
+          "befunde": [
+            "Stresstest positiv Grad II"
+          ],
+          "diagnose": "Stress-Harninkontinenz",
+          "therapie": [
+            "Beckenbodentraining",
+            "Lokalöstrogene",
+            "TVT-Band"
+          ],
+          "lernpunkte": [
+            "Schädigung des urethralen Verschlussmechanismus"
+          ]
+        },
+        {
+          "id": "URO_F063",
+          "titel": "Post-Prostatektomie-Inkontinenz",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "65-j. Mann nach RPE vor 1 Jahr",
+          "praesentation": "Kontinuierlicher Urinverlust (3 Vorlagen/Tag).",
+          "befunde": [
+            "Urethrozystoskopie: Sphinkterdefekt"
+          ],
+          "diagnose": "Iatrogene Belastungsinkontinenz",
+          "therapie": [
+            "Sphinkterprothese (AMS 800)"
+          ],
+          "lernpunkte": [
+            "Geduld in den ersten 6-12 Monaten postop (Physio)"
+          ]
+        },
+        {
+          "id": "URO_F064",
+          "titel": "Neurogene Blase (Querschnitt)",
+          "tags": [
+            "Neurourologie"
+          ],
+          "patient": "30-j. nach Wirbelsäulenverletzung (Th10)",
+          "praesentation": "Unfähigkeit zur Blasenentleerung.",
+          "befunde": [
+            "Urodynamik: Detrusor-Sphinkter-Dyssynergie (DSD)"
+          ],
+          "diagnose": "Neurogene Blasenfunktionsstörung",
+          "therapie": [
+            "Einmalkatheterismus (ISK)"
+          ],
+          "lernpunkte": [
+            "Hoher Blasendruck gefährdet die Nierenfunktion"
+          ]
+        },
+        {
+          "id": "URO_F065",
+          "titel": "BPH (Benigne Prostatahyperplasie)",
+          "tags": [
+            "Prostata"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Schwacher Strahl, Startverzögerung, Nachträufeln.",
+          "befunde": [
+            "Prostata 60ml",
+            "Restharn 100ml",
+            "IPSS 22"
+          ],
+          "diagnose": "BPS (Benignes Prostatasyndrom)",
+          "therapie": [
+            "Alpha-Blocker + 5-Alpha-Reduktasehemmer"
+          ],
+          "lernpunkte": [
+            "Kombinationstherapie bei Volumen > 40ml"
+          ]
+        },
+        {
+          "id": "URO_F066",
+          "titel": "TUR-Prostata (Technik)",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Pat. mit medikamentenresistenter BPH",
+          "praesentation": "Wiederholter Harnverhalt.",
+          "befunde": [
+            "Großer Mittellappen"
+          ],
+          "diagnose": "Operationsindikation BPS",
+          "therapie": [
+            "Transurethrale Resektion der Prostata (TUR-P)"
+          ],
+          "lernpunkte": [
+            "Gefahr des TUR-Syndroms (Hyponatriämie) bei monopolarer Technik"
+          ]
+        },
+        {
+          "id": "URO_F067",
+          "titel": "Zystozele (Vorderwandplastik)",
+          "tags": [
+            "Urogyn"
+          ],
+          "patient": "68-j. Frau, Senkungsgefühl",
+          "praesentation": "Druckgefühl in der Vagina.",
+          "befunde": [
+            "Vordere Vaginalwand prolabiert vor den Introitus"
+          ],
+          "diagnose": "Zystozele Grad III",
+          "therapie": [
+            "Vaginale Raffung / Netzplastik"
+          ],
+          "lernpunkte": [
+            "Oft vergesellschaftet mit Blasenentleerungsstörungen"
+          ]
+        },
+        {
+          "id": "URO_F068",
+          "titel": "Vesikovaginale Fistel",
+          "tags": [
+            "Komplikation",
+            "Urogyn"
+          ],
+          "patient": "55-j. nach Hysterektomie",
+          "praesentation": "Ständiger Urinabgang via Vagina.",
+          "befunde": [
+            "Methylenblau-Probe: Blaufärbung des Vaginaltampons"
+          ],
+          "diagnose": "Blasenscheidenfistel",
+          "therapie": [
+            "Operativer Fistelverschluss"
+          ],
+          "lernpunkte": [
+            "Häufige iatrogene Folge in Entwicklungsländern eher durch Geburten"
+          ]
+        },
+        {
+          "id": "URO_F069",
+          "titel": "Reflexinkontinenz",
+          "tags": [
+            "Neurourologie"
+          ],
+          "patient": "Pat. mit Multipler Sklerose",
+          "praesentation": "Urinverlust ohne Harndrang.",
+          "befunde": [
+            "Detrusorhyperreflexie"
+          ],
+          "diagnose": "Neurogene Inkontinenz",
+          "therapie": [
+            "Botulinumtoxin-Injektion in den Detrusor"
+          ],
+          "lernpunkte": [
+            "Botox-Wirkdauer ca. 6-9 Monate"
+          ]
+        },
+        {
+          "id": "URO_F070",
+          "titel": "Enuresis nocturna (Kind)",
+          "tags": [
+            "Kinderurologie"
+          ],
+          "patient": "7-j. Kind",
+          "praesentation": "Einnässen nachts (noch nie trocken gewesen).",
+          "befunde": [
+            "Sono: o.B.",
+            "Urin o.B."
+          ],
+          "diagnose": "Primäre Enuresis nocturna",
+          "therapie": [
+            "Klingelhose (Konditionierung)",
+            "Desmopressin"
+          ],
+          "lernpunkte": [
+            "Reifungsverzögerung der ADH-Sekretion"
+          ]
+        },
+        {
+          "id": "URO_F071",
+          "titel": "Harnröhrenstriktur",
+          "tags": [
+            "Urethra"
+          ],
+          "patient": "45-j. nach Kathetertrauma vor Jahren",
+          "praesentation": "Dünner Harnstrahl.",
+          "befunde": [
+            "Urethrogramm: Stenose in der Pars bulbaris"
+          ],
+          "diagnose": "Harnröhrenstriktur",
+          "therapie": [
+            "Urethrotomie nach Sachse vs. Harnröhrenplastik (Mundschleimhaut)"
+          ],
+          "lernpunkte": [
+            "Mundschleimhautplastik hat bessere Langzeitergebnisse"
+          ]
+        },
+        {
+          "id": "URO_F072",
+          "titel": "Honeymoon-Zystitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "22-j. Frau, akute Symptome",
+          "praesentation": "Nach vermehrtem GV massives Brennen.",
+          "befunde": [
+            "E. coli im Urin"
+          ],
+          "diagnose": "Postkoitale Zystitis",
+          "therapie": [
+            "Miktion nach GV",
+            "Einmal-Prophylaxe"
+          ],
+          "lernpunkte": [
+            "Mechanische Keimverschleppung"
+          ]
+        },
+        {
+          "id": "URO_F073",
+          "titel": "Senile Kolpitis (Atrophie)",
+          "tags": [
+            "Urogyn"
+          ],
+          "patient": "72-j. Frau, rez. Blaseninfekte",
+          "praesentation": "Brennen, Trockenheit.",
+          "befunde": [
+            "Vaginalschleimhaut blass/dünn"
+          ],
+          "diagnose": "Urogenitale Atrophie",
+          "therapie": [
+            "Lokale Östrogenisierung"
+          ],
+          "lernpunkte": [
+            "Östrogenmangel erhöht Infektanfälligkeit"
+          ]
+        },
+        {
+          "id": "URO_F074",
+          "titel": "Posterior-Urethral-Valve (PUV)",
+          "tags": [
+            "Kinderurologie",
+            "Notfall"
+          ],
+          "patient": "Neugeborenes (männlich)",
+          "praesentation": "Schwacher Strahl, pralle Blase.",
+          "befunde": [
+            "Sono: Beidseitiger Harnstau, 'Keyhole'-Blase"
+          ],
+          "diagnose": "Harnröhrenklappen",
+          "therapie": [
+            "Endoskopische Klappenschlitzung"
+          ],
+          "lernpunkte": [
+            "Wichtigste Ursache für pränatale Niereninsuffizienz"
+          ]
+        },
+        {
+          "id": "URO_F075",
+          "titel": "Phimose (Pathologisch)",
+          "tags": [
+            "Chirurgie",
+            "Haut"
+          ],
+          "patient": "10-j. Junge",
+          "praesentation": "Vorhaut lässt sich nicht zurückstreifen, Entzündungen.",
+          "befunde": [
+            "Narbiger Schnürring"
+          ],
+          "diagnose": "Narbige Phimose (Lichen sclerosus?)",
+          "therapie": [
+            "Zirkumzision (Beschneidung)"
+          ],
+          "lernpunkte": [
+            "Physiologische Phimose vs. behandlungsbedürftige Narbenphimose"
+          ]
+        }
+      ]
+    },
+    "andrologie_fehlbildungen": {
+      "label": "Andrologie & Fehlbildungen",
+      "emoji": "🧬",
+      "faelle": [
+        {
+          "id": "URO_A076",
+          "titel": "Unerfüllter Kinderwunsch (Infertilität)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "32-jähriger Mann",
+          "praesentation": "KiWu seit 2 Jahren, Frau gynäkologisch o.B.",
+          "befunde": [
+            "Spermiogramm: OAT-Syndrom (Oligo-Astheno-Teratozoospermie)",
+            "FSH leicht↑"
+          ],
+          "diagnose": "Männliche Infertilität",
+          "therapie": [
+            "Varikozelen-OP?",
+            "ggf. assistierte Reproduktion (ICSI)"
+          ],
+          "lernpunkte": [
+            "WHO-Grenzwerte für Spermiogramm kennen"
+          ]
+        },
+        {
+          "id": "URO_A077",
+          "titel": "Erektile Dysfunktion (Vaskulär)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "55-j. Diabetiker, Raucher",
+          "praesentation": "Erektionsstörung seit 1 Jahr.",
+          "befunde": [
+            "KHK bekannt",
+            "Nächtliche Erektionen fehlen"
+          ],
+          "diagnose": "Vaskulogene ED",
+          "therapie": [
+            "PDE-5-Hemmer (Sildenafil)",
+            "Rauchstopp"
+          ],
+          "lernpunkte": [
+            "ED kann Vorbote eines Herzinfarkts sein"
+          ]
+        },
+        {
+          "id": "URO_A078",
+          "titel": "Kryptorchismus (Hodenhochstand)",
+          "tags": [
+            "Kinderurologie"
+          ],
+          "patient": "1-j. Junge",
+          "praesentation": "Leeres Skrotum bei Vorsorge.",
+          "befunde": [
+            "Hoden im Leistenkanal tastbar"
+          ],
+          "diagnose": "Retentio testis (Maldescensus)",
+          "therapie": [
+            "Orchidopexie bis zum 1. Geburtstag"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Malignomrisiko und Infertilitätsrisiko bei fehlender Korrektur"
+          ]
+        },
+        {
+          "id": "URO_A079",
+          "titel": "Varikozele testis",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "22-j. Mann",
+          "praesentation": "Schweregefühl im Hoden links, 'Wurmsack'-Gefühl.",
+          "befunde": [
+            "Valsalva-Manöver: Venenfüllung sichtbar"
+          ],
+          "diagnose": "Varikozele Grad III",
+          "therapie": [
+            "Antegrade Sklerosierung oder laparoskopische Ligatur"
+          ],
+          "lernpunkte": [
+            "Häufiger links (Einmündung V. renalis)"
+          ]
+        },
+        {
+          "id": "URO_A080",
+          "titel": "Induratio penis plastica (IPP)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Schmerzhafte Verkrümmung des Penis bei Erektion.",
+          "befunde": [
+            "Derbe Plaques am Penisschaft tastbar"
+          ],
+          "diagnose": "IPP (Peyronie-Krankheit)",
+          "therapie": [
+            "Kalium-para-Aminobenzoat (Potaba)",
+            "OP im stabilen Stadium"
+          ],
+          "lernpunkte": [
+            "Entzündliche vs. stabile Phase"
+          ]
+        },
+        {
+          "id": "URO_A081",
+          "titel": "Hydrocele testis",
+          "tags": [
+            "Skrotum"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Einseitige schmerzlose Skrotalvergrößerung.",
+          "befunde": [
+            "Diaphanoskopie: Positiv (lichtdurchlässig)",
+            "Sono: Flüssigkeitssaum"
+          ],
+          "diagnose": "Hydrozele",
+          "therapie": [
+            "OP nach Jaboulay oder Lord"
+          ],
+          "lernpunkte": [
+            "Ausschluss Hodentumor zwingend"
+          ]
+        },
+        {
+          "id": "URO_A082",
+          "titel": "Hypospadie",
+          "tags": [
+            "Kinderurologie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Harnröhrenmündung auf Penisschaftunterseite.",
+          "befunde": [
+            "Meatus am Penisschaft",
+            "Vorhautschürze"
+          ],
+          "diagnose": "Hypospadie (Glandär/Schaft)",
+          "therapie": [
+            "Rekonstruktive OP mit ca. 12-18 Monaten"
+          ],
+          "lernpunkte": [
+            "KEINE Beschneidung im Säuglingsalter (Vorhauthaut für Plastik nötig)"
+          ]
+        },
+        {
+          "id": "URO_A083",
+          "titel": "Vesikoureteraler Reflux (VUR)",
+          "tags": [
+            "Kinderurologie"
+          ],
+          "patient": "3-j. Mädchen nach 2. Pyelonephritis",
+          "praesentation": "Fieber.",
+          "befunde": [
+            "MCU: Reflux in die Niere Grad IV"
+          ],
+          "diagnose": "VUR",
+          "therapie": [
+            "Antibiotische Prophylaxe vs. Unterspritzung"
+          ],
+          "lernpunkte": [
+            "Gefahr der Refluxnephropathie (Narben)"
+          ]
+        },
+        {
+          "id": "URO_A084",
+          "titel": "Late-Onset Hypogonadismus",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "62-j. Mann",
+          "praesentation": "Libidoverlust, Depressivität, Fettzunahme.",
+          "befunde": [
+            "Testosteron im Serum < 12 nmol/l"
+          ],
+          "diagnose": "Testosteronmangel des alternden Mannes",
+          "therapie": [
+            "Testosteronsubstitution (Gel/Spritze)"
+          ],
+          "lernpunkte": [
+            "Ausschluss Prostata-CA vor Therapiebeginn"
+          ]
+        },
+        {
+          "id": "URO_A085",
+          "titel": "Spermatozele",
+          "tags": [
+            "Skrotum"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Kleiner Knoten am oberen Hodenpol.",
+          "befunde": [
+            "Sono: Zyste am Nebenhodenkopf"
+          ],
+          "diagnose": "Spermatozele",
+          "therapie": [
+            "Abwarten",
+            "Exstirpation bei Schmerz"
+          ],
+          "lernpunkte": [
+            "Häufigster Nebenhodenbefund"
+          ]
+        }
+      ]
+    },
+    "notfälle_trauma_recht": {
+      "label": "Notfälle, Trauma & Recht",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "URO_N086",
+          "titel": "Hodentorsion",
+          "tags": [
+            "Notfall",
+            "Notfall"
+          ],
+          "patient": "14-jähriger Junge",
+          "praesentation": "Plötzliche, heftigste Hodenschmerzen nachts, Erbrechen.",
+          "befunde": [
+            "Prehn-Zeichen negativ",
+            "Hoden steht hoch",
+            "Fehlender Kremasterreflex"
+          ],
+          "diagnose": "Hodentorsion",
+          "therapie": [
+            "Notfall-OP (Detorsion + Orchidopexie bds.) < 6h"
+          ],
+          "lernpunkte": [
+            "Zeitfaktor: Rettungsrate sinkt drastisch nach 6 Stunden"
+          ]
+        },
+        {
+          "id": "URO_N087",
+          "titel": "Nierenruptur (Trauma)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "22-j. Motorradunfall",
+          "praesentation": "Flankenschmerz, Hämaturie, Schock.",
+          "befunde": [
+            "CT: Lazeration durch das Parenchym bis ins Hohlsystem"
+          ],
+          "diagnose": "Nierentrauma Grad IV",
+          "therapie": [
+            "Stabilisierung",
+            "Notfall-Laparotomie vs. Angio-Embolisation"
+          ],
+          "lernpunkte": [
+            "Grading nach AAST I-V"
+          ]
+        },
+        {
+          "id": "URO_N088",
+          "titel": "Priapismus (Ischämisch)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "35-j. Mann nach Sildenafil-Einnahme",
+          "praesentation": "Schmerzhafte Erektion seit 8 Stunden.",
+          "befunde": [
+            "BGA aus Schwellkörper: Azidose, Hypoxie"
+          ],
+          "diagnose": "Ischämischer Low-flow Priapismus",
+          "therapie": [
+            "Punktion + Instillation Sympathikomimetika"
+          ],
+          "lernpunkte": [
+            "Nach 24h irreversible Fibrose der Schwellkörper"
+          ]
+        },
+        {
+          "id": "URO_N089",
+          "titel": "Penisbruch (Ruptur)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "40-j. beim Geschlechtsverkehr",
+          "praesentation": "Hörbares Krachen, sofortiges Abschwellen, Hämatom ('Auberginen-Penis').",
+          "befunde": [
+            "Riss in der Tunica albuginea tastbar"
+          ],
+          "diagnose": "Penisruptur",
+          "therapie": [
+            "Sofortige operative Naht"
+          ],
+          "lernpunkte": [
+            "Klassischer Unfall beim Kohabitationsakt"
+          ]
+        },
+        {
+          "id": "URO_N090",
+          "titel": "Harnblasenruptur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "PKW-Unfall mit voller Blase",
+          "praesentation": "Unterbauchschmerz, kein Urinlassen möglich.",
+          "befunde": [
+            "CT-Zystographie: Extravasat"
+          ],
+          "diagnose": "Intraperitoneale Blasenruptur",
+          "therapie": [
+            "Laparotomie + zweireihige Naht"
+          ],
+          "lernpunkte": [
+            "Extraperitoneal kann oft konservativ (Katheter) behandelt werden"
+          ]
+        },
+        {
+          "id": "URO_N091",
+          "titel": "Paraphimose (Spanischer Kragen)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. bettlägerig nach Katheterisierung",
+          "praesentation": "Massive Schwellung der Vorhaut hinter der Eichel.",
+          "befunde": [
+            "Schwellkörperödeme, livide Glans"
+          ],
+          "diagnose": "Paraphimose",
+          "therapie": [
+            "Manuelle Reposition",
+            "Dorsalinzision"
+          ],
+          "lernpunkte": [
+            "Pflegefehler: Vorhaut nach Kathetereinlage nicht vorstreifen"
+          ]
+        },
+        {
+          "id": "URO_N092",
+          "titel": "Nierenstielabriss",
+          "tags": [
+            "Notfall",
+            "Trauma"
+          ],
+          "patient": "Hochrasanzunfall",
+          "praesentation": "Massiver hämorrhagischer Schock.",
+          "befunde": [
+            "CT: Fehlende KM-Aufnahme einer Niere"
+          ],
+          "diagnose": "Nierentrauma Grad V",
+          "therapie": [
+            "Notfall-Nephrektomie"
+          ],
+          "lernpunkte": [
+            "Höchste Mortalität unter Nierentraumen"
+          ]
+        },
+        {
+          "id": "URO_N093",
+          "titel": "Aufklärung zur RPE (Recht)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Patient vor Prostatektomie",
+          "praesentation": "Wunsch nach Zweitmeinung.",
+          "befunde": [
+            "Karzinom gesichert"
+          ],
+          "diagnose": "Beratungssituation",
+          "therapie": [
+            "Detaillierte Aufklärung über Inkontinenz und Impotenz"
+          ],
+          "lernpunkte": [
+            "Inkontinenzrisiko (5-10%), Impotenzrisiko (30-80%)"
+          ]
+        },
+        {
+          "id": "URO_N094",
+          "titel": "Dokumentationsfehler (Recht)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Klage nach Stein-OP",
+          "praesentation": "Harnleiterverletzung intraoperativ.",
+          "befunde": [
+            "Im OP-Bericht fehlt Hinweis auf Komplikation"
+          ],
+          "diagnose": "Haftungsrisiko",
+          "therapie": [
+            "Vollständige Dokumentation aller Ereignisse"
+          ],
+          "lernpunkte": [
+            "Nicht dokumentiert = nicht erfolgt"
+          ]
+        },
+        {
+          "id": "URO_N095",
+          "titel": "Akutes Abdomen bei Urinom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach gynäkologischer OP",
+          "praesentation": "Bauchschmerzen, fehlender Urinfluss.",
+          "befunde": [
+            "Labor: Harnstoff im Aszites↑",
+            "Sono: Flüssigkeit retroperitoneal"
+          ],
+          "diagnose": "Iatrogene Ureterverletzung mit Urinom",
+          "therapie": [
+            "Drainage + Schienung/Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Unterscheidung Aszites vs. Urinom via Labormarker"
+          ]
+        },
+        {
+          "id": "URO_N096",
+          "titel": "Semen-Analysis (Forensik)",
+          "tags": [
+            "Recht",
+            "Venerologie"
+          ],
+          "patient": "Opfer sexueller Gewalt",
+          "praesentation": "Spurensicherung.",
+          "befunde": [
+            "Spermanachweis auf Kleidung"
+          ],
+          "diagnose": "Beweissicherung",
+          "therapie": [
+            "Dokumentation",
+            "DNA-Analyse"
+          ],
+          "lernpunkte": [
+            "PSA-Nachweis (Seminoprotein) auch bei Azoospermie möglich"
+          ]
+        },
+        {
+          "id": "URO_N097",
+          "titel": "Sterilisationsberatung (Vasektomie)",
+          "tags": [
+            "Andrologie",
+            "Recht"
+          ],
+          "patient": "40-j. Mann, abgeschlossene Familienplanung",
+          "praesentation": "Wunsch nach Sterilisation.",
+          "befunde": [
+            "Rechtliche Einwilligungsfähigkeit"
+          ],
+          "diagnose": "Indikationsgespräch",
+          "therapie": [
+            "Aufklärung: Irreversibilität, 2 Spermiogramme postop nötig"
+          ],
+          "lernpunkte": [
+            "Schutz vor Regress: Kontroll-Spermiogramm nach 3 Monaten"
+          ]
+        },
+        {
+          "id": "URO_N098",
+          "titel": "Nierenbeckenplastik (Nachsorge)",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Säugling postop",
+          "praesentation": "Kontrolle.",
+          "befunde": [
+            "Sono: Abnahme der Hydronephrose"
+          ],
+          "diagnose": "Regrediente Ektasie",
+          "therapie": [
+            "Regelmäßige Sono-Kontrollen"
+          ],
+          "lernpunkte": [
+            "Wachstumsbegleitung"
+          ]
+        },
+        {
+          "id": "URO_N099",
+          "titel": "Reflex-Epilepsie urologisch?",
+          "tags": [
+            "Neurourologie"
+          ],
+          "patient": "Pat. mit Zerebralparese",
+          "praesentation": "Krampfanfälle bei voller Blase.",
+          "befunde": [
+            "Vegetative Dysreflexie"
+          ],
+          "diagnose": "Autonome Dysreflexie bei Querschnitt über Th6",
+          "therapie": [
+            "Blasenentleerung",
+            "Blutdrucksenkung"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohlicher Notfall durch Sympathikusaktivierung"
+          ]
+        },
+        {
+          "id": "URO_N100",
+          "titel": "Behandlungsfehler: Maldescensus-Folge",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "25-j. mit Seminom",
+          "praesentation": "Klage, da Hodenhochstand im Kindesalter nicht operiert wurde.",
+          "befunde": [
+            "Atropher Hoden inguinal"
+          ],
+          "diagnose": "Versäumte Orchidopexie",
+          "therapie": [
+            "Medizinische Begutachtung"
+          ],
+          "lernpunkte": [
+            "Haftung bei Missachtung der Operationsfristen (bis 1. LJ)"
+          ]
+        }
+      ]
+    }
+  }
+}

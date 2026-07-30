@@ -1,0 +1,2149 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Orthopädie und Unfallchirurgie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "untersuchung_entwicklung": {
+      "label": "Untersuchung & Entwicklung",
+      "emoji": "📏",
+      "faelle": [
+        {
+          "id": "ORT_001",
+          "titel": "Skoliose-Untersuchung (Adams-Test)",
+          "tags": [
+            "Untersuchung",
+            "Wirbelsäule"
+          ],
+          "patient": "12-jähriges Mädchen",
+          "praesentation": "Schuluntersuchung: Verdacht auf Wirbelsäulenverkrümmung.",
+          "befunde": [
+            "Vorneigetest: Rippenbuckel rechts thorakal erkennbar",
+            "Lotabweichung",
+            "Beckenschiefstand"
+          ],
+          "diagnose": "Idiopathische Adoleszentenskoliose",
+          "therapie": [
+            "Röntgen (Ganzwirbelsäule)",
+            "Physiotherapie (Schroth)",
+            "ggf. Korsett"
+          ],
+          "lernpunkte": [
+            "Adams-Test zur Differenzierung funktionell vs. strukturell",
+            "Cobb-Winkel Messung"
+          ]
+        },
+        {
+          "id": "ORT_002",
+          "titel": "Hüft-Screening (Ortolani/Barlow)",
+          "tags": [
+            "Pädiatrie",
+            "Untersuchung"
+          ],
+          "patient": "Neugeborenes, 3. Lebenstag",
+          "praesentation": "U2-Vorsorge.",
+          "befunde": [
+            "Barlow-Zeichen: Provokation der Luxation",
+            "Ortolani-Zeichen: Repositionsklick"
+          ],
+          "diagnose": "Instabile Hüfte / V.a. Dysplasie",
+          "therapie": [
+            "Hüft-Sonographie (Graf-Methode)",
+            "Breitwickeln / Spreizhose"
+          ],
+          "lernpunkte": [
+            "Frühzeitiges Screening verhindert sekundäre Luxation"
+          ]
+        },
+        {
+          "id": "ORT_003",
+          "titel": "Osteogenesis imperfecta (Glasknochen)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "4-j. Junge",
+          "praesentation": "Rezidivierende Frakturen bei Bagatelltraumen.",
+          "befunde": [
+            "Blaue Skleren",
+            "Osteopenie im Röntgen",
+            "Wurmsche Knochen"
+          ],
+          "diagnose": "Osteogenesis imperfecta Typ I",
+          "therapie": [
+            "Bisphosphonate",
+            "Physiotherapie",
+            "Marknagelung bei Deformität"
+          ],
+          "lernpunkte": [
+            "Kollagen-Typ-I-Störung",
+            "Hörstörungen im Verlauf"
+          ]
+        },
+        {
+          "id": "ORT_004",
+          "titel": "Achondroplasie",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Disproportionierter Kleinwuchs.",
+          "befunde": [
+            "Rhizomeler Extremitätenverkürzung",
+            "Dreizackhand",
+            "Vorgeölbte Stirn"
+          ],
+          "diagnose": "Achondroplasie",
+          "therapie": [
+            "Ggf. Verlängerungsosteotomien",
+            "Überwachung Spinalkanal"
+          ],
+          "lernpunkte": [
+            "Mutation im FGFR3-Gen",
+            "Häufigste Form des genetischen Kleinwuchses"
+          ]
+        },
+        {
+          "id": "ORT_005",
+          "titel": "Klippel-Feil-Syndrom",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "15-j. Jugendlicher",
+          "praesentation": "Kurzhals, tiefer Haarsatz, eingeschränkte Kopfbeweglichkeit.",
+          "befunde": [
+            "Röntgen: Blockwirbelbildung HWS"
+          ],
+          "diagnose": "Klippel-Feil-Syndrom",
+          "therapie": [
+            "Konservativ",
+            "Vermeidung von Kontaktsport"
+          ],
+          "lernpunkte": [
+            "Gefahr der Instabilität und neurologischer Ausfälle"
+          ]
+        },
+        {
+          "id": "ORT_006",
+          "titel": "Vitamin-D-Mangel-Rachitis",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "18 Monate altes Kleinkind",
+          "praesentation": "O-Beine (Genu varum), verzögertes Laufen.",
+          "befunde": [
+            "Rachitischer Rosenkranz",
+            "Auftreibung der Metaphysen",
+            "Vitamin D3↓"
+          ],
+          "diagnose": "Rachitis",
+          "therapie": [
+            "Vitamin D und Calcium Substitution"
+          ],
+          "lernpunkte": [
+            "Bedeutung der Rachitisprophylaxe"
+          ]
+        },
+        {
+          "id": "ORT_007",
+          "titel": "Klumphand (Radiale Dysmelie)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Säugling",
+          "praesentation": "Radiale Abknickung des Unterarms.",
+          "befunde": [
+            "Radius-Aplasie",
+            "Daumen-Hypoplasie"
+          ],
+          "diagnose": "Radiale Dysmelie",
+          "therapie": [
+            "Redression",
+            "Schienung",
+            "später Zentralisation"
+          ],
+          "lernpunkte": [
+            "Oft assoziiert mit VACTERL-Syndrom"
+          ]
+        },
+        {
+          "id": "ORT_008",
+          "titel": "Dysostosis cleidocranialis",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Auffällige Schulterbeweglichkeit (Zusammenführen vorne).",
+          "befunde": [
+            "Aplasie der Klavikeln",
+            "Offene Fontanellen"
+          ],
+          "diagnose": "Dysostosis cleidocranialis",
+          "therapie": [
+            "Zahnärztliche Begleitung",
+            "Schutzhelme"
+          ],
+          "lernpunkte": [
+            "Hereditäre Störung der desmalen Ossifikation"
+          ]
+        },
+        {
+          "id": "ORT_009",
+          "titel": "Pes equinovarus (Klumpfuß)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Fußfehlstellung nach innen.",
+          "befunde": [
+            "Spitzfuß, Sichelfuß, Varusstellung, Hohlfuß-Komponente"
+          ],
+          "diagnose": "Angeborener Klumpfuß",
+          "therapie": [
+            "Gipsredression nach Ponseti",
+            "Achillotenotomie"
+          ],
+          "lernpunkte": [
+            "Ponseti-Methode ist Goldstandard"
+          ]
+        },
+        {
+          "id": "ORT_010",
+          "titel": "Infantiler Schiefhals",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "2 Monate alter Säugling",
+          "praesentation": "Neigung des Kopfes zur Seite.",
+          "befunde": [
+            "Verkürzung/Verhärtung des M. sternocleidomastoideus"
+          ],
+          "diagnose": "Torticollis muscularis",
+          "therapie": [
+            "Dehnungsübungen",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Ausschluss knöcherner Fehlbildungen nötig"
+          ]
+        },
+        {
+          "id": "ORT_011",
+          "titel": "Arthrogryposis multiplex congenita",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Multiple Gelenkkontrakturen.",
+          "befunde": [
+            "Zylindrische Extremitäten",
+            "Fehlende Hautfalten über Gelenken"
+          ],
+          "diagnose": "Arthrogrypose",
+          "therapie": [
+            "Frühfunktionelle Physiotherapie",
+            "Gipse",
+            "OPs"
+          ],
+          "lernpunkte": [
+            "Keine primäre Gelenkerkrankung, meist neuro-muskulär bedingt"
+          ]
+        },
+        {
+          "id": "ORT_012",
+          "titel": "M. Scheuermann (Jugendkyphose)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "16-j. Junge",
+          "praesentation": "Rundrückenbildung, Rückenschmerzen.",
+          "befunde": [
+            "Kyphose > 40°",
+            "Schmorl-Knötchen im Röntgen",
+            "Keilwirbel"
+          ],
+          "diagnose": "M. Scheuermann",
+          "therapie": [
+            "Haltungsturnen",
+            "ggf. Korsetttherapie"
+          ],
+          "lernpunkte": [
+            "Wachstumsstörung der Wirbelkörpergrund- und deckplatten"
+          ]
+        }
+      ]
+    },
+    "stoffwechsel_infekt_tumor": {
+      "label": "Stoffwechsel, Infekt & Tumor",
+      "emoji": "🦠",
+      "faelle": [
+        {
+          "id": "ORT_013",
+          "titel": "Postmenopausale Osteoporose",
+          "tags": [
+            "Stoffwechsel",
+            "Geriatrie"
+          ],
+          "patient": "70-jährige Patientin",
+          "praesentation": "Rückenschmerzen nach Hustenstoß.",
+          "befunde": [
+            "T-Score DXA: -3,0",
+            "Sinterungsfraktur BWK 12 im Röntgen"
+          ],
+          "diagnose": "Manifeste Osteoporose",
+          "therapie": [
+            "Bisphosphonate",
+            "Vitamin D/Calcium",
+            "Analgesie"
+          ],
+          "lernpunkte": [
+            "DXA am Schenkelhals/LWS als Goldstandard",
+            "DVO-Leitlinie"
+          ]
+        },
+        {
+          "id": "ORT_014",
+          "titel": "M. Paget (Osteodystrophia deformans)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Zunehmender Kopfumfang, dumpfe Schmerzen in Schienbein.",
+          "befunde": [
+            "AP massiv↑",
+            "Röntgen: Grobe Knochenstruktur (Mosaik)"
+          ],
+          "diagnose": "Morbus Paget",
+          "therapie": [
+            "Bisphosphonate (Zoledronat)"
+          ],
+          "lernpunkte": [
+            "Gefahr der malignen Entartung (Osteosarkom)"
+          ]
+        },
+        {
+          "id": "ORT_015",
+          "titel": "Akute hämatogene Osteomyelitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "7-j. Kind",
+          "praesentation": "Fieber, Schmerzen im Schienbein, Belastungsverweigerung.",
+          "befunde": [
+            "Druckschmerz Metaphyse",
+            "CRP↑",
+            "MRT: Markraumödem"
+          ],
+          "diagnose": "Akute Osteomyelitis",
+          "therapie": [
+            "Stationäre i.v. Antibiose",
+            "Ruhigstellung"
+          ],
+          "lernpunkte": [
+            "Meist S. aureus",
+            "Involucrum und Sequestrierung bei Chronifizierung"
+          ]
+        },
+        {
+          "id": "ORT_016",
+          "titel": "Septische Coxitis (Säugling)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "3 Monate alter Säugling",
+          "praesentation": "Fieber, Schonhaltung der Hüfte (Flexion/Außenrotation).",
+          "befunde": [
+            "Leukozytose",
+            "Sono: Gelenkerguss",
+            "Punktat: eitrig"
+          ],
+          "diagnose": "Septische Arthritis der Hüfte",
+          "therapie": [
+            "Notfall-Arthrotomie und Spülung",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Dringliche Entlastung zur Vermeidung der Hüftkopfnekrose"
+          ]
+        },
+        {
+          "id": "ORT_017",
+          "titel": "Brodie-Abszess",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "14-j. Junge",
+          "praesentation": "Belastungsschmerz Schienbein seit Monaten.",
+          "befunde": [
+            "Rö: Scharf begrenzte Aufhellung mit Sklerosesaum"
+          ],
+          "diagnose": "Chronische Osteomyelitis (Brodie-Abszess)",
+          "therapie": [
+            "Ausräumung (Kürettage)",
+            "lokale Antibiotikaträger"
+          ],
+          "lernpunkte": [
+            "Subakute Verlaufsform der Osteomyelitis"
+          ]
+        },
+        {
+          "id": "ORT_018",
+          "titel": "Osteoidosteom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "19-j. Mann",
+          "praesentation": "Nächtliche Schmerzen im Femur, prompte Besserung durch ASS.",
+          "befunde": [
+            "CT: Nidus < 1cm mit Umgebungsreaktion"
+          ],
+          "diagnose": "Osteoidosteom",
+          "therapie": [
+            "Radiofrequenzablation (RFA)"
+          ],
+          "lernpunkte": [
+            "Klassische Schmerzanamnese (nächtlich, ASS-sensibel)"
+          ]
+        },
+        {
+          "id": "ORT_019",
+          "titel": "Osteosarkom",
+          "tags": [
+            "Tumor",
+            "Notfall"
+          ],
+          "patient": "15-j. Jugendlicher",
+          "praesentation": "Schmerzlose Schwellung kniefern am Oberschenkel.",
+          "befunde": [
+            "Rö: Sunburst-Phänomen",
+            "Codman-Dreieck"
+          ],
+          "diagnose": "Osteosarkom",
+          "therapie": [
+            "Neoadjuvante Chemo",
+            "Weite Resektion",
+            "Endoprothese"
+          ],
+          "lernpunkte": [
+            "Häufigster primärer maligner Knochentumor"
+          ]
+        },
+        {
+          "id": "ORT_020",
+          "titel": "Ewing-Sarkom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Schmerzen und Rötung am Diaphysenbereich (V.a. Osteomyelitis).",
+          "befunde": [
+            "Rö: Zwiebelschalenartige Periostreaktion"
+          ],
+          "diagnose": "Ewing-Sarkom",
+          "therapie": [
+            "Radiochemotherapie + OP"
+          ],
+          "lernpunkte": [
+            "t(11;22) Translokation",
+            "DD: Osteomyelitis"
+          ]
+        },
+        {
+          "id": "ORT_021",
+          "titel": "Exostose (Osteochondrom)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "12-j. Mädchen",
+          "praesentation": "Harte Vorwölbung am Knie.",
+          "befunde": [
+            "Rö: Pilzförmige Exostose an der Metaphyse"
+          ],
+          "diagnose": "Kartilaginäre Exostose",
+          "therapie": [
+            "Beobachtung",
+            "Exstirpation bei Beschwerden"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner Knochentumor"
+          ]
+        },
+        {
+          "id": "ORT_022",
+          "titel": "Riesenzelltumor (Osteoklastom)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Schmerzen distal am Femur.",
+          "befunde": [
+            "Rö: Epiphysäre Seifenblasen-Osteolyse"
+          ],
+          "diagnose": "Riesenzelltumor",
+          "therapie": [
+            "Kürettage",
+            "Auffüllung mit Knochenzement"
+          ],
+          "lernpunkte": [
+            "Lokal aggressiv, hohes Rezidivrisiko"
+          ]
+        },
+        {
+          "id": "ORT_023",
+          "titel": "Chondrosarkom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Dumpfe Schmerzen im Becken.",
+          "befunde": [
+            "Rö: Popcorn-Verkalkungen im Tumor"
+          ],
+          "diagnose": "Chondrosarkom",
+          "therapie": [
+            "Radikale Resektion (Chemo/Strahl therapieresistent)"
+          ],
+          "lernpunkte": [
+            "Betrifft meist das höhere Lebensalter"
+          ]
+        },
+        {
+          "id": "ORT_024",
+          "titel": "Enchondrom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "25-j. Zufallsbefund",
+          "praesentation": "Röntgen nach Fingerstauchung.",
+          "befunde": [
+            "Zentrale Aufhellung im Grundphalanx"
+          ],
+          "diagnose": "Enchondrom",
+          "therapie": [
+            "Verlaufskontrolle",
+            "bei Frakturgefahr Kürettage"
+          ],
+          "lernpunkte": [
+            "Häufigster Tumor der Handknochen"
+          ]
+        },
+        {
+          "id": "ORT_025",
+          "titel": "Knochenzyste (Juvenil)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "8-j. Junge",
+          "praesentation": "Pathologische Humerusfraktur beim Ballwurf.",
+          "befunde": [
+            "Rö: 'Fallen leaf sign'"
+          ],
+          "diagnose": "Einkammerige Knochenzyste",
+          "therapie": [
+            "Frakturbehandlung",
+            "später ggf. Injektion von Cortison"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache pathologischer Frakturen im Kindesalter"
+          ]
+        },
+        {
+          "id": "ORT_026",
+          "titel": "Aneurysmatische Knochenzyste",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "16-j. Patient",
+          "praesentation": "Rasche Schwellung und Schmerz an der Wirbelsäule.",
+          "befunde": [
+            "MRT: Flüssigkeitsspiegel (Fluid-Fluid levels)"
+          ],
+          "diagnose": "Aneurysmatische Knochenzyste",
+          "therapie": [
+            "Kürettage",
+            "Auffüllung"
+          ],
+          "lernpunkte": [
+            "Kein echter Tumor, sondern reaktive vaskuläre Läsion"
+          ]
+        },
+        {
+          "id": "ORT_027",
+          "titel": "Osteosarkom-Metastase (Lunge)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Nachsorgefall",
+          "praesentation": "Husten, Dyspnoe.",
+          "befunde": [
+            "CT-Thorax: Rundherde"
+          ],
+          "diagnose": "Pulmonale Metastasierung",
+          "therapie": [
+            "Metastasektomie",
+            "Second-Line Chemo"
+          ],
+          "lernpunkte": [
+            "Häufigster Metastasierungsort von Knochensarkomen"
+          ]
+        }
+      ]
+    },
+    "rheuma_neuroorthopaedie": {
+      "label": "Rheuma & Neuroorthopädie",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "ORT_028",
+          "titel": "Rheumatoide Arthritis (Hände)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "55-jährige Frau",
+          "praesentation": "Morgensteifigkeit > 1h, symmetrische Schwellung der Grundgelenke.",
+          "befunde": [
+            "Ulnardeviation",
+            "Schwanenhalsdeformität",
+            "Rheumafaktor+"
+          ],
+          "diagnose": "Rheumatoide Arthritis",
+          "therapie": [
+            "Basistherapie (MTX)",
+            "NSAR",
+            "Synovialektomie"
+          ],
+          "lernpunkte": [
+            "Befallsmuster: MCP und PIP (DIP meist ausgespart)"
+          ]
+        },
+        {
+          "id": "ORT_029",
+          "titel": "Morbus Bechterew (Spondylitis ankylosans)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Nächtlicher Kreuzschmerz, Besserung bei Bewegung.",
+          "befunde": [
+            "Mennell-Zeichen positiv",
+            "HLA-B27+",
+            "Rö: Bambusstab-Wirbelsäule"
+          ],
+          "diagnose": "Spondylitis ankylosans",
+          "therapie": [
+            "NSAR",
+            "Physiotherapie",
+            "TNF-alpha-Blocker"
+          ],
+          "lernpunkte": [
+            "Schober-Maß zur Messung der Beweglichkeit"
+          ]
+        },
+        {
+          "id": "ORT_030",
+          "titel": "Psoriasis-Arthritis",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "42-j. Patient mit Schuppenflechte",
+          "praesentation": "Daktylitis ('Wurstfinger'), Gelenkschmerz.",
+          "befunde": [
+            "Pencil-in-cup Deformität im Röntgen"
+          ],
+          "diagnose": "Psoriasis-Arthritis",
+          "therapie": [
+            "MTX",
+            "Biologika"
+          ],
+          "lernpunkte": [
+            "Häufig Befall der DIP-Gelenke"
+          ]
+        },
+        {
+          "id": "ORT_031",
+          "titel": "Gichtarthropathie (Akut)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "50-j. Mann nach Alkoholexzess",
+          "praesentation": "Podagra: Rötung/Schwellung Großzehengrundgelenk.",
+          "befunde": [
+            "Harnsäure↑",
+            "Punktat: negativ doppelbrechende Kristalle"
+          ],
+          "diagnose": "Akuter Gichtanfall",
+          "therapie": [
+            "NSAR",
+            "Glukokortikoide",
+            "Colchicin"
+          ],
+          "lernpunkte": [
+            "Uratkristalle in Synovialflüssigkeit"
+          ]
+        },
+        {
+          "id": "ORT_032",
+          "titel": "Infantile Zerebralparese (ICP)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Spastischer Spitzfußgang, Scheregang.",
+          "befunde": [
+            "Gesteigerte Eigenreflexe",
+            "persistierende Primitivreflexe"
+          ],
+          "diagnose": "ICP (Spastische Diparese)",
+          "therapie": [
+            "Botulinumtoxin",
+            "Hilfsmittel (Orthesen)",
+            "OPs"
+          ],
+          "lernpunkte": [
+            "Frühkindliche Hirnschädigung, nicht progredient"
+          ]
+        },
+        {
+          "id": "ORT_033",
+          "titel": "Poliomyelitis (Spätfolgen)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "70-j. Patient",
+          "praesentation": "Zunehmende Schwäche und Atrophie eines Beines.",
+          "befunde": [
+            "Schlaffe Lähmung",
+            "Areflexie"
+          ],
+          "diagnose": "Post-Polio-Syndrom",
+          "therapie": [
+            "Hilfsmittel",
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Dekompensation verbliebener Motoneurone"
+          ]
+        },
+        {
+          "id": "ORT_034",
+          "titel": "Myelomeningozele (Spina bifida)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Offener Defekt lumbal.",
+          "befunde": [
+            "Hüftluxation bds.",
+            "Klumpfüße"
+          ],
+          "diagnose": "MMC",
+          "therapie": [
+            "Verschluss",
+            "Shunt",
+            "Orthopädische Versorgung"
+          ],
+          "lernpunkte": [
+            "Querschnittsniveau bestimmt Gehfähigkeit"
+          ]
+        },
+        {
+          "id": "ORT_035",
+          "titel": "M. Charcot-Marie-Tooth",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "22-j. Mann",
+          "praesentation": "Hohlfußbildung (Pes cavus), Storchenbeine.",
+          "befunde": [
+            "Atrophie der distalen Muskulatur",
+            "NLG↓"
+          ],
+          "diagnose": "Hereditäre motorisch-sensible Neuropathie (HMSN)",
+          "therapie": [
+            "Einlagen",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Häufigste hereditäre Neuropathie"
+          ]
+        },
+        {
+          "id": "ORT_036",
+          "titel": "Fibromyalgie-Syndrom",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Ganzkörperschmerz, Schlafstörung, Erschöpfung.",
+          "befunde": [
+            "Tender Points positiv",
+            "Labor/Röntgen unauffällig"
+          ],
+          "diagnose": "Fibromyalgie",
+          "therapie": [
+            "Multimodale Schmerztherapie",
+            "Ausdauersport"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnostik wichtig"
+          ]
+        },
+        {
+          "id": "ORT_037",
+          "titel": "Neuropathische Arthropathie (Charcot-Fuß)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Schmerzlose Schwellung und Rötung des Fußes.",
+          "befunde": [
+            "Massive Knochendestruktion im Röntgen",
+            "Sensibilitätsverlust"
+          ],
+          "diagnose": "Charcot-Fuß (DNOAP)",
+          "therapie": [
+            "Entlastung (Total Contact Cast)",
+            "Stabilisierung"
+          ],
+          "lernpunkte": [
+            "Gefahr der Amputation bei Verpassen"
+          ]
+        },
+        {
+          "id": "ORT_038",
+          "titel": "Duchenne Muskeldystrophie",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "5-j. Junge",
+          "praesentation": "Gowers-Zeichen positiv, Watschelgang.",
+          "befunde": [
+            "CK-Wert massiv↑",
+            "Wadenpseudohypertrophie"
+          ],
+          "diagnose": "DMD",
+          "therapie": [
+            "Steroide",
+            "Physio",
+            "Hilfsmittel"
+          ],
+          "lernpunkte": [
+            "X-chromosomal-rezessiv, Letalität durch Herz/Atemversagen"
+          ]
+        },
+        {
+          "id": "ORT_039",
+          "titel": "Friedreich-Ataxie",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "18-j. Patient",
+          "praesentation": "Gangunsicherheit, Hohlfuß, Skoliose.",
+          "befunde": [
+            "Areflexie Beine",
+            "Babinski positiv",
+            "Kardiomyopathie"
+          ],
+          "diagnose": "Friedreich-Ataxie",
+          "therapie": [
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Trinukleotid-Repeat-Erkrankung"
+          ]
+        },
+        {
+          "id": "ORT_040",
+          "titel": "Polymyalgia rheumatica",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "72-j. Frau",
+          "praesentation": "Schmerzen im Schulter- und Hüftgürtel nachts, morgens.",
+          "befunde": [
+            "BSG massiv↑",
+            "Prompter Erfolg auf Steroide"
+          ],
+          "diagnose": "PMR",
+          "therapie": [
+            "Glukokortikoide"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Arteriitis temporalis"
+          ]
+        }
+      ]
+    },
+    "wirbelsaeule_becken": {
+      "label": "Wirbelsäule & Becken",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "ORT_041",
+          "titel": "Lumbaler Bandscheibenvorfall L5/S1",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "42-jähriger Mann",
+          "praesentation": "Akuter Rückenschmerz, Ausstrahlung in Wade/lateralen Fußrand.",
+          "befunde": [
+            "S1-Wurzel: ASR fehlt, Fußsenkerschwäche (M4)",
+            "Lasegue 30° positiv"
+          ],
+          "diagnose": "Bandscheibenvorfall L5/S1 rechts",
+          "therapie": [
+            "Analgetika",
+            "Physiotherapie",
+            "ggf. Sequestrektomie"
+          ],
+          "lernpunkte": [
+            "Notfall: Cauda-Syndrom (Sattelanästhesie)"
+          ]
+        },
+        {
+          "id": "ORT_042",
+          "titel": "Zervikale Myelopathie",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "68-j. Patient",
+          "praesentation": "Feinmotorikstörung Hände, Gangunsicherheit.",
+          "befunde": [
+            "Gesteigerte Reflexe Beine",
+            "Hoffmann-Reflex positiv",
+            "MRT: Spinalkanalstenose"
+          ],
+          "diagnose": "Zervikale Myelopathie",
+          "therapie": [
+            "Operative Dekompression (Laminoplastie/ACDF)"
+          ],
+          "lernpunkte": [
+            "Schleichende Entwicklung, oft verkannt"
+          ]
+        },
+        {
+          "id": "ORT_043",
+          "titel": "Spondylolisthese (Gleitwirbel)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Belastungsabhängiger Kreuzschmerz.",
+          "befunde": [
+            "Rö: Gleitwirbel L4/5 Meyerding II",
+            "Spondylolyse"
+          ],
+          "diagnose": "Degenerative Spondylolisthese",
+          "therapie": [
+            "Rumpfstabilisierung",
+            "ggf. Spondylodese"
+          ],
+          "lernpunkte": [
+            "Meyerding-Klassifikation (I-IV)"
+          ]
+        },
+        {
+          "id": "ORT_044",
+          "titel": "Lumbale Spinalkanalstenose",
+          "tags": [
+            "Wirbelsäule",
+            "Geriatrie"
+          ],
+          "patient": "75-j. Mann",
+          "praesentation": "Claudicatio spinalis: Beinschmerz beim Gehen, Besserung beim Bücken.",
+          "befunde": [
+            "MRT: Sanduhrstenose"
+          ],
+          "diagnose": "Spinalkanalstenose",
+          "therapie": [
+            "Konservativ",
+            "Dekompression (Crossover)"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur pAVK (Fahrradtest)"
+          ]
+        },
+        {
+          "id": "ORT_045",
+          "titel": "Instabile Beckenringfraktur",
+          "tags": [
+            "Notfall",
+            "Trauma"
+          ],
+          "patient": "25-j. nach Sturz aus großer Höhe",
+          "praesentation": "Schock, instabiler Beckenring.",
+          "befunde": [
+            "CT: Bruch vorderer und hinterer Beckenring (Typ C)"
+          ],
+          "diagnose": "Beckenringfraktur Typ C",
+          "therapie": [
+            "Beckenklammer / Beckenzwinge",
+            "Fixateur externe",
+            "Osteosynthese"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für massive Blutungen"
+          ]
+        },
+        {
+          "id": "ORT_046",
+          "titel": "Schenkelhalsfraktur (Medial)",
+          "tags": [
+            "Trauma",
+            "Geriatrie"
+          ],
+          "patient": "82-j. Frau nach Sturz im Heim",
+          "praesentation": "Bein verkürzt, außenrotiert, schmerzhaft.",
+          "befunde": [
+            "Rö: Dislozierte mediale SHF (Garden IV)"
+          ],
+          "diagnose": "Mediale SHF",
+          "therapie": [
+            "Hüft-TEP oder Duokopf-Prothese"
+          ],
+          "lernpunkte": [
+            "Gefahr der Hüftkopfnekrose bei kopferhaltender OP"
+          ]
+        },
+        {
+          "id": "ORT_047",
+          "titel": "Acetabulumfraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. Autounfall (Dashboard Injury)",
+          "praesentation": "Hüftschmerz.",
+          "befunde": [
+            "CT: Bruch der Hinterwand/Pfeiler"
+          ],
+          "diagnose": "Acetabulumfraktur",
+          "therapie": [
+            "Osteosynthese via Stoppa-Zugang"
+          ],
+          "lernpunkte": [
+            "Gefahr der posttraumatischen Coxarthrose"
+          ]
+        },
+        {
+          "id": "ORT_048",
+          "titel": "Spondylodiszitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Heftiger, lokaler Wirbelsäulenschmerz, Fieber.",
+          "befunde": [
+            "BSG/CRP↑",
+            "MRT: Knochenmarködem der Grund/Deckplatten"
+          ],
+          "diagnose": "Spondylodiszitis",
+          "therapie": [
+            "Langzeit-Antibiose",
+            "Ruhigstellung (Korsett)"
+          ],
+          "lernpunkte": [
+            "Häufig hämatogene Aussaat (S. aureus)"
+          ]
+        },
+        {
+          "id": "ORT_049",
+          "titel": "Osteoporotische Wirbelkörperfraktur",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "78-j. Frau",
+          "praesentation": "Akuter Rückenschmerz ohne Trauma.",
+          "befunde": [
+            "Rö: Keilwirbelbildung BWK 11"
+          ],
+          "diagnose": "Sinterungsfraktur bei Osteoporose",
+          "therapie": [
+            "Analgesie",
+            "Korsett",
+            "ggf. Kyphoplastie"
+          ],
+          "lernpunkte": [
+            "Kyphoplastie zur Zementstabilisierung"
+          ]
+        },
+        {
+          "id": "ORT_050",
+          "titel": "ISG-Syndrom",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Einseitiger tiefsitzender Rückenschmerz.",
+          "befunde": [
+            "Patrick-Test positiv",
+            "Druckschmerz über ISG"
+          ],
+          "diagnose": "Sakroiliakalgelenk-Dysfunktion",
+          "therapie": [
+            "Manuelle Therapie",
+            "Infiltration"
+          ],
+          "lernpunkte": [
+            "Ausschluss Sakroiliitis (M. Bechterew)"
+          ]
+        },
+        {
+          "id": "ORT_051",
+          "titel": "Jefferson-Fraktur (C1)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Nach Kopfsprung in flaches Wasser",
+          "praesentation": "Nackenschmerz.",
+          "befunde": [
+            "Rö-Transoral: Auseinanderweichen der Massae laterales"
+          ],
+          "diagnose": "Atlas-Berstungsfraktur",
+          "therapie": [
+            "Halo-Fixateur oder C1/C2 Fusion"
+          ],
+          "lernpunkte": [
+            "Instabile Fraktur des Atlasrings"
+          ]
+        },
+        {
+          "id": "ORT_052",
+          "titel": "Densfraktur Typ II",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "80-j. Sturz auf die Stirn",
+          "praesentation": "Schmerzen Kopfgelenk.",
+          "befunde": [
+            "CT: Bruch der Densbasis"
+          ],
+          "diagnose": "Densfraktur (Anderson/D'Alonzo II)",
+          "therapie": [
+            "Ventrale Verschraubung oder dorsale Fusion"
+          ],
+          "lernpunkte": [
+            "Hohe Pseudarthroserate bei konservativer Therapie"
+          ]
+        },
+        {
+          "id": "ORT_053",
+          "titel": "C2-Fraktur (Hangman's)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Hals-Hyperextensionstrauma",
+          "praesentation": "Stabil neurologisch.",
+          "befunde": [
+            "CT: Bruch der Bogenwurzeln C2"
+          ],
+          "diagnose": "Traumatische Spondylolisthese C2",
+          "therapie": [
+            "Halo-Weste vs. dorsale Verschraubung"
+          ],
+          "lernpunkte": [
+            "Mechanismus: Hyperextension und Distraktion"
+          ]
+        },
+        {
+          "id": "ORT_054",
+          "titel": "Spondylolyse (Isthmisch)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "14-j. Turnerin",
+          "praesentation": "Belastungsschmerz LWS.",
+          "befunde": [
+            "Rö-Schrägaufnahme: 'Halsband-Zeichen' am Terrier-Hund"
+          ],
+          "diagnose": "Spondylolyse L5",
+          "therapie": [
+            "Sportpause",
+            "Rumpfkräftigung"
+          ],
+          "lernpunkte": [
+            "Stressfraktur der Pars interarticularis"
+          ]
+        },
+        {
+          "id": "ORT_055",
+          "titel": "Kokzygodynie",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Schmerzen beim Sitzen am Steißbein.",
+          "befunde": [
+            "Druckschmerz Os coccygis"
+          ],
+          "diagnose": "Steißbeinschmerz",
+          "therapie": [
+            "Sitzkissen (Ring)",
+            "NSAR",
+            "Infiltration"
+          ],
+          "lernpunkte": [
+            "Oft langwieriger Verlauf"
+          ]
+        }
+      ]
+    },
+    "obere_extremitaet": {
+      "label": "Obere Extremität",
+      "emoji": "💪",
+      "faelle": [
+        {
+          "id": "ORT_056",
+          "titel": "Impingement-Syndrom Schulter",
+          "tags": [
+            "Schulter"
+          ],
+          "patient": "45-jähriger Maler",
+          "praesentation": "Schmerz bei Überkopfarbeit.",
+          "befunde": [
+            "Painful Arc 60-120°",
+            "Neer-Zeichen positiv",
+            "Hawkins-Test positiv"
+          ],
+          "diagnose": "Subakromiales Impingement",
+          "therapie": [
+            "Physiotherapie",
+            "Subakromiale Injektion",
+            "ggf. ASAD"
+          ],
+          "lernpunkte": [
+            "Einengung des subakromialen Raums"
+          ]
+        },
+        {
+          "id": "ORT_057",
+          "titel": "Rotatorenmanschettenruptur",
+          "tags": [
+            "Schulter"
+          ],
+          "patient": "60-j. Patient nach Sturz auf Arm",
+          "praesentation": "Pseudoparalyse: Unfähigkeit zur aktiven Abduktion.",
+          "befunde": [
+            "Drop-arm-Test positiv",
+            "Jobe-Test positiv (M. supraspinatus)"
+          ],
+          "diagnose": "Supraspinatussehnenruptur",
+          "therapie": [
+            "Operative Refixation (arthroskopisch)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Defektarthropathie bei fehlender Heilung"
+          ]
+        },
+        {
+          "id": "ORT_058",
+          "titel": "Schulterluxation (Traumatisch)",
+          "tags": [
+            "Schulter",
+            "Notfall"
+          ],
+          "patient": "22-j. Handballer",
+          "praesentation": "Zustand nach Sturz, Federnde Fixation des Arms.",
+          "befunde": [
+            "Dellenbildung (Epauletten-Phänomen)",
+            "Rö: Kopf steht infra-coracoidal"
+          ],
+          "diagnose": "Vordere Schulterluxation",
+          "therapie": [
+            "Reposition (z.B. nach Arlt oder Hippokrates)",
+            "MRT (Ausschluss Bankart)"
+          ],
+          "lernpunkte": [
+            "Begleitverletzungen: Bankart-Läsion, Hill-Sachs-Delle, N. axillaris"
+          ]
+        },
+        {
+          "id": "ORT_059",
+          "titel": "Frozen Shoulder",
+          "tags": [
+            "Schulter"
+          ],
+          "patient": "50-j. Diabetikerin",
+          "praesentation": "Zunehmende schmerzhafte Einsteifung der Schulter.",
+          "befunde": [
+            "Massive Einschränkung der Außenrotation",
+            "Stadium der Einsteifung"
+          ],
+          "diagnose": "Adhäsive Kapsulitis",
+          "therapie": [
+            "Steroide",
+            "Physiotherapie (nur schmerzfrei)",
+            "Abwarten (Self-limiting)"
+          ],
+          "lernpunkte": [
+            "Phasenverlauf über 12-24 Monate"
+          ]
+        },
+        {
+          "id": "ORT_060",
+          "titel": "Proximale Humerusfraktur",
+          "tags": [
+            "Trauma",
+            "Geriatrie"
+          ],
+          "patient": "75-j. Frau nach Sturz auf den ausgestreckten Arm",
+          "praesentation": "Schmerzen und Hämatom Oberarm.",
+          "befunde": [
+            "Rö: Dislozierte 3-Fragment-Fraktur"
+          ],
+          "diagnose": "Humeruskopffraktur (Neer III)",
+          "therapie": [
+            "Winkelstabile Platte (Philos) oder Prothese"
+          ],
+          "lernpunkte": [
+            "N. axillaris Funktion prüfen!"
+          ]
+        },
+        {
+          "id": "ORT_061",
+          "titel": "Klavikulafraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "20-j. Radfahrer",
+          "praesentation": "Direktsturz auf die Schulter.",
+          "befunde": [
+            "Stufenbildung im Schaftbereich",
+            "Hautperforation droht"
+          ],
+          "diagnose": "Laterale/Mittelstück Klavikulafraktur",
+          "therapie": [
+            "Rucksackverband (konservativ) vs. Platte (operativ)"
+          ],
+          "lernpunkte": [
+            "Häufigste Fraktur des Schultergürtels"
+          ]
+        },
+        {
+          "id": "ORT_062",
+          "titel": "Humerusschaftfraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. nach Arbeitsunfall",
+          "praesentation": "Instabilität am Oberarm.",
+          "befunde": [
+            "Fallhand (N. radialis Parese)"
+          ],
+          "diagnose": "Humerusschaftfraktur mit Radialisparese",
+          "therapie": [
+            "Marknagelung oder Platte",
+            "Nerven-Exploration?"
+          ],
+          "lernpunkte": [
+            "N. radialis verläuft im Sulcus nervi radialis direkt am Knochen"
+          ]
+        },
+        {
+          "id": "ORT_063",
+          "titel": "Epikondylitis radialis (Tennisarm)",
+          "tags": [
+            "Ellenbogen"
+          ],
+          "patient": "38-j. Sekretärin",
+          "praesentation": "Schmerz am äußeren Ellenbogen bei Faustschluss.",
+          "befunde": [
+            "Druckschmerz Epicondylus lateralis",
+            "Schmerz bei Dorsalextension Hand"
+          ],
+          "diagnose": "Tennisellenbogen",
+          "therapie": [
+            "Dehnung",
+            "Epicondylitis-Spange",
+            "Exzentrisches Training"
+          ],
+          "lernpunkte": [
+            "Insertionsstenopathie der Extensorensehnen"
+          ]
+        },
+        {
+          "id": "ORT_064",
+          "titel": "Olekranonfraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "50-j. Sturz auf den gebeugten Ellenbogen",
+          "praesentation": "Aktive Extension im Ellenbogen aufgehoben.",
+          "befunde": [
+            "Tastbare Lücke über dem Olekranon"
+          ],
+          "diagnose": "Olekranonfraktur",
+          "therapie": [
+            "Zuggurtung (Osteosynthese)"
+          ],
+          "lernpunkte": [
+            "Zuggurtung wandelt Zugkräfte des Trizeps in Druckkräfte um"
+          ]
+        },
+        {
+          "id": "ORT_065",
+          "titel": "Radiusköpfchenfraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "30-j. Sturz auf die Hand",
+          "praesentation": "Schmerzhafte Pro- und Supination.",
+          "befunde": [
+            "Rö: Meißelfraktur (Mason I-II)"
+          ],
+          "diagnose": "Radiusköpfchenfraktur",
+          "therapie": [
+            " Mason I: Frühfunktionell",
+            "Mason III: Schrauben/Prothese"
+          ],
+          "lernpunkte": [
+            "Mason-Klassifikation entscheidend"
+          ]
+        },
+        {
+          "id": "ORT_066",
+          "titel": "Distale Radiusfraktur (Colles)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "65-j. Frau nach Sturz auf dorsalflektierte Hand",
+          "praesentation": "Bajonett-Stellung des Handgelenks.",
+          "befunde": [
+            "Rö: Dislokation nach dorsal (Colles)"
+          ],
+          "diagnose": "Extensionsfraktur distaler Radius",
+          "therapie": [
+            "Reposition + Gips vs. Volare winkelstabile Platte"
+          ],
+          "lernpunkte": [
+            "Häufigste Fraktur des Menschen"
+          ]
+        },
+        {
+          "id": "ORT_067",
+          "titel": "Kahnbeinfraktur (Scaphoid)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "22-j. Torwart",
+          "praesentation": "Schmerzen in der Tabatière.",
+          "befunde": [
+            "Druckschmerz radiale Handwurzel",
+            "Röntgen initial oft negativ"
+          ],
+          "diagnose": "Scaphoidfraktur",
+          "therapie": [
+            "Kahnbeinschraube (Herbert-Schraube)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Pseudarthrose durch schlechte Durchblutung"
+          ]
+        },
+        {
+          "id": "ORT_068",
+          "titel": "Karpaltunnelsyndrom",
+          "tags": [
+            "Hand"
+          ],
+          "patient": "48-j. Verkäuferin",
+          "praesentation": "Nächtliche Parästhesien Dig. I-III (Brachialgia paraesthetica nocturna).",
+          "befunde": [
+            "Phalen-Test positiv",
+            "Hoffmann-Tinel positiv",
+            "NLG verzögert"
+          ],
+          "diagnose": "KTS",
+          "therapie": [
+            "Lagerungsschiene",
+            "Karpaldachspaltung"
+          ],
+          "lernpunkte": [
+            "Kompression des N. medianus"
+          ]
+        },
+        {
+          "id": "ORT_069",
+          "titel": "Dupuytren-Kontraktur",
+          "tags": [
+            "Hand"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Knotige Stränge in der Hohlhand, Streckdefizit Ringfinger.",
+          "befunde": [
+            "Tischkanten-Test positiv"
+          ],
+          "diagnose": "M. Dupuytren",
+          "therapie": [
+            "Partielle Fasziektomie",
+            "Nadelfasziotomie"
+          ],
+          "lernpunkte": [
+            "Fibromatose der Palmaraponeurose"
+          ]
+        },
+        {
+          "id": "ORT_070",
+          "titel": "Schnappfinger",
+          "tags": [
+            "Hand"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Finger bleibt in Beugestellung hängen und schnellt dann auf.",
+          "befunde": [
+            "Druckschmerzhafter Knoten über A1-Ringband"
+          ],
+          "diagnose": "Tendovaginitis stenosans",
+          "therapie": [
+            "Ringbandspaltung"
+          ],
+          "lernpunkte": [
+            "Missverhältnis Sehne/Ringband"
+          ]
+        }
+      ]
+    },
+    "untere_extremitaet": {
+      "label": "Untere Extremität",
+      "emoji": "🦶",
+      "faelle": [
+        {
+          "id": "ORT_071",
+          "titel": "Coxarthrose",
+          "tags": [
+            "Hüfte"
+          ],
+          "patient": "65-jähriger Patient",
+          "praesentation": "Anlaufschmerz, Leistenschmerz, eingeschränkte Innenrotation.",
+          "befunde": [
+            "Rö: Gelenkspaltverschmälerung, Osteophyten, Geröllzysten"
+          ],
+          "diagnose": "Fortgeschrittene Coxarthrose",
+          "therapie": [
+            "Physiotherapie",
+            "Analgetika",
+            "Hüft-Totalendoprothese (TEP)"
+          ],
+          "lernpunkte": [
+            "Kellgren-Lawrence Score zur Graduierung"
+          ]
+        },
+        {
+          "id": "ORT_072",
+          "titel": "Femurkopfnekrose",
+          "tags": [
+            "Hüfte"
+          ],
+          "patient": "40-j. Patient nach Kortisontherapie",
+          "praesentation": "Belastungsabhängiger Leistenschmerz.",
+          "befunde": [
+            "MRT: Knochenmarködem, Low-signal-Linie",
+            "Rö initial blank"
+          ],
+          "diagnose": "Aseptische Femurkopfnekrose (ARCO II)",
+          "therapie": [
+            "Anbohrung (Core decompression)"
+          ],
+          "lernpunkte": [
+            "Risikofaktoren: Alkohol, Steroide, Trauma"
+          ]
+        },
+        {
+          "id": "ORT_073",
+          "titel": "Gonarthrose",
+          "tags": [
+            "Knie"
+          ],
+          "patient": "62-j. übergewichtige Frau",
+          "praesentation": "Schmerzen medialseitig am Knie, Belastungsabhängig.",
+          "befunde": [
+            "Genu varum (O-Bein)",
+            "Krepitation"
+          ],
+          "diagnose": "Mediale Gonarthrose",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Physio",
+            "ggf. Schlittenprothese"
+          ],
+          "lernpunkte": [
+            "Varusgonarthrose medial vs. Valgusgonarthrose lateral"
+          ]
+        },
+        {
+          "id": "ORT_074",
+          "titel": "Vordere Kreuzbandruptur",
+          "tags": [
+            "Sporttrauma"
+          ],
+          "patient": "20-j. Fußballer",
+          "praesentation": "Zustand nach Verdrehtrauma, 'Pop'-Geräusch, Knie geschwollen.",
+          "befunde": [
+            "Lachman-Test positiv",
+            "Vordere Schublade positiv"
+          ],
+          "diagnose": "VKB-Ruptur",
+          "therapie": [
+            "Kreuzbandersatzplastik (z.B. Semitendinosus-Sehne)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Instabilitätsarthrose"
+          ]
+        },
+        {
+          "id": "ORT_075",
+          "titel": "Innenmeniskusriss",
+          "tags": [
+            "Knie"
+          ],
+          "patient": "35-j. Fliesenleger",
+          "praesentation": "Schmerz im Gelenkspalt, Einklemmungsgefühle.",
+          "befunde": [
+            "Steinmann I/II positiv",
+            "McMurray positiv"
+          ],
+          "diagnose": "Korbhenkelriss Innenmeniskus",
+          "therapie": [
+            "Arthroskopische Meniskusnaht vs. Teilresektion"
+          ],
+          "lernpunkte": [
+            "Naht im durchbluteten Bereich (Rot-Rote Zone) bevorzugen"
+          ]
+        },
+        {
+          "id": "ORT_076",
+          "titel": "Achillessehnenruptur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. Tennisspieler",
+          "praesentation": "Peitschenknall-Geräusch beim Antritt, Schmerz an der Ferse.",
+          "befunde": [
+            "Tastbare Delle über der Sehne",
+            "Thompson-Test positiv"
+          ],
+          "diagnose": "Achillessehnenruptur",
+          "therapie": [
+            "Frühfunktionelle konservative Therapie (Vacoped) vs. Naht"
+          ],
+          "lernpunkte": [
+            "Thompson-Test: Fehlende Plantarflexion bei Kompression der Wade"
+          ]
+        },
+        {
+          "id": "ORT_077",
+          "titel": "Außenknöchelfraktur (Weber B)",
+          "tags": [
+            "Trauma",
+            "Notfall"
+          ],
+          "patient": "30-j. nach Umknicktrauma",
+          "praesentation": "Starke Schwellung und Schmerz am lateralen Malleolus.",
+          "befunde": [
+            "Rö: Fraktur auf Höhe der Syndesmose"
+          ],
+          "diagnose": "Sprunggelenksfraktur Weber B",
+          "therapie": [
+            "Plattenosteosynthese + ggf. Stellschraube"
+          ],
+          "lernpunkte": [
+            "Weber A (infra-), B (trans-), C (supra-syndesmosal)"
+          ]
+        },
+        {
+          "id": "ORT_078",
+          "titel": "Patellaluxation",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "16-j. Mädchen beim Tanzen",
+          "praesentation": "Patella steht lateral.",
+          "befunde": [
+            "Apprehension-Test nach Reposition positiv"
+          ],
+          "diagnose": "Akute Patellaluxation",
+          "therapie": [
+            "Reposition",
+            "MPFL-Rekonstruktion bei Rezidiv"
+          ],
+          "lernpunkte": [
+            "Häufig prädisponierende Faktoren (Genu valgum, Patellahochstand)"
+          ]
+        },
+        {
+          "id": "ORT_079",
+          "titel": "Hallux valgus",
+          "tags": [
+            "Fuß"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Schmerzen im Ballenbereich, Fehlstellung der Großzehe.",
+          "befunde": [
+            "HV-Winkel > 15°",
+            "Bursitis über Pseudoexostose"
+          ],
+          "diagnose": "Hallux valgus",
+          "therapie": [
+            "Umstellungsosteotomie (z.B. nach Chevron oder Scarf)"
+          ],
+          "lernpunkte": [
+            "Oft Folge eines Spreizfußes"
+          ]
+        },
+        {
+          "id": "ORT_080",
+          "titel": "Plantarfasziitis (Fersensporn)",
+          "tags": [
+            "Fuß"
+          ],
+          "patient": "45-j. Jogger",
+          "praesentation": "Morgendlicher Anlaufschmerz unter der Ferse.",
+          "befunde": [
+            "Druckschmerz am medialen Calcaneus-Tuber",
+            "Rö: plantarer Sporn"
+          ],
+          "diagnose": "Plantarfasziitis",
+          "therapie": [
+            "Dehnung",
+            "Einlagen",
+            "Stoßwellentherapie (ESWT)"
+          ],
+          "lernpunkte": [
+            "Sporn ist Symptom, nicht Ursache des Schmerzes"
+          ]
+        },
+        {
+          "id": "ORT_081",
+          "titel": "M. Osgood-Schlatter",
+          "tags": [
+            "Pädiatrie",
+            "Sport"
+          ],
+          "patient": "13-j. sportlicher Junge",
+          "praesentation": "Schmerz an der Tuberositas tibiae beim Sport.",
+          "befunde": [
+            "Lokaler Druckschmerz und Schwellung unterhalb der Kniescheibe"
+          ],
+          "diagnose": "Osteonecrose der Tuberositas tibiae",
+          "therapie": [
+            "Sportreduktion",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Traktionsapophysitis am Ansatz der Patellasehne"
+          ]
+        },
+        {
+          "id": "ORT_082",
+          "titel": "Morton Neurom",
+          "tags": [
+            "Fuß"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Brennende Schmerzen Dig. III/IV beim Tragen enger Schuhe.",
+          "befunde": [
+            "Mulder-Klick-Zeichen positiv"
+          ],
+          "diagnose": "Morton-Neuralgie",
+          "therapie": [
+            "Pelotteneinlage",
+            "Infiltration",
+            "ggf. Resektion"
+          ],
+          "lernpunkte": [
+            "Perineurale Fibrose des Interdigitalnervs"
+          ]
+        },
+        {
+          "id": "ORT_083",
+          "titel": "Baker-Zyste",
+          "tags": [
+            "Knie"
+          ],
+          "patient": "60-j. mit Arthrose",
+          "praesentation": "Druckgefühl in der Kniekehle.",
+          "befunde": [
+            "Sono: Flüssigkeitsgefüllte Raumforderung zwischen M. gastrocnemius und M. semimembranosus"
+          ],
+          "diagnose": "Baker-Zyste",
+          "therapie": [
+            "Therapie der intraartikulären Grunderkrankung"
+          ],
+          "lernpunkte": [
+            "Ausschluss TVT bei Ruptur der Zyste (Pseudothrombose)"
+          ]
+        },
+        {
+          "id": "ORT_084",
+          "titel": "M. Köhler I",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Hinken, Schmerzen am Fußinnenrand.",
+          "befunde": [
+            "Rö: Verdichtung Os naviculare"
+          ],
+          "diagnose": "Aseptische Knochennekrose Os naviculare",
+          "therapie": [
+            "Einlagen",
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "Heilt meist folgenlos aus"
+          ]
+        },
+        {
+          "id": "ORT_085",
+          "titel": "M. Köhler II (Freiberg-Köhler)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "15-j. Mädchen",
+          "praesentation": "Schmerzen im Vorfuß.",
+          "befunde": [
+            "Rö: Abflachung Mittelfußköpfchen II"
+          ],
+          "diagnose": "Aseptische Knochennekrose Metatarsale II",
+          "therapie": [
+            "Entlastung",
+            "ggf. operative Korrektur"
+          ],
+          "lernpunkte": [
+            "Typisch für Jugendliche, oft mechanisch getriggert"
+          ]
+        }
+      ]
+    },
+    "unfallchirurgie_allgemein": {
+      "label": "Unfallchirurgie & Polytrauma",
+      "emoji": "🚑",
+      "faelle": [
+        {
+          "id": "ORT_086",
+          "titel": "Polytrauma-Management (ATLS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "35-jähriger nach Hochgeschwindigkeitsunfall",
+          "praesentation": "Instabiler Patient, GCS 8, Atembeschwerden.",
+          "befunde": [
+            "ABCDE-Schema: A frei, B abgeschwächtes Atemgeräusch links, C RR 80/50"
+          ],
+          "diagnose": "Polytrauma (V.a. Spannungspneu + Beckenfraktur)",
+          "therapie": [
+            "Thoraxentlastung",
+            "Beckenklammer",
+            "Damage Control Surgery"
+          ],
+          "lernpunkte": [
+            "Treat first what kills first",
+            "Goldene Stunde des Schockraums"
+          ]
+        },
+        {
+          "id": "ORT_087",
+          "titel": "Kompartmentsyndrom (Unterschenkel)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. nach Tibiafraktur",
+          "praesentation": "Zunehmende, unerträgliche Schmerzen trotz Analgetika, Dehnungsschmerz.",
+          "befunde": [
+            "Harter Muskelbauch",
+            "Pulse tastbar (initial!)",
+            "Druck > 30 mmHg"
+          ],
+          "diagnose": "Akutes Kompartmentsyndrom",
+          "therapie": [
+            "Notfall-Dermatofasziotomie aller 4 Logen"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose! Erhaltener Puls schließt Kompartment nicht aus"
+          ]
+        },
+        {
+          "id": "ORT_088",
+          "titel": "Offene Fraktur Grad II",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. nach Sturz vom Gerüst",
+          "praesentation": "Hautdurchspießung am Unterschenkel.",
+          "befunde": [
+            "Wunde ca. 3 cm",
+            "Verschmutzung mäßig"
+          ],
+          "diagnose": "Offene Tibiafraktur (Gustilo/Anderson II)",
+          "therapie": [
+            "Debridement",
+            "Fixateur externe",
+            "Antibiotika"
+          ],
+          "lernpunkte": [
+            "Gefahr der Osteitis, schnelle operative Versorgung binnen 6h"
+          ]
+        },
+        {
+          "id": "ORT_089",
+          "titel": "Fettemboliesyndrom",
+          "tags": [
+            "Notfall",
+            "Komplikation"
+          ],
+          "patient": "Pat. 48h nach Femurmarknagelung",
+          "praesentation": "Dyspnoe, Bewusstseinstrübung, Petechien (Oberkörper).",
+          "befunde": [
+            "Hypoxämie",
+            "Schneegestöber im Rö-Thorax"
+          ],
+          "diagnose": "Fettembolie",
+          "therapie": [
+            "Intensivmedizinisches Monitoring",
+            "O2-Gabe",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Gurd-Kriterien zur Diagnose"
+          ]
+        },
+        {
+          "id": "ORT_090",
+          "titel": "CRPS Typ I (M. Sudeck)",
+          "tags": [
+            "Schmerz",
+            "Komplikation"
+          ],
+          "patient": "55-j. Frau nach distaler Radiusfraktur",
+          "praesentation": "Brennender Schmerz, Schwellung, glänzende Haut an der Hand.",
+          "befunde": [
+            "Temperaturdifferenz",
+            "Eingeschränkte Beweglichkeit"
+          ],
+          "diagnose": "CRPS (Complex Regional Pain Syndrome)",
+          "therapie": [
+            "Analgesie (Stufenschema)",
+            "Ergotherapie",
+            "Sympathikusblockade"
+          ],
+          "lernpunkte": [
+            "Budapest-Kriterien für die Diagnose"
+          ]
+        },
+        {
+          "id": "ORT_091",
+          "titel": "Pseudarthrose (Humerus)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. 6 Monate nach Fraktur",
+          "praesentation": "Schmerzen und pathologische Beweglichkeit am Oberarm.",
+          "befunde": [
+            "Rö: Sklerosierung der Knochenenden, kein Kallus (atroph)"
+          ],
+          "diagnose": "Pseudarthrose",
+          "therapie": [
+            "Re-Osteosynthese + Spongiosaplastik"
+          ],
+          "lernpunkte": [
+            "Definition: Fehlende Heilung nach 6 Monaten"
+          ]
+        },
+        {
+          "id": "ORT_092",
+          "titel": "Gasbrand (Clostridien-Myonekrose)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "Landwirtschaftlicher Unfall",
+          "praesentation": "Extremer Schmerz, süßlicher Geruch der Wunde, Knistern.",
+          "befunde": [
+            "Hautemphysem (Hautknistern)",
+            "Schockzeichen"
+          ],
+          "diagnose": "Gasödeminfektion",
+          "therapie": [
+            "Radikales Debridement / Amputation",
+            "Hochdosis Penicillin",
+            "Hyperbare Oxygenierung"
+          ],
+          "lernpunkte": [
+            "Mortalität extrem hoch, chirurgischer Notfall"
+          ]
+        },
+        {
+          "id": "ORT_093",
+          "titel": "Hundebissverletzung",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "30-j. nach Biss in die Hand",
+          "praesentation": "Kleine Punktionswunden.",
+          "befunde": [
+            "Schwellung, beginnende Rötung"
+          ],
+          "diagnose": "Hundebiss Hand",
+          "therapie": [
+            "Debridement",
+            "Offene Wundbehandlung",
+            "Antibiose (Amoxicillin/Clavulansäure)"
+          ],
+          "lernpunkte": [
+            "Handbisse wegen Sehnenbeteiligung immer explorieren!"
+          ]
+        },
+        {
+          "id": "ORT_094",
+          "titel": "Verbrennung (Grad IIb)",
+          "tags": [
+            "Trauma",
+            "Notfall"
+          ],
+          "patient": "Kind mit heißem Tee überschüttet",
+          "praesentation": "Blasenbildung, feuchter Wundgrund, kaum schmerzhaft.",
+          "befunde": [
+            "Fläche 15% KOF"
+          ],
+          "diagnose": "Verbrennung IIb",
+          "therapie": [
+            "Kühlung",
+            "Flüssigkeitsersatz (Parkland-Formel)",
+            "Debridement"
+          ],
+          "lernpunkte": [
+            "Ab 10% KOF beim Kind Schockgefahr"
+          ]
+        },
+        {
+          "id": "ORT_095",
+          "titel": "Traumatisches Hirnödem (Notfall)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Sturz vom Motorrad",
+          "praesentation": "Anisokorie, GCS 6.",
+          "befunde": [
+            "CCT: Epiduralhämatom + Mittellinienverlagerung"
+          ],
+          "diagnose": "Schweres SHT",
+          "therapie": [
+            "Intubation",
+            "Neurochirurgische Entlastung"
+          ],
+          "lernpunkte": [
+            "Cushing-Trias als Spätzeichen für Hirndruck"
+          ]
+        },
+        {
+          "id": "ORT_096",
+          "titel": "Kindesmisshandlung (Verdacht)",
+          "tags": [
+            "Forensik"
+          ],
+          "patient": "3-j. Kind",
+          "praesentation": "Spiralbruch des Femurs ohne adäquates Trauma.",
+          "befunde": [
+            "Hämatome unterschiedlichen Alters",
+            "Skelett-Scan: alte Rippenfrakturen"
+          ],
+          "diagnose": "Battered-Child-Syndrom",
+          "therapie": [
+            "Stationäre Aufnahme zum Schutz",
+            "Jugendamt-Meldung"
+          ],
+          "lernpunkte": [
+            "Dokumentationspflicht, Meldung bei Gefahr im Verzug"
+          ]
+        },
+        {
+          "id": "ORT_097",
+          "titel": "Hüftschnupfen (Coxitis fugax)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Plötzliches Hinken nach grippalem Infekt, kein Fieber.",
+          "befunde": [
+            "Sono: Gelenkerguss",
+            "Labor normal"
+          ],
+          "diagnose": "Coxitis fugax",
+          "therapie": [
+            "Schonung",
+            "Ibuprofen"
+          ],
+          "lernpunkte": [
+            "Selbstlimitierend, wichtigste DD zur septischen Arthritis"
+          ]
+        },
+        {
+          "id": "ORT_098",
+          "titel": "M. Perthes (Hüftkopfnekrose Kind)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "6-j. Junge",
+          "praesentation": "Hinken seit Wochen, Knieschmerz (projizierter Hüftschmerz).",
+          "befunde": [
+            "Eingeschränkte Abduktion/Innenrotation",
+            "Rö: Kopf-Fragmentation"
+          ],
+          "diagnose": "M. Perthes",
+          "therapie": [
+            "Entlastung",
+            "Physiotherapie",
+            "ggf. Containment-OP"
+          ],
+          "lernpunkte": [
+            "Waldenström-Stadien im Röntgen"
+          ]
+        },
+        {
+          "id": "ORT_099",
+          "titel": "Epiphyseolysis capitis femoris (ECFE)",
+          "tags": [
+            "Pädiatrie",
+            "Notfall"
+          ],
+          "patient": "13-j. adipöser Junge",
+          "praesentation": "Plötzliche Unfähigkeit zu gehen, Bein in Außenrotation fixiert.",
+          "befunde": [
+            "Drehmann-Zeichen positiv",
+            "Rö: Abrutschen der Epiphyse"
+          ],
+          "diagnose": "ECFE (Lenta- oder Acuta-Form)",
+          "therapie": [
+            "Notfallmäßige In-situ-Verschraubung"
+          ],
+          "lernpunkte": [
+            "Akuter Notfall wegen Gefahr der Gefäßabschnürung"
+          ]
+        },
+        {
+          "id": "ORT_100",
+          "titel": "Fingeramputation (Replantation)",
+          "tags": [
+            "Hand",
+            "Trauma"
+          ],
+          "patient": "40-j. Schreiner",
+          "praesentation": "Abgetrennter Zeigefinger distal DIP.",
+          "befunde": [
+            "Amputat vorhanden, sauber"
+          ],
+          "diagnose": "Amputationsverletzung",
+          "therapie": [
+            "Kühltransport des Amputats (trocken/indirekt)",
+            "Mikrochirurgische Replantation"
+          ],
+          "lernpunkte": [
+            "Indikation bei Daumen oder multiplen Fingern streng stellen"
+          ]
+        }
+      ]
+    }
+  }
+}

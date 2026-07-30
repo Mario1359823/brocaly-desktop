@@ -1,0 +1,2105 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Infektiologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "zns_infektionen": {
+      "label": "ZNS-Infektionen",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "INF_Z001",
+          "titel": "Bakterielle Meningitis (Pneumokokken)",
+          "tags": [
+            "ZNS",
+            "Notfall",
+            "Pneumokokken"
+          ],
+          "patient": "65-jähriger Patient, Z.n. Splenektomie",
+          "praesentation": "Hohes Fieber, Kopfschmerz, Nackensteife, Bewusstseinstrübung.",
+          "befunde": [
+            "Meningismus positiv",
+            "Liquor: eitrig, Laktat 8 mmol/l, Glukose 10 mg/dl",
+            "Gram: positive Diplokokken"
+          ],
+          "diagnose": "Pneumokokken-Meningitis",
+          "therapie": [
+            "Dexamethason (vor/mit AB)",
+            "Ceftriaxon + Vancomycin",
+            "ggf. Ampicillin"
+          ],
+          "lernpunkte": [
+            "Dexamethason verbessert Outcome bei S. pneumoniae",
+            "Impfpflicht bei Asplenie"
+          ]
+        },
+        {
+          "id": "INF_Z002",
+          "titel": "Listerien-Meningitis",
+          "tags": [
+            "ZNS",
+            "Alter"
+          ],
+          "patient": "78-j. Patient, immunsupprimiert",
+          "praesentation": "Subakuter Beginn, Ataxie, Hirnstammzeichen.",
+          "befunde": [
+            "Liquor: Pleozytose gemischtzellig",
+            "Kultur: Listeria monocytogenes"
+          ],
+          "diagnose": "Listerien-Meningoenzephalitis",
+          "therapie": [
+            "Ampicillin + Gentamicin"
+          ],
+          "lernpunkte": [
+            "Ampicillin-Lücke bei Cephalosporinen beachten"
+          ]
+        },
+        {
+          "id": "INF_Z003",
+          "titel": "Herpes-simplex-Enzephalitis (HSE)",
+          "tags": [
+            "ZNS",
+            "Virus"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Fieber, Wesensveränderung, Aphasie, Krampfanfall.",
+          "befunde": [
+            "MRT: Signalhebung Temporallappen",
+            "Liquor-PCR: HSV-1 positiv"
+          ],
+          "diagnose": "HSE",
+          "therapie": [
+            "Aciclovir i.v. für 14-21 Tage"
+          ],
+          "lernpunkte": [
+            "Früher Therapiebeginn entscheidend für Prognose"
+          ]
+        },
+        {
+          "id": "INF_Z004",
+          "titel": "Neuroborreliose (Bannwarth)",
+          "tags": [
+            "ZNS",
+            "Zecken"
+          ],
+          "patient": "38-j. Patient",
+          "praesentation": "Radikuläre Schmerzen (nachts schlimmer), Fazialisparese.",
+          "befunde": [
+            "Liquor: Lymphozytäre Pleozytose",
+            "Borrelien-AK-Index positiv"
+          ],
+          "diagnose": "Lyme-Borreliose Stadium II",
+          "therapie": [
+            "Ceftriaxon oder Doxycyclin"
+          ],
+          "lernpunkte": [
+            "Bannwarth-Syndrom: Schmerz + Parese + Pleozytose"
+          ]
+        },
+        {
+          "id": "INF_Z005",
+          "titel": "Hirnabszess (Zahnfokus)",
+          "tags": [
+            "ZNS",
+            "Fokus"
+          ],
+          "patient": "50-j. Patient nach Zahnsanierung",
+          "praesentation": "Kopfschmerz, fokal-neurologische Defizite, subfebril.",
+          "befunde": [
+            "MRT: Ringförmiges Enhancement",
+            "DWI: Diffusionsrestriktion zentral"
+          ],
+          "diagnose": "Hirnabszess",
+          "therapie": [
+            "Punktion/Drainage",
+            "Ceftriaxon + Metronidazol"
+          ],
+          "lernpunkte": [
+            "DWI unterscheidet Abszess von nekrotischem Tumor"
+          ]
+        },
+        {
+          "id": "INF_Z006",
+          "titel": "Meningokokken-Sepsis",
+          "tags": [
+            "ZNS",
+            "Notfall"
+          ],
+          "patient": "19-j. Student",
+          "praesentation": "Fulminanter Verlauf, Petechien, Schock.",
+          "befunde": [
+            "Waterhouse-Friderichsen-Syndrom",
+            "DIC"
+          ],
+          "diagnose": "Meningokokken-Sepsis",
+          "therapie": [
+            "Ceftriaxon sofort!",
+            "Volumensubstitution"
+          ],
+          "lernpunkte": [
+            "Hautbefunde (Petechien) sind Warnzeichen"
+          ]
+        },
+        {
+          "id": "INF_Z007",
+          "titel": "Frühsommer-Meningoenzephalitis (FSME)",
+          "tags": [
+            "ZNS",
+            "Virus"
+          ],
+          "patient": "25-j. Wanderer (Süddeutschland)",
+          "praesentation": "Biphasischer Fieberverlauf, jetzt Meningismus und Tremor.",
+          "befunde": [
+            "Liquor: Pleozytose",
+            "FSME-IgM im Serum/Liquor positiv"
+          ],
+          "diagnose": "FSME",
+          "therapie": [
+            "Symptomatisch",
+            "keine virustatische Therapie"
+          ],
+          "lernpunkte": [
+            "Prävention durch Impfung in Endemiegebieten"
+          ]
+        },
+        {
+          "id": "INF_Z008",
+          "titel": "Neurosyphilis (Tabes dorsalis)",
+          "tags": [
+            "ZNS",
+            "STI"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Gangataxie, blitzartige Schmerzen, Argyll-Robertson-Pupille.",
+          "befunde": [
+            "TPPA positiv",
+            "Liquor: Entzündungszeichen"
+          ],
+          "diagnose": "Neurosyphilis (Stadium III)",
+          "therapie": [
+            "Penicillin G i.v. für 14 Tage"
+          ],
+          "lernpunkte": [
+            "Syphilis als 'Chamäleon' der Neurologie"
+          ]
+        },
+        {
+          "id": "INF_Z009",
+          "titel": "Toxoplasmose-Enzephalitis (HIV)",
+          "tags": [
+            "ZNS",
+            "HIV"
+          ],
+          "patient": "32-j. HIV-Patient (CD4 < 100)",
+          "praesentation": "Kopfschmerz, Hemiparese.",
+          "befunde": [
+            "MRT: Multiple ringanreichernde Herde",
+            "Toxo-Serologie positiv"
+          ],
+          "diagnose": "Zerebrale Toxoplasmose",
+          "therapie": [
+            "Pyrimethamin + Sulfadiazin + Folinsäure"
+          ],
+          "lernpunkte": [
+            "Häufigste opportunistische ZNS-Infektion bei Aids"
+          ]
+        },
+        {
+          "id": "INF_Z010",
+          "titel": "Kryptokokken-Meningitis",
+          "tags": [
+            "ZNS",
+            "Pilz"
+          ],
+          "patient": "40-j. Patient nach Organtransplantation",
+          "praesentation": "Chronischer Kopfschmerz, Übelkeit.",
+          "befunde": [
+            "Tuschepräparat: Kapselhefen",
+            "Kryptokokken-Antigen positiv"
+          ],
+          "diagnose": "Kryptokokkose",
+          "therapie": [
+            "Amphotericin B + Flucytosin"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Taubenexkrementen"
+          ]
+        }
+      ]
+    },
+    "atemwege_hno": {
+      "label": "Kopf-Hals & Atemwegsinfektionen",
+      "emoji": "🫁",
+      "faelle": [
+        {
+          "id": "INF_A011",
+          "titel": "Ambulant erworbene Pneumonie (CAP)",
+          "tags": [
+            "Atemwege",
+            "Pneumonie"
+          ],
+          "patient": "68-jähriger Patient, COPD",
+          "praesentation": "Fieber, Husten, eitriger Auswurf, Dyspnoe.",
+          "befunde": [
+            "CURB-65: 2 Punkte",
+            "Rö-Thorax: Infiltrat Unterlappen",
+            "CRP 120 mg/l"
+          ],
+          "diagnose": "CAP (Ambulant erworbene Pneumonie)",
+          "therapie": [
+            "Amoxicillin/Clavulansäure + Clarithromycin"
+          ],
+          "lernpunkte": [
+            "CURB-65 zur Entscheidung ambulant vs. stationär"
+          ]
+        },
+        {
+          "id": "INF_A012",
+          "titel": "Legionellen-Pneumonie",
+          "tags": [
+            "Atemwege"
+          ],
+          "patient": "55-j. nach Hotelaufenthalt",
+          "praesentation": "Hohes Fieber, Bradykardie, Durchfall, Hyponatriämie.",
+          "befunde": [
+            "Urin-Antigen-Test auf Legionella positiv"
+          ],
+          "diagnose": "Legionellose",
+          "therapie": [
+            "Levofloxacin oder Azithromycin"
+          ],
+          "lernpunkte": [
+            "Übertragung über Aerosole (Klimaanlage/Dusche)"
+          ]
+        },
+        {
+          "id": "INF_A013",
+          "titel": "Lungentuberkulose (Offen)",
+          "tags": [
+            "Atemwege",
+            "TBC"
+          ],
+          "patient": "30-j. aus hochendemischem Gebiet",
+          "praesentation": "B-Symptomatik (Nachtschweiß, Gewichtsverlust), blutiger Husten.",
+          "befunde": [
+            "Rö-Thorax: Kaverne Oberlappen",
+            "Sputum: säurefeste Stäbchen"
+          ],
+          "diagnose": "Aktive Lungentuberkulose",
+          "therapie": [
+            "Vierfachtherapie (PERI): Pyrazinamid, Ethambutol, Rifampicin, Isoniazid"
+          ],
+          "lernpunkte": [
+            "Isolationspflicht bei Sputum-Positivität",
+            "Meldepflicht"
+          ]
+        },
+        {
+          "id": "INF_A014",
+          "titel": "Pneumocystis-Pneumonie (PJP)",
+          "tags": [
+            "Atemwege",
+            "HIV"
+          ],
+          "patient": "28-j. Patient, progrediente Belastungsdyspnoe",
+          "praesentation": "Trockener Reizhusten, LDH↑, mäßiges Fieber.",
+          "befunde": [
+            "CT: Milchglasinfiltrate bilateral",
+            "induziertes Sputum: P. jirovecii"
+          ],
+          "diagnose": "PJP bei Aids-Erstmanifestation",
+          "therapie": [
+            "Hochdosis Cotrimoxazol + Steroide (bei Hypoxämie)"
+          ],
+          "lernpunkte": [
+            "Typisches 'Milchglasmuster' im CT"
+          ]
+        },
+        {
+          "id": "INF_A015",
+          "titel": "Influenza (Grippe)",
+          "tags": [
+            "Atemwege",
+            "Virus"
+          ],
+          "patient": "40-j. während der Winterwelle",
+          "praesentation": "Plötzlicher Beginn ('Hals-über-Kopf'), hohes Fieber, Myalgien.",
+          "befunde": [
+            "Schnelltest: Influenza A positiv"
+          ],
+          "diagnose": "Influenza",
+          "therapie": [
+            "Symptomatisch",
+            "Oseltamivir bei Risikopatienten < 48h"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum grippalen Infekt durch Akuität"
+          ]
+        },
+        {
+          "id": "INF_A016",
+          "titel": "Nosokomiale Pneumonie (HAP)",
+          "tags": [
+            "Intensiv",
+            "HAP"
+          ],
+          "patient": "70-j. Patient, 5 Tage beatmet",
+          "praesentation": "Sekretzunahme, Verschlechterung Oxygenierung.",
+          "befunde": [
+            "Trachealsekret: Pseudomonas aeruginosa"
+          ],
+          "diagnose": "VAP (Ventilator-associated pneumonia)",
+          "therapie": [
+            "Piperacillin/Tazobactam"
+          ],
+          "lernpunkte": [
+            "Berücksichtigung des lokalen Erregerspektrums"
+          ]
+        },
+        {
+          "id": "INF_A017",
+          "titel": "Akute Epiglottitis",
+          "tags": [
+            "HNO",
+            "Notfall"
+          ],
+          "patient": "4-j. Kind, ungeimpft (Hib)",
+          "praesentation": "Inspiratorischer Stridor, Speichelfluss, Tripod-Position.",
+          "befunde": [
+            "Kirschrote Epiglottis"
+          ],
+          "diagnose": "Epiglottitis",
+          "therapie": [
+            "Atemwegssicherung",
+            "Ceftriaxon"
+          ],
+          "lernpunkte": [
+            "Keine Manipulation im Rachenraum!"
+          ]
+        },
+        {
+          "id": "INF_A018",
+          "titel": "Angina Plaut-Vincent",
+          "tags": [
+            "HNO"
+          ],
+          "patient": "22-j. Student, schlechte Mundhygiene",
+          "praesentation": "Einseitiger Halsschmerz, massiver Foetor ex ore.",
+          "befunde": [
+            "Einseitiges Ulkus der Tonsille mit grauem Belag"
+          ],
+          "diagnose": "Angina Plaut-Vincent (Fusobakterien/Treponemen)",
+          "therapie": [
+            "Penicillin V oder Metronidazol"
+          ],
+          "lernpunkte": [
+            "Typisch einseitiger Befall"
+          ]
+        },
+        {
+          "id": "INF_A019",
+          "titel": "Pertussis (Keuchhusten) Erwachsener",
+          "tags": [
+            "Atemwege"
+          ],
+          "patient": "35-j. Lehrerin",
+          "praesentation": "Stakkato-Husten seit 4 Wochen, nachts schlimmer.",
+          "befunde": [
+            "PCR-Abstrich: Bordetella pertussis"
+          ],
+          "diagnose": "Pertussis",
+          "therapie": [
+            "Azithromycin"
+          ],
+          "lernpunkte": [
+            "Keuchhusten bei Erwachsenen oft ohne 'Reprise'"
+          ]
+        },
+        {
+          "id": "INF_A020",
+          "titel": "Aspergillom",
+          "tags": [
+            "Atemwege",
+            "Pilz"
+          ],
+          "patient": "60-j. Patient mit Z.n. Tuberkulose",
+          "praesentation": "Hämoptysen.",
+          "befunde": [
+            "Rö: Rundherd in alter Kaverne mit Luftsichel"
+          ],
+          "diagnose": "Aspergillom",
+          "therapie": [
+            "Chirurgische Resektion"
+          ],
+          "lernpunkte": [
+            "Pilzball in präformierter Höhle"
+          ]
+        },
+        {
+          "id": "INF_A021",
+          "titel": "Akute Sinusitis maxillaris",
+          "tags": [
+            "HNO"
+          ],
+          "patient": "30-j. nach Erkältung",
+          "praesentation": "Klopfschmerz über der Wange, eitriger Schnupfen.",
+          "befunde": [
+            "Sono: Spiegelbildung im Sinus"
+          ],
+          "diagnose": "Akute Rhinosinusitis",
+          "therapie": [
+            "Abschwellende Tropfen",
+            "Pflanzliche Sekrolytika",
+            "AB nur bei Persistenz"
+          ],
+          "lernpunkte": [
+            "90% viral bedingt"
+          ]
+        },
+        {
+          "id": "INF_A022",
+          "titel": "Pfeiffersches Drüsenfieber",
+          "tags": [
+            "Virus"
+          ],
+          "patient": "18-j. Patient",
+          "praesentation": "Tonsillitis, generalisierte Lymphadenopathie, Müdigkeit.",
+          "befunde": [
+            "Virozyten im Blutbild",
+            "Splenomegalie"
+          ],
+          "diagnose": "Mononukleose (EBV)",
+          "therapie": [
+            "Schonung (Milzrupturgefahr!)"
+          ],
+          "lernpunkte": [
+            "Kein Amoxicillin geben (Arzneimittelexanthem!)"
+          ]
+        },
+        {
+          "id": "INF_A023",
+          "titel": "Lemierre-Syndrom",
+          "tags": [
+            "HNO",
+            "Vaskulär"
+          ],
+          "patient": "25-j. nach Pharyngitis",
+          "praesentation": "Fieber, Schwellung Halsseite, septische Lungenherde.",
+          "befunde": [
+            "Sono: Thrombose V. jugularis interna"
+          ],
+          "diagnose": "Lemierre-Syndrom (Fusobacterium necrophorum)",
+          "therapie": [
+            "Clindamycin + Metronidazol + Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Septische Thrombophlebitis nach HNO-Infekt"
+          ]
+        },
+        {
+          "id": "INF_A024",
+          "titel": "Lungenmilzbrand (Anthrax)",
+          "tags": [
+            "Selten",
+            "Bioterrorismus"
+          ],
+          "patient": "Gerber (berufliche Exposition)",
+          "praesentation": "Hämorrhagische Mediastinitis, Schock.",
+          "befunde": [
+            "Verbreitertes Mediastinum im Röntgen"
+          ],
+          "diagnose": "Anthrax (Bacillus anthracis)",
+          "therapie": [
+            "Ciprofloxacin + Clindamycin + Raxibacumab"
+          ],
+          "lernpunkte": [
+            "Hohe Letalität, bioterroristische Relevanz"
+          ]
+        },
+        {
+          "id": "INF_A025",
+          "titel": "Mykoplasmen-Pneumonie",
+          "tags": [
+            "Atemwege"
+          ],
+          "patient": "10-j. Schulkind",
+          "praesentation": "Reizhusten, Kopfschmerzen, mäßiges Fieber.",
+          "befunde": [
+            "Rö: Diskrete interstitielle Zeichnung (Mismatch zur Klinik)"
+          ],
+          "diagnose": "Atypische Pneumonie",
+          "therapie": [
+            "Clarithromycin"
+          ],
+          "lernpunkte": [
+            "Beta-Laktam-Resistenz der Mykoplasmen"
+          ]
+        },
+        {
+          "id": "INF_A026",
+          "titel": "Empyem (Pleura)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach Pneumonie",
+          "praesentation": "Erneutes Fieber, atemabhängiger Schmerz.",
+          "befunde": [
+            "Sono: Echoarme Flüssigkeit pleural",
+            "pH im Punktat < 7,1"
+          ],
+          "diagnose": "Pleuraempyem",
+          "therapie": [
+            "Drainage + Spülung + AB"
+          ],
+          "lernpunkte": [
+            "Frühzeitige Drainage bei saurem pH"
+          ]
+        },
+        {
+          "id": "INF_A027",
+          "titel": "Diphtherie",
+          "tags": [
+            "HNO",
+            "Impfung"
+          ],
+          "patient": "Reiserückkehrer, ungeimpft",
+          "praesentation": "Bellender Husten, Pseudomembranen im Rachen.",
+          "befunde": [
+            "Süßlicher Geruch",
+            "blutende Schleimhaut bei Abwischen"
+          ],
+          "diagnose": "Rachendiphtherie (Corynebacterium diphtheriae)",
+          "therapie": [
+            "Antitoxin + Penicillin"
+          ],
+          "lernpunkte": [
+            "Gefahr der Myokarditis"
+          ]
+        },
+        {
+          "id": "INF_A028",
+          "titel": "Q-Fieber",
+          "tags": [
+            "Zoonose"
+          ],
+          "patient": "Schafhirte",
+          "praesentation": "Grippale Symptomatik, atypische Pneumonie.",
+          "befunde": [
+            "Serologie: Coxiella burnetii positiv"
+          ],
+          "diagnose": "Q-Fieber",
+          "therapie": [
+            "Doxycyclin"
+          ],
+          "lernpunkte": [
+            "Häufige Zoonose, oft chronische Endokarditis"
+          ]
+        },
+        {
+          "id": "INF_A029",
+          "titel": "Hantavirus-Infektion",
+          "tags": [
+            "Zoonose"
+          ],
+          "patient": "Gartenbesitzer nach Fegen des Schuppens",
+          "praesentation": "Grippe, Rückenschmerzen, akutes Nierenversagen.",
+          "befunde": [
+            "Thrombozytopenie",
+            "Kreatinin↑"
+          ],
+          "diagnose": "Nephropathia epidemica (Puumala-Virus)",
+          "therapie": [
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Übertragung über Rötelmaus-Exkremente"
+          ]
+        },
+        {
+          "id": "INF_A030",
+          "titel": "Nokardiose",
+          "tags": [
+            "Lunge",
+            "Immun"
+          ],
+          "patient": "Transplantationspatient",
+          "praesentation": "Lungeninfiltrate, Hautabszesse.",
+          "befunde": [
+            "Kultur: Nocardia asteroides"
+          ],
+          "diagnose": "Systemische Nokardiose",
+          "therapie": [
+            "Cotrimoxazol hochdosiert"
+          ],
+          "lernpunkte": [
+            "Affinität zum ZNS (Abszessbildung)"
+          ]
+        }
+      ]
+    },
+    "gastro_hepatitis": {
+      "label": "Gastrointestinal & Hepato-biliär",
+      "emoji": "🥣",
+      "faelle": [
+        {
+          "id": "INF_G031",
+          "titel": "Clostridioides-difficile-Infektion (CDI)",
+          "tags": [
+            "Gastro",
+            "Nosokomial"
+          ],
+          "patient": "72-jähriger nach 14 Tagen Clindamycin",
+          "praesentation": "Wässrige, übelriechende Durchfälle, Bauchkrämpfe.",
+          "befunde": [
+            "Toxinnachweis im Stuhl",
+            "Koloskopie: Pseudomembranen"
+          ],
+          "diagnose": "Pseudomembranöse Kolitis",
+          "therapie": [
+            "Vancomycin oral oder Fidaxomicin"
+          ],
+          "lernpunkte": [
+            "Alkoholische Händedesinfektion wirkt nicht gegen Sporen (Händewaschen!)"
+          ]
+        },
+        {
+          "id": "INF_G032",
+          "titel": "Campylobacter-Enteritis",
+          "tags": [
+            "Gastro"
+          ],
+          "patient": "25-j. nach Grillabend (Geflügel)",
+          "praesentation": "Blutige Durchfälle, hohes Fieber, Pseudoappendizitis.",
+          "befunde": [
+            "Stuhlkultur: C. jejuni"
+          ],
+          "diagnose": "Campylobacteriose",
+          "therapie": [
+            "Rehydratation",
+            "Azithromycin (nur bei Schwere)"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Guillain-Barré-Syndrom"
+          ]
+        },
+        {
+          "id": "INF_G033",
+          "titel": "Salmonellose (Enteritisch)",
+          "tags": [
+            "Gastro"
+          ],
+          "patient": "Kind nach Verzehr von rohem Ei",
+          "praesentation": "Erbrechen, Durchfall, Dehydration.",
+          "befunde": [
+            "Stuhl: S. enteritidis"
+          ],
+          "diagnose": "Salmonellen-Gastroenteritis",
+          "therapie": [
+            "Symptomatisch",
+            "keine AB (verlängert Ausscheidung)"
+          ],
+          "lernpunkte": [
+            "AB nur bei Risikopatienten oder Sepsisgefahr"
+          ]
+        },
+        {
+          "id": "INF_G034",
+          "titel": "Typhus abdominalis",
+          "tags": [
+            "Gastro",
+            "Tropen"
+          ],
+          "patient": "Indien-Reisender",
+          "praesentation": "Treppenförmiger Fieberanstieg, Roseolen am Bauch, Bradykardie.",
+          "befunde": [
+            "Leukopenie",
+            "Blutkultur: S. typhi"
+          ],
+          "diagnose": "Typhus",
+          "therapie": [
+            "Ciprofloxacin oder Ceftriaxon"
+          ],
+          "lernpunkte": [
+            "Erreger isoliert im Blut (1. Woche), dann Stuhl"
+          ]
+        },
+        {
+          "id": "INF_G035",
+          "titel": "Hepatitis A (Akut)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "30-j. nach Ägypten-Urlaub",
+          "praesentation": "Übelkeit, Ikterus, dunkler Urin.",
+          "befunde": [
+            "Transaminasen > 1000 U/l",
+            "Anti-HAV-IgM positiv"
+          ],
+          "diagnose": "Hepatitis A",
+          "therapie": [
+            "Supportiv",
+            "kein Alkohol"
+          ],
+          "lernpunkte": [
+            "Fäkal-orale Übertragung, chronifiziert nie"
+          ]
+        },
+        {
+          "id": "INF_G036",
+          "titel": "Hepatitis B (Chronisch)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "45-j. Patient",
+          "praesentation": "Müdigkeit, Oberbauchbeschwerden.",
+          "befunde": [
+            "HBsAg > 6 Monate",
+            "HBV-DNA erhöht"
+          ],
+          "diagnose": "Chronische Hepatitis B",
+          "therapie": [
+            "Tenofovir oder Entecavir"
+          ],
+          "lernpunkte": [
+            "Ziel: DNA-Suppression zur Zirrhoseprophylaxe"
+          ]
+        },
+        {
+          "id": "INF_G037",
+          "titel": "Hepatitis C (Heilung)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "50-j. Patient, Z.n. i.v. Drogenkonsum",
+          "praesentation": "Zufallsbefund erhöhte GPT.",
+          "befunde": [
+            "HCV-RNA positiv",
+            "Genotyp 1a"
+          ],
+          "diagnose": "Chronische Hepatitis C",
+          "therapie": [
+            "DAA (z.B. Sofosbuvir/Velpatasvir)"
+          ],
+          "lernpunkte": [
+            "Heilung in > 95% der Fälle möglich (SVR)"
+          ]
+        },
+        {
+          "id": "INF_G038",
+          "titel": "Hepatitis E",
+          "tags": [
+            "Leber",
+            "Zoonose"
+          ],
+          "patient": "60-j. Mann nach Wildschweinverzehr",
+          "praesentation": "Ikterus, GPT 800.",
+          "befunde": [
+            "Anti-HEV-IgM positiv"
+          ],
+          "diagnose": "Hepatitis E",
+          "therapie": [
+            "Symptomatisch",
+            "Ribavirin bei chronischem Verlauf unter Immunsuppr."
+          ],
+          "lernpunkte": [
+            "Hohe Letalität bei Schwangeren"
+          ]
+        },
+        {
+          "id": "INF_G039",
+          "titel": "Amöbenleberabszess",
+          "tags": [
+            "Leber",
+            "Tropen"
+          ],
+          "patient": "Mexiko-Reisender",
+          "praesentation": "Rechtsseitiger Oberbauchschmerz, Fieber.",
+          "befunde": [
+            "Sono: Solitärer Abszess im rechten Lappen",
+            "Serologie positiv"
+          ],
+          "diagnose": "Amöbenabszess (E. histolytica)",
+          "therapie": [
+            "Metronidazol + Paromomycin"
+          ],
+          "lernpunkte": [
+            "Keine Primärdrainage nötig (im Gegensatz zum pyogenen Abszess)"
+          ]
+        },
+        {
+          "id": "INF_G040",
+          "titel": "Echinokokkose (Alveolär)",
+          "tags": [
+            "Leber",
+            "Parasit"
+          ],
+          "patient": "65-j. Landwirt",
+          "praesentation": "Tumorartiges Wachstum in der Leber.",
+          "befunde": [
+            "CT: Infiltrativ wachsende multilokuläre Zysten",
+            "Serologie positiv"
+          ],
+          "diagnose": "E. multilocularis (Fuchswandwurm)",
+          "therapie": [
+            "Resektion + Langzeit Albendazol"
+          ],
+          "lernpunkte": [
+            "Verhalten wie ein Malignom"
+          ]
+        },
+        {
+          "id": "INF_G041",
+          "titel": "Lambliasis (Giardiasis)",
+          "tags": [
+            "Gastro"
+          ],
+          "patient": "22-j. Rucksacktourist",
+          "praesentation": "Fettstühle (Steatorrhö), Blähungen, Übelkeit.",
+          "befunde": [
+            "Stuhldiagnostik: Giardia lamblia Zysten"
+          ],
+          "diagnose": "Lambliasis",
+          "therapie": [
+            "Metronidazol oder Tinidazol"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache für Reisediarrhö mit Malabsorption"
+          ]
+        },
+        {
+          "id": "INF_G042",
+          "titel": "Whipple-Krankheit",
+          "tags": [
+            "Gastro",
+            "Systemisch"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Gewichtsverlust, Diarrhö, wandernde Arthralgien.",
+          "befunde": [
+            "Duodenalbiopsie: PAS-positive Makrophagen"
+          ],
+          "diagnose": "M. Whipple (Tropheryma whipplei)",
+          "therapie": [
+            "Ceftriaxon -> Cotrimoxazol für 1 Jahr"
+          ],
+          "lernpunkte": [
+            "Lange Therapiedauer zur Rezidivprophylaxe"
+          ]
+        },
+        {
+          "id": "INF_G043",
+          "titel": "EHEC / HUS",
+          "tags": [
+            "Gastro",
+            "Niere"
+          ],
+          "patient": "3-j. Kind nach Fleischverzehr",
+          "praesentation": "Blutige Durchfälle, dann Anurie, Blässe.",
+          "befunde": [
+            "Thrombozytopenie, Fragmentozyten, Kreatinin↑"
+          ],
+          "diagnose": "Hämolytisch-urämisches Syndrom (HUS)",
+          "therapie": [
+            "Supportiv",
+            "keine AB (erhöhen Toxin-Freisetzung)"
+          ],
+          "lernpunkte": [
+            "Shiga-Toxin verursacht Endothelschaden"
+          ]
+        },
+        {
+          "id": "INF_G044",
+          "titel": "Norovirus-Ausbruch",
+          "tags": [
+            "Gastro",
+            "Hygiene"
+          ],
+          "patient": "Pflegeheimbewohner",
+          "praesentation": "Schwallartiges Erbrechen, wässriger Durchfall.",
+          "befunde": [
+            "PCR im Stuhl positiv"
+          ],
+          "diagnose": "Norovirus-Gastroenteritis",
+          "therapie": [
+            "Rehydratation",
+            "Kohortenisolierung"
+          ],
+          "lernpunkte": [
+            "Sehr niedrige Infektionsdosis, hohe Umweltstabilität"
+          ]
+        },
+        {
+          "id": "INF_G045",
+          "titel": "Helicobacter pylori Infektion",
+          "tags": [
+            "Gastro"
+          ],
+          "patient": "45-j. mit Epigastralgien",
+          "praesentation": "Gastritis.",
+          "befunde": [
+            "Atemtest positiv",
+            "Biopsie: H.p. nachweisbar"
+          ],
+          "diagnose": "H. pylori Gastritis",
+          "therapie": [
+            "Eradikationstherapie (Pylera oder Triple)"
+          ],
+          "lernpunkte": [
+            "Risikofaktor für Magenkarzinom und MALT-Lymphom"
+          ]
+        }
+      ]
+    },
+    "urogenital_sti_hiv": {
+      "label": "Urogenital, STI & HIV",
+      "emoji": "🔞",
+      "faelle": [
+        {
+          "id": "INF_U046",
+          "titel": "Unkomplizierte Zystitis",
+          "tags": [
+            "Urogenital"
+          ],
+          "patient": "24-jährige Frau",
+          "praesentation": "Dysurie, Pollakisurie, kein Fieber.",
+          "befunde": [
+            "Nitrit positiv",
+            "Leukozyturie",
+            "Kultur: E. coli"
+          ],
+          "diagnose": "Akute Zystitis",
+          "therapie": [
+            "Fosfomycin Einmaldosis oder Nitrofurantoin"
+          ],
+          "lernpunkte": [
+            "Antibiotic Stewardship: Reserve-AB (Fluorchinolone) vermeiden"
+          ]
+        },
+        {
+          "id": "INF_U047",
+          "titel": "Pyelonephritis akut",
+          "tags": [
+            "Urogenital"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Flankenschmerz, Schüttelfrost, Fieber.",
+          "befunde": [
+            "Klopfschmerz Nierenlager",
+            "CRP↑"
+          ],
+          "diagnose": "Pyelonephritis",
+          "therapie": [
+            "Ciprofloxacin oder Ceftriaxon"
+          ],
+          "lernpunkte": [
+            "Differenzierung zur einfachen Zystitis durch systemische Zeichen"
+          ]
+        },
+        {
+          "id": "INF_U048",
+          "titel": "Urosepsis bei Harnstau",
+          "tags": [
+            "Urogenital",
+            "Notfall"
+          ],
+          "patient": "75-j. Mann mit BPH",
+          "praesentation": "Verwirrtheit, Fieber, Tachykardie.",
+          "befunde": [
+            "Sono: Hydronephrose",
+            "Harnverhalt"
+          ],
+          "diagnose": "Urosepsis",
+          "therapie": [
+            "Entlastung (Katheter/PNS)",
+            "i.v. Antibiose"
+          ],
+          "lernpunkte": [
+            "Sanierung des Abflusshindernisses ist Teil der Kausaltherapie"
+          ]
+        },
+        {
+          "id": "INF_U049",
+          "titel": "Syphilis (Primärstadium)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "30-j. MSM",
+          "praesentation": "Schmerzloses Ulkus am Anus, derbe LK-Schwellung.",
+          "befunde": [
+            "Dunkelfeld: Treponemen",
+            "TPPA positiv"
+          ],
+          "diagnose": "Lues I (Ulcus durum)",
+          "therapie": [
+            "Benzathin-Penicillin G 2,4 Mio IE i.m."
+          ],
+          "lernpunkte": [
+            "Jarisch-Herxheimer-Reaktion nach Penicillin-Gabe"
+          ]
+        },
+        {
+          "id": "INF_U050",
+          "titel": "Gonorrhoe (Tripper)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Eitriger Ausfluss ('Bonjour-Tropfen'), schmerzhaftes Wasserlassen.",
+          "befunde": [
+            "Gram-Präparat: intrazelluläre Diplokokken"
+          ],
+          "diagnose": "Gonorrhoe",
+          "therapie": [
+            "Ceftriaxon 1g i.m. + Azithromycin 1,5g p.o."
+          ],
+          "lernpunkte": [
+            "Partnertherapie obligat, häufig Koinfektion mit Chlamydien"
+          ]
+        },
+        {
+          "id": "INF_U051",
+          "titel": "Urogenitale Chlamydieninfektion",
+          "tags": [
+            "STI"
+          ],
+          "patient": "24-j. Frau",
+          "praesentation": "Asymptomatisch, Partner hat Infekt.",
+          "befunde": [
+            "PCR (Urin): C. trachomatis positiv"
+          ],
+          "diagnose": "Chlamydien-Infektion",
+          "therapie": [
+            "Doxycyclin 100mg 2x1 für 7 Tage"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für Tuben-bedingte Infertilität"
+          ]
+        },
+        {
+          "id": "INF_U052",
+          "titel": "HIV-Primärinfektion",
+          "tags": [
+            "HIV"
+          ],
+          "patient": "28-j. Patient",
+          "praesentation": "Grippales Syndrom, generalisierte LK-Schwellung, makulopapulöses Exanthem.",
+          "befunde": [
+            "p24-Antigen positiv",
+            "PCR-Viruslast hoch",
+            "HIV-AK ggf. noch negativ"
+          ],
+          "diagnose": "Akutes Retrovirales Syndrom",
+          "therapie": [
+            "Einleitung einer ART (Antiretrovirale Therapie)"
+          ],
+          "lernpunkte": [
+            "Hohe Infektiosität im Frühstadium"
+          ]
+        },
+        {
+          "id": "INF_U053",
+          "titel": "Zerebrale Toxoplasmose (Aids)",
+          "tags": [
+            "HIV",
+            "Opportunistisch"
+          ],
+          "patient": "Pat. mit bekannter HIV-Infektion, therapieabstinent",
+          "praesentation": "Wesensveränderung, fokal-neurologische Defizite.",
+          "befunde": [
+            "CD4 < 50/µl",
+            "MRT: Herde mit Kontrastmittelring"
+          ],
+          "diagnose": "Toxoplasmose-Enzephalitis",
+          "therapie": [
+            "Pyrimethamin + Sulfadiazin"
+          ],
+          "lernpunkte": [
+            "Prophylaxe mit Cotrimoxazol bei CD4 < 200/µl"
+          ]
+        },
+        {
+          "id": "INF_U054",
+          "titel": "Kaposi-Sarkom",
+          "tags": [
+            "HIV",
+            "Onkologie"
+          ],
+          "patient": "35-j. HIV-Patient",
+          "praesentation": "Livide Flecken und Knoten an Haut und Mundschleimhaut.",
+          "befunde": [
+            "HHV-8 Nachweis"
+          ],
+          "diagnose": "Kaposi-Sarkom",
+          "therapie": [
+            "Optimierung ART",
+            "ggf. Chemotherapie"
+          ],
+          "lernpunkte": [
+            "Aids-definierende Erkrankung"
+          ]
+        },
+        {
+          "id": "INF_U055",
+          "titel": "Lymphogranuloma venereum (LGV)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "35-j. MSM",
+          "praesentation": "Blutige Proktitis, schmerzhafte Leistenlymphknoten (Bubo).",
+          "befunde": [
+            "PCR: Chlamydien L1-L3"
+          ],
+          "diagnose": "LGV",
+          "therapie": [
+            "Doxycyclin für 21 Tage"
+          ],
+          "lernpunkte": [
+            "Unterscheidung von Standard-Chlamydien durch Serovare"
+          ]
+        },
+        {
+          "id": "INF_U056",
+          "titel": "Urogenitaltuberkulose",
+          "tags": [
+            "Urogenital",
+            "TBC"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Rezidivierende 'sterile' Leukozyturie, Flankenschmerz.",
+          "befunde": [
+            "Urin-Kultur Standard: kein Wachstum",
+            "Urin-PCR: M. tuberculosis positiv"
+          ],
+          "diagnose": "Urogenital-TBC",
+          "therapie": [
+            "Tuberkulostatika (PERI)"
+          ],
+          "lernpunkte": [
+            "Häufigste extrapulmonale TBC"
+          ]
+        },
+        {
+          "id": "INF_U057",
+          "titel": "Fournier-Gangrän",
+          "tags": [
+            "Urogenital",
+            "Notfall"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Schwellung und Schwärzung Skrotum, Sepsis.",
+          "befunde": [
+            "Hautknistern (Emphysem)",
+            "Nekrosen"
+          ],
+          "diagnose": "Nekrotisierende Fasziitis des Perineums",
+          "therapie": [
+            "Radikales chirurgisches Debridement",
+            "Breitbandantibiose"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall, Letalität bis 50%"
+          ]
+        },
+        {
+          "id": "INF_U058",
+          "titel": "Prostatitis akut",
+          "tags": [
+            "Urogenital"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Hohes Fieber, Schüttelfrost, Schmerz beim Wasserlassen.",
+          "befunde": [
+            "DRU: Prostata extrem schmerzhaft, geschwollen"
+          ],
+          "diagnose": "Akute bakterielle Prostatitis",
+          "therapie": [
+            "Fluorchinolone für 4 Wochen"
+          ],
+          "lernpunkte": [
+            "Lange Therapiedauer wegen Gewebegängigkeit"
+          ]
+        },
+        {
+          "id": "INF_U059",
+          "titel": "Primäre HIV-Resistenz",
+          "tags": [
+            "HIV",
+            "Pharmakologie"
+          ],
+          "patient": "HIV-Erstdiagnose",
+          "praesentation": "Therapieplanung.",
+          "befunde": [
+            "Genotypische Resistenzprüfung: K103N Mutation"
+          ],
+          "diagnose": "HIV-Infektion mit NNRTI-Resistenz",
+          "therapie": [
+            "Integrase-Inhibitor-basierte Therapie"
+          ],
+          "lernpunkte": [
+            "Resistenzprüfung vor Therapiebeginn obligat"
+          ]
+        },
+        {
+          "id": "INF_U060",
+          "titel": "Pelvic Inflammatory Disease (PID)",
+          "tags": [
+            "STI",
+            "Gyn"
+          ],
+          "patient": "22-j. Frau",
+          "praesentation": "Unterbauchschmerzen, schmerzhafter Fluor.",
+          "befunde": [
+            "Portioschiebeschmerz",
+            "Leukozyten im Abstrich"
+          ],
+          "diagnose": "PID (Adnexitis)",
+          "therapie": [
+            "Ceftriaxon + Doxycyclin + Metronidazol"
+          ],
+          "lernpunkte": [
+            "Gefahr der chronischen Schmerzen und Extrauteringravidität"
+          ]
+        }
+      ]
+    },
+    "haut_knochen_weichteile": {
+      "label": "Haut, Knochen & Weichteilinfektionen",
+      "emoji": "🩹",
+      "faelle": [
+        {
+          "id": "INF_H061",
+          "titel": "Erysipel (Wundrose)",
+          "tags": [
+            "Haut",
+            "Streptokokken"
+          ],
+          "patient": "65-jährige Patientin, Adipositas",
+          "praesentation": "Flammende Rötung Unterschenkel, scharf begrenzt, Schüttelfrost.",
+          "befunde": [
+            "Eintrittspforte: Tinea pedis",
+            "CRP↑",
+            "Leukozytose"
+          ],
+          "diagnose": "Erysipel (Gruppe A Streptokokken)",
+          "therapie": [
+            "Penicillin G i.v. oder Penicillin V oral",
+            "Hochlagerung",
+            "Kühlen"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur Stauungsdermatitis"
+          ]
+        },
+        {
+          "id": "INF_H062",
+          "titel": "Phlegmone (Staphylokokken)",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "40-j. nach Bagatelltrauma",
+          "praesentation": "Teigige Schwellung und Rötung, unscharf begrenzt.",
+          "befunde": [
+            "Eitriges Exsudat",
+            "S. aureus nachweisbar"
+          ],
+          "diagnose": "Phlegmone",
+          "therapie": [
+            "Flucloxacillin oder Cefazolin"
+          ],
+          "lernpunkte": [
+            "Tiefere Ausbreitung als Erysipel"
+          ]
+        },
+        {
+          "id": "INF_H063",
+          "titel": "Nekrotisierende Fasziitis",
+          "tags": [
+            "Haut",
+            "Notfall"
+          ],
+          "patient": "50-j. nach Bagatellverletzung",
+          "praesentation": "Stärkster Schmerz ('out of proportion'), graue Hautfarbe, Kreislaufschock.",
+          "befunde": [
+            "Hautemphysem",
+            "Fasziennekrose intraoperativ"
+          ],
+          "diagnose": "Nekrotisierende Fasziitis Typ I (Mischinfekt)",
+          "therapie": [
+            "Notfall-Debridement",
+            "Penicillin + Clindamycin + Meropenem"
+          ],
+          "lernpunkte": [
+            "Clindamycin hemmt Toxin-Produktion"
+          ]
+        },
+        {
+          "id": "INF_H064",
+          "titel": "Akute Osteomyelitis",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Fieber, Belastungsverweigerung des Beins.",
+          "befunde": [
+            "Druckschmerz Metaphyse",
+            "MRT: Knochenmarködem"
+          ],
+          "diagnose": "Akute hämatogene Osteomyelitis",
+          "therapie": [
+            "Flucloxacillin oder Cefazolin i.v."
+          ],
+          "lernpunkte": [
+            "Häufigster Erreger: S. aureus"
+          ]
+        },
+        {
+          "id": "INF_H065",
+          "titel": "Spondylodiszitis",
+          "tags": [
+            "Knochen",
+            "Fokus"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Heftiger lokaler Rückenschmerz, nachts schlimmer.",
+          "befunde": [
+            "BSG/CRP↑",
+            "MRT: Entzündung Bandscheibe/Grundplatte"
+          ],
+          "diagnose": "Spondylodiszitis",
+          "therapie": [
+            "Antibiose (nach Punktion)",
+            "Ruhigstellung"
+          ],
+          "lernpunkte": [
+            "Häufig hämatogene Aussaat bei Endokarditis"
+          ]
+        },
+        {
+          "id": "INF_H066",
+          "titel": "Septische Arthritis (Knie)",
+          "tags": [
+            "Knochen",
+            "Notfall"
+          ],
+          "patient": "70-j. nach Gelenkinjektion",
+          "praesentation": "Rotes, geschwollenes Gelenk, Belastungsunfähigkeit.",
+          "befunde": [
+            "Sono: Gelenkerguss",
+            "Punktat: Leukozyten > 50.000/µl"
+          ],
+          "diagnose": "Septische Arthritis",
+          "therapie": [
+            "Gelenkspülung (Arthroskopisch)",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Orthopädischer Notfall: Gelenkdestruktion droht"
+          ]
+        },
+        {
+          "id": "INF_H067",
+          "titel": "Gasbrand (Gaskrankheit)",
+          "tags": [
+            "Haut",
+            "Notfall"
+          ],
+          "patient": "Landwirtschaftlicher Unfall",
+          "praesentation": "Extremer Schmerz, Bronzefärbung der Haut, süßlicher Geruch.",
+          "befunde": [
+            "Hautemphysem",
+            "Gram: positive Stäbchen (C. perfringens)"
+          ],
+          "diagnose": "Gasödeminfektion",
+          "therapie": [
+            "Radikales Debridement / Amputation",
+            "Penicillin G + Clindamycin",
+            "HBO"
+          ],
+          "lernpunkte": [
+            "Hohe Letalität, extrem schnelle Ausbreitung"
+          ]
+        },
+        {
+          "id": "INF_H068",
+          "titel": "Tinea corporis (Ringelflechte)",
+          "tags": [
+            "Haut",
+            "Pilz"
+          ],
+          "patient": "22-j. Ringer (Sportler)",
+          "praesentation": "Anuläre, schuppende Rötungen mit betontem Rand.",
+          "befunde": [
+            "Nativpräparat: Myzelien"
+          ],
+          "diagnose": "Dermatophytose",
+          "therapie": [
+            "Topische Antimykoika (Ciclopirox)"
+          ],
+          "lernpunkte": [
+            "Anuläre Form ist klassisch"
+          ]
+        },
+        {
+          "id": "INF_H069",
+          "titel": "Erythema migrans (Borreliose)",
+          "tags": [
+            "Haut",
+            "Zecken"
+          ],
+          "patient": "40-j. nach Waldspaziergang",
+          "praesentation": "Zentrifugal wachsende Rötung mit zentraler Abblasung.",
+          "befunde": [
+            "Klinische Diagnose",
+            "Serologie initial oft negativ"
+          ],
+          "diagnose": "Lyme-Borreliose Stadium I",
+          "therapie": [
+            "Doxycyclin 100mg 2x1 für 14-21 Tage"
+          ],
+          "lernpunkte": [
+            "Serologie im Frühstadium nicht empfohlen"
+          ]
+        },
+        {
+          "id": "INF_H070",
+          "titel": "Skabies (Krätze)",
+          "tags": [
+            "Haut",
+            "Parasit"
+          ],
+          "patient": "19-j. nach Aufenthalt in Jugendherberge",
+          "praesentation": "Nächtlicher Juckreiz, Papeln an Handgelenken und Interdigitalräumen.",
+          "befunde": [
+            "Dermatoskopie: Milbengänge, Delta-Zeichen"
+          ],
+          "diagnose": "Skabies",
+          "therapie": [
+            "Permethrin 5% Creme oder Ivermectin oral"
+          ],
+          "lernpunkte": [
+            "Behandlung der Kontaktpersonen simultan"
+          ]
+        },
+        {
+          "id": "INF_H071",
+          "titel": "Milzbrand (Hautanthrax)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "Tierarzt",
+          "praesentation": "Schmerzlose Pustel am Arm, die zu schwarzem Schorf (Eschara) wird.",
+          "befunde": [
+            "AZ-Verschlechterung",
+            "Ödem"
+          ],
+          "diagnose": "Hautmilzbrand",
+          "therapie": [
+            "Ciprofloxacin"
+          ],
+          "lernpunkte": [
+            "Typisch schmerzlose Läsion bei ausgeprägtem Ödem"
+          ]
+        },
+        {
+          "id": "INF_H072",
+          "titel": "Impetigo contagiosa",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Honiggelbe Krusten perioral.",
+          "befunde": [
+            "Abstrich: S. aureus"
+          ],
+          "diagnose": "Borkenflechte",
+          "therapie": [
+            "Topische Antiseptika / Mupirocin"
+          ],
+          "lernpunkte": [
+            "Hochkontagiös"
+          ]
+        },
+        {
+          "id": "INF_H073",
+          "titel": "Aktinomykose",
+          "tags": [
+            "Haut",
+            "Bakteriell"
+          ],
+          "patient": "50-j. Patient nach Kiefer-OP",
+          "praesentation": "Derbe Infiltrate im Gesicht, Fisteln mit gelblichen Körnchen.",
+          "befunde": [
+            "Schwefelkörnchen in Drüsensekret"
+          ],
+          "diagnose": "Zervikofaziale Aktinomykose",
+          "therapie": [
+            "Penicillin G über Monate"
+          ],
+          "lernpunkte": [
+            "Endogene Infektion durch normale Mundflora"
+          ]
+        },
+        {
+          "id": "INF_H074",
+          "titel": "Katzenkratzkrankheit",
+          "tags": [
+            "Zoonose"
+          ],
+          "patient": "10-j. Kind nach Spiel mit Kätzchen",
+          "praesentation": "Lymphknotenschwellung axillär, Fieber.",
+          "befunde": [
+            "Papel an der Kratzstelle",
+            "Serologie: Bartonella henselae"
+          ],
+          "diagnose": "Katzenkratzkrankheit",
+          "therapie": [
+            "Meist selbstlimitierend",
+            "ggf. Azithromycin"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache chronischer Lymphadenopathie bei Kindern"
+          ]
+        },
+        {
+          "id": "INF_H075",
+          "titel": "Kutane Leishmaniose (Orientbeule)",
+          "tags": [
+            "Haut",
+            "Tropen"
+          ],
+          "patient": "Rückkehrer aus dem Mittelmeerraum",
+          "praesentation": "Nicht heilendes Ulkus am Unterarm.",
+          "befunde": [
+            "Biopsie: Leishmanien-Nachweis (Amastigote)"
+          ],
+          "diagnose": "Hautleishmaniose",
+          "therapie": [
+            "Lokale Infiltration mit Antimonpräparaten oder Kryo"
+          ],
+          "lernpunkte": [
+            "Übertragung durch Sandmücke"
+          ]
+        }
+      ]
+    },
+    "tropen_reisemedizin": {
+      "label": "Tropen- & Reisemedizin",
+      "emoji": "🌴",
+      "faelle": [
+        {
+          "id": "INF_T076",
+          "titel": "Malaria tropica (Notfall)",
+          "tags": [
+            "Tropen",
+            "Notfall",
+            "Malaria"
+          ],
+          "patient": "35-jähriger Rückkehrer aus Westafrika",
+          "praesentation": "Unregelmäßiges Fieber, Schüttelfrost, Ikterus.",
+          "befunde": [
+            "Dicker Tropfen: P. falciparum",
+            "Parasitämie 5%",
+            "Thrombozytopenie"
+          ],
+          "diagnose": "Malaria tropica",
+          "therapie": [
+            "Artesunat i.v. oder Artemether/Lumefantrin"
+          ],
+          "lernpunkte": [
+            "Jedes Fieber nach Tropenaufenthalt ist Malaria bis zum Beweis des Gegenteils!"
+          ]
+        },
+        {
+          "id": "INF_T077",
+          "titel": "Dengue-Fieber",
+          "tags": [
+            "Tropen",
+            "Virus"
+          ],
+          "patient": "25-j. Rückkehrer aus Thailand",
+          "praesentation": "Hohes Fieber, extreme Knochenschmerzen ('Breakbone fever'), Exanthem.",
+          "befunde": [
+            "Leukopenie",
+            "NS1-Antigen positiv"
+          ],
+          "diagnose": "Dengue-Fieber",
+          "therapie": [
+            "Supportiv",
+            "kein Aspirin/NSAR (Blutungsgefahr)"
+          ],
+          "lernpunkte": [
+            "Gefahr des hämorrhagischen Dengue-Fiebers bei Zweitinfektion"
+          ]
+        },
+        {
+          "id": "INF_T078",
+          "titel": "Schistosomiasis (Bilharziose)",
+          "tags": [
+            "Parasit"
+          ],
+          "patient": "30-j. nach Schwimmen im Malawisee",
+          "praesentation": "Hämaturie, Katayama-Fieber initial.",
+          "befunde": [
+            "Urin-Mikroskopie: Eier mit Endstachel (S. haematobium)"
+          ],
+          "diagnose": "Blasenbilharziose",
+          "therapie": [
+            "Praziquantel"
+          ],
+          "lernpunkte": [
+            "Risikofaktor für Plattenepithelkarzinom der Blase"
+          ]
+        },
+        {
+          "id": "INF_T079",
+          "titel": "Amoebiasis (Ruhr)",
+          "tags": [
+            "Gastro",
+            "Tropen"
+          ],
+          "patient": "Rückkehrer aus Indien",
+          "praesentation": "Blutig-schleimige Durchfälle, Tenesmen.",
+          "befunde": [
+            "Stuhl: Magna-Formen von E. histolytica"
+          ],
+          "diagnose": "Amöbenruhr",
+          "therapie": [
+            "Metronidazol + Paromomycin"
+          ],
+          "lernpunkte": [
+            "Übertragung über Zysten (fäkal-oral)"
+          ]
+        },
+        {
+          "id": "INF_T080",
+          "titel": "Viszerale Leishmaniose (Kala-Azar)",
+          "tags": [
+            "Tropen"
+          ],
+          "patient": "Pat. nach Langzeitaufenthalt in Ostafrika",
+          "praesentation": "Fieber, massivste Splenomegalie, Panzytopenie.",
+          "befunde": [
+            "Knochenmark: Leishmanien nachweisbar"
+          ],
+          "diagnose": "Kala-Azar",
+          "therapie": [
+            "Amphotericin B liposomal"
+          ],
+          "lernpunkte": [
+            "Letaler Verlauf ohne Therapie"
+          ]
+        },
+        {
+          "id": "INF_T081",
+          "titel": "Chikungunya-Fieber",
+          "tags": [
+            "Tropen"
+          ],
+          "patient": "Reisender aus der Karibik",
+          "praesentation": "Fieber, persistierende schwere Polyarthralgien.",
+          "befunde": [
+            "Serologie positiv"
+          ],
+          "diagnose": "Chikungunya",
+          "therapie": [
+            "Symptomatisch (NSAR)"
+          ],
+          "lernpunkte": [
+            "Arthralgien können über Monate bestehen bleiben"
+          ]
+        },
+        {
+          "id": "INF_T082",
+          "titel": "Gelbfieber",
+          "tags": [
+            "Tropen",
+            "Virus"
+          ],
+          "patient": "Nicht-geimpfter Tropenreisender",
+          "praesentation": "Hämorrhagisches Fieber, Ikterus (Gelbphase), Erbrechen von Blut.",
+          "befunde": [
+            "Transaminasen massiv↑"
+          ],
+          "diagnose": "Gelbfieber",
+          "therapie": [
+            "Supportiv",
+            "Isolation"
+          ],
+          "lernpunkte": [
+            "Prävention durch hocheffektive Lebendimpfung"
+          ]
+        },
+        {
+          "id": "INF_T083",
+          "titel": "Afrikanische Trypanosomiasis (Schlafkrankheit)",
+          "tags": [
+            "Tropen"
+          ],
+          "patient": "Reisender nach Ostafrika",
+          "praesentation": "Ulcus an der Einstichstelle (Schanker), Fieber, jetzt Umkehr Tag-Nacht-Rhythmus.",
+          "befunde": [
+            "Blutausstrich: Trypanosomen"
+          ],
+          "diagnose": "Schlafkrankheit",
+          "therapie": [
+            "Suramin oder Melarsoprol"
+          ],
+          "lernpunkte": [
+            "Übertragung durch Tsetse-Fliege"
+          ]
+        },
+        {
+          "id": "INF_T084",
+          "titel": "Rickettsiose (Afrikanisches Zeckenbissfieber)",
+          "tags": [
+            "Tropen"
+          ],
+          "patient": "Safari-Urlauber",
+          "praesentation": "Fieber, lokaler schwarzer Schorf (Eschar) am Bein.",
+          "befunde": [
+            "Makulopapulöses Exanthem"
+          ],
+          "diagnose": "Tick-bite fever (R. africae)",
+          "therapie": [
+            "Doxycyclin"
+          ],
+          "lernpunkte": [
+            "Eschar ist wegweisend"
+          ]
+        },
+        {
+          "id": "INF_T085",
+          "titel": "Zika-Virus Infektion",
+          "tags": [
+            "Tropen"
+          ],
+          "patient": "Schwangere nach Brasilien-Reise",
+          "praesentation": "Leichtes Fieber, Konjunktivitis.",
+          "befunde": [
+            "Serologie/PCR positiv"
+          ],
+          "diagnose": "Zika-Virus Infektion",
+          "therapie": [
+            "Supportiv",
+            "Sonographische Überwachung Fötus"
+          ],
+          "lernpunkte": [
+            "Gefahr der Mikrozephalie beim Ungeborenen"
+          ]
+        },
+        {
+          "id": "INF_T086",
+          "titel": "Brucellose",
+          "tags": [
+            "Zoonose"
+          ],
+          "patient": "Pat. nach Verzehr von Rohmilchkäse im Mittelmeerraum",
+          "praesentation": "Undulierendes Fieber, Nachtschweiß, Hepatosplenomegalie.",
+          "befunde": [
+            "Kultur: Brucella melitensis"
+          ],
+          "diagnose": "Maltafieber",
+          "therapie": [
+            "Doxycyclin + Rifampicin"
+          ],
+          "lernpunkte": [
+            "Langwieriger Verlauf, Neigung zur Chronifizierung"
+          ]
+        },
+        {
+          "id": "INF_T087",
+          "titel": "Lepra (Tuberkuloid)",
+          "tags": [
+            "Tropen",
+            "Chronisch"
+          ],
+          "patient": "Pat. aus Brasilien",
+          "praesentation": "Anästhetische Hautflecken, verdickte Nervenstämme.",
+          "befunde": [
+            "Biopsie: Granulome, kaum Erreger (paucibakteriell)"
+          ],
+          "diagnose": "Tuberkuloide Lepra (M. leprae)",
+          "therapie": [
+            "Rifampicin + Dapsone"
+          ],
+          "lernpunkte": [
+            "Nervenschädigung führt zu Verstümmelungen"
+          ]
+        },
+        {
+          "id": "INF_T088",
+          "titel": "Tollwut (Lyssa)",
+          "tags": [
+            "Zoonose",
+            "Notfall"
+          ],
+          "patient": "Pat. nach Hundebiss in Thailand",
+          "praesentation": "Angst, Hydrophobie, Spasmen.",
+          "befunde": [
+            "Klinische Diagnose"
+          ],
+          "diagnose": "Rabies",
+          "therapie": [
+            "Keine kurative Therapie nach Symptombeginn",
+            "Letalität 100%"
+          ],
+          "lernpunkte": [
+            "Postexpositionsprophylaxe (PEP) rettet Leben!"
+          ]
+        },
+        {
+          "id": "INF_T089",
+          "titel": "Ebola-Hämorrhagisches Fieber",
+          "tags": [
+            "Tropen",
+            "Virus"
+          ],
+          "patient": "Helfer im Ausbruchsgebiet",
+          "praesentation": "Hohes Fieber, hämorrhagisches Erbrechen, Multiorganversagen.",
+          "befunde": [
+            "PCR im Blut positiv"
+          ],
+          "diagnose": "Ebolafieber",
+          "therapie": [
+            "Supportiv",
+            "Antikörper-Therapie (REGN-EB3)"
+          ],
+          "lernpunkte": [
+            "Höchste Schutzstufe im Labor/Klinik"
+          ]
+        },
+        {
+          "id": "INF_T090",
+          "titel": "Diphyllobothriasis (Fischbandwurm)",
+          "tags": [
+            "Parasit"
+          ],
+          "patient": "Pat. nach Verzehr von rohem Süßwasserfisch",
+          "praesentation": "Bauchschmerzen, megaloblastäre Anämie.",
+          "befunde": [
+            "Stuhl: Eier von D. latum",
+            "Vitamin B12 Mangel"
+          ],
+          "diagnose": "Fischbandwurm-Infektion",
+          "therapie": [
+            "Praziquantel"
+          ],
+          "lernpunkte": [
+            "Wurm konkurriert mit Wirt um Vitamin B12"
+          ]
+        }
+      ]
+    },
+    "sepsis_abs_recht": {
+      "label": "Sepsis, Antibiotic Stewardship & Recht",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "INF_S091",
+          "titel": "Sepsis (Fokus: Harnwege)",
+          "tags": [
+            "Sepsis",
+            "Notfall"
+          ],
+          "patient": "80-jähriger Heimbewohner",
+          "praesentation": "Verwirrtheit, Tachypnoe, RR 90/60 mmHg.",
+          "befunde": [
+            "qSOFA: 3 Punkte",
+            "Laktat 3,2 mmol/l",
+            "Urosepsis-Verdacht"
+          ],
+          "diagnose": "Sepsis",
+          "therapie": [
+            "Kalkulierte Antibiose < 1h",
+            "Volumensubstitution",
+            "Source Control"
+          ],
+          "lernpunkte": [
+            "Sepsis-3 Definition: Organfehlfunktion durch dysregulierte Immunantwort"
+          ]
+        },
+        {
+          "id": "INF_S092",
+          "titel": "Antibiotic Stewardship (Deeskallation)",
+          "tags": [
+            "ABS"
+          ],
+          "patient": "Pat. mit V.a. Sepsis unter Meropenem",
+          "praesentation": "Stabilisierung an Tag 3.",
+          "befunde": [
+            "Blutkultur: S. pneumoniae (vollsensibel)"
+          ],
+          "diagnose": "Pneumokokken-Sepsis",
+          "therapie": [
+            "Umstellung von Meropenem auf Penicillin G"
+          ],
+          "lernpunkte": [
+            "Gezielte Therapie statt Breitband zur Resistenzvermeidung"
+          ]
+        },
+        {
+          "id": "INF_S093",
+          "titel": "Fieber unklarer Genese (FUO)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "50-j. Mann, Fieber > 38,3°C seit 3 Wochen",
+          "praesentation": "Umfangreiche Diagnostik bisher ergebnislos.",
+          "befunde": [
+            "PET-CT: Mehranreicherung Wirbelkörper"
+          ],
+          "diagnose": "Osteomyelitische Form der Spondylodiszitis",
+          "therapie": [
+            "Gezielte Antibiose"
+          ],
+          "lernpunkte": [
+            "Definition FUO: > 3 Wochen, kein Fokus nach 1 Woche stat. Diagnostik"
+          ]
+        },
+        {
+          "id": "INF_S094",
+          "titel": "Katheterassoziierte Infektion (CRBSI)",
+          "tags": [
+            "Nosokomial"
+          ],
+          "patient": "Pat. mit ZVK und Fieber",
+          "praesentation": "Kältegefühl bei Spülung.",
+          "befunde": [
+            "Differential Time to Positivity (DTP): ZVK-Kultur schlägt 3h vor peripherer Kultur an"
+          ],
+          "diagnose": "Kathetersepsis (S. epidermidis)",
+          "therapie": [
+            "Katheterzug",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "DTP-Verfahren zur Diagnostik ohne Katheterzug"
+          ]
+        },
+        {
+          "id": "INF_S095",
+          "titel": "Meldepflicht (§ 6 IfSG)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Pat. mit V.a. Masern",
+          "praesentation": "Diagnosestellung in der Praxis.",
+          "befunde": [
+            "Koplik-Flecken"
+          ],
+          "diagnose": "Masern-Verdacht",
+          "therapie": [
+            "Namentliche Meldung ans Gesundheitsamt binnen 24h"
+          ],
+          "lernpunkte": [
+            "Arztpflicht zur Meldung bei Verdacht, Erkrankung, Tod"
+          ]
+        },
+        {
+          "id": "INF_S096",
+          "titel": "Multiresistente Erreger (MRSA)",
+          "tags": [
+            "Hygiene",
+            "ABS"
+          ],
+          "patient": "Heimbewohner zur geplanten OP",
+          "praesentation": "Screening.",
+          "befunde": [
+            "Nasenabstrich: MRSA positiv"
+          ],
+          "diagnose": "MRSA-Besiedlung",
+          "therapie": [
+            "Sanierung (Mupirocin-Nasensalbe, Chlorhexidin-Waschungen)"
+          ],
+          "lernpunkte": [
+            "Präoperative Sanierung senkt Wundinfektionsrate"
+          ]
+        },
+        {
+          "id": "INF_S097",
+          "titel": "VRE-Besiedlung",
+          "tags": [
+            "Hygiene"
+          ],
+          "patient": "Pat. auf Intensivstation",
+          "praesentation": "Screening.",
+          "befunde": [
+            "Rektal-Abstrich: Vancomycin-resistente Enterokokken"
+          ],
+          "diagnose": "VRE-Besiedlung",
+          "therapie": [
+            "Isolierung",
+            "keine Sanierung etabliert"
+          ],
+          "lernpunkte": [
+            "Kontakthygiene zur Vermeidung der Transmission"
+          ]
+        },
+        {
+          "id": "INF_S098",
+          "titel": "Prophylaxe nach Nadelstichverletzung (PEP)",
+          "tags": [
+            "Arbeitsmedizin",
+            "HIV"
+          ],
+          "patient": "Pflegekraft nach Stich an Kanüle von HIV-Pat.",
+          "praesentation": "Akutsituation.",
+          "befunde": [
+            "Indices-Patient hat hohe Viruslast"
+          ],
+          "diagnose": "HIV-Exposition",
+          "therapie": [
+            "Sofortige PEP für 28 Tage",
+            "Blutabnahme T0"
+          ],
+          "lernpunkte": [
+            "Start am besten < 2h, maximal 72h"
+          ]
+        },
+        {
+          "id": "INF_S099",
+          "titel": "Impfversagen",
+          "tags": [
+            "Impfung"
+          ],
+          "patient": "Pat. mit Hepatitis B trotz Impfung",
+          "praesentation": "Kontrolle Titer.",
+          "befunde": [
+            "Anti-HBs < 10 IE/l"
+          ],
+          "diagnose": "Non-Responder",
+          "therapie": [
+            "Erneute Impfserie (ggf. Doppeldosis)"
+          ],
+          "lernpunkte": [
+            "ca. 5-10% Non-Responder bei Hep B"
+          ]
+        },
+        {
+          "id": "INF_S100",
+          "titel": "Ärztliche Schweigepflicht bei HIV",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "HIV-Patient, verschweigt Infektion gegenüber Partner",
+          "praesentation": "Ethisches Dilemma.",
+          "befunde": [
+            "Patient verweigert Partner-Information"
+          ],
+          "diagnose": "Gefährdung Dritter",
+          "therapie": [
+            "Beratung, Drohung der Offenbarung bei Fortbestehen der Gefahr"
+          ],
+          "lernpunkte": [
+            "Rechtfertigender Notstand (§ 34 StGB) bei Lebensgefahr"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2005 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Radiologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-30"
+  },
+  "kategorien": {
+    "grundlagen_strahlenschutz": {
+      "label": "Grundlagen, Strahlenschutz & Kontrastmittel",
+      "emoji": "☢️",
+      "faelle": [
+        {
+          "id": "RAD_G001",
+          "titel": "Kontrastmittel-Reaktion (Anaphylaktoid)",
+          "tags": [
+            "Sicherheit",
+            "Kontrastmittel"
+          ],
+          "patient": "45-jährige Patientin während des KM-CTs",
+          "praesentation": "Plötzliche Urtikaria, Übelkeit und Bronchospasmus unmittelbar nach Injektion.",
+          "befunde": [
+            "Blutdruckabfall",
+            "Tachykardie",
+            "Stridor"
+          ],
+          "diagnose": "Kontrastmittelunverträglichkeit Grad II-III",
+          "therapie": [
+            "Sofortiger KM-Stopp",
+            "Adrenalin i.m.",
+            "Steroide + Antihistaminika i.v.",
+            "O2-Gabe"
+          ],
+          "lernpunkte": [
+            "Einteilung der Schweregrade nach Ring und Messmer",
+            "Notfallequipment muss immer bereitstehen"
+          ]
+        },
+        {
+          "id": "RAD_G002",
+          "titel": "Nephrotoxizität (CIN-Prävention)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "72-j. Diabetiker vor CT-Angio",
+          "praesentation": "Kreatinin 1,6 mg/dl, GFR 45 ml/min.",
+          "befunde": [
+            "Eingeschränkte Nierenfunktion"
+          ],
+          "diagnose": "Risiko für Kontrastmittel-induzierte Nephropathie",
+          "therapie": [
+            "Isotone Hydrierung (NaCl) prä/post",
+            "Absetzen von Metformin für 48h"
+          ],
+          "lernpunkte": [
+            "Hydrierung ist die effektivste Prophylaxe"
+          ]
+        },
+        {
+          "id": "RAD_G003",
+          "titel": "Strahlenexposition (ALARA)",
+          "tags": [
+            "Strahlenschutz"
+          ],
+          "patient": "Kind mit V.a. Pneumonie",
+          "praesentation": "Indikationsstellung.",
+          "befunde": [
+            "Geringe klinische Symptomatik"
+          ],
+          "diagnose": "Rechtfertigende Indikation",
+          "therapie": [
+            "Vermeidung von Wiederholungsaufnahmen",
+            "Einblendung optimieren",
+            "Pädiatrische Protokolle"
+          ],
+          "lernpunkte": [
+            "As Low As Reasonably Achievable",
+            "Besondere Sensibilität in der Pädiatrie"
+          ]
+        },
+        {
+          "id": "RAD_G004",
+          "titel": "MRT-Sicherheitscheck (Metall)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. zur MRT LWS",
+          "praesentation": "Fragebogen-Check.",
+          "befunde": [
+            "Zustand nach Granatsplitterverletzung Auge"
+          ],
+          "diagnose": "Kontraindikation für MRT",
+          "therapie": [
+            "Umstellung auf CT oder Myelographie"
+          ],
+          "lernpunkte": [
+            "Ferromagnetische Fremdkörper in sensiblen Regionen sind absolute KI"
+          ]
+        },
+        {
+          "id": "RAD_G005",
+          "titel": "Schwangerschaft & Röntgen",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "28-j. Frau nach Sturz",
+          "praesentation": "Röntgen Sprunggelenk nötig.",
+          "befunde": [
+            "Frühschwangerschaft (6. SSW)"
+          ],
+          "diagnose": "Notwendigkeit einer Untersuchung in der SS",
+          "therapie": [
+            "Strenge Indikation",
+            "Bleischürze (Uterus-Schutz)",
+            "Ersatzverfahren (Sono) prüfen"
+          ],
+          "lernpunkte": [
+            "Deterministische Schäden erst bei hohen Dosen (> 100 mSv)"
+          ]
+        },
+        {
+          "id": "RAD_G006",
+          "titel": "Bildrauschen & Dosis (Technik)",
+          "tags": [
+            "Physik"
+          ],
+          "patient": "Sehr adipöser Patient im CT",
+          "praesentation": "Schlechte Bildqualität.",
+          "befunde": [
+            "Hohes Bildrauschen durch Absorption"
+          ],
+          "diagnose": "Dosisinsuffizienz",
+          "therapie": [
+            "Anpassung der Röhrenspannung (kV) und Stromstärke (mAs)"
+          ],
+          "lernpunkte": [
+            "Dosis-Quadrat-Gesetz und Schwächungskoeffizienten"
+          ]
+        },
+        {
+          "id": "RAD_G007",
+          "titel": "Artefakte (Metall im CT)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit Hüft-TEP",
+          "praesentation": "Becken-CT zum Abszessausschluss.",
+          "befunde": [
+            "Strahlenförmige Auslöschungen um das Implantat"
+          ],
+          "diagnose": "Metallartefakte (Beam Hardening)",
+          "therapie": [
+            "Verwendung von MAR-Algorithmen (Metal Artifact Reduction)"
+          ],
+          "lernpunkte": [
+            "Aufhärtung des Röntgenstrahls an dichten Objekten"
+          ]
+        },
+        {
+          "id": "RAD_G008",
+          "titel": "KM-Extravasation (Paravasat)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach High-Flow Injektion",
+          "praesentation": "Schmerzhafte Schwellung am Unterarm nach CT.",
+          "befunde": [
+            "Lokale Druckspannung",
+            "Hautblässe distal?"
+          ],
+          "diagnose": "Kontrastmittelparavasat",
+          "therapie": [
+            "Hochlagern",
+            "Kühlen",
+            "ggf. plastisch-chirurgisches Konsil bei Kompartmentverdacht"
+          ],
+          "lernpunkte": [
+            "Gefahr der Gewebenekrose bei ionischen KM"
+          ]
+        },
+        {
+          "id": "RAD_G009",
+          "titel": "NSF (Nephrogene systemische Fibrose)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Dialyse-Pat. nach Gadolinium-Gabe",
+          "praesentation": "Hautverhärtungen Wochen nach MRT.",
+          "befunde": [
+            "Fibrosierung der Haut und inneren Organe"
+          ],
+          "diagnose": "NSF",
+          "therapie": [
+            "Supportiv",
+            "Vermeidung von Gadolinium bei GFR < 30"
+          ],
+          "lernpunkte": [
+            "Verwendung von makrozyklischen Gadolinium-Chelaten reduziert Risiko"
+          ]
+        },
+        {
+          "id": "RAD_G010",
+          "titel": "Schilddrüse & Jod-KM",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "75-j. mit latenter Hyperthyreose",
+          "praesentation": "Vorbereitung zum Angio-CT.",
+          "befunde": [
+            "TSH supprimiert, fT3/fT4 normal"
+          ],
+          "diagnose": "Risiko für thyreotoxische Krise",
+          "therapie": [
+            "Prämedikation mit Perchlorat und Thiamazol"
+          ],
+          "lernpunkte": [
+            "Jodinduzierte Hyperthyreose bei Autonomie vermeiden"
+          ]
+        }
+      ]
+    },
+    "skelett_trauma": {
+      "label": "Skelett & Trauma",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "RAD_S011",
+          "titel": "Distale Radiusfraktur (Colles)",
+          "tags": [
+            "Trauma",
+            "Skelett"
+          ],
+          "patient": "65-jährige Frau nach Sturz auf die Hand",
+          "praesentation": "Bajonett-Stellung des Handgelenks.",
+          "befunde": [
+            "Rö: Fraktur distal des Radius mit Dislokation nach dorsal",
+            "Trümmerzone"
+          ],
+          "diagnose": "Extensionsfraktur (Colles-Typ)",
+          "therapie": [
+            "Geschlossene Reposition + Gips vs. Winkelstabile Platte"
+          ],
+          "lernpunkte": [
+            "Häufigste Fraktur bei Osteoporose",
+            "Gegenteil: Smith-Fraktur (Flexion/volar)"
+          ]
+        },
+        {
+          "id": "RAD_S012",
+          "titel": "Schenkelhalsfraktur (Medial)",
+          "tags": [
+            "Trauma",
+            "Geriatrie"
+          ],
+          "patient": "82-j. Mann nach Sturz aus dem Bett",
+          "praesentation": "Bein verkürzt und außenrotiert.",
+          "befunde": [
+            "Rö: Dislozierte mediale SHF (Garden IV)"
+          ],
+          "diagnose": "Mediale Schenkelhalsfraktur",
+          "therapie": [
+            "Hüft-TEP oder Duokopf-Prothese"
+          ],
+          "lernpunkte": [
+            "Pauwels-Klassifikation zur Bestimmung der Scherkräfte"
+          ]
+        },
+        {
+          "id": "RAD_S013",
+          "titel": "Osteosarkom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "15-j. Jugendlicher",
+          "praesentation": "Schwellung und Schmerz am distalen Femur.",
+          "befunde": [
+            "Rö: Sunburst-Phänomen",
+            "Codman-Dreieck",
+            "Infiltration der Weichteile"
+          ],
+          "diagnose": "Osteosarkom",
+          "therapie": [
+            "Neoadjuvante Chemo + radikale Resektion"
+          ],
+          "lernpunkte": [
+            "Codman-Dreieck als Zeichen der Periostabhebung durch Tumor"
+          ]
+        },
+        {
+          "id": "RAD_S014",
+          "titel": "Aseptische Hüftkopfnekrose",
+          "tags": [
+            "Skelett"
+          ],
+          "patient": "40-j. Mann nach Langzeit-Steroideinnahme",
+          "praesentation": "Leistenschmerz bei Belastung.",
+          "befunde": [
+            "MRT: Signalabfall (Low-signal line) subchondral",
+            "Rö initial oft unauffällig"
+          ],
+          "diagnose": "M. Chandler (Hüftkopfnekrose Stadium ARCO II) ",
+          "therapie": [
+            "Anbohrung (Core Decompression)"
+          ],
+          "lernpunkte": [
+            "MRT ist dem Röntgen in Frühstadien massiv überlegen"
+          ]
+        },
+        {
+          "id": "RAD_S015",
+          "titel": "Rheumatoide Arthritis (Hände)",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "55-j. Frau mit Morgensteifigkeit",
+          "praesentation": "Symmetrische Gelenkschwellungen.",
+          "befunde": [
+            "Rö: Gelenknahe Entkalkung, Randeisenzysten (Erosionen), Gelenkspaltverschmälerung"
+          ],
+          "diagnose": "Rheumatoide Arthritis",
+          "therapie": [
+            "Basistherapie (MTX)"
+          ],
+          "lernpunkte": [
+            "Ulnardeviation als Spätzeichen"
+          ]
+        },
+        {
+          "id": "RAD_S016",
+          "titel": "Schulterluxation (Vorderer Typ)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "22-j. Handballer nach Sturz",
+          "praesentation": "Fixierte Fehlstellung (Dellenbildung).",
+          "befunde": [
+            "Rö: Humeruskopf infra-coracoidal",
+            "Hill-Sachs-Läsion"
+          ],
+          "diagnose": "Anterior-inferiore Schulterluxation",
+          "therapie": [
+            "Reposition nach Arlt / Hippokrates"
+          ],
+          "lernpunkte": [
+            "Hill-Sachs: Kompressionsfraktur am Hinterkopf des Humerus"
+          ]
+        },
+        {
+          "id": "RAD_S017",
+          "titel": "Spondylolisthese (Gleitwirbel)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "50-j. Frau mit Kreuzschmerz",
+          "praesentation": "Belastungsschmerz LWS.",
+          "befunde": [
+            "Rö-Seitlich: Versatz der Wirbelkörpervorderkante L4/L5"
+          ],
+          "diagnose": "Spondylolisthese Grad II nach Meyerding",
+          "therapie": [
+            "Physiotherapie vs. operative Fusion"
+          ],
+          "lernpunkte": [
+            "Meyerding-Skala (I-IV) zur Quantifizierung"
+          ]
+        },
+        {
+          "id": "RAD_S018",
+          "titel": "Bandscheibenvorfall (Sequester)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "42-j. mit akuter Ischialgie links",
+          "praesentation": "S1-Syndrom (ASR fehlt, Fußsenkerschwäche).",
+          "befunde": [
+            "MRT: Massenvorfall L5/S1 mediolateral mit abgetrenntem Anteil"
+          ],
+          "diagnose": "Bandscheiben-Sequester",
+          "therapie": [
+            "Operative Mikrochirurgie bei Lähmung"
+          ],
+          "lernpunkte": [
+            "Unterscheidung Protrusion, Prolaps und Sequester"
+          ]
+        },
+        {
+          "id": "RAD_S019",
+          "titel": "Morbus Bechterew (Spondylitis ankylosans)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "30-j. Mann, nächtlicher Rückenschmerz",
+          "praesentation": "Morgensteifigkeit, Besserung bei Bewegung.",
+          "befunde": [
+            "Rö: Bambusstab-Wirbelsäule (Syndesmophyten)",
+            "Sakroiliitis"
+          ],
+          "diagnose": "M. Bechterew",
+          "therapie": [
+            "NSAR + Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Häufige Assoziation mit HLA-B27"
+          ]
+        },
+        {
+          "id": "RAD_S020",
+          "titel": "Osteoidosteom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "19-j. mit nächtlichen Beinschmerzen",
+          "praesentation": "Promptes Ansprechen auf ASS.",
+          "befunde": [
+            "CT: Nidus < 1cm mit zentralem Kalkpunkt und Sklerosesaum"
+          ],
+          "diagnose": "Osteoidosteom",
+          "therapie": [
+            "Radiofrequenzablation (RFA)"
+          ],
+          "lernpunkte": [
+            "Klassische Anamnese ist diagnostisch richtungsweisend"
+          ]
+        },
+        {
+          "id": "RAD_S021",
+          "titel": "Vordere Kreuzbandruptur",
+          "tags": [
+            "Trauma",
+            "Sport"
+          ],
+          "patient": "25-j. Skifahrer nach Verdrehtrauma",
+          "praesentation": "Hämarthros, Schubladenphänomen.",
+          "befunde": [
+            "MRT: Diskontinuität des VKB, 'Bone Bruise' am lateralen Femur/Tibia"
+          ],
+          "diagnose": "VKB-Ruptur",
+          "therapie": [
+            "Kreuzbandersatzplastik"
+          ],
+          "lernpunkte": [
+            "Sekundärzeichen: 'Pivot-Shift' Knochenödem-Muster"
+          ]
+        },
+        {
+          "id": "RAD_S022",
+          "titel": "Morbus Scheuermann",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "16-j. Junge mit Rundrücken",
+          "praesentation": "Haltungsschwäche.",
+          "befunde": [
+            "Rö-Seitlich: Keilwirbel, Schmorl-Knötchen, Unregelmäßige Deckplatten"
+          ],
+          "diagnose": "M. Scheuermann (Adoleszentenkyphose)",
+          "therapie": [
+            "KG",
+            "Korsett bei Kyphose > 50°"
+          ],
+          "lernpunkte": [
+            "Wachstumsstörung der Wirbelkörper"
+          ]
+        },
+        {
+          "id": "RAD_S023",
+          "titel": "Stressfraktur (Marschfraktur)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "20-j. Rekrut nach langem Marsch",
+          "praesentation": "Fußschmerzen.",
+          "befunde": [
+            "Rö initial negativ",
+            "MRT: Bandförmiges Knochenmarködem Metatarsale II"
+          ],
+          "diagnose": "Stressfraktur",
+          "therapie": [
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "Früher Nachweis nur im MRT möglich"
+          ]
+        },
+        {
+          "id": "RAD_S024",
+          "titel": "Osteomyelitis chronisch",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. nach offener Fraktur vor 1 Jahr",
+          "praesentation": "Nässende Fistel am Schienbein.",
+          "befunde": [
+            "Rö: Sequestrierung (Toter Knochen), Involucrum (Neubildung)"
+          ],
+          "diagnose": "Chronische Osteomyelitis",
+          "therapie": [
+            "Chirurgische Sequestrektomie + Antibiose"
+          ],
+          "lernpunkte": [
+            "Brodie-Abszess als Sonderform"
+          ]
+        },
+        {
+          "id": "RAD_S025",
+          "titel": "Sprunggelenksfraktur (Weber B)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "30-j. nach Umknickunfall",
+          "praesentation": "Schwellung Außenknöchel.",
+          "befunde": [
+            "Rö: Fraktur der Fibula auf Höhe der Syndesmose"
+          ],
+          "diagnose": "Weber B Fraktur",
+          "therapie": [
+            "Plattenosteosynthese"
+          ],
+          "lernpunkte": [
+            "Weber A (unter), B (auf), C (über) der Syndesmose"
+          ]
+        },
+        {
+          "id": "RAD_S026",
+          "titel": "Kahnbeinfraktur (Hand)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "22-j. Torwart",
+          "praesentation": "Schmerzen in der Tabatière.",
+          "befunde": [
+            "Rö: Haarriss im Kahnbeinkörper",
+            "CT: Dislokation?"
+          ],
+          "diagnose": "Skaphoidfraktur",
+          "therapie": [
+            "Gips vs. Herbert-Schraube"
+          ],
+          "lernpunkte": [
+            "Gefahr der Pseudarthrose durch mangelnde Durchblutung"
+          ]
+        },
+        {
+          "id": "RAD_S027",
+          "titel": "Knochenmetastasen (Osteoblastisch)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "72-j. Mann mit Prostata-CA",
+          "praesentation": "Rückenschmerzen.",
+          "befunde": [
+            "Rö/CT: Dichte, weiße Fleckung (Verdichtung) der Wirbelkörper"
+          ],
+          "diagnose": "Osteoblastische Metastasierung",
+          "therapie": [
+            "Bisphosphonate",
+            "Radionuklidtherapie"
+          ],
+          "lernpunkte": [
+            "Typisch für Prostata-CA (Osteolytisch eher bei Mamma/Bronchial-CA)"
+          ]
+        },
+        {
+          "id": "RAD_S028",
+          "titel": "Gicht (Arthritis urica)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "60-j. Mann nach Grillabend",
+          "praesentation": "Podagra: Schmerz Großzehengrundgelenk.",
+          "befunde": [
+            "Rö: Lochstanzdefekte mit überhängenden Rändern"
+          ],
+          "diagnose": "Chronisch-tophöse Gicht",
+          "therapie": [
+            "Diät",
+            "Allopurinol"
+          ],
+          "lernpunkte": [
+            "Typische gelenknahe Knochendefekte"
+          ]
+        },
+        {
+          "id": "RAD_S029",
+          "titel": "Baker-Zyste",
+          "tags": [
+            "Knie"
+          ],
+          "patient": "Pat. mit Gonarthrose",
+          "praesentation": "Druckgefühl in der Kniekehle.",
+          "befunde": [
+            "Sono/MRT: Flüssigkeitsgefüllte Raumforderung zwischen M. gastrocnemius und M. semimembranosus"
+          ],
+          "diagnose": "Baker-Zyste",
+          "therapie": [
+            "Behandlung der intraartikulären Grunderkrankung"
+          ],
+          "lernpunkte": [
+            "Keine Primärresektion der Zyste"
+          ]
+        },
+        {
+          "id": "RAD_S030",
+          "titel": "Maisonneuve-Fraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Pat. nach Trauma USG",
+          "praesentation": "Schmerz an der Membrana interossea.",
+          "befunde": [
+            "Rö: Hohe Fibula-Schaftfraktur + Riss der Syndesmose"
+          ],
+          "diagnose": "Maisonneuve-Verletzung",
+          "therapie": [
+            "Stellschraube + Fibula-Fixation"
+          ],
+          "lernpunkte": [
+            "Hohe Fibulafraktur immer suchen bei isolierter Syndesmosenverletzung"
+          ]
+        }
+      ]
+    },
+    "thorax_herz": {
+      "label": "Thorax & Herz",
+      "emoji": "🫁",
+      "faelle": [
+        {
+          "id": "RAD_T031",
+          "titel": "Pneumonie (Lobär)",
+          "tags": [
+            "Thorax",
+            "Infekt"
+          ],
+          "patient": "65-jähriger Patient, Fieber, Husten",
+          "praesentation": "Produktiver Husten, Tachypnoe.",
+          "befunde": [
+            "Rö: Homogene Verschattung im rechten Oberlappen",
+            "Positives Aerobronchogramm"
+          ],
+          "diagnose": "Lobärpneumonie",
+          "therapie": [
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Aerobronchogramm beweist alveoläre Infiltration"
+          ]
+        },
+        {
+          "id": "RAD_T032",
+          "titel": "Lungenödem (Kardial)",
+          "tags": [
+            "Herz"
+          ],
+          "patient": "80-j. Frau mit Herzinsuffizienz",
+          "praesentation": "Akute Atemnot.",
+          "befunde": [
+            "Rö: Herzvergrößerung, Kerley-B-Linien, Schmetterlingsödem, Pleuraergüsse"
+          ],
+          "diagnose": "Kardiale Dekompensation",
+          "therapie": [
+            "Diuretika"
+          ],
+          "lernpunkte": [
+            "Kerley-B-Linien als Zeichen des interstitiellen Ödems"
+          ]
+        },
+        {
+          "id": "RAD_T033",
+          "titel": "Lungenembolie (Akut)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "40-j. nach Langstreckenflug",
+          "praesentation": "Atemnot, Tachykardie.",
+          "befunde": [
+            "CTA: Füllungsdefekte in den Pulmonalarterien (Reitende Embolie)"
+          ],
+          "diagnose": "Massive Lungenembolie",
+          "therapie": [
+            "Lyse vs. Heparinisierung"
+          ],
+          "lernpunkte": [
+            "CT-Angiographie als Goldstandard"
+          ]
+        },
+        {
+          "id": "RAD_T034",
+          "titel": "Spannungspneumothorax",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "20-j. nach Trauma",
+          "praesentation": "Zyanose, einseitig aufgehobenes Atemgeräusch.",
+          "befunde": [
+            "Rö: Kompletter Lungenkollaps, Mediastinalverlagerung nach kontralateral"
+          ],
+          "diagnose": "Spannungspneumothorax",
+          "therapie": [
+            "Entlastungspunktion (Monaldi) -> Drainage"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall, oft klinische Diagnose"
+          ]
+        },
+        {
+          "id": "RAD_T035",
+          "titel": "Bronchialkarzinom (Zentral)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Raucher",
+          "praesentation": "Hämoptysen.",
+          "befunde": [
+            "Rö/CT: Hilusnahe Raumforderung, Atelektase eines Lappens (Golden-S-Zeichen)"
+          ],
+          "diagnose": "Zentrales Bronchialkarzinom",
+          "therapie": [
+            "Resektion vs. Radiochemo"
+          ],
+          "lernpunkte": [
+            "Golden-S-Sign: Kombi aus Tumor und Atelektase-Linie"
+          ]
+        },
+        {
+          "id": "RAD_T036",
+          "titel": "Sarkoidose (Stadium I)",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "35-j. Frau, Zufallsbefund",
+          "praesentation": "Hustenreiz.",
+          "befunde": [
+            "Rö: Bi-hiläre Lymphadenopathie (BHL)"
+          ],
+          "diagnose": "Sarkoidose Typ I",
+          "therapie": [
+            "Abwarten (Spontanremission hoch)"
+          ],
+          "lernpunkte": [
+            "Spezifisches Lymphknotenmuster"
+          ]
+        },
+        {
+          "id": "RAD_T037",
+          "titel": "Pleuraempyem",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "70-j. nach Pneumonie",
+          "praesentation": "Erneutes Fieber, atemabhängiger Schmerz.",
+          "befunde": [
+            "CT: Geteilte Pleura (Split Pleura Sign), Kammerung des Ergusses"
+          ],
+          "diagnose": "Pleuraempyem",
+          "therapie": [
+            "Drainage + Spülung + AB"
+          ],
+          "lernpunkte": [
+            "Split-Pleura-Sign ist charakteristisch für Empyem"
+          ]
+        },
+        {
+          "id": "RAD_T038",
+          "titel": "Lungenemphysem",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "55-j. starker Raucher",
+          "praesentation": "Belastungsdyspnoe.",
+          "befunde": [
+            "Rö: Fassthorax, Zwerchfelltiefstand, Lungenüberhellung, Rarefizierung der Gefäße"
+          ],
+          "diagnose": "Lungenemphysem",
+          "therapie": [
+            "Rauchstopp",
+            "Inhalativa"
+          ],
+          "lernpunkte": [
+            "CT (Densitometrie) zur Quantifizierung"
+          ]
+        },
+        {
+          "id": "RAD_T039",
+          "titel": "Aortendissektion (Stanford A)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "55-j. Mann, Vernichtungsschmerz Thorax",
+          "praesentation": "Pulsdifferenz.",
+          "befunde": [
+            "CTA: Intima-Flap in der Aorta ascendens"
+          ],
+          "diagnose": "Aortendissektion Typ A",
+          "therapie": [
+            "Notfall-Op"
+          ],
+          "lernpunkte": [
+            "Stanford A (immer Chirurgie), Typ B (oft konservativ)"
+          ]
+        },
+        {
+          "id": "RAD_T040",
+          "titel": "Cor pulmonale (Chronisch)",
+          "tags": [
+            "Herz"
+          ],
+          "patient": "70-j. mit COPD",
+          "praesentation": "Beinödeme.",
+          "befunde": [
+            "Rö: Herzschatten verbreitert (Rechtsherzkonfiguration), Pulmonalarterien prominent"
+          ],
+          "diagnose": "Chronisches Cor pulmonale",
+          "therapie": [
+            "O2-Langzeittherapie"
+          ],
+          "lernpunkte": [
+            "Rechtsherzbelastung durch pulmonale Hypertonie"
+          ]
+        },
+        {
+          "id": "RAD_T041",
+          "titel": "Malignes Pleuramesotheliom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. ehem. im Schiffbau (Asbest)",
+          "praesentation": "Thoraxschmerz, Dyspnoe.",
+          "befunde": [
+            "CT: Noduläre Pleuradeckung (Pleura-Panzer)"
+          ],
+          "diagnose": "Mesotheliom",
+          "therapie": [
+            "Palliativ"
+          ],
+          "lernpunkte": [
+            "Berufskrankheit beachten"
+          ]
+        },
+        {
+          "id": "RAD_T042",
+          "titel": "Herzbeuteltamponade",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Herz-Katheter",
+          "praesentation": "Schock, Halsvenenstau.",
+          "befunde": [
+            "Sono: Breitflächiger Erguss im Perikard, diastolischer Kollaps des RV"
+          ],
+          "diagnose": "Perikardtamponade",
+          "therapie": [
+            "Notfallpunktion"
+          ],
+          "lernpunkte": [
+            "Sono/FAST als schnellste Diagnostik"
+          ]
+        },
+        {
+          "id": "RAD_T043",
+          "titel": "Lungenmetastasen",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Frau mit Mamma-CA",
+          "praesentation": "Routine-Follow-up.",
+          "befunde": [
+            "Rö: Disseminierte Rundherde (Schrotflinten-Muster)"
+          ],
+          "diagnose": "Pulmonale Metastasierung",
+          "therapie": [
+            "Systemtherapie"
+          ],
+          "lernpunkte": [
+            "Hämatogene Aussaat"
+          ]
+        },
+        {
+          "id": "RAD_T044",
+          "titel": "Aspergillom",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. mit alter TBC-Kaverne",
+          "praesentation": "Hämoptysen.",
+          "befunde": [
+            "CT: Rundliche Masse in Kaverne mit Luftsichel (Air-Crescent-Sign)"
+          ],
+          "diagnose": "Aspergillom",
+          "therapie": [
+            "Chirurgie vs. Beobachtung"
+          ],
+          "lernpunkte": [
+            "Luftsichel durch Pilzball in Höhle"
+          ]
+        },
+        {
+          "id": "RAD_T045",
+          "titel": "Boerhaave-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach massivem Erbrechen",
+          "praesentation": "Retrosternaler Schmerz.",
+          "befunde": [
+            "Rö: Mediastinalemphysem, linksseitiger Pleuraerguss"
+          ],
+          "diagnose": "Ösophagusperforation",
+          "therapie": [
+            "Notfall-Op"
+          ],
+          "lernpunkte": [
+            "Mackler-Trias: Erbrechen, Schmerz, Hautemphysem"
+          ]
+        },
+        {
+          "id": "RAD_T046",
+          "titel": "Perikardverkalkung (Panzerherz)",
+          "tags": [
+            "Herz"
+          ],
+          "patient": "Pat. mit Z.n. Tuberkulose",
+          "praesentation": "Rechtsherzversagen.",
+          "befunde": [
+            "Rö/CT: Schalenartige Verkalkungen des Herzbeutels"
+          ],
+          "diagnose": "Pericarditis constrictiva",
+          "therapie": [
+            "Perikardektomie"
+          ],
+          "lernpunkte": [
+            "Einstrombehinderung des Herzens"
+          ]
+        },
+        {
+          "id": "RAD_T047",
+          "titel": "Miliartuberkulose",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. mit Aids",
+          "praesentation": "Hohes Fieber.",
+          "befunde": [
+            "Rö: Disseminierte feinfleckige Verschattungen (Hirsekorn-groß)"
+          ],
+          "diagnose": "Miliartuberkulose",
+          "therapie": [
+            "Vierfach-Antibiose"
+          ],
+          "lernpunkte": [
+            "Hämatogene Streuung"
+          ]
+        },
+        {
+          "id": "RAD_T048",
+          "titel": "Zwerchfellruptur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "PKW-Fahrer nach Anpralltrauma",
+          "praesentation": "Dyspnoe.",
+          "befunde": [
+            "Rö: Darmschlingen im Thoraxraum links"
+          ],
+          "diagnose": "Traumatische Zwerchfellhernie",
+          "therapie": [
+            "Operative Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Linksseite häufiger (Schutz der Leber rechts)"
+          ]
+        },
+        {
+          "id": "RAD_T049",
+          "titel": "Hamartom (Lunge)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "Zufallsbefund im Screening",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "CT: Scharf begrenzter Rundherd mit Popcorn-Kalk"
+          ],
+          "diagnose": "Lungenhamartom (Benigne)",
+          "therapie": [
+            "Keine / Verlauf"
+          ],
+          "lernpunkte": [
+            "Popcorn-Kalk ist pathognomonisch"
+          ]
+        },
+        {
+          "id": "RAD_T050",
+          "titel": "Mittellappen-Syndrom",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "Pat. mit rez. Infekten",
+          "praesentation": "Husten.",
+          "befunde": [
+            "Rö: Dauerhafte Verschattung des Mittellappens durch Bronchusstenose (LK-Druck)"
+          ],
+          "diagnose": "Mittellappen-Atelektase",
+          "therapie": [
+            "Bronchoskopie zur Ursachenklärung"
+          ],
+          "lernpunkte": [
+            "Anatomische Enge des Mittellappenbronchus"
+          ]
+        }
+      ]
+    },
+    "abdomen_mamma": {
+      "label": "Abdomen & Mamma",
+      "emoji": "🥗",
+      "faelle": [
+        {
+          "id": "RAD_A051",
+          "titel": "Dünndarmileus (Mechanisch)",
+          "tags": [
+            "Abdomen",
+            "Notfall"
+          ],
+          "patient": "60-jähriger Patient nach Vor-OP",
+          "praesentation": "Erbrechen, kein Stuhlgang, kolikartige Schmerzen.",
+          "befunde": [
+            "Rö-Abdomen (stehend): Mehrere Flüssigkeitsspiegel, dilatierte Schlingen",
+            "Strickleiterphänomen"
+          ],
+          "diagnose": "Mechanischer Ileus",
+          "therapie": [
+            "Magensonde",
+            "Notfall-Laparotomie"
+          ],
+          "lernpunkte": [
+            "Differenzierung mechanisch vs. paralytisch (Spiegelbildung)"
+          ]
+        },
+        {
+          "id": "RAD_A052",
+          "titel": "Cholezystitis (Akut)",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "48-j. Frau, Murphy-Zeichen positiv",
+          "praesentation": "Rechtsseitiger Oberbauchschmerz.",
+          "befunde": [
+            "Sono: Wandverdickung (>4mm), Dreischichtung, Steinnachweis, Druckschmerz über GB"
+          ],
+          "diagnose": "Akute Cholezystitis",
+          "therapie": [
+            "Früh-Cholezystektomie"
+          ],
+          "lernpunkte": [
+            "Murphy-Zeichen sonographisch validierbar"
+          ]
+        },
+        {
+          "id": "RAD_A053",
+          "titel": "Lebermetastasen (Hypervaskularisiert)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. mit neuroendokrinem Tumor",
+          "praesentation": "Routine-Staging.",
+          "befunde": [
+            "CT (arterielle Phase): Kräftig anreichernde Herde in beiden Leberlappen"
+          ],
+          "diagnose": "Leberfiliae",
+          "therapie": [
+            "Systemtherapie / SIRT"
+          ],
+          "lernpunkte": [
+            "Hypervaskularisiert (NET, RCC, Melanom) vs. Hypovaskularisiert (Kolon-CA)"
+          ]
+        },
+        {
+          "id": "RAD_A054",
+          "titel": "Hämangiom (Leber)",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "35-j. Frau, Zufallsbefund Sono",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "Sono: Echoreich, scharf begrenzt",
+            "CT: Irisblenden-Phänomen in der Spätphase"
+          ],
+          "diagnose": "Leberhämangiom",
+          "therapie": [
+            "Keine nötig"
+          ],
+          "lernpunkte": [
+            "Irisblenden-Phänomen: Anreicherung von peripher nach zentral"
+          ]
+        },
+        {
+          "id": "RAD_A055",
+          "titel": "Pankreaskarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "68-j. mit schmerzlosem Ikterus",
+          "praesentation": "Gewichtsverlust.",
+          "befunde": [
+            "CT: Hypodenser Herd im Pankreaskopf, Double-Duct Sign (Gallengang + Wirsungianus weit)"
+          ],
+          "diagnose": "Pankreaskopfkarzinom",
+          "therapie": [
+            "Whipple-Op"
+          ],
+          "lernpunkte": [
+            "Double-Duct-Sign ist hochverdächtig"
+          ]
+        },
+        {
+          "id": "RAD_A056",
+          "titel": "Sigmadivertikulitis",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "55-j. Mann, Schmerz linker Unterbauch",
+          "praesentation": "Fieber.",
+          "befunde": [
+            "CT: Wandverdickung Sigma, perikolische Entzündung, freie Luft?"
+          ],
+          "diagnose": "Divertikulitis Stadium CD IIa nach Hansen/Stock",
+          "therapie": [
+            "Antibiose + Nahrungskarenz"
+          ],
+          "lernpunkte": [
+            "CT ist die Methode der Wahl zur Akutdiagnostik"
+          ]
+        },
+        {
+          "id": "RAD_A057",
+          "titel": "Hohlorganperforation",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. mit Ulkusanamnese",
+          "praesentation": "Bretthartes Abdomen.",
+          "befunde": [
+            "Rö-Thorax (stehend): Freie Luft unter beiden Zwerchfellkuppeln"
+          ],
+          "diagnose": "Magenperforation",
+          "therapie": [
+            "Notfall-Op"
+          ],
+          "lernpunkte": [
+            "Rö-Thorax stehend ist sensitiver als Abdomenübersicht für freie Luft"
+          ]
+        },
+        {
+          "id": "RAD_A058",
+          "titel": "Appendizitis (CT-Zeichen)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "20-j. Student",
+          "praesentation": "Druckschmerz McBurney.",
+          "befunde": [
+            "CT: Appendix-Ø 10mm, Wand-Enhancement, Fettgewebsimbibierung"
+          ],
+          "diagnose": "Akute Appendizitis",
+          "therapie": [
+            "Appendektomie"
+          ],
+          "lernpunkte": [
+            "Wandödem und Umgebungsreaktion"
+          ]
+        },
+        {
+          "id": "RAD_A059",
+          "titel": "Mesenterialinfarkt",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "75-j. mit Vorhofflimmern",
+          "praesentation": "Stärkster Bauchschmerz, weiches Abdomen.",
+          "befunde": [
+            "CTA: Verschluss der A. mesenterica superior",
+            "Pneumatosis intestinalis (spät)"
+          ],
+          "diagnose": "Akute Mesenterialischämie",
+          "therapie": [
+            "Notfall-Op / Embolektomie"
+          ],
+          "lernpunkte": [
+            "'Messer-Scheren-Dilemma' (Klinik passt nicht zum Befund)"
+          ]
+        },
+        {
+          "id": "RAD_A060",
+          "titel": "Chronische Pankreatitis",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "50-j. Alkoholiker",
+          "praesentation": "Gürtelförmiger Schmerz.",
+          "befunde": [
+            "CT: Kalibersprung Dct. pancreaticus, multiple Verkalkungen im Parenchym"
+          ],
+          "diagnose": "Chronische Pankreatitis",
+          "therapie": [
+            "Enzymsubstitution",
+            "Schmerztherapie"
+          ],
+          "lernpunkte": [
+            "Pankreaskalk ist beweisend"
+          ]
+        },
+        {
+          "id": "RAD_A061",
+          "titel": "Mammakarzinom (Screening)",
+          "tags": [
+            "Onkologie",
+            "Mamma"
+          ],
+          "patient": "52-j. Frau, Screening-Teilnahme",
+          "praesentation": "Klinisch unauffällig.",
+          "befunde": [
+            "Mammographie: Gruppierter Mikrokalk, Architekturstörung",
+            "BI-RADS 4"
+          ],
+          "diagnose": "V.a. Mammakarzinom",
+          "therapie": [
+            "Stanzbiopsie"
+          ],
+          "lernpunkte": [
+            "BI-RADS Klassifikation (0-6)"
+          ]
+        },
+        {
+          "id": "RAD_A062",
+          "titel": "Fibroadenom",
+          "tags": [
+            "Mamma"
+          ],
+          "patient": "22-j. Patientin, tastbarer Knoten",
+          "praesentation": "Gut verschieblich.",
+          "befunde": [
+            "Sono: Glatt begrenzter, ovalärer Herd, echofreier Randsaum"
+          ],
+          "diagnose": "Fibroadenom (BI-RADS 2)",
+          "therapie": [
+            "Beobachtung"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner Tumor der jungen Frau"
+          ]
+        },
+        {
+          "id": "RAD_A063",
+          "titel": "Mastitis non-puerperalis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "40-j. Raucherin",
+          "praesentation": "Schmerzhafte Rötung Brust.",
+          "befunde": [
+            "Sono: Ödematöse Schwellung, ggf. Abszesshöhle"
+          ],
+          "diagnose": "Mastitis",
+          "therapie": [
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Ausschluss inflammatorisches Mammakarzinom bei fehlender Heilung"
+          ]
+        },
+        {
+          "id": "RAD_A064",
+          "titel": "Milzruptur (FAST)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Fahrradsturz auf den Lenker",
+          "praesentation": "Oberbauchschmerz links.",
+          "befunde": [
+            "Sono (FAST): Freie Flüssigkeit im Koller-Pouch (peri-splenial)"
+          ],
+          "diagnose": "Milztrauma",
+          "therapie": [
+            "Laparotomie vs. Beobachtung (Grading)"
+          ],
+          "lernpunkte": [
+            "FAST-Sono Schema"
+          ]
+        },
+        {
+          "id": "RAD_A065",
+          "titel": "FNH (Fokale Noduläre Hyperplasie)",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "28-j. Frau (Pilleneinnahme)",
+          "praesentation": "Zufallsbefund.",
+          "befunde": [
+            "MRT: Radspeichenstruktur, zentrale Narbe (T2 hyperintens)"
+          ],
+          "diagnose": "FNH",
+          "therapie": [
+            "Keine nötig"
+          ],
+          "lernpunkte": [
+            "Benigner Lebertumor, hormonabhängig"
+          ]
+        },
+        {
+          "id": "RAD_A066",
+          "titel": "Budd-Chiari-Syndrom",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "Pat. mit Aszites",
+          "praesentation": "Leberfunktionsstörung.",
+          "befunde": [
+            "FKDS: Verschluss der Lebervenen, klobiges Parenchym"
+          ],
+          "diagnose": "Lebervenenthrombose",
+          "therapie": [
+            "Antikoagulation / TIPS"
+          ],
+          "lernpunkte": [
+            "Abflussbehinderung der Leber"
+          ]
+        },
+        {
+          "id": "RAD_A067",
+          "titel": "Magenkarzinom (Staging)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Völlegefühl.",
+          "befunde": [
+            "CT: Diffuse Wandverdickung (Linitis plastica), Lymphadenopathie"
+          ],
+          "diagnose": "Magenkarzinom",
+          "therapie": [
+            "Gastrektomie"
+          ],
+          "lernpunkte": [
+            "Magen-Füllung (Wasser) vor CT obligat"
+          ]
+        },
+        {
+          "id": "RAD_A068",
+          "titel": "Invagination (Kind)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "9 Monate alter Säugling",
+          "praesentation": "Himbeergelee-Stuhl, Schreianfälle.",
+          "befunde": [
+            "Sono: Schießscheiben-Phänomen (Target-Sign) am Darm"
+          ],
+          "diagnose": "Ileozökale Invagination",
+          "therapie": [
+            "Hydrostatische Desinvagination"
+          ],
+          "lernpunkte": [
+            "Target-Sign im Querschnitt"
+          ]
+        },
+        {
+          "id": "RAD_A069",
+          "titel": "Leberzirrhose (CT-Zeichen)",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "55-j. mit Alkoholanamnese",
+          "praesentation": "Ikterus.",
+          "befunde": [
+            "CT: Höckrige Oberfläche, Lobus caudatus Hypertrophie, Splenomegalie, Umgehungskreisläufe"
+          ],
+          "diagnose": "Leberzirrhose",
+          "therapie": [
+            "Basismaßnahmen"
+          ],
+          "lernpunkte": [
+            "Morphologische Umbauzeichen im CT"
+          ]
+        },
+        {
+          "id": "RAD_A070",
+          "titel": "Polyzystische Nierenerkrankung (ADPKD)",
+          "tags": [
+            "Urogenital"
+          ],
+          "patient": "40-j. Patient, Hypertonus",
+          "praesentation": "Zufallsbefund Sono.",
+          "befunde": [
+            "Sono: Beidseitig massiv vergrößerte Nieren mit zahllosen Zysten"
+          ],
+          "diagnose": "ADPKD",
+          "therapie": [
+            "Hypertonieeinstellung"
+          ],
+          "lernpunkte": [
+            "Hereditäre Erkrankung, Risiko für Hirnarterienaneurysmen"
+          ]
+        }
+      ]
+    },
+    "urogenital": {
+      "label": "Urogenitalsystem",
+      "emoji": "🚻",
+      "faelle": [
+        {
+          "id": "RAD_U071",
+          "titel": "Nierenzellkarzinom (RCC)",
+          "tags": [
+            "Onkologie",
+            "Urogenital"
+          ],
+          "patient": "65-jähriger Mann, schmerzlose Makrohämaturie",
+          "praesentation": "Zufallsbefund im Ultraschall.",
+          "befunde": [
+            "CT (arterielle Phase): Kräftig anreichernde Raumforderung am Nierenpol",
+            "Vena-cava-Infiltration?"
+          ],
+          "diagnose": "RCC (Klarzelliger Typ)",
+          "therapie": [
+            "Nierenteilresektion vs. Nephrektomie"
+          ],
+          "lernpunkte": [
+            "Frühe Kontrastmittelanreicherung ist typisch"
+          ]
+        },
+        {
+          "id": "RAD_U072",
+          "titel": "Nierenkolik (Harnstein)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "45-j. Mann, heftiger Flankenschmerz",
+          "praesentation": "Mikrohämaturie.",
+          "befunde": [
+            "CT-Nativ (Stone-Protocol): Konkrement 5mm im distalen Harnleiter, Hydronephrose Grad II"
+          ],
+          "diagnose": "Ureterolithiasis",
+          "therapie": [
+            "Analgesie + Zuwarten vs. DJ-Schiene"
+          ],
+          "lernpunkte": [
+            "Nativ-CT ist Goldstandard für Steindiagnostik"
+          ]
+        },
+        {
+          "id": "RAD_U073",
+          "titel": "Prostatakarzinom (mpMRT)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. mit PSA-Anstieg",
+          "praesentation": "Biopsie-Vorbereitung.",
+          "befunde": [
+            "MRT: Signalminderung in T2, Diffusionsrestriktion in der peripheren Zone",
+            "PI-RADS 4"
+          ],
+          "diagnose": "V.a. Prostatakarzinom",
+          "therapie": [
+            "Gezielte Fusionsbiopsie"
+          ],
+          "lernpunkte": [
+            "PI-RADS Skala 1-5 zur Wahrscheinlichkeit von signifikantem Krebs"
+          ]
+        },
+        {
+          "id": "RAD_U074",
+          "titel": "Hodentorsion (Farbduplex)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "14-j. Junge, akuter Hodenschmerz",
+          "praesentation": "Erbrechen.",
+          "befunde": [
+            "Sono: Fehlende oder deutlich reduzierte Perfusion des Hodens im Vergleich zur Gegenseite"
+          ],
+          "diagnose": "Hodentorsion",
+          "therapie": [
+            "Sofortige operative Freilegung (< 6h)"
+          ],
+          "lernpunkte": [
+            "Zeit ist Hoden!"
+          ]
+        },
+        {
+          "id": "RAD_U075",
+          "titel": "Blasenkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Raucher, Hämaturie",
+          "praesentation": "Zystoskopie suspekt.",
+          "befunde": [
+            "CT-Urographie: Solider Wandprozess in der Blase mit KM-Anreicherung"
+          ],
+          "diagnose": "Urothelkarzinom",
+          "therapie": [
+            "TUR-B"
+          ],
+          "lernpunkte": [
+            "CT-Uro zur Beurteilung des oberen Harntraktes obligat"
+          ]
+        },
+        {
+          "id": "RAD_U076",
+          "titel": "Angiomyolipom der Niere",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "40-j. Frau, Zufallsfund",
+          "praesentation": "Keine Symptome.",
+          "befunde": [
+            "CT: Raumforderung mit Fett-Dichtewerten (negative HE)"
+          ],
+          "diagnose": "Angiomyolipom (Benigne)",
+          "therapie": [
+            "Beobachtung (< 4cm) vs. Embolisation/OP"
+          ],
+          "lernpunkte": [
+            "Fettgehalt beweist Gutartigkeit (außer selten lipomatöse Sarkome)"
+          ]
+        },
+        {
+          "id": "RAD_U077",
+          "titel": "Nierentrauma (Grading)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Motorradunfall",
+          "praesentation": "Hämaturie, Schock.",
+          "befunde": [
+            "CT: Lazeration durch Rinde und Mark bis ins Hohlsystem (Harnextravasat)"
+          ],
+          "diagnose": "Nierentrauma Grad IV",
+          "therapie": [
+            "Harnleiterschiene + Stabilisierung"
+          ],
+          "lernpunkte": [
+            "AAST-Graduierung I-V"
+          ]
+        },
+        {
+          "id": "RAD_U078",
+          "titel": "Extrauteringravidität (EUG)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "28-j. Frau, akuter Unterbauchschmerz",
+          "praesentation": "hCG positiv, Schmierblutung.",
+          "befunde": [
+            "Sono: Leerer Uterus, freie Flüssigkeit (Douglas), Raumforderung adnexiell"
+          ],
+          "diagnose": "EUG",
+          "therapie": [
+            "Laparoskopie"
+          ],
+          "lernpunkte": [
+            "Leerer Uterus bei hohem hCG ist verdächtig"
+          ]
+        },
+        {
+          "id": "RAD_U079",
+          "titel": "Adnex-Torsion",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. mit bekannter Ovarialzyste",
+          "praesentation": "Akuter Schmerz, Erbrechen.",
+          "befunde": [
+            "Sono: Vergrößertes Ovar, fehlender Dopplerfluss, Wirbelphänomen (Whirlpool Sign) des Stiels"
+          ],
+          "diagnose": "Ovarialtorsion",
+          "therapie": [
+            "Operative Detorsion"
+          ],
+          "lernpunkte": [
+            "Wiederherstellung der Perfusion"
+          ]
+        },
+        {
+          "id": "RAD_U080",
+          "titel": "Ureterabgangsstenose",
+          "tags": [
+            "Urogenital"
+          ],
+          "patient": "8-j. Kind, Hydronephrose",
+          "praesentation": "Flankenschmerzen nach hohem Trinkgenuss (Dietl-Krise).",
+          "befunde": [
+            "Sono: Massiv weites Nierenbecken, Ureter distal nicht weit"
+          ],
+          "diagnose": "Ureterabgangsstenose",
+          "therapie": [
+            "Nierenbeckenplastik"
+          ],
+          "lernpunkte": [
+            "Klinische Symptomatik oft belastungsabhängig"
+          ]
+        }
+      ]
+    },
+    "zns_kopf_hals": {
+      "label": "Zentralnervensystem, Kopf & Hals",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "RAD_Z081",
+          "titel": "Ischämischer Schlaganfall (MCA)",
+          "tags": [
+            "ZNS",
+            "Notfall"
+          ],
+          "patient": "68-jähriger Patient, akute Hemiparese",
+          "praesentation": "Sprachstörung seit 60 Min.",
+          "befunde": [
+            "CT-Nativ: Unauffällig",
+            "CT-Perfusion: Großes Penumbra-Areal",
+            "CTA: Verschluss M1-Segment"
+          ],
+          "diagnose": "Ischämischer Stroke",
+          "therapie": [
+            "Thrombolyse + Thrombektomie"
+          ],
+          "lernpunkte": [
+            "Penumbra-Imaging (Mismatch) zur Entscheidung für Thrombektomie"
+          ]
+        },
+        {
+          "id": "RAD_Z082",
+          "titel": "Epiduralhämatom (EDH)",
+          "tags": [
+            "Notfall",
+            "Trauma"
+          ],
+          "patient": "22-j. nach Sturz vom Rad",
+          "praesentation": "Initial wach, jetzt Eintrübung (Freies Intervall).",
+          "befunde": [
+            "CCT: Linsenförmige (bikonvexe) hyperdense Raumforderung, überschreitet keine Nähte"
+          ],
+          "diagnose": "Epiduralhämatom",
+          "therapie": [
+            "Neurochirurgische Entlastung"
+          ],
+          "lernpunkte": [
+            "Klassische Linsenform durch Dura-Anheftung an Nähten"
+          ]
+        },
+        {
+          "id": "RAD_Z083",
+          "titel": "Subarachnoidalblutung (SAB)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "52-j. Frau, Vernichtungsschmerz",
+          "praesentation": "Meningismus.",
+          "befunde": [
+            "CCT: Hyperdensität in den basalen Zisternen (Fischschwanz-Konfiguration)"
+          ],
+          "diagnose": "Aneurysmatische SAB",
+          "therapie": [
+            "Coiling vs. Clipping"
+          ],
+          "lernpunkte": [
+            "Fischer-Graduierung im CT"
+          ]
+        },
+        {
+          "id": "RAD_Z084",
+          "titel": "Glioblastoma multiforme",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Mann, Wesensveränderung",
+          "praesentation": "Krampfanfall.",
+          "befunde": [
+            "MRT: Ringförmig anreichernde RF mit zentraler Nekrose und ausgeprägtem Ödem, Balkeninfiltration (Schmetterlingsgliom)"
+          ],
+          "diagnose": "Glioblastom (WHO IV)",
+          "therapie": [
+            "Resektion + Radiochemo"
+          ],
+          "lernpunkte": [
+            "Infiltratives Wachstum über die Mittellinie"
+          ]
+        },
+        {
+          "id": "RAD_Z085",
+          "titel": "Multiple Sklerose (MRT)",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "28-j. Frau, Sehstörung",
+          "praesentation": "Parästhesien Beine.",
+          "befunde": [
+            "MRT: Disseminierte T2-Läsionen periventrikulär (Dawson's Fingers), Kontrastmittelaufnahme (Aktivität)"
+          ],
+          "diagnose": "Multiple Sklerose",
+          "therapie": [
+            "Immunmodulation"
+          ],
+          "lernpunkte": [
+            "Zeitliche und räumliche Dissemination nach McDonald-Kriterien"
+          ]
+        },
+        {
+          "id": "RAD_Z086",
+          "titel": "Sinusvenenthrombose",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "30-j. Frau unter Pille",
+          "praesentation": "Heftiger Kopfschmerz.",
+          "befunde": [
+            "CTV/MRV: Fehlender Kontrastmittelfluss im Sinus sagittalis sup. (Empty Delta Sign)"
+          ],
+          "diagnose": "Sinusvenenthrombose",
+          "therapie": [
+            "Vollheparinisierung"
+          ],
+          "lernpunkte": [
+            "Empty Delta Sign im CT mit KM"
+          ]
+        },
+        {
+          "id": "RAD_Z087",
+          "titel": "Chronisches Subduralhämatom (cSDH)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "85-j. mit Gangunsicherheit",
+          "praesentation": "V.a. Demenz.",
+          "befunde": [
+            "CCT: Sichelförmige hypodense (dunkle) Raumforderung über der Hemisphäre"
+          ],
+          "diagnose": "cSDH",
+          "therapie": [
+            "Bohrlochtrepanation"
+          ],
+          "lernpunkte": [
+            "Hypodensität weist auf alte Einblutung hin"
+          ]
+        },
+        {
+          "id": "RAD_Z088",
+          "titel": "Vestibularisschwannom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "45-j. mit einseitigem Hörverlust",
+          "praesentation": "Tinnitus.",
+          "befunde": [
+            "MRT: Kontrastmittelaufnehmender Tumor im inneren Gehörgang und Kleinhirnbrückenwinkel (Eistüten-Form)"
+          ],
+          "diagnose": "Akustikusneurinom",
+          "therapie": [
+            "OP vs. Radiosurgery"
+          ],
+          "lernpunkte": [
+            "Eistüten-Morphologie"
+          ]
+        },
+        {
+          "id": "RAD_Z089",
+          "titel": "Hirnmetastase",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "62-j. Raucher",
+          "praesentation": "Kopfschmerz.",
+          "befunde": [
+            "MRT: Mehrere runde Herde an der Mark-Rinden-Grenze mit massivem perifokalem Ödem"
+          ],
+          "diagnose": "Zerebrale Metastasierung",
+          "therapie": [
+            "Dexamethason + Radiatio"
+          ],
+          "lernpunkte": [
+            "Oft mehrfaches Vorkommen"
+          ]
+        },
+        {
+          "id": "RAD_Z090",
+          "titel": "Hirndruckzeichen (Einklemmung)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Trauma",
+          "praesentation": "Anisokorie.",
+          "befunde": [
+            "CCT: Verstreichen der basalen Zisternen, Mittellinienverlagerung, Herniation des Uncus"
+          ],
+          "diagnose": "Akute intrakranielle Hypertension",
+          "therapie": [
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "Radiologische Zeichen der transtentoriellen Herniation"
+          ]
+        }
+      ]
+    },
+    "intervention_nuk_strahlentherapie": {
+      "label": "Intervention, Nuklearmedizin & Strahlentherapie",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "RAD_I091",
+          "titel": "PTA & Stenting (pAVK)",
+          "tags": [
+            "Intervention"
+          ],
+          "patient": "55-jähriger mit Claudicatio",
+          "praesentation": "Kurze Gehstrecke.",
+          "befunde": [
+            "Angio: Kurzstreckige Stenose der A. femoralis superficialis"
+          ],
+          "diagnose": "pAVK",
+          "therapie": [
+            "Ballondilatation + Stent"
+          ],
+          "lernpunkte": [
+            "Minimalinvasives Verfahren zur Revaskularisation"
+          ]
+        },
+        {
+          "id": "RAD_I092",
+          "titel": "Myokardszintigraphie ($^{99m}Tc$-MIBI)",
+          "tags": [
+            "Nuklearmedizin"
+          ],
+          "patient": "Pat. mit V.a. KHK",
+          "praesentation": "Belastungsschmerz.",
+          "befunde": [
+            "Stress: Reversibler Speicherdefekt lateral",
+            "Rest: Normalbefund"
+          ],
+          "diagnose": "Belastungsinduzierte Ischämie",
+          "therapie": [
+            "Herzkatheter"
+          ],
+          "lernpunkte": [
+            "Differenzierung Narbe vs. Ischämie"
+          ]
+        },
+        {
+          "id": "RAD_I093",
+          "titel": "Radiojodtherapie (Autonomie)",
+          "tags": [
+            "Nuklearmedizin"
+          ],
+          "patient": "70-j. mit Hyperthyreose",
+          "praesentation": "Gewichtsverlust.",
+          "befunde": [
+            "Szinti: Heißer Knoten (Adenom)"
+          ],
+          "diagnose": "Schilddrüsenautonomie",
+          "therapie": [
+            "Oral-Gabe von $^{131}I$"
+          ],
+          "lernpunkte": [
+            "Betastrahlung wirkt lokal destruierend"
+          ]
+        },
+        {
+          "id": "RAD_I094",
+          "titel": "FDG-PET/CT (Staging)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. mit Bronchial-CA",
+          "praesentation": "Suche nach Fernmetastasen.",
+          "befunde": [
+            "PET: Mehranreicherung (SUV↑) im Hilus und Nebenniere"
+          ],
+          "diagnose": "Metastasiertes Tumorstadium",
+          "therapie": [
+            "Chemotherapie"
+          ],
+          "lernpunkte": [
+            "Nutzung des erhöhten Glukosestoffwechsels von Tumorzellen"
+          ]
+        },
+        {
+          "id": "RAD_I095",
+          "titel": "Strahlentherapie (Adjuvant)",
+          "tags": [
+            "Strahlentherapie"
+          ],
+          "patient": "Pat. nach Mastektomie",
+          "praesentation": "Zustand postop.",
+          "befunde": [
+            "T2 N1 M0"
+          ],
+          "diagnose": "Mammakarzinom",
+          "therapie": [
+            "Perkutane Bestrahlung der Thoraxwand"
+          ],
+          "lernpunkte": [
+            "Ziel: Reduktion der Lokalrezidivrate"
+          ]
+        },
+        {
+          "id": "RAD_I096",
+          "titel": "Schildwächterlymphknoten (Sentinel)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Melanom-Patient",
+          "praesentation": "Vorbereitung zur OP.",
+          "befunde": [
+            "Lymphabstromszintigraphie: Markierung des ersten abströmenden LK"
+          ],
+          "diagnose": "Identifikation Sentinel",
+          "therapie": [
+            "Gezielte Exstirpation"
+          ],
+          "lernpunkte": [
+            "Vermeidung radikaler LK-Dissektionen"
+          ]
+        },
+        {
+          "id": "RAD_I097",
+          "titel": "Transarterielle Chemoembolisation (TACE)",
+          "tags": [
+            "Intervention"
+          ],
+          "patient": "Pat. mit HCC",
+          "praesentation": "Inoperabler Lebertumor.",
+          "befunde": [
+            "CT: Vaskularisierter Herd 4cm"
+          ],
+          "diagnose": "Hepatozelluläres Karzinom",
+          "therapie": [
+            "Selektive Injektion von Zytostatika + Partikel"
+          ],
+          "lernpunkte": [
+            "Palliative lokale Tumorkontrolle"
+          ]
+        },
+        {
+          "id": "RAD_I098",
+          "titel": "Gallenwegsdrainage (PTCD)",
+          "tags": [
+            "Intervention"
+          ],
+          "patient": "Pat. mit Pankreas-CA",
+          "praesentation": "Verschlussikterus, ERCP frustran.",
+          "befunde": [
+            "Sono: Ektatische Gallenwege"
+          ],
+          "diagnose": "Maligne Gallengangsstenose",
+          "therapie": [
+            "Perkutane transhepatische Cholangiodrainage"
+          ],
+          "lernpunkte": [
+            "Entlastung des Gallenstaus von außen"
+          ]
+        },
+        {
+          "id": "RAD_I099",
+          "titel": "SIRT (Selektive Interne Radiotherapie)",
+          "tags": [
+            "Therapie"
+          ],
+          "patient": "Pat. mit multiplen Lebermetastasen",
+          "praesentation": "Fortgeschrittenes Stadium.",
+          "befunde": [
+            "Vorbereitung: MAA-Probe zum Lungenshunt-Ausschluss"
+          ],
+          "diagnose": "Indikation zur SIRT",
+          "therapie": [
+            "Injektion von $^{90}Y$-Mikrosphären"
+          ],
+          "lernpunkte": [
+            "Hochdosis-Bestrahlung von innen (Brachytherapie-Prinzip)"
+          ]
+        },
+        {
+          "id": "RAD_I100",
+          "titel": "Hirntoddiagnostik (Nuklearmedizin)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Intensivpatient, Koma",
+          "praesentation": "Hirnstammreflexe fehlen.",
+          "befunde": [
+            "$^{99m}Tc$-HMPAO Szintigraphie: Fehlende Hirnperfusion (Hollow-Skull-Sign)"
+          ],
+          "diagnose": "Irreversibler Hirnfunktionsausfall",
+          "therapie": [
+            "Dokumentation"
+          ],
+          "lernpunkte": [
+            "Zugelassenes Zusatzverfahren zur Hirntodfeststellung"
+          ]
+        }
+      ]
+    }
+  }
+}

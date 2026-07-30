@@ -1,0 +1,1538 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Geriatrie",
+    "version": "3.0.0",
+    "total": 67,
+    "kategorien": 6,
+    "erstellt": "2026-04-23",
+    "hinweis": "Kondensierter, hochpräziser Datensatz zur Abdeckung aller prüfungsrelevanten Facharzt-Szenarien (ca. 65 Kernfälle decken 100+ klinische Fragestellungen redundant ab)."
+  },
+  "kategorien": {
+    "notfaelle_und_syndrome": {
+      "label": "Notfälle & Geriatrische Syndrome",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "GER001",
+          "titel": "Atypische Infektpräsentation (Frailty)",
+          "tags": [
+            "Notfall",
+            "Sepsis"
+          ],
+          "patient": "82-jährige, Frailty",
+          "praesentation": "Apathie, Nahrungsverweigerung, kein Fieber.",
+          "befunde": [
+            "AF 24/min",
+            "Urin-Stix Leukos/Nitrit +",
+            "CRP 85"
+          ],
+          "diagnose": "Urosepsis ohne Leitsymptome",
+          "therapie": [
+            "Kalkulierte Antibiose (Cefpodoxim)",
+            "Vorsichtige Rehydratation"
+          ],
+          "lernpunkte": [
+            "AZ-Verschlechterung ist oft einziges Infektzeichen im Alter."
+          ]
+        },
+        {
+          "id": "GER002",
+          "titel": "Crush-Syndrom (Long lie)",
+          "tags": [
+            "Notfall",
+            "Nephrologie"
+          ],
+          "patient": "85-jähriger",
+          "praesentation": "Nach Sturz 14h auf Boden gelegen.",
+          "befunde": [
+            "Urin teefarben",
+            "CK 18.500",
+            "Krea 2,8",
+            "Kalium 5,9"
+          ],
+          "diagnose": "Rhabdomyolyse, akutes Nierenversagen",
+          "therapie": [
+            "Aggressive Volumentherapie (Ringer/NaCl)",
+            "Elektrolyt-Monitoring"
+          ],
+          "lernpunkte": [
+            "Long-lie hat hohe Mortalität. Hausnotruf präventiv essenziell."
+          ]
+        },
+        {
+          "id": "GER003",
+          "titel": "Orthostatische Synkope vs. Sturz",
+          "tags": [
+            "Kardiologie",
+            "Sturz"
+          ],
+          "patient": "78-jährige",
+          "praesentation": "Nächtlicher Sturz, Amnesie für Ereignis.",
+          "befunde": [
+            "Schellong-Test positiv",
+            "Neuer LSB im EKG"
+          ],
+          "diagnose": "Synkope bei Nykturie/Hypotonie",
+          "therapie": [
+            "Antihypertensiva abends reduzieren",
+            "Kardiologische Abklärung"
+          ],
+          "lernpunkte": [
+            "Sturz-Amnesie ist Synkopen-Verdacht. Überbehandlung des RR vermeiden."
+          ]
+        },
+        {
+          "id": "GER004",
+          "titel": "Stummer Myokardinfarkt",
+          "tags": [
+            "Kardiologie",
+            "Atypisch"
+          ],
+          "patient": "84-jährige, DM Typ 2",
+          "praesentation": "Akutes Delir, Dyspnoe, Schwäche. Kein Thoraxschmerz.",
+          "befunde": [
+            "ST-Hebungen V1-V4",
+            "Troponin positiv"
+          ],
+          "diagnose": "Atypischer STEMI",
+          "therapie": [
+            "Koronarangiographie/PCI",
+            "Furosemid",
+            "DAPT"
+          ],
+          "lernpunkte": [
+            "Dyspnoe/Delir sind ACS-Äquivalente. Schmerz fehlt bei >80J oft."
+          ]
+        },
+        {
+          "id": "GER005",
+          "titel": "Hyperaktives Delir (Ortswechsel)",
+          "tags": [
+            "Delir",
+            "Psychiatrie"
+          ],
+          "patient": "81-jähriger",
+          "praesentation": "Im Urlaub nachts akut aggressiv, desorientiert.",
+          "befunde": [
+            "Fluktuierender Verlauf",
+            "Ausschluss somatischer Trigger"
+          ],
+          "diagnose": "Umgebungsgetriggertes Delir",
+          "therapie": [
+            "Reorientierung (Licht, Brille, Angehörige)",
+            "Ultima ratio: Pipamperon"
+          ],
+          "lernpunkte": [
+            "Nicht-pharmakologische Basisinterventionen vor Medikamenten."
+          ]
+        },
+        {
+          "id": "GER006",
+          "titel": "Hypoaktives Delir",
+          "tags": [
+            "Delir",
+            "Infekt"
+          ],
+          "patient": "86-jährige",
+          "praesentation": "Seit 2 Tagen somnolent, trinkt nicht, reagiert kaum.",
+          "befunde": [
+            "Rasselgeräusche basal",
+            "SpO2 89%"
+          ],
+          "diagnose": "Hypoaktives Delir bei Pneumonie",
+          "therapie": [
+            "Sauerstoff",
+            "Antibiose",
+            "Mobilisation"
+          ],
+          "lernpunkte": [
+            "Hypoaktives Delir wird oft als Demenz oder Depression fehldiagnostiziert."
+          ]
+        },
+        {
+          "id": "GER007",
+          "titel": "Post-Fall-Syndrom",
+          "tags": [
+            "Sturz",
+            "Assessment"
+          ],
+          "patient": "79-jährige",
+          "praesentation": "Rezidivierende Stürze, massive Angst vor Gehen.",
+          "befunde": [
+            "TUG-Test 22s (>20s pathologisch)"
+          ],
+          "diagnose": "Frailty, Sarkopenie, Fallangst",
+          "therapie": [
+            "OTAGO-Krafttraining",
+            "Vitamin D >30 ng/ml",
+            "Wohnraumanpassung"
+          ],
+          "lernpunkte": [
+            "Fallangst triggert Immobilisation und Muskelabbau (Circulus vitiosus)."
+          ]
+        },
+        {
+          "id": "GER008",
+          "titel": "Exsikkose und Hypernatriämie",
+          "tags": [
+            "Notfall",
+            "Nephrologie"
+          ],
+          "patient": "88-jährige",
+          "praesentation": "Vigilanzminderung bei Hitze.",
+          "befunde": [
+            "Stehende Hautfalten",
+            "Na+ 158 mmol/l",
+            "Harnstoff 90"
+          ],
+          "diagnose": "Hypertone Dehydratation",
+          "therapie": [
+            "Langsame Rehydratation (Halbelektrolyt oder 5% Glukose)",
+            "Max. Na-Korrektur 10 mmol/24h"
+          ],
+          "lernpunkte": [
+            "Zu schnelle Korrektur riskiert zentrale pontine Myelinolyse."
+          ]
+        },
+        {
+          "id": "GER009",
+          "titel": "Akutes Harnverhalt-Delir",
+          "tags": [
+            "Urologie",
+            "Delir"
+          ],
+          "patient": "77-jähriger, BPH",
+          "praesentation": "Akut verwirrt, agitiert, stöhnt.",
+          "befunde": [
+            "Prall elastischer Unterbauch",
+            "Sono: 800ml Restharn"
+          ],
+          "diagnose": "Delir durch Harnverhalt-Schmerz",
+          "therapie": [
+            "Einmalkatheterismus/DK-Anlage",
+            "Alpha-Blocker ansetzen"
+          ],
+          "lernpunkte": [
+            "Harnverhalt und Obstipation sind häufigste behebbare Delir-Trigger."
+          ]
+        },
+        {
+          "id": "GER010",
+          "titel": "Hypoglykämie im Alter",
+          "tags": [
+            "Endokrinologie",
+            "Sturz"
+          ],
+          "patient": "83-jähriger, DM2 (Glibenclamid)",
+          "praesentation": "Morgens schweißgebadet, fokal-neurologisches Defizit.",
+          "befunde": [
+            "BZ 38 mg/dl",
+            "Hemiparese reversibel nach Glukose"
+          ],
+          "diagnose": "Schwere Hypoglykämie unter Sulfonylharnstoff",
+          "therapie": [
+            "Glukose 40% i.v.",
+            "Glibenclamid absetzen (PRISCUS)"
+          ],
+          "lernpunkte": [
+            "Glibenclamid kumuliert bei Niereninsuffizienz. BZ-Ziel im Alter moderater (HbA1c 7-8%)."
+          ]
+        },
+        {
+          "id": "GER067",
+          "titel": "Schwindel im Alter (BPPV vs. orthostatisch)",
+          "tags": [
+            "Schwindel",
+            "BPPV",
+            "Sturz",
+            "Vestibulär"
+          ],
+          "patient": "74-jährige Patientin, seit 3 Tagen Drehschwindelattacken beim Aufstehen und Drehen im Bett. Kurz, sekündlich, kein Tinnitus, kein Hörverlust. Zweimal fast gestürzt.",
+          "praesentation": "Attackenartiger Drehschwindel <1 Minute, lageabhängig. Übelkeit. Kein Dauerschwindel. Kein Nystagmus in Ruhe. RR liegend 130/80, stehend 110/70 (10 mmHg Abfall).",
+          "befunde": [
+            "Dix-Hallpike rechts: positiv – Nystagmus (rotatorisch, erschöpflich, nach oben) mit Latenz 2-3 Sek.",
+            "Dix-Hallpike links: negativ",
+            "Orthostase-Test: 10 mmHg systolischer Abfall (grenzwertig)",
+            "Romberg: leichtes Schwanken",
+            "Audiometrie: altersgemäße Schwerhörigkeit beidseits, kein einseitiger Hörverlust"
+          ],
+          "diagnose": "Benigner paroxysmaler Lagerungsschwindel (BPPV), posteriorer Bogengang rechts. Grenzwertige Orthostase als Zusatzfaktor.",
+          "therapie": [
+            "Epley-Manöver (Canalith Repositioning): 3-5 Wiederholungen, Erfolgsrate >80% in einer Sitzung",
+            "Demonstration des Semont-Manövers zur Heimanwendung",
+            "Antivertiginosa (Dimenhydrinat) NUR kurzfristig – hemmen zentrale Kompensation!",
+            "Orthostase: Kompressionsstrümpfe, langsames Aufstehen, Midodrin nur wenn persistierend",
+            "Sturzprophylaxe: Haltegriffe, Nachtlicht, kein schnelles Kopfdrehen",
+            "Kontrolltermin in 1 Woche – Spontanremission möglich"
+          ],
+          "lernpunkte": [
+            "BPPV ist häufigste Schwindelursache im Alter – klassisch: kurz, lageabhängig, kein Hörverlust.",
+            "Dix-Hallpike: diagnostisches Manöver – rotatorischer Nystagmus mit Latenz ist pathognomonisch.",
+            "Epley-Manöver ist First-Line-Therapie, nicht Betahistin (bei BPPV unwirksam).",
+            "Betahistin ist bei Morbus Menière indiziert (Tinnitus + Hörverlust + Dauerschwindel).",
+            "Antivertiginosa (Dimenhydrinat) verlangsamen zentrale Kompensation – max. 3 Tage bei starker Übelkeit.",
+            "Multifaktorielle Schwindel-Ätiologie im Alter: BPPV + Orthostase + Presbyvestibulopathie oft kombiniert."
+          ]
+        }
+      ]
+    },
+    "kognition_neuro_psyche": {
+      "label": "Kognition, Neuro & Psyche",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "GER011",
+          "titel": "Alzheimer vs. Pseudodemenz",
+          "tags": [
+            "Demenz",
+            "Psychiatrie"
+          ],
+          "patient": "76-jährige",
+          "praesentation": "Apathie, klagt intensiv über kognitive Ausfälle ('Ich kann nichts mehr').",
+          "befunde": [
+            "MMST 26/30 (verlangsamt)",
+            "GDS 11/15 (Depression)"
+          ],
+          "diagnose": "Schwere Depression (Pseudodemenz)",
+          "therapie": [
+            "Sertralin",
+            "Soziale Reintegration"
+          ],
+          "lernpunkte": [
+            "Demente bagatellisieren oft, Depressive klagen. GDS-Assessment zwingend."
+          ]
+        },
+        {
+          "id": "GER012",
+          "titel": "Vaskuläre Demenz (Binswanger)",
+          "tags": [
+            "Demenz",
+            "Neurologie"
+          ],
+          "patient": "83-jährige, pAVK, Hypertonus",
+          "praesentation": "Stufenweise Kognitionsverschlechterung, pseudobulbärer Affekt.",
+          "befunde": [
+            "MMST: Exekutive Dysfunktion führend",
+            "MRT: Leukoaraiose"
+          ],
+          "diagnose": "Subkortikale vaskuläre Demenz",
+          "therapie": [
+            "RR-Einstellung (<140/90)",
+            "Thrombozytenaggregationhemmung"
+          ],
+          "lernpunkte": [
+            "Stufenverlauf und exekutive Dysfunktion vor Gedächtnisverlust typisch."
+          ]
+        },
+        {
+          "id": "GER013",
+          "titel": "Lewy-Body-Demenz (LBD)",
+          "tags": [
+            "Demenz",
+            "Neurologie"
+          ],
+          "patient": "75-jähriger",
+          "praesentation": "Starke Fluktuation der Vigilanz, optische Halluzinationen (Tiere), Rigor.",
+          "befunde": [
+            "Parkinsonismus",
+            "Neuroleptika-Überempfindlichkeit"
+          ],
+          "diagnose": "Lewy-Körperchen-Demenz",
+          "therapie": [
+            "Rivastigmin",
+            "Quetiapin oder Clozapin bei psychotischer Exazerbation"
+          ],
+          "lernpunkte": [
+            "Klassische Neuroleptika (Haloperidol) absolut kontraindiziert (akinetische Krise)."
+          ]
+        },
+        {
+          "id": "GER014",
+          "titel": "Frontotemporale Demenz (Morbus Pick)",
+          "tags": [
+            "Demenz",
+            "Neurologie"
+          ],
+          "patient": "68-jähriger",
+          "praesentation": "Enthemmung, Verlust sozialer Normen, Hyperoralität, Apathie.",
+          "befunde": [
+            "Gedächtnis noch gut erhalten",
+            "CCT: Frontalhirnatrophie"
+          ],
+          "diagnose": "Frontotemporale Demenz",
+          "therapie": [
+            "Symptomatisch (SSRI), keine Cholinesterasehemmer"
+          ],
+          "lernpunkte": [
+            "Persönlichkeitsveränderung steht weit vor der Gedächtnisstörung."
+          ]
+        },
+        {
+          "id": "GER015",
+          "titel": "Normaldruckhydrozephalus (NPH)",
+          "tags": [
+            "Neurologie",
+            "Ganganomalie"
+          ],
+          "patient": "78-jähriger",
+          "praesentation": "Hakims-Trias: Kleinschrittiger Gang, Demenz, Harninkontinenz.",
+          "befunde": [
+            "CCT: Ventrikulomegalie ohne äußere Atrophie",
+            "Liquor-Tap-Test positiv"
+          ],
+          "diagnose": "NPH",
+          "therapie": [
+            "Vp-Shunt-Anlage neurochirurgisch"
+          ],
+          "lernpunkte": [
+            "Liquordrainage bessert primär das Gangbild, Kognition oft irreversibel."
+          ]
+        },
+        {
+          "id": "GER016",
+          "titel": "Parkinson: Fluktuation & Freezing",
+          "tags": [
+            "Neurologie",
+            "Bewegung"
+          ],
+          "patient": "75-jähriger, M. Parkinson",
+          "praesentation": "Einfrieren beim Gehen (Freezing), 'Wearing-off' vor nächster Dosis.",
+          "befunde": [
+            "Rigor, Hypomimie",
+            "Orthostase"
+          ],
+          "diagnose": "M. Parkinson Spätstadium",
+          "therapie": [
+            "L-Dopa-Intervalle verkürzen",
+            "COMT-Hemmer (Entacapon)",
+            "Cueing-Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Freezing erfordert optisch/akustische Trigger, keine simple L-Dopa-Erhöhung."
+          ]
+        },
+        {
+          "id": "GER017",
+          "titel": "Schlaganfall im hohen Alter (Lyse)",
+          "tags": [
+            "Neurologie",
+            "Notfall"
+          ],
+          "patient": "88-jährige",
+          "praesentation": "Aphasie, Hemiparese rechts seit 2 Stunden.",
+          "befunde": [
+            "CCT nativ: Keine Blutung",
+            "NIHSS 12"
+          ],
+          "diagnose": "Akuter ischämischer Insult (Media)",
+          "therapie": [
+            "Systemische Thrombolyse (Alteplase)"
+          ],
+          "lernpunkte": [
+            "Alter >80 ist keine Kontraindikation für i.v.-Lyse bei gutem prämorbiden Status."
+          ]
+        },
+        {
+          "id": "GER018",
+          "titel": "Alters-Epilepsie",
+          "tags": [
+            "Neurologie",
+            "Synkope"
+          ],
+          "patient": "72-jähriger",
+          "praesentation": "Wiederholte 'Wegtreten'-Episoden, kurzzeitig desorientiert danach.",
+          "befunde": [
+            "Z.n. Schlaganfall vor 3 Jahren",
+            "EEG: Temporale Spikes"
+          ],
+          "diagnose": "Strukturelle fokale Epilepsie",
+          "therapie": [
+            "Lamotrigin oder Levetiracetam"
+          ],
+          "lernpunkte": [
+            "Absencen/komplex-fokale Anfälle im Alter oft als Synkope oder TIA fehldiagnostiziert."
+          ]
+        },
+        {
+          "id": "GER019",
+          "titel": "Insomnie & Z-Drugs",
+          "tags": [
+            "Psychiatrie",
+            "PRISCUS"
+          ],
+          "patient": "82-jährige",
+          "praesentation": "Verlangt Zolpidem wegen Ein- und Durchschlafstörung.",
+          "befunde": [
+            "Ausgedehnter Mittagsschlaf",
+            "Nykturie"
+          ],
+          "diagnose": "Altersinsomnie, falsche Schlafhygiene",
+          "therapie": [
+            "Schlafrestriktion",
+            "Melatonin oder Mirtazapin 7,5mg (Off-label)"
+          ],
+          "lernpunkte": [
+            "Zolpidem/Zopiclon verdoppeln das Frakturrisiko (Ataxie, Hangover)."
+          ]
+        },
+        {
+          "id": "GER020",
+          "titel": "B12-Mangel-Neuropathie",
+          "tags": [
+            "Neurologie",
+            "Ernährung"
+          ],
+          "patient": "79-jährige",
+          "praesentation": "Gangunsicherheit im Dunkeln, Kribbeln Füße, Kognition leicht gemindert.",
+          "befunde": [
+            "Hb 10,5 makrozytär",
+            "B12 <150 pg/ml",
+            "Pallhypästhesie"
+          ],
+          "diagnose": "Funikuläre Myelose bei B12-Mangel",
+          "therapie": [
+            "Vitamin B12 i.m. (Cyanocobalamin)"
+          ],
+          "lernpunkte": [
+            "Oft durch atrophische Gastritis oder Metformin-Langzeittherapie bedingt."
+          ]
+        },
+        {
+          "id": "GER066",
+          "titel": "Geriatrische Depression",
+          "tags": [
+            "Psychiatrie",
+            "Depression",
+            "GDS",
+            "PRISCUS"
+          ],
+          "patient": "78-jährige Witwe, seit 6 Monaten zunehmend rückzüchtig, klagt über Schlafstörungen, Appetitlosigkeit und multiple körperliche Beschwerden. Tochter berichtet: 'Mutti ist einfach nicht mehr sie selbst.'",
+          "praesentation": "Anhedonie, Antriebslosigkeit, sozialer Rückzug, Somatisierung (Kopf-, Rücken-, Bauchschmerzen ohne organischen Befund). Verneint Traurigkeit, gibt Leere an. Kognition formal intakt (MMSE 27/30).",
+          "befunde": [
+            "GDS-15: 10/15 Punkte (≥5 = Verdacht auf Depression)",
+            "MMSE 27/30 (Depression ≠ Demenz, aber Überlappung möglich)",
+            "Labor: TSH normal, Vitamin B12 normal, Anämie ausgeschlossen",
+            "Körperliche Untersuchung: unauffällig"
+          ],
+          "diagnose": "Geriatrische Depression (ICD-10: F32.1), Somatisierung",
+          "therapie": [
+            "SSRI: Sertralin 50 mg (PRISCUS-konform; kein Amitriptylin, kein Paroxetin im Alter!)",
+            "Dosissteigerung nach 2 Wochen auf 100 mg wenn toleriert",
+            "Psychotherapie: Verhaltensaktivierung, Trauerbewältigung",
+            "Suizidrisiko-Assessment: direkt ansprechen ('Haben Sie Gedanken, nicht mehr leben zu wollen?')",
+            "Soziale Aktivierung: Tagesstruktur, Angehörige einbinden",
+            "Kontrolle nach 2 Wochen, Wirklatenz 4-6 Wochen erklären"
+          ],
+          "lernpunkte": [
+            "Geriatrische Depression präsentiert sich oft somatisch – nicht als Traurigkeit.",
+            "GDS-15 ist das Screening-Instrument der Wahl (≥5 Punkte = auffällig).",
+            "Pseudodemenz: Depression kann wie Demenz aussehen → Therapieversuch mit SSRI diagnostisch und therapeutisch.",
+            "PRISCUS-Liste: Amitriptylin, Doxepin, Mirtazapin ≥30mg kontraindiziert im Alter (anticholinerg, sturzfördernd).",
+            "Suizidrisiko im Alter oft unterschätzt – alte Männer haben höchste Suizidrate!"
+          ]
+        }
+      ]
+    },
+    "polypharmazie": {
+      "label": "Polypharmazie & Pharmakotherapie",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "GER021",
+          "titel": "Anticholinerges Syndrom",
+          "tags": [
+            "Toxikologie",
+            "Delir"
+          ],
+          "patient": "80-jähriger",
+          "praesentation": "Akut verwirrt, stolpert, Mund extrem trocken.",
+          "befunde": [
+            "Nimmt Amitriptylin, Oxybutynin, Dimenhydrinat",
+            "Restharn"
+          ],
+          "diagnose": "Zentrale anticholinerge Toxizität",
+          "therapie": [
+            "Absetzen/Ausschleichen der PIM",
+            "Oxybutynin umstellen auf Mirabegron"
+          ],
+          "lernpunkte": [
+            "Anticholinergic Burden ist additiv und führt zu Delir, Harnverhalt, Stürzen."
+          ]
+        },
+        {
+          "id": "GER022",
+          "titel": "DOAK vs. Sturzrisiko",
+          "tags": [
+            "Kardiologie",
+            "Gerinnung"
+          ],
+          "patient": "86-jähriger, VHF",
+          "praesentation": "Rezidivierende Stürze. HA will Apixaban absetzen.",
+          "befunde": [
+            "CHA2DS2-VASc: 5",
+            "HAS-BLED: 3"
+          ],
+          "diagnose": "VHF bei hohem Sturzrisiko",
+          "therapie": [
+            "DOAK fortführen",
+            "Sturzprophylaxe",
+            "HAS-BLED Risiken (RR, NSAR) minimieren"
+          ],
+          "lernpunkte": [
+            "Nutzen der OAK überwiegt ICB-Risiko bei Stürzen extrem. Nicht absetzen!"
+          ]
+        },
+        {
+          "id": "GER023",
+          "titel": "Iatrogene Hypotonie",
+          "tags": [
+            "Pharmakologie",
+            "Sturz"
+          ],
+          "patient": "82-jährige",
+          "praesentation": "Schwindel beim Aufstehen, rezente Synkope.",
+          "befunde": [
+            "Med: Amlodipin + Lercanidipin + Tamsulosin",
+            "RR 105/60"
+          ],
+          "diagnose": "Polypharmazie-bedingte Orthostase",
+          "therapie": [
+            "Doppelverordnung beenden",
+            "Medikationsreview (FORTA)"
+          ],
+          "lernpunkte": [
+            "Schnittstellenprobleme (Facharzt/Hausarzt) verursachen Additions-Toxizität."
+          ]
+        },
+        {
+          "id": "GER024",
+          "titel": "Pregabalin-Kumulation (CKD)",
+          "tags": [
+            "Nephrologie",
+            "Pharmakologie"
+          ],
+          "patient": "77-jährige, CKD 3b",
+          "praesentation": "Nach Dosissteigerung Pregabalin massive Ataxie, lallende Sprache.",
+          "befunde": [
+            "eGFR 35",
+            "Neurologisch wie alkoholisiert"
+          ],
+          "diagnose": "Pregabalin-Intoxikation bei Niereninsuffizienz",
+          "therapie": [
+            "Dosis nierenadaptieren (max. 150mg/d)"
+          ],
+          "lernpunkte": [
+            "Pregabalin und Gabapentin werden streng renal eliminiert."
+          ]
+        },
+        {
+          "id": "GER025",
+          "titel": "NSAR-induziertes akutes Nierenversagen",
+          "tags": [
+            "Nephrologie",
+            "Schmerz"
+          ],
+          "patient": "74-jähriger, Herzinsuffizienz",
+          "praesentation": "Gewichtszunahme, Beinödeme, Oligurie nach Ibuprofen-Einnahme wegen Knie-Schmerz.",
+          "befunde": [
+            "Krea Anstieg von 1,2 auf 2,5",
+            "K+ 5,8"
+          ],
+          "diagnose": "Akutes prärenales Nierenversagen (NSAR blockiert Prostaglandine)",
+          "therapie": [
+            "Ibuprofen sofort absetzen",
+            "Einsatz von topischen NSAR oder Metamizol"
+          ],
+          "lernpunkte": [
+            "Systemische NSAR in der Geriatrie bei HI/CKD streng vermeiden ('Triple Whammy' bei ACE+Diuretikum+NSAR)."
+          ]
+        },
+        {
+          "id": "GER026",
+          "titel": "Digoxin-Toxizität",
+          "tags": [
+            "Kardiologie",
+            "Toxikologie"
+          ],
+          "patient": "81-jährige, VHF",
+          "praesentation": "Übelkeit, Farbsehrstörungen (Gelbsehen), Bradykardie.",
+          "befunde": [
+            "HF 45/min",
+            "Kalium 3,1 (unter HCT)",
+            "Digoxin-Spiegel toxisch"
+          ],
+          "diagnose": "Digitalis-Intoxikation bei Hypokaliämie",
+          "therapie": [
+            "Digoxin pausieren",
+            "Kalium-Substitution",
+            "ggf. Digitalis-Antidot bei Arrhythmie"
+          ],
+          "lernpunkte": [
+            "Hypokaliämie triggert Digitalistoxizität bei normalen Spiegeln. Digitoxin bei NI bevorzugen."
+          ]
+        },
+        {
+          "id": "GER027",
+          "titel": "Loperamid und Ileus",
+          "tags": [
+            "Gastro",
+            "Pharmakologie"
+          ],
+          "patient": "85-jähriger",
+          "praesentation": "Nach Behandlung einer Diarrhö mit Loperamid nun Erbrechen, kein Stuhlgang seit 5 Tagen.",
+          "befunde": [
+            "Abdomen meteoristisch, spärliche Darmgeräusche",
+            "Rö-Abdomen: Spiegelbildung"
+          ],
+          "diagnose": "Paralytischer/Sub-Ileus durch Loperamid",
+          "therapie": [
+            "Loperamid absetzen",
+            "Magensonde",
+            "Flüssigkeit"
+          ],
+          "lernpunkte": [
+            "Motilitätshemmer im Alter sehr zurückhaltend, Gefahr des toxischen Megakolons/Ileus."
+          ]
+        },
+        {
+          "id": "GER028",
+          "titel": "SSRI-induzierte Hyponatriämie",
+          "tags": [
+            "Endokrinologie",
+            "Psychiatrie"
+          ],
+          "patient": "79-jährige",
+          "praesentation": "Wochen nach Citalopram-Start zunehmend somnolent, Muskelkrämpfe.",
+          "befunde": [
+            "Na+ 118 mmol/l",
+            "Serumosmolarität niedrig, Urinosmolarität hoch"
+          ],
+          "diagnose": "SIADH durch SSRI",
+          "therapie": [
+            "Citalopram absetzen",
+            "Flüssigkeitsrestriktion",
+            "Sehr langsame Na-Korrektur"
+          ],
+          "lernpunkte": [
+            "SSRI und Thiazide sind Hauptursachen für SIADH/Hyponatriämie im Alter."
+          ]
+        },
+        {
+          "id": "GER029",
+          "titel": "Neuroleptika und Mortalität (Demenz)",
+          "tags": [
+            "Psychiatrie",
+            "Ethik"
+          ],
+          "patient": "88-jähriger, Alzheimer",
+          "praesentation": "Nächtliches Umherwandern. Pflege bittet um Haloperidol.",
+          "befunde": [
+            "Keine Eigen-/Fremdgefährdung, rein motorische Unruhe"
+          ],
+          "diagnose": "BPSD (Behavioral and Psychological Symptoms of Dementia)",
+          "therapie": [
+            "Milieutherapie",
+            "Keine Neuroleptika indiziert!"
+          ],
+          "lernpunkte": [
+            "Typische Neuroleptika erhöhen Apoplex- und Mortalitätsrisiko bei Demenz massiv. Nur bei Gefährdung!"
+          ]
+        },
+        {
+          "id": "GER030",
+          "titel": "PPI-Dauertherapie Komplikationen",
+          "tags": [
+            "Gastro",
+            "Prävention"
+          ],
+          "patient": "76-jährige",
+          "praesentation": "Nimmt Pantoprazol seit 10 Jahren ohne klare Indikation. Fraktur nach Bagatellsturz.",
+          "befunde": [
+            "Osteoporose",
+            "Leichter Mg-Mangel",
+            "B12 grenzwertig"
+          ],
+          "diagnose": "Nebenwirkungen der PPI-Langzeiteinnahme",
+          "therapie": [
+            "PPI ausschleichen (Rebound-Säuresekretion abfedern)"
+          ],
+          "lernpunkte": [
+            "PPI erhöhen Risiko für Osteoporose-Frakturen, Clostridien und B12-Mangel."
+          ]
+        }
+      ]
+    },
+    "palliativ_ethik": {
+      "label": "Palliativmedizin, Ethik & Recht",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "GER031",
+          "titel": "PEG bei Endstadium Demenz",
+          "tags": [
+            "Ethik",
+            "Ernährung"
+          ],
+          "patient": "89-jährige, Alzheimer FAST 7c",
+          "praesentation": "Bettlägerig, verweigert Nahrung, schluckt Speichel nicht.",
+          "befunde": [
+            "BMI 17"
+          ],
+          "diagnose": "Nahrungsverweigerung (Sterbeprozess)",
+          "therapie": [
+            "Comfort Feeding Only (CFO)",
+            "Mundpflege",
+            "Keine PEG!"
+          ],
+          "lernpunkte": [
+            "PEG bei Demenz verlängert Leben nicht, mindert kein Leid, verhindert keine Aspiration."
+          ]
+        },
+        {
+          "id": "GER032",
+          "titel": "Palliative Sedierung",
+          "tags": [
+            "Palliativ",
+            "Symptomkontrolle"
+          ],
+          "patient": "77-jährige, Pankreas-Ca",
+          "praesentation": "Refraktäre Atemnot und Schmerzen in Terminalphase, Todeswunsch.",
+          "befunde": [
+            "Lebenserwartung < 2 Wochen"
+          ],
+          "diagnose": "Therapierefraktäres terminales Leiden",
+          "therapie": [
+            "Midazolam titriert bis Bewusstseinsverlust",
+            "Schmerztherapie beibehalten"
+          ],
+          "lernpunkte": [
+            "Intention ist Symptomlinderung, nicht Lebensverkürzung. Ethisch/rechtlich einwandfrei."
+          ]
+        },
+        {
+          "id": "GER033",
+          "titel": "Zwangsunterbringung vs. Betreuung",
+          "tags": [
+            "Recht",
+            "Psychiatrie"
+          ],
+          "patient": "83-jährige, Verwahrlosung",
+          "praesentation": "Wohnung vermüllt, keine Einsicht. Vital stabil, keine Akutgefahr.",
+          "befunde": [
+            "Demenzverdacht"
+          ],
+          "diagnose": "Selbstgefährdung ohne akute vitale Bedrohung",
+          "therapie": [
+            "Anregung gesetzliche Betreuung (Amtsgericht)",
+            "SpDi einschalten"
+          ],
+          "lernpunkte": [
+            "PsychKG erfordert akute Gefahr. Sonst ordentlicher Weg über Betreuungsgericht."
+          ]
+        },
+        {
+          "id": "GER034",
+          "titel": "Terminale Rasselatmung",
+          "tags": [
+            "Palliativ",
+            "Pflege"
+          ],
+          "patient": "91-jähriger, Sterbephase",
+          "praesentation": "Lautes brodelndes Atemgeräusch, Angehörige in Panik.",
+          "befunde": [
+            "Komatös, Sekretretention im Rachen"
+          ],
+          "diagnose": "Terminale Rasselatmung (Todesrasseln)",
+          "therapie": [
+            "Angehörige beruhigen (Patient leidet nicht)",
+            "Scopolamin s.c. (Anticholinergikum) oder Butylscopolamin",
+            "Umlagern"
+          ],
+          "lernpunkte": [
+            "Absaugen ist oft traumatisch und kontraindiziert, da es die Sekretion steigert."
+          ]
+        },
+        {
+          "id": "GER035",
+          "titel": "Patientenverfügung Umsetzung",
+          "tags": [
+            "Ethik",
+            "Recht"
+          ],
+          "patient": "78-jähriger, schwerer Apoplex",
+          "praesentation": "Maschinell beatmet, infaust. PV: 'Keine lebensverlängernden Maßnahmen bei irreversiblen Hirnschäden.'",
+          "befunde": [
+            "Sohn (Bevollmächtigter) fordert Maximaltherapie."
+          ],
+          "diagnose": "Konflikt PV vs. Angehörigenwille",
+          "therapie": [
+            "PV ist bindend. Therapiebegrenzung durchführen."
+          ],
+          "lernpunkte": [
+            "Eine eindeutige Patientenverfügung sticht den gegenteiligen Willen von Bevollmächtigten."
+          ]
+        },
+        {
+          "id": "GER036",
+          "titel": "Dyspnoe am Lebensende",
+          "tags": [
+            "Palliativ",
+            "Symptomkontrolle"
+          ],
+          "patient": "84-jähriger, COPD GOLD IV",
+          "praesentation": "Massive Atemnot, max. O2 und Bronchodilatatoren wirkungslos.",
+          "befunde": [
+            "AF 32/min, Panik"
+          ],
+          "diagnose": "Refraktäre terminale Dyspnoe",
+          "therapie": [
+            "Morphin s.c./i.v. (senkt Atemantrieb und Dyspnoe-Wahrnehmung)",
+            "Lorazepam bei Angst"
+          ],
+          "lernpunkte": [
+            "Opioide sind das Mittel der Wahl bei schwerer, kausal nicht behandelbarer Dyspnoe."
+          ]
+        },
+        {
+          "id": "GER037",
+          "titel": "Tumorschmerz und WHO-Stufen",
+          "tags": [
+            "Palliativ",
+            "Schmerz"
+          ],
+          "patient": "79-jährige, Knochenmetastasen",
+          "praesentation": "Ibuprofen und Tramadol reichen nicht mehr, VAS 8/10.",
+          "befunde": [
+            "Opioid-Vorbehandelt (WHO II)"
+          ],
+          "diagnose": "Tumorschmerz WHO Stufe III Indikation",
+          "therapie": [
+            "Wechsel auf retardiertes Morphin oder Oxycodon",
+            "Bedarfsmedikation (1/6 der Tagesdosis) anordnen"
+          ],
+          "lernpunkte": [
+            "Immer Laxans (Macrogol) parallel verordnen! Opioid-Obstipation entwickelt keine Toleranz."
+          ]
+        },
+        {
+          "id": "GER038",
+          "titel": "Opioid-Pflaster bei Fieber",
+          "tags": [
+            "Pharmakologie",
+            "Palliativ"
+          ],
+          "patient": "72-jähriger, Fentanyl-Pflaster",
+          "praesentation": "Aufnahme mit Pneumonie und hohem Fieber (39,5°C), plötzlich komatös, AF 6/min.",
+          "befunde": [
+            "Miosis, Bradypnoe"
+          ],
+          "diagnose": "Opioid-Überdosierung durch hitzeinduzierte Freisetzung",
+          "therapie": [
+            "Pflaster entfernen",
+            "Naloxon titriert i.v."
+          ],
+          "lernpunkte": [
+            "Fieber oder externe Wärme (Heizkissen) erhöht die Resorption aus transdermalen Pflastern massiv."
+          ]
+        },
+        {
+          "id": "GER039",
+          "titel": "Hyperkalzämie bei Malignom",
+          "tags": [
+            "Onkologie",
+            "Palliativ"
+          ],
+          "patient": "75-jährige, Mamma-Ca",
+          "praesentation": "Akut verwirrt, Exsikkose, Erbrechen, Polyurie.",
+          "befunde": [
+            "Kalzium korrigiert 3,4 mmol/l",
+            "QT-Verkürzung im EKG"
+          ],
+          "diagnose": "Tumorinduzierte Hyperkalzämie",
+          "therapie": [
+            "NaCl 0,9% Infusion (viel Volumen)",
+            "Bisphosphonate i.v. (Zoledronsäure) oder Denosumab"
+          ],
+          "lernpunkte": [
+            "Hyperkalzämie ist eine häufige, reversible Ursache für Delir bei onkologischen Patienten."
+          ]
+        },
+        {
+          "id": "GER040",
+          "titel": "Sterbefasten (FVNE)",
+          "tags": [
+            "Ethik",
+            "Palliativ"
+          ],
+          "patient": "85-jähriger, multimorbid, geistig klar",
+          "praesentation": "Verweigert bewusst Essen und Trinken mit dem Ziel zu sterben.",
+          "befunde": [
+            "Keine behandelbare Depression, urteilskräftig"
+          ],
+          "diagnose": "Freiwilliger Verzicht auf Nahrung und Flüssigkeit (FVNE)",
+          "therapie": [
+            "Entscheidung respektieren",
+            "Palliative Begleitung (Mundpflege, Durststillung durch Befeuchtung, Symptomkontrolle)"
+          ],
+          "lernpunkte": [
+            "FVNE ist keine Indikation für Zwangsernährung, sondern erfordert intensive palliative Pflege."
+          ]
+        }
+      ]
+    },
+    "gastro_uro_infekte": {
+      "label": "Gastro, Uro, Infekte & Derma",
+      "emoji": "🚽",
+      "faelle": [
+        {
+          "id": "GER041",
+          "titel": "Clostridioides difficile (CDI)",
+          "tags": [
+            "Infektiologie",
+            "Gastro"
+          ],
+          "patient": "75-jährige",
+          "praesentation": "Wässrige Diarrhö nach Cephalosporin-Therapie.",
+          "befunde": [
+            "Stuhl-PCR positiv Toxin B"
+          ],
+          "diagnose": "Antibiotika-assoziierte CDI",
+          "therapie": [
+            "Fidaxomicin oder Vancomycin p.o.",
+            "Kontaktisolation"
+          ],
+          "lernpunkte": [
+            "Metronidazol ist nicht mehr First-Line. Händewaschen (nicht nur desinfizieren) bei Sporen!"
+          ]
+        },
+        {
+          "id": "GER042",
+          "titel": "Überlauf-Stuhlinkontinenz",
+          "tags": [
+            "Gastro",
+            "Pflege"
+          ],
+          "patient": "87-jährige",
+          "praesentation": "Neu aufgetretenes Einkoten von flüssigem Stuhl, Bettlägerigkeit.",
+          "befunde": [
+            "DRU: Harte Kotsteine in der Ampulle"
+          ],
+          "diagnose": "Koprostase mit Überlaufinkontinenz",
+          "therapie": [
+            "Manuelle Ausräumung",
+            "Phosphat-Klysma",
+            "Macrogol-Dauertherapie"
+          ],
+          "lernpunkte": [
+            "Diarrhö/Inkontinenz bei Immobilen = DRU zwingend zum Koprostase-Ausschluss."
+          ]
+        },
+        {
+          "id": "GER043",
+          "titel": "Sick-Day-Rules bei Gastroenteritis",
+          "tags": [
+            "Nephrologie",
+            "Infekt"
+          ],
+          "patient": "79-jähriger, CKD",
+          "praesentation": "Erbrechen, Diarrhö, Oligurie.",
+          "befunde": [
+            "Nimmt Ramipril, HCT, Metformin",
+            "Krea 3,5"
+          ],
+          "diagnose": "Prärenales ANV bei Exsikkose",
+          "therapie": [
+            "Pausieren von RAAS-Hemmern, Diuretika, Metformin",
+            "Volumen i.v."
+          ],
+          "lernpunkte": [
+            "Medikamentenpause (Sick-Day-Rules) rettet Nieren und verhindert Laktatazidose."
+          ]
+        },
+        {
+          "id": "GER044",
+          "titel": "Oropharyngeale Dysphagie",
+          "tags": [
+            "HNO",
+            "Pneumologie"
+          ],
+          "patient": "85-jähriger, Parkinson",
+          "praesentation": "Rezidivierende rechtsbasale Pneumonien, Husten beim Trinken.",
+          "befunde": [
+            "Wet voice",
+            "Verlängerte orale Transitzeit"
+          ],
+          "diagnose": "Aspirationsgefahr bei Dysphagie",
+          "therapie": [
+            "Flüssigkeiten andicken",
+            "Chin-tuck Manöver",
+            "Logopädie/FEES"
+          ],
+          "lernpunkte": [
+            "Intensive Mundhygiene reduziert Pneumonierisiko bei stummer Aspiration drastisch."
+          ]
+        },
+        {
+          "id": "GER045",
+          "titel": "Asymptomatische GI-Blutung",
+          "tags": [
+            "Gastro",
+            "Anämie"
+          ],
+          "patient": "78-jähriger, Aortenklappenstenose",
+          "praesentation": "Zufallsbefund Hb 8,5 g/dl, iFOBT positiv.",
+          "befunde": [
+            "Koloskopie: Vaskuläre Läsionen Zökalpol"
+          ],
+          "diagnose": "Angiodysplasien (Heyde-Syndrom Assoziation)",
+          "therapie": [
+            "Argon-Plasma-Koagulation",
+            "Eisen i.v."
+          ],
+          "lernpunkte": [
+            "Schmerzlose Blutung im Alter = Divertikel oder Angiodysplasien."
+          ]
+        },
+        {
+          "id": "GER046",
+          "titel": "Belastungsinkontinenz Post-OP",
+          "tags": [
+            "Urologie",
+            "Inkontinenz"
+          ],
+          "patient": "72-jähriger",
+          "praesentation": "Urinverlust beim Husten, Z.n. Prostatektomie.",
+          "befunde": [
+            "Kein Restharn, Hustentest positiv"
+          ],
+          "diagnose": "Sphinkterinsuffizienz",
+          "therapie": [
+            "Beckenbodentraining 6-12 Monate",
+            "Vorlagen/Kondom-Urinal"
+          ],
+          "lernpunkte": [
+            "Operative Revision (künstl. Sphinkter) erst nach >1 Jahr frustraner Konservativtherapie."
+          ]
+        },
+        {
+          "id": "GER047",
+          "titel": "Pruritus senilis",
+          "tags": [
+            "Derma",
+            "Symptom"
+          ],
+          "patient": "83-jähriger",
+          "praesentation": "Quälender Juckreiz ganzer Körper, schlaflos.",
+          "befunde": [
+            "Xerosis cutis, Kratzspuren, Labor unauffällig"
+          ],
+          "diagnose": "Pruritus bei ausgetrockneter Altershaut",
+          "therapie": [
+            "W/O-Emulsionen mit Urea/Glycerin",
+            "Polidocanol kurzfristig",
+            "Keine Steroide!"
+          ],
+          "lernpunkte": [
+            "Exsikkation ist Hauptursache. Systemische Ursachen (Urämie, Cholestase, Lymphom) ausschließen."
+          ]
+        },
+        {
+          "id": "GER048",
+          "titel": "Watchful Waiting Prostata-Ca",
+          "tags": [
+            "Uro",
+            "Onkologie"
+          ],
+          "patient": "86-jähriger, Herzinsuffizienz NYHA III",
+          "praesentation": "PSA 9, Stanzbiopsie: Gleason 6 (Low-Risk).",
+          "befunde": [
+            "Asymptomatisch, Lebenserwartung <5 Jahre"
+          ],
+          "diagnose": "Low-Risk Prostata-Ca",
+          "therapie": [
+            "Watchful Waiting",
+            "Verzicht auf OP/Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Primum non nocere. Kein PSA-Screening oder Kuration bei Lebenserwartung <10 Jahre."
+          ]
+        },
+        {
+          "id": "GER049",
+          "titel": "Asymptomatische Bakteriurie",
+          "tags": [
+            "Urologie",
+            "Infekt"
+          ],
+          "patient": "81-jährige, DK-Trägerin",
+          "praesentation": "Trüber, übelriechender Urin. Patientin völlig beschwerdefrei, afebril.",
+          "befunde": [
+            "Urin-Kultur: E. coli >10^5",
+            "CRP normal"
+          ],
+          "diagnose": "Asymptomatische Bakteriurie",
+          "therapie": [
+            "Keine Antibiose!",
+            "Ausreichende Trinkmenge"
+          ],
+          "lernpunkte": [
+            "DK-Träger sind zu 100% besiedelt. Antibiose nur bei systemischen Infektzeichen oder vor urologischer OP."
+          ]
+        },
+        {
+          "id": "GER050",
+          "titel": "Herpes Zoster im Alter",
+          "tags": [
+            "Infekt",
+            "Derma"
+          ],
+          "patient": "74-jähriger",
+          "praesentation": "Brennende Schmerzen rechts thorakal, 2 Tage später gürtelförmige Bläschen.",
+          "befunde": [
+            "Dermatom Th5 betroffen"
+          ],
+          "diagnose": "Herpes Zoster",
+          "therapie": [
+            "Brivudin p.o. (Achtung 5-FU Interaktion!) oder Aciclovir",
+            "Frühzeitige, potente Analgesie (Gabapentin/Pregabalin)"
+          ],
+          "lernpunkte": [
+            "Postzosterische Neuralgie durch frühe Schmerztherapie verhindern. Totimpfstoff (Shingrix) zur Prävention ab 60J."
+          ]
+        },
+        {
+          "id": "GER051",
+          "titel": "Parodontitis und Demenz",
+          "tags": [
+            "Zahnmedizin",
+            "Ernährung"
+          ],
+          "patient": "81-jährige, Demenz",
+          "praesentation": "Mundgeruch, verweigert feste Nahrung.",
+          "befunde": [
+            "Zahnfleischbluten, lockere Zähne, Prothesendruckstelle"
+          ],
+          "diagnose": "Schwere Parodontitis",
+          "therapie": [
+            "Zahnärztliche Sanierung",
+            "Kostanpassung"
+          ],
+          "lernpunkte": [
+            "Unerkannte Mundschmerzen sind häufiger Grund für Inappetenz bei Demenzkranken."
+          ]
+        },
+        {
+          "id": "GER052",
+          "titel": "Dranginkontinenz (OAB)",
+          "tags": [
+            "Urologie",
+            "Inkontinenz"
+          ],
+          "patient": "76-jährige",
+          "praesentation": "Imperativer Harndrang, schafft es nicht rechtzeitig zur Toilette. Kein Urinverlust beim Husten.",
+          "befunde": [
+            "Urin o.B., Restharn 10ml"
+          ],
+          "diagnose": "Überaktive Blase (OAB) / Dranginkontinenz",
+          "therapie": [
+            "Blasentraining",
+            "Anticholinergika (Trospiumchlorid - wenig ZNS gängig) oder Mirabegron"
+          ],
+          "lernpunkte": [
+            "Strikte Abgrenzung zur Belastungsinkontinenz; ZNS-gängige Anticholinergika (Oxybutynin) bei Älteren meiden."
+          ]
+        }
+      ]
+    },
+    "schmerz_knochen_sinne": {
+      "label": "Knochen, Sinne & Bewegungsapparat",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "GER053",
+          "titel": "Osteoporotische WK-Fraktur",
+          "tags": [
+            "Ortho",
+            "Schmerz"
+          ],
+          "patient": "76-jährige",
+          "praesentation": "Akuter BWS-Schmerz nach Heben.",
+          "befunde": [
+            "Röntgen: Sinterung BWK 11",
+            "Keine Neuro-Ausfälle",
+            "DXA T-Score -3,2"
+          ],
+          "diagnose": "Wirbelkörperfraktur bei Osteoporose",
+          "therapie": [
+            "WHO II Analgesie",
+            "Korsett zur Frühmobilisation",
+            "Alendronsäure + Vit D"
+          ],
+          "lernpunkte": [
+            "Bettruhe strikt meiden (Pneumonie/TVT-Gefahr). Keine NSAR bei Alter/Osteoporose (Knochenheilung!)."
+          ]
+        },
+        {
+          "id": "GER054",
+          "titel": "Schmerz bei Demenz (BESD)",
+          "tags": [
+            "Schmerz",
+            "Demenz"
+          ],
+          "patient": "85-jähriger, Alzheimer",
+          "praesentation": "Aggressiv beim Waschen, stöhnt bei Armbewegung.",
+          "befunde": [
+            "BESD-Score 7",
+            "Omarthrose rechts"
+          ],
+          "diagnose": "Unbehandelter Schmerz als Agitations-Trigger",
+          "therapie": [
+            "Paracetamol nach fester Uhrzeit oder Buprenorphin-Pflaster",
+            "Keine Bedarfsmedikation"
+          ],
+          "lernpunkte": [
+            "Demente kommunizieren Schmerz durch Verhalten. Analgetika nach Uhr, nicht nach Bedarf."
+          ]
+        },
+        {
+          "id": "GER055",
+          "titel": "Presbyakusis (Altersschwerhörigkeit)",
+          "tags": [
+            "HNO",
+            "Sinne"
+          ],
+          "patient": "81-jähriger",
+          "praesentation": "Versteht bei Lärm schlecht, TV laut, klagt über 'Nuscheln'.",
+          "befunde": [
+            "Trommelfell intakt",
+            "Audiometrie: Hochtonabfall beidseits"
+          ],
+          "diagnose": "Symmetrische sensorineurale Schwerhörigkeit",
+          "therapie": [
+            "Hörgeräteversorgung",
+            "Angehörige: Deutlich sprechen, nicht schreien"
+          ],
+          "lernpunkte": [
+            "Schwerhörigkeit ist massiver Risikofaktor für soziale Isolation und Demenz."
+          ]
+        },
+        {
+          "id": "GER056",
+          "titel": "Altersanämie (Eisenmangel)",
+          "tags": [
+            "Hämatologie",
+            "Gastro"
+          ],
+          "patient": "74-jähriger",
+          "praesentation": "Müdigkeit, Belastungsdyspnoe.",
+          "befunde": [
+            "Hb 9,8 mikrozytär",
+            "Ferritin 12",
+            "iFOBT schwach positiv"
+          ],
+          "diagnose": "Eisenmangel bei okkulter Blutung",
+          "therapie": [
+            "Gastroskopie/Koloskopie zwingend",
+            "Eisen i.v."
+          ],
+          "lernpunkte": [
+            "Eisenmangel im Alter nie als 'altersbedingt' abtun, Malignom-Suche obligat."
+          ]
+        },
+        {
+          "id": "GER057",
+          "titel": "Schenkelhalsfraktur",
+          "tags": [
+            "Chirurgie",
+            "Fraktur"
+          ],
+          "patient": "82-jährige",
+          "praesentation": "Sturz, Bein verkürzt und außenrotiert.",
+          "befunde": [
+            "Röntgen: Mediale SHF Garden III"
+          ],
+          "diagnose": "Mediale Schenkelhalsfraktur",
+          "therapie": [
+            "OP < 48h (Duokopfprothese zur Vollbelastung)",
+            "Fascia-Iliaca-Block zur Analgesie"
+          ],
+          "lernpunkte": [
+            "Schnelle OP zur sofortigen Vollbelastbarkeit (Vermeidung von Bettlägerigkeit) ist überlebenswichtig."
+          ]
+        },
+        {
+          "id": "GER058",
+          "titel": "Distale Radiusfraktur loco typico",
+          "tags": [
+            "Chirurgie",
+            "Fraktur"
+          ],
+          "patient": "75-jährige",
+          "praesentation": "Sturz auf gestreckte Hand bei Eis, Bajonett-Fehlstellung.",
+          "befunde": [
+            "DMS intakt",
+            "Dorsale Abkippung"
+          ],
+          "diagnose": "Radiusfraktur (Colles)",
+          "therapie": [
+            "Reposition",
+            "Bei Geriatrie oft konservativ (Gips) ausreichend",
+            "Physio sofort für freie Finger"
+          ],
+          "lernpunkte": [
+            "CRPS-Prophylaxe durch sofortige Fingerbewegung. Konservative Therapie im Alter funktionell oft gleichwertig zur OP."
+          ]
+        },
+        {
+          "id": "GER059",
+          "titel": "Polymyalgia rheumatica (PMR)",
+          "tags": [
+            "Rheuma",
+            "Schmerz"
+          ],
+          "patient": "72-jährige",
+          "praesentation": "Morgensteifigkeit >1h, extreme Schmerzen Schulter-/Beckengürtel, subfebril.",
+          "befunde": [
+            "Kein Kopfschmerz/Kauschmerz",
+            "BSG 85, CRP 65",
+            "CK normal"
+          ],
+          "diagnose": "Polymyalgia rheumatica",
+          "therapie": [
+            "Prednisolon 15-20mg/d (sofortiges Ansprechen beweist Diagnose)",
+            "Osteoporoseprophylaxe"
+          ],
+          "lernpunkte": [
+            "Riesenzellarteriitis anamnestisch ausschließen (Erblindungsgefahr)."
+          ]
+        },
+        {
+          "id": "GER060",
+          "titel": "Makuladegeneration (AMD)",
+          "tags": [
+            "Ophthalmologie",
+            "Sinne"
+          ],
+          "patient": "80-jährige",
+          "praesentation": "Zunehmender Verlust des zentralen Sehens (Gesichter erkennen schwer), Verzerrtsehen (Metamorphopsien).",
+          "befunde": [
+            "Amsler-Gitter-Test positiv"
+          ],
+          "diagnose": "Altersabhängige Makuladegeneration",
+          "therapie": [
+            "Augenarzt-Überweisung (Anti-VEGF intravitreal bei feuchter Form)",
+            "Sehhilfen/Lupen"
+          ],
+          "lernpunkte": [
+            "AMD ist die häufigste Ursache für schwere Sehbehinderung im Alter. Peripheres Sehen bleibt erhalten."
+          ]
+        },
+        {
+          "id": "GER061",
+          "titel": "Katarakt (Grauer Star)",
+          "tags": [
+            "Ophthalmologie",
+            "Sinne"
+          ],
+          "patient": "78-jähriger",
+          "praesentation": "Langsam progrediente Sehverschlechterung, erhöhte Blendempfindlichkeit beim Autofahren nachts, Farben wirken blass.",
+          "befunde": [
+            "Graue Trübung der Pupille im fortgeschrittenen Stadium"
+          ],
+          "diagnose": "Cataracta senilis",
+          "therapie": [
+            "Operativer Linsenaustausch (Phakoemulsifikation)"
+          ],
+          "lernpunkte": [
+            "Visusverbesserung reduziert Sturzrisiko und Kognitionsabbau signifikant."
+          ]
+        },
+        {
+          "id": "GER062",
+          "titel": "Glaukom (Grüner Star)",
+          "tags": [
+            "Ophthalmologie",
+            "Notfall"
+          ],
+          "patient": "74-jährige",
+          "praesentation": "Routinekontrolle zeigt Gesichtsfeldausfälle, Patientin selbst beschwerdefrei (Offenwinkelglaukom).",
+          "befunde": [
+            "Erhöhter Augeninnendruck, Papillenexkavation"
+          ],
+          "diagnose": "Primäres Offenwinkelglaukom",
+          "therapie": [
+            "Prostaglandin-Augentropfen oder Betablocker topisch"
+          ],
+          "lernpunkte": [
+            "Schleichender, schmerzloser Verlauf. Erblindungsgefahr! Vorsicht mit systemischen Anticholinergika (lösen Akutanfall aus)."
+          ]
+        },
+        {
+          "id": "GER063",
+          "titel": "Spinalkanalstenose",
+          "tags": [
+            "Orthopädie",
+            "Neurologie"
+          ],
+          "patient": "76-jähriger",
+          "praesentation": "Claudicatio spinalis: Schmerzen und Schwäche in den Beinen beim Gehen, Besserung beim Vornüberbeugen (Fahrradfahren gut möglich).",
+          "befunde": [
+            "Pulse tastbar (Ausschluss pAVK)",
+            "MRT: Lumbale Stenose"
+          ],
+          "diagnose": "Lumbale Spinalkanalstenose",
+          "therapie": [
+            "Konservativ: Physio (Entlordosierung), NSAR/Gabapentin",
+            "OP (Dekompression) bei Therapieresistenz"
+          ],
+          "lernpunkte": [
+            "Sitzende und vornübergebeugte Position entlastet den Kanal. Typisches Unterscheidungsmerkmal zur pAVK."
+          ]
+        },
+        {
+          "id": "GER064",
+          "titel": "Dekubitusprophylaxe",
+          "tags": [
+            "Pflege",
+            "Derma"
+          ],
+          "patient": "85-jährige, bettlägerig",
+          "praesentation": "Umschriebene, nicht wegdrückbare Rötung am Sakrum.",
+          "befunde": [
+            "Epidermis intakt"
+          ],
+          "diagnose": "Dekubitus Grad I",
+          "therapie": [
+            "Druckentlastung (Wechseldruckmatratze, Freilagerung)",
+            "Ernährungsoptimierung (Protein)"
+          ],
+          "lernpunkte": [
+            "Fingerdrucktest entscheidet: Wegdrückbare Rötung = Ischämie, nicht wegdrückbar = Dekubitus Grad I."
+          ]
+        },
+        {
+          "id": "GER065",
+          "titel": "Riesenzellarteriitis (Arteriitis temporalis)",
+          "tags": [
+            "Rheumatologie",
+            "Notfall"
+          ],
+          "patient": "77-jährige",
+          "praesentation": "Neu aufgetretene, bohrende Schläfenkopfschmerzen, Kauschmerz (Claudicatio masticatoria), Sehstörungen.",
+          "befunde": [
+            "A. temporalis verdickt, druckschmerzhaft",
+            "BSG massiv erhöht (>80)"
+          ],
+          "diagnose": "Riesenzellarteriitis",
+          "therapie": [
+            "Sofortige hochdosierte Glukokortikoid-Gabe (Prednisolon 1mg/kg KG) noch vor Biopsie!"
+          ],
+          "lernpunkte": [
+            "Ein absoluter rheumatischer Notfall. Therapieverzögerung führt zur irreversiblen Erblindung (AION). Häufig assoziiert mit PMR."
+          ]
+        }
+      ]
+    }
+  }
+}

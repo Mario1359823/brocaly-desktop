@@ -1,0 +1,2098 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Hämatologie und Onkologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "diagnostik_supportiv": {
+      "label": "Diagnostik & Supportive Therapie",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "ONK_001",
+          "titel": "Tumorinduzierte Übelkeit (CINV)",
+          "tags": [
+            "Supportiv",
+            "Übelkeit"
+          ],
+          "patient": "55-jährige Patientin unter hoch emetogener Chemotherapie (Cisplatin)",
+          "praesentation": "Akutes Erbrechen am Tag 1 der Therapie.",
+          "befunde": [
+            "Gesteigerter Brechreiz",
+            "Elektrolyte normal"
+          ],
+          "diagnose": "Chemotherapy-Induced Nausea and Vomiting (CINV)",
+          "therapie": [
+            "5-HT3-Antagonist (Ondansetron)",
+            "NK1-Rezeptorantagonist (Aprepitant)",
+            "Dexamethason"
+          ],
+          "lernpunkte": [
+            "Prophylaxe ist effektiver als Akuttherapie",
+            "Unterscheidung akut vs. verzögert vs. antizipatorisch"
+          ]
+        },
+        {
+          "id": "ONK_002",
+          "titel": "Molekulare Diagnostik (EGFR-Mutation)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "62-j. Nichtraucherin, NSCLC",
+          "praesentation": "Staging nach Erstdiagnose.",
+          "befunde": [
+            "NGS-Panel: Nachweis einer Exon-19-Deletion im EGFR-Gen"
+          ],
+          "diagnose": "EGFR-mutiertes Adenokarzinom der Lunge",
+          "therapie": [
+            "Tyrosinkinaseinhibitor (TKI) wie Osimertinib"
+          ],
+          "lernpunkte": [
+            "Bedeutung von Treibermutationen für die personalisierte Therapie"
+          ]
+        },
+        {
+          "id": "ONK_003",
+          "titel": "Tumorschmerz (WHO-Stufenschema)",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "70-j. mit ossär metastasiertem Prostata-CA",
+          "praesentation": "Dauerschmerz NRS 7, Durchbruchschmerzen.",
+          "befunde": [
+            "Knochenmetastasen im Szintigramm"
+          ],
+          "diagnose": "Chronischer Tumorschmerz",
+          "therapie": [
+            "WHO III: Oxycodon retard + Fentanyl nasal für Durchbruchschmerz",
+            "Laxanzien"
+          ],
+          "lernpunkte": [
+            "Keine Opiat-Therapie ohne Stuhlregulation"
+          ]
+        },
+        {
+          "id": "ONK_004",
+          "titel": "Maligner Pleuraerguss",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "65-j. Frau mit Mamma-CA",
+          "praesentation": "Zunehmende Belastungsdyspnoe.",
+          "befunde": [
+            "Rö: Verschattung rechts basal",
+            "Punktat: Adenokarzinom-Zellen, LDH↑"
+          ],
+          "diagnose": "Maligner Pleuraerguss",
+          "therapie": [
+            "Entlastungspunktion",
+            "Indikation für PleurX-Dauerkather vs. Pleurodese"
+          ],
+          "lernpunkte": [
+            "Light-Kriterien zur Unterscheidung Transsudat/Exsudat"
+          ]
+        },
+        {
+          "id": "ONK_005",
+          "titel": "Fertilitätserhalt (Kryokonservierung)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "22-j. Patient vor Hodgkin-Chemotherapie",
+          "praesentation": "Beratungsgespräch vor Behandlungsstart.",
+          "befunde": [
+            "Geplante BEACOPP-Therapie (gonadotoxisch)"
+          ],
+          "diagnose": "Zustand vor keimzellschädigender Therapie",
+          "therapie": [
+            "Kryokonservierung von Spermien vor Zyklus 1"
+          ],
+          "lernpunkte": [
+            "Gesetzlicher Anspruch auf Beratung und Kostenübernahme"
+          ]
+        },
+        {
+          "id": "ONK_006",
+          "titel": "Maligner Aszites",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "58-j. Patient mit Pankreas-CA",
+          "praesentation": "Massive Zunahme des Bauchumfangs, Atemnot.",
+          "befunde": [
+            "Sono: Viel freie Flüssigkeit",
+            "Serum-Aszites-Albumin-Gradient (SAAG) < 1,1"
+          ],
+          "diagnose": "Peritonealkarzinose-bedingter Aszites",
+          "therapie": [
+            "Parazentese",
+            "ggf. peritoneovenöser Shunt (selten)"
+          ],
+          "lernpunkte": [
+            "SAAG hilft bei DD zu portaler Hypertension"
+          ]
+        },
+        {
+          "id": "ONK_007",
+          "titel": "Tumorfatigue",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "45-j. nach Abschluss adjuvanter Therapie",
+          "praesentation": "Extreme Erschöpfung, die durch Schlaf nicht besser wird.",
+          "befunde": [
+            "Hb normal",
+            "TSH normal",
+            "kein Rezidivnachweis"
+          ],
+          "diagnose": "Cancer-related Fatigue (CRF)",
+          "therapie": [
+            "Moderates Ausdauertraining",
+            "Psychoonkologie"
+          ],
+          "lernpunkte": [
+            "Häufigstes Langzeitsymptom in der Onkologie"
+          ]
+        },
+        {
+          "id": "ONK_008",
+          "titel": "Flüssigkeitsbilanzierung bei Cisplatin",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. im stationären Zyklus",
+          "praesentation": "Vorbereitung zur Hochdosis-Chemo.",
+          "befunde": [
+            "Kreatinin-Clearance 90 ml/min"
+          ],
+          "diagnose": "Präventives Management",
+          "therapie": [
+            "Aggressive Hydrierung vor und nach Gabe",
+            "Mannitol-Forcierung"
+          ],
+          "lernpunkte": [
+            "Nephrotoxizität von Cisplatin durch Volumengabe minimieren"
+          ]
+        },
+        {
+          "id": "ONK_009",
+          "titel": "Knochenmarkbiopsie (Technik)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "V.a. Myelodysplastisches Syndrom",
+          "praesentation": "Unklare Panzytopenie.",
+          "befunde": [
+            "Beckenkamm-Punktion (Jamshidi)"
+          ],
+          "diagnose": "Knochenmarkinsuffizienz",
+          "therapie": [
+            "Zytologie + Histologie + Zytogenetik"
+          ],
+          "lernpunkte": [
+            "Beurteilung von Zellularität, Morphologie und Topographie"
+          ]
+        },
+        {
+          "id": "ONK_010",
+          "titel": "Onkologische Ernährungsberatung",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "60-j. mit Ösophagus-CA",
+          "praesentation": "Gewichtsverlust 10 kg in 2 Monaten.",
+          "befunde": [
+            "Kachexie",
+            "Dysphagie"
+          ],
+          "diagnose": "Tumorassoziierte Mangelernährung",
+          "therapie": [
+            "Trinknahrung",
+            "ggf. PEJ/PEG-Anlage"
+          ],
+          "lernpunkte": [
+            "Sicherung des Ernährungsstatus vor Therapiestart verbessert Prognose"
+          ]
+        },
+        {
+          "id": "ONK_011",
+          "titel": "Hauttoxizität unter EGFR-Inhibitoren",
+          "tags": [
+            "Nebenwirkung"
+          ],
+          "patient": "Pat. unter Cetuximab",
+          "praesentation": "Akneiformes Exanthem (Gesicht/Oberkörper).",
+          "befunde": [
+            "Pusteln, Papeln, schmerzhaft"
+          ],
+          "diagnose": "Papulopustulöses Exanthem (Rash)",
+          "therapie": [
+            "Doxycyclin systemisch",
+            "topisch Steroide/Antibiotika"
+          ],
+          "lernpunkte": [
+            "Korrelation zwischen Rash-Stärke und Tumoransprechen"
+          ]
+        },
+        {
+          "id": "ONK_012",
+          "titel": "Hand-Fuß-Syndrom (HFS)",
+          "tags": [
+            "Nebenwirkung"
+          ],
+          "patient": "Frau unter Capecitabin (5-FU)",
+          "praesentation": "Rötung und Schmerzen an Handflächen und Fußsohlen.",
+          "befunde": [
+            "Desquamation, brennender Schmerz"
+          ],
+          "diagnose": "Palmar-Plantar-Erythrodysästhesie",
+          "therapie": [
+            "Dosisreduktion",
+            "Harnstoffhaltige Cremes",
+            "Kühlung"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Hitze und Reibung"
+          ]
+        },
+        {
+          "id": "ONK_013",
+          "titel": "Oraler Mukositis",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "Pat. nach Hochdosis-Chemo",
+          "praesentation": "Schmerzhafte Ulzera im Mund, Unfähigkeit zu essen.",
+          "befunde": [
+            "Schleimhauterosionen WHO Grad III"
+          ],
+          "diagnose": "Mukositis",
+          "therapie": [
+            "Schmerztherapie (Morphin-Mundspülung)",
+            "Kühlung (Eis-Chips)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Superinfektion (Candida/HSV)"
+          ]
+        },
+        {
+          "id": "ONK_014",
+          "titel": "Tumorassoziierte Anämie (EPO)",
+          "tags": [
+            "Supportiv"
+          ],
+          "patient": "65-j. unter palliativer Chemo",
+          "praesentation": "Müdigkeit, Hb 8,5 g/dl.",
+          "befunde": [
+            "Ferritin↑, Transferrinsättigung normal",
+            "normozytäre Anämie"
+          ],
+          "diagnose": "Anemia of Chronic Disease (ACD)",
+          "therapie": [
+            "Erythropoetin-stimulierende Agenzien (ESA)"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Thromboserisiko unter ESA beachten"
+          ]
+        },
+        {
+          "id": "ONK_015",
+          "titel": "Infektionsprophylaxe (PJP)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. unter Hochdosis-Steroide (> 20mg/d)",
+          "praesentation": "Prävention.",
+          "befunde": [
+            "Längere Kortisongabe geplant"
+          ],
+          "diagnose": "Risiko für opportunistische Infekte",
+          "therapie": [
+            "Cotrimoxazol 960mg 3x wöchentlich"
+          ],
+          "lernpunkte": [
+            "PJP-Prophylaxe bei T-Zell-Depletion"
+          ]
+        }
+      ]
+    },
+    "benigne_haematologie_anaemien": {
+      "label": "Benigne Hämatologie & Anämien",
+      "emoji": "🩸",
+      "faelle": [
+        {
+          "id": "ONK_016",
+          "titel": "Eisenmangelanämie (Mikrozytär)",
+          "tags": [
+            "Hämatologie",
+            "Anämie"
+          ],
+          "patient": "34-jährige Frau, Hypermenorrhö",
+          "praesentation": "Blässe, Pica-Syndrom, brüchige Nägel.",
+          "befunde": [
+            "Hb 9,0 g/dl",
+            "MCV 72 fl (↓)",
+            "Ferritin 5 ng/ml (↓)"
+          ],
+          "diagnose": "Eisenmangelanämie",
+          "therapie": [
+            "Oralisierung Eisen(II)-Sulfat",
+            "Ursachensuche (Gastro/Gyn)"
+          ],
+          "lernpunkte": [
+            "Ferritin als sensitivster Speicherparameter",
+            "Mangelursache muss immer gefunden werden"
+          ]
+        },
+        {
+          "id": "ONK_017",
+          "titel": "Vitamin B12-Mangel (Perniziöse Anämie)",
+          "tags": [
+            "Anämie",
+            "Makrozytär"
+          ],
+          "patient": "75-j. Veganer, Parästhesien",
+          "praesentation": "Gangunsicherheit, Zungenbrennen (Hunter-Glossitis).",
+          "befunde": [
+            "Hb 8,5 g/dl",
+            "MCV 115 fl (↑)",
+            "Holotranscobalamin↓"
+          ],
+          "diagnose": "Megaloblastäre Anämie",
+          "therapie": [
+            "Parenterale B12-Substitution (Hydroxocobalamin)"
+          ],
+          "lernpunkte": [
+            "Gefahr der funikulären Myelose (irreversibel)"
+          ]
+        },
+        {
+          "id": "ONK_018",
+          "titel": "Autoimmunhämolytische Anämie (AIHA)",
+          "tags": [
+            "Hämatologie",
+            "Hämolyse"
+          ],
+          "patient": "45-j. mit akuter Gelbsucht",
+          "praesentation": "Ikterus, Splenomegalie, Belastungsdyspnoe.",
+          "befunde": [
+            "Direkter Coombs-Test positiv (IgG)",
+            "Haptoglobin < 0,1 g/l",
+            "LDH↑"
+          ],
+          "diagnose": "AIHA (Wärmeantikörper)",
+          "therapie": [
+            "Steroide (Prednisolon)",
+            "Rituximab bei Rezidiv"
+          ],
+          "lernpunkte": [
+            "Haptoglobin ist der sensitivste Hämolysemarker"
+          ]
+        },
+        {
+          "id": "ONK_019",
+          "titel": "Aplastische Anämie",
+          "tags": [
+            "Knochenmark"
+          ],
+          "patient": "25-j. Patient, Petechien, Fieber",
+          "praesentation": "Akute Panzytopenie.",
+          "befunde": [
+            "KM-Histologie: Fettmark (leer)",
+            "Zytogenetik unauffällig"
+          ],
+          "diagnose": "Schwere aplastische Anämie (SAA)",
+          "therapie": [
+            "Immunsuppression (ATG + Ciclosporin) oder Allogene SZT"
+          ],
+          "lernpunkte": [
+            "Ausschluss paroxysmale nächtliche Hämoglobinurie (PNH)"
+          ]
+        },
+        {
+          "id": "ONK_020",
+          "titel": "Hereditäre Sphärozytose (Kugelanämie)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "18-j. Patient, rez. Gallensteine",
+          "praesentation": "Ikterus nach Infekten.",
+          "befunde": [
+            "Erythrozyten-Resistenzprüfung: gemindert",
+            "MCHC erhöht"
+          ],
+          "diagnose": "Kugelanämie",
+          "therapie": [
+            "Folsäure",
+            "Laparoskopische Splenektomie"
+          ],
+          "lernpunkte": [
+            "Häufigste hereditäre Anämie in Nordeuropa"
+          ]
+        },
+        {
+          "id": "ONK_021",
+          "titel": "Sichelzellkrankheit (Vaso-okklusive Krise)",
+          "tags": [
+            "Anämie",
+            "Notfall"
+          ],
+          "patient": "15-j. Junge (Westafr. Herkunft)",
+          "praesentation": "Heftigste Knochenschmerzen, Fieber.",
+          "befunde": [
+            "Hb 7,0",
+            "Hämoglobin-Elektrophorese: HbS"
+          ],
+          "diagnose": "Sichelzellanämie",
+          "therapie": [
+            "Analgesie (Opiate)",
+            "Hydrierung",
+            "Sauerstoff",
+            "Hydroxyurea"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Hypoxie und Azidose"
+          ]
+        },
+        {
+          "id": "ONK_022",
+          "titel": "Thalassaemia major",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "Kind mit Bürstenschädel im Röntgen",
+          "praesentation": "Gedeihstörung, schwere Anämie.",
+          "befunde": [
+            "HbF massiv erhöht",
+            "Eisenüberladung (Hämosiderose)"
+          ],
+          "diagnose": "Beta-Thalassämie",
+          "therapie": [
+            "Regelmäßige Transfusionen",
+            "Eisenchelation (Deferasirox)"
+          ],
+          "lernpunkte": [
+            "Hämosiderose als Hauptkomplikation der Transfusionsabhängigkeit"
+          ]
+        },
+        {
+          "id": "ONK_023",
+          "titel": "Hämochromatose (Primär)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "50-j. Mann, 'Bronzediabetes'",
+          "praesentation": "Arthralgien, Libidoverlust, dunkle Haut.",
+          "befunde": [
+            "Ferritin 1500",
+            "Transferrinsättigung 85%",
+            "HFE-Genmutation"
+          ],
+          "diagnose": "Hereditäre Hämochromatose",
+          "therapie": [
+            "Aderlass-Therapie"
+          ],
+          "lernpunkte": [
+            "Frühdiagnose verhindert Zirrhose und Kardiomyopathie"
+          ]
+        },
+        {
+          "id": "ONK_024",
+          "titel": "G6PD-Mangel (Favismus)",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "30-j. Mann nach Einnahme von Cotrimoxazol",
+          "praesentation": "Dunkler Urin, akute Anämie.",
+          "befunde": [
+            "Heinz-Innenkörper im Blutausstrich"
+          ],
+          "diagnose": "Glukose-6-Phosphat-Dehydrogenase-Mangel",
+          "therapie": [
+            "Vermeidung auslösender Substanzen (Oxidativer Stress)"
+          ],
+          "lernpunkte": [
+            "X-chromosomaler Erbgang"
+          ]
+        },
+        {
+          "id": "ONK_025",
+          "titel": "Paroxysmale nächtliche Hämoglobinurie (PNH)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "40-j. Patient, morgendlicher dunkler Urin",
+          "praesentation": "Rezidivierende Thrombosen an untypischen Stellen.",
+          "befunde": [
+            "Durchflusszytometrie: Fehlen von CD55/CD59 auf Erythrozyten"
+          ],
+          "diagnose": "PNH",
+          "therapie": [
+            "Komplementinhibitor (Eculizumab)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Budd-Chiari-Syndroms durch Thrombosen"
+          ]
+        },
+        {
+          "id": "ONK_026",
+          "titel": "Immunthrombozytopenie (ITP)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "35-j. Frau, Petechien, Zahnfleischbluten",
+          "praesentation": "Thrombozyten 8.000/µl.",
+          "befunde": [
+            "Knochenmark: Gesteigerte Megakaryopoese (Ausschwemmstörung)"
+          ],
+          "diagnose": "Akute ITP",
+          "therapie": [
+            "Steroide",
+            "IVIG (bei Blutung)",
+            "TPO-Rezeptor-Agonisten"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose"
+          ]
+        },
+        {
+          "id": "ONK_027",
+          "titel": "Thrombotisch-thrombozytopenische Purpura (TTP)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "40-j. Frau, Fieber, Verwirrtheit, Petechien",
+          "praesentation": "Hämolyse + Thrombozytopenie.",
+          "befunde": [
+            "Fragmentozyten im Ausstrich",
+            "ADAMTS13-Aktivität < 10%"
+          ],
+          "diagnose": "TTP (Moschcowitz-Syndrom)",
+          "therapie": [
+            "Plasmaaustausch (Plasmapherese) sofort!",
+            "Caplacizumab"
+          ],
+          "lernpunkte": [
+            "Hämatologischer Notfall! Letal ohne Therapie"
+          ]
+        },
+        {
+          "id": "ONK_028",
+          "titel": "Heparin-induzierte Thrombozytopenie (HIT II)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. an Tag 7 nach Hüft-OP unter Heparin",
+          "praesentation": "Abfall der Thrombozyten um 50%, neue Thrombose.",
+          "befunde": [
+            "HIT-Antikörper positiv (PF4-Komplex)"
+          ],
+          "diagnose": "HIT Typ II",
+          "therapie": [
+            "Sofortiger Heparinstopp",
+            "Alternative Antikoagulation (Argatroban/Danaparoid)"
+          ],
+          "lernpunkte": [
+            "Paradoxe Thromboembolie-Gefahr"
+          ]
+        },
+        {
+          "id": "ONK_029",
+          "titel": "Von-Willebrand-Syndrom (VWS)",
+          "tags": [
+            "Hämostase"
+          ],
+          "patient": "22-j. Frau, verlängerte Blutung nach Zahnextraktion",
+          "praesentation": "Hypermenorrhö, häufiges Nasenbluten.",
+          "befunde": [
+            "aPTT oft verlängert",
+            "VWF-Aktivität/Antigen vermindert"
+          ],
+          "diagnose": "VWS Typ 1",
+          "therapie": [
+            "Desmopressin (DDAVP)",
+            "Faktorkonzentrat"
+          ],
+          "lernpunkte": [
+            "Häufigste angeborene hämorrhagische Diathese"
+          ]
+        },
+        {
+          "id": "ONK_030",
+          "titel": "Hämophilie A (Inhibitor-Entwicklung)",
+          "tags": [
+            "Hämostase"
+          ],
+          "patient": "Junger Mann, schmerzhafte Gelenkschwellung",
+          "praesentation": "Blutung trotz Faktor-Substitution.",
+          "befunde": [
+            "Faktor-VIII-Hemmstofftest positiv"
+          ],
+          "diagnose": "Hemmkörper-Hämophilie",
+          "therapie": [
+            "Emicizumab",
+            "Bypassing-Agents"
+          ],
+          "lernpunkte": [
+            "Antikörperbildung gegen substituierten Faktor"
+          ]
+        }
+      ]
+    },
+    "leukaemien_mpn_mds": {
+      "label": "Leukämien, MPN & MDS",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "ONK_031",
+          "titel": "Akute Myeloische Leukämie (AML)",
+          "tags": [
+            "Leukämie",
+            "Notfall"
+          ],
+          "patient": "60-jähriger Patient, Fieber, Blässe",
+          "praesentation": "Schwere Abgeschlagenheit, Infektneigung.",
+          "befunde": [
+            "Blutbild: Leukos 50.000, 80% Blasten",
+            "Auer-Stäbchen im Ausstrich"
+          ],
+          "diagnose": "AML (Erstdiagnose)",
+          "therapie": [
+            "Induktionschemotherapie (7+3 Schema)",
+            "Allogene SZT bei hohem Risiko"
+          ],
+          "lernpunkte": [
+            "Blastenanteil im KM > 20% ist definitionsgemäß AML"
+          ]
+        },
+        {
+          "id": "ONK_032",
+          "titel": "Promyelozytenleukämie (APL)",
+          "tags": [
+            "Leukämie",
+            "Notfall"
+          ],
+          "patient": "35-j. mit diffusen Blutungen (DIC)",
+          "praesentation": "Extremes Risiko für Hirnblutung.",
+          "befunde": [
+            "Translokation t(15;17)",
+            "PML-RARA positiv"
+          ],
+          "diagnose": "APL (AML M3)",
+          "therapie": [
+            "ATRA (All-trans-Retinsäure) + Arseniktrioxid (ATO)"
+          ],
+          "lernpunkte": [
+            "Frühzeitige ATRA-Gabe rettet Leben vor hämorrhagischer Komplikation"
+          ]
+        },
+        {
+          "id": "ONK_033",
+          "titel": "Chronisch Myeloische Leukämie (CML)",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "50-j. Mann, Zufallsbefund Leukozytose 150.000",
+          "praesentation": "Linksverschiebung, Splenomegalie.",
+          "befunde": [
+            "Philadelphia-Chromosom t(9;22)",
+            "BCR-ABL1 positiv"
+          ],
+          "diagnose": "CML (Chronische Phase)",
+          "therapie": [
+            "TKIs (Imatinib, Nilotinib, Dasatinib)"
+          ],
+          "lernpunkte": [
+            "Beispiel für erfolgreiche Targeted Therapy, lebenslange Kontrolle"
+          ]
+        },
+        {
+          "id": "ONK_034",
+          "titel": "Polycythaemia vera (PV)",
+          "tags": [
+            "MPN"
+          ],
+          "patient": "65-j. Mann, Gesichtsrötung (Plethora)",
+          "praesentation": "Aquagener Pruritus (Juckreiz nach Duschen), Kopfschmerzen.",
+          "befunde": [
+            "Hämatokrit > 55%",
+            "JAK2-V617F Mutation positiv",
+            "Erythropoetin niedrig"
+          ],
+          "diagnose": "Polycythaemia vera",
+          "therapie": [
+            "Aderlass (Ziel-Hk < 45%)",
+            "ASS",
+            "Zytoreduktion (Ruxolitinib)"
+          ],
+          "lernpunkte": [
+            "Risiko für Thrombosen und Übergang in Myelofibrose"
+          ]
+        },
+        {
+          "id": "ONK_035",
+          "titel": "Essenzielle Thrombozythämie (ET)",
+          "tags": [
+            "MPN"
+          ],
+          "patient": "55-j. Frau, Erythromelalgie (brennende Schmerzen Hände)",
+          "praesentation": "Zufallsbefund Thrombos 1.200.000.",
+          "befunde": [
+            "JAK2 oder CALR oder MPL Mutation",
+            "Ausschluss PV"
+          ],
+          "diagnose": "Essenzielle Thrombozythämie",
+          "therapie": [
+            "ASS",
+            "Hydroxyurea bei High-Risk"
+          ],
+          "lernpunkte": [
+            "Paradoxe Blutungsneigung bei extrem hohen Thrombos (erworbenes VWS)"
+          ]
+        },
+        {
+          "id": "ONK_036",
+          "titel": "Primäre Myelofibrose (PMF)",
+          "tags": [
+            "MPN"
+          ],
+          "patient": "68-j. Patient, massivste Splenomegalie",
+          "praesentation": "B-Symptomatik, Anämie.",
+          "befunde": [
+            "Blutbild: Tränentropfenerythrozyten (Dacrozyten)",
+            "KM-Histologie: Fasermark"
+          ],
+          "diagnose": "Primäre Myelofibrose",
+          "therapie": [
+            "JAK-Inhibitor (Ruxolitinib)",
+            "ggf. Allogene SZT"
+          ],
+          "lernpunkte": [
+            "KM-Punktion oft 'Punctio sicca' (trocken)"
+          ]
+        },
+        {
+          "id": "ONK_037",
+          "titel": "Myelodysplastisches Syndrom (MDS)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "78-j. mit therapieresistenter Anämie",
+          "praesentation": "Müdigkeit, Infekte.",
+          "befunde": [
+            "Dysplasiezeichen in > 1 Reihe",
+            "Zytogenetik: del(5q)"
+          ],
+          "diagnose": "MDS mit isolierter del(5q)",
+          "therapie": [
+            "Lenalidomid",
+            "Supportiv (Transfusionen)"
+          ],
+          "lernpunkte": [
+            " del(5q) hat eine spezifische Therapieoption und bessere Prognose"
+          ]
+        },
+        {
+          "id": "ONK_038",
+          "titel": "Akute Lymphoblastische Leukämie (ALL)",
+          "tags": [
+            "Leukämie",
+            "Pädiatrie"
+          ],
+          "patient": "4-jähriges Kind (oder 70-jähriger Mann)",
+          "praesentation": "Knochenschmerzen, Blässe, Lymphknotenschwellung.",
+          "befunde": [
+            "Blutbild: Panzytopenie mit Blasten",
+            "T-ALL oder B-ALL Phänotyp"
+          ],
+          "diagnose": "ALL",
+          "therapie": [
+            "Vielphasige Chemo",
+            "ZNS-Prophylaxe obligat"
+          ],
+          "lernpunkte": [
+            "Häufigste Krebserkrankung im Kindesalter, aber auch Gipfel im Alter"
+          ]
+        },
+        {
+          "id": "ONK_039",
+          "titel": "CLL (B-Zell-Lymphom)",
+          "tags": [
+            "Leukämie",
+            "Lymphom"
+          ],
+          "patient": "72-j. Mann, Zufallsbefund Lymphozytose 30.000",
+          "praesentation": "Asymptomatisch, schmerzlose Lymphknoten.",
+          "befunde": [
+            "Blutausstrich: Gumprecht-Kernschatten"
+          ],
+          "diagnose": "Chronisch Lymphatische Leukämie (Binet A)",
+          "therapie": [
+            "Wait and Watch"
+          ],
+          "lernpunkte": [
+            "Therapie erst bei B-Symptomatik, rascher Verdopplung oder Zytopenie"
+          ]
+        },
+        {
+          "id": "ONK_040",
+          "titel": "Richter-Transformation",
+          "tags": [
+            "Leukämie",
+            "Komplikation"
+          ],
+          "patient": "Bekannte CLL, plötzlich rasches LK-Wachstum",
+          "praesentation": "Hohes Fieber, LDH-Anstieg.",
+          "befunde": [
+            "Biopsie: Diffus großzelliges B-Zell-Lymphom (DLBCL)"
+          ],
+          "diagnose": "Richter-Syndrom",
+          "therapie": [
+            "Aggressive Chemo (R-CHOP)",
+            "Allogene SZT"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose der Transformation"
+          ]
+        },
+        {
+          "id": "ONK_041",
+          "titel": "Leukozytose & Leukostase",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "AML-Patient, Leukos 250.000",
+          "praesentation": "Atemnot, Sehstörungen, Verwirrtheit.",
+          "befunde": [
+            "Hypoxämie",
+            "Papillenödem"
+          ],
+          "diagnose": "Leukostase-Syndrom",
+          "therapie": [
+            "Leukapherese",
+            "Hydrierung",
+            "Rasche Zytoreduktion"
+          ],
+          "lernpunkte": [
+            "Viskositätserhöhung des Blutes durch unreife Zellen"
+          ]
+        },
+        {
+          "id": "ONK_042",
+          "titel": "Systemische Mastozytose",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "45-j. mit Anaphylaxie nach Wespenstich",
+          "praesentation": "Osteoporose im jungen Alter, rez. Durchfälle.",
+          "befunde": [
+            "Serum-Tryptase dauerhaft > 20 ng/ml",
+            "KIT-D816V Mutation"
+          ],
+          "diagnose": "Systemische Mastozytose",
+          "therapie": [
+            "Midostaurin",
+            "Antihistaminika"
+          ],
+          "lernpunkte": [
+            "Mastzellinfiltrate in Haut (Urticaria pigmentosa) und Knochenmark"
+          ]
+        },
+        {
+          "id": "ONK_043",
+          "titel": "Hypereosinophiles Syndrom (HES)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "50-j. mit Husten und Herzinsuffizienz",
+          "praesentation": "Eosinophilie > 1.500/µl dauerhaft.",
+          "befunde": [
+            "Endokardfibrose im Echo",
+            "FIP1L1-PDGFRA Fusion"
+          ],
+          "diagnose": "Myeloisches HES",
+          "therapie": [
+            "Imatinib"
+          ],
+          "lernpunkte": [
+            "Gefahr der Organschädigung durch Eosinophile"
+          ]
+        },
+        {
+          "id": "ONK_044",
+          "titel": "Chronische Neutrophilenleukämie (CNL)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "70-j. mit massiver Neutrophilie",
+          "praesentation": "Splenomegalie, keine CML (Philadelphia neg.).",
+          "befunde": [
+            "CSF3R T618I Mutation"
+          ],
+          "diagnose": "CNL",
+          "therapie": [
+            "Ruxolitinib / Hydroxyurea"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur leukämoiden Reaktion bei Infekt"
+          ]
+        },
+        {
+          "id": "ONK_045",
+          "titel": "MDS/MPN Überlappung (CMML)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "75-j. mit Monozytose > 1.000/µl",
+          "praesentation": "Anämie, Splenomegalie.",
+          "befunde": [
+            "KM: Dysplasie + myeloproliferative Züge"
+          ],
+          "diagnose": "Chronische myelomonozytäre Leukämie",
+          "therapie": [
+            "Hypomethylierende Substanzen (Azacitidin)"
+          ],
+          "lernpunkte": [
+            "Kombination aus Zytopenie und Proliferation"
+          ]
+        }
+      ]
+    },
+    "lymphome_plasmozytom": {
+      "label": "Maligne Lymphome & Plasmozytom",
+      "emoji": "🎗️",
+      "faelle": [
+        {
+          "id": "ONK_046",
+          "titel": "Morbus Hodgkin (Klassisch)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "26-jähriger Patient, Alkoholschmerz",
+          "praesentation": "Schmerzlose Lymphknotenschwellung zervikal, Nachtschweiß.",
+          "befunde": [
+            "Biopsie: Reed-Sternberg-Zellen, CD30+",
+            "PET-CT: Befall oberhalb Zwerchfell"
+          ],
+          "diagnose": "M. Hodgkin (Stadium IIA nach Ann-Arbor)",
+          "therapie": [
+            "ABVD-Schema + ggf. Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Sehr gute Heilungschancen (> 90%)",
+            "Alkoholschmerz ist pathognomonisch"
+          ]
+        },
+        {
+          "id": "ONK_047",
+          "titel": "Folliukuläres Lymphom",
+          "tags": [
+            "Lymphom",
+            "Indolent"
+          ],
+          "patient": "65-j. Frau, zufällig getastete LK inguinal",
+          "praesentation": "Keine B-Symptomatik.",
+          "befunde": [
+            "Biopsie: Keimzentrums-Lymphom Grad 1",
+            "t(14;18) BCL2+"
+          ],
+          "diagnose": "Folliukuläres Lymphom (Indolent)",
+          "therapie": [
+            "Wait and Watch (bei niedriger Last)",
+            "Rituximab-Bendamustin bei Progress"
+          ],
+          "lernpunkte": [
+            "Prinzipiell inoperabel, aber sehr gut behandelbar"
+          ]
+        },
+        {
+          "id": "ONK_048",
+          "titel": "Diffus großzelliges B-Zell-Lymphom (DLBCL)",
+          "tags": [
+            "Lymphom",
+            "Aggressiv"
+          ],
+          "patient": "60-j. Mann, rasant wachsende Raumforderung Abdomen",
+          "praesentation": "B-Symptomatik, LDH massiv↑.",
+          "befunde": [
+            "Biopsie: Große CD20+ B-Blasten"
+          ],
+          "diagnose": "DLBCL (Aggressives Lymphom)",
+          "therapie": [
+            "R-CHOP Schema (Rituximab + Chemo)"
+          ],
+          "lernpunkte": [
+            "Heilungsintention trotz Aggressivität"
+          ]
+        },
+        {
+          "id": "ONK_049",
+          "titel": "Multiples Myelom (Plasmozytom)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "72-j. mit Rückenschmerzen und Nierenversagen",
+          "praesentation": "Pathologische Wirbelkörperfraktur.",
+          "befunde": [
+            "CRAB-Kriterien: Calcium↑, Renal↑, Anämie, Bone-Lesions",
+            "KM: > 10% Plasmazellen"
+          ],
+          "diagnose": "Multiples Myelom",
+          "therapie": [
+            "Proteasom-Inhibitoren + IMiDs + Dexamethason",
+            "Autologe SZT"
+          ],
+          "lernpunkte": [
+            "Bence-Jones-Proteinurie (Leichtketten-Nephropathie)"
+          ]
+        },
+        {
+          "id": "ONK_050",
+          "titel": "Burkitt-Lymphom",
+          "tags": [
+            "Lymphom",
+            "Notfall"
+          ],
+          "patient": "22-j. Patient, Tumorverdopplungszeit < 24h",
+          "praesentation": "Massive Tumormasse Kiefer/Abdomen.",
+          "befunde": [
+            "Histologie: Sternenhimmel-Muster",
+            "MYC-Translokation t(8;14)"
+          ],
+          "diagnose": "Burkitt-Lymphom",
+          "therapie": [
+            "Hochaggressive Chemo + TLS-Prophylaxe"
+          ],
+          "lernpunkte": [
+            "Höchste Proliferationsrate aller Tumoren",
+            "Assoziation mit EBV"
+          ]
+        },
+        {
+          "id": "ONK_051",
+          "titel": "Mantelzell-Lymphom",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "60-j. mit Lymphadenopathie und Polyposis im Darm",
+          "praesentation": "Generalisierter Befall.",
+          "befunde": [
+            "Zyklin-D1 Überexpression, t(11;14)"
+          ],
+          "diagnose": "Mantelzelllymphom",
+          "therapie": [
+            "Chemo-Immuntherapie + Erhaltung Rituximab"
+          ],
+          "lernpunkte": [
+            "Kombination aus Merkmalen indolenter und aggressiver Lymphome"
+          ]
+        },
+        {
+          "id": "ONK_052",
+          "titel": "Morbus Waldenström",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "70-j. mit Sehstörungen und Schwindel",
+          "praesentation": "Nasenbluten, Hyperviskositätssyndrom.",
+          "befunde": [
+            "Serum-Elektrophorese: IgM-Paraprotein (M-Gradient)",
+            "MYD88-Mutation"
+          ],
+          "diagnose": "Lymphoplasmozytisches Lymphom (Waldenström)",
+          "therapie": [
+            "Plasmapherese im Akutfall",
+            "BTK-Inhibitoren (Ibrutinib)"
+          ],
+          "lernpunkte": [
+            "Paraproteinämie führt zur Blutviskosität↑"
+          ]
+        },
+        {
+          "id": "ONK_053",
+          "titel": "Marginalzonenlymphom (MALT)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "55-j. mit chronischer Gastritis",
+          "praesentation": "Epigastrische Schmerzen.",
+          "befunde": [
+            "Biopsie: H. pylori Nachweis + extranodales B-Zell-Lymphom"
+          ],
+          "diagnose": "MALT-Lymphom des Magens",
+          "therapie": [
+            "Eradikationstherapie von H. pylori (oft kurativ!)"
+          ],
+          "lernpunkte": [
+            "Infekt-induzierte Lymphomentstehung"
+          ]
+        },
+        {
+          "id": "ONK_054",
+          "titel": "Mycosis fungoides",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "60-j. Mann mit therapieresistenten 'Ekzemen'",
+          "praesentation": "Juckende Plaques am ganzen Körper.",
+          "befunde": [
+            "Histologie: Pautrier-Mikroabszesse"
+          ],
+          "diagnose": "Kutanes T-Zell-Lymphom",
+          "therapie": [
+            "PUVA-Therapie",
+            "Lokalsteroide",
+            "ggf. Bexaroten"
+          ],
+          "lernpunkte": [
+            "Langer klinischer Verlauf über Jahrzehnte"
+          ]
+        },
+        {
+          "id": "ONK_055",
+          "titel": "Sézary-Syndrom",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "Pat. mit Erythrodermie",
+          "praesentation": "Ganzkörperrötung, Lymphadenopathie.",
+          "befunde": [
+            "Blut: Sézary-Zellen (cerebriforme Kerne)"
+          ],
+          "diagnose": "Leukämische Variante des kutanen T-Zell-Lymphoms",
+          "therapie": [
+            "Extrakorporale Photopherese (ECP)"
+          ],
+          "lernpunkte": [
+            "Aggressivere Prognose als Mycosis fungoides"
+          ]
+        },
+        {
+          "id": "ONK_056",
+          "titel": "Amyloidose (AL-Typ)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "65-j. mit Proteinurie und Herzinsuffizienz",
+          "praesentation": "Makroglossie (große Zunge), Hämatome Augenlider.",
+          "befunde": [
+            "Biopsie: Kongorot-Färbung positiv mit grüner Doppelbrechung"
+          ],
+          "diagnose": "AL-Amyloidose bei monoklonaler Gammopathie",
+          "therapie": [
+            "Daratumumab + CyBorD"
+          ],
+          "lernpunkte": [
+            "Ablagerung von Leichtketten-Fragmenten in Organen"
+          ]
+        },
+        {
+          "id": "ONK_057",
+          "titel": "MGUS (Monoklonale Gammopathie)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "70-j. Zufallsfund Paraprotein",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "M-Gradient < 30 g/l",
+            "KM-Plasmazellen < 10%",
+            "kein CRAB"
+          ],
+          "diagnose": "MGUS",
+          "therapie": [
+            "Verlaufskontrolle (Risiko Transformation 1%/Jahr)"
+          ],
+          "lernpunkte": [
+            "Keine Therapieindikation, reine Beobachtung"
+          ]
+        },
+        {
+          "id": "ONK_058",
+          "titel": "Haarzellleukämie",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "55-j. Mann, ausgeprägte Splenomegalie",
+          "praesentation": "Panzytopenie, Monozytopenie.",
+          "befunde": [
+            "Blutausstrich: Zellen mit haarartigen Ausläufern",
+            "BRAF V600E positiv"
+          ],
+          "diagnose": "Haarzellleukämie",
+          "therapie": [
+            "Cladribin (Purinanaloga)"
+          ],
+          "lernpunkte": [
+            "Hocheffektiv behandelbar, oft lange Remissionen"
+          ]
+        },
+        {
+          "id": "ONK_059",
+          "titel": "Großzellig-anaplastisches Lymphom (ALCL)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "25-j. mit rasantem LK-Wachstum",
+          "praesentation": "Hautbeteiligung, Fieber.",
+          "befunde": [
+            "Histologie: Hallmark-Cells, CD30 positiv, ALK-Translokation"
+          ],
+          "diagnose": "ALCL (T-Zell-Lymphom)",
+          "therapie": [
+            "Brentuximab-Vedotin + CHOP"
+          ],
+          "lernpunkte": [
+            "ALK-Status ist prognostisch entscheidend (ALK+ besser)"
+          ]
+        },
+        {
+          "id": "ONK_060",
+          "titel": "ZNS-Lymphom (Primär)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "60-j. Patient, Wesensveränderung",
+          "praesentation": "Hemiparese, Kopfschmerz.",
+          "befunde": [
+            "MRT: Kontrastmittel-homogene Raumforderung",
+            "Liquor: Maligne Zellen"
+          ],
+          "diagnose": "PZNSL (meist DLBCL)",
+          "therapie": [
+            "Hochdosis Methotrexat (HD-MTX)",
+            "KEINE alleinige Resektion"
+          ],
+          "lernpunkte": [
+            "Ansprechen auf Steroide führt zu 'Verschwinden' im MRT (Ghost Tumor)"
+          ]
+        },
+        {
+          "id": "ONK_061",
+          "titel": "Primär mediastinales B-Zell-Lymphom (PMBL)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "30-j. Frau, Obere Einflussstauung",
+          "praesentation": "Tumor im vorderen Mediastinum.",
+          "befunde": [
+            "CT: Konglomerattumor 12 cm"
+          ],
+          "diagnose": "PMBL",
+          "therapie": [
+            "R-CHOEP oder DA-EPOCH-R"
+          ],
+          "lernpunkte": [
+            "Betrifft junge Frauen, oft lokoregionär aggressiv"
+          ]
+        },
+        {
+          "id": "ONK_062",
+          "titel": "Hyperkalzämie beim Myelom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Bekanntes Myelom, jetzt schläfrig",
+          "praesentation": "Übelkeit, Obstipation, Polyurie.",
+          "befunde": [
+            "Calcium 3,8 mmol/l"
+          ],
+          "diagnose": "Tumorinduzierte Hyperkalzämie",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "Bisphosphonate i.v.",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Osteoklastenaktivierung durch Zytokine"
+          ]
+        },
+        {
+          "id": "ONK_063",
+          "titel": "Nierenschaden beim Myelom (Cast-Nephropathie)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "Myelom-Patient, Anurie",
+          "praesentation": "Kreatinin 5,0 mg/dl.",
+          "befunde": [
+            "Urin: Kaum Albumin, aber massive Proteinurie (Mismatch)"
+          ],
+          "diagnose": "Leichtketten-Nephropathie (Bence-Jones-Niere)",
+          "therapie": [
+            "Flüssigkeit",
+            "Rasche Chemotherapie",
+            "ggf. High-Cut-off Dialyse"
+          ],
+          "lernpunkte": [
+            "Ausfällung von Leichtketten im Tubulus"
+          ]
+        },
+        {
+          "id": "ONK_064",
+          "titel": "AIHA bei CLL",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "CLL-Patient, Hb-Abfall",
+          "praesentation": "Ikterus.",
+          "befunde": [
+            "Retikulozyten↑, Coombs-Test positiv"
+          ],
+          "diagnose": "Sekundäre AIHA",
+          "therapie": [
+            "Steroide",
+            "Therapie der CLL"
+          ],
+          "lernpunkte": [
+            "CLL neigt zu autoimmunen Zytopenien"
+          ]
+        },
+        {
+          "id": "ONK_065",
+          "titel": "Aggressives T-Zell-Lymphom (NOS)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "50-j. Patient, schlechter AZ",
+          "praesentation": "Generalisierte Lymphadenopathie, Hautinfiltrate.",
+          "befunde": [
+            "Phänotyp CD3+"
+          ],
+          "diagnose": "Peripheres T-Zell-Lymphom",
+          "therapie": [
+            "CHOP-basierte Chemo",
+            "Konsolidierung Allogene SZT"
+          ],
+          "lernpunkte": [
+            "Insgesamt schlechtere Prognose als B-Zell-Lymphome"
+          ]
+        }
+      ]
+    },
+    "solide_tumoren_systemtherapie": {
+      "label": "Solide Tumoren & Systemtherapie",
+      "emoji": "🏥",
+      "faelle": [
+        {
+          "id": "ONK_066",
+          "titel": "Metastasiertes Mamma-CA (Hormonrezeptor+)",
+          "tags": [
+            "Onkologie",
+            "Mamma"
+          ],
+          "patient": "62-jährige Patientin, ossäre Metastasierung",
+          "praesentation": "Schmerzen Wirbelsäule.",
+          "befunde": [
+            "ER+/PR+ / HER2-",
+            "Viszeraler Befall gering"
+          ],
+          "diagnose": "Mamma-CA (Stadium IV)",
+          "therapie": [
+            "CDK4/6-Inhibitor (Palbociclib) + Aromatasehemmer",
+            "Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Endokrine Therapie + CDK4/6-I ist neuer Erstlinien-Standard"
+          ]
+        },
+        {
+          "id": "ONK_067",
+          "titel": "HER2-positives Mamma-CA",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Frau, Lymphknotenbefall",
+          "praesentation": "Knoten 3 cm.",
+          "befunde": [
+            "HER2-Neu 3+ (IHC)",
+            "FISH positiv"
+          ],
+          "diagnose": "HER2-positives Mammakarzinom",
+          "therapie": [
+            "Neoadjuvante Chemo + Trastuzumab/Pertuzumab (Doppelblockade)"
+          ],
+          "lernpunkte": [
+            "Anti-HER2 Therapie hat die Prognose revolutioniert"
+          ]
+        },
+        {
+          "id": "ONK_068",
+          "titel": "NSCLC (Immuntherapie)",
+          "tags": [
+            "Onkologie",
+            "Lunge"
+          ],
+          "patient": "65-j. Raucher, metastasiert",
+          "praesentation": "Pleuraerguss, Gewichtsverlust.",
+          "befunde": [
+            "PD-L1 Expression 60%"
+          ],
+          "diagnose": "Nicht-kleinzelliges Lungenkarzinom (Adeno)",
+          "therapie": [
+            "Pembrolizumab Monotherapie (Checkpoint-Inhibitor)"
+          ],
+          "lernpunkte": [
+            "High-expressor (PD-L1 > 50%) profitieren von alleiniger Immuntherapie"
+          ]
+        },
+        {
+          "id": "ONK_069",
+          "titel": "Kleinzelliges Bronchial-CA (SCLC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. starker Raucher",
+          "praesentation": "Obere Einflussstauung, Hirnmetastasen.",
+          "befunde": [
+            "CT: Zentraler Tumor, mediastinale Konglomerate"
+          ],
+          "diagnose": "SCLC (Extensive Disease)",
+          "therapie": [
+            "Platin/Etoposid + Durvalumab",
+            "PCI (Pprophylaktische Hirnbestrahlung)"
+          ],
+          "lernpunkte": [
+            "Sehr schnelles Ansprechen, aber hohe Rezidivrate"
+          ]
+        },
+        {
+          "id": "ONK_070",
+          "titel": "Kolorektales Karzinom (RAS-Wildtyp)",
+          "tags": [
+            "Onkologie",
+            "Gastro"
+          ],
+          "patient": "60-j. Patient, Lebermetastasen",
+          "praesentation": "Stuhlgangsveränderungen.",
+          "befunde": [
+            "KRAS/NRAS/BRAF-Wildtyp",
+            "Linksseitiges Primär-CA"
+          ],
+          "diagnose": "Metastasiertes KRK",
+          "therapie": [
+            "Folfox + Cetuximab (Anti-EGFR)"
+          ],
+          "lernpunkte": [
+            "Anti-EGFR nur bei RAS-Wildtyp wirksam"
+          ]
+        },
+        {
+          "id": "ONK_071",
+          "titel": "Nierenzellkarzinom (Klarzellig)",
+          "tags": [
+            "Onkologie",
+            "Urologie"
+          ],
+          "patient": "65-j. Mann, schmerzlose Hämaturie",
+          "praesentation": "Lungenmetastasen.",
+          "befunde": [
+            "Histologie: Klarzelliges RCC"
+          ],
+          "diagnose": "Metastasiertes RCC",
+          "therapie": [
+            "Kombination Ipilimumab/Nivolumab oder TKI/Immuntherapie"
+          ],
+          "lernpunkte": [
+            "RCC ist chemoresistent, aber hocherfolgreich immunonkologisch behandelbar"
+          ]
+        },
+        {
+          "id": "ONK_072",
+          "titel": "Prostatakarzinom (Kastrationsresistent)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "75-j. unter ADT (LHRH)",
+          "praesentation": "PSA-Anstieg trotz Testosteron < 50 ng/dl.",
+          "befunde": [
+            "Neue Knochenmetastasen"
+          ],
+          "diagnose": "mCRPC (Kastrationsresistenz)",
+          "therapie": [
+            "Enzalutamid oder Docetaxel"
+          ],
+          "lernpunkte": [
+            "Androgenrezeptor-Signalweg bleibt oft aktiv"
+          ]
+        },
+        {
+          "id": "ONK_073",
+          "titel": "Keimzelltumor (Hoden-CA)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "25-j. Mann, derbe Hodenschwellung",
+          "praesentation": "Rückenschmerzen (LK-Metastasen).",
+          "befunde": [
+            "Marker: AFP↑, beta-hCG↑, LDH↑"
+          ],
+          "diagnose": "Nicht-Seminom (Stadium III)",
+          "therapie": [
+            "PEB-Schema (Cisplatin, Etoposid, Bleomycin)"
+          ],
+          "lernpunkte": [
+            "Kurative Intention auch bei diffuser Metastasierung"
+          ]
+        },
+        {
+          "id": "ONK_074",
+          "titel": "Pankreaskarzinom (Folfirinox)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "58-j. Mann, Ikterus",
+          "praesentation": "Inoperabler Tumor am Pankreaskopf.",
+          "befunde": [
+            "Guter Allgemeinzustand (ECOG 0)"
+          ],
+          "diagnose": "Lokal fortgeschrittenes Pankreas-CA",
+          "therapie": [
+            "Folfirinox (Triple-Chemo)"
+          ],
+          "lernpunkte": [
+            "Aggressive Therapie nur bei fitten Patienten"
+          ]
+        },
+        {
+          "id": "ONK_075",
+          "titel": "Hepatozelluläres Karzinom (HCC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. mit Leberzirrhose (HCV)",
+          "praesentation": "Verschlechterung Child-Pugh Score.",
+          "befunde": [
+            "Sono: Multifokale Herde",
+            "AFP 400"
+          ],
+          "diagnose": "HCC (Stadium BCLC B/C)",
+          "therapie": [
+            "Atezolizumab + Bevacizumab"
+          ],
+          "lernpunkte": [
+            "Therapieentscheidung nach BCLC-Klassifikation"
+          ]
+        },
+        {
+          "id": "ONK_076",
+          "titel": "Gastrointestinaler Stromatumor (GIST)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Frau, Anämie",
+          "praesentation": "Blutung im Magen.",
+          "befunde": [
+            "Histologie: CD117 (c-kit) positiv"
+          ],
+          "diagnose": "GIST",
+          "therapie": [
+            "Imatinib"
+          ],
+          "lernpunkte": [
+            "Paradebeispiel für molekulare Therapie bei Sarkomen"
+          ]
+        },
+        {
+          "id": "ONK_077",
+          "titel": "Malignes Melanom (BRAF-Mutation)",
+          "tags": [
+            "Dermatologie"
+          ],
+          "patient": "45-j. Mann, Lymphknotenmetastasen",
+          "praesentation": "Z.n. Exzision Primärtumor.",
+          "befunde": [
+            "BRAF-V600E Mutation positiv"
+          ],
+          "diagnose": "Metastasiertes Melanom",
+          "therapie": [
+            "BRAF/MEK-Inhibitor (z.B. Dabrafenib/Trametinib)"
+          ],
+          "lernpunkte": [
+            "Rasches Ansprechen auf TKI, oft Kombination mit Immuntherapie"
+          ]
+        },
+        {
+          "id": "ONK_078",
+          "titel": "Harnblasenkarzinom (Metastasiert)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Makrohämaturie, viszerale Metastasen.",
+          "befunde": [
+            "Histologie: Urothelkarzinom"
+          ],
+          "diagnose": "Stadium IV Urothel-CA",
+          "therapie": [
+            "Platin-basierte Chemo -> Erhaltung Avelumab (Immuntherapie)"
+          ],
+          "lernpunkte": [
+            "Switch-Maintenance Strategie"
+          ]
+        },
+        {
+          "id": "ONK_079",
+          "titel": "Kopf-Hals-Tumoren (HNSCC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Trinker/Raucher, Heiserkeit",
+          "praesentation": "LK-Paket am Hals.",
+          "befunde": [
+            "Laryngoskopie: Tumor Stimmband"
+          ],
+          "diagnose": "Hypopharynxkarzinom",
+          "therapie": [
+            "Radiochemotherapie (Organerhalt)"
+          ],
+          "lernpunkte": [
+            "HPV-Status als positiver Prognosefaktor"
+          ]
+        },
+        {
+          "id": "ONK_080",
+          "titel": "Ovarialkarzinom (PARP-Inhibitor)",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "55-j. Frau, Z.n. Carboplatin/Paclitaxel",
+          "praesentation": "Nachsorge.",
+          "befunde": [
+            "BRCA1-Mutation nachgewiesen"
+          ],
+          "diagnose": "Seröses Ovarial-CA",
+          "therapie": [
+            "Erhaltungstherapie mit Olaparib (PARP-Inhibitor)"
+          ],
+          "lernpunkte": [
+            "Synthetische Lethalität bei BRCA-Defekt"
+          ]
+        },
+        {
+          "id": "ONK_081",
+          "titel": "Magenkarzinom (Her2-positiv)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Patient, metastasiert",
+          "praesentation": "Kachexie.",
+          "befunde": [
+            "Her2-Status IHC 3+"
+          ],
+          "diagnose": "Metastasiertes Magen-CA",
+          "therapie": [
+            "5-FU + Oxaliplatin + Trastuzumab"
+          ],
+          "lernpunkte": [
+            "Her2-Testung auch beim Magen-CA Standard"
+          ]
+        },
+        {
+          "id": "ONK_082",
+          "titel": "Gallenwegskarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "62-j. Frau, Ikterus",
+          "praesentation": "Oberbauchschmerzen.",
+          "befunde": [
+            "ERCP: Stenose Dct. choledochus"
+          ],
+          "diagnose": "Cholangiokarzinom",
+          "therapie": [
+            "Gemcitabin + Cisplatin + Durvalumab"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose, oft späte Diagnose"
+          ]
+        },
+        {
+          "id": "ONK_083",
+          "titel": "Malignes Mesotheliom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. ehem. Isolierer (Asbest)",
+          "praesentation": "Pleuraerguss, Thoraxschmerz.",
+          "befunde": [
+            "CT: Knötchenartige Pleuradeckung"
+          ],
+          "diagnose": "Pleuramesotheliom",
+          "therapie": [
+            "Cisplatin + Pemetrexed + Nivolumab/Ipilimumab"
+          ],
+          "lernpunkte": [
+            "Berufskrankheit beachten"
+          ]
+        },
+        {
+          "id": "ONK_084",
+          "titel": "Neuroendokrine Tumoren (NET)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "50-j. mit Flush und Diarrhö",
+          "praesentation": "Lebermetastasen unklarer Herkunft.",
+          "befunde": [
+            "Chromogranin A erhöht",
+            "PET: DOTATOC-positiv"
+          ],
+          "diagnose": "NET G1/2",
+          "therapie": [
+            "Somatostatin-Analoga",
+            "ggf. PRRT"
+          ],
+          "lernpunkte": [
+            "Karzinoid-Syndrom tritt erst bei Leberbefall auf"
+          ]
+        },
+        {
+          "id": "ONK_085",
+          "titel": "Keimzelltumor (Seminom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "30-j. Mann, Hodenknoten",
+          "praesentation": "Zufallsbefund beim Duschen.",
+          "befunde": [
+            "HCG normal oder leicht erhöht, AFP immer normal"
+          ],
+          "diagnose": "Seminom (Stadium I)",
+          "therapie": [
+            "Orchiektomie + Surveillance oder Einmalgabe Carboplatin"
+          ],
+          "lernpunkte": [
+            "Seminome sind extrem strahlen- und chemosensibel"
+          ]
+        }
+      ]
+    },
+    "notfaelle_komplikationen": {
+      "label": "Onkologische Notfälle & Komplikationen",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "ONK_086",
+          "titel": "Febrile Neutropenie",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "45-jährige Patientin, Tag 10 nach Chemo",
+          "praesentation": "Fieber 39,5°C, Schüttelfrost, keine Lokalzeichen.",
+          "befunde": [
+            "Neutrophile 200/µl",
+            "CRP 150 mg/l"
+          ],
+          "diagnose": "Febrile Neutropenie (Medizinischer Notfall)",
+          "therapie": [
+            "Sofortige Breitbandantibiose (Piperacillin/Tazobactam) < 1h",
+            "G-CSF"
+          ],
+          "lernpunkte": [
+            "Nicht auf Kulturergebnisse warten!",
+            "MASCC-Score zur Risikoabschätzung"
+          ]
+        },
+        {
+          "id": "ONK_087",
+          "titel": "Tumorlyse-Syndrom (TLS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit Burkitt-Lymphom nach Therapiebeginn",
+          "praesentation": "Anurie, Herzrhythmusstörungen.",
+          "befunde": [
+            "Harnsäure↑↑, Kalium↑↑, Phosphat↑↑, Calcium↓↓"
+          ],
+          "diagnose": "Akutes TLS",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "Rasburicase (Uratoxidase)",
+            "Dialyse"
+          ],
+          "lernpunkte": [
+            "Prophylaxe mit Allopurinol/Rasburicase bei High-Risk"
+          ]
+        },
+        {
+          "id": "ONK_088",
+          "titel": "Vena-Cava-superior-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. mit zentralem Bronchial-CA",
+          "praesentation": "Gesichtsschwellung (Stokes-Kragen), gestaute Halsvenen, Dyspnoe.",
+          "befunde": [
+            "CT: Kompression der oberen Hohlvene"
+          ],
+          "diagnose": "Obere Einflussstauung",
+          "therapie": [
+            "Steroide",
+            "Stent-Einlage",
+            "Rascher Therapiestart (Chemo/Strahl)"
+          ],
+          "lernpunkte": [
+            "Gefahr des Hirnödems"
+          ]
+        },
+        {
+          "id": "ONK_089",
+          "titel": "Spinale Kompression (Querschnitt)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit Mamma-CA, plötzliche Beinschwäche",
+          "praesentation": "Paraspastik, Harnverhalt.",
+          "befunde": [
+            "MRT: Epidurale Metastasierung BWK 8"
+          ],
+          "diagnose": "Maligne Rückenmarkkompression",
+          "therapie": [
+            "Hochdosis-Dexamethason",
+            "Notfall-Bestrahlung oder Dekompression"
+          ],
+          "lernpunkte": [
+            "Zeitfaktor: Prognose für Gehfähigkeit hängt von präop Status ab"
+          ]
+        },
+        {
+          "id": "ONK_090",
+          "titel": "Immunvermittelte Nebenwirkungen (irAE)",
+          "tags": [
+            "Notfall",
+            "Immun"
+          ],
+          "patient": "Pat. unter Nivolumab",
+          "praesentation": "Wässrige Durchfälle (10x/Tag), Bauchschmerz.",
+          "befunde": [
+            "Koloskopie: Mukosaentzündung",
+            "Ausschluss Infekt"
+          ],
+          "diagnose": "Immun-Kolitis",
+          "therapie": [
+            "Steroide i.v. (1-2 mg/kg)",
+            "ggf. Infliximab"
+          ],
+          "lernpunkte": [
+            "Können jedes Organ betreffen (Check-Point-Folgen)"
+          ]
+        },
+        {
+          "id": "ONK_091",
+          "titel": "Hirndruck bei Metastasen",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit bekanntem Melanom",
+          "praesentation": "Morgendliches Erbrechen, Kopfschmerz, Bradykardie.",
+          "befunde": [
+            "MRT: Hirnfiliae mit massivem perifokalem Ödem"
+          ],
+          "diagnose": "Intrakranielle Hypertension",
+          "therapie": [
+            "Dexamethason i.v. (Ödemreduktion)",
+            "Mannitol"
+          ],
+          "lernpunkte": [
+            "Glukokortikoide wirken prompt bei vasogenem Ödem"
+          ]
+        },
+        {
+          "id": "ONK_092",
+          "titel": "Thrombose/Lungenembolie bei Tumor",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "Pat. mit Magen-CA",
+          "praesentation": "Einseitige Beinschwellung.",
+          "befunde": [
+            "Sono: TVT",
+            "D-Dimere↑↑"
+          ],
+          "diagnose": "Tumorassoziierte Thrombose (Trousseau-Syndrom)",
+          "therapie": [
+            "NMH (Heparin) oder DOAK (Edoxaban/Apixaban)"
+          ],
+          "lernpunkte": [
+            "Tumorpatienten haben massiv erhöhtes Thromboserisiko"
+          ]
+        },
+        {
+          "id": "ONK_093",
+          "titel": "SIADH (Paraneoplasie)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Pat. mit Kleinzeller (SCLC)",
+          "praesentation": "Verwirrtheit, Inappetenz.",
+          "befunde": [
+            "Serum-Natrium 115 mmol/l",
+            "Urin-Osmolalität hoch"
+          ],
+          "diagnose": "Schwart-Bartter-Syndrom (SIADH)",
+          "therapie": [
+            "Flüssigkeitsrestriktion",
+            "Tolvaptan"
+          ],
+          "lernpunkte": [
+            "Ektopische ADH-Produktion"
+          ]
+        },
+        {
+          "id": "ONK_094",
+          "titel": "Veno-okklusive Erkrankung (VOD/SOS)",
+          "tags": [
+            "SZT",
+            "Komplikation"
+          ],
+          "patient": "Pat. nach Allogener SZT",
+          "praesentation": "Gewichtszunahme, schmerzhafte Hepatomegalie, Ikterus.",
+          "befunde": [
+            "Bilirubin↑",
+            "Aszites"
+          ],
+          "diagnose": "Veno-occlusive Disease (SOS)",
+          "therapie": [
+            "Defibrotide"
+          ],
+          "lernpunkte": [
+            "Endothelschädigung der Lebersinusoide"
+          ]
+        },
+        {
+          "id": "ONK_095",
+          "titel": "Extravasation (Paravasat)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Chemotherapie via peripherer Vene",
+          "praesentation": "Schwellung und brennender Schmerz an Einstichstelle unter Anthrazyklin-Gabe.",
+          "befunde": [
+            "Rötung"
+          ],
+          "diagnose": "Anthrazyklin-Paravasat",
+          "therapie": [
+            "Stopp",
+            "Aspiration",
+            "Dexrazoxan (Antidot)",
+            "Kühlen"
+          ],
+          "lernpunkte": [
+            "Anthrazykline sind Vesikanzien (Gefahr von Nekrosen)"
+          ]
+        }
+      ]
+    },
+    "therapie_recht_ethik": {
+      "label": "Therapie, Recht & Ethik",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "ONK_096",
+          "titel": "CAR-T-Zell-Therapie (CRS)",
+          "tags": [
+            "Therapie",
+            "Immun"
+          ],
+          "patient": "Pat. nach CAR-T Gabe bei Lymphom",
+          "praesentation": "Fieber, Blutdruckabfall, Hypoxämie nach 4 Tagen.",
+          "befunde": [
+            "Zytokin-Sturm"
+          ],
+          "diagnose": "Cytokine Release Syndrome (CRS)",
+          "therapie": [
+            "Tocilizumab (Anti-IL-6)",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Moderne Immuntherapie mit spezifischem Nebenwirkungsprofil"
+          ]
+        },
+        {
+          "id": "ONK_097",
+          "titel": "Allogene Stammzelltransplantation (GvHD)",
+          "tags": [
+            "SZT"
+          ],
+          "patient": "Pat. 100 Tage nach SZT",
+          "praesentation": "Hautausschlag (palmoplantar), Durchfälle, Ikterus.",
+          "befunde": [
+            "Biopsie: Graft-versus-Host-Disease"
+          ],
+          "diagnose": "Chronische GvHD",
+          "therapie": [
+            "Dosiserhöhung Immunsuppression",
+            "Photophorese"
+          ],
+          "lernpunkte": [
+            "Angriff der Spender-T-Zellen auf den Wirtskörper"
+          ]
+        },
+        {
+          "id": "ONK_098",
+          "titel": "Palliative Sedierung",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Terminal kranker Pat., therapierefraktäre Atemnot/Angst",
+          "praesentation": "Letzte Lebensphase.",
+          "befunde": [
+            "Symptomkontrolle nicht anders möglich"
+          ],
+          "diagnose": "Finalstadium",
+          "therapie": [
+            "Midazolam + Morphin zur Symptomlinderung (Sedierung)"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur Tötung auf Verlangen (Wille und Absicht)"
+          ]
+        },
+        {
+          "id": "ONK_099",
+          "titel": "Off-Label-Use (Kostenübernahme)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Pat. mit seltenem Tumor",
+          "praesentation": "Therapieanfrage für Medikament ohne Zulassung.",
+          "befunde": [
+            "Keine Standardtherapie verfügbar",
+            "Wissenschaftliche Evidenz vorhanden"
+          ],
+          "diagnose": "Abrechnungsproblem",
+          "therapie": [
+            "Antrag auf Kostenübernahme § 31 SGB V"
+          ],
+          "lernpunkte": [
+            "Voraussetzungen für Off-Label-Erstattung durch GKV"
+          ]
+        },
+        {
+          "id": "ONK_100",
+          "titel": "Advance Care Planning (Patientenverfügung)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Pat. vor Beginn einer Hochdosis-Chemotherapie",
+          "praesentation": "Beratung zur Lebensplanung.",
+          "befunde": [
+            "Einwilligungsfähigkeit gegeben"
+          ],
+          "diagnose": "Präventive Beratung",
+          "therapie": [
+            "Erstellung Patientenverfügung und Vorsorgevollmacht"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Übertherapie am Lebensende"
+          ]
+        }
+      ]
+    }
+  }
+}

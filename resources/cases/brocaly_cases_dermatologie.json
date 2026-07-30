@@ -1,0 +1,2099 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Dermatologie und Venerologie",
+    "version": "1.1.0",
+    "total": 100,
+    "kategorien": 6,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "infektiologie_sti": {
+      "label": "Infektiologie & STI",
+      "emoji": "🦠",
+      "faelle": [
+        {
+          "id": "INF001",
+          "titel": "Erysipel am Unterschenkel",
+          "tags": [
+            "Bakteriell",
+            "Notfall"
+          ],
+          "patient": "65-jährige Patientin, Adipositas, Lymphödem",
+          "praesentation": "Scharf begrenzte, flammende Rötung, Schüttelfrost, Fieber 39,2°C.",
+          "befunde": [
+            "Eintrittspforte: Interdigitalmykose Dig. IV/V",
+            "Leukozytose",
+            "CRP 95 mg/l"
+          ],
+          "diagnose": "Erysipel (Streptokokken Gruppe A)",
+          "therapie": [
+            "Penicillin G i.v. (stationär)",
+            "Hochlagerung",
+            "Kühlen",
+            "Sanierung der Eintrittspforte"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur Phlegmone (unscharf begrenzt)",
+            "Rezidivprophylaxe bei Lymphödem"
+          ]
+        },
+        {
+          "id": "INF002",
+          "titel": "Herpes Zoster (Gürtelrose)",
+          "tags": [
+            "Viral",
+            "Schmerz"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Dermatombezogene Bläschen Th8 links, starke Schmerzen.",
+          "befunde": [
+            "Gruppierte Bläschen auf Erythem",
+            "Tzanck-Test positiv"
+          ],
+          "diagnose": "Herpes zoster",
+          "therapie": [
+            "Valaciclovir 1000mg 3x1",
+            "Analgesie (Zoster-Schema)"
+          ],
+          "lernpunkte": [
+            "Post-Zoster-Neuralgie verhindern durch frühen Therapiebeginn"
+          ]
+        },
+        {
+          "id": "INF003",
+          "titel": "Syphilis (Stadium I)",
+          "tags": [
+            "STI",
+            "Ulkus"
+          ],
+          "patient": "28-j. Mann (MSM)",
+          "praesentation": "Schmerzloses, derbes Ulkus am Penis, Lymphknotenschwellung.",
+          "befunde": [
+            "Dunkelfeldmikroskopie: Treponemen+",
+            "TPPA positiv"
+          ],
+          "diagnose": "Lues I (Ulcus durum)",
+          "therapie": [
+            "Benzathin-Penicillin G 2,4 Mio IE i.m. (einmalig)"
+          ],
+          "lernpunkte": [
+            "Jarisch-Herxheimer-Reaktion beachten",
+            "Partner-Screening"
+          ]
+        },
+        {
+          "id": "INF004",
+          "titel": "Gonorrhoe (Tripper)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "24-j. Student",
+          "praesentation": "Eitriger Ausfluss ('Bonjour-Tropfen'), Dysurie.",
+          "befunde": [
+            "Gram-Präparat: intrazelluläre Diplokokken"
+          ],
+          "diagnose": "Urogenitale Gonorrhoe",
+          "therapie": [
+            "Ceftriaxon 1g i.m. + Azithromycin 1,5g p.o."
+          ],
+          "lernpunkte": [
+            "Zunehmende Resistenzen bei Ceftriaxon"
+          ]
+        },
+        {
+          "id": "INF005",
+          "titel": "Tinea pedis (Interdigitaler Typ)",
+          "tags": [
+            "Pilz"
+          ],
+          "patient": "45-j. Sportler",
+          "praesentation": "Mazeration und Juckreiz zwischen den Zehen.",
+          "befunde": [
+            "Nativpräparat: Myzelien nachweisbar"
+          ],
+          "diagnose": "Tinea pedis",
+          "therapie": [
+            "Topische Imidazole (Ciclopirox)",
+            "Socken kochen"
+          ],
+          "lernpunkte": [
+            "Oft Eintrittspforte für Erysipel"
+          ]
+        },
+        {
+          "id": "INF006",
+          "titel": "Skabies (Krätze)",
+          "tags": [
+            "Parasitär"
+          ],
+          "patient": "22-j. WG-Bewohner",
+          "praesentation": "Nächtlicher Juckreiz, Papeln an Handgelenken und Genitale.",
+          "befunde": [
+            "Dermatoskopie: Milbengänge, 'Delta-Zeichen'"
+          ],
+          "diagnose": "Skabies",
+          "therapie": [
+            "Permethrin 5% Creme",
+            "Umgebungsmaßnahmen"
+          ],
+          "lernpunkte": [
+            "Alle Kontaktpersonen simultan behandeln"
+          ]
+        },
+        {
+          "id": "INF007",
+          "titel": "Molluscum contagiosum",
+          "tags": [
+            "Viral"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Multiple perlmuttartige Papeln mit zentraler Delle.",
+          "befunde": [
+            "Expressionsprobe: Molluscum-Körperchen"
+          ],
+          "diagnose": "Dellwarzen",
+          "therapie": [
+            "Watchful waiting",
+            "ggf. Kürettage"
+          ],
+          "lernpunkte": [
+            "Autoinokulation durch Kratzen verhindern"
+          ]
+        },
+        {
+          "id": "INF008",
+          "titel": "Chlamydien-Infektion",
+          "tags": [
+            "STI"
+          ],
+          "patient": "22-j. Frau",
+          "praesentation": "Asymptomatisch, Partner hat Ausfluss.",
+          "befunde": [
+            "PCR (Urin/Abstrich): C. trachomatis+"
+          ],
+          "diagnose": "Urogenitale Chlamydieninfektion",
+          "therapie": [
+            "Doxycyclin 100mg 2x1 für 7 Tage"
+          ],
+          "lernpunkte": [
+            "Gefahr der Infertilität (PID)"
+          ]
+        },
+        {
+          "id": "INF009",
+          "titel": "Erythema migrans",
+          "tags": [
+            "Borreliose"
+          ],
+          "patient": "38-j. Wanderer",
+          "praesentation": "Zentrifugal wachsende Rötung nach Zeckenstich vor 2 Wochen.",
+          "befunde": [
+            "Ø 8 cm, zentral abgeblasst",
+            "kein Fieber"
+          ],
+          "diagnose": "Lyme-Borreliose Stadium I",
+          "therapie": [
+            "Doxycyclin 100mg 2x1 für 14 Tage"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose, Serologie im Frühstadium oft negativ"
+          ]
+        },
+        {
+          "id": "INF010",
+          "titel": "Condylomata acuminata",
+          "tags": [
+            "STI",
+            "HPV"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Blumenkohlartige Exkrezenzen vulvär.",
+          "befunde": [
+            "Essigsäure-Probe positiv"
+          ],
+          "diagnose": "Feigwarzen (HPV 6/11)",
+          "therapie": [
+            "Imiquimod 5% Creme",
+            "Kryotherapie"
+          ],
+          "lernpunkte": [
+            "HPV-Impfung (Gardasil 9) schützt"
+          ]
+        },
+        {
+          "id": "INF011",
+          "titel": "Onychomykose (Nagelpilz)",
+          "tags": [
+            "Pilz"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Gelbliche Verfärbung und Hyperkeratose der Großzehennägel.",
+          "befunde": [
+            "Pilzkultur: Trichophyton rubrum"
+          ],
+          "diagnose": "Onychomykose",
+          "therapie": [
+            "Nagellack (Amorolfin)",
+            "ggf. Terbinafin p.o."
+          ],
+          "lernpunkte": [
+            "Leberwerte bei systemischer Therapie kontrollieren"
+          ]
+        },
+        {
+          "id": "INF012",
+          "titel": "Impetigo contagiosa",
+          "tags": [
+            "Bakteriell"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Honiggelbe Krusten perioral.",
+          "befunde": [
+            "Abstrich: S. aureus"
+          ],
+          "diagnose": "Borkenflechte",
+          "therapie": [
+            "Mupirocin topisch",
+            "Hygiene"
+          ],
+          "lernpunkte": [
+            "Hochkontagiös, Schulverbot bis Abheilung"
+          ]
+        },
+        {
+          "id": "INF013",
+          "titel": "Pityriasis versicolor",
+          "tags": [
+            "Pilz"
+          ],
+          "patient": "25-j. Mann",
+          "praesentation": "Helle Flecken am Rücken nach Sommerurlaub.",
+          "befunde": [
+            "Wood-Licht: gelbliche Fluoreszenz",
+            "Spaghettisuppe im Nativpräp."
+          ],
+          "diagnose": "Kleienpilzflechte (Malassezia furfur)",
+          "therapie": [
+            "Ketoconazol-Shampoo als Bodywash"
+          ],
+          "lernpunkte": [
+            "Hefepilz der Normalflora, kein Ansteckungsrisiko"
+          ]
+        },
+        {
+          "id": "INF014",
+          "titel": "HIV-Primärinfektion (Haut)",
+          "tags": [
+            "HIV",
+            "Exanthem"
+          ],
+          "patient": "32-j. Patient",
+          "praesentation": "Grippale Symptome + makulopapulöses Exanthem Stamm.",
+          "befunde": [
+            "Lymphadenopathie",
+            "Pharyngitis"
+          ],
+          "diagnose": "Akutes Retrovirales Syndrom",
+          "therapie": [
+            "Diagnostik (p24-Antigen, PCR)",
+            "Einleitung ART"
+          ],
+          "lernpunkte": [
+            "Exanthem ähnelt oft Mononukleose"
+          ]
+        },
+        {
+          "id": "INF015",
+          "titel": "Verrucae vulgares",
+          "tags": [
+            "Viral",
+            "HPV"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Hyperkeratotische Papeln an den Fingern.",
+          "befunde": [
+            "Punktförmige Kapillarblutungen bei Abtragung"
+          ],
+          "diagnose": "Gewöhnliche Warzen",
+          "therapie": [
+            "Salicylsäure-Pflaster",
+            "Kryotherapie"
+          ],
+          "lernpunkte": [
+            "Geduld erforderlich, hohe Rezidivrate"
+          ]
+        },
+        {
+          "id": "INF016",
+          "titel": "Erythrasma",
+          "tags": [
+            "Bakteriell"
+          ],
+          "patient": "55-j. Diabetiker",
+          "praesentation": "Braunrote, scharf begrenzte Flecken inguinal.",
+          "befunde": [
+            "Wood-Licht: korallenrote Fluoreszenz"
+          ],
+          "diagnose": "Erythrasma (Corynebacterium minutissimum)",
+          "therapie": [
+            "Erythromycin topisch",
+            "Clotrimazol"
+          ],
+          "lernpunkte": [
+            "Differenzialdiagnose zur Tinea"
+          ]
+        },
+        {
+          "id": "INF017",
+          "titel": "Varizellen (Windpocken) Erwachsener",
+          "tags": [
+            "Viral",
+            "Notfall"
+          ],
+          "patient": "30-j. Frau, ungeimpft",
+          "praesentation": "Sternenhimmel-Exanthem, hohes Fieber, Husten.",
+          "befunde": [
+            "Polymorphes Exanthem",
+            "V.a. Pneumonie"
+          ],
+          "diagnose": "Varizellen-Infektion",
+          "therapie": [
+            "Aciclovir i.v. bei Komplikation"
+          ],
+          "lernpunkte": [
+            "Höheres Komplikationsrisiko im Erwachsenenalter"
+          ]
+        },
+        {
+          "id": "INF018",
+          "titel": "Lymphogranuloma venereum (LGV)",
+          "tags": [
+            "STI"
+          ],
+          "patient": "35-j. MSM",
+          "praesentation": "Schmerzhafte inguinale Lymphknoten (Bubo), Proktitis.",
+          "befunde": [
+            "Chlamydien PCR Genotyp L1-L3 positiv"
+          ],
+          "diagnose": "LGV",
+          "therapie": [
+            "Doxycyclin 100mg 2x1 für 21 Tage"
+          ],
+          "lernpunkte": [
+            "Längere Therapiedauer als bei Standard-Chlamydien"
+          ]
+        },
+        {
+          "id": "INF019",
+          "titel": "Ulcus molle",
+          "tags": [
+            "STI"
+          ],
+          "patient": "29-j. nach Tropenreise",
+          "praesentation": "Schmerzhafte, weiche Ulzera am Präputium.",
+          "befunde": [
+            "Abstrich: Haemophilus ducreyi"
+          ],
+          "diagnose": "Weicher Schanker",
+          "therapie": [
+            "Ceftriaxon 250mg i.m. (Einmaldosis)"
+          ],
+          "lernpunkte": [
+            "In Europa selten, schmerzhaft (DD Syphilis)"
+          ]
+        },
+        {
+          "id": "INF020",
+          "titel": "Ekzema herpeticatum",
+          "tags": [
+            "Herpes",
+            "Notfall"
+          ],
+          "patient": "22-j. Frau mit atopischer Dermatitis",
+          "praesentation": "Massive Aussaat monomorpher Bläschen im Gesicht, Fieber.",
+          "befunde": [
+            "PCR: HSV-1 positiv"
+          ],
+          "diagnose": "Kaposi-Varizelliformes Exanthem",
+          "therapie": [
+            "Aciclovir i.v. sofort!"
+          ],
+          "lernpunkte": [
+            "Dermatologischer Notfall, Sepsisgefahr"
+          ]
+        }
+      ]
+    },
+    "allergologie_intoleranz": {
+      "label": "Allergologie & Intoleranzreaktionen",
+      "emoji": "🧪",
+      "faelle": [
+        {
+          "id": "AL021",
+          "titel": "Atopische Dermatitis (Schub)",
+          "tags": [
+            "Ekzem",
+            "Atopie"
+          ],
+          "patient": "25-jährige Frau",
+          "praesentation": "Starker Juckreiz, Ekzeme in Beugen und am Hals.",
+          "befunde": [
+            "SCORAD 45",
+            "Xerosis cutis",
+            "Dermographismus albus"
+          ],
+          "diagnose": "Atopische Dermatitis (mittelschwer)",
+          "therapie": [
+            "Topische Steroide (Klasse III)",
+            "Basistherapie",
+            "ggf. Dupilumab"
+          ],
+          "lernpunkte": [
+            "Stufenschema der Neurodermitis-Therapie"
+          ]
+        },
+        {
+          "id": "AL022",
+          "titel": "Allergisches Kontaktekzem (Nickel)",
+          "tags": [
+            "Allergie"
+          ],
+          "patient": "19-j. Frau",
+          "praesentation": "Juckendes Ekzem am Bauchnabel (Piercing/Gürtel).",
+          "befunde": [
+            "Epikutantest: Nickel+ nach 72h"
+          ],
+          "diagnose": "Kontaktallergie Typ IV",
+          "therapie": [
+            "Meidung",
+            "Kortison-Creme"
+          ],
+          "lernpunkte": [
+            "Spättyp-Reaktion (Sensibilisierung lebenslang)"
+          ]
+        },
+        {
+          "id": "AL023",
+          "titel": "Chronisch Spontane Urtikaria",
+          "tags": [
+            "Quaddeln"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Täglich Quaddeln seit > 6 Wochen, kein Auslöser.",
+          "befunde": [
+            "UAS7 Score: 25"
+          ],
+          "diagnose": "CSU",
+          "therapie": [
+            "Antihistaminika 4-fach Dosis",
+            "ggf. Omalizumab"
+          ],
+          "lernpunkte": [
+            "Oft Autoimmun-Assoziation (Schilddrüse)"
+          ]
+        },
+        {
+          "id": "AL024",
+          "titel": "Fixes Arzneiexanthem",
+          "tags": [
+            "Arzneimittel"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Immer gleiche Stelle am Penis rötet sich nach Ibuprofen.",
+          "befunde": [
+            "Livider Fleck, scharf begrenzt"
+          ],
+          "diagnose": "Fixe Arzneireaktion",
+          "therapie": [
+            "Meidung der Substanzgruppe"
+          ],
+          "lernpunkte": [
+            "Gedächtnis-T-Zellen lokal in der Haut"
+          ]
+        },
+        {
+          "id": "AL025",
+          "titel": "Anaphylaxie (Wespengift)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "42-j. Mann",
+          "praesentation": "Atemnot, RR-Abfall nach Stich.",
+          "befunde": [
+            "Urtikaria",
+            "Stridor"
+          ],
+          "diagnose": "Anaphylaxie Grad III",
+          "therapie": [
+            "Adrenalin i.m.",
+            "Steroide i.v."
+          ],
+          "lernpunkte": [
+            "Indikation zur Hyposensibilisierung (SIT)"
+          ]
+        },
+        {
+          "id": "AL026",
+          "titel": "Seborrhoisches Ekzem",
+          "tags": [
+            "Ekzem"
+          ],
+          "patient": "33-j. Mann",
+          "praesentation": "Fettige Schuppung Nasolabialfalte und Brauen.",
+          "befunde": [
+            "Rötung und gelbe Schuppen"
+          ],
+          "diagnose": "Seborrhoische Dermatitis",
+          "therapie": [
+            "Ketoconazol topisch",
+            "kurzzeitig Hydrocortison"
+          ],
+          "lernpunkte": [
+            "Trigger: Stress, Winter, Parkinson"
+          ]
+        },
+        {
+          "id": "AL027",
+          "titel": "Dysidrotisches Handekzem",
+          "tags": [
+            "Ekzem"
+          ],
+          "patient": "28-j. Friseur",
+          "praesentation": "Bläschen an Fingerseitenflächen, juckend.",
+          "befunde": [
+            "Vesikel, Schuppung"
+          ],
+          "diagnose": "Dysidrosis / Pompholyx",
+          "therapie": [
+            "Gerbstoff-Bäder",
+            "Kortisonsalbe"
+          ],
+          "lernpunkte": [
+            "Oft atopische Veranlagung"
+          ]
+        },
+        {
+          "id": "AL028",
+          "titel": "Hereditäres Angioödem (HAE)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "20-j. Patient",
+          "praesentation": "Rezidivierende Schwellungen Gesicht/Hände, kein Juckreiz.",
+          "befunde": [
+            "C1-Esterase-Inhibitor-Mangel"
+          ],
+          "diagnose": "HAE Typ I",
+          "therapie": [
+            "C1-Konzentrat im Anfall",
+            "Icatibant"
+          ],
+          "lernpunkte": [
+            "Antihistaminika/Steroide wirken hier NICHT"
+          ]
+        },
+        {
+          "id": "AL029",
+          "titel": "Pruritus sine materia (Renal)",
+          "tags": [
+            "Innere"
+          ],
+          "patient": "68-j. Dialysepatient",
+          "praesentation": "Quälendes Jucken am ganzen Körper, keine Effloreszenzen.",
+          "befunde": [
+            "Kreatinin stark↑",
+            "Haut trocken"
+          ],
+          "diagnose": "Urämischer Pruritus",
+          "therapie": [
+            "UVB-Therapie",
+            "Gabapentin"
+          ],
+          "lernpunkte": [
+            "Systemische Abklärung bei Juckreiz ohne Hautbefund"
+          ]
+        },
+        {
+          "id": "AL030",
+          "titel": "Lichen simplex chronicus",
+          "tags": [
+            "Psychosomatik"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Chronisch juckende, verhärtete Plaque am Nacken.",
+          "befunde": [
+            "Lichenifikation durch Kratzen"
+          ],
+          "diagnose": "Neurodermitis circumscripta",
+          "therapie": [
+            "Okklusivverbände",
+            "Verhaltensmodifikation"
+          ],
+          "lernpunkte": [
+            "Itch-Scratch-Cycle durchbrechen"
+          ]
+        },
+        {
+          "id": "AL031",
+          "titel": "Berufsdermatose (BK 5101)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "44-j. Maurer",
+          "praesentation": "Chronisches Handekzem seit Jahren.",
+          "befunde": [
+            "Chromat-Allergie im Epikutantest"
+          ],
+          "diagnose": "Berufsallergodermie",
+          "therapie": [
+            "Hautarztbericht",
+            "Prävention am Arbeitsplatz"
+          ],
+          "lernpunkte": [
+            "Frühzeitige Meldung an BG wichtig"
+          ]
+        },
+        {
+          "id": "AL032",
+          "titel": "Insektengiftallergie (Diagnostik)",
+          "tags": [
+            "Allergie"
+          ],
+          "patient": "30-j. Patient",
+          "praesentation": "Große Lokalreaktion nach Bienenstich.",
+          "befunde": [
+            "IgE-Diagnostik: Biene vs. Wespe",
+            "Tryptase-Bestimmung"
+          ],
+          "diagnose": "Insektengift-Sensibilisierung",
+          "therapie": [
+            "Notfallset verordnen"
+          ],
+          "lernpunkte": [
+            "Basale Tryptase erhöht = Risiko für schwere Schocks"
+          ]
+        },
+        {
+          "id": "AL033",
+          "titel": "Arzneimittelexanthem (Makulopapulös)",
+          "tags": [
+            "Arzneimittel"
+          ],
+          "patient": "45-j. nach AB-Gabe",
+          "praesentation": "Masernähnlicher Ausschlag 8 Tage nach Amoxicillin.",
+          "befunde": [
+            "Kein Schleimhautbefall",
+            "kein Fieber"
+          ],
+          "diagnose": "Makulopapulöses Arzneiexanthem",
+          "therapie": [
+            "Absetzen",
+            "Antihistaminika"
+          ],
+          "lernpunkte": [
+            "Häufigste Arzneireaktion"
+          ]
+        },
+        {
+          "id": "AL034",
+          "titel": "DRESS-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "55-j. nach Carbamazepin",
+          "praesentation": "Exanthem, Fieber, Gesichtsschwellung.",
+          "befunde": [
+            "Eosinophilie",
+            "Transaminasen↑"
+          ],
+          "diagnose": "DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms)",
+          "therapie": [
+            "Stationär",
+            "hochdosiert Steroide"
+          ],
+          "lernpunkte": [
+            "Lange Latenzzeit (2-6 Wochen) beachten"
+          ]
+        },
+        {
+          "id": "AL035",
+          "titel": "Urtikaria-Vaskulitis",
+          "tags": [
+            "Gefäß"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Quaddeln bleiben > 24h an gleicher Stelle bestehen.",
+          "befunde": [
+            "Rest-Hyperpigmentierung",
+            "Histologie: Leukozytoklastische Vaskulitis"
+          ],
+          "diagnose": "Urtikaria-Vaskulitis",
+          "therapie": [
+            "Dapson",
+            "Kortison"
+          ],
+          "lernpunkte": [
+            "Differenzialdiagnose zur chronischen Urtikaria"
+          ]
+        }
+      ]
+    },
+    "entzündlich_autoimmun": {
+      "label": "Entzündliche & Autoimmundermatosen",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "EA036",
+          "titel": "Psoriasis vulgaris (Schub)",
+          "tags": [
+            "Psoriasis",
+            "Autoimmun"
+          ],
+          "patient": "48-jähriger Mann",
+          "praesentation": "Silbrige Schuppung an Ellenbogen, Knien und Kopfhaut.",
+          "befunde": [
+            "Auspitz-Phänomen positiv",
+            "PASI 15",
+            "Tüpfelnägel"
+          ],
+          "diagnose": "Psoriasis vulgaris",
+          "therapie": [
+            "Topisch: Vitamin-D3 + Steroid",
+            "Systemisch: Biologika (IL-17/23 Inhibitoren)"
+          ],
+          "lernpunkte": [
+            "PASI-Score zur Therapiesteuerung",
+            "Komorbiditäten (Metabolisches Syndrom)"
+          ]
+        },
+        {
+          "id": "EA037",
+          "titel": "Lichen planus (Knötchenflechte)",
+          "tags": [
+            "Entzündlich"
+          ],
+          "patient": "42-j. Frau",
+          "praesentation": "Juckende, violette Papeln an den Handgelenken.",
+          "befunde": [
+            "Wickham-Streifung auf den Papeln",
+            "Schleimhautbefall"
+          ],
+          "diagnose": "Lichen ruber planus",
+          "therapie": [
+            "Topisch hochpotente Steroide"
+          ],
+          "lernpunkte": [
+            "Hepatitis-C-Serologie prüfen"
+          ]
+        },
+        {
+          "id": "EA038",
+          "titel": "Bullöses Pemphigoid",
+          "tags": [
+            "Blasen",
+            "Geriatrie"
+          ],
+          "patient": "80-j. Patient",
+          "praesentation": "Große, pralle Blasen auf gerötetem Grund.",
+          "befunde": [
+            "Nikolski-Zeichen negativ",
+            "Direkte IF: lineare IgG/C3 Ablagerungen"
+          ],
+          "diagnose": "Bullöses Pemphigoid",
+          "therapie": [
+            "Kortison-Creme (Clobetasol) Ganzkörper",
+            "ggf. Methotrexat"
+          ],
+          "lernpunkte": [
+            "Häufigste autoimmune Blasenerkrankung des Alters"
+          ]
+        },
+        {
+          "id": " EA039",
+          "titel": "Pemphigus vulgaris",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Schlaffe Blasen, Erosionen der Mundschleimhaut.",
+          "befunde": [
+            "Nikolski-Zeichen positiv",
+            "Desmoglein-AK positiv"
+          ],
+          "diagnose": "Pemphigus vulgaris",
+          "therapie": [
+            "Hochdosiert Steroide",
+            "Rituximab"
+          ],
+          "lernpunkte": [
+            "Befall der Schleimhäute ist Leitsymptom"
+          ]
+        },
+        {
+          "id": "EA040",
+          "titel": "Diskoider Lupus erythematodes (DLE)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "34-j. Frau",
+          "praesentation": "Vernarbende Rötungen im Gesicht und Kapillitium.",
+          "befunde": [
+            "Tapeziermesserphänomen",
+            "Atrophie zentral"
+          ],
+          "diagnose": "DLE (Kutaner Lupus)",
+          "therapie": [
+            "UV-Schutz konsequent",
+            "Hydroxychloroquin"
+          ],
+          "lernpunkte": [
+            "Regelmäßiger Ausschluss Systembeteiligung (SLE)"
+          ]
+        },
+        {
+          "id": "EA041",
+          "titel": "Dermatomyositis",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Violettes Erythem periorbital (Heliotrop), Muskelschwäche.",
+          "befunde": [
+            "Gottron-Papeln Fingerknöchel",
+            "CK-Wert erhöht"
+          ],
+          "diagnose": "Dermatomyositis",
+          "therapie": [
+            "Steroide",
+            "Azathioprin"
+          ],
+          "lernpunkte": [
+            "Paraneoplasie-Suche obligat!"
+          ]
+        },
+        {
+          "id": "EA042",
+          "titel": "Zirkumskripte Sklerodermie (Morphea)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Porzellanweiße, verhärtete Plaque am Stamm.",
+          "befunde": [
+            "Lilac Ring (aktiver Rand)"
+          ],
+          "diagnose": "Morphea",
+          "therapie": [
+            "UVA1-Phototherapie",
+            "Topisch Vitamin-D-Derivate"
+          ],
+          "lernpunkte": [
+            "Keine systemische Organbeteiligung"
+          ]
+        },
+        {
+          "id": "EA043",
+          "titel": "Sarkoidose (Haut)",
+          "tags": [
+            "Granulomatös"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Braunrote Papeln in alten Narben.",
+          "befunde": [
+            "Histologie: Nackte Granulome",
+            "ACE erhöht"
+          ],
+          "diagnose": "Kutane Sarkoidose",
+          "therapie": [
+            "Kortison topisch/intraläsional",
+            "Hydroxychloroquin"
+          ],
+          "lernpunkte": [
+            "Oft Vergesellschaftung mit Lungenbefall"
+          ]
+        },
+        {
+          "id": "EA044",
+          "titel": "Granuloma annulare",
+          "tags": [
+            "Entzündlich"
+          ],
+          "patient": "38-j. Patient",
+          "praesentation": "Ringförmige, knotige Hautveränderung Handrücken.",
+          "befunde": [
+            "Keine Schuppung",
+            "zentrale Atrophie-Tendenz"
+          ],
+          "diagnose": "Granuloma annulare",
+          "therapie": [
+            "Watch and Wait",
+            "Kryo"
+          ],
+          "lernpunkte": [
+            "Ausschluss Diabetes mellitus"
+          ]
+        },
+        {
+          "id": "EA045",
+          "titel": "Dermatitis herpetiformis Duhring",
+          "tags": [
+            "Blasen"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Extrem juckende Bläschen an Streckseiten (Ellenbogen).",
+          "befunde": [
+            "IgA-Ablagerungen in Papillenspitzen"
+          ],
+          "diagnose": "M. Duhring",
+          "therapie": [
+            "Dapson",
+            "Glutenfreie Diät"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Zöliakie"
+          ]
+        },
+        {
+          "id": "EA046",
+          "titel": "Pityriasis rosea (Röschenflechte)",
+          "tags": [
+            "Exanthem"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Primärmedaillon, dann Tannenbaummuster am Stamm.",
+          "befunde": [
+            "Halskrausen-Schuppung"
+          ],
+          "diagnose": "Pityriasis rosea",
+          "therapie": [
+            "Symptomatisch",
+            "Rückfettung"
+          ],
+          "lernpunkte": [
+            "Selbstlimitierend in 6-8 Wochen"
+          ]
+        },
+        {
+          "id": "EA047",
+          "titel": "Pyoderma gangraenosum",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "55-j. Mann mit CED",
+          "praesentation": "Schlagartig entstehendes, extrem schmerzhaftes Ulkus.",
+          "befunde": [
+            "Unterminierter, livider Rand"
+          ],
+          "diagnose": "Pyoderma gangraenosum",
+          "therapie": [
+            "Systemische Steroide",
+            "Ciclosporin",
+            "KEIN chirurgisches Debridement (Pathergie!)"
+          ],
+          "lernpunkte": [
+            "Assoziation mit M. Crohn / Colitis ulcerosa"
+          ]
+        },
+        {
+          "id": "EA048",
+          "titel": "Erythema multiforme",
+          "tags": [
+            "Reaktiv"
+          ],
+          "patient": "25-j. nach Lippenherpes",
+          "praesentation": "Schießscheibenartige Läsionen (Targets) an den Händen.",
+          "befunde": [
+            "Kokarden-Aspekt"
+          ],
+          "diagnose": "Erythema exsudativum multiforme (EEM)",
+          "therapie": [
+            "Topische Steroide",
+            "Herpes-Prophylaxe"
+          ],
+          "lernpunkte": [
+            "Häufigster Trigger: HSV-Reaktivierung"
+          ]
+        },
+        {
+          "id": "EA049",
+          "titel": "Sweet-Syndrom",
+          "tags": [
+            "Entzündlich"
+          ],
+          "patient": "60-j. Patient nach Infekt",
+          "praesentation": "Akut schmerzhafte, erythematöse Plaques, Fieber.",
+          "befunde": [
+            "Neutrophilie im Blut",
+            "Dermisödem"
+          ],
+          "diagnose": "Akute febrile neutrophile Dermatose",
+          "therapie": [
+            "Steroide systemisch (rasches Ansprechen)"
+          ],
+          "lernpunkte": [
+            "Kann paraneoplastisch sein (AML)"
+          ]
+        },
+        {
+          "id": "EA050",
+          "titel": "Lichen sclerosus et atrophicus",
+          "tags": [
+            "Genital"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Weißliche Hautverhärtung Vulva, Juckreiz.",
+          "befunde": [
+            "8er-Figur-Befall",
+            "Zigarettenpapier-Atrophie"
+          ],
+          "diagnose": "Lichen sclerosus",
+          "therapie": [
+            "Hochpotente Steroide (Clobetasol)"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für Plattenepithelkarzinom"
+          ]
+        },
+        {
+          "id": "EA051",
+          "titel": "Psoriasis-Arthritis (PsA)",
+          "tags": [
+            "Psoriasis"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Schwellung ganzer Finger (Daktylitis), Gelenkschmerz.",
+          "befunde": [
+            "Psoriasis an Haut",
+            "RF negativ"
+          ],
+          "diagnose": "PsA",
+          "therapie": [
+            "Methotrexat",
+            "TNF-alpha Inhibitoren"
+          ],
+          "lernpunkte": [
+            "Interdisziplinäre Betreuung mit Rheumatologen"
+          ]
+        },
+        {
+          "id": "EA052",
+          "titel": "Erythema nodosum",
+          "tags": [
+            "Entzündlich"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Druckschmerzhafte rote Knoten an den Schienbeinen.",
+          "befunde": [
+            "Septale Pannikulitis histologisch"
+          ],
+          "diagnose": "Erythema nodosum",
+          "therapie": [
+            "NSAR",
+            "Bettruhe",
+            "Ursachensuche"
+          ],
+          "lernpunkte": [
+            "Ursachen: Streptokokken, Sarkoidose, Schwangerschaft"
+          ]
+        },
+        {
+          "id": "EA053",
+          "titel": "Pityriasis lichenoides chronica",
+          "tags": [
+            "Entzündlich"
+          ],
+          "patient": "18-j. Patient",
+          "praesentation": "Multiple kleine Papeln mit haftender Schuppung.",
+          "befunde": [
+            "Histologie: Interface-Dermatitis"
+          ],
+          "diagnose": "PLC",
+          "therapie": [
+            "Phototherapie (UVB 311nm)"
+          ],
+          "lernpunkte": [
+            "Langer Verlauf möglich"
+          ]
+        },
+        {
+          "id": "EA054",
+          "titel": "Subakut kutaner Lupus (SCLE)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Anuläre Rötungen nach Sonne, keine Narben.",
+          "befunde": [
+            "Anti-Ro (SS-A) Antikörper positiv"
+          ],
+          "diagnose": "SCLE",
+          "therapie": [
+            "UV-Schutz",
+            "Hydroxychloroquin"
+          ],
+          "lernpunkte": [
+            "Medikamenteninduzierten SCLE ausschließen (z.B. HCTZ)"
+          ]
+        },
+        {
+          "id": "EA055",
+          "titel": "Erythrodermie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Ganzkörperrötung (>90%), Schüttelfrost.",
+          "befunde": [
+            "Lymphadenopathie",
+            "Temperaturregulationsstörung"
+          ],
+          "diagnose": "Erythrodermie (z.B. bei Psoriasis)",
+          "therapie": [
+            "Stationär",
+            "Flüssigkeitsersatz",
+            "Kortison"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohlich durch Herzversagen/Infektion"
+          ]
+        }
+      ]
+    },
+    "anhangsgebilde_gefäße_regionales": {
+      "label": "Anhangsgebilde, Gefäße & Regionales",
+      "emoji": "💅",
+      "faelle": [
+        {
+          "id": "AR056",
+          "titel": "Acne vulgaris (Schwer)",
+          "tags": [
+            "Akne",
+            "Seborrhoe"
+          ],
+          "patient": "17-jähriger Junge",
+          "praesentation": "Knoten, Pusteln und Narben im Gesicht und am Rücken.",
+          "befunde": [
+            "Acne conglobata",
+            "ausgeprägte Seborrhoe"
+          ],
+          "diagnose": "Acne vulgaris",
+          "therapie": [
+            "Isotretinoin systemisch",
+            "Lippenpflege"
+          ],
+          "lernpunkte": [
+            "Laborkontrollen (Fette, Leber)",
+            "Teratogenität bei Frauen"
+          ]
+        },
+        {
+          "id": "AR057",
+          "titel": "Rosazea Stadium II",
+          "tags": [
+            "Gesicht"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Flush-Symptomatik, Papeln und Pusteln Wange/Nase.",
+          "befunde": [
+            "Teleangiektasien",
+            "KEINE Komedonen (DD Akne)"
+          ],
+          "diagnose": "Rosazea papulopustulosa",
+          "therapie": [
+            "Ivermectin topisch",
+            "Doxycyclin low-dose"
+          ],
+          "lernpunkte": [
+            "Trigger meiden (Alkohol, Hitze, Sonne)"
+          ]
+        },
+        {
+          "id": "AR058",
+          "titel": "Alopecia areata",
+          "tags": [
+            "Haare"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Kreisrunder Haarausfall am Hinterkopf.",
+          "befunde": [
+            "Ausrufezeichenhaare am Rand"
+          ],
+          "diagnose": "Alopecia areata",
+          "therapie": [
+            "Steroide topisch/intraläsional",
+            "DCPCP"
+          ],
+          "lernpunkte": [
+            "Autoimmune Genese, oft Spontanremission"
+          ]
+        },
+        {
+          "id": "AR059",
+          "titel": "Hidradenitis suppurativa (Acne inversa)",
+          "tags": [
+            "Chronisch"
+          ],
+          "patient": "35-j. Raucher, Adipositas",
+          "praesentation": "Schmerzhafte Abszesse und Fisteln axillär/inguinal.",
+          "befunde": [
+            "Hurley-Stadium II"
+          ],
+          "diagnose": "Hidradenitis suppurativa",
+          "therapie": [
+            "Adalimumab",
+            "Chirurgische Sanierung"
+          ],
+          "lernpunkte": [
+            "Rauchstopp und Gewichtsreduktion essenziell"
+          ]
+        },
+        {
+          "id": "AR060",
+          "titel": "Vaskulitis (Leukozytoklastisch)",
+          "tags": [
+            "Gefäß"
+          ],
+          "patient": "50-j. Patient nach Infekt",
+          "praesentation": "Tastbare Purpura an den Unterschenkeln.",
+          "befunde": [
+            "Hämorrhagische Papeln",
+            "Glashaut-Probe negativ"
+          ],
+          "diagnose": "Kutane Immunkomplexvaskulitis",
+          "therapie": [
+            "Steroide",
+            "Ruhe",
+            "Nierencheck"
+          ],
+          "lernpunkte": [
+            "U-Status (Hämaturie?) zum Ausschluss Glomerulonephritis"
+          ]
+        },
+        {
+          "id": "AR061",
+          "titel": "Phlebitis (Oberflächlich)",
+          "tags": [
+            "Gefäß"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Schmerzhafter roter Strang am Unterschenkel.",
+          "befunde": [
+            "Varikosis",
+            "Druckschmerzhafter Strang"
+          ],
+          "diagnose": "Thrombophlebitis",
+          "therapie": [
+            "Mobilisation",
+            "Kompression",
+            "ggf. Fondaparinux"
+          ],
+          "lernpunkte": [
+            "Ausschluss begleitende TVT (Tiefe Venenthrombose)"
+          ]
+        },
+        {
+          "id": "AR062",
+          "titel": "Lymphödem Stadium II",
+          "tags": [
+            "Lymphe"
+          ],
+          "patient": "70-j. nach Mamma-CA OP",
+          "praesentation": "Einseitige Armschwellung, teigige Konsistenz.",
+          "befunde": [
+            "Stemmer-Zeichen positiv"
+          ],
+          "diagnose": "Sekundäres Lymphödem",
+          "therapie": [
+            "Kompression (MLD/KPE)"
+          ],
+          "lernpunkte": [
+            "Hautpflege wichtig zur Erysipel-Prophylaxe"
+          ]
+        },
+        {
+          "id": "AR063",
+          "titel": "Periorale Dermatitis",
+          "tags": [
+            "Gesicht"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Rote Knötchen um Mund und Augen, brennt.",
+          "befunde": [
+            "Freier Saum um die Lippen (Lippenrot)"
+          ],
+          "diagnose": "Stewardessen-Krankheit",
+          "therapie": [
+            "Nulltherapie (Absetzen aller Cremes)",
+            "Metronidazol"
+          ],
+          "lernpunkte": [
+            "Oft durch Überpflege (Überfeuchtung)"
+          ]
+        },
+        {
+          "id": "AR064",
+          "titel": "Androgenetische Alopezie",
+          "tags": [
+            "Haare"
+          ],
+          "patient": "22-j. Mann",
+          "praesentation": "Geheimratsecken, Lichtung am Tonsurbereich.",
+          "befunde": [
+            "Haarminiaturisierung"
+          ],
+          "diagnose": "AGA (männlicher Typ)",
+          "therapie": [
+            "Minoxidil Lösung",
+            "Finasterid p.o."
+          ],
+          "lernpunkte": [
+            "Hamilton-Norwood Klassifikation"
+          ]
+        },
+        {
+          "id": "AR065",
+          "titel": "Paronychie (Umlauf)",
+          "tags": [
+            "Nagel"
+          ],
+          "patient": "40-j. Reinigungskraft",
+          "praesentation": "Schmerzhafte Schwellung des Nagelwalls.",
+          "befunde": [
+            "Eiteransammlung",
+            "Rötung"
+          ],
+          "diagnose": "Akute Paronychie",
+          "therapie": [
+            "Inzision",
+            "Antiseptika"
+          ],
+          "lernpunkte": [
+            "Oft Mischinfektion (Staphylokokken/Candida)"
+          ]
+        },
+        {
+          "id": "AR066",
+          "titel": "Raynaud-Phänomen",
+          "tags": [
+            "Gefäß"
+          ],
+          "patient": "25-j. Frau",
+          "praesentation": "Finger werden weiß-blau-rot bei Kälte.",
+          "befunde": [
+            "Triphasen-Reaktion"
+          ],
+          "diagnose": "Primäres Raynaud-Syndrom",
+          "therapie": [
+            "Kälteschutz",
+            "Nifedipin"
+          ],
+          "lernpunkte": [
+            "Sekundäre Formen bei Kollagenosen ausschließen (Nagelfalzsono)"
+          ]
+        },
+        {
+          "id": "AR067",
+          "titel": "Intertrigo",
+          "tags": [
+            "Regionales"
+          ],
+          "patient": "80-j. bettlägerig",
+          "praesentation": "Nässende Rötung in der Bauchfalte.",
+          "befunde": [
+            "Satelliten-Pusteln am Rand"
+          ],
+          "diagnose": "Candida-Intertrigo",
+          "therapie": [
+            "Trockenlegen (Leinenläppchen)",
+            "Nystatin"
+          ],
+          "lernpunkte": [
+            "Feuchtklima vermeiden"
+          ]
+        },
+        {
+          "id": "AR068",
+          "titel": "Alopezia senilis",
+          "tags": [
+            "Haare"
+          ],
+          "patient": "85-j. Mann",
+          "praesentation": "Diffuser Haarausfall am gesamten Kopf.",
+          "befunde": [
+            "Lichtes Haar",
+            "keine Entzündung"
+          ],
+          "diagnose": "Alters-Alopezie",
+          "therapie": [
+            "Beratung",
+            "keine spezifische Therapie"
+          ],
+          "lernpunkte": [
+            "Physiologischer Prozess"
+          ]
+        },
+        {
+          "id": "AR069",
+          "titel": "Onychogrypose (Holznagel)",
+          "tags": [
+            "Nagel"
+          ],
+          "patient": "90-j. Frau",
+          "praesentation": "Nagelplatte extrem dick und gekrümmt.",
+          "befunde": [
+            "Hornartiges Wachstum"
+          ],
+          "diagnose": "Onychogrypose",
+          "therapie": [
+            "Medizinische Fußpflege (Podologie)"
+          ],
+          "lernpunkte": [
+            "Oft Folge von Durchblutungsstörung oder Druck"
+          ]
+        },
+        {
+          "id": "AR070",
+          "titel": "Cheilitis granulomatosa",
+          "tags": [
+            "Mund"
+          ],
+          "patient": "35-j. Patient",
+          "praesentation": "Rezidivierende Lippenschwellung.",
+          "befunde": [
+            "Gummielastische Induration"
+          ],
+          "diagnose": "Miescher-Syndrom",
+          "therapie": [
+            "Steroide intraläsional"
+          ],
+          "lernpunkte": [
+            "Teil des Melkersson-Rosenthal-Syndroms (Trias)"
+          ]
+        }
+      ]
+    },
+    "dermato_onkologie": {
+      "label": "Dermato-Onkologie",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "ON071",
+          "titel": "Basalzellkarzinom (Nodulär)",
+          "tags": [
+            "Tumor",
+            "UV-Schaden"
+          ],
+          "patient": "70-jähriger Mann",
+          "praesentation": "Perlmuttartiger Knoten an der Schläfe mit Teleangiektasien.",
+          "befunde": [
+            "Zentraler Ulcus (Ulcus rodens)",
+            "keine Metastasen"
+          ],
+          "diagnose": "Noduläres Basaliom",
+          "therapie": [
+            "Chirurgische Exzision (R0)",
+            "Mohs-Chirurgie"
+          ],
+          "lernpunkte": [
+            "Lokal destruierend, metastasiert extrem selten"
+          ]
+        },
+        {
+          "id": "ON072",
+          "titel": "Malignes Melanom (SSM)",
+          "tags": [
+            "Melanom"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Neu aufgetretener, asymmetrischer Fleck am Rücken.",
+          "befunde": [
+            "ABCDE-Kriterien positiv",
+            "Breslow-Dicke 0,8 mm"
+          ],
+          "diagnose": "Superfiziell spreitendes Melanom",
+          "therapie": [
+            "Nachexzision mit Sicherheitsabstand",
+            "kein Sentinel nötig"
+          ],
+          "lernpunkte": [
+            "Breslow-Dicke ist wichtigster Prognosefaktor"
+          ]
+        },
+        {
+          "id": "ON073",
+          "titel": "Aktinische Keratose (Feld)",
+          "tags": [
+            "Präkanzerose"
+          ],
+          "patient": "75-j. Landwirt",
+          "praesentation": "Raue Stellen auf der Glatze ('Sandpapier-Gefühl').",
+          "befunde": [
+            "Hyperkeratosen auf Lichtschaden-Haut"
+          ],
+          "diagnose": "Feldkanzerisierung",
+          "therapie": [
+            "PDT (Photodynamische Therapie)",
+            "Imiquimod"
+          ],
+          "lernpunkte": [
+            "Übergang in Plattenepithelkarzinom möglich"
+          ]
+        },
+        {
+          "id": "ON074",
+          "titel": "Plattenepithelkarzinom (Unterlippe)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "68-j. Pfeifenraucher",
+          "praesentation": "Nicht heilende Kruste an der Lippe.",
+          "befunde": [
+            "Indurierter Randwall"
+          ],
+          "diagnose": "Kutanes Plattenepithelkarzinom (SCC)",
+          "therapie": [
+            "Radikale Exzision",
+            "Lymphknotensono"
+          ],
+          "lernpunkte": [
+            "Metastasierungspotenzial höher als bei Basaliom"
+          ]
+        },
+        {
+          "id": "ON075",
+          "titel": "Mycosis fungoides (CTCL)",
+          "tags": [
+            "Lymphom"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Ekzemartige Plaques, die auf Steroide nicht ansprechen.",
+          "befunde": [
+            "Histologie: Pautrier-Mikroabszesse"
+          ],
+          "diagnose": "Kutanes T-Zell-Lymphom",
+          "therapie": [
+            "PUVA-Therapie",
+            "Bexaroten topisch"
+          ],
+          "lernpunkte": [
+            "Langer klinischer Verlauf über Jahrzehnte möglich"
+          ]
+        },
+        {
+          "id": "ON076",
+          "titel": "Kaposi-Sarkom",
+          "tags": [
+            "HIV",
+            "Vaskulär"
+          ],
+          "patient": "35-j. Patient mit HIV",
+          "praesentation": "Livide Flecken und Knoten an den Unterschenkeln.",
+          "befunde": [
+            "HHV-8 Nachweis"
+          ],
+          "diagnose": "Epidemisches Kaposi-Sarkom",
+          "therapie": [
+            "Optimierung der ART",
+            "Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Indikator-Erkrankung für AIDS"
+          ]
+        },
+        {
+          "id": "ON077",
+          "titel": "Merkelzellkarzinom",
+          "tags": [
+            "Notfall",
+            "Onkologie"
+          ],
+          "patient": "82-j. Frau",
+          "praesentation": "Rasant wachsender roter Knoten an der Wange.",
+          "befunde": [
+            "Histologie: neuroendokriner Tumor"
+          ],
+          "diagnose": "Merkelzell-Karzinom",
+          "therapie": [
+            "Exzision + Sentinel",
+            "Adjuvante Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Sehr aggressiv, hohe Metastasierungsrate"
+          ]
+        },
+        {
+          "id": "ON078",
+          "titel": "Seborrhoische Keratose",
+          "tags": [
+            "Gutartig"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Warzenartiger, brauner Fleck, wirkt 'aufgesetzt'.",
+          "befunde": [
+            "Hornperlen in der Dermatoskopie"
+          ],
+          "diagnose": "Alterswarze",
+          "therapie": [
+            "Keine nötig",
+            "Kürettage bei Irritation"
+          ],
+          "lernpunkte": [
+            "Häufigste gutartige Hautläsion des Alters"
+          ]
+        },
+        {
+          "id": "ON079",
+          "titel": "Histiozytom (Dermatofibrom)",
+          "tags": [
+            "Gutartig"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Harter kleiner Knoten am Bein nach Insektenstich.",
+          "befunde": [
+            "Dimple-Sign (Einziehung beim Kneifen)"
+          ],
+          "diagnose": "Dermatofibrom",
+          "therapie": [
+            "Keine nötig"
+          ],
+          "lernpunkte": [
+            "Gutartig, reaktive Fibrose"
+          ]
+        },
+        {
+          "id": "ON080",
+          "titel": "Dysplastischer Nävus",
+          "tags": [
+            "Präkanzerose"
+          ],
+          "patient": "28-j. Patient",
+          "praesentation": "Auffälliges Muttermal, unregelmäßige Farbe.",
+          "befunde": [
+            "Dermatoskopie: atypisches Pigmentnetz"
+          ],
+          "diagnose": "Atypischer Nävus",
+          "therapie": [
+            "Exzision zur Histologie"
+          ],
+          "lernpunkte": [
+            "Ugly Duckling Sign beachten"
+          ]
+        },
+        {
+          "id": "ON081",
+          "titel": "Malignes Melanom (Nodulär)",
+          "tags": [
+            "Melanom"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Schwarz-blauer Knoten, blutet leicht.",
+          "befunde": [
+            "Breslow 3,0 mm",
+            "Ulzeration"
+          ],
+          "diagnose": "Noduläres Melanom",
+          "therapie": [
+            "Exzision + Sentinel-LK",
+            "Adjuvante Immuntherapie"
+          ],
+          "lernpunkte": [
+            "Schlechtere Prognose als SSM durch frühe vertikale Phase"
+          ]
+        },
+        {
+          "id": "ON082",
+          "titel": "Morbus Bowen",
+          "tags": [
+            "Präkanzerose"
+          ],
+          "patient": "62-j. Frau",
+          "praesentation": "Schuppende rote Plaque am Bein (sieht aus wie Ekzem).",
+          "befunde": [
+            "Histologie: Carcinoma in situ"
+          ],
+          "diagnose": "M. Bowen",
+          "therapie": [
+            "Exzision",
+            "ggf. Imiquimod"
+          ],
+          "lernpunkte": [
+            "Differenzialdiagnose zum nummulären Ekzem"
+          ]
+        },
+        {
+          "id": "ON083",
+          "titel": "Angiosarkom der Kopfhaut",
+          "tags": [
+            "Aggressiv"
+          ],
+          "patient": "80-j. Mann",
+          "praesentation": "Bläuliche Flecken an der Glatze, wirken wie Hämatome.",
+          "befunde": [
+            "Infiltratives Wachstum"
+          ],
+          "diagnose": "Angiosarkom",
+          "therapie": [
+            "Bestrahlung",
+            "Chemotherapie"
+          ],
+          "lernpunkte": [
+            "Sehr schlechte Prognose bei älteren Männern"
+          ]
+        },
+        {
+          "id": "ON084",
+          "titel": "Dermatofibrosarcoma protuberans (DFSP)",
+          "tags": [
+            "Sarkom"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Langsam wachsender derber Tumor an der Schulter.",
+          "befunde": [
+            "Histologie: storiformes Muster"
+          ],
+          "diagnose": "DFSP",
+          "therapie": [
+            "Weite Exzision (Mohs)",
+            "Imatinib bei Rezidiv"
+          ],
+          "lernpunkte": [
+            "Lokal aggressiv, Rezidivgefahr hoch"
+          ]
+        },
+        {
+          "id": "ON085",
+          "titel": "Lentigo maligna",
+          "tags": [
+            "Melanom"
+          ],
+          "patient": "78-j. Frau",
+          "praesentation": "Großer, unregelmäßiger brauner Fleck im Gesicht.",
+          "befunde": [
+            "Melanoma in situ"
+          ],
+          "diagnose": "Lentigo maligna",
+          "therapie": [
+            "Schrittweise Exzision",
+            "ggf. Imiquimod"
+          ],
+          "lernpunkte": [
+            "Langsames Wachstum über Jahre"
+          ]
+        },
+        {
+          "id": "ON086",
+          "titel": "Keratoakanthom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Rasant wachsender Knoten mit Hornpfropf (6 Wochen).",
+          "befunde": [
+            "Zentraler Krater"
+          ],
+          "diagnose": "Keratoakanthom",
+          "therapie": [
+            "Exzision (DD SCC)"
+          ],
+          "lernpunkte": [
+            "Biologische Gutartigkeit, aber klinisch SCC-ähnlich"
+          ]
+        },
+        {
+          "id": "ON087",
+          "titel": "Malignes Melanom (Amelanotisch)",
+          "tags": [
+            "Melanom"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Rötlicher Knoten am Fuß, kein Pigment.",
+          "befunde": [
+            "Biopsie: S100+, HMB45+"
+          ],
+          "diagnose": "Amelanotisches Melanom",
+          "therapie": [
+            "Chirurgie",
+            "Staging"
+          ],
+          "lernpunkte": [
+            "Wird oft verwechselt mit Granuloma pyogenicum"
+          ]
+        },
+        {
+          "id": "ON088",
+          "titel": "Basalzellkarzinom (Sklerodermiform)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Narbenartige Hautveränderung ohne Trauma.",
+          "befunde": [
+            "Infiltratives Wachstum unter der Haut"
+          ],
+          "diagnose": "Sklerodermiformes Basaliom",
+          "therapie": [
+            "Mohs-Chirurgie obligat"
+          ],
+          "lernpunkte": [
+            "Klinisch unterschätzt, da Ränder unsichtbar"
+          ]
+        },
+        {
+          "id": "ON089",
+          "titel": "Erythroplasie de Queyrat",
+          "tags": [
+            "STI",
+            "Onkologie"
+          ],
+          "patient": "55-j. Mann, unbeschnitten",
+          "praesentation": "Samtartige rote Plaque an der Eichel.",
+          "befunde": [
+            "Histologie: In-situ Karzinom"
+          ],
+          "diagnose": "Erythroplasie de Queyrat",
+          "therapie": [
+            "Exzision",
+            "Laser"
+          ],
+          "lernpunkte": [
+            "Plattenepithelkarzinom-Vorstufe am Genitale"
+          ]
+        },
+        {
+          "id": "ON090",
+          "titel": "Mastozytose (Urticaria pigmentosa)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Multiple braune Flecken, die bei Reiben quaddeln.",
+          "befunde": [
+            "Darier-Zeichen positiv"
+          ],
+          "diagnose": "Kutane Mastozytose",
+          "therapie": [
+            "Triggervermeidung",
+            "Antihistaminika"
+          ],
+          "lernpunkte": [
+            "Tryptase-Spiegel im Verlauf kontrollieren"
+          ]
+        }
+      ]
+    },
+    "diagnostik_wunde_digital_recht": {
+      "label": "Diagnostik, Wunde & Digital Health",
+      "emoji": "📊",
+      "faelle": [
+        {
+          "id": "DT091",
+          "titel": "Ulcus cruris venosum (ICW Standard)",
+          "tags": [
+            "Wundexperte",
+            "Gefäß"
+          ],
+          "patient": "72-jährige Diabetikerin, CVI Stadium III",
+          "praesentation": "Chronische Wunde am Innenknöchel, nässend.",
+          "befunde": [
+            "Fibrinbelegter Wundgrund",
+            "Mazerierter Rand",
+            "ABI 1,0"
+          ],
+          "diagnose": "Ulcus cruris venosum",
+          "therapie": [
+            "Phasengerechte Wundauflagen",
+            "Kompressionstherapie (Kurzzug)"
+          ],
+          "lernpunkte": [
+            "Kompression ist Kausaltherapie",
+            "ABI-Messung vor Kompression!"
+          ]
+        },
+        {
+          "id": "DT092",
+          "titel": "Lymphknoten-Sonographie (DEGUM)",
+          "tags": [
+            "Sono",
+            "Onkologie"
+          ],
+          "patient": "Melanom-Patient (Nachsorge)",
+          "praesentation": "Routinekontrolle Leiste.",
+          "befunde": [
+            "LK: echoarm, rundlich, Hilusverlust, periphere Perfusion"
+          ],
+          "diagnose": "Verdacht auf Lymphknotenmetastase",
+          "therapie": [
+            "Feinnadelpunktion",
+            "Staging-CT"
+          ],
+          "lernpunkte": [
+            "DEGUM-Kriterien für Malignität (Rundheit, Echogenität)"
+          ]
+        },
+        {
+          "id": "DT093",
+          "titel": "Teledermatologische Konsultation",
+          "tags": [
+            "Telemedizin",
+            "Digital"
+          ],
+          "patient": "Patient im ländlichen Raum",
+          "praesentation": "Hautausschlag via App eingereicht (Store-and-Forward).",
+          "befunde": [
+            "Hochauflösende Fotos",
+            "Anamnese via Fragebogen"
+          ],
+          "diagnose": "Nummuläres Ekzem",
+          "therapie": [
+            "Rezept-Übermittlung digital",
+            "eAU"
+          ],
+          "lernpunkte": [
+            "Rechtliche Rahmenbedingungen (Berufsordnung) beachten"
+          ]
+        },
+        {
+          "id": "DT094",
+          "titel": "DiGA-Verordnung (Neurodermitis)",
+          "tags": [
+            "Digital Health"
+          ],
+          "patient": "Eltern eines Kindes mit AD",
+          "praesentation": "Wunsch nach digitalem Therapietagebuch.",
+          "befunde": [
+            "Bedarf an Edukation",
+            "Compliance-Steigerung"
+          ],
+          "diagnose": "Atopische Dermatitis",
+          "therapie": [
+            "Verordnung DiGA (z.B. Nia)"
+          ],
+          "lernpunkte": [
+            "Verordnung auf Muster 16 (PZN)"
+          ]
+        },
+        {
+          "id": "DT095",
+          "titel": "Operative Sanierung (Lappenplastik)",
+          "tags": [
+            "Operativ"
+          ],
+          "patient": "Defekt nach Basaliom-OP an der Nase",
+          "praesentation": "0,8 cm Defekt Flügelrinne.",
+          "befunde": [
+            "Wundgrund sauber"
+          ],
+          "diagnose": "Postoperativer Defekt",
+          "therapie": [
+            "V-Y-Verschiebelappen oder Transpositionslappen"
+          ],
+          "lernpunkte": [
+            "Spannungsfreier Verschluss zur Funktionserhaltung"
+          ]
+        },
+        {
+          "id": "DT096",
+          "titel": "Abrechnung Hautkrebs-Screening (EBM)",
+          "tags": [
+            "Recht",
+            "Wirtschaft"
+          ],
+          "patient": "GKV-Patient, 40 Jahre",
+          "praesentation": "Wunsch nach Vorsorge.",
+          "befunde": [
+            "Ganzkörperinspektion erfolgt"
+          ],
+          "diagnose": "Präventionsberatung",
+          "therapie": [
+            "Abrechnung 01745 / 01746 (Zuschlag Auflichtmikroskopie)"
+          ],
+          "lernpunkte": [
+            "Dokumentation in Hautkrebs-Screening-Software obligat"
+          ]
+        },
+        {
+          "id": "DT097",
+          "titel": "Dekubitus (ICW)",
+          "tags": [
+            "Wundexperte",
+            "Geriatrie"
+          ],
+          "patient": "85-j. Heimbewohner",
+          "praesentation": "Nekrotische Wunde sakral.",
+          "befunde": [
+            "Grad IV: Knochenbeteiligung",
+            "Nekrosen"
+          ],
+          "diagnose": "Dekubitus Grad IV",
+          "therapie": [
+            "Chirurgisches Debridement",
+            "V.A.C.-Therapie",
+            "Druckentlastung"
+          ],
+          "lernpunkte": [
+            "Braden-Skala zur Risiko-Einschätzung"
+          ]
+        },
+        {
+          "id": "DT098",
+          "titel": "Hochfrequenz-Sonographie (HFS)",
+          "tags": [
+            "Sono",
+            "Onkologie"
+          ],
+          "patient": "Basaliom-Patient",
+          "praesentation": "Bestimmung der Tumordicke präoperativ.",
+          "befunde": [
+            "20 MHz Sonographie: Tumorecho 1,5 mm tief"
+          ],
+          "diagnose": "Präoperative Planung",
+          "therapie": [
+            "Festlegung Sicherheitsabstand"
+          ],
+          "lernpunkte": [
+            "HFS zur Bestimmung der Eindringtiefe"
+          ]
+        },
+        {
+          "id": "DT099",
+          "titel": "Arbeitsunfall (Berufskrankheit)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Bauarbeiter mit AK",
+          "praesentation": "Multiple aktinische Keratosen.",
+          "befunde": [
+            "Jahrelange Exposition outdoor"
+          ],
+          "diagnose": "BK 5103 (Hautkrebs durch UV-Strahlung)",
+          "therapie": [
+            "Meldung an die Berufsgenossenschaft"
+          ],
+          "lernpunkte": [
+            "Abrechnung über UV-GOÄ"
+          ]
+        },
+        {
+          "id": "DT100",
+          "titel": "Molekularpathologie (Diagnostik)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Patient mit Naevus spilus",
+          "praesentation": "Verdacht auf Transformation.",
+          "befunde": [
+            "FISH-Analyse zeigt chromosomale Aberrationen"
+          ],
+          "diagnose": "Melanom auf Naevus spilus",
+          "therapie": [
+            "Exzision nach Staging"
+          ],
+          "lernpunkte": [
+            "Molekulare Diagnostik hilft bei Grenzfällen (SPITz vs. Melanom)"
+          ]
+        }
+      ]
+    }
+  }
+}

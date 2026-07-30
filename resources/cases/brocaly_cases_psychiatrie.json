@@ -1,0 +1,1929 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Psychiatrie und Psychotherapie",
+    "version": "1.0.0",
+    "total": 91,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "grundlagen_diagnostik": {
+      "label": "Grundlagen & Diagnostik",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "PSY_G001",
+          "titel": "Psychopathologischer Befund (AMDP)",
+          "tags": [
+            "Diagnostik",
+            "AMDP"
+          ],
+          "patient": "40-jähriger Patient zur Erstvorstellung",
+          "praesentation": "Patient wirkt im Kontakt distanziert, spricht leise und verzögert.",
+          "befunde": [
+            "Bewusstsein: klar",
+            "Orientierung: voll",
+            "Formale Denkstörung: gehemmt",
+            "Affekt: starr, depressiv"
+          ],
+          "diagnose": "Systematische Befunderhebung",
+          "therapie": [
+            "Dokumentation nach AMDP-Standard",
+            "Fremdanamnese"
+          ],
+          "lernpunkte": [
+            "Unterscheidung zwischen formalem und inhaltlichem Denken",
+            "Affektive Schwingungsfähigkeit beurteilen"
+          ]
+        },
+        {
+          "id": "PSY_G002",
+          "titel": "Laborchemische Abklärung (Basis)",
+          "tags": [
+            "Ausschluss"
+          ],
+          "patient": "55-j. mit depressiver Symptomatik",
+          "praesentation": "Antriebslosigkeit, Müdigkeit seit 3 Monaten.",
+          "befunde": [
+            "TSH 8,5 mU/l (↑)",
+            "Hb 10,2 g/dl (↓)"
+          ],
+          "diagnose": "Organische Ursache der depressiven Symptomatik",
+          "therapie": [
+            "L-Thyroxin",
+            "Eisensubstitution"
+          ],
+          "lernpunkte": [
+            "Schilddrüse und Anämie als Standard-Ausschlussdiagnostik"
+          ]
+        },
+        {
+          "id": "PSY_G003",
+          "titel": "Liquordiagnostik in der Psychiatrie",
+          "tags": [
+            "Differenzialdiagnose"
+          ],
+          "patient": "22-j. mit Erstmanifestation Psychose",
+          "praesentation": "Akute Verwirrtheit, fluktuierende Bewusstseinstrübung.",
+          "befunde": [
+            "Liquor: Pleozytose (35 Zellen/µl)",
+            "NMDA-Rezeptor-Antikörper positiv"
+          ],
+          "diagnose": "Anti-NMDAR-Enzephalitis",
+          "therapie": [
+            "Immunsuppression",
+            "Tumorsuche (Ovarialteratom)"
+          ],
+          "lernpunkte": [
+            "Organische Ursachen bei untypischer Psychose-Präsentation"
+          ]
+        },
+        {
+          "id": "PSY_G004",
+          "titel": "Therapeutisches Drug Monitoring (TDM)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "45-j. Patient unter Lithium",
+          "praesentation": "Zittern, Übelkeit, Schwindel.",
+          "befunde": [
+            "Lithium-Spiegel 1,4 mmol/l (↑)"
+          ],
+          "diagnose": "Lithium-Intoxikation",
+          "therapie": [
+            "Absetzen",
+            "Hydrierung",
+            "ggf. Hämodialyse"
+          ],
+          "lernpunkte": [
+            "Enges therapeutisches Fenster von Lithium beachten (Ziel 0,6-0,8 mmol/l)"
+          ]
+        },
+        {
+          "id": "PSY_G005",
+          "titel": "QTc-Zeit Verlängerung",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "68-j. Patient unter Haloperidol",
+          "praesentation": "Routine-EKG auf Station.",
+          "befunde": [
+            "QTc 510 ms (↑)"
+          ],
+          "diagnose": "Kardiale Nebenwirkung von Neuroleptika",
+          "therapie": [
+            "Umstellung auf QTc-neutrale Substanz (z.B. Aripiprazol)"
+          ],
+          "lernpunkte": [
+            "EKG-Kontrollen bei Antipsychotika-Gabe obligat"
+          ]
+        },
+        {
+          "id": "PSY_G006",
+          "titel": "Dexamethason-Hemmtest",
+          "tags": [
+            "Forschung"
+          ],
+          "patient": "Depressions-Patient",
+          "praesentation": "V.a. Dysregulation der HPA-Achse.",
+          "befunde": [
+            "Keine Suppression des Cortisol-Spiegels"
+          ],
+          "diagnose": "Hypercortisolismus-Marker",
+          "therapie": [
+            "Keine direkte Therapiekonsequenz",
+            "Indikator für schwere Depression"
+          ],
+          "lernpunkte": [
+            "HPA-Achse spielt zentrale Rolle in der Stressbiologie"
+          ]
+        },
+        {
+          "id": "PSY_G007",
+          "titel": "MMST Screening (Demenz)",
+          "tags": [
+            "Gerontopsychiatrie"
+          ],
+          "patient": "75-j. Patientin",
+          "praesentation": "Vergesslichkeit, Orientierungsstörungen.",
+          "befunde": [
+            "MMST-Score: 18/30",
+            "Uhrentest auffällig"
+          ],
+          "diagnose": "Verdacht auf Demenz vom Alzheimer-Typ",
+          "therapie": [
+            "Liquordiagnostik",
+            "MRT-Kopf",
+            "Cholinesterase-Hemmer"
+          ],
+          "lernpunkte": [
+            "MMST als Screening-Instrument, keine definitive Diagnose"
+          ]
+        },
+        {
+          "id": "PSY_G008",
+          "titel": "Zerebrale Bildgebung (MRT)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "60-j. mit Wesensveränderung",
+          "praesentation": "Apathie, soziale Enthemmung.",
+          "befunde": [
+            "MRT: Frontotemporale Atrophie"
+          ],
+          "diagnose": "Frontotemporale Demenz (Pick-Krankheit)",
+          "therapie": [
+            "Symptomatisch",
+            "Angehörigenberatung"
+          ],
+          "lernpunkte": [
+            "Differenzierung Demenzformen via Atrophie-Muster"
+          ]
+        },
+        {
+          "id": "PSY_G009",
+          "titel": "Strukturierte Interviews (SKID)",
+          "tags": [
+            "Forschung",
+            "Klinik"
+          ],
+          "patient": "Student zur Diagnosesicherung",
+          "praesentation": "Komplexe Symptomatik (Trauma/Angst).",
+          "befunde": [
+            "SKID-I Durchführung"
+          ],
+          "diagnose": "Mehrfachdiagnosen nach ICD-10/DSM-5",
+          "therapie": [
+            "Hierarchisierung der Behandlungsziele"
+          ],
+          "lernpunkte": [
+            "SKID erhöht die diagnostische Reliabilität"
+          ]
+        },
+        {
+          "id": "PSY_G010",
+          "titel": "Körperliche Untersuchung (Parkinsonoid)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Patient unter klassischem Neuroleptikum",
+          "praesentation": "Kleinschrittiger Gang, reduzierte Mitbewegung der Arme.",
+          "befunde": [
+            "Rigor",
+            "Tremor",
+            "Zahnradphänomen positiv"
+          ],
+          "diagnose": "Frühdyskinesie / EPS",
+          "therapie": [
+            "Dosisreduktion",
+            "Biperiden (Akineton)"
+          ],
+          "lernpunkte": [
+            "EPS als häufige Nebenwirkung von D2-Antagonisten"
+          ]
+        }
+      ]
+    },
+    "affektive_stoerungen": {
+      "label": "Affektive Störungen",
+      "emoji": "☁️",
+      "faelle": [
+        {
+          "id": "PSY_A011",
+          "titel": "Schwere Depressive Episode",
+          "tags": [
+            "Depression",
+            "Suizidalität"
+          ],
+          "patient": "42-jährige Lehrerin",
+          "praesentation": "Gefühl der Gefühllosigkeit, frühmorgendliches Erwachen, Appetitverlust.",
+          "befunde": [
+            "Antrieb: massiv gemindert",
+            "Suizidgedanken vorhanden",
+            "Affekt: starr"
+          ],
+          "diagnose": "Schwere depressive Episode (F32.2)",
+          "therapie": [
+            "SSRI (Sertralin)",
+            "KVT",
+            "ggf. stationäre Krisenintervention"
+          ],
+          "lernpunkte": [
+            "Kern-Trias: Stimmung, Antrieb, Interesse",
+            "Suizidalität aktiv explorieren"
+          ]
+        },
+        {
+          "id": "PSY_A012",
+          "titel": "Chronische Depression (CBASP)",
+          "tags": [
+            "Psychotherapie",
+            "CBASP"
+          ],
+          "patient": "38-j. Patient",
+          "praesentation": "Depressiv seit > 2 Jahren, früher Beginn (Early Onset).",
+          "befunde": [
+            "Gefühl der globalen Isolation",
+            "Hilflosigkeit"
+          ],
+          "diagnose": "Dysthymie / Chronische Depression (F34.1)",
+          "therapie": [
+            "CBASP (Cognitive Behavioral Analysis System of Psychotherapy)"
+          ],
+          "lernpunkte": [
+            "Präoperationales Denken nach Piaget als Erklärungsmodell"
+          ]
+        },
+        {
+          "id": "PSY_A013",
+          "titel": "Bipolar-I-Störung (Manische Episode)",
+          "tags": [
+            "Bipolar",
+            "Akut"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Gereiztheit, kein Schlafbedürfnis, massiver Geldausgabe.",
+          "befunde": [
+            "Ideenflucht",
+            "Größenideen",
+            "Logorrhö"
+          ],
+          "diagnose": "Manische Episode mit psychotischen Symptomen (F30.2)",
+          "therapie": [
+            "Lithium oder Valproat",
+            "Antipsychotika (Quetiapin)"
+          ],
+          "lernpunkte": [
+            "Fremdgefährdung durch riskantes Verhalten beachten"
+          ]
+        },
+        {
+          "id": "PSY_A014",
+          "titel": "Bipolar-II-Störung (Hypomanie)",
+          "tags": [
+            "Bipolar"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Phasen von Depression im Wechsel mit Phasen gesteigerter Energie (4 Tage).",
+          "befunde": [
+            "Keine soziale Desintegration in den Energiephasen"
+          ],
+          "diagnose": "Bipolar-II-Störung",
+          "therapie": [
+            "Mood Stabilizer (Lamotrigin für Depression)"
+          ],
+          "lernpunkte": [
+            "Hypomanie wird oft als 'normal gut drauf' verkannt"
+          ]
+        },
+        {
+          "id": "PSY_A015",
+          "titel": "Wahnhafte Depression",
+          "tags": [
+            "Psychotisch"
+          ],
+          "patient": "70-j. Patient",
+          "praesentation": "Überzeugung, der Darm sei verfault oder man sei völlig verarmt.",
+          "befunde": [
+            "Nihilistischer Wahn (Cotard-Syndrom)",
+            "Verarmungswahn"
+          ],
+          "diagnose": "Schwere depressive Episode mit psychotischen Symptomen (F32.3)",
+          "therapie": [
+            "Antidepressivum + Antipsychotikum",
+            "ggf. EKT als First-Line"
+          ],
+          "lernpunkte": [
+            "EKT bei psychotischer Depression hocheffektiv"
+          ]
+        },
+        {
+          "id": "PSY_A016",
+          "titel": "Saisonale Affektive Störung (SAD)",
+          "tags": [
+            "Depression"
+          ],
+          "patient": "28-j. Patientin",
+          "praesentation": "Depression immer im Herbst/Winter, Heißhunger auf Süßes.",
+          "befunde": [
+            "Atypische Symptome (Vielschlaf, Gewichtszunahme)"
+          ],
+          "diagnose": "Rezidivierende depressive Störung, SAD",
+          "therapie": [
+            "Lichttherapie (10.000 Lux)",
+            "SSRIs"
+          ],
+          "lernpunkte": [
+            "Melatonin-Dysregulation als Pathogenese"
+          ]
+        },
+        {
+          "id": "PSY_A017",
+          "titel": "Prämenstruelle dysphorische Störung (PMDS)",
+          "tags": [
+            "Hormonal"
+          ],
+          "patient": "32-j. Frau",
+          "praesentation": "Reizbarkeit und Stimmungseinbruch 1 Woche vor der Menses.",
+          "befunde": [
+            "Symptomkalender bestätigt zyklischen Verlauf"
+          ],
+          "diagnose": "PMDS",
+          "therapie": [
+            "Intermittierende SSRI-Gabe in der Lutealphase"
+          ],
+          "lernpunkte": [
+            "Streng zyklischer Verlauf ist Voraussetzung"
+          ]
+        },
+        {
+          "id": "PSY_A018",
+          "titel": "Postpartale Depression",
+          "tags": [
+            "Postpartal"
+          ],
+          "patient": "26-j. Erstgebärende",
+          "praesentation": "4 Wochen nach Geburt: Freudlosigkeit, Versagensängste gegenüber dem Kind.",
+          "befunde": [
+            "EPDS-Score > 13",
+            "Bonding-Störung"
+          ],
+          "diagnose": "Postnatale Depression",
+          "therapie": [
+            "Mutter-Kind-Einheit",
+            "stillkompatible SSRIs (Sertralin)"
+          ],
+          "lernpunkte": [
+            "Abgrenzung vom kurzzeitigen 'Baby Blues'"
+          ]
+        },
+        {
+          "id": "PSY_A019",
+          "titel": "Therapierefraktäre Depression (rTMS)",
+          "tags": [
+            "Hirnstimulation",
+            "rTMS"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Kein Ansprechen auf 3 verschiedene Medikamentenklassen.",
+          "befunde": [
+            "Schwere Depression ohne Psychose"
+          ],
+          "diagnose": "Therapierefraktäre Depression",
+          "therapie": [
+            "rTMS (repetitive transkranielle Magnetstimulation) des DLPFC"
+          ],
+          "lernpunkte": [
+            "Nicht-invasives Stimulationsverfahren"
+          ]
+        },
+        {
+          "id": "PSY_A020",
+          "titel": "EKT bei katatoner Depression",
+          "tags": [
+            "EKT",
+            "Notfall"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Nahrungsverweigerung, Stupor, Mutismus.",
+          "befunde": [
+            "Katalepsie",
+            "Negativismus"
+          ],
+          "diagnose": "Depressiver Stupor",
+          "therapie": [
+            "Elektrokonvulsionstherapie (EKT) als Ultima Ratio"
+          ],
+          "lernpunkte": [
+            "EKT ist oft lebensrettend bei Katatonie"
+          ]
+        },
+        {
+          "id": "PSY_A021",
+          "titel": "Zyklothymia",
+          "tags": [
+            "Affektiv"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Seit 2 Jahren instabile Stimmung, aber nie Kriterien für Major Depression oder Manie.",
+          "befunde": [
+            "Chronische Fluktuation"
+          ],
+          "diagnose": "Zyklothymia (F34.0)",
+          "therapie": [
+            "Mood Stabilizer",
+            "Psychoedukation"
+          ],
+          "lernpunkte": [
+            "Persönlichkeitsnah, Übergang in Bipolar-Störung möglich"
+          ]
+        },
+        {
+          "id": "PSY_A022",
+          "titel": "Antidepressiva-induzierte Manie (Switch)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Bipolar-Patient in depressiver Phase",
+          "praesentation": "Nach Start von Venlafaxin plötzlich manisch.",
+          "befunde": [
+            "Logorrhö",
+            "Agitiertheit"
+          ],
+          "diagnose": "Manischer Switch",
+          "therapie": [
+            "Absetzen Antidepressivum",
+            "Aufdosieren Quetiapin/Lithium"
+          ],
+          "lernpunkte": [
+            "Risiko bei trizyklischen AD und SNRIs höher als bei SSRIs"
+          ]
+        },
+        {
+          "id": "PSY_A023",
+          "titel": "Burnout (Zustand)",
+          "tags": [
+            "Stress"
+          ],
+          "patient": "45-j. Manager",
+          "praesentation": "Erschöpfung, Zynismus gegenüber der Arbeit, Leistungsknick.",
+          "befunde": [
+            "Keine voll ausgeprägte klinische Depression"
+          ],
+          "diagnose": "Z73 (Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung)",
+          "therapie": [
+            "Arbeitsplatzanpassung",
+            "Stressmanagement",
+            "Sport"
+          ],
+          "lernpunkte": [
+            "Burnout ist keine eigenständige Diagnose nach ICD-10, sondern ein Syndrom"
+          ]
+        },
+        {
+          "id": "PSY_A024",
+          "titel": "Trauer vs. Depression",
+          "tags": [
+            "Differenzialdiagnose"
+          ],
+          "patient": "60-j. Witwe",
+          "praesentation": "Traurigkeit nach Tod des Mannes vor 4 Monaten.",
+          "befunde": [
+            "Fähigkeit zur Freude (positiver Affekt) phasenweise möglich",
+            "Selbstwertgefühl intakt"
+          ],
+          "diagnose": "Normale Trauerreaktion",
+          "therapie": [
+            "Beratung",
+            "Selbsthilfegruppen"
+          ],
+          "lernpunkte": [
+            "Selbstwertgefühl ist bei Depression meist vermindert, bei Trauer intakt"
+          ]
+        },
+        {
+          "id": "PSY_A025",
+          "titel": "Melancholische Depression",
+          "tags": [
+            "Subtyp"
+          ],
+          "patient": "58-j. Patient",
+          "praesentation": "Morgentief, psychomotorische Hemmung, Gewichtsverlust.",
+          "befunde": [
+            "Anhedonie",
+            "Schuldgefühle"
+          ],
+          "diagnose": "Depression mit somatischem Syndrom",
+          "therapie": [
+            "Trizyklika (Amitriptylin) oder Duale Wirkstoffe"
+          ],
+          "lernpunkte": [
+            "Ansprechen auf biologische Therapien hier oft besser"
+          ]
+        },
+        {
+          "id": "PSY_A026",
+          "titel": "Depression bei Demenz (Pseudodemenz)",
+          "tags": [
+            "Gerontopsychiatrie"
+          ],
+          "patient": "80-j. Mann",
+          "praesentation": "Kognitive Defizite, wirkt verwirrt.",
+          "befunde": [
+            "Antwortet oft mit 'weiß nicht'",
+            "Leistungsdiskrepanz zwischen Test und Alltag"
+          ],
+          "diagnose": "Depressive Pseudodemenz",
+          "therapie": [
+            "SSRIs",
+            "Aktivierung"
+          ],
+          "lernpunkte": [
+            "Patienten mit Demenz versuchen Defizite zu verstecken, Depressive betonen sie"
+          ]
+        },
+        {
+          "id": "PSY_A027",
+          "titel": "Atypische Depression",
+          "tags": [
+            "Subtyp"
+          ],
+          "patient": "25-j. Frau",
+          "praesentation": "Stimmungsreaktivität (Aufhellung bei positiven Ereignissen), bleierne Schwere.",
+          "befunde": [
+            "Hyperphagie",
+            "Hypersomnie"
+          ],
+          "diagnose": "Atypische Depression",
+          "therapie": [
+            "SSRIs",
+            "ggf. MAO-Hemmer"
+          ],
+          "lernpunkte": [
+            "Stimmungsreaktivität ist das Kernmerkmal"
+          ]
+        },
+        {
+          "id": "PSY_A028",
+          "titel": "Double Depression",
+          "tags": [
+            "Chronisch"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Verschlechterung einer seit Jahren bestehenden chronischen Verstimmung.",
+          "befunde": [
+            "Dysthymie + aufgesetzte depressive Episode"
+          ],
+          "diagnose": "Double Depression",
+          "therapie": [
+            "Kombination Pharmakotherapie + CBASP"
+          ],
+          "lernpunkte": [
+            "Häufig schwerer Verlauf und hohe Rückfallquote"
+          ]
+        },
+        {
+          "id": "PSY_A029",
+          "titel": "Agitierte Depression",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Quälende Unruhe, Jammern, Händeringen, Suiziddruck.",
+          "befunde": [
+            "Psychomotorische Unruhe bei depressiver Stimmung"
+          ],
+          "diagnose": "Agitierte Depression",
+          "therapie": [
+            "Mirtazapin oder sedierende Antipsychotika"
+          ],
+          "lernpunkte": [
+            "Hohes Suizidrisiko durch den vorhandenen Antrieb"
+          ]
+        },
+        {
+          "id": "PSY_A030",
+          "titel": "Rezidivprophylaxe (Phasenprophylaxe)",
+          "tags": [
+            "Bipolar"
+          ],
+          "patient": "Pat. nach 2 manischen und 1 depressiven Episode",
+          "praesentation": "Wunsch nach langfristiger Stabilität.",
+          "befunde": [
+            "Stimmungsstabil unter Lithium"
+          ],
+          "diagnose": "Bipolare Störung, Remission",
+          "therapie": [
+            "Dauerhafte Lithium-Gabe"
+          ],
+          "lernpunkte": [
+            "Lithium reduziert auch das Suizidrisiko"
+          ]
+        }
+      ]
+    },
+    "schizophrenie_psychosen": {
+      "label": "Schizophrenie & Psychosen",
+      "emoji": "🌀",
+      "faelle": [
+        {
+          "id": "PSY_S031",
+          "titel": "Paranoide Schizophrenie (Erstmanifestation)",
+          "tags": [
+            "Psychose",
+            "Schizophrenie"
+          ],
+          "patient": "23-jähriger Student",
+          "praesentation": "Rückzug, Überzeugung von Nachbarn abgehört zu werden, Stimmenhören.",
+          "befunde": [
+            "Wahrnehmung: Kommentierende Stimmen",
+            "Ich-Störung: Gedankenlautwerden",
+            "Wahn: Verfolgungswahn"
+          ],
+          "diagnose": "Paranoide Schizophrenie (F20.0)",
+          "therapie": [
+            "Atypische Antipsychotika (Risperidon)",
+            "Psychoedukation"
+          ],
+          "lernpunkte": [
+            "Symptome 1. Ranges nach Schneider (Stimmenhören, Ich-Störungen)"
+          ]
+        },
+        {
+          "id": "PSY_S032",
+          "titel": "Hebephrene Schizophrenie",
+          "tags": [
+            "Pädiatrie",
+            "Jung"
+          ],
+          "patient": "17-j. Jugendlicher",
+          "praesentation": "Lappisches Verhalten, unvorhersehbare Affekte, zielloser Antrieb.",
+          "befunde": [
+            "Affekt: inadäquat (Parathymie)",
+            "Denken: zerfahren"
+          ],
+          "diagnose": "Hebephrene Schizophrenie (F20.1)",
+          "therapie": [
+            "Soziotherapie",
+            "Antipsychotika"
+          ],
+          "lernpunkte": [
+            "Beginn meist zwischen 15. und 25. Lebensjahr, schlechte Prognose"
+          ]
+        },
+        {
+          "id": "PSY_S033",
+          "titel": "Katatone Schizophrenie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Verharren in bizarren Stellungen für Stunden.",
+          "befunde": [
+            "Stupor",
+            "Flexibilitas cerea (wächserne Biegsamkeit)"
+          ],
+          "diagnose": "Katatone Schizophrenie (F20.2)",
+          "therapie": [
+            "Lorazepam i.v. (Lorazepam-Test)",
+            "EKT"
+          ],
+          "lernpunkte": [
+            "Perniziöse Katatonie: Lebensgefahr durch Hyperthermie"
+          ]
+        },
+        {
+          "id": "PSY_S034",
+          "titel": "Schizoaffektive Störung",
+          "tags": [
+            "Mischform"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Gleichzeitiges Vorliegen einer Manie und schizophrenen Wahnsinn.",
+          "befunde": [
+            "Gereiztheit + Gedankenentzug"
+          ],
+          "diagnose": "Schizoaffektive Störung, gegenw. manisch (F25.0)",
+          "therapie": [
+            "Neuroleptika + Mood Stabilizer"
+          ],
+          "lernpunkte": [
+            "Bessere Prognose als Schizophrenie, schlechtere als bipolare Störung"
+          ]
+        },
+        {
+          "id": "PSY_S035",
+          "titel": "Persistierende wahnhafte Störung",
+          "tags": [
+            "Wahn"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Seit 5 Jahren Überzeugung, dass der Vermieter heimlich nachts die Wohnung umräumt.",
+          "befunde": [
+            "Monowahn (umschrieben)",
+            "Sonst völlig unauffälliges Verhalten"
+          ],
+          "diagnose": "Anhaltende wahnhafte Störung (F22.0)",
+          "therapie": [
+            "Antipsychotika (oft geringe Wirkung)",
+            "stützende Gespräche"
+          ],
+          "lernpunkte": [
+            "Systematisierter Wahn ohne Halluzinationen"
+          ]
+        },
+        {
+          "id": "PSY_S036",
+          "titel": "Schizophrenes Residuum",
+          "tags": [
+            "Chronisch"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Verschlechterung der Hygiene, Antriebslosigkeit, Affektverflachung.",
+          "befunde": [
+            "Negativsymptomatik",
+            "Keine produktive Symptomatik (Wahn/Halluzination) mehr"
+          ],
+          "diagnose": "Schizophrenes Residuum (F20.5)",
+          "therapie": [
+            "Atypika mit Fokus auf Negativsymptomatik (z.B. Cariprazin)"
+          ],
+          "lernpunkte": [
+            "Negativsymptomatik ist prognostisch entscheidend"
+          ]
+        },
+        {
+          "id": "PSY_S037",
+          "titel": "Therapierefraktäre Schizophrenie (Clozapin)",
+          "tags": [
+            "Pharmakologie",
+            "Clozapin"
+          ],
+          "patient": "30-j. Patient",
+          "praesentation": "Persistierende Stimmen trotz Risperidon und Olanzapin.",
+          "befunde": [
+            "Starker Leidensdruck"
+          ],
+          "diagnose": "Therapierefraktäre Schizophrenie",
+          "therapie": [
+            "Umstellung auf Clozapin"
+          ],
+          "lernpunkte": [
+            "Blutbildkontrollen wegen Agranulozytose-Risiko obligat"
+          ]
+        },
+        {
+          "id": "PSY_S038",
+          "titel": "Prodromalphase",
+          "tags": [
+            "Früherkennung"
+          ],
+          "patient": "19-j. Student",
+          "praesentation": "Leistungsknick, sensorische Überreizung, sozialer Rückzug.",
+          "befunde": [
+            "Basisstörungen",
+            "Magisches Denken"
+          ],
+          "diagnose": "Psychose-Risiko-Syndrom",
+          "therapie": [
+            "Frühinterventionszentrum",
+            "Psychotherapie"
+          ],
+          "lernpunkte": [
+            "Dauer des unbehandelten Prodroms verkürzen"
+          ]
+        },
+        {
+          "id": "PSY_S039",
+          "titel": "Akute vorübergehende psychotische Störung",
+          "tags": [
+            "Kurzpsychose"
+          ],
+          "patient": "40-j. nach schwerem Verlust",
+          "praesentation": "Plötzlicher Wahn, Verwirrtheit, wechselnde Symptome innerhalb von Tagen.",
+          "befunde": [
+            "Polymorphe Psychose"
+          ],
+          "diagnose": "Akute vorübergehende psychotische Störung (F23)",
+          "therapie": [
+            "Kurzzeit-Neuroleptika",
+            "Benzodiazepine zur Beruhigung"
+          ],
+          "lernpunkte": [
+            "Remission meist innerhalb von Wochen"
+          ]
+        },
+        {
+          "id": "PSY_S040",
+          "titel": "Spätschizophrenie (Paraphrenie)",
+          "tags": [
+            "Gerontopsychiatrie"
+          ],
+          "patient": "75-j. Frau",
+          "praesentation": "Fühlt sich von 'Strahlen' durch die Wand belästigt.",
+          "befunde": [
+            "Systemisierter Wahn bei sonst guter Kognition"
+          ],
+          "diagnose": "Schizophrenie mit spätem Beginn",
+          "therapie": [
+            "Niedrig dosierte Antipsychotika"
+          ],
+          "lernpunkte": [
+            "Oft assoziiert mit sensorischen Defiziten (Hörverlust)"
+          ]
+        },
+        {
+          "id": "PSY_S041",
+          "titel": "Eifersuchtswahn (Othello-Syndrom)",
+          "tags": [
+            "Wahn"
+          ],
+          "patient": "60-j. Alkoholiker",
+          "praesentation": "Überzeugung, Ehefrau würde ihn ständig betrügen.",
+          "befunde": [
+            "Pathologische Suche nach Beweisen"
+          ],
+          "diagnose": "Eifersuchtswahn bei Alkoholabhängigkeit",
+          "therapie": [
+            "Abstinenz",
+            "Neuroleptika"
+          ],
+          "lernpunkte": [
+            "Gefahr von Gewalttaten gegenüber dem Partner"
+          ]
+        },
+        {
+          "id": "PSY_S042",
+          "titel": "Capgras-Syndrom (Doppelgängerwahn)",
+          "tags": [
+            "Wahn"
+          ],
+          "patient": "25-j. Schizophrener",
+          "praesentation": "Behauptet, die Mutter sei durch einen Roboter ersetzt worden, der exakt so aussieht.",
+          "befunde": [
+            "Misidentifikations-Wahn"
+          ],
+          "diagnose": "Wahnhaftes Fehlidentifikationssyndrom",
+          "therapie": [
+            "Antipsychotika"
+          ],
+          "lernpunkte": [
+            "Störung der emotionalen Gesichtserkennung"
+          ]
+        },
+        {
+          "id": "PSY_S043",
+          "titel": "Körperdysmorphe Störung (Wahnhaft)",
+          "tags": [
+            "Wahn"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Überzeugung, die Nase sei völlig deformiert, trotz gegenteiliger ärztlicher Befunde.",
+          "befunde": [
+            "Zentraler Wahn-Inhalt"
+          ],
+          "diagnose": "Wahnhafte Störung, somatischer Typ",
+          "therapie": [
+            "Neuroleptika",
+            "KEINE chirurgische Korrektur"
+          ],
+          "lernpunkte": [
+            "Operationswünsche bei Wahnerkrankungen nicht erfüllen"
+          ]
+        },
+        {
+          "id": "PSY_S044",
+          "titel": "Frühkindliche Schizophrenie",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Auffälliges Spielverhalten, Halluzinationen von 'Monstern'.",
+          "befunde": [
+            "Sprachentwicklungsstopp",
+            "Wahrnehmungsstörung"
+          ],
+          "diagnose": "Very early onset Schizophrenia",
+          "therapie": [
+            "Multimodal",
+            "Kinder- und Jugendpsychiatrie"
+          ],
+          "lernpunkte": [
+            "Sehr selten, oft mit kognitiven Defiziten"
+          ]
+        },
+        {
+          "id": "PSY_S045",
+          "titel": "Metabolische Nebenwirkungen",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Patient unter Olanzapin",
+          "praesentation": "Zunahme von 10 kg Gewicht in 3 Monaten.",
+          "befunde": [
+            "BZ-Erhöhung",
+            "Hyperlipidämie"
+          ],
+          "diagnose": "Metabolisches Syndrom durch Neuroleptika",
+          "therapie": [
+            "Umstellung (z.B. auf Ziprasidon/Aripiprazol)",
+            "Metformin?"
+          ],
+          "lernpunkte": [
+            "Regelmäßige Kontrolle von Gewicht, Taillenumfang und Labor"
+          ]
+        }
+      ]
+    },
+    "angst_zwang_trauma": {
+      "label": "Angst, Zwang & Trauma",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "PSY_AZT046",
+          "titel": "Panikstörung",
+          "tags": [
+            "Angst"
+          ],
+          "patient": "30-jährige Patientin",
+          "praesentation": "Plötzliche Atemnot, Herzrasen, Todesangst beim Einkaufen.",
+          "befunde": [
+            "Organisch unauffällig (Herz/Lunge)",
+            "Vermeidungsverhalten"
+          ],
+          "diagnose": "Panikstörung mit Agoraphobie (F40.01)",
+          "therapie": [
+            "Expositionstherapie",
+            "SSRIs"
+          ],
+          "lernpunkte": [
+            "Kreislauf der Angst (Angst vor der Angst)"
+          ]
+        },
+        {
+          "id": "PSY_AZT047",
+          "titel": "Generalisierte Angststörung (GAS)",
+          "tags": [
+            "Angst"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Ständige Sorgen um Finanzen, Gesundheit der Kinder, Haushalt.",
+          "befunde": [
+            "Muskelverspannungen",
+            "Schlafstörungen",
+            "Sorgenketten"
+          ],
+          "diagnose": "GAS (F41.1)",
+          "therapie": [
+            "Sorgenexposition",
+            "SSRIs / Pregabalin"
+          ],
+          "lernpunkte": [
+            "Sorgen sind das Kernmerkmal, nicht die Panik"
+          ]
+        },
+        {
+          "id": "PSY_AZT048",
+          "titel": "Soziale Phobie",
+          "tags": [
+            "Angst"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Angst vor Referaten, Angst rot zu werden oder zu zittern.",
+          "befunde": [
+            "Vermeidung von Blickkontakt",
+            "sozialer Rückzug"
+          ],
+          "diagnose": "Soziale Phobie (F40.1)",
+          "therapie": [
+            "Gruppentherapie",
+            "Video-Feedback"
+          ],
+          "lernpunkte": [
+            "Fokus auf Selbstaufmerksamkeit reduzieren"
+          ]
+        },
+        {
+          "id": "PSY_AZT049",
+          "titel": "Posttraumatische Belastungsstörung (PTBS)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "40-j. nach schwerem Autounfall",
+          "praesentation": "Flashbacks, Albträume, Schreckhaftigkeit.",
+          "befunde": [
+            "Hyperarousal",
+            "Vermeidung des Unfallorts"
+          ],
+          "diagnose": "PTBS (F43.1)",
+          "therapie": [
+            "EMDR",
+            "Traumafokussierte KVT"
+          ],
+          "lernpunkte": [
+            "Unterscheidung zwischen akuter Belastungsreaktion und PTBS"
+          ]
+        },
+        {
+          "id": "PSY_AZT050",
+          "titel": "Zwangsstörung (Waschzwang)",
+          "tags": [
+            "Zwang"
+          ],
+          "patient": "28-j. Mann",
+          "praesentation": "Hände waschen für 4 Stunden täglich bis zur Blutung.",
+          "befunde": [
+            "Zwangsbefürchtung: Infektion",
+            "Zwangshandlung: Waschen"
+          ],
+          "diagnose": "Zwangsstörung (F42)",
+          "therapie": [
+            "Exposition mit Reaktionsverhinderung",
+            "Hochdosis SSRI"
+          ],
+          "lernpunkte": [
+            "Zwangshandlungen dienen der kurzfristigen Angstreduktion"
+          ]
+        },
+        {
+          "id": "PSY_AZT051",
+          "titel": "Emetophobie",
+          "tags": [
+            "Angst"
+          ],
+          "patient": "19-j. Frau",
+          "praesentation": "Panische Angst vor Erbrechen (eigenem oder fremden).",
+          "befunde": [
+            "Massive Essenseinschränkung",
+            "Vermeidung von Partys"
+          ],
+          "diagnose": "Spezifische Phobie (Emetophobie)",
+          "therapie": [
+            "Graduierte Exposition"
+          ],
+          "lernpunkte": [
+            "Oft verwechselt mit Anorexie wegen Gewichtsverlust"
+          ]
+        },
+        {
+          "id": "PSY_AZT053",
+          "titel": "Anpassungsstörung",
+          "tags": [
+            "Stress"
+          ],
+          "patient": "55-j. Mann nach Kündigung",
+          "praesentation": "Gedrückte Stimmung, Sorgen, Gefühl der Überforderung.",
+          "befunde": [
+            "Symptome begannen innerhalb 1 Monats nach Stressor"
+          ],
+          "diagnose": "Anpassungsstörung (F43.2)",
+          "therapie": [
+            "Krisenintervention",
+            "stützende Gespräche"
+          ],
+          "lernpunkte": [
+            "Zeitbegrenzung der Diagnose (max. 2 Jahre)"
+          ]
+        },
+        {
+          "id": "PSY_AZT054",
+          "titel": "Hoarding Disorder (Messie-Syndrom)",
+          "tags": [
+            "Zwang"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Wohnung nicht mehr begehbar durch angesammelte Zeitungen.",
+          "befunde": [
+            "Unfähigkeit Dinge wegzuwerfen"
+          ],
+          "diagnose": "Pathologisches Horten",
+          "therapie": [
+            "KVT (Heimbesuche)",
+            "Motivationsarbeit"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum Diogenes-Syndrom (Verwahrlosung)"
+          ]
+        },
+        {
+          "id": "PSY_AZT055",
+          "titel": "Trichotillomanie",
+          "tags": [
+            "Zwang"
+          ],
+          "patient": "15-j. Mädchen",
+          "praesentation": "Ausreißen der Augenbrauen und Kopfhaare.",
+          "befunde": [
+            "Umschriebene kahle Stellen (Alopezie)"
+          ],
+          "diagnose": " Trichotillomanie (F63.3)",
+          "therapie": [
+            "Habit Reversal Training"
+          ],
+          "lernpunkte": [
+            "Spannungsabbau durch Haarausreißen"
+          ]
+        },
+        {
+          "id": "PSY_AZT057",
+          "titel": "Dissoziative Amnesie",
+          "tags": [
+            "Dissoziativ"
+          ],
+          "patient": "30-j. nach Überfall",
+          "praesentation": "Kann sich an die Tat und die Stunden danach nicht erinnern.",
+          "befunde": [
+            "Keine organische Amnesie (SHT/Alkohol)"
+          ],
+          "diagnose": "Dissoziative Amnesie (F44.0)",
+          "therapie": [
+            "Sicherheit schaffen",
+            "Stabilisierung"
+          ],
+          "lernpunkte": [
+            "Schutzmechanismus der Psyche"
+          ]
+        },
+        {
+          "id": "PSY_AZT060",
+          "titel": "Krankheitsangst (Cyberchondrie)",
+          "tags": [
+            "Angst"
+          ],
+          "patient": "28-j. IT-Spezialist",
+          "praesentation": "Stundenlange Recherche zu Hirntumoren wegen Kopfschmerz.",
+          "befunde": [
+            "Reversibilität durch Rückversicherung nur kurzfristig"
+          ],
+          "diagnose": "Krankheitsangststörung",
+          "therapie": [
+            "KVT (Behaviorale Experimente)"
+          ],
+          "lernpunkte": [
+            "Internetnutzung wirkt hier verstärkend auf Angst"
+          ]
+        }
+      ]
+    },
+    "abhaengigkeit": {
+      "label": "Abhängigkeitserkrankungen",
+      "emoji": "🍷",
+      "faelle": [
+        {
+          "id": "PSY_SUB061",
+          "titel": "Alkoholabhängigkeit (Entzug)",
+          "tags": [
+            "Abhängigkeit",
+            "Notfall"
+          ],
+          "patient": "50-jähriger Patient",
+          "praesentation": "Zittern, Schwitzen, Tachykardie 24h nach Abstinenz.",
+          "befunde": [
+            "Tremor",
+            "erhöhter Blutdruck",
+            "CRAVE-Skala hoch"
+          ],
+          "diagnose": "Alkoholkrankheit, akutes Entzugssyndrom (F10.3)",
+          "therapie": [
+            "Clomethiazol oder Diazepam",
+            "Vitamin B1 (Thiamin)"
+          ],
+          "lernpunkte": [
+            "Wernicke-Enzephalopathie-Prophylaxe",
+            "Gefahr des Delirium tremens"
+          ]
+        },
+        {
+          "id": "PSY_SUB062",
+          "titel": "Opioidabhängigkeit (Substitution)",
+          "tags": [
+            "Abhängigkeit"
+          ],
+          "patient": "35-j. Patient, i.v. Konsum",
+          "praesentation": "Wunsch nach Therapie bei Entzugssymptomatik.",
+          "befunde": [
+            "Pupillenverengung",
+            "Injektionsspuren"
+          ],
+          "diagnose": "Opioidabhängigkeit (F11.2)",
+          "therapie": [
+            "Methadon oder Buprenorphin Substitution"
+          ],
+          "lernpunkte": [
+            "Schadensminimierung und soziale Stabilisierung"
+          ]
+        },
+        {
+          "id": "PSY_SUB063",
+          "titel": "Cannabis-induzierte Psychose",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "19-j. Konsument",
+          "praesentation": "Akuter Verfolgungswahn nach Konsum.",
+          "befunde": [
+            "Paranoia",
+            "Angst"
+          ],
+          "diagnose": "Psychotische Störung durch Cannabinoide (F12.5)",
+          "therapie": [
+            "Abstinenz",
+            "Niederpotente Neuroleptika"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für Schizophrenie-Erstmanifestation"
+          ]
+        },
+        {
+          "id": "PSY_SUB064",
+          "titel": "Benzodiazepinabhängigkeit (Niedrigdosis)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Nimmt seit 10 Jahren Lorazepam 1mg zum Schlafen.",
+          "befunde": [
+            "Kognitive Defizite",
+            "Sturzgefahr"
+          ],
+          "diagnose": "Low-dose Benzodiazepinabhängigkeit",
+          "therapie": [
+            "Langsames Ausschleichen über Monate"
+          ],
+          "lernpunkte": [
+            "Gefahr von Rebound-Insomnie beim Absetzen"
+          ]
+        },
+        {
+          "id": "PSY_SUB065",
+          "titel": "Pathologisches Glücksspiel",
+          "tags": [
+            "Verhalten"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Hohe Schulden, Lügen gegenüber der Familie.",
+          "befunde": [
+            "Kontrollverlust beim Spielen"
+          ],
+          "diagnose": "Pathologisches Glücksspiel (F63.0)",
+          "therapie": [
+            "KVT",
+            "Schuldnerberatung",
+            "Selbsthilfegruppe"
+          ],
+          "lernpunkte": [
+            "Störung der Impulskontrolle"
+          ]
+        },
+        {
+          "id": "PSY_SUB066",
+          "titel": "Amphetamin-Psychose",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "22-j. Partygänger",
+          "praesentation": "Massive Unruhe, taktile Halluzinationen ('Wanzen unter der Haut').",
+          "befunde": [
+            "Tachykardie",
+            "Mydriasis"
+          ],
+          "diagnose": "Dermatozoenwahn bei Stimulanzienkonsum",
+          "therapie": [
+            "Sedierung (Benzos)",
+            "Antipsychotika"
+          ],
+          "lernpunkte": [
+            "Differenzialdiagnose zur Schizophrenie"
+          ]
+        },
+        {
+          "id": "PSY_SUB067",
+          "titel": "Korsakow-Syndrom",
+          "tags": [
+            "Chronisch"
+          ],
+          "patient": "55-j. Langzeit-Alkoholiker",
+          "praesentation": "Massive Gedächtnislücken, die mit erfundenen Geschichten gefüllt werden.",
+          "befunde": [
+            "Konfabulationen",
+            "Desorientierung"
+          ],
+          "diagnose": "Amnestisches Syndrom (F10.6)",
+          "therapie": [
+            "Substitution B1",
+            "betreutes Wohnen"
+          ],
+          "lernpunkte": [
+            "Irreversible Hirnschädigung nach Wernicke-Enzephalopathie"
+          ]
+        },
+        {
+          "id": "PSY_SUB068",
+          "titel": "Kokainabhängigkeit",
+          "tags": [
+            "Abhängigkeit"
+          ],
+          "patient": "33-j. Börsenmakler",
+          "praesentation": "Depressive Verstimmung nach Absetzen, starker Suchtdruck.",
+          "befunde": [
+            "Septum-Perforation (Nase)"
+          ],
+          "diagnose": "Kokainabhängigkeit (F14.2)",
+          "therapie": [
+            "Rückfallprävention",
+            "KVT"
+          ],
+          "lernpunkte": [
+            "Physischer Entzug gering, psychischer Entzug extrem"
+          ]
+        },
+        {
+          "id": "PSY_SUB069",
+          "titel": "Katamnestische Begleitung (Antabus)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Alkoholkranker, motiviert zur Abstinenz",
+          "praesentation": "Wunsch nach medikamentöser Unterstützung.",
+          "befunde": [
+            "Keine Leberzirrhose"
+          ],
+          "diagnose": "Status nach Entzug",
+          "therapie": [
+            "Disulfiram (Antabus)"
+          ],
+          "lernpunkte": [
+            "Acetaldehyd-Syndrom bei Alkoholkonsum"
+          ]
+        },
+        {
+          "id": "PSY_SUB070",
+          "titel": "Polytoxikomanie",
+          "tags": [
+            "Abhängigkeit"
+          ],
+          "patient": "25-j. Patient",
+          "praesentation": "Mischkonsum von Heroin, Benzos und Alkohol.",
+          "befunde": [
+            "Vigilanzschwankungen"
+          ],
+          "diagnose": "Abhängigkeit von mehreren Substanzen (F19.2)",
+          "therapie": [
+            "Stationäre Entgiftung",
+            "Krisenmanagement"
+          ],
+          "lernpunkte": [
+            "Hohes Überdosierungsrisiko durch Synergieeffekte"
+          ]
+        },
+        {
+          "id": "PSY_SUB071",
+          "titel": "Tabakabhängigkeit",
+          "tags": [
+            "Abhängigkeit"
+          ],
+          "patient": "50-j. COPD-Patient",
+          "praesentation": "Kann trotz Lungenkrankheit nicht aufhören.",
+          "befunde": [
+            "Fagerström-Test hoch"
+          ],
+          "diagnose": "Nikotinabhängigkeit (F17.2)",
+          "therapie": [
+            "Vareniclin / Bupropion",
+            "Nikotinersatz"
+          ],
+          "lernpunkte": [
+            "KVT + Pharmakotherapie verdoppelt Erfolgsrate"
+          ]
+        },
+        {
+          "id": "PSY_SUB072",
+          "titel": "Kratom-Abhängigkeit",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "30-j. Selbstoptimierer",
+          "praesentation": "Entzugsbeschwerden (Grippeähnlich) nach Absetzen eines Kräutertees.",
+          "befunde": [
+            "Myalgien",
+            "Unruhe"
+          ],
+          "diagnose": "Opioid-ähnliche Abhängigkeit",
+          "therapie": [
+            "Symptomatischer Entzug"
+          ],
+          "lernpunkte": [
+            "Neue psychoaktive Substanzen (NPS)"
+          ]
+        },
+        {
+          "id": "PSY_SUB073",
+          "titel": "Halluzinogen-induzierte Persistierende Wahrnehmungsstörung (HPPD)",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "24-j. nach LSD-Konsum",
+          "praesentation": "Dauerhafte visuelle Störungen (Farben, Nachbilder) Monate nach Konsum.",
+          "befunde": [
+            "Keine Psychose",
+            "Einsicht vorhanden"
+          ],
+          "diagnose": "HPPD ('Flashback')",
+          "therapie": [
+            "Lamotrigin",
+            "Psychoedukation"
+          ],
+          "lernpunkte": [
+            "Chronische Störung der Wahrnehmungsfilter"
+          ]
+        },
+        {
+          "id": "PSY_SUB074",
+          "titel": "Sucht im Alter",
+          "tags": [
+            "Geronto"
+          ],
+          "patient": "78-j. alleinlebende Frau",
+          "praesentation": "Stürze, Verwirrtheit.",
+          "befunde": [
+            "Nimmt heimlich Schlaftabletten und Eierlikör"
+          ],
+          "diagnose": "Alkoholkrankheit + Benzodiazepin-Abhängigkeit",
+          "therapie": [
+            "Altersentsprechender Entzug",
+            "Aktivierung"
+          ],
+          "lernpunkte": [
+            "Sucht im Alter wird oft als Demenz verkannt"
+          ]
+        },
+        {
+          "id": "PSY_SUB075",
+          "titel": "Computer- und Internetspielsucht",
+          "tags": [
+            "Verhalten"
+          ],
+          "patient": "16-j. Schüler",
+          "praesentation": "Tag-Nacht-Umkehr, Schulabbruch, nur noch Online-Spiele.",
+          "befunde": [
+            "Vernachlässigung der Grundbedürfnisse"
+          ],
+          "diagnose": "Gaming Disorder",
+          "therapie": [
+            "Medienkompetenztraining",
+            "Familientherapie"
+          ],
+          "lernpunkte": [
+            "Anerkennung als eigenständige Diagnose im ICD-11"
+          ]
+        }
+      ]
+    },
+    "persoenlichkeitsstoerungen": {
+      "label": "Persönlichkeitsstörungen",
+      "emoji": "🎭",
+      "faelle": [
+        {
+          "id": "PSY_PP076",
+          "titel": "Borderline-Persönlichkeitsstörung",
+          "tags": [
+            "Persönlichkeit",
+            "DBT"
+          ],
+          "patient": "22-jährige Patientin",
+          "praesentation": "Selbstverletzendes Verhalten (Ritzen), instabile Beziehungen, Impulsivität.",
+          "befunde": [
+            "Gefühl innerer Leere",
+            "Suizidandrohungen",
+            "Identitätsstörung"
+          ],
+          "diagnose": "Instabile Persönlichkeitsstörung, Borderline-Typ (F60.31)",
+          "therapie": [
+            "DBT (Dialektisch-Behaviorale Therapie)",
+            "Skills-Training"
+          ],
+          "lernpunkte": [
+            "Spannungsregulation durch Skills",
+            "Validierung als therapeutisches Grundelement"
+          ]
+        },
+        {
+          "id": "PSY_PP079",
+          "titel": "Narzissistische Persönlichkeitsstörung",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Krise nach beruflichem Misserfolg, starke Kränkbarkeit.",
+          "befunde": [
+            "Größenfantasien",
+            "Empathiemangel",
+            "Anspruchshaltung"
+          ],
+          "diagnose": "Narzissistische PS (F60.8)",
+          "therapie": [
+            "Klärungsorientierte Psychotherapie"
+          ],
+          "lernpunkte": [
+            "Hinter der Fassade oft geringes Selbstwertgefühl"
+          ]
+        },
+        {
+          "id": "PSY_PP080",
+          "titel": "Dissoziale Persönlichkeitsstörung",
+          "tags": [
+            "Forensik"
+          ],
+          "patient": "28-j. Mann",
+          "praesentation": "Häufige Delikte, keine Reue, Impulsivität.",
+          "befunde": [
+            "Missachtung sozialer Normen",
+            "Frustrationstoleranz niedrig"
+          ],
+          "diagnose": "Dissoziale PS (F60.2)",
+          "therapie": [
+            "Soziotherapie",
+            "Motivationsarbeit"
+          ],
+          "lernpunkte": [
+            "Oft Z.n. Störung des Sozialverhaltens im Kindesalter"
+          ]
+        },
+        {
+          "id": "PSY_PP081",
+          "titel": "Emotional-instabile PS (Impulsiver Typ)",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Häufige Schlägereien, Wutausbrüche, instabile Stimmung.",
+          "befunde": [
+            "Handelt ohne Konsequenzabwägung"
+          ],
+          "diagnose": "Impulsive PS (F60.30)",
+          "therapie": [
+            "Anti-Aggressivitäts-Training"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum Borderline-Typ (hier weniger SVV)"
+          ]
+        },
+        {
+          "id": "PSY_PP082",
+          "titel": "Anankastische (Zwanghafte) PS",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "50-j. Buchhalter",
+          "praesentation": "Perfektionismus behindert Aufgabenerledigung, extreme Starrheit.",
+          "befunde": [
+            "Übermäßige Gewissenhaftigkeit"
+          ],
+          "diagnose": "Zwanghafte PS (F60.5)",
+          "therapie": [
+            "KVT (Flexibilisierung)"
+          ],
+          "lernpunkte": [
+            "Egosynton (vs. Egodyston bei Zwangsstörung)"
+          ]
+        },
+        {
+          "id": "PSY_PP083",
+          "titel": "Ängstlich-vermeidende PS",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "22-j. Studentin",
+          "praesentation": "Gefühl der Minderwertigkeit, Vermeidung von sozialen Kontakten aus Angst vor Ablehnung.",
+          "befunde": [
+            "Überempfindlichkeit gegenüber Kritik"
+          ],
+          "diagnose": "Ängstlich-vermeidende PS (F60.6)",
+          "therapie": [
+            "Soziales Kompetenztraining"
+          ],
+          "lernpunkte": [
+            "Überlappung mit generalisierter Sozialer Phobie"
+          ]
+        },
+        {
+          "id": "PSY_PP084",
+          "titel": "Schizoide Persönlichkeitsstörung",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "40-j. IT-Einzelgänger",
+          "praesentation": "Kein Interesse an sozialen Beziehungen, Einzelgänger aus Überzeugung.",
+          "befunde": [
+            "Emotionaler Rückzug",
+            "Gleichgültigkeit gegenüber Lob/Kritik"
+          ],
+          "diagnose": "Schizoide PS (F60.1)",
+          "therapie": [
+            "Stützende Therapie (oft kein Therapiebedarf)"
+          ],
+          "lernpunkte": [
+            "Keine Paranoia (vs. Schizotypisch)"
+          ]
+        },
+        {
+          "id": "PSY_PP085",
+          "titel": "Paranoide Persönlichkeitsstörung",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Misstrauen gegenüber allen Mitmenschen, unterstellt bösartige Motive.",
+          "befunde": [
+            "Nachtragend",
+            "Streitsucht"
+          ],
+          "diagnose": "Paranoide PS (F60.0)",
+          "therapie": [
+            "Beziehungsaufbau schwierig"
+          ],
+          "lernpunkte": [
+            "Wahnkriterien nicht erfüllt"
+          ]
+        },
+        {
+          "id": "PSY_PP086",
+          "titel": "Histrionische Persönlichkeitsstörung",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Dramatisches Verhalten, Bedürfnis im Mittelpunkt zu stehen, verführerisch.",
+          "befunde": [
+            "Suggestibilität",
+            "Oberflächliche Affektivität"
+          ],
+          "diagnose": "Histrionische PS (F60.4)",
+          "therapie": [
+            "Übertragungsfokussierte Therapie"
+          ],
+          "lernpunkte": [
+            "Gefühlswelt wird oft als unauthentisch erlebt"
+          ]
+        },
+        {
+          "id": "PSY_PP087",
+          "titel": "Abhängige (Dependent) PS",
+          "tags": [
+            "Persönlichkeit"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Kann keine Entscheidungen ohne Partner treffen, Angst vor dem Alleinsein.",
+          "befunde": [
+            "Unterordnung eigener Bedürfnisse"
+          ],
+          "diagnose": "Abhängige PS (F60.7)",
+          "therapie": [
+            "Autonomietraining"
+          ],
+          "lernpunkte": [
+            "Häufige Opferrolle in Beziehungen"
+          ]
+        }
+      ]
+    },
+    "notfall_recht_geronto": {
+      "label": "Notfall, Recht & Gerontopsychiatrie",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "PSY_NR091",
+          "titel": "Akute Suizidalität",
+          "tags": [
+            "Notfall",
+            "Krisenintervention"
+          ],
+          "patient": "19-jähriger nach Trennung",
+          "praesentation": "Hat Abschiedsbrief geschrieben, steht an Brücke.",
+          "befunde": [
+            "Einengung",
+            "Suizidimpuls nicht steuerbar"
+          ],
+          "diagnose": "Akute suizidale Krise",
+          "therapie": [
+            "Geschützte Unterbringung (PsychKHG)",
+            "Krisengespräch"
+          ],
+          "lernpunkte": [
+            "Pöldinger-Fragen zur Risikoabschätzung",
+            "Nie allein lassen"
+          ]
+        },
+        {
+          "id": "PSY_NR092",
+          "titel": "Delirium tremens",
+          "tags": [
+            "Notfall",
+            "Sucht"
+          ],
+          "patient": "55-j. Alkoholiker",
+          "praesentation": "Desorientierung, optische Halluzinationen (weiße Mäuse), Fieber.",
+          "befunde": [
+            "Suggestibilität positiv",
+            "Nesteln",
+            "Tachykardie"
+          ],
+          "diagnose": "Alkoholentzugsdelir (F10.4)",
+          "therapie": [
+            "Benzodiazepine / Clomethiazol",
+            "Haloperidol (bei Wahn)"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall, intensivmedizinische Überwachung"
+          ]
+        },
+        {
+          "id": "PSY_NR093",
+          "titel": "Malignes Neuroleptisches Syndrom (MNS)",
+          "tags": [
+            "Notfall",
+            "Pharmakologie"
+          ],
+          "patient": "Patient unter hoher Dosis Haloperidol",
+          "praesentation": "Stupor, Fieber 40°C, Rigor.",
+          "befunde": [
+            "CK massiv↑",
+            "Leukozytose"
+          ],
+          "diagnose": "MNS",
+          "therapie": [
+            "Absetzen Antipsychotika",
+            "Dantrolen / Bromocriptin",
+            "Intensivstation"
+          ],
+          "lernpunkte": [
+            "Seltene, aber potenziell tödliche Komplikation"
+          ]
+        },
+        {
+          "id": "PSY_NR094",
+          "titel": "Unterbringung nach PsychKHG",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Eigengefährdeter Patient",
+          "praesentation": "Verweigert stationäre Aufnahme bei Suizidabsicht.",
+          "befunde": [
+            "Kein Absprachefähigkeit möglich"
+          ],
+          "diagnose": "Akute Eigengefährdung",
+          "therapie": [
+            "Einweisung durch Ordnungsamt/Arzt (PsychKHG)"
+          ],
+          "lernpunkte": [
+            "Richterliche Anhörung binnen 24h obligat"
+          ]
+        },
+        {
+          "id": "PSY_NR095",
+          "titel": "Betreuungsrecht (Zwangsmedikation)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Chronisch Schizophrener",
+          "praesentation": "Massive psychotische Eigengefährdung, verweigert Medikation.",
+          "befunde": [
+            "Keine Einsichtsfähigkeit"
+          ],
+          "diagnose": "Paranoide Schizophrenie",
+          "therapie": [
+            "Antrag auf Genehmigung einer Zwangsbehandlung über Betreuer/Gericht"
+          ],
+          "lernpunkte": [
+            "Hohe rechtliche Hürden (BVerfG-Urteile)"
+          ]
+        },
+        {
+          "id": "PSY_NR096",
+          "titel": "Demenz mit herausforderndem Verhalten",
+          "tags": [
+            "Geronto"
+          ],
+          "patient": "85-j. Heimbewohner",
+          "praesentation": "Schlägt nachts nach Pflegepersonal, Agitiertheit.",
+          "befunde": [
+            "BPSD (Behavioral and Psychological Symptoms of Dementia)"
+          ],
+          "diagnose": "Vaskuläre Demenz",
+          "therapie": [
+            "Milieutherapie",
+            "Risperidon low-dose (kurzfristig)"
+          ],
+          "lernpunkte": [
+            "Antipsychotika bei Demenz erhöhen Mortalitätsrisiko (Stroke)"
+          ]
+        },
+        {
+          "id": "PSY_NR097",
+          "titel": "Serotonin-Syndrom",
+          "tags": [
+            "Notfall",
+            "Pharmakologie"
+          ],
+          "patient": "Kombination Sertralin + Tramadol",
+          "praesentation": "Durchfall, Schwitzen, Myoklonien, Agitiertheit.",
+          "befunde": [
+            "Hyperreflexie",
+            "Tremor"
+          ],
+          "diagnose": "Serotonin-Syndrom",
+          "therapie": [
+            "Absetzen beider Substanzen",
+            "Kühlung",
+            "Benzodiazepine"
+          ],
+          "lernpunkte": [
+            "Gefahr der Hyperthermie"
+          ]
+        },
+        {
+          "id": "PSY_NR098",
+          "titel": "Schuldunfähigkeit (§ 20 StGB)",
+          "tags": [
+            "Recht",
+            "Forensik"
+          ],
+          "patient": "Täter einer Körperverletzung im Wahn",
+          "praesentation": "Exploration zur Schuldfähigkeit.",
+          "befunde": [
+            "Akute Psychose zum Tatzeitpunkt"
+          ],
+          "diagnose": "V.a. § 20 StGB erfüllt",
+          "therapie": [
+            "Maßregelvollzug (§ 63 StGB)"
+          ],
+          "lernpunkte": [
+            "Einsichts- oder Steuerungsfähigkeit aufgehoben"
+          ]
+        },
+        {
+          "id": "PSY_NR099",
+          "titel": "Anticholinerges Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Überdosis trizyklische Antidepressiva",
+          "praesentation": "Trockene Haut, weite Pupillen, Harnverhalt, Verwirrtheit.",
+          "befunde": [
+            "'Heiß wie ein Ofen, trocken wie ein Knochen, rot wie eine Rübe'"
+          ],
+          "diagnose": "Anticholinerges Delir",
+          "therapie": [
+            "Physostigmin (Antidot)"
+          ],
+          "lernpunkte": [
+            "Häufig bei Polypharmazie im Alter"
+          ]
+        },
+        {
+          "id": "PSY_NR100",
+          "titel": "Vigilanzminderung bei Überdosis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. mit leerer Packung Quetiapin",
+          "praesentation": "Somnolenz, Atemdepression.",
+          "befunde": [
+            "Miosis",
+            "Bradypnoe"
+          ],
+          "diagnose": "Intoxikation mit Neuroleptika",
+          "therapie": [
+            "Magenspülung (wenn < 1h)",
+            "Aktivkohle",
+            "Überwachung"
+          ],
+          "lernpunkte": [
+            "Supportive Therapie steht im Vordergrund"
+          ]
+        }
+      ]
+    }
+  }
+}

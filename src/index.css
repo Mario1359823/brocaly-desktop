@@ -1,0 +1,149 @@
+@import '@fontsource-variable/inter';
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-modal: 20px;
+
+  --breakpoint-tablet: 48rem;
+  --breakpoint-md: 56rem;
+
+  --color-brand-green: #1F6B3F;
+  --color-brand-orange: #DA6B22;
+  --color-brand-navy: #1a2744;
+
+  /* Theme Overrides representing brand */
+  --color-blue-50: color-mix(in srgb, var(--color-brand-green) 5%, white);
+  --color-blue-100: color-mix(in srgb, var(--color-brand-green) 10%, white);
+  --color-blue-200: color-mix(in srgb, var(--color-brand-green) 20%, white);
+  --color-blue-300: color-mix(in srgb, var(--color-brand-green) 40%, white);
+  --color-blue-400: color-mix(in srgb, var(--color-brand-green) 60%, white);
+  --color-blue-500: var(--color-brand-green);
+  --color-blue-600: color-mix(in srgb, var(--color-brand-green) 80%, black);
+  --color-blue-700: color-mix(in srgb, var(--color-brand-green) 60%, black);
+  --color-blue-800: color-mix(in srgb, var(--color-brand-green) 40%, black);
+  --color-blue-900: color-mix(in srgb, var(--color-brand-green) 25%, black);
+  --color-blue-950: color-mix(in srgb, var(--color-brand-green) 15%, black);
+
+  --color-cyan-50: color-mix(in srgb, var(--color-brand-orange) 5%, white);
+  --color-cyan-100: color-mix(in srgb, var(--color-brand-orange) 10%, white);
+  --color-cyan-200: color-mix(in srgb, var(--color-brand-orange) 20%, white);
+  --color-cyan-300: color-mix(in srgb, var(--color-brand-orange) 40%, white);
+  --color-cyan-400: color-mix(in srgb, var(--color-brand-orange) 60%, white);
+  --color-cyan-500: var(--color-brand-orange);
+  --color-cyan-600: color-mix(in srgb, var(--color-brand-orange) 80%, black);
+}
+
+@layer base {
+  html, body {
+    /* Use dynamic viewport height — accounts for mobile browser chrome (Android nav bar, iOS Safari URL bar) */
+    min-height: 100dvh;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased relative;
+    /* Soft global green gradient */
+    background-image: radial-gradient(circle at 15% 50%, rgba(31, 107, 63, 0.05), transparent 25%),
+      radial-gradient(circle at 85% 30%, rgba(218, 107, 34, 0.05), transparent 25%);
+    background-attachment: fixed;
+  }
+  /* iOS Safari: prevent auto-zoom when focusing inputs with font-size < 16px */
+  input, select, textarea {
+    font-size: max(16px, 1em);
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-slate-500);
+    opacity: 1;
+  }
+  /* Remove tap highlight artefact on Android Chrome */
+  button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+  button:focus-visible,
+  a:focus-visible,
+  [role="button"]:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-brand-green) 70%, white) !important;
+    outline-offset: 3px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
+
+  .animate-spin,
+  .animate-pulse,
+  .animate-bounce {
+    animation: none !important;
+  }
+
+  [class*="blur-["] {
+    filter: blur(24px) !important;
+    opacity: 0.55 !important;
+  }
+}
+
+/* Mobile landscape: reduce padding and font sizes for compact vertical space */
+@media (orientation: landscape) and (max-height: 500px) {
+  .exam-orb-container { gap: 0.5rem !important; padding: 0.5rem !important; }
+  .exam-orb-container .orb-status { display: none; }
+}
+
+.markdown-body p {
+  @apply mb-4 last:mb-0;
+}
+
+.markdown-body strong {
+  @apply text-slate-900 font-bold;
+}
+
+/* ─── Landing-Page: Marquee & Hero-Orbs (neues Design) ─── */
+@keyframes brocaly-marquee {
+  to { transform: translateX(-50%); }
+}
+.landing-marquee-track {
+  animation: brocaly-marquee 60s linear infinite;
+}
+.landing-marquee-track:hover {
+  animation-play-state: paused;
+}
+@keyframes brocaly-orb-drift {
+  from { transform: translate(0, 0) scale(1); }
+  to { transform: translate(-60px, 50px) scale(1.12); }
+}
+.landing-hero-orb {
+  animation: brocaly-orb-drift 18s ease-in-out infinite alternate;
+}
+@media (prefers-reduced-motion: reduce) {
+  .landing-marquee-track, .landing-hero-orb { animation: none !important; }
+}
+
+@layer utilities {
+  /* Frameless-window drag strip. Interactive children must opt back out. */
+  .app-drag {
+    -webkit-app-region: drag;
+  }
+
+  .app-no-drag,
+  .app-drag button,
+  .app-drag a,
+  .app-drag input {
+    -webkit-app-region: no-drag;
+  }
+}

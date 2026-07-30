@@ -1,0 +1,2071 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Diabetologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-30"
+  },
+  "kategorien": {
+    "diagnostik_klassifikation": {
+      "label": "Diagnostik & Klassifikation",
+      "emoji": "🧪",
+      "faelle": [
+        {
+          "id": "DIA_D001",
+          "titel": "Diabetes mellitus Typ 1 (Erstmanifestation)",
+          "tags": [
+            "Typ 1",
+            "Autoimmun"
+          ],
+          "patient": "19-jähriger Student, schlank",
+          "praesentation": "Gewichtsverlust (6kg/2 Wochen), massiver Durst, Leistungsknick.",
+          "befunde": [
+            "HbA1c 11,2%",
+            "Glukosurie ++++",
+            "GAD-Antikörper positiv",
+            "C-Peptid supprimiert"
+          ],
+          "diagnose": "Diabetes mellitus Typ 1",
+          "therapie": [
+            "Intensivierte Insulintherapie (ICT)",
+            "Diabetes-Schulung"
+          ],
+          "lernpunkte": [
+            "Absoluter Insulinmangel",
+            "Autoantikörper-Nachweis zur Sicherung (GAD, IA2, ZnT8)"
+          ]
+        },
+        {
+          "id": "DIA_D002",
+          "titel": "Diabetes mellitus Typ 2 (Metabolisches Syndrom)",
+          "tags": [
+            "Typ 2"
+          ],
+          "patient": "52-j. Mann, BMI 32",
+          "praesentation": "Zufallsfund bei Routine-Check.",
+          "befunde": [
+            "HbA1c 7,2%",
+            "Nüchternglukose 155 mg/dl",
+            "Hypertonus, Fettleber"
+          ],
+          "diagnose": "Diabetes mellitus Typ 2",
+          "therapie": [
+            "Lebensstilintervention",
+            "Metformin"
+          ],
+          "lernpunkte": [
+            "Insulinresistenz und relativer Insulinmangel",
+            "Multimodaler Ansatz (RR, Lipide)"
+          ]
+        },
+        {
+          "id": "DIA_D003",
+          "titel": "LADA (Latent Autoimmune Diabetes in Adults)",
+          "tags": [
+            "Typ 1",
+            "Autoimmun"
+          ],
+          "patient": "45-j. schlanke Frau",
+          "praesentation": "Vermeintlicher Typ 2 Diabetes, orales Therapieversagen nach 1 Jahr.",
+          "befunde": [
+            "HbA1c 8,5% unter Metformin",
+            "GAD-AK hochpositiv"
+          ],
+          "diagnose": "LADA (Typ 1.5)",
+          "therapie": [
+            "Früher Beginn mit Insulin"
+          ],
+          "lernpunkte": [
+            "Schleichende Zerstörung der Beta-Zellen im Erwachsenenalter"
+          ]
+        },
+        {
+          "id": "DIA_D004",
+          "titel": "MODY 3 (HNF1A-Mutation)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "22-j. Patient, schlank",
+          "praesentation": "Leichte Hyperglykämie, starke Familienanamnese über 3 Generationen.",
+          "befunde": [
+            "Autoantikörper negativ",
+            "C-Peptid normal",
+            "Mutation HNF1A"
+          ],
+          "diagnose": "MODY 3",
+          "therapie": [
+            "Sulfonylharnstoffe (oft hochwirksam)"
+          ],
+          "lernpunkte": [
+            "Häufigste MODY-Form",
+            "Fehldiagnose als Typ 1 vermeiden"
+          ]
+        },
+        {
+          "id": "DIA_D005",
+          "titel": "MODY 2 (Glukokinase-Defekt)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Zufallsfund erhöhte Nüchternglukose.",
+          "befunde": [
+            "HbA1c stabil bei 6,0 - 6,5%",
+            "Nüchternglukose leicht erhöht (110 mg/dl)"
+          ],
+          "diagnose": "MODY 2",
+          "therapie": [
+            "Meist keine Therapie nötig"
+          ],
+          "lernpunkte": [
+            "'Sollwert-Verstellung' der BZ-Regulation",
+            "Meist komplikationsfreier Verlauf"
+          ]
+        },
+        {
+          "id": "DIA_D006",
+          "titel": "Sekundärer Diabetes (Pankreopriv)",
+          "tags": [
+            "Typ 3c"
+          ],
+          "patient": "48-j. Mann nach chronischer Pankreatitis",
+          "praesentation": "Fettstühle, jetzt Gewichtsverlust und Durst.",
+          "befunde": [
+            "Z.n. Teilresektion Pankreas",
+            "exokrine Insuffizienz"
+          ],
+          "diagnose": "Diabetes mellitus Typ 3c",
+          "therapie": [
+            "Insulin + Enzymsubstitution"
+          ],
+          "lernpunkte": [
+            "Gefahr schwerer Hypoglykämien durch fehlendes Glukagon"
+          ]
+        },
+        {
+          "id": "DIA_D007",
+          "titel": "Gestationsdiabetes (GDM)",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "30-j. Schwangere, 26. SSW",
+          "praesentation": "oGTT-Screening.",
+          "befunde": [
+            "oGTT 75g: 1h-Wert 195 mg/dl (pathologisch)"
+          ],
+          "diagnose": "GDM",
+          "therapie": [
+            "Ernährungsumstellung",
+            "BZ-Selbstkontrolle"
+          ],
+          "lernpunkte": [
+            "BZ-Ziele in der SS strenger (< 95 nüchtern, < 140 nach 1h)"
+          ]
+        },
+        {
+          "id": "DIA_D008",
+          "titel": "Diabetes bei M. Cushing",
+          "tags": [
+            "Typ 3d"
+          ],
+          "patient": "40-j. Frau, Stammfettsucht",
+          "praesentation": "Vollmondgesicht, Hypertonus.",
+          "befunde": [
+            "Cortisol↑",
+            "sekundäre Hyperglykämie"
+          ],
+          "diagnose": "Endokrin induzierter Diabetes",
+          "therapie": [
+            "Kausal: Therapie des Cushing",
+            "Antidiabetika passager"
+          ],
+          "lernpunkte": [
+            "Glukokortikoide steigern Gluconeogenese und Insulinresistenz"
+          ]
+        },
+        {
+          "id": "DIA_D009",
+          "titel": "Prädiabetes (IFG/IGT)",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "50-j. Mann, Taillenumfang 105 cm",
+          "praesentation": "Check-up.",
+          "befunde": [
+            "Nüchternglukose 115 mg/dl",
+            "HbA1c 6,1%"
+          ],
+          "diagnose": "Impaired Fasting Glucose (IFG)",
+          "therapie": [
+            "Lifestyle-Intervention (FINDRISK)"
+          ],
+          "lernpunkte": [
+            "Hohes Progressionsrisiko zum manifesten Diabetes"
+          ]
+        },
+        {
+          "id": "DIA_D010",
+          "titel": "Steroid-induzierter Diabetes",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "70-j. mit COPD-Exazerbation",
+          "praesentation": "BZ-Anstieg unter 50mg Prednisolon.",
+          "befunde": [
+            "BZ postprandial 300 mg/dl"
+          ],
+          "diagnose": "Steroiddiabetes",
+          "therapie": [
+            "Basalunterstützte orale Therapie (BOT) oder NPH-Insulin"
+          ],
+          "lernpunkte": [
+            "Steroide wirken vor allem auf den postprandialen BZ"
+          ]
+        },
+        {
+          "id": "DIA_D011",
+          "titel": "Akromegalie-assoziierter Diabetes",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "45-j. Mann, wachsende Hände/Füße",
+          "praesentation": "Diabetes schwer einstellbar.",
+          "befunde": [
+            "STH/IGF-1 massiv erhöht"
+          ],
+          "diagnose": "Sekundärer Diabetes bei Akromegalie",
+          "therapie": [
+            "Adenomentfernung Hypophyse"
+          ],
+          "lernpunkte": [
+            "Wachstumshormon als Gegenspieler von Insulin"
+          ]
+        },
+        {
+          "id": "DIA_D012",
+          "titel": "Hämochromatose (Bronzediabetes)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "55-j. Mann, dunkle Hautpigmentierung",
+          "praesentation": "Arthralgien, Hepatomegalie, Diabetes.",
+          "befunde": [
+            "Ferritin > 1000",
+            "Transferrinsättigung hoch"
+          ],
+          "diagnose": "Diabetes bei Hämochromatose",
+          "therapie": [
+            "Aderlass",
+            "Insulin"
+          ],
+          "lernpunkte": [
+            "Eisendeposition in den Inselzellen"
+          ]
+        },
+        {
+          "id": "DIA_D013",
+          "titel": "Zystische Fibrose assoziierter Diabetes (CFRD)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "15-j. Patient mit Mukoviszidose",
+          "praesentation": "Verschlechterung der Lungenfunktion, Gewichtsverlust.",
+          "befunde": [
+            "oGTT pathologisch",
+            "CFRD-Screening jährlich"
+          ],
+          "diagnose": "CFRD",
+          "therapie": [
+            "Insulin (keine oralen Antidiabetika!)"
+          ],
+          "lernpunkte": [
+            "Mischform aus Typ 1 und Typ 2 Charakteristika"
+          ]
+        },
+        {
+          "id": "DIA_D014",
+          "titel": "Atypischer HbA1c (Hämoglobinopathie)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Pat. mit Sichelzellanämie",
+          "praesentation": "Widersprüchliche BZ-Werte.",
+          "befunde": [
+            "HbA1c 5,2% bei mittlerem BZ von 200 mg/dl"
+          ],
+          "diagnose": "Falsch-niedriger HbA1c",
+          "therapie": [
+            "BZ-Tagebuch",
+            "Fructosamin-Bestimmung"
+          ],
+          "lernpunkte": [
+            "Verkürzte Erythrozytenlebensdauer führt zu falsch-niedrigen HbA1c-Werten"
+          ]
+        },
+        {
+          "id": "DIA_D015",
+          "titel": "Insulinom (Differentialdiagnose)",
+          "tags": [
+            "Hypoglykämie"
+          ],
+          "patient": "40-j. Frau, Bewusstlosigkeit beim Fasten",
+          "praesentation": "Whipple-Trias positiv.",
+          "befunde": [
+            "BZ 30 mg/dl, Insulin↑, C-Peptid↑",
+            "Hungerversuch positiv"
+          ],
+          "diagnose": "Insulinom",
+          "therapie": [
+            "Chirurgische Enukleation"
+          ],
+          "lernpunkte": [
+            "C-Peptid-Nachweis schließt exogene Zufuhr (Factitia) aus"
+          ]
+        }
+      ]
+    },
+    "akutkomplikationen": {
+      "label": "Akutkomplikationen",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "DIA_A016",
+          "titel": "Diabetische Ketoazidose (DKA)",
+          "tags": [
+            "Notfall",
+            "Typ 1"
+          ],
+          "patient": "22-jähriger Typ 1 Diabetiker nach Infekt",
+          "praesentation": "Erbrechen, Bauchschmerzen (Pseudoperitonitis), Kussmaul-Atmung, Acetongeruch.",
+          "befunde": [
+            "BZ 450 mg/dl",
+            "pH 7,1",
+            "Bikarbonat niedrig",
+            "Ketone im Urin +++"
+          ],
+          "diagnose": "Schwere diabetische Ketoazidose",
+          "therapie": [
+            "Rehydratation (NaCl)",
+            "Insulin i.v. low-dose",
+            "Kalium-Substitution!"
+          ],
+          "lernpunkte": [
+            "Kalium sinkt bei Insulingabe rapide (Gefahr Arhythmie)",
+            "Gefahr Hirnödem bei zu schneller Senkung"
+          ]
+        },
+        {
+          "id": "DIA_A017",
+          "titel": "Hyperosmolares Koma (HHS)",
+          "tags": [
+            "Notfall",
+            "Typ 2"
+          ],
+          "patient": "82-j. Heimbewohner, Exsikkose",
+          "praesentation": "Somnolenz, keine Ketose-Zeichen.",
+          "befunde": [
+            "BZ 950 mg/dl",
+            "Osmolalität > 320 mosm/kg",
+            "Serum-Natrium↑"
+          ],
+          "diagnose": "Hyperosmolares hyperglykämisches Syndrom",
+          "therapie": [
+            "Massive Rehydratation",
+            "vorsichtig Insulin"
+          ],
+          "lernpunkte": [
+            "Flüssigkeitsdefizit steht im Vordergrund",
+            "Höhere Mortalität als DKA"
+          ]
+        },
+        {
+          "id": "DIA_A018",
+          "titel": "Schwere Hypoglykämie (Fremdhilfe)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. Diabetiker unter Glibenclamid",
+          "praesentation": "Bewusstlosigkeit, Krampfanfall.",
+          "befunde": [
+            "BZ 25 mg/dl"
+          ],
+          "diagnose": "Medikamentöse Hypoglykämie",
+          "therapie": [
+            "Glukose 40% i.v.",
+            "stationäre Überwachung für 48h"
+          ],
+          "lernpunkte": [
+            "Sulfonylharnstoffe haben lange HWZ (Gefahr der Re-Hypoglykämie)"
+          ]
+        },
+        {
+          "id": "DIA_A019",
+          "titel": "Hypoglycaemia unawareness",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Langjähriger Typ 1 Diabetiker (30 J. Dauer)",
+          "praesentation": "Kollaps ohne Vorwarnung (kein Zittern/Schwitzen).",
+          "befunde": [
+            "Häufige Werte < 50 mg/dl ohne Symptome"
+          ],
+          "diagnose": "Wahrnehmungsstörung für Hypoglykämien",
+          "therapie": [
+            "Hypoglykämie-Wahrnehmungstraining (BGAT)",
+            "rtCGM mit Alarm"
+          ],
+          "lernpunkte": [
+            "Verlust der autonomen Warnsymptome durch häufige Hypos"
+          ]
+        },
+        {
+          "id": "DIA_A020",
+          "titel": "Euglykämische Ketoazidose (SGLT2-I)",
+          "tags": [
+            "Nebenwirkung"
+          ],
+          "patient": "Typ 2 Diabetiker unter Empagliflozin",
+          "praesentation": "Übelkeit, Dyspnoe nach kohlenhydratarmer Diät.",
+          "befunde": [
+            "BZ 140 mg/dl (normal!)",
+            "pH 7,2",
+            "Anionenlücke erhöht"
+          ],
+          "diagnose": "Euglykämische DKA",
+          "therapie": [
+            "Kohlenhydrate + Insulin",
+            "Absetzen SGLT2-I"
+          ],
+          "lernpunkte": [
+            "SGLT2-Inhibitoren können DKA bei fast normalen BZ-Werten maskieren"
+          ]
+        },
+        {
+          "id": "DIA_A021",
+          "titel": "Alkoholkonsum & Hypoglykämie",
+          "tags": [
+            "Risiko"
+          ],
+          "patient": "20-j. Typ 1 Diabetiker nach Party",
+          "praesentation": "Schwere Hypoglykämie am nächsten Morgen.",
+          "befunde": [
+            "BZ 35 mg/dl"
+          ],
+          "diagnose": "Ethanol-induzierte Hypoglykämie",
+          "therapie": [
+            "Glukose-Zufuhr"
+          ],
+          "lernpunkte": [
+            "Alkohol hemmt die Gluconeogenese der Leber für Stunden"
+          ]
+        },
+        {
+          "id": "DIA_A022",
+          "titel": "Dawn-Phänomen",
+          "tags": [
+            "Tagesprofil"
+          ],
+          "patient": "Jugendlicher Typ 1 Diabetiker",
+          "praesentation": "Nüchtern-BZ morgens 250, nachts 100 mg/dl.",
+          "befunde": [
+            "Zunahme der Wachstumshormone"
+          ],
+          "diagnose": "Dawn-Phänomen",
+          "therapie": [
+            "Anpassung Basalrate/Insulinpumpe"
+          ],
+          "lernpunkte": [
+            "Physiologischer Insulinmehrbedarf in den frühen Morgenstunden"
+          ]
+        },
+        {
+          "id": "DIA_A023",
+          "titel": "Somogyi-Effekt",
+          "tags": [
+            "Tagesprofil"
+          ],
+          "patient": "Pat. mit nächtlichen Albträumen",
+          "praesentation": "Morgendliche Hyperglykämie nach nächtlicher Hypo.",
+          "befunde": [
+            "Gegenregulation durch Stresshormone"
+          ],
+          "diagnose": "Somogyi-Effekt",
+          "therapie": [
+            "Reduktion des Abend-Basalinsulins"
+          ],
+          "lernpunkte": [
+            "Posthypoglykämische Hyperglykämie"
+          ]
+        },
+        {
+          "id": "DIA_A024",
+          "titel": "Laktatazidose unter Metformin",
+          "tags": [
+            "Nebenwirkung"
+          ],
+          "patient": "75-j. mit schwerem Infekt und Nierenversagen",
+          "praesentation": "Somnolenz, tiefe Atmung.",
+          "befunde": [
+            "Laktat 12 mmol/l",
+            "pH 7,0",
+            "Metformin-Spiegel hoch"
+          ],
+          "diagnose": "Metformin-assoziierte Laktatazidose (MALA)",
+          "therapie": [
+            "Hämodialyse"
+          ],
+          "lernpunkte": [
+            "Akutes Nierenversagen als Trigger bei Metformin-Therapie"
+          ]
+        },
+        {
+          "id": "DIA_A025",
+          "titel": "Hypoglykämie bei Niereninsuffizienz",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Typ 2 Diabetiker, GFR-Abfall",
+          "praesentation": "Häufige Hypos unter unveränderter Dosis.",
+          "befunde": [
+            "Kreatinin-Anstieg"
+          ],
+          "diagnose": "Relative Insulinüberdosierung",
+          "therapie": [
+            "Dosisreduktion",
+            "Präparatewechsel"
+          ],
+          "lernpunkte": [
+            "Renale Insulin-Elimination sinkt bei CKD"
+          ]
+        },
+        {
+          "id": "DIA_A026",
+          "titel": "Fehlendes Insulin (Pumpendefekt)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pumpenträger, plötzlich BZ 400",
+          "praesentation": "Übelkeit.",
+          "befunde": [
+            "Katheter abgeknickt"
+          ],
+          "diagnose": "Beginnende Ketose bei technischem Defekt",
+          "therapie": [
+            "Korrektur mit Pen",
+            "Katheterwechsel"
+          ],
+          "lernpunkte": [
+            "Sehr schneller Ketose-Beginn bei Pumpe (kein Depot!)"
+          ]
+        },
+        {
+          "id": "DIA_A027",
+          "titel": "Ketoazidose bei Insulinpumpe (AID)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit Hybrid-Closed-Loop",
+          "praesentation": "Vermeintliche Korrektur durch System schlägt fehl.",
+          "befunde": [
+            "Sensorwerte falsch-niedrig?"
+          ],
+          "diagnose": "Systemversagen",
+          "therapie": [
+            "Manuelle BZ-Messung",
+            "Notfallalgorithmus"
+          ],
+          "lernpunkte": [
+            "Blindes Vertrauen in Technik gefährlich"
+          ]
+        },
+        {
+          "id": "DIA_A028",
+          "titel": "Glukagon-Nasenspray (Notfall)",
+          "tags": [
+            "Therapie"
+          ],
+          "patient": "Schüler mit Typ 1",
+          "praesentation": "Bewusstlosigkeit im Klassenzimmer.",
+          "befunde": [
+            "Hypoglykämie"
+          ],
+          "diagnose": "Schwere Hypo",
+          "therapie": [
+            "Gabe von intranasalem Glukagon (Baqsimi) durch Lehrer"
+          ],
+          "lernpunkte": [
+            "Einfache Anwendung durch Laien"
+          ]
+        },
+        {
+          "id": "DIA_A029",
+          "titel": "Injektions-Hypertrophie (Lipohypertrophie)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Typ 2 Diabetiker, schwankende Werte",
+          "praesentation": "BZ mal 300, mal 60.",
+          "befunde": [
+            "Derbe Erhebungen am Bauch (Injektionsstellen)"
+          ],
+          "diagnose": "Lipohypertrophie",
+          "therapie": [
+            "Injektionsstellenwechsel konsequent"
+          ],
+          "lernpunkte": [
+            "Unvorhersehbare Resorption aus 'Insulin-Spritzen-Hügeln'"
+          ]
+        },
+        {
+          "id": "DIA_A030",
+          "titel": "Hypoglykämie nach Sport",
+          "tags": [
+            "Risiko"
+          ],
+          "patient": "Leistungssportler Typ 1",
+          "praesentation": "Hypoglykämie nachts nach Wettkampf am Nachmittag.",
+          "befunde": [
+            "Muskel-Auffülleffekt"
+          ],
+          "diagnose": "Verzögerte Belastungshypoglykämie",
+          "therapie": [
+            "KH-Zufuhr nach Sport",
+            "Basalratenreduktion"
+          ],
+          "lernpunkte": [
+            "'Muskelmast-Effekt' hält bis zu 24h an"
+          ]
+        }
+      ]
+    },
+    "mikroangiopathie": {
+      "label": "Mikroangiopathie & Organfolgeschäden",
+      "emoji": "👁️",
+      "faelle": [
+        {
+          "id": "DIA_M031",
+          "titel": "Proliferative Retinopathie",
+          "tags": [
+            "Auge"
+          ],
+          "patient": "60-jähriger Diabetiker, Visusabfall",
+          "praesentation": "Schleiersehen.",
+          "befunde": [
+            "Augenhintergrund: Neovaskularisationen, präretinale Blutungen"
+          ],
+          "diagnose": "Proliferative diabetische Retinopathie (PDR)",
+          "therapie": [
+            "Laser-Photokoagulation",
+            "Anti-VEGF intravitreal"
+          ],
+          "lernpunkte": [
+            "Häufigste Erblindungsursache im erwerbsfähigen Alter",
+            "Jährliches Screening!"
+          ]
+        },
+        {
+          "id": "DIA_M032",
+          "titel": "Diabetische Nephropathie (Albuminurie)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "55-j. Mann, Typ 2 Diabetes seit 10 J.",
+          "praesentation": "Zufallsbefund im Urin.",
+          "befunde": [
+            "Albumin-Kreatinin-Ratio (ACR) 150 mg/g (A2)"
+          ],
+          "diagnose": "Diabetische Nierenerkrankung (DKD) Stadium G2/A2",
+          "therapie": [
+            "ACE-Hemmer (Renoprotektion)",
+            "SGLT2-Inhibitor"
+          ],
+          "lernpunkte": [
+            "Albuminurie als Frühmarker",
+            "Progressionshemmung durch RAAS-Blockade"
+          ]
+        },
+        {
+          "id": "DIA_M033",
+          "titel": "Diabetische Polyneuropathie (PNP)",
+          "tags": [
+            "Nerven"
+          ],
+          "patient": "65-j. Pat., brennende Schmerzen Füße nachts",
+          "praesentation": "'Walking on cotton wool' (Wattegefühl).",
+          "befunde": [
+            "Vibrationsempfinden 2/8 (Rydel-Seiffer)",
+            "fehlende ASR"
+          ],
+          "diagnose": "Distal-symmetrische sensomotorische Polyneuropathie",
+          "therapie": [
+            "Duloxetin oder Pregabalin bei Schmerz",
+            "Fußpflege!"
+          ],
+          "lernpunkte": [
+            "Gefahr des diabetischen Fußsyndroms durch Gefühlsverlust"
+          ]
+        },
+        {
+          "id": "DIA_M034",
+          "titel": "Kardiale autonome Neuropathie (KAN)",
+          "tags": [
+            "Nerven"
+          ],
+          "patient": "50-j. Pat., Schwindel beim Aufstehen",
+          "praesentation": "Orthostase-Probleme.",
+          "befunde": [
+            "Ruhetachykardie",
+            "starre Herzfrequenz (fehlende Variabilität)"
+          ],
+          "diagnose": "Autonome diabetische Neuropathie",
+          "therapie": [
+            "Stützstrümpfe",
+            "langsame Lagewechsel"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für stumme Myokardinfarkte"
+          ]
+        },
+        {
+          "id": "DIA_M035",
+          "titel": "Diabetische Gastroparese",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "45-j. Typ 1 Diabetikerin",
+          "praesentation": "Völlegefühl, Erbrechen von Speisen von vor 12h.",
+          "befunde": [
+            "Szintigraphie: verzögerte Magenentleerung"
+          ],
+          "diagnose": "Gastroparesis diabeticorum",
+          "therapie": [
+            "Prokinetika (Domperidon)",
+            "kleine Mahlzeiten",
+            "ggf. Pumpen-Splitting"
+          ],
+          "lernpunkte": [
+            "Resorptions-Mismatch führt zu unberechenbaren BZ-Werten"
+          ]
+        },
+        {
+          "id": "DIA_M036",
+          "titel": "Diabetisches Makulaödem",
+          "tags": [
+            "Auge"
+          ],
+          "patient": "65-j. Typ 2 Diabetiker",
+          "praesentation": "Verzerrtsehen (Metamorphopsien).",
+          "befunde": [
+            "OCT: Intraretinale Flüssigkeit zentral"
+          ],
+          "diagnose": "Klinisch signifikantes Makulaödem (CSME)",
+          "therapie": [
+            "Anti-VEGF intravitreal"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für Visusverlust bei Diabetikern"
+          ]
+        },
+        {
+          "id": "DIA_M037",
+          "titel": "Diabetische Diarrhö",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Nächtliche, wässrige Durchfälle.",
+          "befunde": [
+            "Kolo/Gastro o.B."
+          ],
+          "diagnose": "Enterische autonome Neuropathie",
+          "therapie": [
+            "Loperamid",
+            "Antibiotika-Zyklen (bei Overgrowth)"
+          ],
+          "lernpunkte": [
+            "Ausschluss Zöliakie und Pankreasinsuffizienz"
+          ]
+        },
+        {
+          "id": "DIA_M038",
+          "titel": "Glaukom bei Diabetes",
+          "tags": [
+            "Auge"
+          ],
+          "patient": "Älterer Diabetiker",
+          "praesentation": "Gesichtsfeldausfälle.",
+          "befunde": [
+            "Augeninnendruck↑",
+            "Rubeosis iridis (Neovaskularisationsglaukom)"
+          ],
+          "diagnose": "Sekundärglaukom",
+          "therapie": [
+            "Laser",
+            "Augentropfen"
+          ],
+          "lernpunkte": [
+            "Neovaskularisationen im Kammerwinkel"
+          ]
+        },
+        {
+          "id": "DIA_M039",
+          "titel": "Urogenitale autonome Neuropathie",
+          "tags": [
+            "Urologie"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Blasenentleerungsstörung, Restharngefühl.",
+          "befunde": [
+            "Sono: 200ml Restharn",
+            "erektile Dysfunktion"
+          ],
+          "diagnose": "Zystopathie / Erektile Dysfunktion",
+          "therapie": [
+            "Regelmäßige Miktion",
+            "PDE-5-Hemmer"
+          ],
+          "lernpunkte": [
+            "Häufige Komorbidität bei langer Diabetesdauer"
+          ]
+        },
+        {
+          "id": "DIA_M040",
+          "titel": "Dupuytren-Kontraktur bei Diabetes",
+          "tags": [
+            "Hand"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Knoten und Stränge in der Hohlhand, Streckdefizit.",
+          "befunde": [
+            "Tischkanten-Test positiv"
+          ],
+          "diagnose": "Morbus Dupuytren",
+          "therapie": [
+            "Physio",
+            "ggf. OP"
+          ],
+          "lernpunkte": [
+            "Häufigere Assoziation bei Diabetes mellitus"
+          ]
+        },
+        {
+          "id": "DIA_M041",
+          "titel": "Cheiroarthropathie",
+          "tags": [
+            "Hand"
+          ],
+          "patient": "40-j. Typ 1 Pat.",
+          "praesentation": "Steife Finger, Unfähigkeit Hände flach aufeinander zu legen.",
+          "befunde": [
+            "Prayer Sign positiv"
+          ],
+          "diagnose": "Limited Joint Mobility (LJM)",
+          "therapie": [
+            "Physiotherapie",
+            "BZ-Optimierung"
+          ],
+          "lernpunkte": [
+            "Kollagen-Quervernetzung durch AGEs (Advanced Glycation Endproducts)"
+          ]
+        },
+        {
+          "id": "DIA_M042",
+          "titel": "Kimmielstiel-Wilson-Läsion",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Obduktionsfall / Biopsie",
+          "praesentation": "Terminales Nierenversagen.",
+          "befunde": [
+            "Histo: Noduläre Glomerulosklerose"
+          ],
+          "diagnose": "Klassische diabetische Nephropathie",
+          "lernpunkte": [
+            "Pathognomonischer Befund für Langzeit-Diabetes"
+          ]
+        },
+        {
+          "id": "DIA_M043",
+          "titel": "Diabetische Amyotrophie",
+          "tags": [
+            "Nerven"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Plötzliche heftige Schmerzen Oberschenkel, gefolgt von Atrophie.",
+          "befunde": [
+            "M. quadriceps-Atrophie",
+            "Pseudoschiene beim Gehen"
+          ],
+          "diagnose": "Proximal-asymmetrische diabetische Neuropathie (Bruns-Garland)",
+          "therapie": [
+            "Schmerztherapie",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Seltene, oft einseitige Verlaufsform"
+          ]
+        },
+        {
+          "id": "DIA_M044",
+          "titel": "Mononeuropathie (N. abducens)",
+          "tags": [
+            "Nerven"
+          ],
+          "patient": "60-j. Diabetiker",
+          "praesentation": "Plötzliche Doppelbilder.",
+          "befunde": [
+            "Parese des N. VI"
+          ],
+          "diagnose": "Diabetische Hirnnervenparese (Ischämisch)",
+          "therapie": [
+            "Abwarten (meist Spontanremission)",
+            "BZ-Einstellung"
+          ],
+          "lernpunkte": [
+            "Ischämische Genese des Nervs"
+          ]
+        },
+        {
+          "id": "DIA_M045",
+          "titel": "Necrobiosis lipoidica",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "40-j. Typ 1 Patientin",
+          "praesentation": "Gelblich-braune, atrophische Herde am Schienbein.",
+          "befunde": [
+            "Teleangiektasien im Zentrum"
+          ],
+          "diagnose": "Necrobiosis lipoidica",
+          "therapie": [
+            "Lokalsteroide",
+            "UV-Therapie"
+          ],
+          "lernpunkte": [
+            "Oft mit Mikroangiopathie assoziiert"
+          ]
+        }
+      ]
+    },
+    "makroangiopathie_dfs": {
+      "label": "Makroangiopathie & Diabetischer Fuß",
+      "emoji": "🦶",
+      "faelle": [
+        {
+          "id": "DIA_F046",
+          "titel": "Diabetisches Fußsyndrom (Wagner I)",
+          "tags": [
+            "Wunde",
+            "DFS"
+          ],
+          "patient": "65-jähriger Diabetiker",
+          "praesentation": "Schmerzlose Wunde am Fußballen (Mal perforans).",
+          "befunde": [
+            "Oberflächliches Ulkus",
+            "Polyneuropathie vorhanden",
+            "keine pAVK (Pulse tastbar)"
+          ],
+          "diagnose": "Neuropathisches Fußulkus",
+          "therapie": [
+            "Druckentlastung (Total Contact Cast)",
+            "Wundmanagement"
+          ],
+          "lernpunkte": [
+            "Druckentlastung ist die wichtigste Maßnahme zur Heilung"
+          ]
+        },
+        {
+          "id": "DIA_F047",
+          "titel": "Wagner-Armstrong Klassifikation (Grad III)",
+          "tags": [
+            "DFS"
+          ],
+          "patient": "70-j. Patient",
+          "praesentation": "Tiefe Wunde, übelriechend.",
+          "befunde": [
+            "Sondierung auf Knochen (Probe-to-bone +)",
+            "Abszessbildung"
+          ],
+          "diagnose": "DFS mit Osteomyelitis",
+          "therapie": [
+            "Debridement",
+            "Breitbandantibiose",
+            "Gipsentlastung"
+          ],
+          "lernpunkte": [
+            "Osteomyelitis-Ausschluss via Probe-to-bone und MRT"
+          ]
+        },
+        {
+          "id": "DIA_F048",
+          "titel": "Charcot-Fuß (DNOAP)",
+          "tags": [
+            "Notfall",
+            "DFS"
+          ],
+          "patient": "60-j. Mann, Fuß plötzlich geschwollen/rot/heiß",
+          "praesentation": "Keine Schmerzen trotz massiver Schwellung.",
+          "befunde": [
+            "Rö: Trümmerfeld der Fußwurzelknochen",
+            "Hauttemperaturdifferenz > 2°C"
+          ],
+          "diagnose": "Neuropathische Arthropathie (Charcot) im Akutstadium",
+          "therapie": [
+            "Sofortige totale Ruhigstellung im Cast"
+          ],
+          "lernpunkte": [
+            "Fehldiagnose als Erysipel führt zu bleibender Deformation (Schaukelfuß)"
+          ]
+        },
+        {
+          "id": "DIA_F049",
+          "titel": "Ischämischer Fuß (pAVK)",
+          "tags": [
+            "Makroangiopathie"
+          ],
+          "patient": "72-j. Raucher",
+          "praesentation": "Kalte, blasse Zehen, Nekrose am Fersenrand.",
+          "befunde": [
+            "Pulse fehlen",
+            "tcpO2 10 mmHg"
+          ],
+          "diagnose": "Ischämisches DFS (Armstrong Stadium D)",
+          "therapie": [
+            "Gefäßchirurgische Revaskularisation",
+            "Statin/TAH"
+          ],
+          "lernpunkte": [
+            "Wundheilung ohne Durchblutung nicht möglich"
+          ]
+        },
+        {
+          "id": "DIA_F050",
+          "titel": "KHK bei Diabetes (Stumme Ischämie)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "65-j. mit Typ 2 Diabetes",
+          "praesentation": "Leichte Belastungsdyspnoe, kein Thoraxschmerz.",
+          "befunde": [
+            "Belastungs-EKG: ST-Senkung",
+            "Herzkatheter: 3-Gefäß-Krankheit"
+          ],
+          "diagnose": "KHK bei stummer Myokardischämie",
+          "therapie": [
+            "PCI / Bypass",
+            "optimierte HI-Therapie"
+          ],
+          "lernpunkte": [
+            "Fehlen von Angina pectoris durch autonome Neuropathie"
+          ]
+        },
+        {
+          "id": "DIA_F051",
+          "titel": "Mediasklerose (Mönckeberg)",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "80-j. Diabetiker",
+          "praesentation": "Frage nach pAVK.",
+          "befunde": [
+            "ABI 1,5 (falsch hoch)",
+            "Rö: Pipe-stem-Verkalkungen der Arterien"
+          ],
+          "diagnose": "Mönckeberg-Mediasklerose",
+          "therapie": [
+            "Alternative: TBI (Toe-Brachial-Index)"
+          ],
+          "lernpunkte": [
+            "Inkompressible Arterien verfälschen ABI-Messung"
+          ]
+        },
+        {
+          "id": "DIA_F052",
+          "titel": "Schlaganfall bei Diabetes",
+          "tags": [
+            "ZNS"
+          ],
+          "patient": "68-j. Patient mit Vorhofflimmern",
+          "praesentation": "Akute Hemiparese.",
+          "befunde": [
+            "CT: Mediainfarkt",
+            "BZ 250 mg/dl"
+          ],
+          "diagnose": "Ischämischer Schlaganfall",
+          "therapie": [
+            "Lyse/Thrombektomie",
+            "BZ-Einstellung (normoglykämisch!)"
+          ],
+          "lernpunkte": [
+            "Hyperglykämie verschlechtert das Outcome beim Stroke"
+          ]
+        },
+        {
+          "id": "DIA_F053",
+          "titel": "Phlegmone am Fuß",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Barfußlaufen am Strand",
+          "praesentation": "Rötung/Schwellung bis Unterschenkel.",
+          "befunde": [
+            "CRP 120",
+            "Leukozytose"
+          ],
+          "diagnose": "Aufsteigende Infektion bei DFS",
+          "therapie": [
+            "i.v. Antibiose",
+            "Debridement",
+            "Bettruhe"
+          ],
+          "lernpunkte": [
+            "Gefahr der Sepsis und Amputation"
+          ]
+        },
+        {
+          "id": "DIA_F054",
+          "titel": "Diabetisches Lymphödem",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "80-j. immobile Frau",
+          "praesentation": "Säulenartige Beine, mazerierte Zehen.",
+          "befunde": [
+            "Stemmer-Zeichen positiv"
+          ],
+          "diagnose": "Lymphödem bei DFS",
+          "therapie": [
+            "Kompression (vorsichtig!)",
+            "Hautpflege"
+          ],
+          "lernpunkte": [
+            "Hautintegrität sichern zur Erysipelprophylaxe"
+          ]
+        },
+        {
+          "id": "DIA_F055",
+          "titel": "Minor- vs. Major-Amputation",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Pat. mit trockener Zehennekrose",
+          "praesentation": "Schmerzfrei.",
+          "befunde": [
+            "Begrenzte Nekrose Dig. V"
+          ],
+          "diagnose": "Vorderfußgangrän",
+          "therapie": [
+            "Grenzbeidseitige Zehenamputation (Minor)"
+          ],
+          "lernpunkte": [
+            "Erhalt des Fersenauftritts hat Priorität"
+          ]
+        },
+        {
+          "id": "DIA_F056",
+          "titel": "Nierenschonende Angiographie",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Diabetiker mit GFR 35 vor Stenting",
+          "praesentation": "Vorbereitung.",
+          "befunde": [
+            "Kreatinin 2,0"
+          ],
+          "diagnose": "Risiko für CIN",
+          "therapie": [
+            "Hydrierung",
+            "CO2-Angiographie bevorzugen"
+          ],
+          "lernpunkte": [
+            "Präventives Management rettet Nierenfunktion"
+          ]
+        },
+        {
+          "id": "DIA_F057",
+          "titel": "Onychomykose (Nagelpilz)",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Verdickte, gelbe Zehennägel.",
+          "befunde": [
+            "Pilzkultur positiv"
+          ],
+          "diagnose": "Tinea unguium",
+          "therapie": [
+            "Medizinische Fußpflege",
+            "Antimykotika"
+          ],
+          "lernpunkte": [
+            "Nagelpilz als Eintrittspforte für Bakterien (Erysipel)"
+          ]
+        },
+        {
+          "id": "DIA_F058",
+          "titel": "Mal perforans am Mittelfußköpfchen",
+          "tags": [
+            "DFS"
+          ],
+          "patient": "Diabetiker mit Spreizfuß",
+          "praesentation": "Hornhautschwiele mit zentralem Defekt.",
+          "befunde": [
+            "Hoher lokaler Druck"
+          ],
+          "diagnose": "Neuropathisches Ulkus",
+          "therapie": [
+            "Abtragung Hyperkeratose",
+            "Druckentlastung"
+          ],
+          "lernpunkte": [
+            "Regelmäßige podologische Behandlung senkt Ulkusrate"
+          ]
+        },
+        {
+          "id": "DIA_F059",
+          "titel": "Diabetische Myokardfibrose",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Pat. mit Herzinsuffizienz (HFpEF)",
+          "praesentation": "Luftnot, kein KHK-Nachweis.",
+          "befunde": [
+            "MRT: Diffuse Fibrosierung Myokard"
+          ],
+          "diagnose": "Diabetische Kardiomyopathie",
+          "therapie": [
+            "SGLT2-Inhibitor",
+            "Diabetesoptimierung"
+          ],
+          "lernpunkte": [
+            "Direkte myokardiale Schädigung durch Stoffwechsel"
+          ]
+        },
+        {
+          "id": "DIA_F060",
+          "titel": "Karotisscreening bei Diabetes",
+          "tags": [
+            "ZNS"
+          ],
+          "patient": "60-j. langjähriger Diabetiker",
+          "praesentation": "Vorsorge.",
+          "befunde": [
+            "Duplex: 60% Stenose ACI bds."
+          ],
+          "diagnose": "Carotisstenose",
+          "therapie": [
+            "TAH + Statin",
+            "Kontrolle"
+          ],
+          "lernpunkte": [
+            "Diabetes als starker Treiber der Karotisatherosklerose"
+          ]
+        }
+      ]
+    },
+    "lebensphasen_assoziationen": {
+      "label": "Lebensphasen & Assoziationen",
+      "emoji": "🤱",
+      "faelle": [
+        {
+          "id": "DIA_L061",
+          "titel": "Schwangerschaft bei Typ 1 Diabetes",
+          "tags": [
+            "Schwangerschaft",
+            "Typ 1"
+          ],
+          "patient": "28-jährige Frau, Kinderwunsch",
+          "praesentation": "Planung der Konzeption.",
+          "befunde": [
+            "HbA1c 7,5% (Ziel < 6,5%)",
+            "Retinopathie-Screening erfolgt"
+          ],
+          "diagnose": "Präkonzeptionelle Beratung",
+          "therapie": [
+            "Optimierung der ICT auf Ziel-HbA1c",
+            "Folsäure"
+          ],
+          "lernpunkte": [
+            "Gefahr der Fehlbildungen bei hohem HbA1c zu Beginn"
+          ]
+        },
+        {
+          "id": "DIA_L062",
+          "titel": "Diabetes im Alter (Funktionalität)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "85-j. alleinlebend",
+          "praesentation": "Häufige Stürze, kognitiver Abbau.",
+          "befunde": [
+            "MMST 22/30",
+            "Geldzähltest auffällig"
+          ],
+          "diagnose": "Diabetes mellitus im Alter",
+          "therapie": [
+            "HbA1c Zielkorridor lockern (7,5-8,5%)",
+            "Vermeidung von Hypoglykämien"
+          ],
+          "lernpunkte": [
+            "Sicherheit vor Normoglykämie bei Frailty"
+          ]
+        },
+        {
+          "id": "DIA_L063",
+          "titel": "Diabetes & Depression",
+          "tags": [
+            "Psychosomatik"
+          ],
+          "patient": "40-j. Typ 2 Patient",
+          "praesentation": "Antriebslosigkeit, Vernachlässigung der Therapie.",
+          "befunde": [
+            "PHQ-9 positiv"
+          ],
+          "diagnose": "Diabetes-Distress / Depression",
+          "therapie": [
+            "Psychodiabetologische Mitbehandlung",
+            "SSRI"
+          ],
+          "lernpunkte": [
+            "Bidirektionale Beziehung: Diabetes fördert Depression und umgekehrt"
+          ]
+        },
+        {
+          "id": "DIA_L064",
+          "titel": "Essstörung bei Typ 1 (Insulin-Purging)",
+          "tags": [
+            "Psychosomatik"
+          ],
+          "patient": "17-j. Mädchen",
+          "praesentation": "Unerklärlich hohe HbA1c-Werte despite gegenteiliger Behauptung.",
+          "befunde": [
+            "Gewicht niedrig",
+            "Angst vor Gewichtszunahme durch Insulin"
+          ],
+          "diagnose": "Diabulimie (Insulin-Purging)",
+          "therapie": [
+            "Spezialisierte Psychotherapie"
+          ],
+          "lernpunkte": [
+            "Weglassen von Insulin zur Gewichtsreduktion (Gefahr Ketoazidose)"
+          ]
+        },
+        {
+          "id": "DIA_L065",
+          "titel": "Diabetes & Leberzirrhose",
+          "tags": [
+            "Hepatologie"
+          ],
+          "patient": "60-j. mit alkoholischer Zirrhose",
+          "praesentation": "Schwankende BZ-Werte.",
+          "befunde": [
+            "Hepatogener Diabetes"
+          ],
+          "diagnose": "Stoffwechselstörung bei Leberversagen",
+          "therapie": [
+            "Vorsichtige Insulintherapie",
+            "kein Metformin (Laktatazidose!)"
+          ],
+          "lernpunkte": [
+            "Leber als zentrales Glukosestat-Organ fällt aus"
+          ]
+        },
+        {
+          "id": "DIA_L066",
+          "titel": "Reiseberatung (Zeitverschiebung)",
+          "tags": [
+            "Reisen"
+          ],
+          "patient": "Typ 1 Diabetiker, Flug nach New York (Westen)",
+          "praesentation": "Anpassung des Insulins.",
+          "befunde": [
+            "Verlängerter Tag (+ 6h)"
+          ],
+          "diagnose": "Reisemanagement",
+          "therapie": [
+            "Zusätzliche Bolusgaben am Reisetag",
+            "Basalrate verlängern"
+          ],
+          "lernpunkte": [
+            "Flug nach Osten = Tag wird kürzer (Insulinbedarf sinkt)"
+          ]
+        },
+        {
+          "id": "DIA_L067",
+          "titel": "Erektile Dysfunktion bei Diabetes",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Potenzstörung seit 2 Jahren.",
+          "befunde": [
+            "Vaskuläre und neurologische Schäden"
+          ],
+          "diagnose": "Diabetes-assoziierte ED",
+          "therapie": [
+            "PDE-5-Hemmer",
+            "Kardiologischer Check!"
+          ],
+          "lernpunkte": [
+            "ED oft frühestes Zeichen einer Makroangiopathie"
+          ]
+        },
+        {
+          "id": "DIA_L068",
+          "titel": "Perioperatives Management",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Typ 2 Diabetiker vor Knie-OP",
+          "praesentation": "Frage nach Metformin-Einnahme.",
+          "befunde": [
+            "Nüchtern-OP morgen."
+          ],
+          "diagnose": "Vorbereitung Anästhesie",
+          "therapie": [
+            "Metformin 48h präop absetzen",
+            "SGLT2-Inhibitor pausieren"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Laktatazidose (Metformin) und Ketoazidose (SGLT2)"
+          ]
+        },
+        {
+          "id": "DIA_L069",
+          "titel": "Fasten (Ramadan) & Diabetes",
+          "tags": [
+            "Kultur"
+          ],
+          "patient": "Muslimischer Typ 2 Patient",
+          "praesentation": "Möchte fasten.",
+          "befunde": [
+            "Gute Einstellung unter Gliptinen"
+          ],
+          "diagnose": "Beratung Fastenzeit",
+          "therapie": [
+            "Präparateanpassung (Vermeidung von Sulfonylharnstoffen)",
+            "BZ-Kontrollen"
+          ],
+          "lernpunkte": [
+            "Risikoanalyse nach IDF-DAR Guidelines"
+          ]
+        },
+        {
+          "id": "DIA_L070",
+          "titel": "Kontrazeption bei Diabetes",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "19-j. Typ 1 Diabetikerin",
+          "praesentation": "Wunsch nach Pille.",
+          "befunde": [
+            "Keine Mikroangiopathie"
+          ],
+          "diagnose": "Verhütungsberatung",
+          "therapie": [
+            "Kombinierte Pillen möglich (wenn Nichtraucherin)",
+            "LARC bevorzugen"
+          ],
+          "lernpunkte": [
+            "Sicherste Verhütung bei stabilen Stoffwechselverhältnissen"
+          ]
+        },
+        {
+          "id": "DIA_L071",
+          "titel": "Sport & Typ 1 (Hypo-Vermeidung)",
+          "tags": [
+            "Sport"
+          ],
+          "patient": "Marathonläufer",
+          "praesentation": "Hypoglykämie bei km 30.",
+          "befunde": [
+            "Hohe Glukose-Verbrennungsrate"
+          ],
+          "diagnose": "Belastungshypoglykämie",
+          "therapie": [
+            "KH-Zufuhr 1 BE/30 Min.",
+            "Basalratenreduktion 30-50%"
+          ],
+          "lernpunkte": [
+            "Individuelles Management je nach Sportart (Aerob vs. Anaerob)"
+          ]
+        },
+        {
+          "id": "DIA_L072",
+          "titel": "Pädiatrischer Typ 2 Diabetes",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "12-j. Junge, BMI 35",
+          "praesentation": "Zufallsfund Hyperglykämie.",
+          "befunde": [
+            "Acanthosis nigricans im Nacken"
+          ],
+          "diagnose": "Typ 2 Diabetes im Kindesalter",
+          "therapie": [
+            "Metformin",
+            "Familienschulung"
+          ],
+          "lernpunkte": [
+            "Zunahme durch Adipositas-Epidemie"
+          ]
+        },
+        {
+          "id": "DIA_L073",
+          "titel": "Infektassoziierter Insulinmehrbedarf",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Typ 1 Kind mit Fieber",
+          "praesentation": "BZ 350 trotz Insulin.",
+          "befunde": [
+            "Harnwegsinfekt"
+          ],
+          "diagnose": "Stresshormonausschüttung",
+          "therapie": [
+            "Korrekturfaktoren erhöhen",
+            "Ketontestung"
+          ],
+          "lernpunkte": [
+            "Infekte steigern Insulinbedarf oft um 25-50%"
+          ]
+        },
+        {
+          "id": "DIA_L074",
+          "titel": "V.a. Polyzystisches Ovarsyndrom (PCOS)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "Übergewichtige junge Frau",
+          "praesentation": "Hirsutismus, Unfruchtbarkeit, IR.",
+          "befunde": [
+            "Testosteron↑",
+            "LH/FSH-Quotient verschoben"
+          ],
+          "diagnose": "PCOS",
+          "therapie": [
+            "Metformin (Off-label)",
+            "Gewichtsreduktion"
+          ],
+          "lernpunkte": [
+            "Enge Kopplung zwischen Hyperinsulinismus und PCOS"
+          ]
+        },
+        {
+          "id": "DIA_L075",
+          "titel": "Palliative Versorgung bei Diabetes",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Terminal kranker Pat.",
+          "praesentation": "Frage nach Therapiestopp.",
+          "befunde": [
+            "Finalstadium"
+          ],
+          "diagnose": "Lebensende",
+          "therapie": [
+            "Absetzen oraler Wirkstoffe",
+            "nur noch symptomatische BZ-Senkung (Hypos vermeiden!)"
+          ],
+          "lernpunkte": [
+            "Wohlbefinden vor Langzeitwerten"
+          ]
+        }
+      ]
+    },
+    "therapie_technik": {
+      "label": "Therapie & Technik",
+      "emoji": "💉",
+      "faelle": [
+        {
+          "id": "DIA_T076",
+          "titel": "Metformin-Einleitung",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Typ 2 Diabetiker (Erstdiagnose)",
+          "praesentation": "Start der Therapie.",
+          "befunde": [
+            "GFR 90 ml/min"
+          ],
+          "diagnose": "Basistherapie",
+          "therapie": [
+            "Einschleichende Dosierung (500mg abends) zur Vermeidung von GI-Nebenwirkungen"
+          ],
+          "lernpunkte": [
+            "Metformin senkt HbA1c um 1,0-1,5%",
+            "Laktatazidose-Risiko beachten"
+          ]
+        },
+        {
+          "id": "DIA_T077",
+          "titel": "SGLT2-Inhibitoren (Herzschutz)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Typ 2 Diabetiker mit Herzinsuffizienz",
+          "praesentation": "Erweiterung der Therapie.",
+          "befunde": [
+            "EF 35%"
+          ],
+          "diagnose": "Indikation Kardioprotektion",
+          "therapie": [
+            "Dapagliflozin/Empagliflozin"
+          ],
+          "lernpunkte": [
+            "Senkung der Hospitalisierungsrate für Herzinsuffizienz"
+          ]
+        },
+        {
+          "id": "DIA_T078",
+          "titel": "GLP-1-Rezeptoragonisten (Gewicht)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Typ 2 Diabetiker, BMI 38",
+          "praesentation": "Therapie-Eskalation.",
+          "befunde": [
+            "KHK bekannt"
+          ],
+          "diagnose": "Indikation Inkretinmimetika",
+          "therapie": [
+            "Semaglutid 1x wöchentlich s.c."
+          ],
+          "lernpunkte": [
+            "Hohe Gewichtsreduktion + CV-Protektion"
+          ]
+        },
+        {
+          "id": "DIA_T079",
+          "titel": "Insulinpumpentherapie (CSII)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Typ 1 Diabetiker, ausgeprägtes Dawn-Phänomen",
+          "praesentation": "Wunsch nach besserer Steuerung.",
+          "befunde": [
+            "HbA1c 7,8% unter ICT"
+          ],
+          "diagnose": "Indikation CSII",
+          "therapie": [
+            "Umstellung auf Insulinpumpe"
+          ],
+          "lernpunkte": [
+            "Präzise Abbildung des basalen Insulinbedarfs"
+          ]
+        },
+        {
+          "id": "DIA_T080",
+          "titel": "AID-Systeme (Closed Loop)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit starken BZ-Schwankungen",
+          "praesentation": "Wunsch nach automatisierten Korrekturen.",
+          "befunde": [
+            "Technikaffin",
+            "hypowahrnehmungsstörung"
+          ],
+          "diagnose": "Indikation Hybrid-Closed-Loop",
+          "therapie": [
+            "Verordnung eines AID-Systems"
+          ],
+          "lernpunkte": [
+            "Algorithmengestützte Insulinanpassung via Sensor"
+          ]
+        },
+        {
+          "id": "DIA_T081",
+          "titel": "rtCGM (Real-Time CGM)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Typ 1 Patient, häufige Hypos",
+          "praesentation": "Wunsch nach Sensor.",
+          "befunde": [
+            "Notwendigkeit Alarme"
+          ],
+          "diagnose": "Indikation rtCGM",
+          "therapie": [
+            "Verordnung (z.B. Dexcom/Libre 3)"
+          ],
+          "lernpunkte": [
+            "Messung in der Interstitialflüssigkeit (Time-Lag!)"
+          ]
+        },
+        {
+          "id": "DIA_T082",
+          "titel": "Insulin Degludec (Ultra-Langzeit)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Pat. mit unregelmäßigem Lebensstil (Schichtarbeit)",
+          "praesentation": "Variable Spritzzeiten.",
+          "befunde": [
+            "Nachtliche Hypos unter NPH"
+          ],
+          "diagnose": "Indikation Ultra-Langzeitinsulin",
+          "therapie": [
+            "Umstellung auf Tresiba"
+          ],
+          "lernpunkte": [
+            "Flaches Wirkprofil, HWZ > 25h"
+          ]
+        },
+        {
+          "id": "DIA_T083",
+          "titel": "DPP-4-Inhibitoren (Gewichtsneutral)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Älterer Typ 2 Diabetiker",
+          "praesentation": "Therapieergänzung.",
+          "befunde": [
+            "Niereninsuffizienz vorhanden"
+          ],
+          "diagnose": "Bedarf an sicherer Therapie",
+          "therapie": [
+            "Sitagliptin / Linagliptin"
+          ],
+          "lernpunkte": [
+            "Kein Hypoglykämierisiko, gute Verträglichkeit"
+          ]
+        },
+        {
+          "id": "DIA_T084",
+          "titel": "Sulfonylharnstoffe (Kritik)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Alt-Patient",
+          "praesentation": "Dauermedikation Glibenclamid.",
+          "befunde": [
+            "Gewichtszunahme, Hyporisiko"
+          ],
+          "diagnose": "Suboptimale Therapie",
+          "therapie": [
+            "Umstellung auf modernere Wirkstoffe"
+          ],
+          "lernpunkte": [
+            "Erschöpfung der Beta-Zellen, hohes Hypoglykämierisiko"
+          ]
+        },
+        {
+          "id": "DIA_T085",
+          "titel": "Kombinationstherapie Insulin + GLP-1",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Typ 2 Diabetiker, hohe Insulindosen",
+          "praesentation": "BZ-Entgleisung despite 100 IE/Tag.",
+          "befunde": [
+            "Gewichtszunahme unter Insulin"
+          ],
+          "diagnose": "Eskalation mit Inkretin",
+          "therapie": [
+            "Fixkombi (z.B. Xultophy)"
+          ],
+          "lernpunkte": [
+            "Insulineinsparung + Gewichtsreduktion"
+          ]
+        },
+        {
+          "id": "DIA_T086",
+          "titel": "TIR (Time in Range)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Pumpenträger zur Auslesung",
+          "praesentation": "Analyse der Daten.",
+          "befunde": [
+            "TIR 65% (Ziel > 70%)"
+          ],
+          "diagnose": "Suboptimale Einstellung",
+          "therapie": [
+            "Optimierung der Basalrate"
+          ],
+          "lernpunkte": [
+            "Moderne Erfolgskontrolle statt alleinigem HbA1c"
+          ]
+        },
+        {
+          "id": "DIA_T087",
+          "titel": "Inhalation von Insulin",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Spritzenphobiker",
+          "praesentation": "Anfrage nach Alternativen.",
+          "befunde": [
+            "Nichtraucher, Lungenfunktion normal"
+          ],
+          "diagnose": "Inhalatives Insulin (Afrezza - US Markt/Import)",
+          "therapie": [
+            "Beratung"
+          ],
+          "lernpunkte": [
+            "Schneller Wirkeintritt, Risiko von Husten"
+          ]
+        },
+        {
+          "id": "DIA_T088",
+          "titel": "GIP/GLP-1 Rezeptoragonisten (Tirzepatid)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Typ 2 Pat., massiv adipös",
+          "praesentation": "Therapie der neuen Generation.",
+          "befunde": [
+            "Mounjaro-Indikation"
+          ],
+          "diagnose": "Dualer Agonismus",
+          "therapie": [
+            "Tirzepatid"
+          ],
+          "lernpunkte": [
+            "Maximale Gewichtsreduktion (bis 20%)"
+          ]
+        },
+        {
+          "id": "DIA_T089",
+          "titel": "Diabetes-Schulung (Zertifiziert)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Neu diagnostizierter Typ 2 Pat.",
+          "praesentation": "Überweisung zur Schulung.",
+          "befunde": [
+            "Wissensdefizit"
+          ],
+          "diagnose": "Indikation strukturierte Schulung (MEDIAS / ZI)",
+          "therapie": [
+            "Schulungsteilnahme"
+          ],
+          "lernpunkte": [
+            "Evidenzbasierte Verbesserung des HbA1c"
+          ]
+        },
+        {
+          "id": "DIA_T090",
+          "titel": "Telemedizin in der Diabetologie",
+          "tags": [
+            "Digital Health"
+          ],
+          "patient": "Pat. im ländlichen Raum",
+          "praesentation": "Digitale Sprechstunde.",
+          "befunde": [
+            "Systemauslesung via Cloud"
+          ],
+          "diagnose": "Fernüberwachung",
+          "therapie": [
+            "Videosprechstunde zur BZ-Anpassung"
+          ],
+          "lernpunkte": [
+            "Effizientes Management ohne Anreise"
+          ]
+        }
+      ]
+    },
+    "recht_soziales": {
+      "label": "Recht, Soziales & Begutachtung",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "DIA_R091",
+          "titel": "Fahreignung bei Diabetes",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Berufskraftfahrer mit Typ 1",
+          "praesentation": "Antrag auf Führerscheinverlängerung.",
+          "befunde": [
+            "Hypowahrnehmung stabil",
+            "keine schweren Hypos im letzten Jahr"
+          ],
+          "diagnose": "Begutachtung der Kraftfahreignung",
+          "therapie": [
+            "Bescheinigung gemäß Begutachtungsempfehlungen"
+          ],
+          "lernpunkte": [
+            "Differenzierung Gruppe 1 vs. Gruppe 2",
+            "Regelmäßige Dokumentation der Hypos zwingend"
+          ]
+        },
+        {
+          "id": "DIA_R092",
+          "titel": "Schwerbehindertenausweis (GdB)",
+          "tags": [
+            "Sozial"
+          ],
+          "patient": "Typ 1 Pat. mit hohem Aufwand",
+          "praesentation": "Antrag auf GdB.",
+          "befunde": [
+            "ICT > 4x täglich Messen/Spritzen",
+            "Starke Schwankungen"
+          ],
+          "diagnose": "Einschätzung GdB",
+          "therapie": [
+            "Gutachten für Versorgungsamt (GdB 50 angestrebt)"
+          ],
+          "lernpunkte": [
+            "Voraussetzung für GdB 50: Erheblicher Aufwand + Einschnitt in Lebensführung"
+          ]
+        },
+        {
+          "id": "DIA_R093",
+          "titel": "Arbeitsplatzberatung (Nachtschicht)",
+          "tags": [
+            "Arbeit"
+          ],
+          "patient": "Typ 1 Pat. in Fabrik",
+          "praesentation": "Vermeidung von Nachtarbeit gewünscht.",
+          "befunde": [
+            "Erhöhtes Hyporisiko bei Rhythmuswechsel"
+          ],
+          "diagnose": "Arbeitsmedizinische Beurteilung",
+          "therapie": [
+            "Empfehlung: Keine Alleinarbeit / Nachtschicht"
+          ],
+          "lernpunkte": [
+            "Fürsorgepflicht des Arbeitgebers"
+          ]
+        },
+        {
+          "id": "DIA_R094",
+          "titel": "Abrechnung Chronikerpauschale (EBM)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "DMP-Patient",
+          "praesentation": "Quartalsabrechnung.",
+          "befunde": [
+            "Diabetes gesichert."
+          ],
+          "diagnose": "Abrechnungssituation",
+          "therapie": [
+            "Ziffer 03220 / 03221"
+          ],
+          "lernpunkte": [
+            "Anforderungen an 2 Kontakte pro Quartal"
+          ]
+        },
+        {
+          "id": "DIA_R095",
+          "titel": "Krankenkassenregress (Teststreifen)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Typ 2 Pat. ohne Insulin",
+          "praesentation": "Verordnung von 400 Teststreifen.",
+          "befunde": [
+            "Kein Nachweis von Instabilität"
+          ],
+          "diagnose": "Wirtschaftlichkeitsprüfung",
+          "therapie": [
+            "Begründung der Notwendigkeit (z.B. Infekt/Therapieänderung)"
+          ],
+          "lernpunkte": [
+            "Einschränkung der Teststreifenverordnung bei Nicht-Insulinern"
+          ]
+        },
+        {
+          "id": "DIA_R096",
+          "titel": "Versicherungsschutz & Diabetes",
+          "tags": [
+            "Sozial"
+          ],
+          "patient": "Junger Typ 1 Diabetiker",
+          "praesentation": "Abschluss Lebensversicherung.",
+          "befunde": [
+            "Prämienzuschlag durch Diagnose"
+          ],
+          "diagnose": "Risikoassessment",
+          "therapie": [
+            "Beratung spezialisierte Makler"
+          ],
+          "lernpunkte": [
+            "Erschwerter Zugang zu BU-Versicherungen"
+          ]
+        },
+        {
+          "id": "DIA_R097",
+          "titel": "Ärztliche Dokumentation (Sorgfalt)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Klage nach Koma",
+          "praesentation": "Vorwurf mangelnder Aufklärung.",
+          "befunde": [
+            "Kein Eintrag über Aufklärung zum Alkoholverbot"
+          ],
+          "diagnose": "Haftungsrisiko",
+          "therapie": [
+            "Lückenlose Dokumentation der Sicherheitshinweise"
+          ],
+          "lernpunkte": [
+            "Nicht dokumentiert = nicht erfolgt"
+          ]
+        },
+        {
+          "id": "DIA_R098",
+          "titel": "DMP-Einschreibung",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Pat. lehnt DMP ab",
+          "praesentation": "Beratung über Vorteile.",
+          "befunde": [
+            "Wunsch nach freier Arztwahl"
+          ],
+          "diagnose": "DMP-Beratung",
+          "therapie": [
+            "Aufklärung über Koordinationsfunktion und Qualitätsziele"
+          ],
+          "lernpunkte": [
+            "DMP als Instrument der strukturierten Versorgung"
+          ]
+        },
+        {
+          "id": "DIA_R099",
+          "titel": "Beihilfe-Erstattung AID-System",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Beamter (PKV/Beihilfe)",
+          "praesentation": "Ablehnung der Kostenübernahme für Sensor.",
+          "befunde": [
+            "Vorgabe: Nur Hilfsmittelliste"
+          ],
+          "diagnose": "Erstattungsstreit",
+          "therapie": [
+            "Begründetes Widerspruchsschreiben"
+          ],
+          "lernpunkte": [
+            "Unterschiede GKV vs. PKV/Beihilfe bei Innovationen"
+          ]
+        },
+        {
+          "id": "DIA_R100",
+          "titel": "Diabetes & Fliegertauglichkeit",
+          "tags": [
+            "Arbeit"
+          ],
+          "patient": "Hobbypilot mit Typ 2",
+          "praesentation": "Frage nach Medical.",
+          "befunde": [
+            "Gute Einstellung unter Metformin"
+          ],
+          "diagnose": "Medical Class 2 Beurteilung",
+          "therapie": [
+            "EASA-konforme Untersuchung"
+          ],
+          "lernpunkte": [
+            "Strikte Auflagen für insulinpflichtige Piloten"
+          ]
+        }
+      ]
+    }
+  }
+}

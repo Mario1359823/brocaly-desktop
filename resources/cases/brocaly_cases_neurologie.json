@@ -1,0 +1,2162 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Neurologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "zerebrovaskulaer": {
+      "label": "Zerebrovaskuläre Erkrankungen",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "NEU_V001",
+          "titel": "Akuter ischämischer Schlaganfall (MCA)",
+          "tags": [
+            "Stroke",
+            "Notfall"
+          ],
+          "patient": "68-jähriger Patient, Vorhofflimmern, Hypertonus",
+          "praesentation": "Plötzliche Hemiparese rechts, Brachiofazial betont, globale Aphasie. Onset vor 90 Minuten.",
+          "befunde": [
+            "NIHSS: 14",
+            "CCT: Frühzeichen (Verschleierung Linsenkern)",
+            "CTA: Verschluss M1-Segment links"
+          ],
+          "diagnose": "Ischämischer Schlaganfall im Mediastromgebiet links",
+          "therapie": [
+            "Systemische Thrombolyse (rt-PA)",
+            "Mechanische Thrombektomie",
+            "Monitoring Stroke Unit"
+          ],
+          "lernpunkte": [
+            "Time is Brain: Thrombolysefenster 4,5h",
+            "Indikation Thrombektomie bei Gefäßgroßverschluss"
+          ]
+        },
+        {
+          "id": "NEU_V002",
+          "titel": "Transitorische ischämische Attacke (TIA)",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Kurzzeitige Sprachstörung und Schwäche der rechten Hand für 15 Min.",
+          "befunde": [
+            "MRT-DWI: Keine Diffusionsstörung",
+            "Duplex: 70% Karotisstenose"
+          ],
+          "diagnose": "TIA (ABCD2-Score: 5)",
+          "therapie": [
+            "Thrombozytenaggregationshemmung",
+            "Frühzeitige CEA/Stenting"
+          ],
+          "lernpunkte": [
+            "TIA als Warnsymptom für Schlaganfall",
+            "Sekundärprophylaxe innerhalb von 24h"
+          ]
+        },
+        {
+          "id": "NEU_V003",
+          "titel": "Subarachnoidalblutung (SAB)",
+          "tags": [
+            "Blutung",
+            "Notfall"
+          ],
+          "patient": "54-j. Frau",
+          "praesentation": "Plötzlicher 'Vernichtungskopfschmerz', Erbrechen, Meningismus.",
+          "befunde": [
+            "CCT: Blut in basalen Zisternen",
+            "Angio: Acom-Aneurysma"
+          ],
+          "diagnose": "Aneurysmatische SAB (Hunt & Hess II)",
+          "therapie": [
+            "Aneurysma-Coiling",
+            "Nimodipin-Gabe",
+            "EVD bei Hydrozephalus"
+          ],
+          "lernpunkte": [
+            "Komplikation: Vasospasmus (Tag 4-14)",
+            "WFNS-Skala zur klinischen Graduierung"
+          ]
+        },
+        {
+          "id": "NEU_V004",
+          "titel": "Intrazerebrale Blutung (ICB)",
+          "tags": [
+            "Blutung"
+          ],
+          "patient": "75-j. Hypertoniker",
+          "praesentation": "Akute Bewusstseinstrübung, Hemiplegie links.",
+          "befunde": [
+            "CCT: Putaminale Massenblutung rechts",
+            "RR 210/110 mmHg"
+          ],
+          "diagnose": "Hypertensive ICB",
+          "therapie": [
+            "RR-Senkung auf <140 mmHg",
+            "Hirndruckmonitoring"
+          ],
+          "lernpunkte": [
+            "Lokalisationstypische Blutung bei chronischem Hypertonus"
+          ]
+        },
+        {
+          "id": "NEU_V005",
+          "titel": "Sinusvenenthrombose",
+          "tags": [
+            "Vaskulär",
+            "Venoes"
+          ],
+          "patient": "30-j. Frau, orale Kontrazeptiva",
+          "praesentation": "Zunehmender Kopfschmerz, Stauungspapille, epileptischer Anfall.",
+          "befunde": [
+            "MRV: 'Empty Delta Sign'",
+            "Liquordruck↑"
+          ],
+          "diagnose": "Sinus-transversus-Thrombose",
+          "therapie": [
+            "Vollheparinisierung (auch bei Stauungsblutung!)",
+            "Umstellung OAK"
+          ],
+          "lernpunkte": [
+            "Heparin ist Mittel der Wahl, trotz hämorrhagischer Infarzierung"
+          ]
+        },
+        {
+          "id": "NEU_V006",
+          "titel": "Moyamoya-Erkrankung",
+          "tags": [
+            "Vaskulär",
+            "Selten"
+          ],
+          "patient": "22-j. Patientin",
+          "praesentation": "Rezidivierende TIAs unter Belastung (Hyperventilation).",
+          "befunde": [
+            "Angio: 'Puff of smoke' (Kollateralnetz)",
+            "Verschluss ACI bilateral"
+          ],
+          "diagnose": "Moyamoya-Syndrom",
+          "therapie": [
+            "Extrakraniell-Intrakranieller Bypass (STA-MCA)"
+          ],
+          "lernpunkte": [
+            "Progressive Stenosen der hirnzuführenden Arterien"
+          ]
+        },
+        {
+          "id": "NEU_V007",
+          "titel": "Vaskuläre Demenz",
+          "tags": [
+            "Demenz",
+            "Vaskulär"
+          ],
+          "patient": "80-j. Mann",
+          "praesentation": "Schrittweise kognitive Verschlechterung, Gangstörung, Inkontinenz.",
+          "befunde": [
+            "MRT: Ausgeprägte Marklagergliose (SAE)",
+            "multiple Lakunen"
+          ],
+          "diagnose": "Subkortikale arteriosklerotische Enzephalopathie",
+          "therapie": [
+            "Strenge Blutdruckeinstellung",
+            "Statin"
+          ],
+          "lernpunkte": [
+            "Häufige Komorbidität mit M. Alzheimer (Mischdemenz)"
+          ]
+        },
+        {
+          "id": "NEU_V008",
+          "titel": "Spinale Ischämie",
+          "tags": [
+            "Rückenmark"
+          ],
+          "patient": "65-j. nach Aorten-OP",
+          "praesentation": "Plötzliche Paraplegie, dissoziierte Empfindungsstörung.",
+          "befunde": [
+            "MRT: Signalhebung Vorderhorn (A. spinalis ant.)"
+          ],
+          "diagnose": "Arteria-spinalis-anterior-Syndrom",
+          "therapie": [
+            "Supportiv",
+            "Liquordrainage zur Perfusionssteigerung"
+          ],
+          "lernpunkte": [
+            "Hinterstränge (Vibration/Lage) meist ausgespart"
+          ]
+        },
+        {
+          "id": "NEU_V009",
+          "titel": "Basilaristhrombose",
+          "tags": [
+            "Notfall",
+            "Stroke"
+          ],
+          "patient": "58-j. Patient",
+          "praesentation": "Koma, Tetraplegie, Blicklähmung ('Locked-in'-ähnlich).",
+          "befunde": [
+            "CTA: Verschluss A. basilaris",
+            "CCT initial oft unauffällig"
+          ],
+          "diagnose": "Basilarisspitzensyndrom / Thrombose",
+          "therapie": [
+            "Notfall-Thrombektomie (erweitertes Zeitfenster)"
+          ],
+          "lernpunkte": [
+            "Hohe Mortalität ohne Rekanalisation"
+          ]
+        },
+        {
+          "id": "NEU_V010",
+          "titel": "CADASIL",
+          "tags": [
+            "Genetik",
+            "Vaskulär"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Migräne mit Aura, rezidivierende Strokes in jungem Alter.",
+          "befunde": [
+            "MRT: Temporallappen-Läsionen (Pol-Region)",
+            "Notch3-Mutation"
+          ],
+          "diagnose": "CADASIL",
+          "therapie": [
+            "Symptomatisch",
+            "Keine spezifische Therapie"
+          ],
+          "lernpunkte": [
+            "Häufigste hereditäre zerebrale Small-Vessel-Disease"
+          ]
+        },
+        {
+          "id": "NEU_V011",
+          "titel": "Zerebrale Amyloidangiopathie (CAA)",
+          "tags": [
+            "Geriatrie",
+            "Blutung"
+          ],
+          "patient": "82-j. Frau",
+          "praesentation": "Rezidivierende lobäre Hirnblutungen.",
+          "befunde": [
+            "MRT-SWI: Multiple kortikale Mikroblutungen (Microbleeds)"
+          ],
+          "diagnose": "CAA",
+          "therapie": [
+            "Vermeidung von Antikoagulanzien"
+          ],
+          "lernpunkte": [
+            "Lappenblutungen statt Basalganglienblutungen"
+          ]
+        },
+        {
+          "id": "NEU_V012",
+          "titel": "Karotisdissektion",
+          "tags": [
+            "Trauma",
+            "Vaskulär"
+          ],
+          "patient": "35-j. nach Sportunfall",
+          "praesentation": "Halsschmerz, Horner-Syndrom, kontralaterale Hemiparese.",
+          "befunde": [
+            "CTA: Wandhämatom (Mondsichel-Zeichen)"
+          ],
+          "diagnose": "A. carotis interna Dissektion",
+          "therapie": [
+            "Antikoagulation oder TAH für 3-6 Monate"
+          ],
+          "lernpunkte": [
+            "Wichtige Schlaganfallursache bei jungen Patienten"
+          ]
+        },
+        {
+          "id": "NEU_V013",
+          "titel": "Wallenberg-Syndrom",
+          "tags": [
+            "Hirnstamm",
+            "Stroke"
+          ],
+          "patient": "62-j. Patient",
+          "praesentation": "Heiserkeit, Schluckstörung, Hemiataxie, gekreuzte Sensibilitätsstörung.",
+          "befunde": [
+            "MRT: Ischämie in der dorsolateralen Medulla oblongata"
+          ],
+          "diagnose": "Wallenberg-Syndrom (PICA-Infarkt)",
+          "therapie": [
+            "Schlucktraining",
+            "Sekundärprophylaxe"
+          ],
+          "lernpunkte": [
+            "Klassisches Hirnstammsyndrom"
+          ]
+        },
+        {
+          "id": "NEU_V014",
+          "titel": "Reversibles zerebrales Vasokonstriktionssyndrom (RCVS)",
+          "tags": [
+            "Schmerz",
+            "Vaskulär"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Rezidivierende 'Donnerschlag-Kopfschmerzen' (Thunderclap).",
+          "befunde": [
+            "Angio: Perlschnurartige Verengungen",
+            "Liquor o.B."
+          ],
+          "diagnose": "RCVS",
+          "therapie": [
+            "Kalziumantagonisten (Nimodipin)"
+          ],
+          "lernpunkte": [
+            "DD zur SAB, oft postpartal oder durch Trigger"
+          ]
+        },
+        {
+          "id": "NEU_V015",
+          "titel": "Vaskulitis des ZNS",
+          "tags": [
+            "Immun",
+            "Vaskulär"
+          ],
+          "patient": "42-j. Mann",
+          "praesentation": "Chronischer Kopfschmerz, progrediente kognitive Defizite, multifokale Strokes.",
+          "befunde": [
+            "Angio: Multifokale Stenosen",
+            "Biopsie: Perivaskuläre Infiltrate"
+          ],
+          "diagnose": "Primäre Angiitis des ZNS (PACNS)",
+          "therapie": [
+            "Immunsuppression (Steroide + Cyclophosphamid)"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose, oft Hirnbiopsie zur Sicherung nötig"
+          ]
+        }
+      ]
+    },
+    "neuroimmunologie": {
+      "label": "Neuroimmunologische Erkrankungen",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "NEU_I016",
+          "titel": "Multiple Sklerose (RRMS) - Erstmanifestation",
+          "tags": [
+            "MS",
+            "Autoimmun"
+          ],
+          "patient": "26-jährige Frau",
+          "praesentation": "Verschwommenes Sehen links (Visusabfall), Schmerzen bei Augenbewegung.",
+          "befunde": [
+            "VEC: Latenzverzögerung",
+            "MRT: Disseminierte T2-Läsionen, periventrikulär",
+            "Liquor: Oligoklonale Banden (OKB) positiv"
+          ],
+          "diagnose": "Schubförmig remittierende MS (RRMS)",
+          "therapie": [
+            "Schub: Methylprednisolon 1000mg i.v.",
+            "Verlauf: Immunmodulation (z.B. Teriflunomid, Ocrelizumab)"
+          ],
+          "lernpunkte": [
+            "McDonald-Kriterien 2017: Räumliche/Zeitliche Dissemination",
+            "OKB als Ersatzkriterium für zeitliche Dissemination"
+          ]
+        },
+        {
+          "id": "NEU_I017",
+          "titel": "Neuromyelitis-optica-Spektrum-Erkrankung (NMOSD)",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "45-j. asiatische Patientin",
+          "praesentation": "Beidseitiger Visusverlust, schwere Querschnittssymptomatik.",
+          "befunde": [
+            "MRT: Longitudinale extensive Myelitis (LETM > 3 Segmente)",
+            "Aquaporin-4-AK positiv"
+          ],
+          "diagnose": "NMOSD",
+          "therapie": [
+            "Plasmaseparation im Schub",
+            "Eculizumab oder Rituximab"
+          ],
+          "lernpunkte": [
+            "Schwerere Verläufe als MS, OKB oft negativ"
+          ]
+        },
+        {
+          "id": "NEU_I018",
+          "titel": "MOG-Antikörper-assoziierte Erkrankung (MOGAD)",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "12-j. Kind",
+          "praesentation": "Rezidivierende Optikusneuritis bilateral.",
+          "befunde": [
+            "MOG-Antikörper (zellbasiert) positiv"
+          ],
+          "diagnose": "MOGAD",
+          "therapie": [
+            "Steroide",
+            "Azathioprin"
+          ],
+          "lernpunkte": [
+            "Eigene Entität, abzugrenzen von MS und NMOSD"
+          ]
+        },
+        {
+          "id": "NEU_I019",
+          "titel": "Akute disseminierte Enzephalomyelitis (ADEM)",
+          "tags": [
+            "Pädiatrie",
+            "Immun"
+          ],
+          "patient": "8-j. nach viralem Infekt",
+          "praesentation": "Enzephalopathie (Verwirrtheit), multifokale neurologische Defizite.",
+          "befunde": [
+            "MRT: Große, unscharfe Marklagerläsionen"
+          ],
+          "diagnose": "ADEM",
+          "therapie": [
+            "Hochdosis-Glukokortikoide"
+          ],
+          "lernpunkte": [
+            "Meist monophasisch, postinfektiös"
+          ]
+        },
+        {
+          "id": "NEU_I020",
+          "titel": "Limbische Enzephalitis",
+          "tags": [
+            "Paraneoplasie",
+            "Immun"
+          ],
+          "patient": "60-j. Raucher",
+          "praesentation": "Gedächtnisstörungen, Wesensveränderung, fokal-bilaterale Anfälle.",
+          "befunde": [
+            "MRT: Signalhebung Hippocampus",
+            "Hu-Antikörper positiv"
+          ],
+          "diagnose": "Paraneoplastische limbische Enzephalitis (V.a. Kleinzeller)",
+          "therapie": [
+            "Tumorsuche und -behandlung",
+            "IVIG"
+          ],
+          "lernpunkte": [
+            "Oft 'onconeural' Antikörper gegen intrazelluläre Antigene"
+          ]
+        },
+        {
+          "id": "NEU_I021",
+          "titel": "Anti-NMDA-Rezeptor-Enzephalitis",
+          "tags": [
+            "Immun",
+            "Psychiatrie"
+          ],
+          "patient": "22-j. Frau",
+          "praesentation": "Psychose, Dyskinesien (oro-fazial), respiratorische Insuffizienz.",
+          "befunde": [
+            "NMDA-Antikörper in Liquor/Serum",
+            "Ovarialteratom im CT"
+          ],
+          "diagnose": "Anti-NMDAR-Enzephalitis",
+          "therapie": [
+            "Tumorentfernung",
+            "Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Häufig Fehldiagnose als Schizophrenie zu Beginn"
+          ]
+        },
+        {
+          "id": "NEU_I022",
+          "titel": "Guillain-Barré-Syndrom (GBS)",
+          "tags": [
+            "Peripher",
+            "Notfall"
+          ],
+          "patient": "38-j. nach Campylobacter-Enteritis",
+          "praesentation": "Symmetrische, aufsteigende Lähmungen, Areflexie.",
+          "befunde": [
+            "Liquor: Zytoalbuminäre Dissoziation",
+            "NLG: Leitungsblöcke"
+          ],
+          "diagnose": "GBS",
+          "therapie": [
+            "IVIG oder Plasmapherese",
+            "Beatmungsbereitschaft"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohlich bei respiratorischer Insuffizienz (Miller-Fisher als Variante)"
+          ]
+        },
+        {
+          "id": "NEU_I023",
+          "titel": "CIDP",
+          "tags": [
+            "Peripher",
+            "Chronisch"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Chronisch progrediente symmetrische Schwäche und Sensibilitätsstörung > 2 Monate.",
+          "befunde": [
+            "NLG: Chronisch demyelinisierend",
+            "Protein im Liquor stark↑"
+          ],
+          "diagnose": "CIDP",
+          "therapie": [
+            "Langzeit-IVIG oder Steroide",
+            "Rituximab"
+          ],
+          "lernpunkte": [
+            "Die 'chronische Variante' des GBS"
+          ]
+        },
+        {
+          "id": "NEU_I024",
+          "titel": "Myasthenia gravis",
+          "tags": [
+            "Muskel",
+            "Immun"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Belastungsabhängige Ptose, Doppelbilder am Abend.",
+          "befunde": [
+            "ACh-Rezeptor-AK positiv",
+            "Dekrement im EMG",
+            "Thymushyperplasie"
+          ],
+          "diagnose": "Myasthenia gravis",
+          "therapie": [
+            "Pyridostigmin",
+            "Thymektomie",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Gefahr der myasthenen Krise (respiratorisch)"
+          ]
+        },
+        {
+          "id": "NEU_I025",
+          "titel": "Lambert-Eaton-Syndrom (LEMS)",
+          "tags": [
+            "Paraneoplasie"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Belastungsabhängige Kraftzunahme (Inkrement), autonome Störungen.",
+          "befunde": [
+            "VGCC-Antikörper positiv",
+            "Inkrement in Serienreizung"
+          ],
+          "diagnose": "LEMS (paraneoplastisch)",
+          "therapie": [
+            "3,4-Diaminopyridin",
+            "Tumorsuche (Bronchial-CA)"
+          ],
+          "lernpunkte": [
+            "Präsynaptische Störung (vs. Myasthenie postsynaptisch)"
+          ]
+        },
+        {
+          "id": "NEU_I026",
+          "titel": "Neuroborreliose (Bannwarth)",
+          "tags": [
+            "Infekt",
+            "Immun"
+          ],
+          "patient": "48-j. Patient",
+          "praesentation": "Heftige radikuläre Schmerzen nachts, Fazialisparese.",
+          "befunde": [
+            "Liquor: Pleozytose, Borrelien-AK Index > 1,5"
+          ],
+          "diagnose": "Neuroborreliose (Stadium II)",
+          "therapie": [
+            "Ceftriaxon oder Doxycyclin"
+          ],
+          "lernpunkte": [
+            "Bannwarth-Syndrom: Radikulitis + Hirnnervenparese + Pleozytose"
+          ]
+        },
+        {
+          "id": "NEU_I027",
+          "titel": "Neurosarkoidose",
+          "tags": [
+            "Immun",
+            "Multisystem"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Multiple Hirnnervenparesen, Diabetes insipidus.",
+          "befunde": [
+            "MRT: Leptomeningeales Enhancement",
+            "Liquor: ACE↑"
+          ],
+          "diagnose": "Neurosarkoidose",
+          "therapie": [
+            "Langzeit-Steroide",
+            "Infliximab"
+          ],
+          "lernpunkte": [
+            "Häufig Befall des Hypophysenstiels und der Hirnbasis"
+          ]
+        },
+        {
+          "id": "NEU_I028",
+          "titel": "Vaskulitis der peripheren Nerven",
+          "tags": [
+            "Peripher",
+            "Immun"
+          ],
+          "patient": "60-j. Patient mit pANCA+",
+          "praesentation": "Asymmetrische schmerzhafte Ausfälle (Mononeuritis multiplex).",
+          "befunde": [
+            "Nervbiopsie: Nekrotisierende Vaskulitis"
+          ],
+          "diagnose": "EGPA (Churg-Strauss) mit Polyneuropathie",
+          "therapie": [
+            "Cyclophosphamid",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Neuropathie als Teil einer Systemvaskulitis"
+          ]
+        },
+        {
+          "id": "NEU_I029",
+          "titel": "Susac-Syndrom",
+          "tags": [
+            "Vaskulär",
+            "Selten"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Trias: Enzephalopathie, Hörverlust, Netzhautarterienverschluss.",
+          "befunde": [
+            "MRT: 'Snowball'-Läsionen im Balken"
+          ],
+          "diagnose": "Susac-Syndrom",
+          "therapie": [
+            "Aggressive Immunsuppression (IVIG, Steroide, Cyclo)"
+          ],
+          "lernpunkte": [
+            "Mikroangiopathie von Gehirn, Retina und Innenohr"
+          ]
+        },
+        {
+          "id": "NEU_I030",
+          "titel": "Autoimmune Kleinhirnataxie",
+          "tags": [
+            "Immun",
+            "Ataxie"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Subakute Gang- und Standataxie, Dysarthrie.",
+          "befunde": [
+            "GAD-Antikörper extrem hoch"
+          ],
+          "diagnose": "GAD-assoziierte Ataxie",
+          "therapie": [
+            "IVIG",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "GAD-AK auch bei Stiff-Person-Syndrom relevant"
+          ]
+        }
+      ]
+    },
+    "neurodegenerativ": {
+      "label": "Neurodegenerative Erkrankungen & Demenzen",
+      "emoji": "🕰️",
+      "faelle": [
+        {
+          "id": "NEU_D031",
+          "titel": "Morbus Parkinson (Idiopathisch)",
+          "tags": [
+            "Bewegung",
+            "Degeneration"
+          ],
+          "patient": "65-jähriger Mann",
+          "praesentation": "Einseitiger Ruhetremor, Bradykinese, Rigor, Hyposmie.",
+          "befunde": [
+            "L-Dopa-Test: Deutliche Besserung",
+            "DaTSCAN: Reduzierte Dopamin-Transporter"
+          ],
+          "diagnose": "Idiopathisches Parkinson-Syndrom (IPS)",
+          "therapie": [
+            "L-Dopa / Dopaminagonisten",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Frühsymptome: REM-Schlafstörung, Obstipation, Riechstörung"
+          ]
+        },
+        {
+          "id": "NEU_D032",
+          "titel": "Multisystematrophie (MSA)",
+          "tags": [
+            "Atypisch"
+          ],
+          "patient": "60-j. Patient",
+          "praesentation": "Parkinsonismus + ausgeprägte Dysautonomie (Orthostase, Inkontinenz).",
+          "befunde": [
+            "MRT: 'Hot Cross Bun Sign' (Pons)"
+          ],
+          "diagnose": "MSA-P",
+          "therapie": [
+            "L-Dopa (oft wenig wirksam)",
+            "Stützstrümpfe"
+          ],
+          "lernpunkte": [
+            "Atypisches Parkinson-Syndrom, raschere Progression"
+          ]
+        },
+        {
+          "id": "NEU_D033",
+          "titel": "Progressive supranukleäre Blicklähmung (PSP)",
+          "tags": [
+            "Atypisch"
+          ],
+          "patient": "68-j. Mann",
+          "praesentation": "Frühe Stürze nach hinten, vertikale Blickparese, Axiale Rigidität.",
+          "befunde": [
+            "MRT: 'Hummingbird Sign' (Atrophie Mesenzephalon)"
+          ],
+          "diagnose": "PSP (Richardson-Syndrom)",
+          "therapie": [
+            "Symptomatisch",
+            "Logopädie"
+          ],
+          "lernpunkte": [
+            "Blicklähmung nach unten ist wegweisend"
+          ]
+        },
+        {
+          "id": "NEU_D034",
+          "titel": "Morbus Alzheimer",
+          "tags": [
+            "Demenz"
+          ],
+          "patient": "72-j. Frau",
+          "praesentation": "Progrediente Kurzzeitgedächtnisstörung, Orientierungsverlust.",
+          "befunde": [
+            "MMST: 20/30",
+            "Liquor: Amyloid-Beta 42↓, Tau/p-Tau↑"
+          ],
+          "diagnose": "M. Alzheimer",
+          "therapie": [
+            "Donepezil",
+            "Memantine",
+            "Ergotherapie"
+          ],
+          "lernpunkte": [
+            "Leitbefund: Hippocampus-Atrophie im MRT"
+          ]
+        },
+        {
+          "id": "NEU_D035",
+          "titel": "Frontotemporale Demenz (FTD)",
+          "tags": [
+            "Demenz"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Persönlichkeitsänderung, Enthemmung, Witzelsucht.",
+          "befunde": [
+            "MRT: Frontal/Temporal betonte Atrophie"
+          ],
+          "diagnose": "Verhaltensvariante der FTD (bvFTD)",
+          "therapie": [
+            "Symptomatisch (SSRI bei Impulskontrolle)"
+          ],
+          "lernpunkte": [
+            "Häufige Demenzform bei Patienten < 65 Jahren"
+          ]
+        },
+        {
+          "id": "NEU_D036",
+          "titel": "Lewy-Body-Demenz (DLB)",
+          "tags": [
+            "Demenz"
+          ],
+          "patient": "75-j. Patient",
+          "praesentation": "Fluktuierende Kognition, visuelle Halluzinationen, Parkinsonismus.",
+          "befunde": [
+            "Überempfindlichkeit gegen Neuroleptika"
+          ],
+          "diagnose": "DLB",
+          "therapie": [
+            "Rivastigmin",
+            "Vorsicht mit klassischen Neuroleptika!"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zu Parkinson-Demenz (1-Jahres-Regel)"
+          ]
+        },
+        {
+          "id": "NEU_D037",
+          "titel": "Amyotrophe Lateralsklerose (ALS)",
+          "tags": [
+            "Motoneuron"
+          ],
+          "patient": "58-j. Patient",
+          "praesentation": "Asymmetrische Schwäche, Faszikulationen, bulbäre Zeichen.",
+          "befunde": [
+            "EMG: Akute/chronische Denervierung in > 3 Regionen"
+          ],
+          "diagnose": "ALS",
+          "therapie": [
+            "Riluzol",
+            "NIV-Beatmung",
+            "PEG"
+          ],
+          "lernpunkte": [
+            "Kombination aus 1. und 2. Motoneuron-Schädigung"
+          ]
+        },
+        {
+          "id": "NEU_D038",
+          "titel": "Chorea Huntington",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "40-j. Mann",
+          "praesentation": "Hyperkinesien (tanzartig), Wesensänderung.",
+          "befunde": [
+            "Genetik: CAG-Repeat-Expansion (> 36)",
+            "Atrophie Ncl. caudatus"
+          ],
+          "diagnose": "M. Huntington",
+          "therapie": [
+            "Tetrabenazin",
+            "Genetische Beratung"
+          ],
+          "lernpunkte": [
+            "Autosomal-dominanter Erbgang, Antizipation"
+          ]
+        },
+        {
+          "id": "NEU_D039",
+          "titel": "Normaldruckhydrozephalus (NPH)",
+          "tags": [
+            "Demenz",
+            "Geriatrie"
+          ],
+          "patient": "78-j. Mann",
+          "praesentation": "Hakim-Trias: Gangstörung, Demenz, Inkontinenz.",
+          "befunde": [
+            "MRT: Ventrikelerweiterung, enge Sulci oben",
+            "Tap-Test positiv"
+          ],
+          "diagnose": "NPH",
+          "therapie": [
+            "VP-Shunt"
+          ],
+          "lernpunkte": [
+            "Behandelbare Demenzform"
+          ]
+        },
+        {
+          "id": "NEU_D040",
+          "titel": "Creutzfeldt-Jakob-Erkrankung (CJK)",
+          "tags": [
+            "Demenz",
+            "Rapid"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Rasante Demenz innerhalb von Wochen, Myoklonien, Ataxie.",
+          "befunde": [
+            "Liquor: Protein 14-3-3 positiv",
+            "EEG: Triphasische Komplexe"
+          ],
+          "diagnose": "Sporadische CJK",
+          "therapie": [
+            "Palliativ"
+          ],
+          "lernpunkte": [
+            "Prionenerkrankung, Meldepflicht"
+          ]
+        },
+        {
+          "id": "NEU_D041",
+          "titel": "Corticobasale Degeneration (CBD)",
+          "tags": [
+            "Atypisch"
+          ],
+          "patient": "70-j. Frau",
+          "praesentation": "Starke Asymmetrie, Apraxie, 'Alien-Limb'-Phänomen.",
+          "befunde": [
+            "Asymmetrische kortikale Atrophie"
+          ],
+          "diagnose": "CBD",
+          "therapie": [
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Atypisches Parkinson-Syndrom mit starker Asymmetrie"
+          ]
+        },
+        {
+          "id": "NEU_D042",
+          "titel": "Hereditäre spastische Paraplegie (HSP)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "35-j. Patient",
+          "praesentation": "Langsam progrediente Spastik der Beine, Scheregang.",
+          "befunde": [
+            "Genetik (SPG-Gene)",
+            "Zusatzsymptome möglich"
+          ],
+          "diagnose": "HSP",
+          "therapie": [
+            "Baclofen",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Große genetische Heterogenität"
+          ]
+        },
+        {
+          "id": "NEU_D043",
+          "titel": "Wilson-Krankheit",
+          "tags": [
+            "Metabolisch",
+            "Jung"
+          ],
+          "patient": "25-j. Mann",
+          "praesentation": "Tremor, Dystonie, Leberfunktionsstörung, Psychose.",
+          "befunde": [
+            "Kayser-Fleischer-Ring",
+            "Caeruloplasmin↓"
+          ],
+          "diagnose": "M. Wilson",
+          "therapie": [
+            "D-Penicillamin",
+            "Zink"
+          ],
+          "lernpunkte": [
+            "Wichtige neurologische DD bei jungen Patienten"
+          ]
+        },
+        {
+          "id": "NEU_D044",
+          "titel": "Essentieller Tremor",
+          "tags": [
+            "Bewegung"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Haltetremor der Hände, Besserung durch Alkohol.",
+          "befunde": [
+            "Kein Ruhetremor",
+            "Kein Rigor"
+          ],
+          "diagnose": "Essentieller Tremor",
+          "therapie": [
+            "Propranolol",
+            "Primidon"
+          ],
+          "lernpunkte": [
+            "Häufigste Bewegungsstörung, oft familiär"
+          ]
+        },
+        {
+          "id": "NEU_D045",
+          "titel": "Spinale Muskelatrophie (SMA) - Erwachsener",
+          "tags": [
+            "Motoneuron"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Proximal betonte Muskelschwäche, Faszikulationen, keine Sens-Störung.",
+          "befunde": [
+            "Genetik: SMN1-Deletion"
+          ],
+          "diagnose": "SMA Typ 4",
+          "therapie": [
+            "Nusinersen / Risdiplam"
+          ],
+          "lernpunkte": [
+            "Durch neue Gentherapien behandelbar geworden"
+          ]
+        }
+      ]
+    },
+    "epilepsien": {
+      "label": "Epilepsien & Anfallsleiden",
+      "emoji": "⚡",
+      "faelle": [
+        {
+          "id": "NEU_E046",
+          "titel": "Fokale Epilepsie (Strukturell)",
+          "tags": [
+            "Epilepsie"
+          ],
+          "patient": "45-jähriger Patient nach Schlaganfall vor 1 Jahr",
+          "praesentation": "Plötzliche Zuckungen des rechten Arms, dann Bewusstseinsverlust.",
+          "befunde": [
+            "EEG: Spikes links parietal",
+            "MRT: Alte Infarktzyste"
+          ],
+          "diagnose": "Strukturelle fokale Epilepsie mit bilateral-tonisch-klonischer Entwicklung",
+          "therapie": [
+            "Levetiracetam 500mg 1-0-1",
+            "Anfalls-Notfallset"
+          ],
+          "lernpunkte": [
+            "Schlaganfall ist häufigste Ursache für Spätepilepsie"
+          ]
+        },
+        {
+          "id": "NEU_E047",
+          "titel": "Juvenile Myoklonische Epilepsie (Janz)",
+          "tags": [
+            "Genetisch"
+          ],
+          "patient": "18-j. Student",
+          "praesentation": "Myoklonien am Morgen ('Wegwerfen der Zahnbürste'), nach Schlafentzug.",
+          "befunde": [
+            "EEG: Polyspike-Waves 4-6 Hz"
+          ],
+          "diagnose": "JME",
+          "therapie": [
+            "Valproat (Cave: Frauen)",
+            "Levetiracetam"
+          ],
+          "lernpunkte": [
+            "Schlafentzug und Alkohol als Trigger"
+          ]
+        },
+        {
+          "id": "NEU_E048",
+          "titel": "Status Epilepticus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "60-j. Patient",
+          "praesentation": "Anhaltender generalisierter Anfall > 5 Minuten.",
+          "befunde": [
+            "Tonisch-klonisch ohne Unterbrechung"
+          ],
+          "diagnose": "Status epilepticus",
+          "therapie": [
+            "Stufe 1: Lorazepam i.v.",
+            "Stufe 2: Levetiracetam/Lacosamid",
+            "Stufe 3: Propofol"
+          ],
+          "lernpunkte": [
+            "Zeit ist Hirn: Abbruch nach 5 Min zwingend"
+          ]
+        },
+        {
+          "id": "NEU_E049",
+          "titel": "Absence-Epilepsie (Kindheit)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "7-j. Schulkind",
+          "praesentation": "Kurze Bewusstseinspausen ('Träumen'), Blickstarre.",
+          "befunde": [
+            "EEG: Symmetrische 3-Hz-Spike-Waves"
+          ],
+          "diagnose": "Absence-Epilepsie",
+          "therapie": [
+            "Ethosuximid"
+          ],
+          "lernpunkte": [
+            "Provokation durch Hyperventilation im EEG"
+          ]
+        },
+        {
+          "id": "NEU_E050",
+          "titel": "Temporallappenepilepsie",
+          "tags": [
+            "Fokal"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Aura (aufsteigendes Gefühl im Bauch), Schmatzen, Nesteln.",
+          "befunde": [
+            "MRT: Hippocampus-Sklerose links"
+          ],
+          "diagnose": "Mesiale Temporallappenepilepsie",
+          "therapie": [
+            "Lamotrigin",
+            "ggf. Epilepsiechirurgie"
+          ],
+          "lernpunkte": [
+            "Pharmakoresistenz häufig → OP-Evaluation"
+          ]
+        },
+        {
+          "id": "NEU_E051",
+          "titel": "Lennox-Gastaut-Syndrom",
+          "tags": [
+            "Pädiatrie",
+            "Schwer"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Multiple Anfallstypen, kognitive Retardierung.",
+          "befunde": [
+            "EEG: Slow-Spike-Waves < 2,5 Hz"
+          ],
+          "diagnose": "Lennox-Gastaut-Syndrom",
+          "therapie": [
+            "Multimodal (Valproat, Cannabidiol)"
+          ],
+          "lernpunkte": [
+            "Schwer therapierbare Enzephalopathie"
+          ]
+        },
+        {
+          "id": "NEU_E052",
+          "titel": "Dissoziative Anfälle (Psychogen)",
+          "tags": [
+            "Psychosomatik"
+          ],
+          "patient": "25-j. Frau",
+          "praesentation": "Lange Anfallsdauer (>20 Min), asynchrones Zappeln, geschlossene Augen.",
+          "befunde": [
+            "EEG während Anfall normal",
+            "Kein Prolaktin-Anstieg"
+          ],
+          "diagnose": "Nicht-epileptische psychogene Anfälle (PNES)",
+          "therapie": [
+            "Psychotherapie",
+            "Absetzen der Antikonvulsiva"
+          ],
+          "lernpunkte": [
+            "Wichtige DD, oft Traumafolgestörung"
+          ]
+        },
+        {
+          "id": "NEU_E053",
+          "titel": "Alkoholentzugsanfall",
+          "tags": [
+            "Sucht",
+            "Gelegenheitsanfall"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Generalisierter Anfall 24h nach letztem Alkoholkonsum.",
+          "befunde": [
+            "Labor: Gamma-GT↑",
+            "EEG unauffällig"
+          ],
+          "diagnose": "Gelegenheitsanfall bei Entzug",
+          "therapie": [
+            "Clomethiazol / Diazepam",
+            "KEINE dauerhafte Antikonvulsion"
+          ],
+          "lernpunkte": [
+            "Keine Indikation für Antiepileptika-Dauertherapie"
+          ]
+        },
+        {
+          "id": "NEU_E054",
+          "titel": "Narkolepsie",
+          "tags": [
+            "Schlaf",
+            "DD Anfall"
+          ],
+          "patient": "28-j. Mann",
+          "praesentation": "Exzessive Tagesschläfrigkeit, Kataplexie bei Lachen.",
+          "befunde": [
+            "Liquor: Hypocretin-1↓",
+            "Polysomnographie: SOREMP"
+          ],
+          "diagnose": "Narkolepsie Typ 1",
+          "therapie": [
+            "Modafinil",
+            "Natrium-Oxybat"
+          ],
+          "lernpunkte": [
+            "Kataplexie (Tonusverlust bei Emotion) ist pathognomonisch"
+          ]
+        },
+        {
+          "id": "NEU_E055",
+          "titel": "Rolando-Epilepsie",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "9-j. Kind",
+          "praesentation": "Nächtliche Anfälle mit einseitigen Gesichtszuckungen.",
+          "befunde": [
+            "EEG: Centrotemporale Sharp-Waves"
+          ],
+          "diagnose": "Benigne Epilepsie des Kindesalters",
+          "therapie": [
+            "Oft keine Therapie (Spontanremission)",
+            "ggf. Sultiam"
+          ],
+          "lernpunkte": [
+            "Heilung zur Pubertät nahezu sicher"
+          ]
+        }
+      ]
+    },
+    "kopfschmerz_schmerz": {
+      "label": "Kopfschmerzen & Schmerzsyndrome",
+      "emoji": "🤕",
+      "faelle": [
+        {
+          "id": "NEU_S056",
+          "titel": "Migräne mit Aura",
+          "tags": [
+            "Kopfschmerz"
+          ],
+          "patient": "32-jährige Frau",
+          "praesentation": "Flimmerskotom für 20 Min, dann heftiger halbseitiger pulsierender Schmerz.",
+          "befunde": [
+            "Klinische Diagnose nach ICHD-3",
+            "Neuro-Status normal"
+          ],
+          "diagnose": "Migräne mit Aura",
+          "therapie": [
+            "Akut: Triptane",
+            "Prophylaxe: Beta-Blocker oder CGRP-Antikörper"
+          ],
+          "lernpunkte": [
+            "Aura-Symptome entwickeln sich über > 5 Min",
+            "Triptane nicht während Aura nehmen"
+          ]
+        },
+        {
+          "id": "NEU_S057",
+          "titel": "Cluster-Kopfschmerz",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "40-j. Raucher",
+          "praesentation": "Attacken (15-180 Min) hinter dem Auge, nachts, Tränenfluss, Rhinorrhoe.",
+          "befunde": [
+            "Horner-Syndrom während Attacke möglich"
+          ],
+          "diagnose": "Cluster-Kopfschmerz",
+          "therapie": [
+            "Akut: 100% Sauerstoff / Sumatriptan s.c.",
+            "Prophylaxe: Verapamil"
+          ],
+          "lernpunkte": [
+            "Der 'Suizid-Kopfschmerz', trigemino-autonome Symptomatik"
+          ]
+        },
+        {
+          "id": "NEU_S058",
+          "titel": "Trigeminusneuralgie",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Blitzartige Schmerzattacken im Oberkiefer beim Kauen/Zähneputzen.",
+          "befunde": [
+            "Triggerpunkte vorhanden",
+            "MRT: Neurovaskulärer Kontakt (A. cerebelli sup.)"
+          ],
+          "diagnose": "Klassische Trigeminusneuralgie",
+          "therapie": [
+            "Carbamazepin / Oxcarbazepin",
+            "Jannetta-OP"
+          ],
+          "lernpunkte": [
+            "Mittel der Wahl: Carbamazepin"
+          ]
+        },
+        {
+          "id": "NEU_S059",
+          "titel": "Arteriitis temporalis (Riesenzellarteriitis)",
+          "tags": [
+            "Notfall",
+            "Immun"
+          ],
+          "patient": "75-j. Frau",
+          "praesentation": "Neue Kopfschmerzen, Kauschmerz (Claudicatio masticatoria), Sehstörung.",
+          "befunde": [
+            "BSG stark↑",
+            "Sono: Halo-Zeichen A. temporalis"
+          ],
+          "diagnose": "Riesenzellarteriitis",
+          "therapie": [
+            "Sofort Hochdosis-Steroide!",
+            "Tocilizumab"
+          ],
+          "lernpunkte": [
+            "Notfall wegen Erblindungsgefahr (AION)"
+          ]
+        },
+        {
+          "id": "NEU_S060",
+          "titel": "Spannungskopfschmerz",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "38-j. Büroangestellte",
+          "praesentation": "Beidseitiger drückender Schmerz, wie ein Ring um den Kopf.",
+          "befunde": [
+            "Körperliche Untersuchung: Myogelosen"
+          ],
+          "diagnose": "Spannungskopfschmerz",
+          "therapie": [
+            "Pfefferminzöl",
+            "Amitriptylin bei Chronifizierung"
+          ],
+          "lernpunkte": [
+            "Keine Verstärkung durch körperliche Aktivität"
+          ]
+        },
+        {
+          "id": "NEU_S061",
+          "titel": "Medikamentenübergebrauch-Kopfschmerz (MÜK)",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "45-j. Migränepatientin",
+          "praesentation": "Kopfschmerz an > 15 Tagen / Monat.",
+          "befunde": [
+            "Anamnese: Triptan-Einnahme an > 10 Tagen"
+          ],
+          "diagnose": "MÜK",
+          "therapie": [
+            "Medikamentenpause",
+            "Prophylaxe starten"
+          ],
+          "lernpunkte": [
+            "10-20-Regel: Max 10 Tage Analgetika/Monat"
+          ]
+        },
+        {
+          "id": "NEU_S062",
+          "titel": "Liquorunterdrucksyndrom",
+          "tags": [
+            "Liquor"
+          ],
+          "patient": "30-j. nach Lumbalpunktion",
+          "praesentation": "Heftiger Kopfschmerz im Stehen, Besserung im Liegen.",
+          "befunde": [
+            "MRT: Pachymeningeales Enhancement"
+          ],
+          "diagnose": "Postpunktioneller Kopfschmerz",
+          "therapie": [
+            "Flachlagerung",
+            "Koffein",
+            "Epidural Blood Patch"
+          ],
+          "lernpunkte": [
+            "Orthostatischer Kopfschmerz ist Leitsymptom"
+          ]
+        },
+        {
+          "id": "NEU_S063",
+          "titel": "Idiopathische intrakranielle Hypertension (IIH)",
+          "tags": [
+            "Liquor"
+          ],
+          "patient": "28-j. Frau, adipös",
+          "praesentation": "Kopfschmerz, pulssynchroner Tinnitus, transiente Sehstörungen.",
+          "befunde": [
+            "Stauungspapille",
+            "LP-Eröffnungsdruck > 25 cmH2O"
+          ],
+          "diagnose": "Pseudotumor cerebri (IIH)",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Acetazolamid"
+          ],
+          "lernpunkte": [
+            "Gefahr der Visuserblindung"
+          ]
+        },
+        {
+          "id": "NEU_S064",
+          "titel": "Post-Zoster-Neuralgie",
+          "tags": [
+            "Schmerz",
+            "Infekt"
+          ],
+          "patient": "72-j. Patient",
+          "praesentation": "Brennender Schmerz Monate nach Abheilung einer Gürtelrose.",
+          "befunde": [
+            "Allodynie im betroffenen Dermatom"
+          ],
+          "diagnose": "Post-Zoster-Neuralgie",
+          "therapie": [
+            "Gabapentin / Pregabalin",
+            "Capsaicin-Pflaster"
+          ],
+          "lernpunkte": [
+            "Frühzeitige antivirale Therapie senkt Risiko"
+          ]
+        },
+        {
+          "id": "NEU_S065",
+          "titel": "Phantomschmerz",
+          "tags": [
+            "Schmerz"
+          ],
+          "patient": "55-j. nach Beinamputation",
+          "praesentation": "Schmerzen im nicht mehr vorhandenen Fuß.",
+          "befunde": [
+            "Klinische Diagnose"
+          ],
+          "diagnose": "Phantomschmerz",
+          "therapie": [
+            "Spiegeltherapie",
+            "Amitriptylin"
+          ],
+          "lernpunkte": [
+            "Maladaptive kortikale Plastizität"
+          ]
+        }
+      ]
+    },
+    "peripher_muskel_rückenmark": {
+      "label": "Peripherie, Muskeln & Rückenmark",
+      "emoji": "🦯",
+      "faelle": [
+        {
+          "id": "NEU_P066",
+          "titel": "Karpaltunnelsyndrom (KTS)",
+          "tags": [
+            "Engpass",
+            "Peripher"
+          ],
+          "patient": "48-jährige Verkäuferin",
+          "praesentation": "Nächtliches Einschlafen der Hand (Dig. I-III), Schmerz beim Radfahren.",
+          "befunde": [
+            "Hoffmann-Tinel positiv",
+            "NLG: Distale Latenzverzögerung N. medianus"
+          ],
+          "diagnose": "KTS",
+          "therapie": [
+            "Nächtliche Lagerungsschiene",
+            "Karpaldachspaltung"
+          ],
+          "lernpunkte": [
+            "Thenar-Atrophie als Spätzeichen"
+          ]
+        },
+        {
+          "id": "NEU_P067",
+          "titel": "Sulcus-ulnaris-Syndrom",
+          "tags": [
+            "Engpass"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Kribbeln Dig. IV/V, Schwäche beim Spreizen der Finger.",
+          "befunde": [
+            "Froment-Zeichen positiv",
+            "NLG: Leitungsverlangsamung Ellenbogen"
+          ],
+          "diagnose": "Ulnaris-Neuropathie",
+          "therapie": [
+            "Polsterung",
+            "Neurolyse"
+          ],
+          "lernpunkte": [
+            "Krallenhand-Stellung bei chronischem Verlauf"
+          ]
+        },
+        {
+          "id": "NEU_P068",
+          "titel": "Peroneusparese",
+          "tags": [
+            "Peripher"
+          ],
+          "patient": "30-j. nach Gipsverband",
+          "praesentation": "Steppergang, Fußheberparese.",
+          "befunde": [
+            "Schwäche M. tibialis ant. / M. extensor hallucis longus"
+          ],
+          "diagnose": "Läsion des N. fibularis communis",
+          "therapie": [
+            "Peroneusschiene",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Druckstelle am Fibulaköpfchen"
+          ]
+        },
+        {
+          "id": "NEU_P069",
+          "titel": "Diabetische Polyneuropathie",
+          "tags": [
+            "Stoffwechsel",
+            "Peripher"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Brennende Schmerzen an den Fußsohlen, 'wie auf Watte'.",
+          "befunde": [
+            "Sockenartiges Verteilungsmuster",
+            "Vibrationsempfinden↓ (Pallästhesie)"
+          ],
+          "diagnose": "Distal-symmetrische Polyneuropathie",
+          "therapie": [
+            "Blutzuckereinstellung",
+            "Pregabalin / Duloxetin"
+          ],
+          "lernpunkte": [
+            "Häufigste Form der Polyneuropathie"
+          ]
+        },
+        {
+          "id": "NEU_P070",
+          "titel": "B12-Mangel (Funikuläre Myelose)",
+          "tags": [
+            "Mangel",
+            "Rückenmark"
+          ],
+          "patient": "75-j. Veganer",
+          "praesentation": "Gangunsicherheit, Parästhesien, Blässe.",
+          "befunde": [
+            "Pyramidenbahnzeichen",
+            "Hinterstrangstörung",
+            "Vitamin B12↓"
+          ],
+          "diagnose": "Funikuläre Myelose",
+          "therapie": [
+            "Vitamin B12 Substitution parenteral"
+          ],
+          "lernpunkte": [
+            "Kombination aus ZNS- und PNS-Schädigung"
+          ]
+        },
+        {
+          "id": "NEU_P071",
+          "titel": "Bandscheibenvorfall L5",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "42-j. Patient",
+          "praesentation": "Akuter Rückenschmerz, Ausstrahlung in Großzehe.",
+          "befunde": [
+            "Fußheberparese (M4)",
+            "Lasegue 45° positiv"
+          ],
+          "diagnose": "L5-Wurzelsyndrom",
+          "therapie": [
+            "Konservativ",
+            "Analgesie",
+            "ggf. OP bei Parese"
+          ],
+          "lernpunkte": [
+            "Red Flags: Cauda-Syndrom (Notfall)"
+          ]
+        },
+        {
+          "id": "NEU_P072",
+          "titel": "Fazialisparese (Idiopathisch)",
+          "tags": [
+            "Hirnnerv"
+          ],
+          "patient": "35-j. nach Zugluft",
+          "praesentation": "Hängender Mundwinkel, Stirnrunzeln nicht möglich.",
+          "befunde": [
+            "Bell-Phänomen positiv",
+            "Vollständiger Lidschluss fehlt"
+          ],
+          "diagnose": "Bell'sche Parese",
+          "therapie": [
+            "Prednisolon",
+            "Augenschutz (Uhrglasverband)"
+          ],
+          "lernpunkte": [
+            "Peripher vs. Zentral: Stirnrunzeln beim zentralen Schlaganfall möglich"
+          ]
+        },
+        {
+          "id": "NEU_P073",
+          "titel": "Duchenne Muskeldystrophie",
+          "tags": [
+            "Pädiatrie",
+            "Muskel"
+          ],
+          "patient": "4-j. Junge",
+          "praesentation": "Watschelgang, Gowers-Zeichen positiv.",
+          "befunde": [
+            "CK-Wert extrem↑ (> 10.000)",
+            "Dystrophin-Mutation"
+          ],
+          "diagnose": "DMD",
+          "therapie": [
+            "Steroide",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "X-chromosomal-rezessiv, Pseudohypertrophie der Waden"
+          ]
+        },
+        {
+          "id": "NEU_P074",
+          "titel": "Polymyositis",
+          "tags": [
+            "Muskel",
+            "Immun"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Subakute proximale Schwäche (Treppensteigen schwierig).",
+          "befunde": [
+            "CK↑",
+            "EMG: Myopathisches Muster",
+            "Muskelbiopsie: lymphozytäre Infiltrate"
+          ],
+          "diagnose": "Polymyositis",
+          "therapie": [
+            "Steroide",
+            "Azathioprin"
+          ],
+          "lernpunkte": [
+            "Symmetrische Schwäche des Schulter/Hüftgürtels"
+          ]
+        },
+        {
+          "id": "NEU_P075",
+          "titel": "Einschlusskörpermyositis (IBM)",
+          "tags": [
+            "Muskel",
+            "Geriatrie"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Schwäche der Fingerbeuger und Kniestrecker.",
+          "befunde": [
+            "Biopsie: Rimmed Vacuoles",
+            "Anti-cN1A-Antikörper"
+          ],
+          "diagnose": "IBM",
+          "therapie": [
+            "Meist immunsuppressiva-refraktär",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Häufigste Myositis im Alter, charakteristisches Befallsmuster"
+          ]
+        },
+        {
+          "id": "NEU_P076",
+          "titel": "Neuromuskuläre Übertragung (Botulismus)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "30-j. nach Verzehr von Konserven",
+          "praesentation": "Doppelbilder, weite Pupillen, absteigende Lähmung.",
+          "befunde": [
+            "Toxin-Nachweis im Blut"
+          ],
+          "diagnose": "Botulismus",
+          "therapie": [
+            "Antitoxin",
+            "Beatmung"
+          ],
+          "lernpunkte": [
+            "Präsynaptische Blockade durch Clostridium-Toxin"
+          ]
+        },
+        {
+          "id": "NEU_P077",
+          "titel": "Plexus-Läsion (Paralytisch)",
+          "tags": [
+            "Selten",
+            "Immun"
+          ],
+          "patient": "28-j. Patient nach Impfung",
+          "praesentation": "Heftigste Schulterschmerzen, dann Lähmung des Arms.",
+          "befunde": [
+            "MRT Plexus: Signalhebung",
+            "NLG: Axonale Schädigung"
+          ],
+          "diagnose": "Neuralgische Schulteramyotrophie (Plexusneuritis)",
+          "therapie": [
+            "Steroide",
+            "Schmerztherapie"
+          ],
+          "lernpunkte": [
+            "Häufig postinfektiös/postvakzinal"
+          ]
+        },
+        {
+          "id": "NEU_P078",
+          "titel": "Myotone Dystrophie (Curschmann-Steinert)",
+          "tags": [
+            "Muskel",
+            "Genetik"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Hand kann nach Händedruck nicht losgelassen werden, Ptose, Glatze.",
+          "befunde": [
+            "Katarakt",
+            "Kardiomyopathie",
+            "EMG: Sturzkampfflieger-Geräusch"
+          ],
+          "diagnose": "DM Typ 1",
+          "therapie": [
+            "Mexiletin bei Myotonie",
+            "Kardiologisches Monitoring"
+          ],
+          "lernpunkte": [
+            "Multisystemerkrankung, CTG-Repeat Expansion"
+          ]
+        },
+        {
+          "id": "NEU_P079",
+          "titel": "Brown-Séquard-Syndrom",
+          "tags": [
+            "Rückenmark"
+          ],
+          "patient": "40-j. nach Stichverletzung",
+          "praesentation": "Ipsilaterale Parese, kontralaterale Schmerz/Temp-Störung.",
+          "befunde": [
+            "MRT: Halbseitige Rückenmarksschädigung"
+          ],
+          "diagnose": "Brown-Séquard-Syndrom",
+          "therapie": [
+            "Physiotherapie",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Klassisches Syndrom der Rückenmarkshälfte"
+          ]
+        },
+        {
+          "id": "NEU_P080",
+          "titel": "Syringomyelie",
+          "tags": [
+            "Rückenmark",
+            "Anatomie"
+          ],
+          "patient": "32-j. Frau",
+          "praesentation": "Dissoziierte Empfindungsstörung an den Armen (Schmerz/Temperatur↓).",
+          "befunde": [
+            "MRT: Zentrale Höhle im Myelon",
+            "Chiari-I-Malformation"
+          ],
+          "diagnose": "Syringomyelie",
+          "therapie": [
+            "Ggf. operative Dekompression"
+          ],
+          "lernpunkte": [
+            "Typische Schmerzunempfindlichkeit für Verbrennungen an Händen"
+          ]
+        },
+        {
+          "id": "NEU_P081",
+          "titel": "Zervikale Myelopathie",
+          "tags": [
+            "Geriatrie",
+            "Wirbelsäule"
+          ],
+          "patient": "70-j. Patient",
+          "praesentation": "Gangstörung, Feinmotorikstörung der Hände, gesteigerte Reflexe.",
+          "befunde": [
+            "MRT: Enge des Spinalkanals, Myelonsignal↑"
+          ],
+          "diagnose": "Spondylotische zervikale Myelopathie",
+          "therapie": [
+            "Dekompression chirurgisch"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für Myelopathie im Alter"
+          ]
+        },
+        {
+          "id": "NEU_P082",
+          "titel": "Parsonage-Turner-Syndrom",
+          "tags": [
+            "Peripher"
+          ],
+          "patient": "35-j. Patient",
+          "praesentation": "Akuter Schulterschmerz, gefolgt von Atrophie des M. serratus anterior.",
+          "befunde": [
+            "Scapula alata (Engelsflügel)"
+          ],
+          "diagnose": "Neuralgische Schulteramyotrophie",
+          "therapie": [
+            "Analgetika",
+            "Physio"
+          ],
+          "lernpunkte": [
+            "N. thoracicus longus häufig betroffen"
+          ]
+        },
+        {
+          "id": "NEU_P083",
+          "titel": "Hypokaliämische Lähmung",
+          "tags": [
+            "Metabolisch",
+            "Selten"
+          ],
+          "patient": "25-j. Mann nach kohlenhydratreicher Mahlzeit",
+          "praesentation": "Plötzliche generalisierte Lähmung, Reflexe fehlen.",
+          "befunde": [
+            "Kalium 2,0 mmol/l",
+            "Schilddrüsenüberfunktion?"
+          ],
+          "diagnose": "Familiäre hypokaliämische periodische Paralyse",
+          "therapie": [
+            "Kaliumsubstitution",
+            "Azetaolamid"
+          ],
+          "lernpunkte": [
+            "Ionenkanalerkrankung"
+          ]
+        },
+        {
+          "id": "NEU_P084",
+          "titel": "Multifokale motorische Neuropathie (MMN)",
+          "tags": [
+            "Immun",
+            "Peripher"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Rein motorische asymmetrische Schwäche, keine Atrophie initial.",
+          "befunde": [
+            "NLG: Multifokale Leitungsblöcke",
+            "GM1-Antikörper positiv"
+          ],
+          "diagnose": "MMN",
+          "therapie": [
+            "IVIG (Steroide oft kontraproduktiv!)"
+          ],
+          "lernpunkte": [
+            "Wichtige DD zur ALS (da behandelbar)"
+          ]
+        },
+        {
+          "id": "NEU_P085",
+          "titel": "Rhabdomyolyse",
+          "tags": [
+            "Notfall",
+            "Muskel"
+          ],
+          "patient": "22-j. nach Extrem-Sport",
+          "praesentation": "Muskelschmerzen, dunkler Urin (Cola-farben).",
+          "befunde": [
+            "CK 50.000 U/l",
+            "Myoglobinurie",
+            "Kreatinin↑"
+          ],
+          "diagnose": "Akute Rhabdomyolyse",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "Elektrolytkontrolle"
+          ],
+          "lernpunkte": [
+            "Gefahr des akuten Nierenversagens (Crush-Niere)"
+          ]
+        }
+      ]
+    },
+    "diverses": {
+      "label": "Neuroonkologie, Schwindel & Schlaf",
+      "emoji": "🌀",
+      "faelle": [
+        {
+          "id": "NEU_O086",
+          "titel": "Glioblastom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "68-jähriger Mann",
+          "praesentation": "Wesensveränderung, erstmaliger epileptischer Anfall, Kopfschmerz.",
+          "befunde": [
+            "MRT: Ringförmig KM-anreichernde Raumforderung mit Ödem",
+            "Mittellinienverlagerung"
+          ],
+          "diagnose": "Glioblastom (WHO Grad 4)",
+          "therapie": [
+            "Resektion",
+            "Radio-Chemotherapie (Stupp-Schema)"
+          ],
+          "lernpunkte": [
+            "Häufigster maligner Hirntumor, schlechte Prognose"
+          ]
+        },
+        {
+          "id": "NEU_O087",
+          "titel": "Vestibularisschwannom",
+          "tags": [
+            "KHBW",
+            "Tumor"
+          ],
+          "patient": "45-j. Patient",
+          "praesentation": "Einseitige Hörminderung, Tinnitus, Schwindel.",
+          "befunde": [
+            "MRT: Tumor im Kleinhirnbrückenwinkel",
+            "Innerer Gehörgang erweitert"
+          ],
+          "diagnose": "Akustikusneurinom",
+          "therapie": [
+            "Watch & Wait / Bestrahlung / OP"
+          ],
+          "lernpunkte": [
+            "Oft assoziiert mit Neurofibromatose Typ 2"
+          ]
+        },
+        {
+          "id": "NEU_O088",
+          "titel": "Meningeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Zufallsbefund im CT nach Sturz.",
+          "befunde": [
+            "MRT: Breitbasig der Dura aufsitzend, homogenes Enhancement",
+            "Dural Tail Sign"
+          ],
+          "diagnose": "Meningeom (WHO Grad 1)",
+          "therapie": [
+            "Oft keine Therapie (Verlaufskontrolle)",
+            "ggf. Resektion"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner intrakranieller Tumor"
+          ]
+        },
+        {
+          "id": "NEU_O089",
+          "titel": "Hirnmetastase (NSCLC)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "62-j. Raucher",
+          "praesentation": "Kopfschmerz, Hemiparese links.",
+          "befunde": [
+            "MRT: Multiple KM-herde mit ausgeprägtem Ödem"
+          ],
+          "diagnose": "Zerebrale Metastasierung",
+          "therapie": [
+            "Dexamethason",
+            "Ganzhirnbestrahlung / SRS"
+          ],
+          "lernpunkte": [
+            "Oft Erstmanifestation eines unbekannten Primarius"
+          ]
+        },
+        {
+          "id": "NEU_O090",
+          "titel": "Benigner paroxysmaler Lagerungsschwindel (BPLS)",
+          "tags": [
+            "Schwindel"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Sekundenlanger Drehschwindel beim Umdrehen im Bett.",
+          "befunde": [
+            "Dix-Hallpike: Rotatorischer Nystagmus mit Latenz"
+          ],
+          "diagnose": "BPLS (posteriorer Kanal)",
+          "therapie": [
+            "Epley-Manöver"
+          ],
+          "lernpunkte": [
+            "Häufigste Schwindelform, therapeutisch gut behandelbar"
+          ]
+        },
+        {
+          "id": "NEU_O091",
+          "titel": "Vestibularisneuritis",
+          "tags": [
+            "Schwindel",
+            "Notfall"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Akuter Dauerdrehschwindel, Übelkeit, Fallneigung.",
+          "befunde": [
+            "HINTS-Test: Vestibulookulärer Reflex gestört",
+            "Spontannystagmus zur gesunden Seite"
+          ],
+          "diagnose": "Akute periphere Vestibulopathie",
+          "therapie": [
+            "Steroide",
+            "Vomex",
+            "Gleichgewichtstraining"
+          ],
+          "lernpunkte": [
+            "HINTS-Test zur DD zentraler vs. peripherer Schwindel"
+          ]
+        },
+        {
+          "id": "NEU_O092",
+          "titel": "Morbus Menière",
+          "tags": [
+            "Schwindel"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Trias: Drehschwindelattacken (Stunden), Tinnitus, Hörminderung.",
+          "befunde": [
+            "Audiometrie: Tieftonschwerhörigkeit"
+          ],
+          "diagnose": "M. Menière",
+          "therapie": [
+            "Betahistin",
+            "Salzarme Diät"
+          ],
+          "lernpunkte": [
+            "Endolymphhydrops als Ursache"
+          ]
+        },
+        {
+          "id": "NEU_O093",
+          "titel": "Phobischer Schwankschwindel",
+          "tags": [
+            "Schwindel",
+            "Psych"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Schwankgefühl in Menschenmengen, Besserung durch Alkohol.",
+          "befunde": [
+            "Neuro-Status komplett normal"
+          ],
+          "diagnose": "Funktioneller Schwindel (PPPD)",
+          "therapie": [
+            "Psychoedukation",
+            "VT",
+            "SSRI"
+          ],
+          "lernpunkte": [
+            "Zweithäufigste Schwindelursache"
+          ]
+        },
+        {
+          "id": "NEU_O094",
+          "titel": "Wernicke-Enzephalopathie",
+          "tags": [
+            "Notfall",
+            "Mangel"
+          ],
+          "patient": "50-j. Alkoholiker",
+          "praesentation": "Trias: Augenbewegungsstörung, Ataxie, Verwirrtheit.",
+          "befunde": [
+            "MRT: Signalhebung Corpora mamillaria / Periaquäduktal"
+          ],
+          "diagnose": "Vitamin-B1-Mangel",
+          "therapie": [
+            "Hochdosis Thiamin i.v. (vor Glukose!)"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall, irreversible Schäden drohen"
+          ]
+        },
+        {
+          "id": "NEU_O095",
+          "titel": "Meningitis (Bakteriell)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Fieber, Nackensteife, Petechien, Bewusstseinseintrübung.",
+          "befunde": [
+            "Liquor: Granulozytäre Pleozytose, Laktat↑, Glukose↓"
+          ],
+          "diagnose": "Meningokokken-Meningitis",
+          "therapie": [
+            "Ceftriaxon + Vancomycin + Ampicillin + Dexamethason"
+          ],
+          "lernpunkte": [
+            "Dexamethason zeitgleich mit erster AB-Gabe"
+          ]
+        },
+        {
+          "id": "NEU_O096",
+          "titel": "Herpes-Enzephalitis",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "45-j. Patient",
+          "praesentation": "Fieber, Wesensveränderung, Aphasie, Krampfanfall.",
+          "befunde": [
+            "MRT: Signalhebung Temporallappen unilateral/asymmetrisch",
+            "Liquor-PCR: HSV-1 positiv"
+          ],
+          "diagnose": "HSE",
+          "therapie": [
+            "Aciclovir i.v. für 14-21 Tage"
+          ],
+          "lernpunkte": [
+            "Mittel der Wahl: Aciclovir (sofortiger Start bei Verdacht)"
+          ]
+        },
+        {
+          "id": "NEU_O097",
+          "titel": "Restless-Legs-Syndrom (RLS)",
+          "tags": [
+            "Schlaf"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Bewegungsdrang der Beine am Abend, Besserung durch Umherlaufen.",
+          "befunde": [
+            "Labor: Ferritin↓ (Eisenmangel)"
+          ],
+          "diagnose": "RLS",
+          "therapie": [
+            "Eisensubstitution",
+            "L-Dopa / Dopaminagonisten"
+          ],
+          "lernpunkte": [
+            "Cave: Augmentation bei zu hoher L-Dopa Dosis"
+          ]
+        },
+        {
+          "id": "NEU_O098",
+          "titel": "Neurofibromatose Typ 1",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "15-j. Kind",
+          "praesentation": "Multiple Café-au-lait Flecken, Lisch-Knötchen der Iris.",
+          "befunde": [
+            "NF1-Mutation",
+            "Optikusgliom"
+          ],
+          "diagnose": "Morbus Recklinghausen",
+          "therapie": [
+            "Verlaufskontrolle"
+          ],
+          "lernpunkte": [
+            "Häufigste Phakomatose"
+          ]
+        },
+        {
+          "id": "NEU_O099",
+          "titel": "Hirntodfeststellung",
+          "tags": [
+            "Recht",
+            "Forensik"
+          ],
+          "patient": "40-j. nach schwerem SHT",
+          "praesentation": "GCS 3, Apnoe-Test positiv.",
+          "befunde": [
+            "Areflexie des Hirnstamms",
+            "Perfusionsstopp in Angio"
+          ],
+          "diagnose": "Irreversibler Hirnfunktionsausfall",
+          "therapie": [
+            "Dokumentation gemäß Richtlinien BÄK"
+          ],
+          "lernpunkte": [
+            "Zwei unabhängige Untersucher nötig"
+          ]
+        },
+        {
+          "id": "NEU_O100",
+          "titel": "Tollwut (Lyssa)",
+          "tags": [
+            "Infekt",
+            "Selten"
+          ],
+          "patient": "30-j. nach Fledermausbiss in Asien",
+          "praesentation": "Hydrophobie, Krämpfe, Speichelfluss.",
+          "befunde": [
+            "PCR aus Speichel/Liquor"
+          ],
+          "diagnose": "Rabies",
+          "therapie": [
+            "Nach Biss: Aktive/Passive Impfung",
+            "Nach Symptombeginn: fast immer letal"
+          ],
+          "lernpunkte": [
+            "Postexpositionsprophylaxe (PEP) ist lebensrettend"
+          ]
+        }
+      ]
+    }
+  }
+}

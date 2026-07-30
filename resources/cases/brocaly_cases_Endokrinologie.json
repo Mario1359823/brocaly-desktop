@@ -1,0 +1,2051 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Endokrinologie und Stoffwechsel",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-30"
+  },
+  "kategorien": {
+    "hypophyse_hypothalamus": {
+      "label": "Hypophyse & Hypothalamus",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "END_H001",
+          "titel": "Prolaktinom (Makroadenom)",
+          "tags": [
+            "Hypophyse",
+            "Hormonaktiv"
+          ],
+          "patient": "32-jährige Patientin",
+          "praesentation": "Sekundäre Amenorrhö, Galaktorrhö und bitemporale Hemianopsie.",
+          "befunde": [
+            "Serum-Prolaktin: 2500 ng/ml (stark ↑)",
+            "MRT: Raumforderung Sella 12 mm"
+          ],
+          "diagnose": "Makroprolaktinom",
+          "therapie": [
+            "Dopaminagonisten (Cabergolin)",
+            "Gesichtsfeldkontrolle"
+          ],
+          "lernpunkte": [
+            "Prolaktinome sind primär eine Domäne der medikamentösen Therapie",
+            "Hook-Effekt bei extrem hohen Werten im Labor beachten"
+          ]
+        },
+        {
+          "id": "END_H002",
+          "titel": "Akromegalie",
+          "tags": [
+            "Hypophyse"
+          ],
+          "patient": "45-j. Mann",
+          "praesentation": "Zunahme der Schuhgröße, Vergröberung der Gesichtszüge, Hypertonus.",
+          "befunde": [
+            "IGF-1 erhöht",
+            "OGTT: Fehlende GH-Suppression"
+          ],
+          "diagnose": "Akromegalie (STH-produzierendes Adenom)",
+          "therapie": [
+            "Transsphenoidale Adenomektomie",
+            "Somatostatin-Analoga"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für Kolonkarzinome und Kardiomyopathie"
+          ]
+        },
+        {
+          "id": "END_H003",
+          "titel": "Diabetes insipidus centralis",
+          "tags": [
+            "Hypothalamus"
+          ],
+          "patient": "28-j. nach Schädel-Hirn-Trauma",
+          "praesentation": "Polyurie (12 l/d), massiver Durst (Polydipsie).",
+          "befunde": [
+            "Urin-Osmolalität niedrig (< 300 mosm/kg)",
+            "Durstversuch: fehlender Anstieg der Urinkonzentration"
+          ],
+          "diagnose": "Diabetes insipidus centralis (ADH-Mangel)",
+          "therapie": [
+            "Desmopressin (Nasenspray/Tabletten)"
+          ],
+          "lernpunkte": [
+            "Differenzierung zum renalen Typ via Desmopressin-Test"
+          ]
+        },
+        {
+          "id": "END_H004",
+          "titel": "Morbus Cushing (Hypophysär)",
+          "tags": [
+            "Hypophyse"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Vollmondgesicht, Stammfettsucht, Striae rubrae, Myopathie.",
+          "befunde": [
+            "Dexamethason-Langtest: Suppression bei hoher Dosis",
+            "ACTH erhöht"
+          ],
+          "diagnose": "Zentrales Cushing-Syndrom",
+          "therapie": [
+            "Transsphenoidale Resektion des Mikroadenoms"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zum ektopen ACTH-Syndrom"
+          ]
+        },
+        {
+          "id": "END_H005",
+          "titel": "Inaktives Hypophysenadenom",
+          "tags": [
+            "Sella"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Zufallsbefund im MRT nach Kopfschmerz.",
+          "befunde": [
+            "Keine hormonelle Aktivität",
+            "keine Chiasma-Kompression"
+          ],
+          "diagnose": "Inaktives Inzidentalom der Hypophyse",
+          "therapie": [
+            "Watch and Wait (jährliche Kontrolle)"
+          ],
+          "lernpunkte": [
+            "Hormon-Basisdiagnostik zum Ausschluss von Ausfällen zwingend"
+          ]
+        },
+        {
+          "id": "END_H006",
+          "titel": "Hypophysenvorderlappeninsuffizienz",
+          "tags": [
+            "Insuffizienz"
+          ],
+          "patient": "50-j. nach Bestrahlung der Hirnbasis",
+          "praesentation": "Kälteintoleranz, Libidoverlust, rezidivierende Hypoglykämien.",
+          "befunde": [
+            "TSH↓, fT4↓, Cortisol↓, Testosteron↓"
+          ],
+          "diagnose": "Panhypopituitarismus",
+          "therapie": [
+            "Hormonsubstitution (Hydrocortison, L-Thyroxin, Testosteron)"
+          ],
+          "lernpunkte": [
+            "Substitution von Cortisol IMMER vor Thyroxin (Addison-Krise-Gefahr)"
+          ]
+        },
+        {
+          "id": "END_H007",
+          "titel": "Craniopharyngeom",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "12-j. Kind",
+          "praesentation": "Wachstumsstopp, Sehstörungen.",
+          "befunde": [
+            "MRT: Supraselläre Raumforderung mit Zysten und Kalk"
+          ],
+          "diagnose": "Craniopharyngeom",
+          "therapie": [
+            "Operation + ggf. Radiatio"
+          ],
+          "lernpunkte": [
+            "Embryonaler Tumor aus der Rathke-Tasche"
+          ]
+        },
+        {
+          "id": "END_H008",
+          "titel": "Syndrom der inadäquaten ADH-Sekretion (SIADH)",
+          "tags": [
+            "Wasserhaushalt"
+          ],
+          "patient": "65-j. Raucher mit Kleinzeller-Lunge",
+          "praesentation": "Verwirrtheit, Inappetenz.",
+          "befunde": [
+            "Serum-Natrium 118 mmol/l",
+            "Urin-Osmolalität > Serum-Osmolalität"
+          ],
+          "diagnose": "SIADH (Schwartz-Bartter-Syndrom)",
+          "therapie": [
+            "Flüssigkeitsrestriktion",
+            "Tolvaptan"
+          ],
+          "lernpunkte": [
+            "Paraneoplasie bei SCLC häufig"
+          ]
+        },
+        {
+          "id": "END_H009",
+          "titel": "Sheehan-Syndrom",
+          "tags": [
+            "Postpartal"
+          ],
+          "patient": "30-j. nach komplizierter Geburt (Blutung)",
+          "praesentation": "Kein Milcheinschuss postpartal, fehlende Wiederkehr der Menses.",
+          "befunde": [
+            "Nachweis multipler HVL-Ausfälle"
+          ],
+          "diagnose": "Postpartale Hypophysennekrose",
+          "therapie": [
+            "Substitutionstherapie"
+          ],
+          "lernpunkte": [
+            "Ischämie der schwangerschaftsbedingt vergrößerten Hypophyse"
+          ]
+        },
+        {
+          "id": "END_H010",
+          "titel": "Lymphozytäre Hypophysitis",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "Frau im letzten Trimenon der Schwangerschaft",
+          "praesentation": "Kopfschmerzen, Polyurie.",
+          "befunde": [
+            "MRT: Diffuse Schwellung der Hypophyse mit kräftigem Enhancement"
+          ],
+          "diagnose": "Lymphozytäre Hypophysitis",
+          "therapie": [
+            "Symptomatisch / Steroide"
+          ],
+          "lernpunkte": [
+            "Seltene entzündliche DD zum Adenom"
+          ]
+        },
+        {
+          "id": "END_H011",
+          "titel": "Nelson-Syndrom",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "Pat. nach bilateraler Adrenalektomie bei Cushing",
+          "praesentation": "Zunehmende Hyperpigmentierung der Haut.",
+          "befunde": [
+            "MRT: Rasches Wachstum eines Hypophysenadenoms",
+            "ACTH extrem↑"
+          ],
+          "diagnose": "Nelson-Syndrom",
+          "therapie": [
+            "OP / Radiatio"
+          ],
+          "lernpunkte": [
+            "Aggressives Wachstum durch fehlendes negatives Feedback"
+          ]
+        },
+        {
+          "id": "END_H012",
+          "titel": "Hypophysärer Zwergwuchs",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "7-j. Kind",
+          "praesentation": "Wachstum unter der 3. Perzentile, puppenhaftes Gesicht.",
+          "befunde": [
+            "STH-Provokationstests (Arginin/Insulin) pathologisch"
+          ],
+          "diagnose": "Wachstumshormonmangel",
+          "therapie": [
+            "Substitution mit rekombinantem hGH"
+          ],
+          "lernpunkte": [
+            "Wachstumsgeschwindigkeit < 4cm/Jahr ist verdächtig"
+          ]
+        },
+        {
+          "id": "END_H013",
+          "titel": "Sekundärer Hypogonadismus (Opiat-induziert)",
+          "tags": [
+            "Medikamentös"
+          ],
+          "patient": "45-j. Schmerzpatient unter Morphindauertherapie",
+          "praesentation": "Libidoverlust, depressive Verstimmung.",
+          "befunde": [
+            "Testosteron↓, LH/FSH niedrig-normal (inadäquat)"
+          ],
+          "diagnose": "Opiat-assoziierter Hypogonadismus",
+          "therapie": [
+            "Dosisreduktion Opiate / Testosteronsubstitution"
+          ],
+          "lernpunkte": [
+            "Opiate supprimieren die GnRH-Pulsatilität"
+          ]
+        },
+        {
+          "id": "END_H014",
+          "titel": "Leere Sella (Empty Sella)",
+          "tags": [
+            "Anatomie"
+          ],
+          "patient": "40-j. adipöse Frau",
+          "praesentation": "Kopfschmerzen, Pseudotumor cerebri.",
+          "befunde": [
+            "MRT: Sella mit Liquor gefüllt, Hypophyse an den Rand gedrückt"
+          ],
+          "diagnose": "Primäres Empty Sella Syndrom",
+          "therapie": [
+            "Meist keine hormonelle Therapie nötig"
+          ],
+          "lernpunkte": [
+            "Häufig Zufallsbefund ohne klinische Relevanz"
+          ]
+        },
+        {
+          "id": "END_H015",
+          "titel": "Hypophysenapoplexie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "50-j. mit bekanntem Adenom",
+          "praesentation": "Akuter Vernichtungskopfschmerz, Visusverlust, Schock.",
+          "befunde": [
+            "MRT: Einblutung in die Hypophyse"
+          ],
+          "diagnose": "Hypophysenapoplexie",
+          "therapie": [
+            "Notfall-Steroide i.v.",
+            "Dringliche neurochirurgische Dekompression"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall (Akute Nebennierenrindeninsuffizienz)"
+          ]
+        }
+      ]
+    },
+    "schilddruese": {
+      "label": "Schilddrüse",
+      "emoji": "🦋",
+      "faelle": [
+        {
+          "id": "END_S016",
+          "titel": "Morbus Basedow",
+          "tags": [
+            "Schilddrüse",
+            "Autoimmun"
+          ],
+          "patient": "35-jährige Frau",
+          "praesentation": "Gewichtsverlust trotz Heißhunger, Tachykardie, feinschlägiger Tremor, Exophthalmus.",
+          "befunde": [
+            "TRAK positiv",
+            "Sono: Echoarmes Parenchym, massive Hypervaskularisation",
+            "TcTU 15%"
+          ],
+          "diagnose": "Hyperthyreose bei Morbus Basedow",
+          "therapie": [
+            "Thyreostatika (Thiamazol) für 12-18 Monate"
+          ],
+          "lernpunkte": [
+            "Merseburger Trias (Exophthalmus, Struma, Tachykardie)",
+            "Rezidivrate nach Absetzen ca. 50%"
+          ]
+        },
+        {
+          "id": "END_S017",
+          "titel": "Hashimoto-Thyreoiditis",
+          "tags": [
+            "Hypothyreose"
+          ],
+          "patient": "42-j. Frau",
+          "praesentation": "Müdigkeit, Kälteintoleranz, Gewichtszunahme, depressive Verstimmung.",
+          "befunde": [
+            "TSH 15 mU/l (↑), fT4↓",
+            "TPO-Antikörper massiv erhöht"
+          ],
+          "diagnose": "Primäre Hypothyreose bei Hashimoto-Thyreoiditis",
+          "therapie": [
+            "L-Thyroxin (Einschleichend)"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache der Hypothyreose in Jod-suffizienten Gebieten"
+          ]
+        },
+        {
+          "id": "END_S018",
+          "titel": "Autonomes Adenom (Heißer Knoten)",
+          "tags": [
+            "Hyperthyreose"
+          ],
+          "patient": "70-j. Mann aus Jodmangelgebiet",
+          "praesentation": "Neu aufgetretenes Vorhofflimmern.",
+          "befunde": [
+            "TSH supprimiert",
+            "Szinti: fokale Mehranreicherung, restliches Gewebe supprimiert"
+          ],
+          "diagnose": "Unifokale Schilddrüsenautonomie",
+          "therapie": [
+            "Radiojodtherapie (RJT)"
+          ],
+          "lernpunkte": [
+            "Keine spontane Remission zu erwarten"
+          ]
+        },
+        {
+          "id": "END_S019",
+          "titel": "Kalter Knoten (Diagnostik)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Patient, tastbarer Knoten",
+          "praesentation": "Euthyreose.",
+          "befunde": [
+            "Sono: Echoarm, Mikrokalk, unscharf begrenzt",
+            "Szinti: Kalter Knoten"
+          ],
+          "diagnose": "Schilddrüsenknoten (V.a. Malignom)",
+          "therapie": [
+            "Feinnadelpunktion (FNP)",
+            "operative Abklärung"
+          ],
+          "lernpunkte": [
+            "Kalter Knoten trägt 5% Malignomrisiko"
+          ]
+        },
+        {
+          "id": "END_S020",
+          "titel": "Thyreoiditis de Quervain",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "38-j. nach viralem Infekt",
+          "praesentation": "Druckschmerz am Hals, Ausstrahlung in die Ohren, Fieber.",
+          "befunde": [
+            "BSG massiv erhöht (Sturzsenkung)",
+            "Szinti: Fehlender Jod-Uptake"
+          ],
+          "diagnose": "Subakute granulomatöse Thyreoiditis",
+          "therapie": [
+            "NSAR",
+            "ggf. Steroide"
+          ],
+          "lernpunkte": [
+            "Freisetzungshyperthyreose im Anfangsstadium"
+          ]
+        },
+        {
+          "id": "END_S021",
+          "titel": "Papilläres Schilddrüsenkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "45-j. Frau",
+          "praesentation": "Asymptomatischer kalter Knoten.",
+          "befunde": [
+            "Histologie: Papilläres CA (pT1b N0 M0)"
+          ],
+          "diagnose": "Differenziertes Schilddrüsenkarzinom",
+          "therapie": [
+            "Thyreodektomie + Radiojodablation"
+          ],
+          "lernpunkte": [
+            "Exzellente Prognose, lymphogene Metastasierung"
+          ]
+        },
+        {
+          "id": "END_S022",
+          "titel": "Medulläres Schilddrüsenkarzinom",
+          "tags": [
+            "Onkologie",
+            "MEN"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Knotenstruma, Diarrhö.",
+          "befunde": [
+            "Calcitonin im Serum massiv erhöht"
+          ],
+          "diagnose": "C-Zell-Karzinom",
+          "therapie": [
+            "Totale Thyreodektomie + Neck Dissection"
+          ],
+          "lernpunkte": [
+            "Ausschluss MEN-2 Syndrom (Phäochromozytom-Screening!)"
+          ]
+        },
+        {
+          "id": "END_S023",
+          "titel": "Amiodaron-induzierte Hyperthyreose (AIH)",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "72-j. KHK-Patient",
+          "praesentation": "Akute Hyperthyreose unter Antiarrhythmikum.",
+          "befunde": [
+            "Typ 1: Autonomie getriggert",
+            "Typ 2: Destruktionsthyreoiditis"
+          ],
+          "diagnose": "AIH Typ 2",
+          "therapie": [
+            "Glukokortikoide",
+            "Absetzen Amiodaron (wenn kardiologisch möglich)"
+          ],
+          "lernpunkte": [
+            "Amiodaron enthält massiv Jod und ist direkt toxisch"
+          ]
+        },
+        {
+          "id": "END_S024",
+          "titel": "Latente Hypothyreose",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Müdigkeit, trockene Haut.",
+          "befunde": [
+            "TSH 6,5 mU/l (↑), fT4 im Normbereich"
+          ],
+          "diagnose": "Subklinische (latente) Hypothyreose",
+          "therapie": [
+            "Substitution bei TPO-AK+ oder Leidensdruck"
+          ],
+          "lernpunkte": [
+            "Behandlungsschwelle TSH > 10 mU/l oder Symptomatik"
+          ]
+        },
+        {
+          "id": "END_S025",
+          "titel": "Endokrine Orbitopathie (EO)",
+          "tags": [
+            "Basedow"
+          ],
+          "patient": "Pat. mit M. Basedow",
+          "praesentation": "Fremdkörpergefühl, Doppelbilder, Tränenfluss.",
+          "befunde": [
+            "Exophthalmus, Lidschwellung",
+            "Rauchen als stärkster Risikofaktor"
+          ],
+          "diagnose": "EO Stadium moderat-schwer",
+          "therapie": [
+            "Steroide i.v. (Pulstherapie)",
+            "absoluter Rauchstopp"
+          ],
+          "lernpunkte": [
+            "CAS (Clinical Activity Score) zur Aktivitätsbeurteilung"
+          ]
+        },
+        {
+          "id": "END_S026",
+          "titel": "Struma nodosa (Euthyreot)",
+          "tags": [
+            "Volkskrankheit"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Kloßgefühl im Hals.",
+          "befunde": [
+            "Sono: Multinodöse Struma, Gesamtvolumen 45 ml",
+            "TSH normal"
+          ],
+          "diagnose": "Euthyreote Struma multinodosa",
+          "therapie": [
+            "Jodid + L-Thyroxin Kombination"
+          ],
+          "lernpunkte": [
+            "Ziel: TSH-Suppression zur Volumenreduktion"
+          ]
+        },
+        {
+          "id": "END_S027",
+          "titel": "Hypothyreose in der Schwangerschaft",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "28-j. Schwangere (10. SSW)",
+          "praesentation": "Vorsorge.",
+          "befunde": [
+            "TSH 4,2 mU/l (↑ für Trimenon)"
+          ],
+          "diagnose": "Hypothyreose in der Gravidität",
+          "therapie": [
+            "L-Thyroxin-Dosiserhöhung um ca. 30-50%"
+          ],
+          "lernpunkte": [
+            "Engmaschige TSH-Kontrollen alle 4 Wochen",
+            "TSH-Ziel < 2,5 mU/l"
+          ]
+        },
+        {
+          "id": "END_S028",
+          "titel": "Jodinduzierte Hyperthyreose (Jod-Basedow)",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "80-j. Pat. nach CT mit Kontrastmittel",
+          "praesentation": "Tachykardie, Agitiertheit nach 2 Wochen.",
+          "befunde": [
+            "Klinische Hyperthyreose bei vorbestehender Autonomie"
+          ],
+          "diagnose": "Hyperthyreose nach Jod-Exposition",
+          "therapie": [
+            "Thyreostatika + Perchlorat"
+          ],
+          "lernpunkte": [
+            "Prophylaxe bei bekannter Autonomie vor KM-Gabe"
+          ]
+        },
+        {
+          "id": "END_S029",
+          "titel": "Anaplastisches Schilddrüsenkarzinom",
+          "tags": [
+            "Notfall",
+            "Onkologie"
+          ],
+          "patient": "78-j. Patient",
+          "praesentation": "Rasant wachsender harter Tumor am Hals innerhalb von Wochen, Heiserkeit.",
+          "befunde": [
+            "Infiltration des N. laryngeus recurrens",
+            "Metastasen"
+          ],
+          "diagnose": "Anaplastisches Karzinom (WHO IV)",
+          "therapie": [
+            "Palliativ (Radiochemo / Tracheostoma)"
+          ],
+          "lernpunkte": [
+            "Einer der aggressivsten Tumoren des Menschen"
+          ]
+        },
+        {
+          "id": "END_S030",
+          "titel": "Marine-Lenhart-Syndrom",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Hyperthyreose.",
+          "befunde": [
+            "TRAK positiv (Basedow) + Heißer Knoten im Szintigramm (Autonomie)"
+          ],
+          "diagnose": "Marine-Lenhart-Syndrom",
+          "therapie": [
+            "Thyreostatika -> RJT oder OP"
+          ],
+          "lernpunkte": [
+            "Kombination aus immunogener und funktioneller Hyperthyreose"
+          ]
+        },
+        {
+          "id": "END_S031",
+          "titel": "Postpartum-Thyreoiditis",
+          "tags": [
+            "Postpartal"
+          ],
+          "patient": "28-j. Wöchnerin, 4 Monate nach Entbindung",
+          "praesentation": "Herzrasen, dann Müdigkeit.",
+          "befunde": [
+            "Phasischer Verlauf: Hyperthyreose -> Hypothyreose"
+          ],
+          "diagnose": "Postpartale Thyreoiditis",
+          "therapie": [
+            "Symptomatisch (Betablocker)",
+            "L-Thyroxin passager"
+          ],
+          "lernpunkte": [
+            "Autoimmunprozess (ähnl. Hashimoto), oft reversibel"
+          ]
+        },
+        {
+          "id": "END_S032",
+          "titel": "Riedel-Struma (Eisenharte Thyreoiditis)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Extrem harte Schilddrüse, Kompressionssymptome.",
+          "befunde": [
+            "Fibrosierung überschreitet Organgrenzen"
+          ],
+          "diagnose": "Riedel-Thyreoiditis",
+          "therapie": [
+            "Steroide / Tamoxifen / Chirurgie (Entlastung)"
+          ],
+          "lernpunkte": [
+            "Assoziation mit retroperitonealer Fibrose (Morbus Ormond)"
+          ]
+        },
+        {
+          "id": "END_S033",
+          "titel": "Sekundäre Hypothyreose",
+          "tags": [
+            "Hypophyse"
+          ],
+          "patient": "Pat. nach Hypophysen-OP",
+          "praesentation": "Müdigkeit.",
+          "befunde": [
+            "fT4↓, TSH niedrig oder normal (inadäquat)"
+          ],
+          "diagnose": "Zentrale Hypothyreose",
+          "therapie": [
+            "L-Thyroxin nach fT4-Steuerung"
+          ],
+          "lernpunkte": [
+            "TSH-Messung zur Therapiekontrolle hier nutzlos"
+          ]
+        },
+        {
+          "id": "END_S034",
+          "titel": "Subklinische Hyperthyreose",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "75-j. Patient",
+          "praesentation": "Zufallsbefund im Labor.",
+          "befunde": [
+            "TSH < 0,1 mU/l, fT4/fT3 normal"
+          ],
+          "diagnose": "Latente Hyperthyreose",
+          "therapie": [
+            "Behandlung bei hohem Osteoporose- oder VHF-Risiko"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für Vorhofflimmern im Alter"
+          ]
+        },
+        {
+          "id": "END_S035",
+          "titel": "Jodmangelstruma",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "Jugendlicher, Bergregion",
+          "praesentation": "Sichtbare Schwellung am Hals.",
+          "befunde": [
+            "Diffus vergrößerte SD, homogenes Echo"
+          ],
+          "diagnose": "Struma diffusa Grad I",
+          "therapie": [
+            "Jodidsupplementierung (150-200 µg/d)"
+          ],
+          "lernpunkte": [
+            "Jodmangel führt zur Hyperplasie durch TSH-Reiz"
+          ]
+        }
+      ]
+    },
+    "nebenniere": {
+      "label": "Nebenniere",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "END_N036",
+          "titel": "Primärer Hyperaldosteronismus (Conn-Syndrom)",
+          "tags": [
+            "Nebenniere",
+            "Hypertonus"
+          ],
+          "patient": "45-jähriger Patient mit therapierefraktärem Blutdruck",
+          "praesentation": "RR 180/110 mmHg trotz 3-fach Kombi, Muskelschwäche.",
+          "befunde": [
+            "Hypokaliämie",
+            "Aldosteron/Renin-Quotient (ARQ) erhöht (> 30-50)"
+          ],
+          "diagnose": "Conn-Syndrom",
+          "therapie": [
+            "Adrenalektomie (bei Adenom) oder Spironolacton (bei Hyperplasie)"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für sekundäre Hypertension"
+          ]
+        },
+        {
+          "id": "END_N037",
+          "titel": "Morbus Addison (Primäre NNR-Insuffizienz)",
+          "tags": [
+            "Insuffizienz"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Gewichtsverlust, Hyperpigmentierung der Haut, Salzhunger.",
+          "befunde": [
+            "Hyponatriämie, Hyperkaliämie",
+            "Cortisol basal↓, ACTH massiv↑"
+          ],
+          "diagnose": "Morbus Addison (Autoimmunadrenalitis)",
+          "therapie": [
+            "Hydrocortison + Fludrocortison lebenslang"
+          ],
+          "lernpunkte": [
+            "Patienten benötigen einen Notfallausweis und Dosisanpassung bei Stress"
+          ]
+        },
+        {
+          "id": "END_N038",
+          "titel": "Phäochromozytom",
+          "tags": [
+            "Hypertonus"
+          ],
+          "patient": "50-j. Patient",
+          "praesentation": "Anfallsartige Hypertonie, Kopfschmerzen, Schwitzen, Herzrasen.",
+          "befunde": [
+            "Metanephrine im 24h-Urin oder Plasma erhöht"
+          ],
+          "diagnose": "Phäochromozytom",
+          "therapie": [
+            "Alpha-Blockade (Phenoxybenzamin), dann Adrenalektomie"
+          ],
+          "lernpunkte": [
+            "Alpha-Blockade zwingend VOR Beta-Blockade zur Vermeidung der Hochdruckkrise"
+          ]
+        },
+        {
+          "id": "END_N039",
+          "titel": "Adrenogenitales Syndrom (AGS) - Late onset",
+          "tags": [
+            "Andrologie",
+            "Gynäkologie"
+          ],
+          "patient": "22-j. Frau",
+          "praesentation": "Hirsutismus, Akne, Oligomenorrhö.",
+          "befunde": [
+            "17-OH-Progesteron nach ACTH-Stimulation erhöht"
+          ],
+          "diagnose": "Nicht-klassisches AGS (21-Hydroxylase-Mangel)",
+          "therapie": [
+            "Glukokortikoide (Dexamethason/Hydrocortison)"
+          ],
+          "lernpunkte": [
+            "Differentialdiagnose zum PCOS"
+          ]
+        },
+        {
+          "id": "END_N040",
+          "titel": "Nebennieren-Inzidentalom",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Zufallsbefund im Abdomen-CT.",
+          "befunde": [
+            "Raumforderung Nebenniere 2,5 cm, Dichte < 10 HE"
+          ],
+          "diagnose": "Inaktives Nebennierenadenom",
+          "therapie": [
+            "Hormoneller Ausschluss (Cushing/Conn/Phäo)",
+            "Kontrolle"
+          ],
+          "lernpunkte": [
+            "Hormonelle Inaktivität muss bewiesen werden"
+          ]
+        },
+        {
+          "id": "END_N041",
+          "titel": "Nebennierenrindenkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "48-j. Frau",
+          "praesentation": "Rasche Virilisierung und Cushing-Symptome.",
+          "befunde": [
+            "CT: Inhomogene RF > 6 cm, unregelmäßig begrenzt",
+            "DHEA-S erhöht"
+          ],
+          "diagnose": "Malignes Nebennierenrindenkarzinom",
+          "therapie": [
+            "Radikale Chirurgie + Mitotane"
+          ],
+          "lernpunkte": [
+            "Oft Mischsekretion verschiedener Steroide"
+          ]
+        },
+        {
+          "id": "END_N042",
+          "titel": "Sekundäre NNR-Insuffizienz (Steroid-induziert)",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "60-j. nach Langzeittherapie Prednisolon",
+          "praesentation": "Schwäche nach plötzlichem Absetzen.",
+          "befunde": [
+            "ACTH niedrig, Cortisol niedrig",
+            "Elektrolyte normal (Aldosteron intakt)"
+          ],
+          "diagnose": "Sekundäre NNR-Insuffizienz",
+          "therapie": [
+            "Langsames Ausschleichen der Steroide"
+          ],
+          "lernpunkte": [
+            "Aldosteron ist ACTH-unabhängig (RAAS)"
+          ]
+        },
+        {
+          "id": "END_N043",
+          "titel": "Waterhouse-Friderichsen-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "19-j. Student mit Meningokokkensepsis",
+          "praesentation": "Petechien, Schock, akute NNR-Insuffizienz.",
+          "befunde": [
+            "CT: Beidseitige Nebenniereneinblutung"
+          ],
+          "diagnose": "Akutes Nebennierenversagen",
+          "therapie": [
+            "Intensivmedizin, Hochdosis Steroide i.v."
+          ],
+          "lernpunkte": [
+            "Fulminante Destruktion der Nebennieren"
+          ]
+        },
+        {
+          "id": "END_N044",
+          "titel": "Subklinisches Cushing-Syndrom",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "65-j. Patient mit Typ 2 Diabetes und Osteoporose",
+          "praesentation": "Schlecht einstellbarer Diabetes.",
+          "befunde": [
+            "Inzidentalom der NN, fehlende Cortisol-Suppression im Kurztest"
+          ],
+          "diagnose": "Autonome Cortisolsekretion (MACS)",
+          "therapie": [
+            "Individuelle Entscheidung zur OP vs. konservativ"
+          ],
+          "lernpunkte": [
+            "Erhöht kardiovaskuläre Mortalität"
+          ]
+        },
+        {
+          "id": "END_N045",
+          "titel": "Aldosteron-produzierendes Adenom vs. Hyperplasie",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Conn-Patient",
+          "praesentation": "Frage nach Seitendifferenz.",
+          "befunde": [
+            "Nebennierenvenensampling (AVS): Lateralisation nach rechts"
+          ],
+          "diagnose": "Aldosteronom rechts",
+          "therapie": [
+            "Laparoskopische Adrenalektomie"
+          ],
+          "lernpunkte": [
+            "CT allein zur Seitenzuordnung oft unzuverlässig"
+          ]
+        },
+        {
+          "id": "END_N046",
+          "titel": "Phäochromozytom im Rahmen von MEN-2A",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "30-j. mit medullärem Schilddrüsenkarzinom",
+          "praesentation": "Vorsorgescreening.",
+          "befunde": [
+            "Metanephrine erhöht, RET-Protoonkogen-Mutation"
+          ],
+          "diagnose": "Familiäres Phäochromozytom",
+          "therapie": [
+            "Adrenalektomie"
+          ],
+          "lernpunkte": [
+            "Inzidenz beidseitiger Tumoren bei Keimbahnmutationen höher"
+          ]
+        },
+        {
+          "id": "END_N047",
+          "titel": "Fludrocortison-Mangel",
+          "tags": [
+            "Addison"
+          ],
+          "patient": "Addison-Patient unter Hydrocortison",
+          "praesentation": "Schwindel bei Aufstehen (Orthostase), Hyponatriämie.",
+          "befunde": [
+            "RR im Stehen sinkt ab, Renin massiv↑"
+          ],
+          "diagnose": "Mangelnde Mineralokortikoid-Substitution",
+          "therapie": [
+            "Erhöhung Fludrocortison"
+          ],
+          "lernpunkte": [
+            "Renin als Steuerungsparameter für Mineralokortikoide"
+          ]
+        },
+        {
+          "id": "END_N048",
+          "titel": "Adrenoleukodystrophie (X-ALD)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "10-j. Junge",
+          "praesentation": "Hautdunkelung, kognitiver Abbau, Ataxie.",
+          "befunde": [
+            "Sehr langkettige Fettsäuren (VLCFA) im Serum erhöht"
+          ],
+          "diagnose": "X-chromosomale Adrenoleukodystrophie",
+          "therapie": [
+            "NNR-Substitution",
+            "Stammzelltransplantation?"
+          ],
+          "lernpunkte": [
+            "Kombination aus NNR-Insuffizienz und Demyelinisierung"
+          ]
+        },
+        {
+          "id": "END_N049",
+          "titel": "Hypercortisolismus (Ektopes ACTH)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Raucher",
+          "praesentation": "Cushing-Habitus, aber zusätzlich schwere Hypokaliämie und Gewichtsverlust.",
+          "befunde": [
+            "ACTH extrem hoch (> 500 pg/ml)",
+            "CT: Bronchialkarzinoid"
+          ],
+          "diagnose": "Paraneoplastisches Cushing-Syndrom",
+          "therapie": [
+            "Tumorresektion",
+            "Ketoconazol (Cortisolsynthesehemmer)"
+          ],
+          "lernpunkte": [
+            "Hypokaliämie ist bei ektoper Sekretion häufiger als bei M. Cushing"
+          ]
+        },
+        {
+          "id": "END_N050",
+          "titel": "Schock bei NNR-Insuffizienz (Addison-Krise)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Bekannter Addison-Pat. mit Magen-Darm-Infekt",
+          "praesentation": "Apathie, RR 80/50, Bauchschmerzen.",
+          "befunde": [
+            "Elektrolytentgleisung",
+            "Exsikkose"
+          ],
+          "diagnose": "Addison-Krise",
+          "therapie": [
+            "Hydrocortison 100mg i.v. Bolus",
+            "Volumensubstitution (NaCl)"
+          ],
+          "lernpunkte": [
+            "Dosisverdopplung/-verdreifachung bei Infekten (Stressregeln)"
+          ]
+        }
+      ]
+    },
+    "gonaden_reproduktion": {
+      "label": "Gonaden & Reproduktion",
+      "emoji": "🧬",
+      "faelle": [
+        {
+          "id": "END_G051",
+          "titel": "Polyzystisches Ovarialsyndrom (PCOS)",
+          "tags": [
+            "Endokrinologie",
+            "Frau"
+          ],
+          "patient": "26-jährige Patientin, Adipositas",
+          "praesentation": "Hirsutismus, Oligomenorrhö, unerfüllter Kinderwunsch.",
+          "befunde": [
+            "Sono: > 12 Follikel pro Ovar",
+            "Labor: LH/FSH-Quotient > 2, Testosteron↑"
+          ],
+          "diagnose": "PCOS (Rotterdam-Kriterien)",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Metformin",
+            "Gestagene/Antiandrogene"
+          ],
+          "lernpunkte": [
+            "Metabolisches Syndrom und Insulinresistenz als Kernprobleme"
+          ]
+        },
+        {
+          "id": "END_G052",
+          "titel": "Primärer Hypogonadismus (Mann)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "35-j. Mann",
+          "praesentation": "Kleine Hoden, Infertilität, Gynäkomastie.",
+          "befunde": [
+            "Testosteron↓, LH/FSH stark erhöht",
+            "Karyogramm: 47, XXY"
+          ],
+          "diagnose": "Klinefelter-Syndrom",
+          "therapie": [
+            "Testosteronsubstitution (Gel/Spritze)"
+          ],
+          "lernpunkte": [
+            "Hypergonadotroper Hypogonadismus"
+          ]
+        },
+        {
+          "id": "END_G053",
+          "titel": "Kallmann-Syndrom",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "19-j. Patient",
+          "praesentation": "Pubertas tarda, Anosmie (Fehlen des Geruchssinns).",
+          "befunde": [
+            "GnRH↓, LH/FSH↓, Testosteron↓",
+            "MRT: Olfaktorius-Aplasie"
+          ],
+          "diagnose": "Hypogonadotroper Hypogonadismus mit Anosmie",
+          "therapie": [
+            "GNRH-Pumpe oder Hormonsubstitution"
+          ],
+          "lernpunkte": [
+            "Migrationsstörung der GnRH-Zellen"
+          ]
+        },
+        {
+          "id": "END_G054",
+          "titel": "Premature Ovarian Failure (POF)",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "32-j. Frau",
+          "praesentation": "Amenorrhö seit 6 Monaten, Hitzewallungen.",
+          "befunde": [
+            "FSH > 40 U/l (zweimalig)",
+            "Estradiol niedrig"
+          ],
+          "diagnose": "Klimakterium praecox",
+          "therapie": [
+            "Hormonersatztherapie (HRT) zur Osteoporoseprophylaxe"
+          ],
+          "lernpunkte": [
+            "Ursachen: Autoimmun, Turner-Mosaik, Chemo/Radiatio"
+          ]
+        },
+        {
+          "id": "END_G055",
+          "titel": "Gynäkomastie (Echte)",
+          "tags": [
+            "Hormonal"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Einseitige schmerzhafte Schwellung der Brustdrüse.",
+          "befunde": [
+            "Leberzirrhose bekannt",
+            "Östrogen/Testosteron-Quotient verschoben"
+          ],
+          "diagnose": "Echte Gynäkomastie",
+          "therapie": [
+            "Behandlung der Grundkrankheit",
+            "ggf. OP"
+          ],
+          "lernpunkte": [
+            "Unterscheidung zur Lipomastie (Pseudogynäkomastie)"
+          ]
+        },
+        {
+          "id": "END_G056",
+          "titel": "Ullrich-Turner-Syndrom",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "15-j. Mädchen",
+          "praesentation": "Fehlende Pubertätsentwicklung, Kleinwuchs, Pterygium colli.",
+          "befunde": [
+            "Karyogramm: 45, X0",
+            "Streak-Ovarien"
+          ],
+          "diagnose": "Turner-Syndrom",
+          "therapie": [
+            "Wachstumshormon",
+            "Östrogensubstitution ab dem 12. LJ"
+          ],
+          "lernpunkte": [
+            "Aortenaneurysmarisiko (Screening!)"
+          ]
+        },
+        {
+          "id": "END_G057",
+          "titel": "Erektile Dysfunktion (Hormonelle Ursache)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Libidoverlust und Erektionsstörung.",
+          "befunde": [
+            "Prolaktin stark erhöht",
+            "Testosteron niedrig"
+          ],
+          "diagnose": "Sekundärer Hypogonadismus bei Prolaktinom",
+          "therapie": [
+            "Dopaminagonisten"
+          ],
+          "lernpunkte": [
+            "Hormonelle Abklärung bei Libidoverlust obligat"
+          ]
+        },
+        {
+          "id": "END_G058",
+          "titel": "Intersexualität (DSD)",
+          "tags": [
+            "Neonatologie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Uneindeutiges Genitale (Virilisierung).",
+          "befunde": [
+            "Karyogramm 46, XX",
+            "NNR-Überfunktion"
+          ],
+          "diagnose": "AGS (Adrenogenitales Syndrom)",
+          "therapie": [
+            "Substitutionstherapie"
+          ],
+          "lernpunkte": [
+            "Meist 21-Hydroxylase-Mangel"
+          ]
+        },
+        {
+          "id": "END_G059",
+          "titel": "Anabolika-Abusus",
+          "tags": [
+            "Sucht"
+          ],
+          "patient": "25-j. Bodybuilder",
+          "praesentation": "Hodenatrophie, Infertilität, Akne.",
+          "befunde": [
+            "Testosteron exogen hoch, LH/FSH supprimiert"
+          ],
+          "diagnose": "Exogener Hypogonadismus",
+          "therapie": [
+            "Absetzen der Substanzen"
+          ],
+          "lernpunkte": [
+            "Negative Rückkopplung führt zur Atrophie der Hoden"
+          ]
+        },
+        {
+          "id": "END_G060",
+          "titel": "Inhibin B als Marker",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Infertiler Mann",
+          "praesentation": "Azoospermie.",
+          "befunde": [
+            "Inhibin B sehr niedrig"
+          ],
+          "diagnose": "Schwere Störung der Spermatogenese (Sertoli-Zellen)",
+          "therapie": [
+            "TESE-Beratung"
+          ],
+          "lernpunkte": [
+            "Inhibin B korreliert mit der Gesamtzahl der Spermien"
+          ]
+        }
+      ]
+    },
+    "calcium_knochen": {
+      "label": "Calcium & Knochen",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "END_C061",
+          "titel": "Primärer Hyperparathyreoidismus (pHPT)",
+          "tags": [
+            "Nebenschilddrüse",
+            "Calcium"
+          ],
+          "patient": "60-jährige Patientin",
+          "praesentation": "Nierensteine, Knochenschmerzen, Ulcus ventriculi (Trias).",
+          "befunde": [
+            "Hyperkalzämie",
+            "PTH erhöht (inadäquat hoch)",
+            "Hypophosphatämie"
+          ],
+          "diagnose": "Primärer Hyperparathyreoidismus",
+          "therapie": [
+            "Parathyreoidektomie"
+          ],
+          "lernpunkte": [
+            "Sestamibi-Szintigraphie zur Lokalisation des Adenoms"
+          ]
+        },
+        {
+          "id": "END_C062",
+          "titel": "Sekundärer Hyperparathyreoidismus (sHPT)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Dialysepatient",
+          "praesentation": "Diffuse Knochenschmerzen, Pruritus.",
+          "befunde": [
+            "Hypokalzämie",
+            "Phosphat↑, PTH↑↑"
+          ],
+          "diagnose": "Renaler sHPT",
+          "therapie": [
+            "Phosphatbinder",
+            "Vitamin D Analoga",
+            "Calcimimetika"
+          ],
+          "lernpunkte": [
+            "Vitamin-D-Aktivierungsstörung in der Niere"
+          ]
+        },
+        {
+          "id": "END_C063",
+          "titel": "Osteoporose (Postmenopausal)",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "72-j. Frau",
+          "praesentation": "Rückenschmerzen, Abnahme der Körpergröße (Witwenbuckel).",
+          "befunde": [
+            "DXA: T-Score -3,2 am Schenkelhals",
+            "Sinterungsfrakturen LWS"
+          ],
+          "diagnose": "Manifeste Osteoporose",
+          "therapie": [
+            "Bisphosphonate (Alendronat) / Denosumab",
+            "Vitamin D/Calcium"
+          ],
+          "lernpunkte": [
+            "DVO-Leitlinie beachten"
+          ]
+        },
+        {
+          "id": "END_C064",
+          "titel": "Hypoparathyreoidismus (Iatrogen)",
+          "tags": [
+            "Postoperativ"
+          ],
+          "patient": "Pat. nach Schilddrüsen-Total-OP",
+          "praesentation": "Kribbelparästhesien, Pfötchenstellung der Hände.",
+          "befunde": [
+            "Hypokalzämie",
+            "Chvostek- und Trousseau-Zeichen positiv"
+          ],
+          "diagnose": "Postoperativer Hypoparathyreoidismus",
+          "therapie": [
+            "Calcium + aktives Vitamin D (Calcitriol)"
+          ],
+          "lernpunkte": [
+            "Vermeidung einer Hyperkalziurie durch engmaschige Kontrolle"
+          ]
+        },
+        {
+          "id": "END_C065",
+          "titel": "Vitamin D-Mangel (Osteomalazie)",
+          "tags": [
+            "Mangel"
+          ],
+          "patient": "85-j. Heimbewohner",
+          "praesentation": "Diffuse Knochenschmerzen, Muskelschwäche, Watschelgang.",
+          "befunde": [
+            "25-OH-Vitamin D < 10 ng/ml",
+            "AP erhöht, Looser-Umbauzonen"
+          ],
+          "diagnose": "Osteomalazie",
+          "therapie": [
+            "Vitamin D Aufsättigung"
+          ],
+          "lernpunkte": [
+            "Osteomalazie = Mineralisierungsstörung (Gegenteil: Osteoporose = Matrixverlust)"
+          ]
+        },
+        {
+          "id": "END_C066",
+          "titel": "Familiäre hypokalziurische Hyperkalzämie (FHH)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "25-j. mit Hyperkalzämie als Zufallsfund",
+          "praesentation": "Beschwerdefrei, Verwandte ebenfalls betroffen.",
+          "befunde": [
+            "Hyperkalzämie, PTH leicht↑, Urin-Calcium extrem niedrig"
+          ],
+          "diagnose": "FHH (Calcium-Sensing-Rezeptor Mutation)",
+          "therapie": [
+            "Keine (Observation)"
+          ],
+          "lernpunkte": [
+            "Wichtige DD zum pHPT, keine OP-Indikation!"
+          ]
+        },
+        {
+          "id": "END_C067",
+          "titel": "Pseudohypoparathyreoidismus",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "15-j. Junge",
+          "praesentation": "Kleinwuchs, rundes Gesicht, verkürzte Mittelhandknochen.",
+          "befunde": [
+            "Hypokalzämie, Hyperphosphatämie, ABER PTH massiv erhöht"
+          ],
+          "diagnose": "Morbus Albright",
+          "therapie": [
+            "Vitamin D + Calcium"
+          ],
+          "lernpunkte": [
+            "PTH-Rezeptorresistenz"
+          ]
+        },
+        {
+          "id": "END_C068",
+          "titel": "Hyperkalzämische Krise",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. Mann, Somnolenz, Polyurie",
+          "praesentation": "Austrocknung, Exsikkose, Herzrhythmusstörungen.",
+          "befunde": [
+            "Serum-Calcium 4,2 mmol/l"
+          ],
+          "diagnose": "Hyperkalzämische Krise",
+          "therapie": [
+            "Massive Hydrierung (NaCl)",
+            "Bisphosphonate i.v.",
+            "Glukokortikoide"
+          ],
+          "lernpunkte": [
+            "Medizinischer Notfall, Nierenversagen droht"
+          ]
+        },
+        {
+          "id": "END_C069",
+          "titel": "Glukokortikoid-induzierte Osteoporose (GIOP)",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "55-j. mit Polymyalgia rheumatica",
+          "praesentation": "Nimmt seit 1 Jahr 10mg Prednisolon.",
+          "befunde": [
+            "DXA-Check zur Baseline"
+          ],
+          "diagnose": "Prophylaxe-Situation",
+          "therapie": [
+            "Vitamin D + Calcium, bei Risiko Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Steigerung der Osteoklastenaktivität durch Steroide"
+          ]
+        },
+        {
+          "id": "END_C070",
+          "titel": "Hungry-Bone-Syndrom",
+          "tags": [
+            "Postoperativ"
+          ],
+          "patient": "Pat. nach OP bei schwerem pHPT",
+          "praesentation": "Massiver Abfall des Calciums am Tag 2 postop.",
+          "befunde": [
+            "PTH-Abfall, schneller Calciumeinbau in den Knochen"
+          ],
+          "diagnose": "Hungry Bone Syndrome",
+          "therapie": [
+            "Hochdosiert Calcium i.v. / oral"
+          ],
+          "lernpunkte": [
+            "Remineralisierung des Knochens nach PTH-Entzug"
+          ]
+        },
+        {
+          "id": "END_C071",
+          "titel": "Osteogenesis imperfecta (Erwachsener)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "30-j. Mann",
+          "praesentation": "Hörverlust, rezidivierende Frakturen.",
+          "befunde": [
+            "Blaue Skleren",
+            "Wurmsche Knochen im Röntgen"
+          ],
+          "diagnose": "Osteogenesis imperfecta Typ I",
+          "therapie": [
+            "Bisphosphonate",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "Störung der Kollagen-I Synthese"
+          ]
+        },
+        {
+          "id": "END_C072",
+          "titel": "Malignom-assoziierte Hyperkalzämie",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. mit Bronchialkarzinom",
+          "praesentation": "Übelkeit, Obstipation.",
+          "befunde": [
+            "Calcium erhöht, PTH supprimiert, PTHrP positiv"
+          ],
+          "diagnose": "Humorale Hyperkalzämie bei Malignom",
+          "therapie": [
+            "Tumorbehandlung",
+            "Denosumab / Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Produktion von PTH-related Protein (PTHrP)"
+          ]
+        },
+        {
+          "id": "END_C073",
+          "titel": "Morbus Paget (Knochen)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "75-j. Patient",
+          "praesentation": "Zunehmende Deformation der Schienbeine (Säbelscheiden-Tibia).",
+          "befunde": [
+            "Lokale Überwärmung, AP massiv↑, Röntgen: Mosaikstruktur"
+          ],
+          "diagnose": "Osteodystrophia deformans",
+          "therapie": [
+            "Zoledronat (Einmalgabe)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Herzinsuffizienz (High-output)"
+          ]
+        },
+        {
+          "id": "END_C074",
+          "titel": "Hypophosphatämische Rachitis",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Beindeformitäten, Kleinwuchs.",
+          "befunde": [
+            "Phosphat im Serum↓, renale Phosphatverlust↑",
+            "FGF23 erhöht"
+          ],
+          "diagnose": "X-chromosomale Hypophosphatämie (XLH)",
+          "therapie": [
+            "Burosumab (FGF23-Antikörper)"
+          ],
+          "lernpunkte": [
+            "Neue hocheffektive Antikörpertherapie"
+          ]
+        },
+        {
+          "id": "END_C075",
+          "titel": "Sarkoidose (Hyperkalzämie)",
+          "tags": [
+            "Systemisch"
+          ],
+          "patient": "40-j. mit Husten und LK-Schwellung",
+          "praesentation": "Nierensteine.",
+          "befunde": [
+            "1,25-OH-Vitamin D (Calcitriol) erhöht"
+          ],
+          "diagnose": "Extrarenale Calcitriolsynthese bei Sarkoidose",
+          "therapie": [
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Makrophagen in Granulomen aktivieren Vitamin D autonom"
+          ]
+        }
+      ]
+    },
+    "diabetes_stoffwechsel_adipositas": {
+      "label": "Diabetes, Stoffwechsel & Adipositas",
+      "emoji": "🍩",
+      "faelle": [
+        {
+          "id": "END_D076",
+          "titel": "Diabetes mellitus Typ 2 (Erstmanifestation)",
+          "tags": [
+            "Diabetes",
+            "Metabolisch"
+          ],
+          "patient": "52-jähriger Patient, BMI 32",
+          "praesentation": "Abgeschlagenheit, Pruritus, Polyurie.",
+          "befunde": [
+            "Nüchtern-Glukose 180 mg/dl",
+            "HbA1c 8,2%"
+          ],
+          "diagnose": "Diabetes mellitus Typ 2",
+          "therapie": [
+            "Lebensstilmodifikation",
+            "Metformin (First-Line)"
+          ],
+          "lernpunkte": [
+            "Metformin bei GFR > 30 ml/min sicher"
+          ]
+        },
+        {
+          "id": "END_D077",
+          "titel": "Diabetes mellitus Typ 1",
+          "tags": [
+            "Diabetes",
+            "Autoimmun"
+          ],
+          "patient": "19-j. Student",
+          "praesentation": "Rascher Gewichtsverlust (5kg in 2 Wochen), massiver Durst.",
+          "befunde": [
+            "BZ 350 mg/dl, Ketone im Urin ++",
+            "GAD-Antikörper positiv"
+          ],
+          "diagnose": "Diabetes mellitus Typ 1",
+          "therapie": [
+            "Intensivierte Insulintherapie (ICT)"
+          ],
+          "lernpunkte": [
+            "Absoluter Insulinmangel"
+          ]
+        },
+        {
+          "id": "END_D078",
+          "titel": "Diabetische Ketoazidose",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Typ 1 Diabetiker nach Pumpendefekt",
+          "praesentation": "Erbrechen, Bauchschmerzen (Pseudoperitonitis), Kussmaul-Atmung.",
+          "befunde": [
+            "pH 7,1, BZ 450, Acetongeruch"
+          ],
+          "diagnose": "Diabetisches Koma (Ketoazidotisch)",
+          "therapie": [
+            "Intensivmedizin, Flüssigkeit, Insulin low-dose i.v., Kalium!"
+          ],
+          "lernpunkte": [
+            "Gefahr des Hirnödems bei zu schneller BZ-Senkung"
+          ]
+        },
+        {
+          "id": "END_D079",
+          "titel": "Hyperosmolares Koma",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "85-j. Typ 2 Diabetiker, Infekt",
+          "praesentation": "Exsikkose, Somnolenz, keine Ketose.",
+          "befunde": [
+            "BZ 900 mg/dl, Osmolalität massiv↑"
+          ],
+          "diagnose": "Hyperosmolares hyperglykämisches Syndrom (HHS)",
+          "therapie": [
+            "Rehydratation (vordergründig), vorsichtig Insulin"
+          ],
+          "lernpunkte": [
+            "Flüssigkeitsmangel ist führendes Problem"
+          ]
+        },
+        {
+          "id": "END_D080",
+          "titel": "MODY (Maturity Onset Diabetes of the Young)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "22-j. schlanker Patient",
+          "praesentation": "Leichte Hyperglykämie, starke Familienanamnese über 3 Generationen.",
+          "befunde": [
+            "Antikörper negativ, C-Peptid normal"
+          ],
+          "diagnose": "MODY 3 (HNF1A-Mutation)",
+          "therapie": [
+            "Sulfonylharnstoffe (oft hochwirksam)"
+          ],
+          "lernpunkte": [
+            "Monogener Diabetes, oft Fehldiagnose als Typ 1"
+          ]
+        },
+        {
+          "id": "END_D081",
+          "titel": "Diabetisches Fußsyndrom (DFS)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Schmerzlose Wunde am Fußballen (Mal perforans).",
+          "befunde": [
+            "Polyneuropathie (Vibrationssinn↓)",
+            "pAVK ausgeschlossen"
+          ],
+          "diagnose": "Neuropathischer Fußulkus (Wagner I)",
+          "therapie": [
+            "Druckentlastung",
+            "Wundmanagement",
+            "Optimierung BZ"
+          ],
+          "lernpunkte": [
+            "Druckentlastung ist die wichtigste Maßnahme"
+          ]
+        },
+        {
+          "id": "END_D082",
+          "titel": "LADA (Latent Autoimmune Diabetes in Adults)",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "45-j. schlanke Frau",
+          "praesentation": "Diagnose Typ 2 Diabetes, aber rasches Versagen oraler Medikamente.",
+          "befunde": [
+            "GAD-Antikörper positiv"
+          ],
+          "diagnose": "LADA (Typ 1.5)",
+          "therapie": [
+            "Frühzeitige Insulintherapie"
+          ],
+          "lernpunkte": [
+            "Typ 1 Diabetes mit spätem Beginn"
+          ]
+        },
+        {
+          "id": "END_D083",
+          "titel": "Hypoglycaemia factitia",
+          "tags": [
+            "Psychosomatik"
+          ],
+          "patient": "Pflegekraft, rezidivierende Bewusstlosigkeit",
+          "praesentation": "BZ 25 mg/dl bei Einlieferung.",
+          "befunde": [
+            "Insulin massiv↑, C-Peptid supprimiert"
+          ],
+          "diagnose": "Heimliche Insulininjektion",
+          "therapie": [
+            "Psychiatrische Mitbehandlung"
+          ],
+          "lernpunkte": [
+            "C-Peptid-Nachweis zur Abgrenzung zum Insulinom"
+          ]
+        },
+        {
+          "id": "END_D084",
+          "titel": "Metabolisches Syndrom",
+          "tags": [
+            "Risiko"
+          ],
+          "patient": "50-j. Mann, Taillenumfang 105 cm",
+          "praesentation": "Check-up.",
+          "befunde": [
+            "RR 150/95, Triglyzeride 250, HDL 35, BZ 110"
+          ],
+          "diagnose": "Metabolisches Syndrom",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Sport",
+            "Statine/Antihypertensiva"
+          ],
+          "lernpunkte": [
+            "Summe von Risikofaktoren für KHK"
+          ]
+        },
+        {
+          "id": "END_D085",
+          "titel": "Adipositas Grad III (Bariatrie)",
+          "tags": [
+            "Adipositas"
+          ],
+          "patient": "35-j. Frau, BMI 45",
+          "praesentation": "Versagen konservativer Diäten, Gelenkschmerzen, OSAS.",
+          "befunde": [
+            "Keine endokrine Ursache (Cushing/Schilddrüse neg.)"
+          ],
+          "diagnose": "Morbide Adipositas",
+          "therapie": [
+            "Laparoskopische Sleeve-Gastrektomie / Magenbypass"
+          ],
+          "lernpunkte": [
+            "Bariatrie als effektivste Langzeittherapie bei BMI > 40"
+          ]
+        },
+        {
+          "id": "END_D086",
+          "titel": "Hypertriglyzeridämie (Pankreatitisrisiko)",
+          "tags": [
+            "Lipide"
+          ],
+          "patient": "40-j. Patient",
+          "praesentation": "Milchiges Serum (Lactescenz).",
+          "befunde": [
+            "Triglyzeride 1500 mg/dl"
+          ],
+          "diagnose": "Schwere Hypertriglyzeridämie",
+          "therapie": [
+            "Fibrate",
+            "Fettfreie Diät",
+            "ggf. Plasmapherese"
+          ],
+          "lernpunkte": [
+            "Akute Pankreatitisgefahr bei Werten > 1000 mg/dl"
+          ]
+        },
+        {
+          "id": "END_D087",
+          "titel": "Hypoglykämie-Wahrnehmungsstörung",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Langjähriger Typ 1 Diabetiker",
+          "praesentation": "Bewusstlosigkeit ohne Vorwarnung (Zittern/Schwitzen fehlt).",
+          "befunde": [
+            "Häufige schwere Hypoglykämien in der Anamnese"
+          ],
+          "diagnose": "Hypoglycemia unawareness",
+          "therapie": [
+            "Hypoglykämie-Wahrnehmungstraining (BGAT)",
+            "rtCGM"
+          ],
+          "lernpunkte": [
+            "Verlust der autonomen Warnsymptome"
+          ]
+        },
+        {
+          "id": "END_D088",
+          "titel": "Schwangerschaftsdiabetes (GDM)",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "30-j. Schwangere (26. SSW)",
+          "praesentation": "Routine-oGTT.",
+          "befunde": [
+            "oGTT 75g: 1h-Wert 195 mg/dl (↑)"
+          ],
+          "diagnose": "Gestationsdiabetes",
+          "therapie": [
+            "Ernährung",
+            "Insulin bei Bedarf"
+          ],
+          "lernpunkte": [
+            "Risiko für fetale Makrosomie und neonatale Hypoglykämie"
+          ]
+        },
+        {
+          "id": "END_D089",
+          "titel": "Dyslipidämie (Familiäre Hypercholesterinämie)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "25-j. Mann",
+          "praesentation": "Xanthome an der Achillessehne, Arcus lipoides.",
+          "befunde": [
+            "LDL-C 350 mg/dl, Vater mit Herzinfarkt mit 40 J."
+          ],
+          "diagnose": "Familiäre Hypercholesterinämie (FH)",
+          "therapie": [
+            "Statin + Ezetimib + ggf. PCSK9-Inhibitor"
+          ],
+          "lernpunkte": [
+            "Frühzeitige aggressive LDL-Senkung zur Vermeidung von KHK"
+          ]
+        },
+        {
+          "id": "END_D090",
+          "titel": "Porphyria cutanea tarda",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "50-j. Mann, Alkoholabusus",
+          "praesentation": "Blasenbildung an Handrücken nach Sonnenexposition.",
+          "befunde": [
+            "Labor: Porphyrine im Urin↑, Eisenüberladung"
+          ],
+          "diagnose": "Porphyria cutanea tarda",
+          "therapie": [
+            "Aderlass",
+            "Chloroquin (niedrig dosiert)"
+          ],
+          "lernpunkte": [
+            "Häufigste Porphyrie, oft Leberbeteiligung"
+          ]
+        }
+      ]
+    },
+    "notfaelle_recht": {
+      "label": "Krisen, Notfälle & Recht",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "END_N091",
+          "titel": "Thyreotoxische Krise",
+          "tags": [
+            "Notfall",
+            "Schilddrüse"
+          ],
+          "patient": "70-jährige Patientin nach Jod-Kontrastmittel",
+          "praesentation": "Fieber 40°C, Delir, Tachyarrhythmie, Herzinsuffizienz.",
+          "befunde": [
+            "TSH nicht nachweisbar, fT4 extrem↑"
+          ],
+          "diagnose": "Thyreotoxische Krise Stadium III",
+          "therapie": [
+            "Thiamazol hochdosiert i.v.",
+            "Perchlorat",
+            "Betablocker",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Burch-Wartofsky-Score zur Diagnose"
+          ]
+        },
+        {
+          "id": "END_N092",
+          "titel": "Myxödemkoma",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. Frau, Winter",
+          "praesentation": "Hypothermie, Bradykardie, Hypoventilation, teigiges Ödem.",
+          "befunde": [
+            "fT4 fast nicht messbar, TSH massiv↑"
+          ],
+          "diagnose": "Myxödemkoma",
+          "therapie": [
+            "Vorsichtige Substitution L-Thyroxin i.v.",
+            "Steroide",
+            "Aufwärmung"
+          ],
+          "lernpunkte": [
+            "Hohe Mortalität, langsame Erwärmung nötig"
+          ]
+        },
+        {
+          "id": "END_N093",
+          "titel": "Karzinoid-Krise",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. mit NET, nach Leberbiopsie",
+          "praesentation": "Massiver Flush, Bronchospasmus, RR-Abfall.",
+          "befunde": [
+            "Serotonin-Ausschüttung getriggert"
+          ],
+          "diagnose": "Karzinoid-Krise",
+          "therapie": [
+            "Octreotid (Somatostatin-Analogon) i.v. Bolus"
+          ],
+          "lernpunkte": [
+            "Prophylaxe mit Octreotid vor Interventionen"
+          ]
+        },
+        {
+          "id": "END_N094",
+          "titel": "Akute Hypokalzämie (Tetanie)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Schilddrüsen-OP",
+          "praesentation": "Pfötchenstellung, Laryngospasmus.",
+          "befunde": [
+            "Calcium 1,6 mmol/l"
+          ],
+          "diagnose": "Tetanie bei Hypoparathyreoidismus",
+          "therapie": [
+            "Calcium-Gluconat 10% i.v. (langsam!)"
+          ],
+          "lernpunkte": [
+            "EKG-Monitoring wegen QT-Verlängerung"
+          ]
+        },
+        {
+          "id": "END_N095",
+          "titel": "Multiple Endokrine Neoplasie Typ 1 (MEN1)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "35-j. mit Gastrinom (Zollinger-Ellison)",
+          "praesentation": "Rezidivierende Ulzera.",
+          "befunde": [
+            "Gleichzeitiger Nachweis von pHPT und Hypophysenadenom"
+          ],
+          "diagnose": "MEN 1 (Wermer-Syndrom)",
+          "therapie": [
+            "Stufenspezifische Chirurgie"
+          ],
+          "lernpunkte": [
+            "Die 3 'P': Parathyroidea, Pankreas, Pituitary (Hypophyse)"
+          ]
+        },
+        {
+          "id": "END_N096",
+          "titel": "MEN 2A (Sipple-Syndrom)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "40-j. mit Phäochromozytom",
+          "praesentation": "Hypertonie.",
+          "befunde": [
+            "Nachweis Medulläres Schilddrüsenkarzinom + pHPT"
+          ],
+          "diagnose": "MEN 2A",
+          "therapie": [
+            "Zuerst Phäo-OP, dann Schilddrüse"
+          ],
+          "lernpunkte": [
+            "RE-Protoonkogen Mutation"
+          ]
+        },
+        {
+          "id": "END_N097",
+          "titel": "Hormonelle Abrechnung (EBM 32410-32426)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Allgemeiner Laborfall",
+          "praesentation": "Abrechnung von Hormonbestimmungen.",
+          "befunde": [
+            "Fachgruppen-Einschränkung"
+          ],
+          "diagnose": "Laborabrechnung",
+          "therapie": [
+            "Ziffern für Schilddrüse (TSH, fT3, fT4)"
+          ],
+          "lernpunkte": [
+            "Wirtschaftlichkeitsprüfung bei Stufendiagnostik beachten"
+          ]
+        },
+        {
+          "id": "END_N098",
+          "titel": "Arzneimittelregress (Insulinanaloga)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Typ 2 Diabetiker",
+          "praesentation": "Verordnung von teuren Analoga.",
+          "befunde": [
+            "Keine Dokumentation von Therapieversagen unter Humaninsulin"
+          ],
+          "diagnose": "Wirtschaftlichkeitsrisiko",
+          "therapie": [
+            "Umstellung auf kostengünstigere Präparate oder Begründung"
+          ],
+          "lernpunkte": [
+            "Dokumentationspflicht für teure Therapien"
+          ]
+        },
+        {
+          "id": "END_N099",
+          "titel": "Fahreignung bei Diabetes",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Berufskraftfahrer mit Typ 1 Diabetes",
+          "praesentation": "Wiederholte Fremdhilfe bei Hypoglykämien.",
+          "befunde": [
+            "Hypoglykämie-Wahrnehmungsstörung"
+          ],
+          "diagnose": "Fahruntüchtigkeit (vorübergehend)",
+          "therapie": [
+            "Schulung",
+            "Einstellung optimieren"
+          ],
+          "lernpunkte": [
+            "Begutachtungsempfehlungen zur Kraftfahreignung"
+          ]
+        },
+        {
+          "id": "END_N100",
+          "titel": "Steroid-Pass (Addison)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Addison-Patient, Auslandsreise",
+          "praesentation": "Beratung zur Sicherheit.",
+          "befunde": [
+            "Trägt keinen Ausweis."
+          ],
+          "diagnose": "Risikosituation",
+          "therapie": [
+            "Ausstellung eines internationalen Steroid-Ausweises",
+            "Notfallset (Hydrocortison-Spritze)"
+          ],
+          "lernpunkte": [
+            "Lebensrettende Dokumentation im Notfall"
+          ]
+        }
+      ]
+    }
+  }
+}

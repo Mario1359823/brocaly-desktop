@@ -1,0 +1,2228 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Pädiatrie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "neonatologie_praevention": {
+      "label": "Neonatologie & Prävention",
+      "emoji": "👶",
+      "faelle": [
+        {
+          "id": "PAE_001",
+          "titel": "Neugeborenen-Ikterus",
+          "tags": [
+            "Neonatologie",
+            "Stoffwechsel"
+          ],
+          "patient": "3 Tage alter Säugling, reifgeboren",
+          "praesentation": "Zunehmende Gelbfärbung der Haut und Skleren.",
+          "befunde": [
+            "Gesamtbilirubin 18 mg/dl",
+            "Trinkverhalten gut",
+            "Blutgruppe Mutter/Kind: A pos / B pos"
+          ],
+          "diagnose": "Icterus neonatorum (physiologisch)",
+          "therapie": [
+            "Phototherapie gemäß Leitlinie (Bhutan-Kurve)",
+            "ausreichende Hydrierung"
+          ],
+          "lernpunkte": [
+            "Gefahr des Kernikterus (Bilirubinenzephalopathie)",
+            "Indikationsgrenzen für Austauschtransfusion"
+          ]
+        },
+        {
+          "id": "PAE_002",
+          "titel": "U2-Untersuchung (Vorsorge)",
+          "tags": [
+            "Vorsorge"
+          ],
+          "patient": "Neugeborenes, 3. Lebenstag",
+          "praesentation": "Reguläre Vorsorgeuntersuchung im Krankenhaus.",
+          "befunde": [
+            "Gewichtsverlust 5% vom Geburtsgewicht",
+            "Reflexe seitengleich",
+            "Moro-Reflex positiv"
+          ],
+          "diagnose": "Gesundes Neugeborenes",
+          "therapie": [
+            "Vitamin K Prophylaxe (2. Dosis)",
+            "Stoffwechselscreening (Fersenblut)",
+            "Hörscreening"
+          ],
+          "lernpunkte": [
+            "Zeitfenster U2: 3. bis 10. Lebenstag",
+            "Gewichtsverlust bis 10% physiologisch"
+          ]
+        },
+        {
+          "id": "PAE_003",
+          "titel": "Hüftdysplasie (Screening)",
+          "tags": [
+            "Vorsorge",
+            "Orthopädie"
+          ],
+          "patient": "5 Wochen alter Säugling (Mädchen)",
+          "praesentation": "Vorsorgeuntersuchung U3.",
+          "befunde": [
+            "Beinlängendifferenz",
+            "Abspreizhemmung links",
+            "Sono: Alpha-Winkel 55° (Typ IIc)"
+          ],
+          "diagnose": "Hüftdysplasie links",
+          "therapie": [
+            "Tübinger Hüftbeugeschiene",
+            "Regelmäßige sonographische Kontrolle"
+          ],
+          "lernpunkte": [
+            "Frühzeitige Therapie verhindert Hüftluxation",
+            "Graf-Klassifikation sonographisch"
+          ]
+        },
+        {
+          "id": "PAE_004",
+          "titel": "Angeborene Hypothyreose",
+          "tags": [
+            "Neonatologie",
+            "Endokrinologie"
+          ],
+          "patient": "10 Tage alter Säugling",
+          "praesentation": "Trinkfaulheit, Obstipation, Makroglossie.",
+          "befunde": [
+            "Stoffwechselscreening: TSH massiv erhöht",
+            "fT4 erniedrigt"
+          ],
+          "diagnose": "Kongenitale Hypothyreose",
+          "therapie": [
+            "L-Thyroxin Substitution sofort"
+          ],
+          "lernpunkte": [
+            "Vermeidung irreversibler mentaler Retardierung (Kretinismus)"
+          ]
+        },
+        {
+          "id": "PAE_005",
+          "titel": "Vitamin-D-Mangel-Rachitis",
+          "tags": [
+            "Prävention",
+            "Stoffwechsel"
+          ],
+          "patient": "14 Monate altes Kleinkind",
+          "praesentation": "Verzögerter Laufbeginn, Genu varum, Quadratschädel.",
+          "befunde": [
+            "Rachitis-Rosenkranz (Rippen-Knorpel-Grenze)",
+            "AP massiv erhöht",
+            "Calcium niedrig"
+          ],
+          "diagnose": "Mangel-Rachitis",
+          "therapie": [
+            "Vitamin D Stoßtherapie",
+            "Calcium-Substitution"
+          ],
+          "lernpunkte": [
+            "Bedeutung der Rachitisprophylaxe bis zum 2. erlebten Frühling"
+          ]
+        },
+        {
+          "id": "PAE_006",
+          "titel": "Frühgeborenen-Retinopathie (ROP)",
+          "tags": [
+            "Neonatologie",
+            "Augen"
+          ],
+          "patient": "Frühgeborenes (26. SSW)",
+          "praesentation": "Routinemäßige Augenärztliche Kontrolle.",
+          "befunde": [
+            "Neovaskularisationen in Zone II",
+            "Stadium 3"
+          ],
+          "diagnose": "ROP (Retinopathy of Prematurity)",
+          "therapie": [
+            "Laserkoagulation",
+            "ggf. Anti-VEGF intravitreal"
+          ],
+          "lernpunkte": [
+            "Sauerstofftoxizität und Unreife als Hauptfaktoren"
+          ]
+        },
+        {
+          "id": "PAE_007",
+          "titel": "Mekoniumaspiration",
+          "tags": [
+            "Neonatologie",
+            "Pulmologie"
+          ],
+          "patient": "Neugeborenes, übertragen",
+          "praesentation": "Grünes Fruchtwasser, postpartale Atemnot, Zyanose.",
+          "befunde": [
+            "Rö-Thorax: Grobfleckige Infiltrate",
+            "Überblähung"
+          ],
+          "diagnose": "Mekoniumaspirationssyndrom (MAS)",
+          "therapie": [
+            "Absaugen",
+            "Sauerstoff",
+            "Surfactant-Gabe",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Gefahr der pulmonalen Hypertension (PPHN)"
+          ]
+        },
+        {
+          "id": "PAE_008",
+          "titel": "Phenylketonurie (PKU)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Säugling nach Neugeborenenscreening",
+          "praesentation": "Unauffällig bei Geburt.",
+          "befunde": [
+            "Blut-Phenylalaninspiegel erhöht",
+            "Mutter-Kind-Pass unauffällig"
+          ],
+          "diagnose": "Klassische PKU",
+          "therapie": [
+            "Streng phenylalaninarme Diät lebenslang"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Hirnschäden durch Toxizität von Phenylalanin"
+          ]
+        },
+        {
+          "id": "PAE_009",
+          "titel": "SIDS-Präventionsberatung",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "Eltern eines Neugeborenen",
+          "praesentation": "Beratung zur Schlafumgebung.",
+          "befunde": [
+            "Fragen zur Schlaflage und Bettinhalt"
+          ],
+          "diagnose": "Präventive Beratung",
+          "therapie": [
+            "Rückenlage",
+            "Schlafsack statt Decke",
+            "kein Nestchen",
+            "Rauchfreie Umgebung"
+          ],
+          "lernpunkte": [
+            "Senkung der Inzidenz des plötzlichen Kindstodes"
+          ]
+        },
+        {
+          "id": "PAE_010",
+          "titel": "Trisomie 21 (Down-Syndrom)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Muskuläre Hypotonie, Vierfingerfurche, Sandalenlücke.",
+          "befunde": [
+            "Karyogramm: Freie Trisomie 21",
+            "Herzgeräusch"
+          ],
+          "diagnose": "Down-Syndrom",
+          "therapie": [
+            "Frühförderung",
+            "Echokardiographie (Ausschluss AV-Kanal)"
+          ],
+          "lernpunkte": [
+            "Häufigste chromosomale Aberration",
+            "Assoziation mit Herzfehlern und Duodenalatresie"
+          ]
+        },
+        {
+          "id": "PAE_011",
+          "titel": "Atemnotsyndrom (Surfactant-Mangel)",
+          "tags": [
+            "Neonatologie"
+          ],
+          "patient": "Frühgeborenes (30. SSW)",
+          "praesentation": "Nasenflügeln, Einziehungen, Zyanose unmittelbar postpartal.",
+          "befunde": [
+            "Rö: Retikulogranuläres Muster, Aerobronchogramm"
+          ],
+          "diagnose": "RDS (Respiratory Distress Syndrome) Grad III",
+          "therapie": [
+            "nCPAP",
+            "Surfactant-Applikation (LISA-Methode)"
+          ],
+          "lernpunkte": [
+            "Lungenreifeinduktion pränatal mit Betamethason"
+          ]
+        },
+        {
+          "id": "PAE_012",
+          "titel": "Nekrotisierende Enterokolitis (NEC)",
+          "tags": [
+            "Neonatologie",
+            "Chirurgie"
+          ],
+          "patient": "Frühgeborenes (28. SSW), 2 Wochen alt",
+          "praesentation": "Blutige Stühle, aufgetriebenes Abdomen, Kreislaufinstabilität.",
+          "befunde": [
+            "Rö-Abdomen: Pneumatosis intestinalis",
+            "freie Luft?"
+          ],
+          "diagnose": "NEC Stadium IIb",
+          "therapie": [
+            "Nahrungskarenz",
+            "Breitbandantibiose",
+            "chirurgisches Konsil"
+          ],
+          "lernpunkte": [
+            "Notfallindikation bei Perforation: Laparotomie"
+          ]
+        },
+        {
+          "id": "PAE_013",
+          "titel": "Plexus-brachialis-Parese (Geburtstrauma)",
+          "tags": [
+            "Neonatologie",
+            "Neurologie"
+          ],
+          "patient": "Neugeborenes nach Schulterdystokie",
+          "praesentation": "Rechter Arm hängt schlaff herab, Innenrotationsstellung.",
+          "befunde": [
+            "Fehlender Moro-Reflex rechts",
+            "Greifreflex erhalten"
+          ],
+          "diagnose": "Obere Plexuslähmung (Erb-Duchenne, C5-C6)",
+          "therapie": [
+            "Lagerung",
+            "Physiotherapie",
+            "Beobachtung"
+          ],
+          "lernpunkte": [
+            "Unterscheidung obere (Erb) vs. untere (Klumpke) Lähmung"
+          ]
+        },
+        {
+          "id": "PAE_014",
+          "titel": "Omphalozele vs. Gastroschisis",
+          "tags": [
+            "Neonatologie",
+            "Chirurgie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Bauchwanddefekt, Darmschlingen liegen offen.",
+          "befunde": [
+            "Keine Bruchsackhülle vorhanden",
+            "Defekt rechts vom Nabel"
+          ],
+          "diagnose": "Gastroschisis",
+          "therapie": [
+            "Sterile Abdeckung",
+            "rasche chirurgische Versorgung (Silo-Beutel)"
+          ],
+          "lernpunkte": [
+            "Gastroschisis meist isoliert, Omphalozele oft mit Syndromen"
+          ]
+        },
+        {
+          "id": "PAE_015",
+          "titel": "Fötales Alkoholsyndrom (FAS)",
+          "tags": [
+            "Neonatologie",
+            "Sozialpädiatrie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Gedeihstörung, kurzes Philtrum, schmale Oberlippe.",
+          "befunde": [
+            "Mikrozephalie",
+            "Entwicklungsverzögerung"
+          ],
+          "diagnose": "FAS (Alkohol-Embryopathie)",
+          "therapie": [
+            "Sozialpädiatrische Begleitung",
+            "Förderdiagnostik"
+          ],
+          "lernpunkte": [
+            "Alkohol ist das häufigste Teratogen in der Schwangerschaft"
+          ]
+        }
+      ]
+    },
+    "infektiologie_immunologie": {
+      "label": "Infektiologie & Immunologie",
+      "emoji": "🦠",
+      "faelle": [
+        {
+          "id": "PAE_016",
+          "titel": "Masern (Morbilli)",
+          "tags": [
+            "Infekt",
+            "Exanthem"
+          ],
+          "patient": "4-jähriges Kind, ungeimpft",
+          "praesentation": "Hohes Fieber, Husten, Schnupfen, dann konfluierendes Exanthem hinter den Ohren beginnend.",
+          "befunde": [
+            "Koplik-Flecken an Wangenschleimhaut",
+            "Enanthem"
+          ],
+          "diagnose": "Masern",
+          "therapie": [
+            "Symptomatisch",
+            "Isolation",
+            "Vitamin A Gabe"
+          ],
+          "lernpunkte": [
+            "Meldepflicht nach IfSG",
+            "Komplikation: SSPE (Spätfolge)"
+          ]
+        },
+        {
+          "id": "PAE_017",
+          "titel": "Scharlach",
+          "tags": [
+            "Bakteriell",
+            "Exanthem"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Halsschmerz, Fieber, feinfleckiges Exanthem Leistenbeuge.",
+          "befunde": [
+            "Himbeertzunge",
+            "periorale Blässe",
+            "Abstrich: Streptokokken A positiv"
+          ],
+          "diagnose": "Scharlach",
+          "therapie": [
+            "Penicillin V für 10 Tage"
+          ],
+          "lernpunkte": [
+            "Vermeidung von rheumatischem Fieber und Glomerulonephritis"
+          ]
+        },
+        {
+          "id": "PAE_018",
+          "titel": "Drei-Tage-Fieber",
+          "tags": [
+            "Viral",
+            "Exanthem"
+          ],
+          "patient": "10 Monate alter Säugling",
+          "praesentation": "3 Tage hohes Fieber (39.5°C) bei gutem AZ, nach Abfiebern Exanthem.",
+          "befunde": [
+            "Makulöses Exanthem am Stamm",
+            "Pharynx leicht gerötet"
+          ],
+          "diagnose": "Exanthema subitum (HHV-6)",
+          "therapie": [
+            "Fiebersenkung (Paracetamol/Ibuprofen)"
+          ],
+          "lernpunkte": [
+            "Häufigster Auslöser für Fieberkrämpfe"
+          ]
+        },
+        {
+          "id": "PAE_019",
+          "titel": "Keuchhusten (Pertussis)",
+          "tags": [
+            "Bakteriell",
+            "Pulmologie"
+          ],
+          "patient": "4 Monate alter Säugling",
+          "praesentation": "Stakkato-Husten, Apnoen, Erbrechen nach Hustenanfall.",
+          "befunde": [
+            "Inspiratorischer Stridor ('Reprise')",
+            "Lymphozytose"
+          ],
+          "diagnose": "Pertussis",
+          "therapie": [
+            "Azithromycin",
+            "stationäre Überwachung (Apnoe-Risiko)"
+          ],
+          "lernpunkte": [
+            "Nestschutz fehlt",
+            "Impfung der Kontaktpersonen (Cocooning)"
+          ]
+        },
+        {
+          "id": "PAE_020",
+          "titel": "Windpocken (Varizellen)",
+          "tags": [
+            "Viral",
+            "Exanthem"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Juckendes Exanthem, Papeln, Bläschen und Krusten gleichzeitig.",
+          "befunde": [
+            "Sternenhimmel-Aspekt",
+            "Befall der behaarten Kopfhaut"
+          ],
+          "diagnose": "Varizellen (VZV)",
+          "therapie": [
+            "Lotion alba (Juckreiz)",
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Infektiosität bis alle Bläschen verkrustet sind"
+          ]
+        },
+        {
+          "id": "PAE_021",
+          "titel": "Mumps (Parotitis epidemica)",
+          "tags": [
+            "Viral"
+          ],
+          "patient": "8-j. Junge",
+          "praesentation": "Schmerzhafte Schwellung vor dem Ohr, Fieber.",
+          "befunde": [
+            "Ohrläppchen abstehend",
+            "Amylase erhöht"
+          ],
+          "diagnose": "Mumps",
+          "therapie": [
+            "Kühlen",
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Gefahr der Orchitis (Infertilität) und Meningitis"
+          ]
+        },
+        {
+          "id": "PAE_022",
+          "titel": "Hand-Fuß-Mund-Krankheit",
+          "tags": [
+            "Viral"
+          ],
+          "patient": "2-j. Kind (Kindergarten)",
+          "praesentation": "Schmerzhafte Bläschen im Mund, an Händen und Füßen.",
+          "befunde": [
+            "Exanthem an Handflächen/Fußsohlen",
+            "Aphthen oral"
+          ],
+          "diagnose": "HFMK (Coxsackie-Virus)",
+          "therapie": [
+            "Anästhesierende Gele oral",
+            "Flüssigkeit"
+          ],
+          "lernpunkte": [
+            "Hohe Kontagiosität, meist benigne"
+          ]
+        },
+        {
+          "id": "PAE_023",
+          "titel": "Mononukleose (Pfeiffersches Drüsenfieber)",
+          "tags": [
+            "Viral"
+          ],
+          "patient": "15-j. Jugendliche",
+          "praesentation": "Müdigkeit, hohes Fieber, Halsschmerz, Lymphknotenschwellung.",
+          "befunde": [
+            "Tonsillitis mit weißlichen Belägen",
+            "Splenomegalie",
+            "Virozyten im Blutbild"
+          ],
+          "diagnose": "EBV-Infektion",
+          "therapie": [
+            "Körperliche Schonung (Sportverbot!)"
+          ],
+          "lernpunkte": [
+            "Sportverbot wegen Milzrupturgefahr für 4-6 Wochen"
+          ]
+        },
+        {
+          "id": "PAE_024",
+          "titel": "Osteomyelitis akut",
+          "tags": [
+            "Bakteriell",
+            "Orthopädie"
+          ],
+          "patient": "7-j. Kind",
+          "praesentation": "Starke Schmerzen am Schienbein, Fieber, Hinken.",
+          "befunde": [
+            "Druckschmerz Metaphyse",
+            "CRP↑",
+            "MRT: Ödem im Knochen"
+          ],
+          "diagnose": "Akute hämatogene Osteomyelitis (S. aureus)",
+          "therapie": [
+            "Stationär i.v. Antibiose",
+            "Ruhigstellung"
+          ],
+          "lernpunkte": [
+            "Häufigster Erreger: Staphylococcus aureus"
+          ]
+        },
+        {
+          "id": "PAE_025",
+          "titel": "Meningitis (Bakteriell)",
+          "tags": [
+            "Notfall",
+            "Neurologie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Fieber, Erbrechen, Nackensteife, Petechien (Haut).",
+          "befunde": [
+            "Brudzinski-Zeichen positiv",
+            "Liquor: eitrig, Pleozytose"
+          ],
+          "diagnose": "Meningokokken-Meningitis",
+          "therapie": [
+            "Sofortige i.v. Antibiose (Ceftriaxon)",
+            "Dexamethason"
+          ],
+          "lernpunkte": [
+            "Lethargie und vorgewölbte Fontanelle beim Säugling"
+          ]
+        },
+        {
+          "id": "PAE_026",
+          "titel": "Ringelröteln (Erythema infectiosum)",
+          "tags": [
+            "Viral",
+            "Exanthem"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Rötung der Wangen ('Ohrfeigengesicht'), dann girlandenförmiges Exanthem.",
+          "befunde": [
+            "Netzartiges Exanthem an Extremitäten"
+          ],
+          "diagnose": "Parvovirus B19 Infektion",
+          "therapie": [
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Gefahr der aplastischen Krise bei Anämie-Pat.",
+            "Hydrops fetalis bei Schwangeren"
+          ]
+        },
+        {
+          "id": "PAE_027",
+          "titel": "Harnwegsinfekt (Säugling)",
+          "tags": [
+            "Nephrologie"
+          ],
+          "patient": "5 Monate alter Säugling",
+          "praesentation": "Unklares Fieber, Trinkschwäche, übelriechender Urin.",
+          "befunde": [
+            "Blasenpunktion: E. coli > 10^5",
+            "CRP↑"
+          ],
+          "diagnose": "Pyelonephritis",
+          "therapie": [
+            "Antibiose (z.B. Cefuroxim)",
+            "Sono-Nieren"
+          ],
+          "lernpunkte": [
+            "Unklares Fieber beim Säugling = immer Urindiagnostik!"
+          ]
+        },
+        {
+          "id": "PAE_028",
+          "titel": "Epiglottitis",
+          "tags": [
+            "Notfall",
+            "HNO"
+          ],
+          "patient": "4-j. Kind, ungeimpft",
+          "praesentation": "Hohes Fieber, kloßige Sprache, massiver Speichelfluss, Atemnot.",
+          "befunde": [
+            "Inspiratorischer Stridor",
+            "sitzende Haltung (Tripod)"
+          ],
+          "diagnose": "Akute Epiglottitis (Hämophilus infl. B)",
+          "therapie": [
+            "Intubationsbereitschaft!",
+            "i.v. Antibiose"
+          ],
+          "lernpunkte": [
+            "Keine Manipulation im Rachen (Laryngospasmus-Gefahr)"
+          ]
+        },
+        {
+          "id": "PAE_029",
+          "titel": "Eitrige Arthritis (Hüfte)",
+          "tags": [
+            "Notfall",
+            "Orthopädie"
+          ],
+          "patient": "3-j. Kind",
+          "praesentation": "Verweigerung zu Gehen, Fieber, Schonhaltung Hüfte.",
+          "befunde": [
+            "Gelenkerguss im Sono",
+            "Punktat: Leukozyten↑↑"
+          ],
+          "diagnose": "Coxitis purulenta",
+          "therapie": [
+            "Notfall-Arthrotomie und Spülung",
+            "i.v. Antibiose"
+          ],
+          "lernpunkte": [
+            "Orthopädischer Notfall: Gelenkdestruktion innerhalb von Stunden"
+          ]
+        },
+        {
+          "id": "PAE_030",
+          "titel": "Hüftschnupfen (Coxitis fugax)",
+          "tags": [
+            "Orthopädie"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Plötzliches Hinken nach viralem Infekt, kein Fieber.",
+          "befunde": [
+            "Gelenkerguss klein im Sono",
+            "Labor normal"
+          ],
+          "diagnose": "Coxitis fugax",
+          "therapie": [
+            "NSAR (Ibuprofen)",
+            "Schonung"
+          ],
+          "lernpunkte": [
+            "Häufigste Hinkursache im Kleinkindalter, selbstlimitierend"
+          ]
+        }
+      ]
+    },
+    "kardiologie_pulmologie_allergie": {
+      "label": "Kardio, Pulmo & Allergie",
+      "emoji": "🫁",
+      "faelle": [
+        {
+          "id": "PAE_031",
+          "titel": "Asthma bronchiale",
+          "tags": [
+            "Pulmologie",
+            "Allergologie"
+          ],
+          "patient": "8-jähriger Junge",
+          "praesentation": "Rezidivierender Husten nachts, Atemnot bei Belastung.",
+          "befunde": [
+            "Lufu: Obstruktion, reversibel nach Salbutamol",
+            "Giemen/Brummen exspiratorisch"
+          ],
+          "diagnose": "Asthma bronchiale",
+          "therapie": [
+            "Stufentherapie: SABA (Bedarf)",
+            "ICS (Dauertherapie)"
+          ],
+          "lernpunkte": [
+            "Inhalationstechnik kontrollieren",
+            "Triggerfaktoren (Allergene, Infekte)"
+          ]
+        },
+        {
+          "id": "PAE_032",
+          "titel": "Ventrikelseptumdefekt (VSD)",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "6 Wochen alter Säugling",
+          "praesentation": "Gedeihstörung, Schwitzen beim Trinken.",
+          "befunde": [
+            "Herzgeräusch: Holosystolikum 3./4. ICR links",
+            "Echokardiographie: Shunt"
+          ],
+          "diagnose": "Großer VSD",
+          "therapie": [
+            "Diuretika",
+            "operativer Verschluss geplant"
+          ],
+          "lernpunkte": [
+            "Häufigster angeborener Herzfehler",
+            "Gefahr der Eisenmenger-Reaktion"
+          ]
+        },
+        {
+          "id": "PAE_033",
+          "titel": "Pseudokrupp (Laryngitis subglottica)",
+          "tags": [
+            "Notfall",
+            "Pulmologie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Bellender Husten nachts, Heiserkeit, inspiratorischer Stridor.",
+          "befunde": [
+            "Juguläre Einziehungen",
+            "AZ mäßig beeinträchtigt"
+          ],
+          "diagnose": "Pseudokrupp",
+          "therapie": [
+            "Beruhigen",
+            "kalte Luft",
+            "Dexamethason (rektal/oral)"
+          ],
+          "lernpunkte": [
+            "Typische Altersgruppe 6 Monate bis 6 Jahre"
+          ]
+        },
+        {
+          "id": "PAE_034",
+          "titel": "Zystische Fibrose (Mukoviszidose)",
+          "tags": [
+            "Pulmologie",
+            "Stoffwechsel"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Rezidivierende Bronchitiden, fettige Stühle, Gedeihstörung.",
+          "befunde": [
+            "Schweißtest: Chlorid-Konzentration > 60 mmol/l",
+            "Mutation im CFTR-Gen"
+          ],
+          "diagnose": "Zystische Fibrose",
+          "therapie": [
+            "Physiotherapie",
+            "Enzymsubstitution (Creon)",
+            "Inhalation"
+          ],
+          "lernpunkte": [
+            "Autosomal-rezessiver Erbgang",
+            "Neugeborenenscreening etabliert"
+          ]
+        },
+        {
+          "id": "PAE_035",
+          "titel": "Aortenkonstriktion (Isthmusstenose)",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "10-j. Junge",
+          "praesentation": "Bluthochdruck bei Routineuntersuchung.",
+          "befunde": [
+            "Schwache Leistenpulse",
+            "RR Arm > RR Bein",
+            "Echokardiographie: Stenose Aortenbogen"
+          ],
+          "diagnose": "Aortenisthmusstenose (postduktal)",
+          "therapie": [
+            "Ballondilatation / Stent / OP"
+          ],
+          "lernpunkte": [
+            "Blutdruckdifferenz Arm/Bein ist Leitsymptom"
+          ]
+        },
+        {
+          "id": "PAE_036",
+          "titel": "Tetralogie von Fallot",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "Säugling, 3 Monate",
+          "praesentation": "Zyanose beim Schreien ('Hockstellung').",
+          "befunde": [
+            "Echokardiographie: VSD, reitende Aorta, Pulmonalstenose, RV-Hypertrophie"
+          ],
+          "diagnose": "Fallot-Tetralogie",
+          "therapie": [
+            "Beta-Blocker",
+            "Operative Korrektur"
+          ],
+          "lernpunkte": [
+            "Häufigster zyanotischer Herzfehler"
+          ]
+        },
+        {
+          "id": "PAE_037",
+          "titel": "Fremdkörperaspiration",
+          "tags": [
+            "Notfall",
+            "Pulmologie"
+          ],
+          "patient": "18 Monate altes Kind",
+          "praesentation": "Plötzlicher Hustenanfall beim Spielen (Erdnuss?), jetzt einseitiges Giemen.",
+          "befunde": [
+            "Rö-Thorax: Einseitige Überblähung (Air trapping)"
+          ],
+          "diagnose": "Fremdkörperaspiration",
+          "therapie": [
+            "Starre Bronchoskopie zur Entfernung"
+          ],
+          "lernpunkte": [
+            "Rechte Seite häufiger betroffen",
+            "Klinik wichtiger als Röntgen"
+          ]
+        },
+        {
+          "id": "PAE_038",
+          "titel": "Anaphylaxie (Erdnuss)",
+          "tags": [
+            "Notfall",
+            "Allergie"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Urtikaria, Lippenschwellung, Atemnot nach Essen.",
+          "befunde": [
+            "Stridor",
+            "Tachykardie",
+            "RR-Abfall"
+          ],
+          "diagnose": "Anaphylaktischer Schock Grad III",
+          "therapie": [
+            "Adrenalin i.m.",
+            "Steroide i.v.",
+            "Antihistaminikum i.v."
+          ],
+          "lernpunkte": [
+            "Notfallset-Verordnung (Adrenalin-Autoinjektor)"
+          ]
+        },
+        {
+          "id": "PAE_039",
+          "titel": "Atopisches Ekzem (Neurodermitis)",
+          "tags": [
+            "Allergologie",
+            "Dermatologie"
+          ],
+          "patient": "6 Monate alter Säugling",
+          "praesentation": "Rote, juckende, schuppende Stellen im Gesicht und Streckseiten.",
+          "befunde": [
+            "Milchschorf",
+            "trockene Haut"
+          ],
+          "diagnose": "Atopische Dermatitis",
+          "therapie": [
+            "Basistherapie (Rückfettung)",
+            "kurzzeitig Hydrocortison"
+          ],
+          "lernpunkte": [
+            "Etagenwechsel (Asthma/Heuschnupfen) im Verlauf möglich"
+          ]
+        },
+        {
+          "id": "PAE_040",
+          "titel": "Herzinsuffizienz (Kardiomyopathie)",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "12-j. Mädchen",
+          "praesentation": "Zunehmende Belastungsdyspnoe nach viralem Infekt.",
+          "befunde": [
+            "Echokardiographie: Dilatierter linker Ventrikel, EF 25%"
+          ],
+          "diagnose": "Dilatative Kardiomyopathie (V.a. Myokarditis-Folge)",
+          "therapie": [
+            "Herzinsuffizienz-Medikation",
+            "Schonung",
+            "ggf. Listung"
+          ],
+          "lernpunkte": [
+            "Myokarditis als wichtige Ursache erworbenener Herzfehler"
+          ]
+        },
+        {
+          "id": "PAE_041",
+          "titel": "Ventrikuläre Tachykardie",
+          "tags": [
+            "Kardiologie",
+            "Notfall"
+          ],
+          "patient": "14-j. Junge",
+          "praesentation": "Synkope beim Sport.",
+          "befunde": [
+            "EKG: Breitkomplextachykardie",
+            "V.a. Long-QT-Syndrom"
+          ],
+          "diagnose": "Rhythmusstörung",
+          "therapie": [
+            "Akut: Kardioversion",
+            "Prophylaxe: Beta-Blocker",
+            "ICD"
+          ],
+          "lernpunkte": [
+            "Long-QT-Syndrom: Risiko für plötzlichen Herztod"
+          ]
+        },
+        {
+          "id": "PAE_042",
+          "titel": "Heuschnupfen (Rhinitis allergica)",
+          "tags": [
+            "Allergologie"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Saisonales Niesen, Augenjucken, wässrige Rhinorrhö.",
+          "befunde": [
+            "Prick-Test: Gräserpollen positiv",
+            "Dunkle Augenringe (Allergic shiners)"
+          ],
+          "diagnose": "Allergische Rhinokonjunktivitis",
+          "therapie": [
+            "Antihistaminika",
+            "Spezifische Immuntherapie (SIT)"
+          ],
+          "lernpunkte": [
+            "SIT ist die einzige kausale Therapieform"
+          ]
+        },
+        {
+          "id": "PAE_043",
+          "titel": "Bronchiolitis (RSV)",
+          "tags": [
+            "Pulmologie",
+            "Infekt"
+          ],
+          "patient": "3 Monate alter Säugling",
+          "praesentation": "Tachypnoe, angestrengte Atmung, knisterndes Rasseln.",
+          "befunde": [
+            "RSV-Schnelltest positiv",
+            "SPO2 92%"
+          ],
+          "diagnose": "Bronchiolitis",
+          "therapie": [
+            "Sauerstoffvorlage",
+            "Inhalation mit NaCl 3%",
+            "Trinkmengen-Monitoring"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für Krankenhauseinweisung im 1. Lebensjahr"
+          ]
+        },
+        {
+          "id": "PAE_044",
+          "titel": "Bronchopulmonale Dysplasie (BPD)",
+          "tags": [
+            "Neonatologie",
+            "Pulmologie"
+          ],
+          "patient": "Frühgeborenes (25. SSW), jetzt 2 Monate korr. Alter",
+          "praesentation": "Persistierender Sauerstoffbedarf.",
+          "befunde": [
+            "Rö: Fibrotische Züge, Atelektasen"
+          ],
+          "diagnose": "BPD",
+          "therapie": [
+            "O2-Langzeittherapie",
+            "Diuretika",
+            "Kalorienreiche Ernährung"
+          ],
+          "lernpunkte": [
+            "Definition: O2-Bedarf über 28 Tage bzw. bis 36. SSW"
+          ]
+        },
+        {
+          "id": "PAE_045",
+          "titel": "Kawasaki-Syndrom",
+          "tags": [
+            "Kardiologie",
+            "Immunologie"
+          ],
+          "patient": "3-j. Kind",
+          "praesentation": "Hohes Fieber > 5 Tage, Konjunktivitis, Stomatitis, Exanthem.",
+          "befunde": [
+            "Echokardiographie: Koronararterienaneurysmen",
+            "Labor: CRP massiv↑"
+          ],
+          "diagnose": "Kawasaki-Syndrom",
+          "therapie": [
+            "Immunglobuline (IVIG)",
+            "hochdosiert ASS"
+          ],
+          "lernpunkte": [
+            "Gefahr der Koronarschädigung bei fehlender Therapie"
+          ]
+        }
+      ]
+    },
+    "gastro_nephro_stoffwechsel": {
+      "label": "Gastro, Nephro & Stoffwechsel",
+      "emoji": "🥣",
+      "faelle": [
+        {
+          "id": "PAE_046",
+          "titel": "Pylorusstenose",
+          "tags": [
+            "Gastroenterologie",
+            "Chirurgie"
+          ],
+          "patient": "4 Wochen alter Säugling (männlich)",
+          "praesentation": "Schwallartiges Erbrechen unverdauter Milch nach jeder Mahlzeit.",
+          "befunde": [
+            "Sono: Pylorusmuskel verdickt (> 4mm), elongiert",
+            "Exsikkose"
+          ],
+          "diagnose": "Hypertrophe Pylorusstenose",
+          "therapie": [
+            "Flüssigkeitsersatz",
+            "Pyloromyotomie nach Weber-Ramstedt"
+          ],
+          "lernpunkte": [
+            "Leitsymptom: 'Schwallartiges Erbrechen'",
+            "Elektrolytentgleisung: Hypochlorämische Alkalose"
+          ]
+        },
+        {
+          "id": "PAE_047",
+          "titel": "Invagination",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "9 Monate altes Kind",
+          "praesentation": "Anfallsartige Schmerzzustände, galliges Erbrechen, 'himbeerleeartiger Stuhl'.",
+          "befunde": [
+            "Sono: Schießscheiben-Phänomen (Target sign)"
+          ],
+          "diagnose": "Ileozökale Invagination",
+          "therapie": [
+            "Hydrostatische Desinvagination (NaCl-Einlauf)"
+          ],
+          "lernpunkte": [
+            "Klassische Altersgruppe: 3 Monate bis 2 Jahre"
+          ]
+        },
+        {
+          "id": "PAE_048",
+          "titel": "Zöliakie",
+          "tags": [
+            "Gastroenterologie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Blähbauch, dünne Extremitäten, übelriechende voluminöse Stühle.",
+          "befunde": [
+            "Transglutaminase-Antikörper positiv",
+            "Darmbiopsie: Zottenatrophie"
+          ],
+          "diagnose": "Zöliakie (Glutenunverträglichkeit)",
+          "therapie": [
+            "Strenge glutenfreie Diät"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Diabetes Typ 1 und IgA-Mangel"
+          ]
+        },
+        {
+          "id": "PAE_049",
+          "titel": "Nephrotisches Syndrom",
+          "tags": [
+            "Nephrologie"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Plötzliche Schwellung der Augenlider, Gewichtszunahme.",
+          "befunde": [
+            "Urin-Stix: Protein +++",
+            "Serum-Albumin niedrig",
+            "Ödeme"
+          ],
+          "diagnose": "Minimal-Change-Glomerulonephritis (MCGN)",
+          "therapie": [
+            "Prednisolon (Steroide)"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für nephrotisches Syndrom im Kindesalter"
+          ]
+        },
+        {
+          "id": "PAE_050",
+          "titel": "Diabetes mellitus Typ 1",
+          "tags": [
+            "Endokrinologie",
+            "Notfall"
+          ],
+          "patient": "7-j. Kind",
+          "praesentation": "Polydipsie, Polyurie, Gewichtsverlust, jetzt Erbrechen und Schläfrigkeit.",
+          "befunde": [
+            "Blutzucker 450 mg/dl",
+            "Ketonurie",
+            "Azidose im Blut"
+          ],
+          "diagnose": "Diabetische Ketoazidose bei Erstmanifestation",
+          "therapie": [
+            "Flüssigkeit",
+            "Insulin i.v. (langsam!)",
+            "Kalium-Substitution"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Hirnödem durch zu schnelle Senkung"
+          ]
+        },
+        {
+          "id": "PAE_051",
+          "titel": "Hämolytisch-urämisches Syndrom (HUS)",
+          "tags": [
+            "Nephrologie",
+            "Infekt"
+          ],
+          "patient": "3-j. Kind",
+          "praesentation": "Nach blutiger Diarrhö (EHEC): Blässe, verminderte Urinausscheidung.",
+          "befunde": [
+            "Labor: Anämie, Thrombozytopenie, Kreatinin↑",
+            "Fragmentozyten"
+          ],
+          "diagnose": "HUS",
+          "therapie": [
+            "Supportiv",
+            "ggf. Dialyse",
+            "keine Antibiotika bei EHEC!"
+          ],
+          "lernpunkte": [
+            "Trias: Mikroangiopathische hämorrhagische Anämie, Thrombozytopenie, Nierenversagen"
+          ]
+        },
+        {
+          "id": "PAE_052",
+          "titel": "Morbus Hirschsprung",
+          "tags": [
+            "Gastroenterologie",
+            "Chirurgie"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Verzögerter Mekoniumabgang (> 48h), geblähtes Abdomen.",
+          "befunde": [
+            "Rektumbiopsie: Aganglionose",
+            "Kontrastmittel-Einlauf: Kalibersprung"
+          ],
+          "diagnose": "Aganglionose des Kolons",
+          "therapie": [
+            "Chirurgische Resektion des aganglionären Segments"
+          ],
+          "lernpunkte": [
+            "Fehlen des Plexus myentericus und submucosus"
+          ]
+        },
+        {
+          "id": "PAE_053",
+          "titel": "Vesikoureteraler Reflux (VUR)",
+          "tags": [
+            "Nephrologie"
+          ],
+          "patient": "1-j. Kind",
+          "praesentation": "Zweiter Harnwegsinfekt mit Fieber.",
+          "befunde": [
+            "MCU (Miktionszysturethrogramm): Reflux Grad III"
+          ],
+          "diagnose": "VUR",
+          "therapie": [
+            "Infektprophylaxe",
+            "ggf. Unterspritzung oder OP"
+          ],
+          "lernpunkte": [
+            "Gefahr der Nierennarbenbildung"
+          ]
+        },
+        {
+          "id": "PAE_054",
+          "titel": "Gastroenteritis (Dehydration)",
+          "tags": [
+            "Gastroenterologie",
+            "Notfall"
+          ],
+          "patient": "10 Monate alter Säugling",
+          "praesentation": "Erbrechen, Diarrhö, eingesunkene Fontanelle, stehende Hautfalten.",
+          "befunde": [
+            "Gewichtsverlust 8%",
+            "Kreatinin leicht erhöht"
+          ],
+          "diagnose": "Akute Gastroenteritis mit mäßiger Dehydration",
+          "therapie": [
+            "Orale Rehydratation (ORS) / i.v. Flüssigkeit"
+          ],
+          "lernpunkte": [
+            "Säuglinge dehydrieren rasant, engmaschige Kontrolle"
+          ]
+        },
+        {
+          "id": "PAE_055",
+          "titel": "Adrenogenitales Syndrom (AGS)",
+          "tags": [
+            "Endokrinologie",
+            "Neonatologie"
+          ],
+          "patient": "Neugeborenes (weiblich)",
+          "praesentation": "Uneindeutiges Genitale (Virilisierung).",
+          "befunde": [
+            "17-OH-Progesteron erhöht",
+            "Salzverlustkrise droht"
+          ],
+          "diagnose": "AGS (21-Hydroxylase-Mangel)",
+          "therapie": [
+            "Substitution von Gluko- und Mineralokortikoiden"
+          ],
+          "lernpunkte": [
+            "Salzverlustkrise als letale Komplikation im Neugeborenenalter"
+          ]
+        },
+        {
+          "id": "PAE_056",
+          "titel": "Obstipation (Funktionell)",
+          "tags": [
+            "Gastroenterologie"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Schmerzhafter Stuhlgang, Enkopresis (Einkoten).",
+          "befunde": [
+            "Skybala tastbar",
+            "Analfissur"
+          ],
+          "diagnose": "Chronische funktionelle Obstipation",
+          "therapie": [
+            "Macrogol",
+            "Toilettentraining",
+            "Ernährung"
+          ],
+          "lernpunkte": [
+            "Überlauf-Enkopresis nicht mit Diarrhö verwechseln"
+          ]
+        },
+        {
+          "id": "PAE_057",
+          "titel": "Urat-Infarkt (Ziegelmehlsediment)",
+          "tags": [
+            "Vorsorge",
+            "Neonatologie"
+          ],
+          "patient": "2 Tage altes Neugeborenes",
+          "praesentation": "Rötliche Flecken in der Windel, Eltern besorgt.",
+          "befunde": [
+            "AZ gut",
+            "Urin-Mikroskopie: Harnsäurekristalle"
+          ],
+          "diagnose": "Ziegelmehlsediment (physiologisch)",
+          "therapie": [
+            "Beruhigung der Eltern"
+          ],
+          "lernpunkte": [
+            "Keine Hämaturie, völlig harmlos im Neugeborenenalter"
+          ]
+        },
+        {
+          "id": "PAE_058",
+          "titel": "Gedeihstörung (Abklärung)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "15 Monate altes Kind",
+          "praesentation": "Gewicht unter der 3. Perzentile, Kreuzen der Perzentilen nach unten.",
+          "befunde": [
+            "Anamnese: Trinkverhalten, psychosozial"
+          ],
+          "diagnose": "Gedeihstörung",
+          "therapie": [
+            "Abklärung (Zöliakie, Mukoviszidose, Herzfehler, soziale Probleme)"
+          ],
+          "lernpunkte": [
+            "Perzentilenknick ist immer abklärungspflichtig"
+          ]
+        },
+        {
+          "id": "PAE_059",
+          "titel": "Wilms-Tumor (Nephroblastom)",
+          "tags": [
+            "Onkologie",
+            "Nephrologie"
+          ],
+          "patient": "3-j. Kind",
+          "praesentation": "Zufällig getastete schmerzlose Vorwölbung im Bauch.",
+          "befunde": [
+            "Sono: Großer solider Nierentumor",
+            "Hämaturie"
+          ],
+          "diagnose": "Nephroblastom",
+          "therapie": [
+            "Präoperative Chemotherapie",
+            "Tumornephrektomie"
+          ],
+          "lernpunkte": [
+            "Häufigster Bauchtumor im Kindesalter, gute Prognose"
+          ]
+        },
+        {
+          "id": "PAE_060",
+          "titel": "Poststreptokokken-Glomerulonephritis",
+          "tags": [
+            "Nephrologie",
+            "Infekt"
+          ],
+          "patient": "8-j. Kind",
+          "praesentation": "Rotbrauner Urin ('cola-farben'), Ödeme, Bluthochdruck nach Angina.",
+          "befunde": [
+            "Urin: Hämaturie, Ery-Zylinder",
+            "ASL-Titer erhöht"
+          ],
+          "diagnose": "Postinfektiöse GN",
+          "therapie": [
+            "RR-Einstellung",
+            "Flüssigkeitsbilanzierung"
+          ],
+          "lernpunkte": [
+            "Typisches Intervall 1-2 Wochen nach Pharyngitis"
+          ]
+        }
+      ]
+    },
+    "neuropaediatrie_psychiatrie_sozial": {
+      "label": "Neuro, Psyche & Soziales",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "PAE_061",
+          "titel": "Fieberkrampf (Einfach)",
+          "tags": [
+            "Neurologie",
+            "Notfall"
+          ],
+          "patient": "18 Monate altes Kind",
+          "praesentation": "Generalisierter tonisch-klonischer Krampfanfall bei Fieber 39.2°C, Dauer 3 Min.",
+          "befunde": [
+            "Nach dem Anfall rasche Erholung",
+            "keine neurologischen Herdzeichen"
+          ],
+          "diagnose": "Einfacher Fieberkrampf",
+          "therapie": [
+            "Fiebersenkung",
+            "Elternberatung",
+            "Notfallset (Diazepam/Midazolam)"
+          ],
+          "lernpunkte": [
+            "Altersspanne 6 Monate bis 5 Jahre",
+            "Gute Prognose, meist keine Epilepsie"
+          ]
+        },
+        {
+          "id": "PAE_062",
+          "titel": "ADHS",
+          "tags": [
+            "Psychiatrie"
+          ],
+          "patient": "8-j. Schulkind",
+          "praesentation": "Konzentrationsstörung, Impulsivität, Zappeligkeit in Schule und Freizeit.",
+          "befunde": [
+            "Fragebögen (FBB-ADHS) auffällig",
+            "IQ-Test normal"
+          ],
+          "diagnose": "ADHS",
+          "therapie": [
+            "Multimodal: Elterntraining",
+            "Verhaltenstherapie",
+            "ggf. Methylphenidat"
+          ],
+          "lernpunkte": [
+            "Kernkriterien: Unaufmerksamkeit, Hyperaktivität, Impulsivität"
+          ]
+        },
+        {
+          "id": "PAE_063",
+          "titel": "Anorexia nervosa",
+          "tags": [
+            "Psychiatrie"
+          ],
+          "patient": "15-j. Mädchen",
+          "praesentation": "Massiver Gewichtsverlust, Amenorrhö, exzessiver Sport.",
+          "befunde": [
+            "BMI 14 kg/m²",
+            "Bradykardie",
+            "Körperschemastörung"
+          ],
+          "diagnose": "Anorexia nervosa",
+          "therapie": [
+            "Stationäre Aufnahme (Gewichtsaufbau)",
+            "Psychotherapie"
+          ],
+          "lernpunkte": [
+            "Hohe Mortalität unter psychischen Erkrankungen"
+          ]
+        },
+        {
+          "id": "PAE_064",
+          "titel": "Kindeswohlgefährdung (Verdacht)",
+          "tags": [
+            "Sozialpädiatrie",
+            "Recht"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Hämatome unterschiedlichen Alters an untypischen Stellen (Rücken, Gesäß).",
+          "befunde": [
+            "Ängstliches Verhalten gegenüber Bezugsperson",
+            "Rö-Skelett: Alte Frakturen"
+          ],
+          "diagnose": "Verdacht auf körperliche Misshandlung",
+          "therapie": [
+            "Kinderschutzgruppe einschalten",
+            "Meldung Jugendamt",
+            "stationäre Aufnahme zum Schutz"
+          ],
+          "lernpunkte": [
+            "Dokumentationspflicht!",
+            "Hämatome an weichen Körperteilen sind verdächtig"
+          ]
+        },
+        {
+          "id": "PAE_065",
+          "titel": "Absence-Epilepsie",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "7-j. Schulkind",
+          "praesentation": "Leistungsknick in der Schule, 'Träumen' für Sekunden mehrmals täglich.",
+          "befunde": [
+            "EEG: Symmetrische 3/s Spike-Wave Komplexe"
+          ],
+          "diagnose": "Pyknolepsie (Absence-Epilepsie des Kindesalters)",
+          "therapie": [
+            "Ethosuximid oder Valproat"
+          ],
+          "lernpunkte": [
+            "Anfälle durch Hyperventilation provozierbar"
+          ]
+        },
+        {
+          "id": "PAE_066",
+          "titel": "Zerebralparese (Spastisch)",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "3-j. Kind nach Frühgeburt",
+          "praesentation": "Spitzfußgang, Scheregang, motorische Entwicklungsverzögerung.",
+          "befunde": [
+            "Gesteigerte Eigenreflexe",
+            "persistierende Primitivreflexe"
+          ],
+          "diagnose": "Infantile Zerebralparese",
+          "therapie": [
+            "Physiotherapie (Vojta/Bobath)",
+            "Hilfsmittel",
+            "ggf. Botulinumtoxin"
+          ],
+          "lernpunkte": [
+            "Frühkindliche Hirnschädigung, nicht progredient, aber klinisch variabel"
+          ]
+        },
+        {
+          "id": "PAE_067",
+          "titel": "Affektkrampf",
+          "tags": [
+            "Neurologie",
+            "Psychologie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Nach Wutanfall oder Erschrecken: Luftanhalten, Zyanose, kurzzeitiger Bewusstseinsverlust.",
+          "befunde": [
+            "Völlig normale neurologische Entwicklung"
+          ],
+          "diagnose": "Zyanotischer Affektkrampf",
+          "therapie": [
+            "Beruhigung der Eltern",
+            "keine Medikamente"
+          ],
+          "lernpunkte": [
+            "Harmloses Phänomen, sistiert meist bis zum 5. LJ"
+          ]
+        },
+        {
+          "id": "PAE_068",
+          "titel": "Enuresis (Bettnässen)",
+          "tags": [
+            "Urologie",
+            "Psychiatrie"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Einnässen nachts, noch nie länger als 6 Monate trocken gewesen.",
+          "befunde": [
+            "Sono Harnwege normal",
+            "Urin-Stix o.B."
+          ],
+          "diagnose": "Enuresis nocturna primaria",
+          "therapie": [
+            "Klingelmatte (Apparative Konditionierung)",
+            "Desmopressin"
+          ],
+          "lernpunkte": [
+            "Voraussetzung für Therapie: Alter > 5 Jahre"
+          ]
+        },
+        {
+          "id": "PAE_069",
+          "titel": "Autismus-Spektrum-Störung",
+          "tags": [
+            "Psychiatrie"
+          ],
+          "patient": "4-j. Junge",
+          "praesentation": "Kein Blickkontakt, Sprachentwicklungsverzögerung, Stereotypien.",
+          "befunde": [
+            "Eingeschränktes Sozialverhalten",
+            "Spezialinteressen"
+          ],
+          "diagnose": "Frühkindlicher Autismus",
+          "therapie": [
+            "Frühförderung",
+            "Sprachtherapie",
+            "Verhaltenstherapie"
+          ],
+          "lernpunkte": [
+            "Wichtig: Frühdiagnose zur Förderung"
+          ]
+        },
+        {
+          "id": "PAE_070",
+          "titel": "Spinale Muskelatrophie (SMA)",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "4 Monate alter Säugling",
+          "praesentation": "Zunehmende Muskelschwäche ('Floppy Infant'), Froschhaltung der Beine.",
+          "befunde": [
+            "Areflexie",
+            "Zungenfaszikulationen",
+            "Genetik: SMN1-Mutation"
+          ],
+          "diagnose": "SMA Typ I (Werdnig-Hoffmann)",
+          "therapie": [
+            "Nusinersen / Gentherapie (Zolgensma)"
+          ],
+          "lernpunkte": [
+            "Durch neue Therapien enorme Prognoseverbesserung"
+          ]
+        },
+        {
+          "id": "PAE_071",
+          "titel": "Muskeldystrophie Duchenne",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "4-j. Junge",
+          "praesentation": "Watschelgang, Gowers-Zeichen positiv (beim Aufstehen).",
+          "befunde": [
+            "CK-Wert massiv erhöht (> 10.000)",
+            "Wadenpseudohypertrophie"
+          ],
+          "diagnose": "DMD",
+          "therapie": [
+            "Steroide",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "X-chromosomal-rezessiver Erbgang"
+          ]
+        },
+        {
+          "id": "PAE_072",
+          "titel": "Tics (Tourette-Syndrom)",
+          "tags": [
+            "Psychiatrie"
+          ],
+          "patient": "10-j. Junge",
+          "praesentation": "Blinzeln, Grimassieren, Räuspern seit 2 Jahren.",
+          "befunde": [
+            "Multiple motorische und ein vokaler Tic"
+          ],
+          "diagnose": "Tourette-Syndrom",
+          "therapie": [
+            "Verhaltenstherapie",
+            "ggf. Tiaprid"
+          ],
+          "lernpunkte": [
+            "Fluktuierender Verlauf, oft Komorbidität mit ADHS/Zwang"
+          ]
+        },
+        {
+          "id": "PAE_073",
+          "titel": "Depressive Episode (Jugendliche)",
+          "tags": [
+            "Psychiatrie"
+          ],
+          "patient": "16-j. Patient",
+          "praesentation": "Schlafstörungen, Rückzug von Freunden, Schulabsentismus.",
+          "befunde": [
+            "Gedrückte Stimmung",
+            "Antriebslosigkeit",
+            "Suizidgedanken"
+          ],
+          "diagnose": "Mittelschwere depressive Episode",
+          "therapie": [
+            "Psychotherapie",
+            "ggf. SSRI (Fluoxetin)"
+          ],
+          "lernpunkte": [
+            "Suizidalität immer direkt ansprechen!"
+          ]
+        },
+        {
+          "id": "PAE_074",
+          "titel": "Legasthenie (Lese-Rechtschreibstörung)",
+          "tags": [
+            "Sozialpädiatrie"
+          ],
+          "patient": "9-j. Kind (3. Klasse)",
+          "praesentation": "Große Schwierigkeiten beim Lesen und Schreiben trotz normaler Intelligenz.",
+          "befunde": [
+            "IQ normal",
+            "standardisierte Tests auffällig"
+          ],
+          "diagnose": "Umschriebene Lese- und Rechtschreibstörung",
+          "therapie": [
+            "Lerntherapie",
+            "Nachteilsausgleich in der Schule"
+          ],
+          "lernpunkte": [
+            "Wichtig: Ausschluss von Seh- und Hörstörungen"
+          ]
+        },
+        {
+          "id": "PAE_075",
+          "titel": "Schlafstörung (Kleinkind)",
+          "tags": [
+            "Psychologie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Einschlafen nur mit Eltern im Bett möglich, häufiges nächtliches Erwachen.",
+          "befunde": [
+            "AZ gut",
+            "keine organischen Befunde"
+          ],
+          "diagnose": "Schlafstörung (Behavioral Insomnia)",
+          "therapie": [
+            "Schlafhygiene",
+            "feste Rituale",
+            "Coaching der Eltern"
+          ],
+          "lernpunkte": [
+            "Häufigstes Problem in der kinderärztlichen Praxis"
+          ]
+        }
+      ]
+    },
+    "endokrinologie_haematologie_onkologie": {
+      "label": "Endo, Hämato & Onko",
+      "emoji": "🩸",
+      "faelle": [
+        {
+          "id": "PAE_076",
+          "titel": "Akute Lymphoblastische Leukämie (ALL)",
+          "tags": [
+            "Onkologie",
+            "Hämatologie"
+          ],
+          "patient": "4-jähriges Kind",
+          "praesentation": "Blässe, Müdigkeit, Petechien, Knochenschmerzen, Lymphknotenschwellungen.",
+          "befunde": [
+            "Blutbild: Anämie, Thrombozytopenie, Blasten",
+            "Splenomegalie"
+          ],
+          "diagnose": "ALL",
+          "therapie": [
+            "Multimodale Chemotherapie (z.B. nach AIEOP-BFM Protokoll)"
+          ],
+          "lernpunkte": [
+            "Häufigste Krebserkrankung im Kindesalter",
+            "Hohe Heilungsrate (> 85%)"
+          ]
+        },
+        {
+          "id": "PAE_077",
+          "titel": "Eisenmangelanämie (Kleinkind)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "18 Monate altes Kind",
+          "praesentation": "Blässe, Infektanfälligkeit, Pica-Syndrom.",
+          "befunde": [
+            "Hb niedrig",
+            "MCV/MCH niedrig",
+            "Ferritin niedrig"
+          ],
+          "diagnose": "Eisenmangelanämie (Ernährungsbedingt)",
+          "therapie": [
+            "Eisensubstitution (oral)",
+            "Ernährungsberatung (weniger Kuhmilch)"
+          ],
+          "lernpunkte": [
+            "Zu viel Kuhmilch (> 500ml/d) verhindert Eisenaufnahme"
+          ]
+        },
+        {
+          "id": "PAE_078",
+          "titel": "Immunthrombozytopenie (ITP)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "5-j. Kind",
+          "praesentation": "Plötzliche Petechien und Hämatome nach viralem Infekt.",
+          "befunde": [
+            "Thrombozyten 8.000/µl",
+            "Hb/Leukozyten normal"
+          ],
+          "diagnose": "Akute ITP",
+          "therapie": [
+            "Beobachtung (Watch and Wait) bei fehlender Blutung",
+            "ggf. IVIG"
+          ],
+          "lernpunkte": [
+            "Meist spontane Remission innerhalb von Wochen"
+          ]
+        },
+        {
+          "id": "PAE_079",
+          "titel": "Wachstumshormonmangel",
+          "tags": [
+            "Endokrinologie"
+          ],
+          "patient": "8-j. Junge",
+          "praesentation": "Wachstum unterhalb der 3. Perzentile, puppenhaftes Gesicht.",
+          "befunde": [
+            "Wachstumsgeschwindigkeit < 4cm/Jahr",
+            "Arginin-Test: STH-Anstieg unzureichend"
+          ],
+          "diagnose": "STH-Mangel",
+          "therapie": [
+            "Subkutane Gabe von rekombinantem Wachstumshormon"
+          ],
+          "lernpunkte": [
+            "Wachstumsgeschwindigkeit ist aussagekräftiger als absoluter Wert"
+          ]
+        },
+        {
+          "id": "PAE_080",
+          "titel": "Hämophilie A",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "2-j. Junge",
+          "praesentation": "Große Hämatome bei Bagatelltraumen, Gelenkschwellung nach Sturz.",
+          "befunde": [
+            "aPTT verlängert",
+            "Faktor VIII Aktivität vermindert"
+          ],
+          "diagnose": "Hämophilie A",
+          "therapie": [
+            "Faktorsubstitution",
+            "Vermeidung von NSAR/i.m. Spritzen"
+          ],
+          "lernpunkte": [
+            "X-chromosomal-rezessiv",
+            "Gefahr der Hämarthrose"
+          ]
+        },
+        {
+          "id": "PAE_081",
+          "titel": "Neuroblastom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "18 Monate altes Kind",
+          "praesentation": "Harnretention, Obstipation, Brillenhämatom.",
+          "befunde": [
+            "Katecholamin-Metaboliten im Urin↑",
+            "großer Bauchtumor"
+          ],
+          "diagnose": "Neuroblastom",
+          "therapie": [
+            "OP",
+            "Chemotherapie",
+            "Staging"
+          ],
+          "lernpunkte": [
+            "Häufigster extrakranieller solider Tumor des Kindesalters"
+          ]
+        },
+        {
+          "id": "PAE_082",
+          "titel": "Pubertas praecox",
+          "tags": [
+            "Endokrinologie"
+          ],
+          "patient": "7-j. Mädchen",
+          "praesentation": "Beginnende Brustentwicklung (Thelarche), Schambehaarung.",
+          "befunde": [
+            "Knochenalter beschleunigt",
+            "Basal-LH erhöht"
+          ],
+          "diagnose": "Pubertas praecox vera (Zentral)",
+          "therapie": [
+            "GnRH-Analoga"
+          ],
+          "lernpunkte": [
+            "Definition: Pubertätszeichen bei Mädchen < 8 J., Jungen < 9 J."
+          ]
+        },
+        {
+          "id": "PAE_083",
+          "titel": "Kleinhirntumor (Medulloblastom)",
+          "tags": [
+            "Onkologie",
+            "Neurologie"
+          ],
+          "patient": "6-j. Kind",
+          "praesentation": "Morgendliches Erbrechen, Ataxie, Kopfschmerzen.",
+          "befunde": [
+            "MRT: Raumforderung IV. Ventrikel",
+            "Stauungspapille"
+          ],
+          "diagnose": "Medulloblastom",
+          "therapie": [
+            "OP",
+            "Kraniospinale Radiatio",
+            "Chemo"
+          ],
+          "lernpunkte": [
+            "Morgendliches Erbrechen = Warnsymptom für Hirndruck"
+          ]
+        },
+        {
+          "id": "PAE_084",
+          "titel": "Hereditäre Sphärozytose (Kugelanämie)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "10-j. Kind",
+          "praesentation": "Rezidivierender Ikterus, Splenomegalie, Anämie.",
+          "befunde": [
+            "Erythrozyten morphologisch kugelförmig",
+            "Hämolysezeichen"
+          ],
+          "diagnose": "Sphärozytose",
+          "therapie": [
+            "Folsäure",
+            "ggf. Splenektomie"
+          ],
+          "lernpunkte": [
+            "Häufigste hämolytische Anämie in Mitteleuropa"
+          ]
+        },
+        {
+          "id": "PAE_085",
+          "titel": "Gynäkomastie (Pubertär)",
+          "tags": [
+            "Endokrinologie"
+          ],
+          "patient": "14-j. Junge",
+          "praesentation": "Einseitige schmerzhafte Schwellung der Brustdrüse.",
+          "befunde": [
+            "Drüsengewebe tastbar",
+            "Pubertätsstadium G3 P3"
+          ],
+          "diagnose": "Pubertätsgynäkomastie",
+          "therapie": [
+            "Beruhigung",
+            "Abwarten"
+          ],
+          "lernpunkte": [
+            "Häufiges physiologisches Phänomen in der Pubertät"
+          ]
+        },
+        {
+          "id": "PAE_086",
+          "titel": "Osteosarkom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "14-j. Jugendlicher",
+          "praesentation": "Schmerzen im Knie nach Sport, Schwellung distal am Femur.",
+          "befunde": [
+            "Rö: Sunburst-Phänomen",
+            "Codman-Dreieck"
+          ],
+          "diagnose": "Osteosarkom",
+          "therapie": [
+            "Neoadjuvante Chemo",
+            "OP (Extremitätenerhaltend)"
+          ],
+          "lernpunkte": [
+            "Typisches Alter: Pubertärer Wachstumsspurt"
+          ]
+        },
+        {
+          "id": "PAE_087",
+          "titel": "Sickelzellanämie (Vaso-okklusive Krise)",
+          "tags": [
+            "Hämatologie",
+            "Notfall"
+          ],
+          "patient": "8-j. Kind afrikanischer Herkunft",
+          "praesentation": "Extreme Schmerzen in den Beinen und im Bauch.",
+          "befunde": [
+            "HbS in Elektrophorese",
+            "Infektzeichen"
+          ],
+          "diagnose": "Sichelzellkrankheit",
+          "therapie": [
+            "Hydrierung",
+            "Analgetika (Opioide)",
+            "Sauerstoff"
+          ],
+          "lernpunkte": [
+            "Gefahr des Milzsequestrationssyndroms"
+          ]
+        },
+        {
+          "id": "PAE_088",
+          "titel": "Hypoglykämie (Hyperinsulinismus)",
+          "tags": [
+            "Neonatologie",
+            "Stoffwechsel"
+          ],
+          "patient": "Neugeborenes (Makrosom, Mutter Diabetikerin)",
+          "praesentation": "Zittern (Jitteriness), Trinkschwäche postpartal.",
+          "befunde": [
+            "Blutzucker 25 mg/dl"
+          ],
+          "diagnose": "Neonatale Hypoglykämie",
+          "therapie": [
+            "Frühzeitiges Füttern",
+            "ggf. Glukose-Infusion"
+          ],
+          "lernpunkte": [
+            "Wichtig bei Kindern von Müttern mit Gestationsdiabetes"
+          ]
+        },
+        {
+          "id": "PAE_089",
+          "titel": "M. Hodgkin",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "16-j. Jugendliche",
+          "praesentation": "Schmerzlose, derbe Lymphknoten zervikal, Nachtschweiß.",
+          "befunde": [
+            "Mediastinalverbreiterung im Rö-Thorax"
+          ],
+          "diagnose": "Morbus Hodgkin",
+          "therapie": [
+            "Chemotherapie nach GPOH-Protokoll"
+          ],
+          "lernpunkte": [
+            "Reed-Sternberg-Riesenzellen in der Histologie"
+          ]
+        },
+        {
+          "id": "PAE_090",
+          "titel": "Adipositas im Kindesalter",
+          "tags": [
+            "Endokrinologie",
+            "Prävention"
+          ],
+          "patient": "12-j. Kind",
+          "praesentation": "BMI weit über der 97. Perzentile.",
+          "befunde": [
+            "Bluthochdruck",
+            "Acanthosis nigricans (Hals)"
+          ],
+          "diagnose": "Adipositas mit metabolischem Syndrom",
+          "therapie": [
+            "Ernährungstherapie",
+            "Bewegungsprogramm (familienzentriert)"
+          ],
+          "lernpunkte": [
+            "Acanthosis nigricans ist Zeichen einer Insulinresistenz"
+          ]
+        }
+      ]
+    },
+    "notfaelle_chirurgie_orthopaedie": {
+      "label": "Notfall, Chirurgie & Ortho",
+      "emoji": "🚑",
+      "faelle": [
+        {
+          "id": "PAE_091",
+          "titel": "Hodentorsion",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "13-jähriger Junge",
+          "praesentation": "Plötzliche, stärkste Schmerzen im Hoden nachts, Erbrechen.",
+          "befunde": [
+            "Hoden druckschmerzhaft, steht hoch",
+            "Prehn-Zeichen negativ",
+            "Fehlender Kremasterreflex"
+          ],
+          "diagnose": "Hodentorsion",
+          "therapie": [
+            "Notfall-OP (Detorsion und Orchidopexie bds.) < 6h"
+          ],
+          "lernpunkte": [
+            "Zeit ist Hoden: Rettungsrate nach 6h sinkt rasant"
+          ]
+        },
+        {
+          "id": "PAE_092",
+          "titel": "Fremdkörperaspiration (Akut)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Plötzlicher Erstickungsanfall beim Essen von Nüssen.",
+          "befunde": [
+            "Zyanose",
+            "fehlendes Atemgeräusch rechts"
+          ],
+          "diagnose": "Fremdkörperaspiration",
+          "therapie": [
+            "Heimlich-Manöver (altersentsprechend)",
+            "Bronchoskopie"
+          ],
+          "lernpunkte": [
+            "Erdnüsse sind der Klassiker unter den Aspiraten"
+          ]
+        },
+        {
+          "id": "PAE_093",
+          "titel": "M. Perthes",
+          "tags": [
+            "Orthopädie"
+          ],
+          "patient": "6-j. Junge",
+          "praesentation": "Hinken seit Wochen, Schmerzen im Knie (Knieschmerz = Hüftschmerz!).",
+          "befunde": [
+            "Eingeschränkte Abduktion/Innenrotation Hüfte",
+            "Rö: Verdichtung des Hüftkopfes"
+          ],
+          "diagnose": "Morbus Perthes (Aseptische Hüftkopfnekrose)",
+          "therapie": [
+            "Entlastung",
+            "Physiotherapie",
+            "ggf. OP"
+          ],
+          "lernpunkte": [
+            "Vorkommen typisch 4. bis 8. Lebensjahr"
+          ]
+        },
+        {
+          "id": "PAE_094",
+          "titel": "Epiphyseolysis capitis femoris (ECFE)",
+          "tags": [
+            "Notfall",
+            "Orthopädie"
+          ],
+          "patient": "13-j. adipöser Junge",
+          "praesentation": "Plötzliches Hinken, Bein in Außenrotation fixiert.",
+          "befunde": [
+            "Drehmann-Zeichen positiv",
+            "Rö: Abrutschen des Hüftkopfs"
+          ],
+          "diagnose": "ECFE (Jugendlicher Hüftkopfgelenkluxation)",
+          "therapie": [
+            "Notfallmäßige operative Fixierung (In-situ-Verschraubung)"
+          ],
+          "lernpunkte": [
+            "Orthopädischer Notfall des Jugendlichen"
+          ]
+        },
+        {
+          "id": "PAE_095",
+          "titel": "Inidirekte Leistenhernie",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "3 Monate alter Säugling",
+          "praesentation": "Schwellung in der Leiste beim Schreien.",
+          "befunde": [
+            "Resistenz repetibel",
+            "Finger-Test"
+          ],
+          "diagnose": "Indirekte Inguinalhernie",
+          "therapie": [
+            "Zeitnahe elektive Herniotomie"
+          ],
+          "lernpunkte": [
+            "Gefahr der Inkarzeration (Einklemmung)"
+          ]
+        },
+        {
+          "id": "PAE_096",
+          "titel": "Pronatio dolorosa (Chassaignac)",
+          "tags": [
+            "Orthopädie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Hält den Arm nach Zug am Handgelenk in Pronation, bewegt ihn nicht.",
+          "befunde": [
+            "Druckschmerz am Radiusköpfchen",
+            "keine Schwellung"
+          ],
+          "diagnose": "Radiusköpfchen-Subluxation",
+          "therapie": [
+            "Reposition durch Supination und Beugung"
+          ],
+          "lernpunkte": [
+            "Hörbarer Klick bei erfolgreicher Reposition, sofortiger Gebrauch des Arms"
+          ]
+        },
+        {
+          "id": "PAE_097",
+          "titel": "Skoliose",
+          "tags": [
+            "Orthopädie"
+          ],
+          "patient": "12-j. Mädchen",
+          "praesentation": "Schiefstand der Schultern bei Schuluntersuchung.",
+          "befunde": [
+            "Adams-Vorneigetest: Rippenbuckel positiv",
+            "Cobb-Winkel 25°"
+          ],
+          "diagnose": "Idiopathische Adoleszentenskoliose",
+          "therapie": [
+            "Korsetttherapie",
+            "Physiotherapie (Schroth)"
+          ],
+          "lernpunkte": [
+            "Wachstumsspurt ist Phase der stärksten Progression"
+          ]
+        },
+        {
+          "id": "PAE_098",
+          "titel": "Schweres Schädel-Hirn-Trauma (SHT)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "5-j. nach Sturz aus 3m Höhe",
+          "praesentation": "Bewusstlosigkeit, Erbrechen, unterschiedliche Pupillen.",
+          "befunde": [
+            "GCS 7",
+            "Anisokorie",
+            "CCT: Epiduralhämatom"
+          ],
+          "diagnose": "SHT Grad III",
+          "therapie": [
+            "Intubation",
+            "Neurochirurgische Entlastung"
+          ],
+          "lernpunkte": [
+            "GCS für Kinder anpassen",
+            "Cushing-Trias als Zeichen für Hirndruck"
+          ]
+        },
+        {
+          "id": "PAE_099",
+          "titel": "Verbrühung (Notfall)",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "2-j. Kind",
+          "praesentation": "Heißer Tee über Oberkörper geschüttet.",
+          "befunde": [
+            "Blasenbildung, Rötung (Grad IIa)",
+            "Fläche ca. 15% KOF"
+          ],
+          "diagnose": "Thermische Verletzung (Verbrühung)",
+          "therapie": [
+            "Kühlung (kurz!)",
+            "Volumenersatz (Parkland-Formel)",
+            "Schmerztherapie"
+          ],
+          "lernpunkte": [
+            "Verbrennungsschock-Gefahr bereits bei > 10% KOF beim Kind"
+          ]
+        },
+        {
+          "id": "PAE_100",
+          "titel": "Status epilepticus",
+          "tags": [
+            "Notfall",
+            "Neurologie"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Anhaltender generalisierter Krampfanfall > 5 Minuten.",
+          "befunde": [
+            "Zyanose",
+            "AZ reduziert"
+          ],
+          "diagnose": "Status epilepticus",
+          "therapie": [
+            "Stufenplan: Midazolam (buccal/i.v.) -> Phenytoin/Levetiracetam -> Narkose"
+          ],
+          "lernpunkte": [
+            "Zeitfaktor entscheidend für Vermeidung von Hirnschäden"
+          ]
+        }
+      ]
+    }
+  }
+}

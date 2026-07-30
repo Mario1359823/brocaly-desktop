@@ -1,0 +1,71 @@
+appId: de.brocaly.desktop
+productName: Brocaly
+copyright: © 2026 Mario Vasic — AGPL-3.0-or-later
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/main/**
+  - dist/renderer/**
+  - package.json
+  - '!**/*.map'
+
+extraResources:
+  - from: resources/cases
+    to: cases
+    filter: ['**/*.json']
+
+asar: true
+npmRebuild: false
+
+mac:
+  category: public.app-category.education
+  target:
+    - target: dmg
+      arch: [arm64, x64]
+    - target: zip
+      arch: [arm64, x64]
+  icon: build/icon.png
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  extendInfo:
+    NSMicrophoneUsageDescription: >-
+      Brocaly braucht dein Mikrofon, damit du im Prüfungsgespräch frei sprechen
+      kannst. Die Aufnahme wird nur zur Transkription an den von dir gewählten
+      KI-Anbieter gesendet und nicht gespeichert.
+    LSMinimumSystemVersion: '11.0'
+
+dmg:
+  title: Brocaly ${version}
+  contents:
+    - x: 140
+      y: 200
+      type: file
+    - x: 400
+      y: 200
+      type: link
+      path: /Applications
+
+win:
+  target:
+    - target: nsis
+      arch: [x64, arm64]
+  icon: build/icon.png
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Brocaly
+  installerLanguages: [de_DE, en_US]
+
+linux:
+  target:
+    - AppImage
+  category: Education
+  icon: build/icon.png

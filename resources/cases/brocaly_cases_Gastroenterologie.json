@@ -1,0 +1,1863 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Gastroenterologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-30"
+  },
+  "kategorien": {
+    "diagnostik_funktion": {
+      "label": "Diagnostik & Funktionsdiagnostik",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "GAS_D001",
+          "titel": "Ösophagusmanometrie (Achalasie Typ II)",
+          "tags": [
+            "Funktion",
+            "Ösophagus"
+          ],
+          "patient": "42-jähriger Patient mit progredienter Dysphagie",
+          "praesentation": "Schluckbeschwerden für feste und flüssige Speisen, Regurgitationen.",
+          "befunde": [
+            "HR-Manometrie: IRP > 15 mmHg",
+            "100% fehlende Peristaltik",
+            "Panösophageale Drucksteigerungen in > 20% der Schluckakte"
+          ],
+          "diagnose": "Achalasie Typ II (Chicago-Klassifikation 3.0)",
+          "therapie": [
+            "Pneumatische Dilatation",
+            "POEM (Perorale endoskopische Myotomie)"
+          ],
+          "lernpunkte": [
+            "Typ II ist die häufigste Form und spricht gut auf Therapie an",
+            "Differenzierung via HR-Manometrie"
+          ]
+        },
+        {
+          "id": "GAS_D002",
+          "titel": "H2-Atemtest (Laktoseintoleranz)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "28-j. Frau, Blähungen nach Milchkonsum",
+          "praesentation": "Meteorismus, krampfartige Schmerzen, Diarrhö.",
+          "befunde": [
+            "H2-Anstieg > 20 ppm über Baseline",
+            "Symptomtriggerung während Test"
+          ],
+          "diagnose": "Laktoseintoleranz",
+          "therapie": [
+            "Laktosearme Diät",
+            "Laktase-Substitution"
+          ],
+          "lernpunkte": [
+            "H2-Produktion durch bakterielle Fermentation im Kolon"
+          ]
+        },
+        {
+          "id": "GAS_D003",
+          "titel": "Endosonographie (Pankreaskopftumor)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "65-j. mit schmerzlosem Ikterus",
+          "praesentation": "B-Symptomatik.",
+          "befunde": [
+            "EUS: Echoarme Raumforderung 2,5 cm",
+            "Gallengangs-Dilatation",
+            "FNP: Adenokarzinom"
+          ],
+          "diagnose": "Pankreaskopfkarzinom",
+          "therapie": [
+            "Operative Sanierung (Whipple-OP)"
+          ],
+          "lernpunkte": [
+            "Höchste Sensitivität für kleine Pankreastumoren"
+          ]
+        },
+        {
+          "id": "GAS_D004",
+          "titel": "24h-pH-Metrie-Impedanzmessung",
+          "tags": [
+            "Ösophagus"
+          ],
+          "patient": "45-j. mit chronischem Husten",
+          "praesentation": "V.a. extraösophagealen Reflux.",
+          "befunde": [
+            "DeMeester-Score erhöht",
+            "Positive Symptomassoziation"
+          ],
+          "diagnose": "Gastroösophageale Refluxkrankheit (GERD)",
+          "therapie": [
+            "PPI-Therapie",
+            "Lifestyle-Modifikation"
+          ],
+          "lernpunkte": [
+            "Impedanzmessung erfasst auch nicht-sauren Reflux"
+          ]
+        },
+        {
+          "id": "GAS_D005",
+          "titel": "Kapselendoskopie (Dünndarm)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "50-j. mit Eisenmangelanämie",
+          "praesentation": "Unklare GIB nach Gastro/Kolo o.B.",
+          "befunde": [
+            "Darstellung einer Angiodysplasie im Jejunum"
+          ],
+          "diagnose": "Dünndarm-Angiodysplasie (Heyde-Syndrom?)",
+          "therapie": [
+            "Enteroskopie mit Argon-Plasma-Koagulation (APC)"
+          ],
+          "lernpunkte": [
+            "Indikation: Mittlere Gastrointestinalblutung"
+          ]
+        },
+        {
+          "id": "GAS_D006",
+          "titel": "Transfokale Cholangioskopie (SpyGlass)",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "55-j. mit unklarer Gallengangsstenose",
+          "praesentation": "Cholestase-Labor.",
+          "befunde": [
+            "Direkte Visualisierung: Tumorsuspekte Gefäßzeichnung",
+            "Gezielte Biopsie"
+          ],
+          "diagnose": "Cholangiokarzinom",
+          "therapie": [
+            "Interdisziplinäres Tumorboard"
+          ],
+          "lernpunkte": [
+            "Differenzierung benigner vs. maligner Stenosen"
+          ]
+        },
+        {
+          "id": "GAS_D007",
+          "titel": "13C-Harnstoff-Atemtest",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. nach H.p. Eradikation",
+          "praesentation": "Kontrolle des Therapieerfolgs.",
+          "befunde": [
+            "Delta-over-Baseline < 4 Promille"
+          ],
+          "diagnose": "Erfolgreiche Eradikation",
+          "therapie": [
+            "Keine"
+          ],
+          "lernpunkte": [
+            "Abstand zu PPI (2 Wochen) und AB (4 Wochen) einhalten"
+          ]
+        },
+        {
+          "id": "GAS_D008",
+          "titel": "Gummibandligatur (Vorsorge)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Leberzirrhose-Patient",
+          "praesentation": "Screening auf Varizen.",
+          "befunde": [
+            "Ösophagusvarizen Grad II mit 'Red Signs'"
+          ],
+          "diagnose": "Primärprophylaktische Indikation",
+          "therapie": [
+            "Endoskopische Ligatur"
+          ],
+          "lernpunkte": [
+            "Prävention der Erstblutung"
+          ]
+        },
+        {
+          "id": "GAS_D009",
+          "titel": "Elastographie (Leber)",
+          "tags": [
+            "Hepatologie"
+          ],
+          "patient": "Pat. mit chronischer Hepatitis C",
+          "praesentation": "Beurteilung der Fibrose.",
+          "befunde": [
+            "Fibroscan: 14,5 kPa"
+          ],
+          "diagnose": "Leberzirrhose (F4-Stadium)",
+          "therapie": [
+            "Screening auf HCC und Varizen"
+          ],
+          "lernpunkte": [
+            "Nicht-invasive Alternative zur Leberbiopsie"
+          ]
+        },
+        {
+          "id": "GAS_D010",
+          "titel": "Defäkographie (MRT)",
+          "tags": [
+            "Funktion"
+          ],
+          "patient": " Frau mit chronischer Obstipation",
+          "praesentation": "Gefühl der unvollständigen Entleerung, digitaler Beihilfe.",
+          "befunde": [
+            "Intussuszeption und Enterozele im Pressversuch"
+          ],
+          "diagnose": "Outlet-Obstruction-Syndrom",
+          "therapie": [
+            "Biofeedback-Training",
+            "ggf. OP"
+          ],
+          "lernpunkte": [
+            "Funktionelle Diagnostik des Beckenboden-Apparates"
+          ]
+        }
+      ]
+    },
+    "oesophagus_magen": {
+      "label": "Ösophagus & Magen",
+      "emoji": "🥣",
+      "faelle": [
+        {
+          "id": "GAS_M011",
+          "titel": "Eosinophile Ösophagitis (EoE)",
+          "tags": [
+            "Ösophagus",
+            "Allergie"
+          ],
+          "patient": "25-jähriger Asthmatiker",
+          "praesentation": "Akute Bolusobstruktion beim Fleischverzehr.",
+          "befunde": [
+            "Endo: Ringbildung (Trachealisierung), Längsfurchen",
+            "Histo: > 15 Eosinophile/HPF"
+          ],
+          "diagnose": "Eosinophile Ösophagitis",
+          "therapie": [
+            "Topische Steroide (Budesonid-Schmelztablette)",
+            "6-Food-Eliminationsdiät"
+          ],
+          "lernpunkte": [
+            "Bolusereignis bei jungen Männern = EoE-Ausschluss"
+          ]
+        },
+        {
+          "id": "GAS_M012",
+          "titel": "Barrett-Ösophagus (Dysplasie)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. Mann, chronischer Reflux",
+          "praesentation": "Vorsorge-ÖGD.",
+          "befunde": [
+            "C3M5 Barrett-Segment",
+            "Biopsie: High-grade Intraepitheliale Neoplasie (HIN)"
+          ],
+          "diagnose": "Barrett-Dysplasie",
+          "therapie": [
+            "Endoskopische Mukosaresektion (EMR) + Radiofrequenzablation"
+          ],
+          "lernpunkte": [
+            "Präkanzerose für Adenokarzinom"
+          ]
+        },
+        {
+          "id": "GAS_M013",
+          "titel": "Ulcus ventriculi (H. pylori)",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "60-j. Mann, Epigastralgien",
+          "praesentation": "Nüchternschmerz, Übelkeit.",
+          "befunde": [
+            "ÖGD: Ulkus an der kleinen Kurvatur (Forrest III)",
+            "HUT-Test positiv"
+          ],
+          "diagnose": "Helicobacter-pylori-Gastritis mit Ulkus",
+          "therapie": [
+            "Bismut-Quadrupeltherapie (Pylera)"
+          ],
+          "lernpunkte": [
+            "Kontroll-ÖGD nach 6 Wochen zum Karzinomausschluss obligat"
+          ]
+        },
+        {
+          "id": "GAS_M014",
+          "titel": "Zollinger-Ellison-Syndrom",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "40-j. Patient, rezidivierende Ulzera",
+          "praesentation": "Multiple Ulzera im Duodenum und Jejunum, Diarrhö.",
+          "befunde": [
+            "Nüchterngastrin massiv erhöht (> 1000 pg/ml)"
+          ],
+          "diagnose": "Gastrinom (V.a. MEN-1)",
+          "therapie": [
+            "Hochdosis PPI",
+            "Tumorsuche (Oktreotid-Szinti/PET)"
+          ],
+          "lernpunkte": [
+            "Suche nach weiteren endokrinen Tumoren"
+          ]
+        },
+        {
+          "id": "GAS_M015",
+          "titel": "Magenkarzinom (Linitis plastica)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Frau, Völlegefühl",
+          "praesentation": "Rasche Sättigung, Gewichtsverlust.",
+          "befunde": [
+            "ÖGD: Magen kaum entfaltbar, verdickte Wand, Biopsie oft schwierig"
+          ],
+          "diagnose": "Diffus-typisches Magenkarzinom (Lauren)",
+          "therapie": [
+            "Gastrektomie + D2-Lymphadenektomie"
+          ],
+          "lernpunkte": [
+            "Submuköse Ausbreitung erschwert die Diagnose"
+          ]
+        },
+        {
+          "id": "GAS_M016",
+          "titel": "Gastrointestinaler Stromatumor (GIST)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Zufallsfund ÖGD",
+          "praesentation": "Subepitheliale Raumforderung Magenkorpus.",
+          "befunde": [
+            "EUS: Ausgehend von Muscularis propria",
+            "Histo: CD117 positiv"
+          ],
+          "diagnose": "GIST (Magen)",
+          "therapie": [
+            "Keilresektion",
+            "ggf. Imatinib"
+          ],
+          "lernpunkte": [
+            "Malignitätspotenzial abhängig von Mitoserate und Größe"
+          ]
+        },
+        {
+          "id": "GAS_M017",
+          "titel": "Menetrier-Syndrom",
+          "tags": [
+            "Magen",
+            "Selten"
+          ],
+          "patient": "45-j. Patient, Ödeme",
+          "praesentation": "Eiweißverlust-Enteropathie.",
+          "befunde": [
+            "ÖGD: Riesenfaltengastritis (Gehirnwindungs-ähnlich)"
+          ],
+          "diagnose": "Gastritis hypertrophica gigantea",
+          "therapie": [
+            "PPI",
+            "ggf. Cetuximab"
+          ],
+          "lernpunkte": [
+            "Gesteigerte TGF-alpha Expression"
+          ]
+        },
+        {
+          "id": "GAS_M018",
+          "titel": "Typ-A-Gastritis",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "72-j. Frau, Anämie",
+          "praesentation": "Müdigkeit, Zungenbrennen.",
+          "befunde": [
+            "Labor: Vitamin B12↓, Parietalzell-AK+",
+            "ÖGD: Korpusatrophie"
+          ],
+          "diagnose": "Autoimmungastritis (Perniziöse Anämie)",
+          "therapie": [
+            "Vitamin B12 parenteral lebenslang"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für Karzinoide und Magen-CA"
+          ]
+        },
+        {
+          "id": "GAS_M019",
+          "titel": "Ösophagusvarizenblutung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit Leberzirrhose",
+          "praesentation": "Hämatemesis, Schock.",
+          "befunde": [
+            "Blutdruckabfall",
+            "ÖGD: Spritzende Varize"
+          ],
+          "diagnose": "Varizenblutung",
+          "therapie": [
+            "Ligatur",
+            "Terlipressin",
+            "Antibiose (Ceftriaxon)"
+          ],
+          "lernpunkte": [
+            "Antibiotikaprophylaxe senkt Re-Blutungsrate"
+          ]
+        },
+        {
+          "id": "GAS_M020",
+          "titel": "Dieulafoy-Läsion",
+          "tags": [
+            "Blutung"
+          ],
+          "patient": "75-j. mit rez. Meläna",
+          "praesentation": "HB-Abfall.",
+          "befunde": [
+            "ÖGD: Minimale Läsion mit spritzender Arterie (Exulceratio simplex)"
+          ],
+          "diagnose": "Dieulafoy-Angiodysplasie",
+          "therapie": [
+            "Hämoclip-Applikation"
+          ],
+          "lernpunkte": [
+            "Oberflächennahe, kaliberstarke Arterie"
+          ]
+        }
+      ]
+    },
+    "leber": {
+      "label": "Leber (Hepatologie)",
+      "emoji": "🍷",
+      "faelle": [
+        {
+          "id": "GAS_L031",
+          "titel": "Autoimmunhepatitis (AIH)",
+          "tags": [
+            "Leber",
+            "Autoimmun"
+          ],
+          "patient": "40-jährige Frau, Müdigkeit",
+          "praesentation": "Ikterus, Gelenkschmerzen.",
+          "befunde": [
+            "Transaminasen↑↑",
+            "Hypergammaglobulinämie (IgG↑)",
+            "ANA/SMA positiv"
+          ],
+          "diagnose": "AIH Typ 1",
+          "therapie": [
+            "Prednisolon + Azathioprin"
+          ],
+          "lernpunkte": [
+            "Schnittbild-Histologie: Grenzflächenhepatitis (Interface)"
+          ]
+        },
+        {
+          "id": "GAS_L032",
+          "titel": "Primär biliäre Cholangitis (PBC)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "50-j. Frau, Pruritus",
+          "praesentation": "Quälendes Jucken, Müdigkeit.",
+          "befunde": [
+            "AP/gamma-GT↑",
+            "AMA (Antimitochondriale AK) positiv"
+          ],
+          "diagnose": "PBC",
+          "therapie": [
+            "Ursodeoxycholsäure (UDCA)"
+          ],
+          "lernpunkte": [
+            "Zerstörung der kleinen Gallengänge"
+          ]
+        },
+        {
+          "id": "GAS_L033",
+          "titel": "Primär sklerosierende Cholangitis (PSC)",
+          "tags": [
+            "Leber",
+            "CED"
+          ],
+          "patient": "30-j. Mann mit Colitis ulcerosa",
+          "praesentation": "Verschlechterung der Cholestaseparameter.",
+          "befunde": [
+            "MRCP: Perlschnurartige Gangveränderungen"
+          ],
+          "diagnose": "PSC",
+          "therapie": [
+            "Gallengangsdilatation bei Stenosen",
+            "Monitoring auf CCC"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für Cholangiokarzinom und Kolon-CA"
+          ]
+        },
+        {
+          "id": "GAS_L034",
+          "titel": "Hepatitis C (Heilung)",
+          "tags": [
+            "Hepatologie"
+          ],
+          "patient": "55-j. Z.n. Bluttransfusion 1985",
+          "praesentation": "Zufallsbefund erhöhte GPT.",
+          "befunde": [
+            "HCV-RNA positiv",
+            "Genotyp 1b"
+          ],
+          "diagnose": "Chronische Hepatitis C",
+          "therapie": [
+            "DAA-Therapie (z.B. Sofosbuvir/Velpatasvir)"
+          ],
+          "lernpunkte": [
+            "SVR (Heilung) in fast 100% möglich"
+          ]
+        },
+        {
+          "id": "GAS_L035",
+          "titel": "Hepatitis B (Reaktivierung)",
+          "tags": [
+            "Hepatologie"
+          ],
+          "patient": "Pat. vor Chemotherapie (Rituximab)",
+          "praesentation": "Screening.",
+          "befunde": [
+            "HBsAg negativ, Anti-HBc positiv (Occult HBV)"
+          ],
+          "diagnose": "Risiko der HBV-Reaktivierung",
+          "therapie": [
+            "Prophylaxe mit Tenofovir"
+          ],
+          "lernpunkte": [
+            "Anti-HBc Träger benötigen Schutz unter B-Zell-Depletion"
+          ]
+        },
+        {
+          "id": "GAS_L036",
+          "titel": "NAFLD / MAFLD (Steatohepatitis)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "45-j. adipöser Diabetiker",
+          "praesentation": "GPT-Erhöhung.",
+          "befunde": [
+            "Sono: Echoreiche Leber",
+            "CAP-Wert im Fibroscan hoch"
+          ],
+          "diagnose": "NASH (Nicht-alkoholische Steatohepatitis)",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Metabolische Optimierung"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für Leberzirrhose weltweit im Anstieg"
+          ]
+        },
+        {
+          "id": "GAS_L037",
+          "titel": "Morbus Wilson",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "22-j. mit Tremor und Ikterus",
+          "praesentation": "Neurologische + hepatische Symptome.",
+          "befunde": [
+            "Caeruloplasmin niedrig",
+            "Kayser-Fleischer-Kornealring"
+          ],
+          "diagnose": "Kupferspeicherkrankheit",
+          "therapie": [
+            "Chelatbildner (D-Penicillamin)",
+            "Zink"
+          ],
+          "lernpunkte": [
+            "Wichtige Differentialdiagnose bei jungen Leberpatienten"
+          ]
+        },
+        {
+          "id": "GAS_L038",
+          "titel": "Hämochromatose (Gelenkschmerz)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "50-j. Mann, Arthralgien MCP II/III",
+          "praesentation": "Dunkle Hautpigmentierung.",
+          "befunde": [
+            "Ferritin > 1000, Transferrinsättigung > 60%",
+            "HFE-Genmutation (C282Y homozygot)"
+          ],
+          "diagnose": "Hereditäre Hämochromatose",
+          "therapie": [
+            "Aderlass-Therapie"
+          ],
+          "lernpunkte": [
+            "Ausschöpfen des Ferritins auf Zielwerte < 50 ng/ml"
+          ]
+        },
+        {
+          "id": "GAS_L039",
+          "titel": "Spontane bakterielle Peritonitis (SBP)",
+          "tags": [
+            "Zirrhose",
+            "Notfall"
+          ],
+          "patient": "Zirrhose-Pat. mit Zunahme Aszites",
+          "praesentation": "Diffuse Bauchschmerzen, Enzephalopathie.",
+          "befunde": [
+            "Aszitespunktion: > 250 Granulozyten/µl"
+          ],
+          "diagnose": "SBP",
+          "therapie": [
+            "Ceftriaxon i.v. + Albumin-Gabe"
+          ],
+          "lernpunkte": [
+            "Albumin verhindert hepatorenales Syndrom bei SBP"
+          ]
+        },
+        {
+          "id": "GAS_L040",
+          "titel": "Hepatorenales Syndrom (HRS)",
+          "tags": [
+            "Niere",
+            "Zirrhose"
+          ],
+          "patient": "Zirrhose-Pat., Oligurie",
+          "praesentation": "Kreatinin-Anstieg bei stabilem Blutdruck.",
+          "befunde": [
+            "Urin-Natrium < 10 mmol/l",
+            "Ausschluss andere Nierenschäden"
+          ],
+          "diagnose": "HRS-AKI",
+          "therapie": [
+            "Terlipressin + Albumin"
+          ],
+          "lernpunkte": [
+            "Renale Vasokonstriktion durch splanchnische Vasodilatation"
+          ]
+        }
+      ]
+    },
+    "pankreas_galle": {
+      "label": "Pankreas & Gallenwege",
+      "emoji": "🧪",
+      "faelle": [
+        {
+          "id": "GAS_G041",
+          "titel": "Akute biliäre Pankreatitis",
+          "tags": [
+            "Pankreas",
+            "Notfall"
+          ],
+          "patient": "50-jährige Frau, 5-F-Regel",
+          "praesentation": "Gürtelförmiger Oberbauchschmerz, Übelkeit.",
+          "befunde": [
+            "Lipase 1200 U/l (↑↑↑)",
+            "Sono: Gallensteine, Dct. choledochus 9 mm"
+          ],
+          "diagnose": "Akute Pankreatitis bei Gallensteinleiden",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "ERCP bei Cholestase-Zeichen",
+            "LCHE im Intervall"
+          ],
+          "lernpunkte": [
+            "Flüssigkeitsmanagement in den ersten 24h entscheidend"
+          ]
+        },
+        {
+          "id": "GAS_G042",
+          "titel": "Chronische Pankreatitis (Insuffizienz)",
+          "tags": [
+            "Pankreas"
+          ],
+          "patient": "45-j. Alkoholiker",
+          "praesentation": "Fettstühle, Gewichtsverlust, Diabetes.",
+          "befunde": [
+            "Stuhlelastase < 100 µg/g",
+            "CT: Pankreaskalk"
+          ],
+          "diagnose": "Exokrine Pankreasinsuffizienz",
+          "therapie": [
+            "Enzymsubstitution (Creon)",
+            "Alkoholkarenz"
+          ],
+          "lernpunkte": [
+            "Pankreaskalk ist beweisend für chronischen Verlauf"
+          ]
+        },
+        {
+          "id": "GAS_G043",
+          "titel": "IPMN (Zystischer Tumor)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Zufallsbefund MRT",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "MRT: Zyste 2,5 cm mit Verbindung zum Hauptgang",
+            "Wandknoten?"
+          ],
+          "diagnose": "Intraduktale papillär-muzinöse Neoplasie (Main-duct)",
+          "therapie": [
+            "Operative Resektion (hohes Entartungsrisiko)"
+          ],
+          "lernpunkte": [
+            "Unterscheidung Side-branch (Beobachtung) vs. Main-duct (OP)"
+          ]
+        },
+        {
+          "id": "GAS_G044",
+          "titel": "Autoimmunpankreatitis (AIP)",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "55-j. Mann, Ikterus",
+          "praesentation": "V.a. Pankreastumor im CT.",
+          "befunde": [
+            "Serum-IgG4 massiv erhöht",
+            "CT: Wurstförmige Schwellung des Pankreas"
+          ],
+          "diagnose": "AIP Typ 1 (IgG4-assoziierte Erkrankung)",
+          "therapie": [
+            "Glukokortikoide (promptes Ansprechen)"
+          ],
+          "lernpunkte": [
+            "Wichtige Differentialdiagnose zum Pankreaskarzinom"
+          ]
+        },
+        {
+          "id": "GAS_G045",
+          "titel": "Choledocholithiasis (Charcot-Trias)",
+          "tags": [
+            "Galle",
+            "Notfall"
+          ],
+          "patient": "68-j. Patient",
+          "praesentation": "Rechtsseitiger Oberbauchschmerz, Ikterus, Schüttelfrost.",
+          "befunde": [
+            "AP/gamma-GT↑↑",
+            "Sono: Konkrement im distalen Choledochus"
+          ],
+          "diagnose": "Akute Cholangitis",
+          "therapie": [
+            "Notfall-ERCP zur Drainage",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Charcot-Trias: Schmerz, Ikterus, Fieber/Schüttelfrost"
+          ]
+        },
+        {
+          "id": "GAS_G046",
+          "titel": "Gallenblasenpolyp",
+          "tags": [
+            "Vorsorge"
+          ],
+          "patient": "40-j. Frau, Zufallsfund",
+          "praesentation": "Check-up Sono.",
+          "befunde": [
+            "Polyp 12 mm, wandständig, kein Schallschatten"
+          ],
+          "diagnose": "Gallenblasenpolyp",
+          "therapie": [
+            "Cholezystektomie indiziert (> 10 mm)"
+          ],
+          "lernpunkte": [
+            "Größe bestimmt Malignitätsrisiko"
+          ]
+        },
+        {
+          "id": "GAS_G047",
+          "titel": "Pankreaspseudozyste",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. 6 Wochen nach akuter Pankreatitis",
+          "praesentation": "Völlegefühl, Erbrechen.",
+          "befunde": [
+            "CT: Flüssigkeitskollektion mit Kapsel 8 cm"
+          ],
+          "diagnose": "Pankreaspseudozyste",
+          "therapie": [
+            "Endoskopische Zystogastrostomie (Stenting)"
+          ],
+          "lernpunkte": [
+            "Intervention erst nach Wandreifung (> 4-6 Wochen)"
+          ]
+        },
+        {
+          "id": "GAS_G048",
+          "titel": "Gallenblasenkarzinom (Porzellangallenblase)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "75-j. Frau",
+          "praesentation": "Chronische Beschwerden.",
+          "befunde": [
+            "Rö: Komplette Wandverkalkung der Gallenblase"
+          ],
+          "diagnose": "Porzellangallenblase",
+          "therapie": [
+            "Cholezystektomie (obligat wegen Karzinomrisiko)"
+          ],
+          "lernpunkte": [
+            "Präkanzerose durch chronischen Entzündungsreiz"
+          ]
+        },
+        {
+          "id": "GAS_G049",
+          "titel": "Gallensteinileus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. Frau, Dünndarmileus",
+          "praesentation": "Erbrechen, geblähtes Abdomen.",
+          "befunde": [
+            "Rö: Aerobilie (Luft in Gallenwegen), mechanischer Ileus"
+          ],
+          "diagnose": "Gallensteinileus (Rigler-Trias)",
+          "therapie": [
+            "Operative Steinentfernung (Enterotomie)"
+          ],
+          "lernpunkte": [
+            "Fistel zwischen Gallenblase und Duodenum"
+          ]
+        },
+        {
+          "id": "GAS_G050",
+          "titel": "Klatskin-Tumor",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "62-j. Patient, Ikterus",
+          "praesentation": "Gewichtsverlust.",
+          "befunde": [
+            "MRCP: Stenose an der Hepatikusgabel (Bismuth Typ III)"
+          ],
+          "diagnose": "Hilus-Cholangiokarzinom",
+          "therapie": [
+            "Leberteilresektion + Gallengangsrekonstruktion"
+          ],
+          "lernpunkte": [
+            "Bismuth-Klassifikation zur Beurteilung der Operabilität"
+          ]
+        }
+      ]
+    },
+    "duenn_dickdarm": {
+      "label": "Dünn- & Dickdarm",
+      "emoji": "🥨",
+      "faelle": [
+        {
+          "id": "GAS_D051",
+          "titel": "Colitis ulcerosa (Akuter Schub)",
+          "tags": [
+            "CED",
+            "Notfall"
+          ],
+          "patient": "28-jährige Frau",
+          "praesentation": "Bis zu 15 blutige Durchfälle pro Tag, Tenesmen, Fieber.",
+          "befunde": [
+            "Calprotectin 2500 µg/g",
+            "Kolo: Kontinuierliche Entzündung ab Rektum, Kontaktblutung"
+          ],
+          "diagnose": "Colitis ulcerosa (Pancolitis)",
+          "therapie": [
+            "Hochdosis Steroide i.v.",
+            "Mesalazin",
+            "ggf. Infliximab"
+          ],
+          "lernpunkte": [
+            "Gefahr des toxischen Megakolons bei schwerem Schub"
+          ]
+        },
+        {
+          "id": "GAS_D052",
+          "titel": "Morbus Crohn (Fistulierend)",
+          "tags": [
+            "CED"
+          ],
+          "patient": "32-j. Mann",
+          "praesentation": "Perianale Abszesse, krampfartige Schmerzen re. Unterbauch.",
+          "befunde": [
+            "MRT-Abdomen: Entero-enteritische Fisteln, Wandverdickung terminales Ileum"
+          ],
+          "diagnose": "Morbus Crohn (Befallsmuster Ileozökal)",
+          "therapie": [
+            "Azathioprin / Adalimumab",
+            "chirurgische Sanierung"
+          ],
+          "lernpunkte": [
+            "Diskontinuierlicher Befall, transmurale Entzündung"
+          ]
+        },
+        {
+          "id": "GAS_D053",
+          "titel": "Zöliakie (Erwachsener)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "35-j. Frau, Eisenmangel",
+          "praesentation": "Blähbauch, wechselnde Stuhlgewohnheiten, Dermatitis herpetiformis.",
+          "befunde": [
+            "Transglutaminase-AK (IgA) stark erhöht",
+            "ÖGD-Biopsie: Marsh IIIc (Zottenatrophie)"
+          ],
+          "diagnose": "Zöliakie",
+          "therapie": [
+            "Lebenslange glutenfreie Ernährung"
+          ],
+          "lernpunkte": [
+            "IgA-Mangel vor AK-Bestimmung ausschließen"
+          ]
+        },
+        {
+          "id": "GAS_D054",
+          "titel": "Kolorektales Karzinom (Links)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Mann, Bleistiftstühle",
+          "praesentation": "Blutbeimengung im Stuhl.",
+          "befunde": [
+            "Kolo: Stenoisierender Tumor im Sigma",
+            "CEA↑"
+          ],
+          "diagnose": "Kolonkarzinom",
+          "therapie": [
+            "Onkologische Resektion + Adjuvante Chemo"
+          ],
+          "lernpunkte": [
+            "Rechtsseitige Tumoren oft durch Anämie auffällig, linksseitige durch Stenose"
+          ]
+        },
+        {
+          "id": "GAS_D055",
+          "titel": "Mikroskopische Kolitis",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "68-j. Frau, chronisch wässrige Diarrhö",
+          "praesentation": "Stuhlfrequenz 6-8x/Tag, nachts.",
+          "befunde": [
+            "Kolo makroskopisch unauffällig",
+            "Histo: Subepitheliales Kollagenband"
+          ],
+          "diagnose": "Kollagene Kolitis",
+          "therapie": [
+            "Budesonid (lokal wirksam)"
+          ],
+          "lernpunkte": [
+            "Stufenbiopsien bei Normalbefund der Mukosa zwingend"
+          ]
+        },
+        {
+          "id": "GAS_D056",
+          "titel": "Divertikulitis (Akut)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "72-j. Patient, Schmerz linker Unterbauch",
+          "praesentation": "Abwehrspannung, Fieber.",
+          "befunde": [
+            "CT: Wandverdickung, parakolischer Abszess 3 cm"
+          ],
+          "diagnose": "Akute Divertikulitis (Hansen/Stock IIb)",
+          "therapie": [
+            "Antibiose i.v.",
+            "interventionelle Drainage des Abszesses"
+          ],
+          "lernpunkte": [
+            "CT-Staging bestimmt Therapie (konservativ vs. interventionell vs. chirurgisch)"
+          ]
+        },
+        {
+          "id": "GAS_D057",
+          "titel": "Familiäre Adenomatöse Polyposis (FAP)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "18-j. Patient, Familienanamnese",
+          "praesentation": "Vorsorge-Kolo.",
+          "befunde": [
+            "Hunderte von Polypen im gesamten Kolon"
+          ],
+          "diagnose": "FAP (APC-Gen Mutation)",
+          "therapie": [
+            "Prophylaktische Kolektomie"
+          ],
+          "lernpunkte": [
+            "Nahezu 100%iges Karzinomrisiko bis zum 40. LJ"
+          ]
+        },
+        {
+          "id": "GAS_D058",
+          "titel": "Lynch-Syndrom (HNPCC)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "40-j. mit Colon-CA",
+          "praesentation": "Zweittumor (Endometrium).",
+          "befunde": [
+            "Mikrosatelliteninstabilität (MSI-H)",
+            "Bethesda-Kriterien erfüllt"
+          ],
+          "diagnose": "Lynch-Syndrom",
+          "therapie": [
+            "Operation",
+            "Immuntherapie bei MSI-H besonders wirksam"
+          ],
+          "lernpunkte": [
+            "Häufigstes hereditäres Darmkrebs-Syndrom"
+          ]
+        },
+        {
+          "id": "GAS_D059",
+          "titel": "Pseudomembranöse Kolitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "80-j. nach AB-Therapie bei Pneumonie",
+          "praesentation": "Massive grünliche Durchfälle, Sepsis.",
+          "befunde": [
+            "Stuhl: C. difficile Toxin positiv",
+            "Endo: Gelbliche Plaques"
+          ],
+          "diagnose": "Clostridioides difficile Infektion (CDI)",
+          "therapie": [
+            "Vancomycin oral / Fidaxomicin"
+          ],
+          "lernpunkte": [
+            "Hygienemaßnahmen: Seife tötet Sporen, Alkohol nicht!"
+          ]
+        },
+        {
+          "id": "GAS_D060",
+          "titel": "Strahlenproktitis",
+          "tags": [
+            "Iatrogen"
+          ],
+          "patient": "75-j. nach Bestrahlung Prostata-CA",
+          "praesentation": "Blutstühle, schmerzhafter Stuhldrang.",
+          "befunde": [
+            "Endo: Teleangiektasien im Rektum, vulnerable Mukosa"
+          ],
+          "diagnose": "Chronische Strahlenproktitis",
+          "therapie": [
+            "Argon-Plasma-Koagulation (APC)"
+          ],
+          "lernpunkte": [
+            "Spätfolge der Radiotherapie"
+          ]
+        }
+      ]
+    },
+    "notfaelle_proktologie": {
+      "label": "Viszeralmedizinische Notfälle & Proktologie",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "GAS_N061",
+          "titel": "Obere Gastrointestinalblutung (Ulcus)",
+          "tags": [
+            "Notfall",
+            "Blutung"
+          ],
+          "patient": "55-jähriger Patient unter NSAR",
+          "praesentation": "Teerstuhl (Meläna), Schwindel, Tachykardie.",
+          "befunde": [
+            "ÖGD: Ulcus duodeni mit sichtbarem Gefäßstumpf (Forrest IIa)",
+            "Hb 8,2 g/dl"
+          ],
+          "diagnose": "Obere GIB",
+          "therapie": [
+            "Endoskopische Unterspritzung + Clip",
+            "Hochdosis-PPI"
+          ],
+          "lernpunkte": [
+            "Rockall-Score zur Risikoabschätzung",
+            "Forrest-Klassifikation bestimmt Interventionsbedarf"
+          ]
+        },
+        {
+          "id": "GAS_N062",
+          "titel": "Toxisches Megakolon",
+          "tags": [
+            "Notfall",
+            "CED"
+          ],
+          "patient": "Pat. mit bekannter Colitis ulcerosa",
+          "praesentation": "Hohes Fieber, Schock, geblähtes Abdomen.",
+          "befunde": [
+            "Rö-Abdomen: Kolondilatation > 6 cm, Verlust der Haustrierung"
+          ],
+          "diagnose": "Toxisches Megakolon",
+          "therapie": [
+            "Notfall-Kolektomie"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohliche Komplikation, keine Koloskopie in diesem Stadium!"
+          ]
+        },
+        {
+          "id": "GAS_N063",
+          "titel": "Akute Mesenterialischämie",
+          "tags": [
+            "Notfall",
+            "Vaskulär"
+          ],
+          "patient": "75-j. mit Vorhofflimmern",
+          "praesentation": "Stärkster Bauchschmerz ('Vernichtungsschmerz'), weiches Abdomen.",
+          "befunde": [
+            "CTA: Verschluss der A. mesenterica superior",
+            "Laktat massiv↑"
+          ],
+          "diagnose": "Mesenterialinfarkt",
+          "therapie": [
+            "Notfall-OP (Embolektomie / Revascularisation)"
+          ],
+          "lernpunkte": [
+            "Zeit ist Darm (Time is Bowel)"
+          ]
+        },
+        {
+          "id": "GAS_N064",
+          "titel": "Inkarzerierte Leistenhernie",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Schmerzhafte Schwellung Leiste, nicht reponibel, Erbrechen.",
+          "befunde": [
+            "Kein Hustenanprall",
+            "Hautrötung"
+          ],
+          "diagnose": "Inkarzerierte Hernie",
+          "therapie": [
+            "Sofortige OP"
+          ],
+          "lernpunkte": [
+            "Keine Taxis-Versuche bei Verdacht auf Darmgangrän"
+          ]
+        },
+        {
+          "id": "GAS_N065",
+          "titel": "Hämorrhoiden Grad III",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "48-j. Patient",
+          "praesentation": "Blut auf dem Stuhl, Prolaps muss manuell reponiert werden.",
+          "befunde": [
+            "Inspektion: Prolabierende Knoten bei 3, 7, 11 Uhr"
+          ],
+          "diagnose": "Hämorrhoidalleiden Stadium III",
+          "therapie": [
+            "OP nach Longo (Stapler) oder Parks"
+          ],
+          "lernpunkte": [
+            "Stadieneinteilung bestimmt Therapie"
+          ]
+        },
+        {
+          "id": "GAS_N066",
+          "titel": "Analﬁssur (Chronisch)",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Stechender Schmerz beim Stuhlgang, helles Blut.",
+          "befunde": [
+            "Inspektion: Längsriss 6-Uhr-Position, Vorpostenfalte"
+          ],
+          "diagnose": "Chronische Analfissur",
+          "therapie": [
+            "Nitroglyzerin-Salbe / Botox vs. Fissurektomie"
+          ],
+          "lernpunkte": [
+            "Hoher Sphinkterruhetonus als Pathomechanismus"
+          ]
+        },
+        {
+          "id": "GAS_N067",
+          "titel": "Perianalabszess",
+          "tags": [
+            "Notfall",
+            "Proktologie"
+          ],
+          "patient": "40-j. Diabetiker",
+          "praesentation": "Schmerzhafte Rötung am After, Sitzen unmöglich.",
+          "befunde": [
+            "Fluktuierende Schwellung perianal"
+          ],
+          "diagnose": "Perianalabszess",
+          "therapie": [
+            "Inzision und Drainage"
+          ],
+          "lernpunkte": [
+            "Ausschluss einer Analfistel nach Abheilung"
+          ]
+        },
+        {
+          "id": "GAS_N068",
+          "titel": "Ogilvie-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. bettlägeriger Patient nach Hüft-OP",
+          "praesentation": "Massive abdominelle Distension, kein mechanisches Hindernis.",
+          "befunde": [
+            "Rö: Massiv dilatierter Dickdarmrahmen"
+          ],
+          "diagnose": "Akute Pseudoobstruktion des Kolons",
+          "therapie": [
+            "Neostigmin i.v. unter EKG-Monitoring",
+            "Entlastungskoloskopie"
+          ],
+          "lernpunkte": [
+            "Gefahr der Zökumperforation bei Durchmesser > 12 cm"
+          ]
+        },
+        {
+          "id": "GAS_N069",
+          "titel": "Boerhaave-Syndrom",
+          "tags": [
+            "Notfall",
+            "Ösophagus"
+          ],
+          "patient": "Pat. nach massivem Erbrechen (Alkoholexzess)",
+          "praesentation": "Retrosternaler Schmerz, Hautemphysem Hals.",
+          "befunde": [
+            "CT: Mediastinalemphysem"
+          ],
+          "diagnose": "Ösophagus-Berstungsruptur",
+          "therapie": [
+            "Notfall-Thorakotomie/OP"
+          ],
+          "lernpunkte": [
+            "Mackler-Trias: Erbrechen, Thoraxschmerz, Emphysem"
+          ]
+        },
+        {
+          "id": "GAS_N070",
+          "titel": "Perforierte Sigmadivertikulitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Bretthartes Abdomen, Schock.",
+          "befunde": [
+            "Rö: Freie Luft unter dem Zwerchfell",
+            "Hinchey IV"
+          ],
+          "diagnose": "Sterkorale Peritonitis",
+          "therapie": [
+            "Hartmann-Operation"
+          ],
+          "lernpunkte": [
+            "Notfallresektion mit endständigem Stoma"
+          ]
+        },
+        {
+          "id": "GAS_N071",
+          "titel": "Ileotransversostomie (Technik)",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Pat. mit Tumor Zökum",
+          "praesentation": "Hemikolektomie rechts.",
+          "befunde": [
+            "Anatomische Rekonstruktion"
+          ],
+          "diagnose": "Colon-CA rechts",
+          "therapie": [
+            "Seit-zu-Seit Anastomose"
+          ],
+          "lernpunkte": [
+            "Anastomosen-Insuffizienz als Hauptkomplikation"
+          ]
+        },
+        {
+          "id": "GAS_N072",
+          "titel": "Ischämische Kolitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. Frau nach Aorten-OP",
+          "praesentation": "Blutige Diarrhö, Unterbauchschmerz links.",
+          "befunde": [
+            "Kolo: Segmentale Ödeme und Ulzera (Splenische Flexur)"
+          ],
+          "diagnose": "Ischämische Kolitis",
+          "therapie": [
+            "Konservativ (Infusion/AB) vs. OP bei Nekrose"
+          ],
+          "lernpunkte": [
+            "Lokalisation an den Wasserscheide-Gebieten (Griffith-Punkt)"
+          ]
+        },
+        {
+          "id": "GAS_N073",
+          "titel": "Aortoduodenale Fistel",
+          "tags": [
+            "Notfall",
+            "Blutung"
+          ],
+          "patient": "Pat. mit Z.n. Y-Prothese vor 5 Jahren",
+          "praesentation": "Massive Hämatemesis nach initial kleiner Blutung (Herald Bleed).",
+          "befunde": [
+            "CT: Verbindung Aorta zu Duodenum"
+          ],
+          "diagnose": "Prothesen-Darm-Fistel",
+          "therapie": [
+            "Notfall-Gefäßchirurgie"
+          ],
+          "lernpunkte": [
+            "Warnblutung (Herald Bleeding) ist das Zeitfenster für die Rettung"
+          ]
+        },
+        {
+          "id": "GAS_N074",
+          "titel": "Analthrombose (Perianal)",
+          "tags": [
+            "Proktologie"
+          ],
+          "patient": "45-j. nach schwerem Heben",
+          "praesentation": "Plötzlicher, schmerzhafter blauschwarzer Knoten am Afterrand.",
+          "befunde": [
+            "Nicht reponibel, subkutanes Hämatom"
+          ],
+          "diagnose": "Analvenenthrombose",
+          "therapie": [
+            "Inzision in Lokalanästhesie"
+          ],
+          "lernpunkte": [
+            "Keine echte Hämorrhoidalerkrankung"
+          ]
+        },
+        {
+          "id": "GAS_N075",
+          "titel": "Gallenstein-Ileus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "82-j. Frau",
+          "praesentation": "Mechanischer Ileus, Übelkeit.",
+          "befunde": [
+            "Rö: Aerobilie, Steinschatten Unterbauch"
+          ],
+          "diagnose": "Dünndarmverschluss durch Gallenstein",
+          "therapie": [
+            "Enterotomie und Steinextraktion"
+          ],
+          "lernpunkte": [
+            "Rigler-Trias im Röntgen"
+          ]
+        }
+      ]
+    },
+    "diverses_therapie": {
+      "label": "Systemtherapie & Diverses",
+      "emoji": "📈",
+      "faelle": [
+        {
+          "id": "GAS_X076",
+          "titel": "Gastrointestinale Lymphome (MALT)",
+          "tags": [
+            "Onkologie",
+            "Magen"
+          ],
+          "patient": "55-jähriger mit H.p. Gastritis",
+          "praesentation": "B-Symptomatik.",
+          "befunde": [
+            "Biopsie: Marginalzonen-B-Zell-Lymphom",
+            "H. pylori Nachweis"
+          ],
+          "diagnose": "MALT-Lymphom des Magens",
+          "therapie": [
+            "Eradikationstherapie (oft ausreichend)"
+          ],
+          "lernpunkte": [
+            "Heilung des Lymphoms durch Bakterien-Eradikation"
+          ]
+        },
+        {
+          "id": "GAS_X077",
+          "titel": "Whipple-Krankheit (Systemisch)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "50-j. Mann, Gewichtsverlust, Gelenkschmerz",
+          "praesentation": "Chronische Diarrhö.",
+          "befunde": [
+            "Duodenalbiopsie: PAS-positive Makrophagen"
+          ],
+          "diagnose": "Morbus Whipple",
+          "therapie": [
+            "Ceftriaxon -> Cotrimoxazol für 1 Jahr"
+          ],
+          "lernpunkte": [
+            "Tropheryma whipplei als Erreger"
+          ]
+        },
+        {
+          "id": "GAS_X078",
+          "titel": "Proteinverlust-Enteropathie",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "60-j. mit Anasarca",
+          "praesentation": "Albuminmangel.",
+          "befunde": [
+            "Alpha-1-Antitrypsin im Stuhl erhöht"
+          ],
+          "diagnose": "Exsudative Enteropathie",
+          "therapie": [
+            "Behandlung der Ursache (z.B. Lymphangiektasie)"
+          ],
+          "lernpunkte": [
+            "Alpha-1-Antitrypsin als Marker für intestinalen Eiweißverlust"
+          ]
+        },
+        {
+          "id": "GAS_X079",
+          "titel": "Short Bowel Syndrome (Kurzdarm)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "45-j. nach massiver Resektion bei Ischämie",
+          "praesentation": "Malabsorption, Diarrhö.",
+          "befunde": [
+            "Restdarm < 100 cm"
+          ],
+          "diagnose": "Kurzdarmsyndrom",
+          "therapie": [
+            "Parenterale Ernährung",
+            "GLP-2-Analoga (Teduglutid)"
+          ],
+          "lernpunkte": [
+            "Anpassung der Darmmukosa braucht Zeit"
+          ]
+        },
+        {
+          "id": "GAS_X080",
+          "titel": "Hereditäre Pankreatitis",
+          "tags": [
+            "Pädiatrie",
+            "Pankreas"
+          ],
+          "patient": "15-j. Jugendlicher, rez. Schübe",
+          "praesentation": "Stärkste Schmerzen.",
+          "befunde": [
+            "Mutation im PRSS1-Gen (Trypsinogen)"
+          ],
+          "diagnose": "Hereditäre Pankreatitis",
+          "therapie": [
+            "Schmerztherapie",
+            "Enzymsubstitution",
+            "Karzinom-Screening!"
+          ],
+          "lernpunkte": [
+            "Extrem erhöhtes Lebenszeitrisiko für Pankreas-CA"
+          ]
+        },
+        {
+          "id": "GAS_X081",
+          "titel": "EBM-Abrechnung Gastroskopie",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "GKV-Patient",
+          "praesentation": "Vorsorge-Check.",
+          "befunde": [
+            "Dokumentation von Fotodokumentation und Biopsie"
+          ],
+          "diagnose": "Abrechnungssituation",
+          "therapie": [
+            "Ziffer 13400 (ÖGD)"
+          ],
+          "lernpunkte": [
+            "Qualitätssicherungsvereinbarung beachten"
+          ]
+        },
+        {
+          "id": "GAS_X082",
+          "titel": "Check-up 35 (Gastro-Aspekte)",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "36-j. Mann",
+          "praesentation": "Gesundheitsuntersuchung.",
+          "befunde": [
+            "Screening auf Hepatitis B und C (einmalig)"
+          ],
+          "diagnose": "Primärprävention",
+          "therapie": [
+            "Beratung"
+          ],
+          "lernpunkte": [
+            "Einmaliges Screening auf Virusträgerstatus seit 2021 Bestandteil"
+          ]
+        },
+        {
+          "id": "GAS_X083",
+          "titel": "Laktulose-Therapie (Enzephalopathie)",
+          "tags": [
+            "Zirrhose"
+          ],
+          "patient": "Zirrhose-Pat. mit Flapping Tremor",
+          "praesentation": "Desorientierung.",
+          "befunde": [
+            "Ammoniak im Blut erhöht"
+          ],
+          "diagnose": "Hepatische Enzephalopathie Grad II",
+          "therapie": [
+            "Laktulose (2-3 weiche Stühle/Tag)",
+            "Rifaximin"
+          ],
+          "lernpunkte": [
+            "Ammoniak-Elimination durch Ansäuerung des Darmmilieus"
+          ]
+        },
+        {
+          "id": "GAS_X084",
+          "titel": "Parenterale Ernährung (Komplikation)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Pat. unter Langzeit-TPN",
+          "praesentation": "Fieber.",
+          "befunde": [
+            "Katheterinfektion"
+          ],
+          "diagnose": "CRBSI (Catheter-related bloodstream infection)",
+          "therapie": [
+            "Katheterzug",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Gefahr der Cholestase bei Langzeit-TPN"
+          ]
+        },
+        {
+          "id": "GAS_X085",
+          "titel": "Kollagene Sprue",
+          "tags": [
+            "Darm",
+            "Selten"
+          ],
+          "patient": "Pat. mit therapierefraktärer Zöliakie",
+          "praesentation": "Trotz Diät Diarrhö und Malabsorption.",
+          "befunde": [
+            "Histo: Dickes subepitheliales Kollagenband"
+          ],
+          "diagnose": "Kollagene Sprue",
+          "therapie": [
+            "Steroide",
+            "Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose, Übergang in Lymphom möglich"
+          ]
+        },
+        {
+          "id": "GAS_X086",
+          "titel": "Familiäre Hypertriglyzeridämie-Pankreatitis",
+          "tags": [
+            "Pankreas"
+          ],
+          "patient": "30-j. Mann, Triglyzeride 2000 mg/dl",
+          "praesentation": "Akute Pankreatitis.",
+          "befunde": [
+            "Milchiges Serum (Lactescenz)"
+          ],
+          "diagnose": "Hyperlipidämische Pankreatitis",
+          "therapie": [
+            "Plasmapherese / Insulin-Heparin-Perfusor"
+          ],
+          "lernpunkte": [
+            "Therapie der Wahl bei massiver Hypertriglyzeridämie"
+          ]
+        },
+        {
+          "id": "GAS_X087",
+          "titel": "Budd-Chiari-Syndrom (Diagnostik)",
+          "tags": [
+            "Vaskulär",
+            "Leber"
+          ],
+          "patient": "Pat. mit Myeloproliferativer Erkrankung",
+          "praesentation": "Aszites, Schmerz re. Oberbauch.",
+          "befunde": [
+            "Duplex: Verschluss der Lebervenen"
+          ],
+          "diagnose": "Hepatische Venenthrombose",
+          "therapie": [
+            "Antikoagulation",
+            "TIPS"
+          ],
+          "lernpunkte": [
+            "Oft hämatologische Grunderkrankung als Ursache"
+          ]
+        },
+        {
+          "id": "GAS_X088",
+          "titel": "Sarkoidose der Leber",
+          "tags": [
+            "Systemisch"
+          ],
+          "patient": "40-j. mit Lungensarkoidose",
+          "praesentation": "Zufallsfund erhöhte AP.",
+          "befunde": [
+            "Sono: Feingranuläres Parenchym",
+            "Histo: Nicht-verkäsende Granulome"
+          ],
+          "diagnose": "Leberbeteiligung bei Sarkoidose",
+          "therapie": [
+            "Ursodeoxycholsäure / Steroide"
+          ],
+          "lernpunkte": [
+            "Häufig asymptomatisch"
+          ]
+        },
+        {
+          "id": "GAS_X089",
+          "titel": "Amyloidose (Intestinal)",
+          "tags": [
+            "Darm",
+            "Selten"
+          ],
+          "patient": "Pat. mit Multiplem Myelom",
+          "praesentation": "Malabsorption, Makroglossie.",
+          "befunde": [
+            "Histo (Rektum-Biopsie): Kongorot-Färbung positiv"
+          ],
+          "diagnose": "AL-Amyloidose",
+          "therapie": [
+            "Behandlung der Grunderkrankung"
+          ],
+          "lernpunkte": [
+            "Ablagerung von Leichtketten"
+          ]
+        },
+        {
+          "id": "GAS_X090",
+          "titel": "Karzinoid-Syndrom",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "Pat. mit Dünndarm-NET und Lebermetastasen",
+          "praesentation": "Flush, Diarrhö, Rechtsherzfibrose.",
+          "befunde": [
+            "Labor: 5-HIES im Urin erhöht"
+          ],
+          "diagnose": "Hedinger-Syndrom",
+          "therapie": [
+            "Somatostatin-Analoga"
+          ],
+          "lernpunkte": [
+            "Serotonin-Effekt tritt erst nach Umgehung der Leberpassage auf"
+          ]
+        },
+        {
+          "id": "GAS_X091",
+          "titel": "Dubin-Johnson-Syndrom",
+          "tags": [
+            "Leber",
+            "Genetik"
+          ],
+          "patient": "Jugendlicher, fluktuierender Ikterus",
+          "praesentation": "AZ gut, keine Beschwerden.",
+          "befunde": [
+            "Direktes Bilirubin erhöht",
+            "Leber-Laparoskopie: 'Schwarze Leber'"
+          ],
+          "diagnose": "Dubin-Johnson-Syndrom",
+          "therapie": [
+            "Keine nötig"
+          ],
+          "lernpunkte": [
+            "Defekt des apikalen konjugierten Bilirubintransporters"
+          ]
+        },
+        {
+          "id": "GAS_X092",
+          "titel": "Meckel-Divertikulitis",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "20-j. Mann",
+          "praesentation": "V.a. Appendizitis, aber Schmerz eher mittig.",
+          "befunde": [
+            "Tc-Szintigraphie: Meckel-Scan positiv"
+          ],
+          "diagnose": "Meckel-Divertikulitis",
+          "therapie": [
+            "Chirurgische Resektion"
+          ],
+          "lernpunkte": [
+            "Ektopes Magenschleimhautgewebe"
+          ]
+        },
+        {
+          "id": "GAS_X093",
+          "titel": "Tropical Sprue",
+          "tags": [
+            "Infekt",
+            "Tropen"
+          ],
+          "patient": "Rückkehrer aus Indien",
+          "praesentation": "Chronische Diarrhö, Malabsorption.",
+          "befunde": [
+            "Biopsie: Partielle Zottenatrophie",
+            "Ansprechen auf Folsäure/AB"
+          ],
+          "diagnose": "Tropische Sprue",
+          "therapie": [
+            "Tetracyclin + Folsäure"
+          ],
+          "lernpunkte": [
+            "Differentialdiagnose zur Zöliakie"
+          ]
+        },
+        {
+          "id": "GAS_X094",
+          "titel": "Lymphangiectasia intestinalis (M. Waldmann)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Kind mit Durchfällen und Beinödemen",
+          "praesentation": "Hypoproteinämie.",
+          "befunde": [
+            "Endo: Weiße Punkte auf der Mukosa (Schneestöber)"
+          ],
+          "diagnose": "Primäre intestinale Lymphangiektasie",
+          "therapie": [
+            "MCT-Diät (Mittelkettige Triglyzeride)"
+          ],
+          "lernpunkte": [
+            "MCT-Fette werden direkt in die Pfortader aufgenommen"
+          ]
+        },
+        {
+          "id": "GAS_X095",
+          "titel": "Schistosomiasis (Leber)",
+          "tags": [
+            "Tropen",
+            "Leber"
+          ],
+          "patient": "Pat. aus Ostafrika",
+          "praesentation": "Portaler Hochdruck, keine Zirrhose.",
+          "befunde": [
+            "Sono: Pipe-stem-Fibrose (Symmer)"
+          ],
+          "diagnose": "Bilharziose",
+          "therapie": [
+            "Praziquantel"
+          ],
+          "lernpunkte": [
+            "Präsinusoidaler Block durch Eier in den Pfortaderästen"
+          ]
+        },
+        {
+          "id": "GAS_X096",
+          "titel": "Fahr-Syndrom (Gastro-Aspekt)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Pat. nach Magenresektion",
+          "praesentation": "Hypokalzämie, epileptische Anfälle.",
+          "befunde": [
+            "CT: Verkalkungen der Basalganglien"
+          ],
+          "diagnose": "Sekundärer Hypoparathyreoidismus bei Malabsorption",
+          "therapie": [
+            "Calcium/Vitamin D"
+          ],
+          "lernpunkte": [
+            "Mineralisationsstörung des ZNS"
+          ]
+        },
+        {
+          "id": "GAS_X097",
+          "titel": "Gastrische Antrale Vaskuläre Ektasie (GAVE)",
+          "tags": [
+            "Blutung"
+          ],
+          "patient": "Pat. mit Zirrhose",
+          "praesentation": "Chronische Anämie.",
+          "befunde": [
+            "ÖGD: Streifige Rötungen im Antrum (Wassermelonen-Magen)"
+          ],
+          "diagnose": "GAVE-Syndrom",
+          "therapie": [
+            "APC-Koagulation"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Fehldiagnose als Gastritis"
+          ]
+        },
+        {
+          "id": "GAS_X098",
+          "titel": "Magenvolvulus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "85-j. mit großer Zwerchfellhernie",
+          "praesentation": "Bauchschmerz, Erbrechen, Unfähigkeit Magensonde vorzuschieben.",
+          "befunde": [
+            "Borchardt-Trias"
+          ],
+          "diagnose": "Magenverdrehung",
+          "therapie": [
+            "Notfall-OP"
+          ],
+          "lernpunkte": [
+            "Trias: Oberbauchschmerz, unproduktives Würgen, Sondenhindernis"
+          ]
+        },
+        {
+          "id": "GAS_X099",
+          "titel": "Hämorrhagische Kolitis (Medikamentös)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Pat. nach Penicillin-Gabe",
+          "praesentation": "Akute blutige Durchfälle, keine Krämpfe.",
+          "befunde": [
+            "Kolo: Segmentale Blutung rechtes Kolon, Kultur auf Klebsiella oxytoca positiv"
+          ],
+          "diagnose": "Antibiotika-assoziierte hämorrhagische Kolitis (AAHC)",
+          "therapie": [
+            "Absetzen des AB"
+          ],
+          "lernpunkte": [
+            "Seltene aber typische Penicillin-Nebenwirkung"
+          ]
+        },
+        {
+          "id": "GAS_X100",
+          "titel": "Hereditärer Angioödem (Gastro-Manifestation)",
+          "tags": [
+            "Notfall",
+            "Genetik"
+          ],
+          "patient": "25-j. mit rezidivierenden Bauchatmacken",
+          "praesentation": "Stärkster Schmerz, Aszites im Sono, nach 48h beschwerdefrei.",
+          "befunde": [
+            "C1-Esterase-Inhibitor-Mangel"
+          ],
+          "diagnose": "HAE Grad II-III",
+          "therapie": [
+            "C1-Konzentrat / Icatibant"
+          ],
+          "lernpunkte": [
+            "Simulation eines akuten Abdomens"
+          ]
+        }
+      ]
+    }
+  }
+}

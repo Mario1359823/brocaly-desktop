@@ -1,0 +1,2094 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Gynäkologie und Geburtshilfe",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "allgemeine_gyn_infekt": {
+      "label": "Allgemeine Gynäkologie & Infektiologie",
+      "emoji": "🌸",
+      "faelle": [
+        {
+          "id": "GYN_A001",
+          "titel": "Bakterielle Vaginose",
+          "tags": [
+            "Infektiologie",
+            "Ambulant"
+          ],
+          "patient": "28-jährige Patientin",
+          "praesentation": "Dünnflüssiger, grau-weißer Ausfluss, fischiger Geruch.",
+          "befunde": [
+            "Amsel-Kriterien: pH > 4,5",
+            "Whiff-Test positiv",
+            "Clue Cells im Nativpräparat"
+          ],
+          "diagnose": "Bakterielle Vaginose (Gardnerella vaginalis)",
+          "therapie": [
+            "Metronidazol oral oder lokal",
+            "Dequaliniumchlorid"
+          ],
+          "lernpunkte": [
+            "Keine echte Entzündung (Vaginose!)",
+            "Frühgeburtsrisiko in der Schwangerschaft"
+          ]
+        },
+        {
+          "id": "GYN_A002",
+          "titel": "Vaginalkandidose",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "32-j. nach AB-Therapie",
+          "praesentation": "Massiver Juckreiz, weißlicher, krümeliger Ausfluss.",
+          "befunde": [
+            "Erythem der Vagina",
+            "Pseudomyzelien im Nativ"
+          ],
+          "diagnose": "Soorkolpitis (Candida albicans)",
+          "therapie": [
+            "Topische Imidazole (Clotrimazol)",
+            "Ciclopirox"
+          ],
+          "lernpunkte": [
+            "Trigger: Antibiotika, Diabetes, Schwangerschaft"
+          ]
+        },
+        {
+          "id": "GYN_A003",
+          "titel": "Trichomoniasis",
+          "tags": [
+            "STI"
+          ],
+          "patient": "24-j. Patientin",
+          "praesentation": "Schaumiger, gelblich-grüner Ausfluss, Kolpitis macularis.",
+          "befunde": [
+            "Erdbeerportio",
+            "bewegliche Flagellaten im Nativ"
+          ],
+          "diagnose": "Trichomonas-Kolpitis",
+          "therapie": [
+            "Metronidazol (Partnerbehandlung obligat!)"
+          ],
+          "lernpunkte": [
+            "Sexuell übertragbar",
+            "Partnertherapie zur Vermeidung von Ping-Pong-Effekt"
+          ]
+        },
+        {
+          "id": "GYN_A004",
+          "titel": "Endometriose (Ovar)",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "30-j. mit unerfülltem Kinderwunsch",
+          "praesentation": "Chronischer Unterbauchschmerz, Dysmenorrhö, Dyspareunie.",
+          "befunde": [
+            "Tastbare Resistenz adnexiell",
+            "Sono: Schokoladenzyste"
+          ],
+          "diagnose": "Endometriosis externa (Ovarialendometriose)",
+          "therapie": [
+            "Zystenexstirpation (Laparoskopie)",
+            "GnRH-Analoga / Gestagene"
+          ],
+          "lernpunkte": [
+            "Goldstandard Diagnostik: Laparoskopie + Histologie"
+          ]
+        },
+        {
+          "id": "GYN_A005",
+          "titel": "Uterus myomatosus",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "42-j. Patientin",
+          "praesentation": "Hypermenorrhö, Druckgefühl auf der Blase.",
+          "befunde": [
+            "Sono: Myomknoten intramural 5 cm",
+            "Hb 10,2 g/dl"
+          ],
+          "diagnose": "Symptomatischer Uterus myomatosus",
+          "therapie": [
+            "Myomentfernung (Enukleation) vs. Hysterektomie"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner Tumor der Frau"
+          ]
+        },
+        {
+          "id": "GYN_A006",
+          "titel": "Adnexitis (PID)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "22-j. Patientin",
+          "praesentation": "Akuter Unterbauchschmerz, Fieber, eitriger Fluor.",
+          "befunde": [
+            "Portioschiebeschmerz positiv",
+            "CRP↑",
+            "Leukozytose"
+          ],
+          "diagnose": "Pelvic Inflammatory Disease (PID)",
+          "therapie": [
+            "Breitbandantibiose (Ceftriaxon + Doxycyclin)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Infertilität durch Tubenverschluss"
+          ]
+        },
+        {
+          "id": "GYN_A007",
+          "titel": "Bartholinitis (Abszess)",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "35-j. Patientin",
+          "praesentation": "Schmerzhafte Schwellung im hinteren Drittel der großen Labien.",
+          "befunde": [
+            "Fluktuierende Rötung",
+            "Gehunfähigkeit vor Schmerz"
+          ],
+          "diagnose": "Bartholin-Abszess",
+          "therapie": [
+            "Marsupialisation"
+          ],
+          "lernpunkte": [
+            "Einfache Inzision führt oft zum Rezidiv"
+          ]
+        },
+        {
+          "id": "GYN_A008",
+          "titel": "Lichen sclerosus (Vulva)",
+          "tags": [
+            "Dermatologie"
+          ],
+          "patient": "65-j. Patientin",
+          "praesentation": "Chronischer Pruritus vulvae, Brennen.",
+          "befunde": [
+            "Porzellanweiße Papeln",
+            "Zigarettenpapier-Atrophie"
+          ],
+          "diagnose": "Lichen sclerosus",
+          "therapie": [
+            "Topische hochpotente Steroide (Clobetasol)"
+          ],
+          "lernpunkte": [
+            "Präkanzerose für Vulvakarzinom"
+          ]
+        },
+        {
+          "id": "GYN_A009",
+          "titel": "Zervixpolyp",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "48-j. Patientin",
+          "praesentation": "Kontaktblutungen nach dem GV.",
+          "befunde": [
+            "Spekulum: Aus der Zervix ragendes rötliches Gebilde"
+          ],
+          "diagnose": "Zervixpolyp",
+          "therapie": [
+            "Polypenabtragung (Torsion/Abtragung) + Abrasio"
+          ],
+          "lernpunkte": [
+            "Histologische Sicherung zum Karzinomausschluss"
+          ]
+        },
+        {
+          "id": "GYN_A010",
+          "titel": "Atrophische Kolpitis",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "70-j. Patientin",
+          "praesentation": "Trockenheitsgefühl, leichte Schmierblutungen.",
+          "befunde": [
+            "Dünne, vulnerable Vaginalschleimhaut",
+            "pH 6,0"
+          ],
+          "diagnose": "Kolpitis senilis (Östrogenmangel)",
+          "therapie": [
+            "Lokale Östrogenisierung (Estradiol)"
+          ],
+          "lernpunkte": [
+            "Typisch für die Postmenopause"
+          ]
+        },
+        {
+          "id": "GYN_A011",
+          "titel": "Toxisches Schocksyndrom (TSS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "19-j. während der Menstruation",
+          "praesentation": "Hohes Fieber, Exanthem (sonnenbrandartig), RR-Abfall.",
+          "befunde": [
+            "Anamnese: Tampongebrauch",
+            "Multiorganversagen"
+          ],
+          "diagnose": "TSS (Staphylokokken-Toxin)",
+          "therapie": [
+            "Intensivmedizin",
+            "Antibiose",
+            "Tamponentfernung"
+          ],
+          "lernpunkte": [
+            "Seltener, aber lebensbedrohlicher Notfall"
+          ]
+        },
+        {
+          "id": "GYN_A012",
+          "titel": "Uterusprolaps Grad III",
+          "tags": [
+            "Descensus"
+          ],
+          "patient": "72-j. Multipara",
+          "praesentation": "Fremdkörpergefühl ('Etwas kommt heraus'), Harninkontinenz.",
+          "befunde": [
+            "Portio tritt vor die Introitusebene"
+          ],
+          "diagnose": "Descensus uteri et vaginae",
+          "therapie": [
+            "Pessartherapie vs. Vaginale Hysterektomie + Kolporrhaphie"
+          ],
+          "lernpunkte": [
+            "Beckenbodentraining präventiv"
+          ]
+        },
+        {
+          "id": "GYN_A013",
+          "titel": "Ovarialtorsion",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. mit bekannter Zyste",
+          "praesentation": "Plötzlicher, vernichtender Unterbauchschmerz, Erbrechen.",
+          "befunde": [
+            "Abwehrspannung",
+            "Sono: Vergrößertes Ovar, kein Dopplerfluss"
+          ],
+          "diagnose": "Stielgedrehtes Ovar",
+          "therapie": [
+            "Laparoskopische Detorsion (organerhaltend)"
+          ],
+          "lernpunkte": [
+            "Dringliche OP zur Rettung des Ovars"
+          ]
+        },
+        {
+          "id": "GYN_A014",
+          "titel": "Chlamydien-Screening",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "22-j. sexuell aktive Frau",
+          "praesentation": "Vorsorgeuntersuchung, beschwerdefrei.",
+          "befunde": [
+            "Urin-PCR negativ"
+          ],
+          "diagnose": "Vorsorge",
+          "therapie": [
+            "Jährliches Screening (GKV bis 25 J.)"
+          ],
+          "lernpunkte": [
+            "Häufigste STI, oft asymptomatisch"
+          ]
+        },
+        {
+          "id": "GYN_A015",
+          "titel": "Condylomata acuminata",
+          "tags": [
+            "STI",
+            "HPV"
+          ],
+          "patient": "30-j. Patientin",
+          "praesentation": "Warzenartige Veränderungen perianal/vulvär.",
+          "befunde": [
+            "Essigsäure-Probe positiv"
+          ],
+          "diagnose": "Feigwarzen (HPV 6/11)",
+          "therapie": [
+            "Imiquimod-Creme",
+            "Kryotherapie"
+          ],
+          "lernpunkte": [
+            "High-risk vs. Low-risk HPV-Typen"
+          ]
+        }
+      ]
+    },
+    "gyn_onkologie": {
+      "label": "Gynäkologische Onkologie",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "GYN_O016",
+          "titel": "Zervixkarzinom (Staging)",
+          "tags": [
+            "Onkologie",
+            "HPV"
+          ],
+          "patient": "45-jährige Patientin",
+          "praesentation": "Kontaktblutungen, auffällige Zytologie (Pap IVa-p).",
+          "befunde": [
+            "Biopsie: Plattenepithelkarzinom",
+            "MRT: Infiltration Parametrien"
+          ],
+          "diagnose": "Zervixkarzinom (FIGO IIB)",
+          "therapie": [
+            "Primäre Radiochemotherapie"
+          ],
+          "lernpunkte": [
+            "Operabilität bis FIGO IIA",
+            "Bedeutung der HPV-Impfung"
+          ]
+        },
+        {
+          "id": "GYN_O017",
+          "titel": "Endometriumkarzinom (Blutung)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "62-j. adipöse Patientin",
+          "praesentation": "Postmenopausenblutung.",
+          "befunde": [
+            "Sono: Endometrium 15 mm",
+            "Histologie (Abrasio): Adenokarzinom"
+          ],
+          "diagnose": "Endometriumkarzinom Typ I",
+          "therapie": [
+            "Hysterektomie + Bds. Adnexektomie + LK-Staging"
+          ],
+          "lernpunkte": [
+            "Postmenopausenblutung ist immer histologisch abklärungspflichtig!"
+          ]
+        },
+        {
+          "id": "GYN_O018",
+          "titel": "Ovarialkarzinom (Fortgeschritten)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "58-j. Patientin",
+          "praesentation": "Zunahme des Bauchumfangs ('Hosen passen nicht mehr'), Aszites.",
+          "befunde": [
+            "Sono: Adnextumor bds., Omentum majus verdickt",
+            "CA-125 stark↑"
+          ],
+          "diagnose": "Ovarialkarzinom (FIGO IIIc)",
+          "therapie": [
+            "Radikale Tumorreduktion (Debulking) + Carboplatin/Paclitaxel"
+          ],
+          "lernpunkte": [
+            "Primärziel: Makroskopische Tumorfreiheit"
+          ]
+        },
+        {
+          "id": "GYN_O019",
+          "titel": "Vulvakarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "75-j. Patientin",
+          "praesentation": "Chronischer Juckreiz, jetzt derber Knoten an der Labie.",
+          "befunde": [
+            "Histologie: Verhornendes Plattenepithel-CA"
+          ],
+          "diagnose": "Vulvakarzinom",
+          "therapie": [
+            "Radikale Vulvektomie + Sentinel-LK-Biopsie"
+          ],
+          "lernpunkte": [
+            "Lymphogene Metastasierung in die Leiste"
+          ]
+        },
+        {
+          "id": "GYN_O020",
+          "titel": "Ovariale Teratom (Dermoid)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "22-j. Patientin",
+          "praesentation": "Zufallsbefund im Ultraschall.",
+          "befunde": [
+            "Sono: Gemischte Echogenität (Fett, Haare, Kalk)"
+          ],
+          "diagnose": "Reifes Teratom (Dermoidzyste)",
+          "therapie": [
+            "Zystenexstirpation unter Erhalt des Ovars"
+          ],
+          "lernpunkte": [
+            "Häufigster Keimzelltumor, meist benigne"
+          ]
+        },
+        {
+          "id": "GYN_O021",
+          "titel": "Mola hydatidosa (Blasenmole)",
+          "tags": [
+            "Tumor",
+            "Schwangerschaft"
+          ],
+          "patient": "28-j. Patientin, 10. SSW",
+          "praesentation": "Vaginale Blutung, übermäßiges Erbrechen, Uterus zu groß für Alter.",
+          "befunde": [
+            "Sono: Schneegestöber-Aspekt",
+            "hCG massiv↑ (> 100.000)"
+          ],
+          "diagnose": "Blasenmole",
+          "therapie": [
+            "Saugcurettage",
+            "hCG-Nachsorge über 6-12 Monate"
+          ],
+          "lernpunkte": [
+            "Risiko der Entartung zum Choriokarzinom"
+          ]
+        },
+        {
+          "id": "GYN_O022",
+          "titel": "CIN II-III (Präkanzerose)",
+          "tags": [
+            "Dysplasie"
+          ],
+          "patient": "32-j. Patientin",
+          "praesentation": "Vorsorge: Pap IVa-g.",
+          "befunde": [
+            "Kolposkopie: Essigweißes Epithel, Mosaik"
+          ],
+          "diagnose": "Hochgradige squamöse intraepitheliale Läsion (HSIL)",
+          "therapie": [
+            "Konisation (LEEP/LLETZ)"
+          ],
+          "lernpunkte": [
+            "Zieldiagnostik mittels Kolposkopie-gezielter Biopsie"
+          ]
+        },
+        {
+          "id": "GYN_O023",
+          "titel": "Metastasiertes Ovarial-CA (Rezidiv)",
+          "tags": [
+            "Palliativ"
+          ],
+          "patient": "65-j. Patientin",
+          "praesentation": "Ileus-Symptomatik bei bekanntem Progress.",
+          "befunde": [
+            "CT: Peritonealkarzinose"
+          ],
+          "diagnose": "Rezidiv Ovarialkarzinom",
+          "therapie": [
+            "Palliative Chemotherapie / Bestrahlung / SAPV"
+          ],
+          "lernpunkte": [
+            "Lebensqualität im Vordergrund"
+          ]
+        },
+        {
+          "id": "GYN_O024",
+          "titel": "Zervixkarzinom in der Schwangerschaft",
+          "tags": [
+            "Onkologie",
+            "Schwangerschaft"
+          ],
+          "patient": "30-j. Patientin, 14. SSW",
+          "praesentation": "Pathologischer Abstrich bei Erstuntersuchung.",
+          "befunde": [
+            "Klinisch Stadium IB1"
+          ],
+          "diagnose": "Zervixkarzinom",
+          "therapie": [
+            "Individuelle Entscheidung (Abwarten bis Lungenreife vs. Abbruch/Therapie)"
+          ],
+          "lernpunkte": [
+            "Interdisziplinäres Tumorboard obligat"
+          ]
+        },
+        {
+          "id": "GYN_O025",
+          "titel": "Krukenberg-Tumor",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "52-j. Patientin mit Magen-CA",
+          "praesentation": "Bilateral tastbare Adnextumoren.",
+          "befunde": [
+            "Histologie: Siegelringkarzinom"
+          ],
+          "diagnose": "Ovarialmetastase (Krukenberg)",
+          "therapie": [
+            "Systemische Therapie des Primärtumors"
+          ],
+          "lernpunkte": [
+            "Hämatogene/lymphogene Aussaat von gastrointestinalen Tumoren"
+          ]
+        },
+        {
+          "id": "GYN_O026",
+          "titel": "Granulosazelltumor",
+          "tags": [
+            "Onkologie",
+            "Endokrin"
+          ],
+          "patient": "60-j. Patientin",
+          "praesentation": "Postmenopausenblutung, östrogenbedingte Symptome.",
+          "befunde": [
+            "Sono: Adnextumor",
+            "Inhibin-B↑"
+          ],
+          "diagnose": "Granulosazelltumor (Keinstrang-Stromatumor)",
+          "therapie": [
+            "Adnexektomie / Staging"
+          ],
+          "lernpunkte": [
+            "Hormonaktivität (Östrogenproduktion)"
+          ]
+        },
+        {
+          "id": "GYN_O027",
+          "titel": "Seröses Endometriumkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. schlanke Frau",
+          "praesentation": "Blutung.",
+          "befunde": [
+            "Histologie: Seröses Karzinom (Typ II)"
+          ],
+          "diagnose": "Hochmalignes Endometriumkarzinom",
+          "therapie": [
+            "Operation + Adjuvante Chemotherapie"
+          ],
+          "lernpunkte": [
+            "Unabhängig von Östrogenreiz, schlechte Prognose"
+          ]
+        },
+        {
+          "id": "GYN_O028",
+          "titel": "Meigs-Syndrom",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "55-j. Patientin",
+          "praesentation": "Aszites, Pleuraerguss rechts, Adnextumor.",
+          "befunde": [
+            "Histologie: Ovarialfibrom (benigne)"
+          ],
+          "diagnose": "Meigs-Syndrom",
+          "therapie": [
+            "Entfernung des Fibroms (führt zum Verschwinden der Ergüsse)"
+          ],
+          "lernpunkte": [
+            "Trias: Ovarialfibrom, Aszites, Pleuraerguss"
+          ]
+        },
+        {
+          "id": "GYN_O029",
+          "titel": "Morbus Paget (Vulva)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "68-j. Patientin",
+          "praesentation": "Erythematöse, schuppende Plaque der Vulva, Juckreiz.",
+          "befunde": [
+            "Histologie: Paget-Zellen"
+          ],
+          "diagnose": "Extramammärer Morbus Paget",
+          "therapie": [
+            "Weite Exzision"
+          ],
+          "lernpunkte": [
+            "Ausschluss assoziierter Malignome (Rektum, Blase)"
+          ]
+        },
+        {
+          "id": "GYN_O030",
+          "titel": "Sarkom des Uterus (Leiomyosarkom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Patientin",
+          "praesentation": "Schnelles Größenwachstum eines vermeintlichen Myoms.",
+          "befunde": [
+            "MRT: Inhomogene Struktur, KM-Enhancement"
+          ],
+          "diagnose": "Leiomyosarkom",
+          "therapie": [
+            "Radikale Hysterektomie"
+          ],
+          "lernpunkte": [
+            "Wachstum in der Postmenopause ist verdächtig"
+          ]
+        }
+      ]
+    },
+    "endokrinologie_fertilitaet": {
+      "label": "Endokrinologie & Fertilität",
+      "emoji": "🧬",
+      "faelle": [
+        {
+          "id": "GYN_E031",
+          "titel": "PCO-Syndrom",
+          "tags": [
+            "Endokrinologie",
+            "Kinderwunsch"
+          ],
+          "patient": "26-jährige Patientin, Adipositas",
+          "praesentation": "Oligomenorrhö, Hirsutismus, unerfüllter Kinderwunsch.",
+          "befunde": [
+            "Sono: Polyzystische Ovarien",
+            "Labor: LH/FSH-Quotient > 2, Testosteron↑"
+          ],
+          "diagnose": "PCOS (Rotterdam-Kriterien)",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Metformin (Off-label)",
+            "Clomifen bei KiWu"
+          ],
+          "lernpunkte": [
+            "Metabolisches Risiko beachten (Diabetes-Screening)"
+          ]
+        },
+        {
+          "id": "GYN_E032",
+          "titel": "Hyperprolaktinämie",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "30-j. Patientin",
+          "praesentation": "Sekundäre Amenorrhö, Galaktorrhö.",
+          "befunde": [
+            "Prolaktin > 100 ng/ml",
+            "MRT: Hypophysenmikroadenom"
+          ],
+          "diagnose": "Prolaktinom",
+          "therapie": [
+            "Dopaminagonisten (Cabergolin)"
+          ],
+          "lernpunkte": [
+            "Prolaktin hemmt GnRH-Pulsatilität"
+          ]
+        },
+        {
+          "id": "GYN_E033",
+          "titel": "Premature Ovarian Failure (POF)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "35-j. Patientin",
+          "praesentation": "Hitzewallungen, Amenorrhö seit 6 Monaten.",
+          "befunde": [
+            "FSH > 40 U/l (zweimalig gemessen)"
+          ],
+          "diagnose": "Klimakterium praecox",
+          "therapie": [
+            "Hormonersatztherapie (HRT) bis zum 50. LJ"
+          ],
+          "lernpunkte": [
+            "Prävention von Osteoporose wichtig"
+          ]
+        },
+        {
+          "id": "GYN_E034",
+          "titel": "Primäre Amenorrhö (Turner-Syndrom)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "16-j. Mädchen",
+          "praesentation": "Fehlende Menarche, Kleinwuchs, Pterygium colli.",
+          "befunde": [
+            "Karyogramm: 45, X0"
+          ],
+          "diagnose": "Ullrich-Turner-Syndrom",
+          "therapie": [
+            "Wachstumshormon",
+            "Östrogen-Induktion der Pubertät"
+          ],
+          "lernpunkte": [
+            "Keine Fertilität (Streak-Ovarien)"
+          ]
+        },
+        {
+          "id": "GYN_E035",
+          "titel": "Gelbkörperschwäche (Lutealinsuffizienz)",
+          "tags": [
+            "Kinderwunsch"
+          ],
+          "patient": "32-j. Patientin",
+          "praesentation": "Unerfüllter KiWu, Schmierblutungen vor der Periode.",
+          "befunde": [
+            "Progesteron an Tag 21 niedrig",
+            "Basaltemperaturkurve: kurze Hochphase"
+          ],
+          "diagnose": "Lutealinsuffizienz",
+          "therapie": [
+            "Progesteron-Substitution in der 2. Zyklushälfte"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache für Frühaborte"
+          ]
+        },
+        {
+          "id": "GYN_E036",
+          "titel": "Adrenogenitales Syndrom (AGS) - Late Onset",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "24-j. Patientin",
+          "praesentation": "Akne, verstärkte Behaarung, Zyklusstörungen.",
+          "befunde": [
+            "17-OH-Progesteron nach ACTH-Reiz↑"
+          ],
+          "diagnose": "Nicht-klassisches AGS",
+          "therapie": [
+            "Glukokortikoide (Dexamethason)"
+          ],
+          "lernpunkte": [
+            "Differentialdiagnose zum PCOS"
+          ]
+        },
+        {
+          "id": "GYN_E037",
+          "titel": "Androgenetische Alopezie (Frau)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "45-j. Patientin",
+          "praesentation": "Lichtung der Haare im Scheitelbereich.",
+          "befunde": [
+            "Ludwig-Schema Stadium I"
+          ],
+          "diagnose": "Androgenetische Alopezie",
+          "therapie": [
+            "Minoxidil-Lösung",
+            "Cyproteronacetat"
+          ],
+          "lernpunkte": [
+            "Hormonelle Abklärung bei Virilisierungszeichen"
+          ]
+        },
+        {
+          "id": "GYN_E038",
+          "titel": "Fertilitätsprotektion bei Malignom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "28-j. Patientin mit M. Hodgkin",
+          "praesentation": "Beratung vor Chemotherapie.",
+          "befunde": [
+            "Ovarreserve (AMH) normal"
+          ],
+          "diagnose": "Zustand vor gonadotoxischer Therapie",
+          "therapie": [
+            "Kryokonservierung von Oozyten/Ovarialgewebe",
+            "GnRH-Analoga"
+          ],
+          "lernpunkte": [
+            "Beratungspflicht vor jeder Chemo im reproduktiven Alter"
+          ]
+        },
+        {
+          "id": "GYN_E039",
+          "titel": "Klimakterisches Syndrom",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "52-j. Patientin",
+          "praesentation": "Schwere Schlafstörungen, Hitzewallungen, Stimmungsschwankungen.",
+          "befunde": [
+            "Status postmenopausal"
+          ],
+          "diagnose": "Klimakterisches Syndrom",
+          "therapie": [
+            "Hormonersatztherapie (Östrogen + Gestagen)"
+          ],
+          "lernpunkte": [
+            "Indikation bei hohem Leidensdruck, niedrigste wirksame Dosis"
+          ]
+        },
+        {
+          "id": "GYN_E040",
+          "titel": "Infertilität (Tubar)",
+          "tags": [
+            "Kinderwunsch"
+          ],
+          "patient": "34-j. Patientin",
+          "praesentation": "Kinderwunsch seit 2 Jahren, Z.n. Chlamydieninfektion.",
+          "befunde": [
+            "Chromolaparoskopie: Tubenverschluss beidseitig"
+          ],
+          "diagnose": "Tubare Infertilität",
+          "therapie": [
+            "IVF (In-vitro-Fertilisation)"
+          ],
+          "lernpunkte": [
+            "PID als Hauptursache"
+          ]
+        },
+        {
+          "id": "GYN_E041",
+          "titel": "Asherman-Syndrom",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "30-j. nach Kürettage",
+          "praesentation": "Sekundäre Amenorrhö, Schmerzen zyklisch.",
+          "befunde": [
+            "Hysteroskopie: Intrauterine Synechien"
+          ],
+          "diagnose": "Asherman-Syndrom",
+          "therapie": [
+            "Hysteroskopische Adhäsiolyse",
+            "Östrogenaufbau"
+          ],
+          "lernpunkte": [
+            "Iatrogene Komplikation nach aggressiver Abrasio"
+          ]
+        },
+        {
+          "id": "GYN_E042",
+          "titel": "Ovarielles Überstimulationssyndrom (OHSS)",
+          "tags": [
+            "Notfall",
+            "KiWu"
+          ],
+          "patient": "28-j. während IVF",
+          "praesentation": "Bauchschmerzen, Übelkeit, Atemnot.",
+          "befunde": [
+            "Sono: Ovarien 12 cm, Aszites",
+            "Hämokonzentration"
+          ],
+          "diagnose": "OHSS Grad III",
+          "therapie": [
+            "Stationär, Infusionen, Heparinisierung",
+            "Albumin"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohlich durch Elektrolytverschiebung"
+          ]
+        },
+        {
+          "id": "GYN_E043",
+          "titel": "Kontrazeptionsberatung (Thrombophilie)",
+          "tags": [
+            "Verhütung"
+          ],
+          "patient": "19-j. Patientin",
+          "praesentation": "Wunsch nach Pille, Mutter hatte Lungenembolie.",
+          "befunde": [
+            "Labor: Faktor-V-Leiden-Mutation (heterozygot)"
+          ],
+          "diagnose": "Thrombophilie",
+          "therapie": [
+            "Keine kombinierten oralen Kontrazeptiva (KOK)!",
+            "Alternative: Gestagenpille, Spirale"
+          ],
+          "lernpunkte": [
+            "Östrogene erhöhen Thromboserisiko"
+          ]
+        },
+        {
+          "id": "GYN_E044",
+          "titel": "Endometriose (Darm)",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "36-j. Patientin",
+          "praesentation": "Zyklische Hämatochezie (Blut im Stuhl).",
+          "befunde": [
+            "Koloskopie: Endometrioseherde im Rektosigmoid"
+          ],
+          "diagnose": "Tief infiltrierende Endometriose (TIE)",
+          "therapie": [
+            "Laparoskopische Darmteilresektion"
+          ],
+          "lernpunkte": [
+            "Interdisziplinäres Vorgehen (Gyn/Chirurgie)"
+          ]
+        },
+        {
+          "id": "GYN_E045",
+          "titel": "Habitueller Abort",
+          "tags": [
+            "Kinderwunsch"
+          ],
+          "patient": "32-j. Patientin",
+          "praesentation": "Drei Aborte hintereinander in der 8.-10. SSW.",
+          "befunde": [
+            "Labor: Antiphospholipid-Syndrom positiv"
+          ],
+          "diagnose": "Habituelle Abortneigung",
+          "therapie": [
+            "ASS 100 + NMH (Heparin) in der Schwangerschaft"
+          ],
+          "lernpunkte": [
+            "Abklärung ab dem 3. konsekutiven Abort"
+          ]
+        }
+      ]
+    },
+    "senologie": {
+      "label": "Senologie (Erkrankungen der Brust)",
+      "emoji": "🎀",
+      "faelle": [
+        {
+          "id": "GYN_S046",
+          "titel": "Mammakarzinom (Erstdiagnose)",
+          "tags": [
+            "Onkologie",
+            "Brust"
+          ],
+          "patient": "55-jährige Patientin",
+          "praesentation": "Schmerzloser, derber Knoten im oberen äußeren Quadranten.",
+          "befunde": [
+            "Mammographie: Architekturstörung, Mikrokalk",
+            "Stanzbiopsie: Invasiv-duktales CA",
+            "HER2 positiv"
+          ],
+          "diagnose": "Mammakarzinom (cT2 N0 M0)",
+          "therapie": [
+            "BET (Brusterhaltend) + Sentinel + Bestrahlung + Trastuzumab"
+          ],
+          "lernpunkte": [
+            "Sentinel-Node-Konzept zur Vermeidung des Lymphödems"
+          ]
+        },
+        {
+          "id": "GYN_S047",
+          "titel": "Mastitis non-puerperalis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "40-j. Raucherin",
+          "praesentation": "Schmerzhafte Rötung und Überwärmung der Brust, kein Fieber.",
+          "befunde": [
+            "Sono: Keine Abszedierung",
+            "Prolaktin normal"
+          ],
+          "diagnose": "Mastitis non-puerperalis",
+          "therapie": [
+            "Antibiose",
+            "Kühlen",
+            "Rauchstopp!"
+          ],
+          "lernpunkte": [
+            "Hohes Rezidivrisiko bei Raucherinnen"
+          ]
+        },
+        {
+          "id": "GYN_S048",
+          "titel": "Fibroadenom",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "22-j. Patientin",
+          "praesentation": "Gut verschieblicher, gummiartiger Knoten.",
+          "befunde": [
+            "Sono: Glatt begrenzt, echofreier Randsaum"
+          ],
+          "diagnose": "Fibroadenom",
+          "therapie": [
+            "Verlaufskontrolle vs. Exstirpation (auf Wunsch)"
+          ],
+          "lernpunkte": [
+            "Häufigster benigner Brusttumor junger Frauen"
+          ]
+        },
+        {
+          "id": "GYN_S049",
+          "titel": "Mastopathie (Mastodynie)",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "45-j. Patientin",
+          "praesentation": "Zyklusabhängige Schwellung und Schmerzen beider Brüste.",
+          "befunde": [
+            "Sono: Kleinzystische Veränderungen",
+            "keine suspekten Herde"
+          ],
+          "diagnose": "Mastopathia cystica (BI-RADS 2)",
+          "therapie": [
+            "Lokal Progesteron-Gel",
+            "Phytotherapie (Mönchspfeffer)"
+          ],
+          "lernpunkte": [
+            "Häufige Veränderung, kein erhöhtes CA-Risiko bei Typ I"
+          ]
+        },
+        {
+          "id": "GYN_S050",
+          "titel": "Intraduktales Papillom",
+          "tags": [
+            "Benigne"
+          ],
+          "patient": "48-j. Patientin",
+          "praesentation": "Einseitige serosanguinolente (blutige) Sekretion aus der Mamille.",
+          "befunde": [
+            "Galaktographie: Füllungsdefekt"
+          ],
+          "diagnose": "Intraduktales Papillom",
+          "therapie": [
+            "Duktektomie (Herausschneiden des betroffenen Ganges)"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache für blutende Mamille"
+          ]
+        },
+        {
+          "id": "GYN_S051",
+          "titel": "Entzündliches Mammakarzinom",
+          "tags": [
+            "Onkologie",
+            "Notfall"
+          ],
+          "patient": "50-j. Patientin",
+          "praesentation": "Brust gerötet, geschwollen, 'Peau d'orange' (Orangenhaut).",
+          "befunde": [
+            "Klinik ähnelt Mastitis",
+            "keine Besserung auf AB"
+          ],
+          "diagnose": "Inflammatorisches Mammakarzinom",
+          "therapie": [
+            "Neoadjuvante Chemotherapie (keine primäre OP!)"
+          ],
+          "lernpunkte": [
+            "Sehr aggressive Form, Lymphgefäß-Infiltration"
+          ]
+        },
+        {
+          "id": "GYN_S052",
+          "titel": "Gynäkomastie (Mensch)",
+          "tags": [
+            "Andrologie"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Einseitige schmerzhafte Schwellung der Brust.",
+          "befunde": [
+            "Mammographie: Drüsenkörper tastbar"
+          ],
+          "diagnose": "Gynäkomastie (medikamentös induziert, z.B. Spironolacton)",
+          "therapie": [
+            "Absetzen des Auslösers"
+          ],
+          "lernpunkte": [
+            "Ausschluss Mammakarzinom auch beim Mann!"
+          ]
+        },
+        {
+          "id": "GYN_S053",
+          "titel": "DCIS (Duktales Karzinoma in situ)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "52-j. Patientin",
+          "praesentation": "Mammographie-Screening: gruppierter Mikrokalk.",
+          "befunde": [
+            "Vakuumbiopsie: DCIS Grad II"
+          ],
+          "diagnose": "DCIS",
+          "therapie": [
+            "BET + Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Nicht-invasive Vorstufe, aber hohes Risiko für invasives CA"
+          ]
+        },
+        {
+          "id": "GYN_S054",
+          "titel": "Brustabszess (Laktation)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Wöchnerin, 3. Woche postpartal",
+          "praesentation": "Fieber, schmerzhafte, fluktuierende Rötung.",
+          "befunde": [
+            "Sono: Abszesshöhle 4 cm"
+          ],
+          "diagnose": "Abszedierende Mastitis puerperalis",
+          "therapie": [
+            "Punktion/Drainage + Antibiose + weiter Stillen (evtl. Abpumpen)"
+          ],
+          "lernpunkte": [
+            "Abstillen meist nicht nötig"
+          ]
+        },
+        {
+          "id": "GYN_S055",
+          "titel": "Morbus Paget der Mamille",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. Patientin",
+          "praesentation": "Ekzemartige Veränderung der Mamille, heilt nicht ab.",
+          "befunde": [
+            "Stanzbiopsie: Paget-Zellen"
+          ],
+          "diagnose": "Morbus Paget (Mammakarzinom-Manifestation)",
+          "therapie": [
+            "Wie Mammakarzinom (Mastektomie vs. BET)"
+          ],
+          "lernpunkte": [
+            "Hautveränderung ist Ausdruck eines darunterliegenden CA"
+          ]
+        }
+      ]
+    },
+    "geburtshilfe_schwangerschaft": {
+      "label": "Geburtshilfe - Schwangerschaft & Pränatalmedizin",
+      "emoji": "🤰",
+      "faelle": [
+        {
+          "id": "GEB_S056",
+          "titel": "Extrauteringravidität (EUG)",
+          "tags": [
+            "Notfall",
+            "Schwangerschaft"
+          ],
+          "patient": "28-jährige Patientin, 7. SSW",
+          "praesentation": "Einseitiger Unterbauchschmerz, Schmierblutung.",
+          "befunde": [
+            "hCG 2500",
+            "Sono: Leerer Uterus, freie Flüssigkeit, Adnextumor"
+          ],
+          "diagnose": "Tubargravidität (EUG)",
+          "therapie": [
+            "Laparoskopische Salpingotomie (organerhaltend)"
+          ],
+          "lernpunkte": [
+            "Leitsymptom-Trias: Schmerz, Amenorrhö, Schmierblutung"
+          ]
+        },
+        {
+          "id": "GEB_S057",
+          "titel": "Präeklampsie",
+          "tags": [
+            "Notfall",
+            "Gestose"
+          ],
+          "patient": "34-j. Primipara, 32. SSW",
+          "praesentation": "Kopfschmerzen, Ödeme, Augenflimmern.",
+          "befunde": [
+            "RR 160/100 mmHg",
+            "Proteinurie +++",
+            "Labor: LDH↑"
+          ],
+          "diagnose": "Präeklampsie",
+          "therapie": [
+            "Blutdruckeinstellung (Methyldopa/Nifedipin)",
+            "Lungenreife",
+            "Entbindung geplant"
+          ],
+          "lernpunkte": [
+            "Eklampsie-Prophylaxe mit Magnesiumsulfat"
+          ]
+        },
+        {
+          "id": "GEB_S058",
+          "titel": "HELLP-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "30-j. Patientin, 34. SSW",
+          "praesentation": "Epigastrische Schmerzen (rechtsseitig), Übelkeit.",
+          "befunde": [
+            "Hämolyse (LDH↑)",
+            "Leberenzyme↑",
+            "Thrombozyten < 100.000"
+          ],
+          "diagnose": "HELLP-Syndrom",
+          "therapie": [
+            "Sofortige Entbindung (Sectio)",
+            "Magnesiumsulfat"
+          ],
+          "lernpunkte": [
+            "Lebensbedrohlicher Notfall für Mutter und Kind"
+          ]
+        },
+        {
+          "id": "GEB_S059",
+          "titel": "Hyperemesis gravidarum",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "25-j. Patientin, 9. SSW",
+          "praesentation": "Massives Erbrechen (> 10x/Tag), keine Nahrungsaufnahme möglich.",
+          "befunde": [
+            "Ketone im Urin ++",
+            "Gewichtsverlust 5%",
+            "Elektrolyte↓"
+          ],
+          "diagnose": "Hyperemesis gravidarum",
+          "therapie": [
+            "Stationäre Rehydratation",
+            "Antiemetika (Doxylamin/Pyridoxin)"
+          ],
+          "lernpunkte": [
+            "Wernicke-Enzephalopathie als seltene Folge"
+          ]
+        },
+        {
+          "id": "GEB_S060",
+          "titel": "Placenta praevia (Blutung)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "32-j. Patientin, 30. SSW",
+          "praesentation": "Plötzliche, schmerzlose, hellrote vaginale Blutung.",
+          "befunde": [
+            "Sono: Plazenta überdeckt inneren Muttermund",
+            "CTO stabil"
+          ],
+          "diagnose": "Placenta praevia totalis",
+          "therapie": [
+            "Bettruhe",
+            "Lungenreife",
+            "Sectio-Planung"
+          ],
+          "lernpunkte": [
+            "KEINE vaginale Untersuchung bei Blutung in der Spätschwangerschaft!"
+          ]
+        },
+        {
+          "id": "GEB_S061",
+          "titel": "Vorzeitige Plazentalösung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "38-j. Patientin, 36. SSW",
+          "praesentation": "Akuter Dauerschmerz im Bauch, dunkle Blutung, brettharter Uterus.",
+          "befunde": [
+            "CTG: Bradykardie",
+            "Sono: Retroplazentares Hämatom"
+          ],
+          "diagnose": "Abruptio placentae",
+          "therapie": [
+            "Notfall-Sectio"
+          ],
+          "lernpunkte": [
+            "Couvelaire-Uterus als Komplikation"
+          ]
+        },
+        {
+          "id": "GEB_S062",
+          "titel": "Gestationsdiabetes (GDM)",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "31-j. Patientin, 26. SSW",
+          "praesentation": "Routinevorsorge.",
+          "befunde": [
+            "oGTT 75g: 1h-Wert 195 mg/dl (↑)"
+          ],
+          "diagnose": "GDM",
+          "therapie": [
+            "Ernährungsumstellung",
+            "Blutzuckerselbstkontrolle",
+            "ggf. Insulin"
+          ],
+          "lernpunkte": [
+            "Risiko der fetalen Makrosomie"
+          ]
+        },
+        {
+          "id": "GEB_S063",
+          "titel": "Vorzeitige Wehentätigkeit",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "24-j. Patientin, 28. SSW",
+          "praesentation": "Druckgefühl nach unten, rhythmische Kontraktionen.",
+          "befunde": [
+            "Zervixsono: Trichterbildung, Länge 15 mm"
+          ],
+          "diagnose": "Drohende Frühgeburt",
+          "therapie": [
+            "Tokolyse (Atosiban)",
+            "Lungenreifeinduktion",
+            "Lagerung"
+          ],
+          "lernpunkte": [
+            "Zervixverkürzung < 25 mm ist klinisch relevant"
+          ]
+        },
+        {
+          "id": "GEB_S064",
+          "titel": "Rhesus-Inkompatibilität",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "Rhesus-negative Schwangere",
+          "praesentation": "Vorsorge U3.",
+          "befunde": [
+            "Antikörpersuchtest negativ"
+          ],
+          "diagnose": "Rhesus-Konstellation",
+          "therapie": [
+            "Anti-D-Prophylaxe in der 28. SSW und postpartal"
+          ],
+          "lernpunkte": [
+            "Verhinderung von Morbus haemolyticus neonatorum"
+          ]
+        },
+        {
+          "id": "GEB_S065",
+          "titel": "Intrauterine Wachstumsrestriktion (IUGR)",
+          "tags": [
+            "Pränatalmedizin"
+          ],
+          "patient": "33-j. Patientin, 34. SSW",
+          "praesentation": "Fundusstand zu niedrig.",
+          "befunde": [
+            "Sono: Fötus unter 3. Perzentile",
+            "Doppler: A. umbilicalis mit erhöhtem Widerstand"
+          ],
+          "diagnose": "Plazentainsuffizienz",
+          "therapie": [
+            "Engmaschige CTG/Doppler-Kontrollen",
+            "Entbindung planen"
+          ],
+          "lernpunkte": [
+            "Small for Gestational Age (SGA) vs. IUGR"
+          ]
+        },
+        {
+          "id": "GEB_S066",
+          "titel": "Mehrlingsschwangerschaft (Gemini)",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "28-j. Patientin, 12. SSW",
+          "praesentation": "Ersttrimesterscreening.",
+          "befunde": [
+            "Sono: Zwei Feten",
+            "Lambda-Zeichen positiv"
+          ],
+          "diagnose": "Dichoriale diamniotische Zwillingsschwangerschaft",
+          "therapie": [
+            "Engmaschige Kontrollen"
+          ],
+          "lernpunkte": [
+            "Chorionizität bestimmt das Risiko (FFTS bei Monochorialen)"
+          ]
+        },
+        {
+          "id": "GEB_S067",
+          "titel": "Vorzeitiger Blasensprung (VBS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "30-j. Patientin, 33. SSW",
+          "praesentation": "Abgang von Flüssigkeit ('Hose nass').",
+          "befunde": [
+            "pH-Test (Lackmus) positiv",
+            "Amnicheck positiv"
+          ],
+          "diagnose": "PPROM (Preterm Premature Rupture of Membranes)",
+          "therapie": [
+            "Antibiose",
+            "Lungenreife",
+            "Infektparameter-Monitoring"
+          ],
+          "lernpunkte": [
+            "Gefahr des Amnioninfektionssyndroms (AIS)"
+          ]
+        },
+        {
+          "id": "GEB_S068",
+          "titel": "Amnioninfektionssyndrom (AIS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Blasensprung vor 24h",
+          "praesentation": "Fieber, mütterliche Tachykardie, übelriechendes Fruchtwasser.",
+          "befunde": [
+            "CRP↑",
+            "Fötale Tachykardie im CTG"
+          ],
+          "diagnose": "AIS",
+          "therapie": [
+            "Sofortige Entbindung (meist Sectio)",
+            "i.v. Antibiose"
+          ],
+          "lernpunkte": [
+            "Mütterliche und fetale Sepsisgefahr"
+          ]
+        },
+        {
+          "id": "GEB_S069",
+          "titel": "Vasa praevia (Blutung)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. unter der Geburt bei Blasensprung",
+          "praesentation": "Schlagartige hellrote Blutung bei Blasensprung, fötale Bradykardie.",
+          "befunde": [
+            "Blut ist fötalen Ursprungs"
+          ],
+          "diagnose": "Vasa-praevia-Ruptur",
+          "therapie": [
+            "Notfall-Sectio (Sekunden zählen!)"
+          ],
+          "lernpunkte": [
+            "Seltene, aber extrem gefährliche fötale Blutung"
+          ]
+        },
+        {
+          "id": "GEB_S070",
+          "titel": "Parvovirus B19 (Ringelröteln) in der SS",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Schwangere, Kontakt zum Kind mit Exanthem",
+          "praesentation": "Sorge um das Kind.",
+          "befunde": [
+            "Mütterliche Serologie: IgM positiv",
+            "Fötus: Sono zeigt Hydrops fetalis"
+          ],
+          "diagnose": "Fötale Anämie durch Parvovirus",
+          "therapie": [
+            "Intrauterine Bluttransfusion (Nabelschnurpunktion)"
+          ],
+          "lernpunkte": [
+            "Aplasie der Erythropoese beim Fötus"
+          ]
+        },
+        {
+          "id": "GEB_S071",
+          "titel": "Toxoplasmose in der Schwangerschaft",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "22-j. Schwangere, Katzenbesitzerin",
+          "praesentation": "Vorsorge-Check.",
+          "befunde": [
+            "IgM positiv, IgG negativ (Erstinfektion)"
+          ],
+          "diagnose": "Primäre Toxoplasmose-Infektion",
+          "therapie": [
+            "Spiramycin (vor 16. SSW) / Pyrimethamin+Sulfadiazin (nach 16. SSW)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Chorioretinitis und intrazerebralen Verkalkungen beim Kind"
+          ]
+        },
+        {
+          "id": "GEB_S072",
+          "titel": "Listeriose (Lebensmittelinfektion)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Schwangere nach Rohmilchkäse-Verzehr",
+          "praesentation": "Grippeähnliche Symptome, Fieber.",
+          "befunde": [
+            "Blutkulturen positiv"
+          ],
+          "diagnose": "Listeriose",
+          "therapie": [
+            "Amoxicillin hochdosiert"
+          ],
+          "lernpunkte": [
+            "Kann zu intrauterinem Fruchttod (IUFT) führen"
+          ]
+        },
+        {
+          "id": "GEB_S073",
+          "titel": "Cholestase in der Schwangerschaft",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "34-j. Patientin, 35. SSW",
+          "praesentation": "Quälender Juckreiz, besonders an Handflächen und Fußsohlen nachts.",
+          "befunde": [
+            "Gallensäuren im Serum stark↑"
+          ],
+          "diagnose": "Schwangerschaftscholestase",
+          "therapie": [
+            "Ursodeoxycholsäure (UDCA)",
+            "Engmaschige Überwachung",
+            "Entbindung ab 37+0"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für plötzlichen Kindstod"
+          ]
+        },
+        {
+          "id": "GEB_S074",
+          "titel": "Zervixinsuffizienz (Cerclage)",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "28-j. Patientin, 20. SSW",
+          "praesentation": "Z.n. zwei Spätaborten.",
+          "befunde": [
+            "Sono: Zervix 10 mm, Fruchtblasenprolaps"
+          ],
+          "diagnose": "Zervixinsuffizienz",
+          "therapie": [
+            "Notfall-Cerclage oder totaler Muttermundverschluss (TMV)"
+          ],
+          "lernpunkte": [
+            "Ruhe und Infektionsprophylaxe"
+          ]
+        },
+        {
+          "id": "GEB_S075",
+          "titel": "Abortus imminens",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. Patientin, 8. SSW",
+          "praesentation": "Vaginale Blutung, leichte Krämpfe.",
+          "befunde": [
+            "Sono: Vitale intrauterine Gravidität (Herzaktion positiv)",
+            "Muttermund geschlossen"
+          ],
+          "diagnose": "Drohende Fehlgeburt",
+          "therapie": [
+            "Körperliche Schonung",
+            "Magnesium",
+            "Progesteron-Gabe"
+          ],
+          "lernpunkte": [
+            "Häufig gutartiger Ausgang, aber belastend für die Patientin"
+          ]
+        }
+      ]
+    },
+    "geburt_wochenbett": {
+      "label": "Geburtshilfe - Geburt & Wochenbett",
+      "emoji": "🐣",
+      "faelle": [
+        {
+          "id": "GEB_G076",
+          "titel": "Geburtseinleitung (Indikation)",
+          "tags": [
+            "Geburt"
+          ],
+          "patient": "30-jährige Patientin, 41+3 SSW",
+          "praesentation": "Überschreitung des Geburtstermins.",
+          "befunde": [
+            "Fruchtwassermenge grenzwertig",
+            "CTG reaktiv",
+            "Bishop-Score 3"
+          ],
+          "diagnose": "Terminüberschreitung",
+          "therapie": [
+            "Einleitung mit Prostaglandinen (Dinoproston / Misoprostol)"
+          ],
+          "lernpunkte": [
+            "Indikation zur Einleitung ab 41+0 bis spätestens 41+6"
+          ]
+        },
+        {
+          "id": "GEB_G077",
+          "titel": "Geburtsstillstand in der Austreibungsphase",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Primipara, Muttermund vollständig seit 2h",
+          "praesentation": "Kein Tiefertreten des Kopfes despite guter Wehen.",
+          "befunde": [
+            "Kopf auf Beckenbodenebene (+2)",
+            "Geburtsgeschwulst"
+          ],
+          "diagnose": "Geburtsstillstand",
+          "therapie": [
+            "Vakuumextraktion (Saugglocke)"
+          ],
+          "lernpunkte": [
+            "Voraussetzung: Kopf konfiguriert und tief genug im Becken"
+          ]
+        },
+        {
+          "id": "GEB_G078",
+          "titel": "Schulterdystokie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Schwere Austreibungsphase (Kind 4200g)",
+          "praesentation": "Kopf geboren, zieht sich zurück ('Turtle-Sign'), Schultern treten nicht durch.",
+          "befunde": [
+            "Eingeklemmte vordere Schulter"
+          ],
+          "diagnose": "Schulterdystokie",
+          "therapie": [
+            "McRoberts-Manöver",
+            "Gaskin-Manöver",
+            "innere Wendung"
+          ],
+          "lernpunkte": [
+            "KEIN Kristeller-Handgriff (Gefahr der Fraktur/Plexuslähmung)"
+          ]
+        },
+        {
+          "id": "GEB_G079",
+          "titel": "Postpartale Hämorrhagie (PPH)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Patientin unmittelbar nach Plazentageburt",
+          "praesentation": "Massive vaginale Blutung (> 500 ml), Uterus weich.",
+          "befunde": [
+            "Uterusfundus über Nabelhöhe, nicht kontrahiert"
+          ],
+          "diagnose": "Uterusatonie (4-T-Regel: Tonus)",
+          "therapie": [
+            "Uterotonika (Oxytocin, Sulproston)",
+            "Credé-Handgriff",
+            "Bakri-Ballon"
+          ],
+          "lernpunkte": [
+            "Schnelles Handeln zur Vermeidung des hämorrhagischen Schocks"
+          ]
+        },
+        {
+          "id": "GEB_G080",
+          "titel": "Dammriss III. Grades",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Nach vaginaler Entbindung",
+          "praesentation": "Verletzung im Dammbereich.",
+          "befunde": [
+            "Riss durch M. sphincter ani externus",
+            "Rektumschleimhaut intakt"
+          ],
+          "diagnose": "DR III",
+          "therapie": [
+            "Anatomische Rekonstruktion in OP (Sperrsynchrone Naht)"
+          ],
+          "lernpunkte": [
+            "Postoperative Stuhlregulation und Schmerztherapie"
+          ]
+        },
+        {
+          "id": "GEB_G081",
+          "titel": "Vorzeitige Plazentalösung unter der Geburt",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Gebärende, plötzliche Schmerzen",
+          "praesentation": "Pathologisches CTG (Dips), dunkles Blut.",
+          "befunde": [
+            "Harter Uterus (Dauerkontraktion)"
+          ],
+          "diagnose": "Vorzeitige Lösung",
+          "therapie": [
+            "Eilige Sectio / Notsectio"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose entscheidend"
+          ]
+        },
+        {
+          "id": "GEB_G082",
+          "titel": "Nabelschnurvorfall",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. bei Blasensprung unter der Geburt",
+          "praesentation": "CTG: Schlagartige Bradykardie nach Blasensprung.",
+          "befunde": [
+            "Vaginale Untersuchung: Nabelschnur im Introitus tastbar"
+          ],
+          "diagnose": "Nabelschnurvorfall",
+          "therapie": [
+            "Kopf hochdrücken durch US-Finger",
+            "Knie-Ellenbogen-Lage",
+            "Notsectio"
+          ],
+          "lernpunkte": [
+            "Manipulation der Nabelschnur vermeiden (Vasospasmus)"
+          ]
+        },
+        {
+          "id": "GEB_G083",
+          "titel": "Eklampsie (Anfall)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Wöchnerin, 2. Tag postpartal",
+          "praesentation": "Toni-klonischer Krampfanfall.",
+          "befunde": [
+            "RR 180/110 mmHg",
+            "Zustand postiktal"
+          ],
+          "diagnose": "Postpartale Eklampsie",
+          "therapie": [
+            "Magnesiumsulfat i.v.",
+            "RR-Senkung",
+            "CT-Kopf zum Ausschluss Hirnblutung"
+          ],
+          "lernpunkte": [
+            "Eklampsie kann bis zu 6 Wochen postpartal auftreten"
+          ]
+        },
+        {
+          "id": "GEB_G084",
+          "titel": "Endometritis post partum",
+          "tags": [
+            "Wochenbett"
+          ],
+          "patient": "Wöchnerin, 5. Tag postpartal nach Sectio",
+          "praesentation": "Fieber, Druckschmerz über dem Uterus, übelriechende Lochien.",
+          "befunde": [
+            "Lochienstau",
+            "Uterus subinvolutiert"
+          ],
+          "diagnose": "Wochenbettfieber (Endometritis)",
+          "therapie": [
+            "Antibiose (Amoxicillin/Clavulansäure)",
+            "Uterotonika"
+          ],
+          "lernpunkte": [
+            "Risikofaktor: Sectio caesarea"
+          ]
+        },
+        {
+          "id": "GEB_G085",
+          "titel": "Wochenbettdepression",
+          "tags": [
+            "Wochenbett"
+          ],
+          "patient": "Wöchnerin, 4 Wochen postpartal",
+          "praesentation": "Hoffnungslosigkeit, keine Bindung zum Kind, Schlafstörungen.",
+          "befunde": [
+            "EPDS (Edinburgh-Skala) > 13 Punkte"
+          ],
+          "diagnose": "Postpartale Depression",
+          "therapie": [
+            "Psychotherapie",
+            "ggf. SSRI (Sertralin - stillkompatibel)"
+          ],
+          "lernpunkte": [
+            "Abgrenzung vom kurzzeitigen 'Baby Blues' (3.-5. Tag)"
+          ]
+        },
+        {
+          "id": "GEB_G086",
+          "titel": "Tiefe Beinvenenthrombose (TVT) im Wochenbett",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. 1 Woche nach Sectio",
+          "praesentation": "Schwellung und Schmerz linkes Bein.",
+          "befunde": [
+            "Sono: V. femoralis nicht komprimierbar"
+          ],
+          "diagnose": "Wochenbett-TVT",
+          "therapie": [
+            "Antikoagulation (Heparin, dann Warfarin/DOAK)",
+            "Kompression"
+          ],
+          "lernpunkte": [
+            "Wochenbett ist Phase höchster Thrombophilie"
+          ]
+        },
+        {
+          "id": "GEB_G087",
+          "titel": "Uterusruptur",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. unter Wehen nach Z.n. Sectio",
+          "praesentation": "Plötzlicher Sistieren der Wehen, Schockzeichen, Schmerz.",
+          "befunde": [
+            "Fötale Teile tastbar unter Bauchdecke",
+            "Bradykardie"
+          ],
+          "diagnose": "Uterusruptur",
+          "therapie": [
+            "Sofortige Laparotomie",
+            "Sectio",
+            "Uterusnaht vs. Hysterektomie"
+          ],
+          "lernpunkte": [
+            "Risiko nach vorangegangener Uterus-OP (Narbenstabilität)"
+          ]
+        },
+        {
+          "id": "GEB_G088",
+          "titel": "Lungenembolie postpartal",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Wöchnerin, plötzliche Atemnot",
+          "praesentation": "Tachykardie, Schmerzen beim Einatmen, Husten.",
+          "befunde": [
+            "SPO2 88%",
+            "EKG: S1Q3-Typ"
+          ],
+          "diagnose": "Lungenembolie",
+          "therapie": [
+            "Sauerstoff",
+            "Vollheparinisierung"
+          ],
+          "lernpunkte": [
+            "Wichtige Ursache mütterlicher Mortalität"
+          ]
+        },
+        {
+          "id": "GEB_G089",
+          "titel": "Lochienstau (Lochiometra)",
+          "tags": [
+            "Wochenbett"
+          ],
+          "patient": "Wöchnerin, 4. Tag",
+          "praesentation": "Plötzliches Aufhören der Lochien, Krämpfe, leichtes Fieber.",
+          "befunde": [
+            "Uterus fest und schmerzhaft",
+            "Muttermund verschlossen"
+          ],
+          "diagnose": "Lochiometra",
+          "therapie": [
+            "Spasmolytika (Buscopan)",
+            "Uterotonika (Oxytocin)",
+            "ggf. vorsichtige Dilatation"
+          ],
+          "lernpunkte": [
+            "Vermeidung einer aufsteigenden Infektion"
+          ]
+        },
+        {
+          "id": "GEB_G090",
+          "titel": "Postpartale Schilddrüsenentzündung",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "Wöchnerin, 3 Monate postpartal",
+          "praesentation": "Müdigkeit, Haarausfall, Stimmungstief.",
+          "befunde": [
+            "fT4 niedrig, TSH hoch"
+          ],
+          "diagnose": "Postpartale Thyreoiditis",
+          "therapie": [
+            "L-Thyroxin passager"
+          ],
+          "lernpunkte": [
+            "Oft Fehldiagnose als Depression"
+          ]
+        }
+      ]
+    },
+    "urogyn_notfaelle_recht": {
+      "label": "Urogynäkologie, Notfälle & Recht",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "GYN_U091",
+          "titel": "Stressinkontinenz",
+          "tags": [
+            "Urogynäkologie"
+          ],
+          "patient": "50-jährige Patientin",
+          "praesentation": "Urinverlust beim Niesen, Husten und Sport.",
+          "befunde": [
+            "Stress-Test positiv",
+            "Sono: Hypermobilität der Urethra"
+          ],
+          "diagnose": "Belastungsinkontinenz Grad II",
+          "therapie": [
+            "Beckenbodentraining",
+            "Lokalöstrogene",
+            "TVT-Band (Operation)"
+          ],
+          "lernpunkte": [
+            "Unterscheidung Belastungs- vs. Dranginkontinenz"
+          ]
+        },
+        {
+          "id": "GYN_U092",
+          "titel": "Überaktive Blase (OAB)",
+          "tags": [
+            "Urogynäkologie"
+          ],
+          "patient": "60-j. Patientin",
+          "praesentation": "Plötzlicher, nicht unterdrückbarer Harndrang, häufige Toilettengänge.",
+          "befunde": [
+            "Urodynamik: Detrusorhyperreflexie"
+          ],
+          "diagnose": "Dranginkontinenz",
+          "therapie": [
+            "Anticholinergika / Beta-3-Agonisten (Mirabegron)",
+            "Blasentraining"
+          ],
+          "lernpunkte": [
+            "Ausschluss HWI primär"
+          ]
+        },
+        {
+          "id": "GYN_U093",
+          "titel": "Sexualisierte Gewalt (Forensik)",
+          "tags": [
+            "Notfall",
+            "Recht"
+          ],
+          "patient": "22-j. Patientin",
+          "praesentation": "Vorstellung nach Vergewaltigung vor 4 Stunden.",
+          "befunde": [
+            "Dokumentation von Verletzungen",
+            "Spurensicherung (DNA-Kits)"
+          ],
+          "diagnose": "Zustand nach Sexualstraftat",
+          "therapie": [
+            "Pille danach",
+            "Postexpositionsprophylaxe (HIV)",
+            "Psychologische Betreuung"
+          ],
+          "lernpunkte": [
+            "Empathie + exakte forensische Dokumentation"
+          ]
+        },
+        {
+          "id": "GYN_U094",
+          "titel": "Schwangerschaftsabbruch (§ 218)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "19-j. Studentin, 8. SSW",
+          "praesentation": "Wunsch nach Abbruch.",
+          "befunde": [
+            "Ungewollte Gravidität"
+          ],
+          "diagnose": "Schwangerschaftskonflikt",
+          "therapie": [
+            "Beratungsbescheinigung einfordern",
+            "3-Tage-Frist beachten",
+            "Medikamentöser/Chirurgischer Abbruch"
+          ],
+          "lernpunkte": [
+            "Rechtliche Rahmenbedingungen in Deutschland"
+          ]
+        },
+        {
+          "id": "GYN_U095",
+          "titel": "V.a. Kindesmissbrauch (Gynäkologisch)",
+          "tags": [
+            "Pädiatrie",
+            "Forensik"
+          ],
+          "patient": "6-j. Mädchen",
+          "praesentation": "Rötung und Schmerzen im Genitalbereich.",
+          "befunde": [
+            "Hymenalriss",
+            "Hämatome"
+          ],
+          "diagnose": "Verdacht auf sexuellen Missbrauch",
+          "therapie": [
+            "Kinderschutzgruppe",
+            "Dokumentation",
+            "Meldung Jugendamt"
+          ],
+          "lernpunkte": [
+            "Keine voreiligen Schlüsse, aber Schutz des Kindes hat Priorität"
+          ]
+        },
+        {
+          "id": "GYN_U096",
+          "titel": "IUD-Dislokation (Spirale)",
+          "tags": [
+            "Verhütung"
+          ],
+          "patient": "35-j. Patientin",
+          "praesentation": "Rückholfaden nicht tastbar.",
+          "befunde": [
+            "Sono: Spirale im Myometrium (perforiert)"
+          ],
+          "diagnose": "IUD-Perforation",
+          "therapie": [
+            "Laparoskopische Bergung"
+          ],
+          "lernpunkte": [
+            "Risiko bei Einlage (besonders postpartal)"
+          ]
+        },
+        {
+          "id": "GYN_U097",
+          "titel": "Aufklärung zur Hysterektomie",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "45-j. Patientin vor geplanter OP",
+          "praesentation": "Elektive Aufnahme.",
+          "befunde": [
+            "Multiple Myome"
+          ],
+          "diagnose": "Präoperative Situation",
+          "therapie": [
+            "Detaillierte Aufklärung über Risiken (Blase, Ureter, Nachblutung)"
+          ],
+          "lernpunkte": [
+            "Dokumentation der konservativen Alternativen"
+          ]
+        },
+        {
+          "id": "GYN_U098",
+          "titel": "Zystozele (Vorderwandplastik)",
+          "tags": [
+            "Descensus"
+          ],
+          "patient": "68-j. Patientin",
+          "praesentation": "Gefühl der unvollständigen Blasenentleerung.",
+          "befunde": [
+            "Vordere Vaginalwand prolabiert",
+            "Sono: Restharn"
+          ],
+          "diagnose": "Zystozele Grad II-III",
+          "therapie": [
+            "Vordere Kolporrhaphie (Plastik)"
+          ],
+          "lernpunkte": [
+            "Häufig vergesellschaftet mit Belastungsinkontinenz"
+          ]
+        },
+        {
+          "id": "GYN_U099",
+          "titel": "Intersexualität (Adrenogenitales Syndrom)",
+          "tags": [
+            "Endokrin",
+            "Recht"
+          ],
+          "patient": "Neugeborenes",
+          "praesentation": "Uneindeutiges Genitale.",
+          "befunde": [
+            "Prall elastische Resistenz im Leistenkanal",
+            "Karyogramm"
+          ],
+          "diagnose": "Variante der Geschlechtsentwicklung (DSD)",
+          "therapie": [
+            "Interdisziplinäres Zentrum",
+            "Keine überstürzten OPs"
+          ],
+          "lernpunkte": [
+            "Ethische und rechtliche Debatte um geschlechtsangleichende OPs"
+          ]
+        },
+        {
+          "id": "GYN_U100",
+          "titel": "Gynäkologische Sepsis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "40-j. Patientin nach illegalem Abbruch",
+          "praesentation": "Hohes Fieber, Schüttelfrost, Schock.",
+          "befunde": [
+            "Druckschmerzhafter Uterus",
+            "Laktat↑"
+          ],
+          "diagnose": "Septischer Abort",
+          "therapie": [
+            "Aggressive Antibiose",
+            "Volumenersatz",
+            "rasche Ausräumung des Uterus"
+          ],
+          "lernpunkte": [
+            "Hohe Letalität"
+          ]
+        }
+      ]
+    }
+  }
+}

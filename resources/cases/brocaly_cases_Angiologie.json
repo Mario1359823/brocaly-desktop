@@ -1,0 +1,2016 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Angiologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-30"
+  },
+  "kategorien": {
+    "diagnostik_evaluation": {
+      "label": "Diagnostik & Evaluation",
+      "emoji": "📊",
+      "faelle": [
+        {
+          "id": "ANG_D001",
+          "titel": "Knöchel-Arm-Index (ABI)",
+          "tags": [
+            "Basisdiagnostik",
+            "pAVK"
+          ],
+          "patient": "65-jähriger Raucher",
+          "praesentation": "Wadenschmerzen beim Gehen (150m).",
+          "befunde": [
+            "RR Arm: 145 mmHg",
+            "RR Knöchel: 85 mmHg"
+          ],
+          "diagnose": "pAVK (ABI 0,58)",
+          "therapie": [
+            "Gehtraining",
+            "Risikofaktorenmanagement"
+          ],
+          "lernpunkte": [
+            "ABI < 0,9 pathologisch",
+            "Mönckeberg-Sklerose bei Werten > 1,3"
+          ]
+        },
+        {
+          "id": "ANG_D002",
+          "titel": "FKDS Karotisstenose",
+          "tags": [
+            "Sono",
+            "ZNS"
+          ],
+          "patient": "72-j. nach TIA",
+          "praesentation": "Kurzzeitige Aphasie.",
+          "befunde": [
+            "PSV 350 cm/s",
+            "EDV 110 cm/s"
+          ],
+          "diagnose": "Hochgradige ACI-Stenose (> 70% NASCET)",
+          "therapie": [
+            "Überweisung zur CEA oder CAS"
+          ],
+          "lernpunkte": [
+            "Flussgeschwindigkeiten zur Graduierung nutzen"
+          ]
+        },
+        {
+          "id": "ANG_D003",
+          "titel": "Laufbandergometrie",
+          "tags": [
+            "Funktion"
+          ],
+          "patient": "58-j. Mann",
+          "praesentation": "Objektivierung der Gehstrecke.",
+          "befunde": [
+            "Gehstrecke 120m (standardisiert)"
+          ],
+          "diagnose": "pAVK Stadium IIb",
+          "therapie": [
+            "Statin + TAH",
+            "Gehtraining"
+          ],
+          "lernpunkte": [
+            "3,2 km/h bei 12% Steigung als Standard"
+          ]
+        },
+        {
+          "id": "ANG_D004",
+          "titel": "Oszillographie",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Pat. mit V.a. pAVK",
+          "praesentation": "Belastungsschmerz.",
+          "befunde": [
+            "Akrosphygmogramm: Pulsverflachung distal"
+          ],
+          "diagnose": "Arterielle Durchblutungsstörung",
+          "therapie": [
+            "FKDS-Ergänzung"
+          ],
+          "lernpunkte": [
+            "Höhenlokalisation des Verschlusses"
+          ]
+        },
+        {
+          "id": "ANG_D005",
+          "titel": "Kapillarmikroskopie",
+          "tags": [
+            "Mikrozirkulation"
+          ],
+          "patient": "25-j. Frau mit Raynaud",
+          "praesentation": "Tricolore-Phänomen.",
+          "befunde": [
+            "Nagelfalz: Riesenkapillaren, avaskuläre Felder"
+          ],
+          "diagnose": "Sekundäres Raynaud-Syndrom (Kollagenose)",
+          "therapie": [
+            "Rheumatologische Mitbehandlung"
+          ],
+          "lernpunkte": [
+            "Frühzeichen einer systemischen Sklerose"
+          ]
+        },
+        {
+          "id": "ANG_D006",
+          "titel": "Transkutane pO2-Messung (tcpO2)",
+          "tags": [
+            "Wunde",
+            "pAVK"
+          ],
+          "patient": "Diabetiker mit Vorfußgangrän",
+          "praesentation": "Unklare Heilungstendenz.",
+          "befunde": [
+            "tcpO2: 12 mmHg"
+          ],
+          "diagnose": "Kritische Ischämie",
+          "therapie": [
+            "Dringliche Revaskularisation"
+          ],
+          "lernpunkte": [
+            "Werte < 30 mmHg prognostisch ungünstig"
+          ]
+        },
+        {
+          "id": "ANG_D007",
+          "titel": "Allen-Test (Hand)",
+          "tags": [
+            "Untersuchung"
+          ],
+          "patient": "Pat. vor arterieller Punktion",
+          "praesentation": "Prüfung Kollateralkreislauf.",
+          "befunde": [
+            "Verzögerter Flush nach Ulnaris-Freigabe"
+          ],
+          "diagnose": "Inkompletter Arcus palmaris",
+          "therapie": [
+            "Keine Punktion der A. radialis"
+          ],
+          "lernpunkte": [
+            "Vermeidung iatrogener Ischämie"
+          ]
+        },
+        {
+          "id": "ANG_D008",
+          "titel": "Lichtreflexionsrheographie (LRR)",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "Frau mit schweren Beinen",
+          "praesentation": "V.a. Veneninsuffizienz.",
+          "befunde": [
+            "Wiederauffüllzeit < 25s"
+          ],
+          "diagnose": "Chronisch venöse Insuffizienz (CVI)",
+          "therapie": [
+            "Kompressionstherapie"
+          ],
+          "lernpunkte": [
+            "Funktionstest der Muskel-Venen-Pumpe"
+          ]
+        },
+        {
+          "id": "ANG_D009",
+          "titel": "CTA Aorta",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "70-j. mit tastbarer Resistenz Bauch",
+          "praesentation": "Ausschluss Aneurysma.",
+          "befunde": [
+            "Spindelform Ø 5,8 cm"
+          ],
+          "diagnose": "AAA infrarenal",
+          "therapie": [
+            "Gefäßchirurgisches Konsil (EVAR/offen)"
+          ],
+          "lernpunkte": [
+            "Goldstandard zur OP-Planung"
+          ]
+        },
+        {
+          "id": "ANG_D010",
+          "titel": "MRA Becken-Bein",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "Niereninsuffizienter Pat. (GFR 45)",
+          "praesentation": "V.a. Mehretagen-pAVK.",
+          "befunde": [
+            "Kontrastmittelgestützte MRA"
+          ],
+          "diagnose": "Iliakalstenose bds.",
+          "therapie": [
+            "PTA-Evaluation"
+          ],
+          "lernpunkte": [
+            "Cave: NSF bei schwerer Niereninsuffizienz"
+          ]
+        },
+        {
+          "id": "ANG_D011",
+          "titel": "Phlebographie",
+          "tags": [
+            "Technik",
+            "Venen"
+          ],
+          "patient": "Pat. vor komplexer Varizen-OP",
+          "praesentation": "Rezidiv-Varikosis.",
+          "befunde": [
+            "Darstellung tiefer Venen"
+          ],
+          "diagnose": "Insuffiziente Perforansvenen",
+          "therapie": [
+            "Gezielte Ligatur"
+          ],
+          "lernpunkte": [
+            "Heutzutage weitgehend durch FKDS ersetzt"
+          ]
+        },
+        {
+          "id": "ANG_D012",
+          "titel": "D-Dimere (Ausschluss)",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "40-j. Frau, Beinschmerz",
+          "praesentation": "Wells-Score 1 (niedrig).",
+          "befunde": [
+            "D-Dimere < 0,5 mg/l"
+          ],
+          "diagnose": "Ausschluss TVT",
+          "therapie": [
+            "Keine Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Hoher negativer Vorhersagewert"
+          ]
+        },
+        {
+          "id": "ANG_D013",
+          "titel": "Ratschow-Lagerungsprobe",
+          "tags": [
+            "Untersuchung"
+          ],
+          "patient": "pAVK Verdacht",
+          "praesentation": "Körperliche Untersuchung.",
+          "befunde": [
+            "Abblassen bei Elevation, reaktive Hyperämie verzögert"
+          ],
+          "diagnose": "Funktionelle Ischämiezeichen",
+          "therapie": [
+            "ABI-Messung"
+          ],
+          "lernpunkte": [
+            "Klassischer klinischer Test"
+          ]
+        },
+        {
+          "id": "ANG_D014",
+          "titel": "Duplex Vena saphena magna",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "Pat. mit Krampfadern",
+          "praesentation": "Schwellneigung.",
+          "befunde": [
+            "Reflux an der Krossenmündung > 0,5s"
+          ],
+          "diagnose": "Stammvarikosis",
+          "therapie": [
+            "Endovenöse Thermoablation"
+          ],
+          "lernpunkte": [
+            "Refluxdauer als pathologisches Kriterium"
+          ]
+        },
+        {
+          "id": "ANG_D015",
+          "titel": "CO2-Angiographie",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit GFR 20",
+          "praesentation": "Planung PTA.",
+          "befunde": [
+            "Verwendung von CO2 statt Jod-KM"
+          ],
+          "diagnose": "Vermeidung von nephrotoxischem KM",
+          "therapie": [
+            "Interventionelle Angioplastie"
+          ],
+          "lernpunkte": [
+            "Standard bei schwerer Niereninsuffizienz"
+          ]
+        }
+      ]
+    },
+    "pavk_ischämie": {
+      "label": "pAVK & Arterielle Ischämie",
+      "emoji": "🦵",
+      "faelle": [
+        {
+          "id": "ANG_P016",
+          "titel": "Akuter Arterienverschluss (Bein)",
+          "tags": [
+            "Notfall",
+            "Ischämie"
+          ],
+          "patient": "75-jähriger mit Vorhofflimmern",
+          "praesentation": "Plötzlicher Schmerz, blass, kalt, kein Puls.",
+          "befunde": [
+            "6 P's nach Pratt positiv",
+            "Rutherford Stadium IIb"
+          ],
+          "diagnose": "Embolischer Verschluss A. femoralis",
+          "therapie": [
+            "Sofort Heparin",
+            "Notfall-Embolektomie (Fogarty)"
+          ],
+          "lernpunkte": [
+            "Zeitfaktor: 'Golden Hour' 6h"
+          ]
+        },
+        {
+          "id": "ANG_P017",
+          "titel": "pAVK Stadium III (Ruheschmerz)",
+          "tags": [
+            "pAVK"
+          ],
+          "patient": "68-j. Diabetiker",
+          "praesentation": "Schmerzen im Fuß nachts, Besserung durch Tieflage.",
+          "befunde": [
+            "ABI 0,4",
+            "Pulse nicht tastbar"
+          ],
+          "diagnose": "Kritische Extremitätenischämie (CLI)",
+          "therapie": [
+            "Interventionelle Rekanalisation (PTA/Stent)"
+          ],
+          "lernpunkte": [
+            "Nachtschmerz ist Warnzeichen für Stadium III"
+          ]
+        },
+        {
+          "id": "ANG_P018",
+          "titel": "pAVK Stadium IV (Ulcus)",
+          "tags": [
+            "pAVK",
+            "Wunde"
+          ],
+          "patient": "80-j. Raucher",
+          "praesentation": "Nekrose an der Ferse, heilt nicht.",
+          "befunde": [
+            "Trockenes Gangrän",
+            "tcpO2 5 mmHg"
+          ],
+          "diagnose": "pAVK Stadium IV (Fontaine)",
+          "therapie": [
+            "Revaskularisation + lokales Wundmanagement"
+          ],
+          "lernpunkte": [
+            "Kein Debridement bei kritischer Ischämie ohne Reperfusion"
+          ]
+        },
+        {
+          "id": "ANG_P019",
+          "titel": "Schaufensterkrankheit (Fontaine IIa)",
+          "tags": [
+            "pAVK"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Wadenschmerz nach 300m Gehen.",
+          "befunde": [
+            "ABI 0,75",
+            "keine Ruheschmerzen"
+          ],
+          "diagnose": "pAVK Stadium IIa",
+          "therapie": [
+            "Überwachtes Gehtraining",
+            "ASS 100",
+            "Atorvastatin"
+          ],
+          "lernpunkte": [
+            "Konservative Therapie vor Intervention in Stadium II"
+          ]
+        },
+        {
+          "id": "ANG_P020",
+          "titel": "Beckentyp-pAVK (Iliakalstenose)",
+          "tags": [
+            "pAVK"
+          ],
+          "patient": "50-j. Mann, Oberschenkelschmerz",
+          "praesentation": "Claudicatio, erektile Dysfunktion.",
+          "befunde": [
+            "Leistenpulse abgeschwächt",
+            "FKDS: Stenose A. iliaca comm."
+          ],
+          "diagnose": "Leriche-Syndrom (V.a.)",
+          "therapie": [
+            "Iliakale Stentangioplastie"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache für Belastungsschmerz im Oberschenkel/Gesäß"
+          ]
+        },
+        {
+          "id": "ANG_P021",
+          "titel": "Mediasklerose (Mönckeberg)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "72-j. Diabetiker",
+          "praesentation": "Fußschmerzen, Ulcus.",
+          "befunde": [
+            "ABI 1,5 (falsch hoch)",
+            "Pulse tastbar (verhärtet)"
+          ],
+          "diagnose": "Mediasklerose bei Diabetes mellitus",
+          "therapie": [
+            "Zehenarteriendruckmessung (TBI)"
+          ],
+          "lernpunkte": [
+            "ABI bei Mediasklerose nicht verwertbar"
+          ]
+        },
+        {
+          "id": "ANG_P022",
+          "titel": "Thrombangiitis obliterans",
+          "tags": [
+            "Ischämie"
+          ],
+          "patient": "32-j. starker Raucher",
+          "praesentation": "Akra-Nekrosen Finger, rez. Thrombophlebitis.",
+          "befunde": [
+            "Angio: Korkenzieher-Kollateralen",
+            "Befall kleiner Gefäße"
+          ],
+          "diagnose": "M. Winiwarter-Buerger",
+          "therapie": [
+            "Absoluter Rauchstopp (Kausal!)"
+          ],
+          "lernpunkte": [
+            "Betrifft junge Männer, Nikotin als Haupttrigger"
+          ]
+        },
+        {
+          "id": "ANG_P023",
+          "titel": "Blue-Toe-Syndrom",
+          "tags": [
+            "Embolie"
+          ],
+          "patient": "65-j. mit bekanntem AAA",
+          "praesentation": "Schlagartig blaue, schmerzhafte Zehe, Fußpulse tastbar.",
+          "befunde": [
+            "Lividität Dig. I re."
+          ],
+          "diagnose": "Mikroembolisation aus proximaler Quelle",
+          "therapie": [
+            "Aneurysma-Ausschaltung",
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Embolie aus Aneurysmathromben"
+          ]
+        },
+        {
+          "id": "ANG_P024",
+          "titel": "Erythromelalgie",
+          "tags": [
+            "Mikrozirkulation"
+          ],
+          "patient": "45-j. Patient",
+          "praesentation": "Brennende Schmerzen und Rötung der Füße bei Wärme.",
+          "befunde": [
+            "Besserung durch Kälte",
+            "Labor: Thrombozytose?"
+          ],
+          "diagnose": "Erythromelalgie",
+          "therapie": [
+            "ASS",
+            "Kühlung"
+          ],
+          "lernpunkte": [
+            "Assoziation mit myeloproliferativen Erkrankungen"
+          ]
+        },
+        {
+          "id": "ANG_P025",
+          "titel": "Acrocyanosis",
+          "tags": [
+            "Vasomotorik"
+          ],
+          "patient": "19-j. Frau",
+          "praesentation": "Dauerhaft bläuliche Verfärbung der Hände, schmerzlos.",
+          "befunde": [
+            "Teigiges Ödem, feuchtkalte Haut"
+          ],
+          "diagnose": "Essenzielle Akrozynose",
+          "therapie": [
+            "Kälteschutz",
+            "Beruhigung"
+          ],
+          "lernpunkte": [
+            "Benigne Verlaufsform"
+          ]
+        },
+        {
+          "id": "ANG_P026",
+          "titel": "Raynaud-Syndrom (Primär)",
+          "tags": [
+            "Vasomotorik"
+          ],
+          "patient": "22-j. Studentin",
+          "praesentation": "Anfallsweises Weißwerden der Finger bei Kälte.",
+          "befunde": [
+            "Triphasen-Reaktion (Weiß-Blau-Rot)",
+            "Kapillarmikroskopie normal"
+          ],
+          "diagnose": "M. Raynaud (Primär)",
+          "therapie": [
+            "Triggervermeidung",
+            "Nifedipin bei Schwere"
+          ],
+          "lernpunkte": [
+            "Symmetrischer Befall, keine Trophikstörungen"
+          ]
+        },
+        {
+          "id": "ANG_P027",
+          "titel": "Zystische Adventitiadegeneration",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "40-j. sportlicher Nichtraucher",
+          "praesentation": "Plötzliche Claudicatio Kniekehle.",
+          "befunde": [
+            "FKDS: Sanduhrstenose A. poplitea durch Zyste"
+          ],
+          "diagnose": "Adventitiadefekt",
+          "therapie": [
+            "Operative Zystenentfernung"
+          ],
+          "lernpunkte": [
+            "Nicht-atherosklerotische Ursache der pAVK"
+          ]
+        },
+        {
+          "id": "ANG_P028",
+          "titel": "Popliteales Entrapment-Syndrom",
+          "tags": [
+            "Sport"
+          ],
+          "patient": "25-j. Läufer",
+          "praesentation": "Claudicatio nur bei Belastung.",
+          "befunde": [
+            "FKDS: Kompression bei Provokationsmanövern (Plantarflektion)"
+          ],
+          "diagnose": "Entrapment A. poplitea",
+          "therapie": [
+            "Myotomie (M. gastrocnemius)"
+          ],
+          "lernpunkte": [
+            "Anatomische Variante"
+          ]
+        },
+        {
+          "id": "ANG_P029",
+          "titel": "Endofibrose der Beckenarterien",
+          "tags": [
+            "Sport"
+          ],
+          "patient": "Profi-Radrennfahrer",
+          "praesentation": "Leistungsknick, Schmerz im Bein bei maximaler Last.",
+          "befunde": [
+            "Angio: Glatte Stenose A. iliaca externa"
+          ],
+          "diagnose": "Radfahrer-Endofibrose",
+          "therapie": [
+            "Gefäßchirurgische Patch-Plastik"
+          ],
+          "lernpunkte": [
+            "Mechanischer Reiz durch extreme Flexion"
+          ]
+        },
+        {
+          "id": "ANG_P030",
+          "titel": "Kritische Extremitätenischämie (Heilungschance)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Multimorbider Pat. mit Fontaine IV",
+          "praesentation": "Großflächige Gangrän Fuß.",
+          "befunde": [
+            "Invasiv nicht mehr rekonstruierbar"
+          ],
+          "diagnose": "CLI (No-option Patient)",
+          "therapie": [
+            "Major-Amputation",
+            "Palliative Analgesie"
+          ],
+          "lernpunkte": [
+            "Wahrung der Lebensqualität"
+          ]
+        },
+        {
+          "id": "ANG_P031",
+          "titel": "pAVK-Screening bei Dialysepatienten",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Dialysepflichtiger Diabetiker",
+          "praesentation": "Vorsorge.",
+          "befunde": [
+            "Massive Verkalkungen im Röntgen (Pipe-stem)"
+          ],
+          "diagnose": "Mediasklerose",
+          "therapie": [
+            "TBI Messung"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für CLI bei Dialyse"
+          ]
+        },
+        {
+          "id": "ANG_P032",
+          "titel": "Ischämische Nephropathie",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Pat. mit generalisierter Atherosklerose",
+          "praesentation": "Kreatininanstieg.",
+          "befunde": [
+            "FKDS: Stenose A. renalis bds."
+          ],
+          "diagnose": "Nierenarterienstenose",
+          "therapie": [
+            "RR-Einstellung",
+            "ggf. Stent"
+          ],
+          "lernpunkte": [
+            "Verschlechterung unter ACE-Hemmern beachten"
+          ]
+        },
+        {
+          "id": "ANG_P033",
+          "titel": "Kardiovaskuläre Sekundärprävention",
+          "tags": [
+            "Management"
+          ],
+          "patient": "pAVK Pat. Stadium II",
+          "praesentation": "Optimierung der Medikation.",
+          "befunde": [
+            "LDL-C 130 mg/dl"
+          ],
+          "diagnose": "Dyslipidämie bei pAVK",
+          "therapie": [
+            "Atorvastatin 80mg (Ziel-LDL < 55)"
+          ],
+          "lernpunkte": [
+            "pAVK-Pat. haben das höchste CV-Risiko"
+          ]
+        },
+        {
+          "id": "ANG_P034",
+          "titel": "Gehtraining-Indikation",
+          "tags": [
+            "Physiotherapie"
+          ],
+          "patient": "pAVK IIb",
+          "praesentation": "Wunsch nach konservativer Therapie.",
+          "befunde": [
+            "Motivierter Patient"
+          ],
+          "diagnose": "Indikation strukturiertes Gehtraining",
+          "therapie": [
+            "3x wöchentlich > 30 Min."
+          ],
+          "lernpunkte": [
+            "Verbesserung der Kollateralisation"
+          ]
+        },
+        {
+          "id": "ANG_P035",
+          "titel": "Prostazyklin-Therapie",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "pAVK III, inoperabel",
+          "praesentation": "Ruheschmerz.",
+          "befunde": [
+            "Ischämiezeichen distal"
+          ],
+          "diagnose": "Kritische Ischämie",
+          "therapie": [
+            "Iloprost-Infusionen"
+          ],
+          "lernpunkte": [
+            "Vasodilatation + Thrombozytenaggregationshemmung"
+          ]
+        }
+      ]
+    },
+    "aorta_viszeral": {
+      "label": "Aorta & Viszeralarterien",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "ANG_A036",
+          "titel": "Abdominales Aortenaneurysma (AAA)",
+          "tags": [
+            "Aorta",
+            "Screening"
+          ],
+          "patient": "66-jähriger Mann, Raucher",
+          "praesentation": "Routine-Vorsorge.",
+          "befunde": [
+            "Sono: Aorta infrarenal Ø 4,2 cm"
+          ],
+          "diagnose": "AAA (Überwachungspflichtig)",
+          "therapie": [
+            "Jährliche Sono-Kontrolle",
+            "Rauchstopp"
+          ],
+          "lernpunkte": [
+            "Screening-Leistung GKV ab 65 J."
+          ]
+        },
+        {
+          "id": "ANG_A037",
+          "titel": "Gedeckt rupturiertes AAA",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "75-j. Mann",
+          "praesentation": "Akuter Rückenschmerz, Pulsierende Raumforderung Bauch.",
+          "befunde": [
+            "CTA: Kontrastmittelaustritt retroperit."
+          ],
+          "diagnose": "Rupturiertes AAA",
+          "therapie": [
+            "Notfall-EVAR"
+          ],
+          "lernpunkte": [
+            "Häufige Fehldiagnose: Nierenkolik oder Bandscheibenvorfall"
+          ]
+        },
+        {
+          "id": "ANG_A038",
+          "titel": "Aortendissektion Typ B",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "55-j. mit Hypertensive Krise",
+          "praesentation": "Reißender Schmerz zwischen den Schulterblättern.",
+          "befunde": [
+            "CTA: Entry distal der Subclavia"
+          ],
+          "diagnose": "Stanford Typ B Dissektion",
+          "therapie": [
+            "RR-Senkung (Esmolol)",
+            "TEVAR bei Malperfusion"
+          ],
+          "lernpunkte": [
+            "Unkomplizierte Typ B: primär medikamentös"
+          ]
+        },
+        {
+          "id": "ANG_A039",
+          "titel": "Angina abdominalis",
+          "tags": [
+            "Viszeral"
+          ],
+          "patient": "65-j. kachektische Frau",
+          "praesentation": "Postprandialer Schmerz, Angst vor dem Essen.",
+          "befunde": [
+            "FKDS: Hohe Flussgeschwindigkeiten Tr. coeliacus + AMS"
+          ],
+          "diagnose": "Chronische Mesenterialischämie",
+          "therapie": [
+            "Interventionelles Stenting"
+          ],
+          "lernpunkte": [
+            "Meist 2 von 3 Gefäßen betroffen"
+          ]
+        },
+        {
+          "id": "ANG_A040",
+          "titel": "Nierenarterienstenose (FMD)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "28-j. Frau",
+          "praesentation": "Schwer einstellbarer Hypertonus.",
+          "befunde": [
+            "Angio: Perlschnurartige Veränderung (String of beads)"
+          ],
+          "diagnose": "Fibromuskuläre Dysplasie",
+          "therapie": [
+            "Ballonangioplastie (ohne Stent)"
+          ],
+          "lernpunkte": [
+            "Häufige Hypertonieurisache bei jungen Frauen"
+          ]
+        },
+        {
+          "id": "ANG_A041",
+          "titel": "Nierentrauma (Gefäßbeteiligung)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Motorradunfall",
+          "praesentation": "Hämaturie.",
+          "befunde": [
+            "CTA: Nierenstielabriss"
+          ],
+          "diagnose": "Nierentrauma Grad V",
+          "therapie": [
+            "Notfall-Op"
+          ],
+          "lernpunkte": [
+            "Gefahr des massiven Blutverlustes"
+          ]
+        },
+        {
+          "id": "ANG_A042",
+          "titel": "Aneurysma der A. iliaca",
+          "tags": [
+            "Aorta"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Beschwerdefrei, Zufallsfund bei Prostata-MRT.",
+          "befunde": [
+            "Isoliertes Iliakalaneurysma Ø 3,8 cm"
+          ],
+          "diagnose": "A. iliaca comm. Aneurysma",
+          "therapie": [
+            "Iliakal-Stentgraft"
+          ],
+          "lernpunkte": [
+            "Indikation zur Therapie ab ca. 3,5 cm"
+          ]
+        },
+        {
+          "id": "ANG_A043",
+          "titel": "Dunbar-Syndrom (Truncus-Kompression)",
+          "tags": [
+            "Viszeral"
+          ],
+          "patient": "30-j. Frau",
+          "praesentation": "Oberbauchschmerz atemabhängig.",
+          "befunde": [
+            "FKDS: Stenose Tr. coeliacus bei Exspiration (Zwerchfellschenkel)"
+          ],
+          "diagnose": "Ligamentum-arcuatum-medianum-Syndrom",
+          "therapie": [
+            "Chirurgische Spaltung des Ligaments"
+          ],
+          "lernpunkte": [
+            "Funktionelle Viszeralarterienstenose"
+          ]
+        },
+        {
+          "id": "ANG_A044",
+          "titel": "Aortitis (Vaskulitis)",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "40-j. mit Fieber und Rückenschmerz",
+          "praesentation": "Hohe Entzündungswerte.",
+          "befunde": [
+            "PET-CT: Mehranreicherung Aortenwand"
+          ],
+          "diagnose": "Großgefäßvaskulitis (Takayasu)",
+          "therapie": [
+            "Steroide",
+            "MTX"
+          ],
+          "lernpunkte": [
+            "Wandödem im MRT als Aktivitätszeichen"
+          ]
+        },
+        {
+          "id": "ANG_A045",
+          "titel": "Entzündliches AAA",
+          "tags": [
+            "Aorta"
+          ],
+          "patient": "65-j. Mann",
+          "praesentation": "Dumpfer Bauchschmerz, BSG↑.",
+          "befunde": [
+            "CT: Manschettenartige Wandverdickung (Periaortitis)"
+          ],
+          "diagnose": "Entzündliches Aortenaneurysma",
+          "therapie": [
+            "Steroide + zeitnahe Ausschaltung"
+          ],
+          "lernpunkte": [
+            "Ureterbeteiligung mit Harnstau möglich"
+          ]
+        },
+        {
+          "id": "ANG_A046",
+          "titel": "Mykotisches Aneurysma",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "50-j. mit Sepsis (S. aureus)",
+          "praesentation": "Sakkuläre Ausbuchtung der Aorta im Verlauf.",
+          "befunde": [
+            "CT: Unregelmäßige Aneurysmaform"
+          ],
+          "diagnose": "Infiziertes Aneurysma",
+          "therapie": [
+            "Langzeitantibiose + Chirurgie (Allograft)"
+          ],
+          "lernpunkte": [
+            "Hohe Rupturgefahr"
+          ]
+        },
+        {
+          "id": "ANG_A047",
+          "titel": "Aortenwandhämatom (IMH)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. Patient",
+          "praesentation": "Thoraxschmerz wie bei Dissektion.",
+          "befunde": [
+            "CTA: Wandverdickung ohne Intima-Flap"
+          ],
+          "diagnose": "Intramurales Hämatom",
+          "therapie": [
+            "Konservativ (RR-Kontrolle)"
+          ],
+          "lernpunkte": [
+            "Vorstufe oder Variante der Dissektion"
+          ]
+        },
+        {
+          "id": "ANG_A048",
+          "titel": "Penetrierendes Aortenulkus (PAU)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Alt, Raucher",
+          "praesentation": "Thoraxschmerz.",
+          "befunde": [
+            "CTA: Ulkus kraterförmig in atherosklerotischer Plaque"
+          ],
+          "diagnose": "PAU",
+          "therapie": [
+            "Stentgraft bei Rupturgefahr"
+          ],
+          "lernpunkte": [
+            "Teil des Akuten Aortensyndroms (AAS)"
+          ]
+        },
+        {
+          "id": "ANG_A049",
+          "titel": "Aorta-duodenale Fistel",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. mit Z.n. Y-Prothese vor 5 Jahren",
+          "praesentation": "Heftige Hämatemesis (Herald Bleed).",
+          "befunde": [
+            "Endo: Blut aus Duodenum pars III"
+          ],
+          "diagnose": "Prothesen-Darm-Fistel",
+          "therapie": [
+            "Notfall-Op"
+          ],
+          "lernpunkte": [
+            "Warnblutung (Herald Bleeding) beachten"
+          ]
+        },
+        {
+          "id": "ANG_A050",
+          "titel": "Aneurysma der A. lienalis",
+          "tags": [
+            "Viszeral"
+          ],
+          "patient": "35-j. Schwangere",
+          "praesentation": "Zufallsbefund Sono.",
+          "befunde": [
+            "Ø 2,2 cm Milzarterienaneurysma"
+          ],
+          "diagnose": "Milzarterienaneurysma",
+          "therapie": [
+            "Embolisation/OP (Dringlich in SS!)"
+          ],
+          "lernpunkte": [
+            "Hohes Rupturrisiko in der Schwangerschaft"
+          ]
+        }
+      ]
+    },
+    "zerebrovaskulaer": {
+      "label": "Zerebrovaskuläre Erkrankungen",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "VASC_Z051",
+          "titel": "Symptomatische Carotisstenose",
+          "tags": [
+            "Carotis",
+            "Stroke"
+          ],
+          "patient": "68-jährige Frau",
+          "praesentation": "Amaurosis fugax links vor 2 Tagen.",
+          "befunde": [
+            "FKDS: PSV 400 cm/s, NASCET 80%"
+          ],
+          "diagnose": "Symptomatische ACI-Stenose",
+          "therapie": [
+            "CEA innerhalb von 48h-14 Tagen"
+          ],
+          "lernpunkte": [
+            "Benefit der OP sinkt nach 14 Tagen"
+          ]
+        },
+        {
+          "id": "VASC_Z052",
+          "titel": "Asymptomatische Carotisstenose",
+          "tags": [
+            "Carotis"
+          ],
+          "patient": "75-j. Mann, Routine-Check",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "FKDS: 85% Stenose rechts",
+            "MRT-Kopf: keine stummen Infarkte"
+          ],
+          "diagnose": "Asymptomatische ACI-Stenose",
+          "therapie": [
+            "Statine/TAH + ggf. OP bei hohem Risiko"
+          ],
+          "lernpunkte": [
+            "ACST-Studie: Langzeitbenefit bei Männern"
+          ]
+        },
+        {
+          "id": "VASC_Z053",
+          "titel": "Carotis-Eversions-Endarteriektomie",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit Kinking der ACI",
+          "praesentation": "OP-Planung.",
+          "befunde": [
+            "Elongation + Stenose"
+          ],
+          "diagnose": "ACI-Stenose",
+          "therapie": [
+            "Eversions-CEA"
+          ],
+          "lernpunkte": [
+            "Längenkürzung simultan möglich"
+          ]
+        },
+        {
+          "id": "VASC_Z054",
+          "titel": "Subclavian-Steal-Syndrom",
+          "tags": [
+            "Supraaortal"
+          ],
+          "patient": "50-j. Mann, Schwindel beim Armtraining",
+          "praesentation": "Blutdruckdifferenz Arme 45 mmHg.",
+          "befunde": [
+            "FKDS: Retrograder Fluss A. vertebralis"
+          ],
+          "diagnose": "Subclavia-Verschluss prävertebral",
+          "therapie": [
+            "Bypass oder Transposition"
+          ],
+          "lernpunkte": [
+            "Anzapfphänomen"
+          ]
+        },
+        {
+          "id": "VASC_Z055",
+          "titel": "Glomustumor",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "40-j. Frau",
+          "praesentation": "Pulsierende Raumforderung Hals.",
+          "befunde": [
+            "FKDS: Hypervaskularisiert (Lyre-Sign)"
+          ],
+          "diagnose": "Paragangliom (Glomus caroticum)",
+          "therapie": [
+            "Resektion"
+          ],
+          "lernpunkte": [
+            "Gefahr der Hirnnervenläsion bei OP"
+          ]
+        },
+        {
+          "id": "VASC_Z056",
+          "titel": "A. vertebralis Stenose",
+          "tags": [
+            "ZNS"
+          ],
+          "patient": "65-j. mit Schwindel",
+          "praesentation": "Hintergrundischämie.",
+          "befunde": [
+            "FKDS: Stenose V1-Segment"
+          ],
+          "diagnose": "Vertebralisstenose",
+          "therapie": [
+            "Stent (selten) vs. Konservativ"
+          ],
+          "lernpunkte": [
+            "Vertebrobasiläre Insuffizienz"
+          ]
+        },
+        {
+          "id": "VASC_Z057",
+          "titel": "Carotis-Dissektion",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "35-j. nach Trauma",
+          "praesentation": "Horner-Syndrom, Stroke-Symptome.",
+          "befunde": [
+            "FKDS: Doppellumen, Wandhämatom"
+          ],
+          "diagnose": "Dissektion ACI",
+          "therapie": [
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Häufige Stroke-Ursache beim jungen Erwachsenen"
+          ]
+        },
+        {
+          "id": "VASC_Z058",
+          "titel": "Carotis-Stenting (CAS)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "70-j. mit 'Hostile Neck'",
+          "praesentation": "Z.n. Bestrahlung Hals.",
+          "befunde": [
+            "Symptomatische Stenose"
+          ],
+          "diagnose": "ACI-Stenose",
+          "therapie": [
+            "Carotis-Stenting mit Protektionssystem"
+          ],
+          "lernpunkte": [
+            "Gleichwertigkeit zur CEA bei spezifischen Indikationen"
+          ]
+        },
+        {
+          "id": "VASC_Z059",
+          "titel": "Takayasu-Arteriitis (ZNS)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "22-j. asiatische Frau",
+          "praesentation": "Synkopen, fehlende Pulse Arme.",
+          "befunde": [
+            "CTA: Stenosen Aortenbogenabgänge"
+          ],
+          "diagnose": "Takayasu-Arteriitis",
+          "therapie": [
+            "Steroide",
+            "MTX"
+          ],
+          "lernpunkte": [
+            "Pulslose Krankheit"
+          ]
+        },
+        {
+          "id": "VASC_Z060",
+          "titel": "Near-Occlusion der Carotis",
+          "tags": [
+            "Carotis"
+          ],
+          "patient": "70-j. mit TIA",
+          "praesentation": "Stenosebefund.",
+          "befunde": [
+            "FKDS: Fadenförmiger Restfluss (String-Sign)"
+          ],
+          "diagnose": "Near-Occlusion (Subtotaler Verschluss)",
+          "therapie": [
+            "Konservativ vs. OP (umstritten)"
+          ],
+          "lernpunkte": [
+            "Risiko oft geringer als bei hochgradiger Stenose"
+          ]
+        }
+      ]
+    },
+    "venoese_erkrankungen": {
+      "label": "Venöse Erkrankungen & Thrombose",
+      "emoji": "💧",
+      "faelle": [
+        {
+          "id": "VASC_V061",
+          "titel": "Tiefe Venenthrombose (TVT)",
+          "tags": [
+            "Venen",
+            "Notfall"
+          ],
+          "patient": "40-jährige Frau nach Knie-OP",
+          "praesentation": "Einseitige Beinschwellung, Wadenschmerz.",
+          "befunde": [
+            "FKDS: V. poplitea nicht komprimierbar",
+            "D-Dimere 3,5 mg/l"
+          ],
+          "diagnose": "Akute TVT",
+          "therapie": [
+            "Antikoagulation (DOAK)",
+            "Kompression"
+          ],
+          "lernpunkte": [
+            "Wells-Score zur Wahrscheinlichkeit",
+            "Lungenembolie-Risiko"
+          ]
+        },
+        {
+          "id": "VASC_V062",
+          "titel": "Phlegmasia coerulea dolens",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Krebspatient, massiv geschwollenes Bein",
+          "praesentation": "Blau-schwarze Verfärbung, Pulse fehlen (sekundär).",
+          "befunde": [
+            "Gesamtverschluss der Venen"
+          ],
+          "diagnose": "Phlegmasia coerulea dolens",
+          "therapie": [
+            "Notfall-Thrombektomie / Lyse"
+          ],
+          "lernpunkte": [
+            "Maximalform der TVT mit Amputationsgefahr"
+          ]
+        },
+        {
+          "id": "VASC_V063",
+          "titel": "Postthrombotisches Syndrom (PTS)",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "60-j. Mann nach TVT vor 5 Jahren",
+          "praesentation": "Chronisches Ödem, Hyperpigmentierung.",
+          "befunde": [
+            "FKDS: Klappenzerstörung, Reflux"
+          ],
+          "diagnose": "PTS",
+          "therapie": [
+            "Kompression Klasse II-III"
+          ],
+          "lernpunkte": [
+            "Vermeidung durch konsequente Akuttherapie"
+          ]
+        },
+        {
+          "id": "VASC_V064",
+          "titel": "Paget-von-Schroetter-Syndrom",
+          "tags": [
+            "Notfall",
+            "Sport"
+          ],
+          "patient": "22-j. Kraftsportler",
+          "praesentation": "Akute Armschwellung re.",
+          "befunde": [
+            "FKDS: Subclavia-Thrombose"
+          ],
+          "diagnose": "Anstrengungsthrombose des Armes",
+          "therapie": [
+            "Lyse + operative Dekompression (Thoracic Outlet)"
+          ],
+          "lernpunkte": [
+            "Meist mechanische Kompression 1. Rippe"
+          ]
+        },
+        {
+          "id": "VASC_V065",
+          "titel": "May-Thurner-Syndrom",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "25-j. Frau, TVT links",
+          "praesentation": "Rezidivierende Thrombosen links.",
+          "befunde": [
+            "Phlebographie: Kompression V. iliaca li. durch A. iliaca re."
+          ],
+          "diagnose": "Beckenvenensporn",
+          "therapie": [
+            "Beckenvenen-Stent"
+          ],
+          "lernpunkte": [
+            "Anatomische Prädisposition"
+          ]
+        },
+        {
+          "id": "VASC_V066",
+          "titel": "Thrombophlebitis superficialis",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "Pat. mit Varikosis",
+          "praesentation": "Schmerzhafter roter Strang am Unterschenkel.",
+          "befunde": [
+            "Lokale Entzündung oberflächlich"
+          ],
+          "diagnose": "Oberflächliche Venenthrombose (OVT)",
+          "therapie": [
+            "Mobilisation",
+            "Kompression",
+            "Fondaparinux bei Länge > 5cm"
+          ],
+          "lernpunkte": [
+            "Ausschluss begleitende TVT (25%!)"
+          ]
+        },
+        {
+          "id": "VASC_V067",
+          "titel": "Vena cava superior Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit Bronchial-CA",
+          "praesentation": "Stokes-Kragen (Gesichtsschwellung), gestaute Halsvenen.",
+          "befunde": [
+            "CT: Obere Einflussstauung durch Tumor"
+          ],
+          "diagnose": "V. cava superior Syndrom",
+          "therapie": [
+            "Stent-Einlage + Strahlen/Chemo"
+          ],
+          "lernpunkte": [
+            "Gefahr des Hirnödems"
+          ]
+        },
+        {
+          "id": "VASC_V068",
+          "titel": "Budd-Chiari-Syndrom",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Pat. mit Myeloproliferativer Erkrankung",
+          "praesentation": "Aszites, Hepatomegalie.",
+          "befunde": [
+            "Sono: Verschluss der Lebervenen"
+          ],
+          "diagnose": "Budd-Chiari-Syndrom",
+          "therapie": [
+            "Antikoagulation",
+            "TIPS"
+          ],
+          "lernpunkte": [
+            "Oft hämatologische Grunderkrankung"
+          ]
+        },
+        {
+          "id": "VASC_V069",
+          "titel": "Varikosis in der Schwangerschaft",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "Schwangere (32. SSW)",
+          "praesentation": "Massive Varizen Schamlippen und Beine.",
+          "befunde": [
+            "Gestaute Venen"
+          ],
+          "diagnose": "Schwangerschaftsvarikosis",
+          "therapie": [
+            "Kompression",
+            "keine Sklerosierung/OP bis 3 Monate postpartal"
+          ],
+          "lernpunkte": [
+            "Hormonelle und mechanische Ursachen"
+          ]
+        },
+        {
+          "id": "VASC_V070",
+          "titel": "Vena-Cava-Filter (Indikation)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. mit rez. LE trotz Antikoagulation",
+          "praesentation": "Absolutes Blutungsrisiko.",
+          "befunde": [
+            "Frische Becken-TVT"
+          ],
+          "diagnose": "Gefahr der rezidivierenden Lungenembolie",
+          "therapie": [
+            "Cava-Filter Einlage (temporär)"
+          ],
+          "lernpunkte": [
+            "Strenge Indikationsstellung (selten nötig)"
+          ]
+        },
+        {
+          "id": "VASC_V071",
+          "titel": "Varizen-Sklerosierung",
+          "tags": [
+            "Ambulant"
+          ],
+          "patient": "Pat. mit Besenreisern",
+          "praesentation": "Kosmetische Störung.",
+          "befunde": [
+            "C1-Varizen nach CEAP"
+          ],
+          "diagnose": "Besenreiser / Retikuläre Varizen",
+          "therapie": [
+            "Flüssig- oder Schaumsklerosierung (Aethoxysklerol)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Hyperpigmentierung / Matting"
+          ]
+        },
+        {
+          "id": "VASC_V072",
+          "titel": "Ulcus cruris mixtum",
+          "tags": [
+            "Wunde"
+          ],
+          "patient": "75-j. mit pAVK und CVI",
+          "praesentation": "Wunde am Knöchel.",
+          "befunde": [
+            "ABI 0,6",
+            "ausgeprägte Varikosis"
+          ],
+          "diagnose": "Ulcus cruris mixtum (Arteriell-Venös)",
+          "therapie": [
+            "Revaskularisation VOR Kompression"
+          ],
+          "lernpunkte": [
+            "Vorsicht mit Kompression bei ABI < 0,5"
+          ]
+        },
+        {
+          "id": "VASC_V073",
+          "titel": "Rezidivvarikosis nach Stripping",
+          "tags": [
+            "Venen"
+          ],
+          "patient": "65-j. Frau",
+          "praesentation": "Erneute Varizen an der Vorderseite.",
+          "befunde": [
+            "FKDS: Akzessorische Vene insuffizient"
+          ],
+          "diagnose": "Neovaskularisation / Persistenz",
+          "therapie": [
+            "Schaumsklerosierung"
+          ],
+          "lernpunkte": [
+            "Veneerhaltende Verfahren (CHIVA) als Alternative"
+          ]
+        },
+        {
+          "id": "VASC_V074",
+          "titel": "Krampfaderblutung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. nach Bagatelltrauma Schienbein",
+          "praesentation": "Massive spritzende Blutung aus Varize.",
+          "befunde": [
+            "Ulkus über Varize"
+          ],
+          "diagnose": "Varizenarrosionsblutung",
+          "therapie": [
+            "Hocklagerung + Druckverband (kein Stauen!)"
+          ],
+          "lernpunkte": [
+            "Häufige Notfallursache bei Senioren"
+          ]
+        },
+        {
+          "id": "VASC_V075",
+          "titel": "Lipödem Stadium II",
+          "tags": [
+            "Fettgewebe"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Säulenbeine, Hämatomneigung, Berührungsschmerz.",
+          "befunde": [
+            "Fettvermehrung Hüfte bis Knöchel, Füße ausgespart"
+          ],
+          "diagnose": "Lipödem",
+          "therapie": [
+            "Kompression",
+            "Lymphdrainage",
+            "ggf. Liposuktion"
+          ],
+          "lernpunkte": [
+            "Keine Adipositas-Folge, sondern Verteilungsmuster"
+          ]
+        }
+      ]
+    },
+    "lymphologie_vaskulitis_kapillaren": {
+      "label": "Lymphologie, Kapillaren & Vaskulitis",
+      "emoji": "🦯",
+      "faelle": [
+        {
+          "id": "ANG_L076",
+          "titel": "Lymphödem (Sekundär)",
+          "tags": [
+            "Lymphologie"
+          ],
+          "patient": "60-j. nach Mamma-CA OP",
+          "praesentation": "Zunehmende Schwellung Arm.",
+          "befunde": [
+            "Stemmer-Zeichen positiv",
+            "Dellenbildung schwer"
+          ],
+          "diagnose": "Sekundäres Lymphödem Stadium II",
+          "therapie": [
+            "KPE (Manuelle Lymphdrainage + Kompression)"
+          ],
+          "lernpunkte": [
+            "Hautpflege zur Erysipelprophylaxe entscheidend"
+          ]
+        },
+        {
+          "id": "ANG_L077",
+          "titel": "Lymphangitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. nach Insektenstich Hand",
+          "praesentation": "Roter Strich zum Ellbogen, Lymphknotenschwellung.",
+          "befunde": [
+            "Fieber, Schüttelfrost"
+          ],
+          "diagnose": "Lymphangitis (keine Blutvergiftung!)",
+          "therapie": [
+            "Ruhigstellung",
+            "Antibiose"
+          ],
+          "lernpunkte": [
+            "Bakterielle Entzündung der Lymphbahnen"
+          ]
+        },
+        {
+          "id": "ANG_L078",
+          "titel": "Riesenzellarteriitis (RZA)",
+          "tags": [
+            "Vaskulitis",
+            "Notfall"
+          ],
+          "patient": "75-j. Frau",
+          "praesentation": "Neue Kopfschmerzen, Kauschmerz, Sehstörung.",
+          "befunde": [
+            "BSG 100",
+            "Sono: Halo-Zeichen A. temporalis"
+          ],
+          "diagnose": "Arteriitis temporalis",
+          "therapie": [
+            "Sofort Hochdosis-Steroide"
+          ],
+          "lernpunkte": [
+            "Erblindungsgefahr durch AION"
+          ]
+        },
+        {
+          "id": "ANG_L079",
+          "titel": "Großgefäßvaskulitis (Aortitis)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "40-j. Mann mit Rückenschmerz",
+          "praesentation": "Unklare Entzündungsparameter.",
+          "befunde": [
+            "PET-CT: Mehranreicherung Aortenwand"
+          ],
+          "diagnose": "Idiopathische Aortitis",
+          "therapie": [
+            "Immunsuppression"
+          ],
+          "lernpunkte": [
+            "PET-CT zur Frühdiagnose"
+          ]
+        },
+        {
+          "id": "ANG_L080",
+          "titel": "Leukozytoklastische Vaskulitis",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "50-j. nach Infekt",
+          "praesentation": "Tastbare Purpura Unterschenkel.",
+          "befunde": [
+            "Hämorrhagische Papeln",
+            "Glashautprobe negativ"
+          ],
+          "diagnose": "Immunkomplexvaskulitis",
+          "therapie": [
+            "Steroide",
+            "Nierencheck (U-Status!)"
+          ],
+          "lernpunkte": [
+            "Vermeidung einer Glomerulonephritis"
+          ]
+        },
+        {
+          "id": "ANG_L081",
+          "titel": "Granulomatose mit Polyangiitis (GPA)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Blutiger Schnupfen, Hämoptysen.",
+          "befunde": [
+            "c-ANCA (PR3) positiv"
+          ],
+          "diagnose": "GPA (M. Wegener)",
+          "therapie": [
+            "Rituximab + Steroide"
+          ],
+          "lernpunkte": [
+            "HNO-Beteiligung oft wegweisend"
+          ]
+        },
+        {
+          "id": "ANG_L082",
+          "titel": "Morbus Behçet",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "30-j. Mann (Türkei)",
+          "praesentation": "Aphthen, Augenentzündung, Venenthrombosen.",
+          "befunde": [
+            "Pathergie-Test positiv"
+          ],
+          "diagnose": "Behçet-Syndrom",
+          "therapie": [
+            "Colchicin",
+            "Interferon"
+          ],
+          "lernpunkte": [
+            "Vaskulitis aller Gefäßgrößen"
+          ]
+        },
+        {
+          "id": "ANG_L083",
+          "titel": "Kawasaki-Syndrom (Kardial)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "4-j. Kind, Fieber > 5 Tage",
+          "praesentation": "Erdbeerzunge, Exanthem.",
+          "befunde": [
+            "Echo: Koronararterien-Aneurysmen"
+          ],
+          "diagnose": "Kawasaki-Syndrom",
+          "therapie": [
+            "IVIG + hochdosiert ASS"
+          ],
+          "lernpunkte": [
+            "Gefahr der koronaren Ischämie im Kindesalter"
+          ]
+        },
+        {
+          "id": "ANG_L084",
+          "titel": "Kryoglobulinämie",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Pat. mit Hepatitis C",
+          "praesentation": "Purpura, Gelenkschmerzen bei Kälte.",
+          "befunde": [
+            "Kryoglobuline im Serum positiv"
+          ],
+          "diagnose": "Kryoglobulinämische Vaskulitis",
+          "therapie": [
+            "Rituximab + Behandlung Hep C"
+          ],
+          "lernpunkte": [
+            "Typisch Kältepräzipitation"
+          ]
+        },
+        {
+          "id": "ANG_L085",
+          "titel": "Polyarteriitis nodosa (PAN)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "50-j. Mann, Bauchschmerzen, Gewichtsverlust",
+          "praesentation": "Livedo racemosa Haut.",
+          "befunde": [
+            "Angio: Mikroaneurysmen Viszeralarterien"
+          ],
+          "diagnose": "Klassische PAN",
+          "therapie": [
+            "Steroide",
+            "Ausschluss Hep B"
+          ],
+          "lernpunkte": [
+            "ANCA meist negativ"
+          ]
+        }
+      ]
+    },
+    "notfaelle_recht_diverses": {
+      "label": "Notfälle, Recht & Diverses",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "ANG_N086",
+          "titel": "Lungenembolie (Akuttherapie)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit TVT, plötzliche Luftnot",
+          "praesentation": "Tachykardie, Schockzeichen.",
+          "befunde": [
+            "D-Dimere↑↑, Echo: RV-Belastung"
+          ],
+          "diagnose": "Zentrale Lungenembolie",
+          "therapie": [
+            "Lyse bei Instabilität",
+            "sonst Heparinisierung"
+          ],
+          "lernpunkte": [
+            "PESI-Score zur Entscheidung ambulant vs. stationär"
+          ]
+        },
+        {
+          "id": "ANG_N087",
+          "titel": "Kompartmentsyndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. nach Revascularisation bei Rutherford IIb",
+          "praesentation": "Massive Schwellung Unterschenkel, harter Muskelbauch.",
+          "befunde": [
+            "Pulse tastbar (initial!), Schmerz bei passiver Dehnung"
+          ],
+          "diagnose": "Reperfusions-Kompartmentsyndrom",
+          "therapie": [
+            "Dringliche Fasziotomie"
+          ],
+          "lernpunkte": [
+            "Keine Zeit durch Diagnostik verlieren (Klinik!)"
+          ]
+        },
+        {
+          "id": "ANG_N088",
+          "titel": "Mesenterialinfarkt (Akut)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. mit VHF",
+          "praesentation": "Stärkster Bauchschmerz, weiches Abdomen.",
+          "befunde": [
+            "Laktat↑, CTA: Verschluss AMS"
+          ],
+          "diagnose": "Embolie A. mesenterica sup.",
+          "therapie": [
+            "Embolektomie < 6h"
+          ],
+          "lernpunkte": [
+            "'Pain out of proportion'"
+          ]
+        },
+        {
+          "id": "ANG_N089",
+          "titel": "Aneurysma spurium (Leiste)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach Koronarangiographie",
+          "praesentation": "Schmerzhafte Schwellung Leiste.",
+          "befunde": [
+            "FKDS: Yin-Yang-Zeichen"
+          ],
+          "diagnose": "Aneurysma spurium A. femoralis",
+          "therapie": [
+            "Ultraschall-gesteuerte Kompression / Thrombin-Injektion"
+          ],
+          "lernpunkte": [
+            "Iatrogene Punktionskomplikation"
+          ]
+        },
+        {
+          "id": "ANG_N090",
+          "titel": "Kontrastmittel-Induzierte Nephropathie (CIN)",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. nach Becken-Bein-Angio",
+          "praesentation": "Kreatinin-Anstieg.",
+          "befunde": [
+            "Oligurie."
+          ],
+          "diagnose": "CIN",
+          "therapie": [
+            "Hydrierung",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Prävention durch isotonisches NaCl prä/post"
+          ]
+        },
+        {
+          "id": "ANG_N091",
+          "titel": "Lungenembolie bei Krebspatienten",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Mamma-CA Patientin",
+          "praesentation": "Tachypnoe.",
+          "befunde": [
+            "TVT nachgewiesen"
+          ],
+          "diagnose": "Tumorassoziierte Thrombembolie",
+          "therapie": [
+            "NMH oder DOAK (Edoxaban/Apixaban)"
+          ],
+          "lernpunkte": [
+            "NMH war lange Goldstandard, jetzt DOAK gleichwertig"
+          ]
+        },
+        {
+          "id": "ANG_N092",
+          "titel": "Abrechnung Duplexsonographie (EBM)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Kassenpatient",
+          "praesentation": "Venen-Check.",
+          "befunde": [
+            "Dokumentation von Refluxen"
+          ],
+          "diagnose": "Varikosis",
+          "therapie": [
+            "Leistungskorrektur"
+          ],
+          "lernpunkte": [
+            "Ziffer 33070-33075 je nach Region/Gefäßgebiet"
+          ]
+        },
+        {
+          "id": "ANG_N093",
+          "titel": "Gutachten bei Wegeunfall (Venen)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Pat. nach Sturz auf Bein im Dienst",
+          "praesentation": "Wunde führt zu Ulcus.",
+          "befunde": [
+            "Vorbestehende CVI."
+          ],
+          "diagnose": "Verschlimmerung vs. Ursache",
+          "therapie": [
+            "Begutachtung"
+          ],
+          "lernpunkte": [
+            "Kausalität prüfen (MdE)"
+          ]
+        },
+        {
+          "id": "ANG_N094",
+          "titel": "Thoracic Outlet Syndrom (TOS) - Vaskulär",
+          "tags": [
+            "Management"
+          ],
+          "patient": "25-j. Frau",
+          "praesentation": "Blaue Hand bei Überkopfarbeit.",
+          "befunde": [
+            "FKDS: Verschluss A. subclavia bei Abduktion"
+          ],
+          "diagnose": "Arterielles TOS",
+          "therapie": [
+            "Halsrippenresektion"
+          ],
+          "lernpunkte": [
+            "Emboliegefahr in die Finger"
+          ]
+        },
+        {
+          "id": "ANG_N095",
+          "titel": "Poplitea-Aneurysma-Thrombose",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Plötzliche Fußischämie.",
+          "befunde": [
+            "Pulsierende Raumforderung Kniekehle verschwunden"
+          ],
+          "diagnose": "Akuter Verschluss bei Popliteaaneurysma",
+          "therapie": [
+            "Lysetherapie + Bypass"
+          ],
+          "lernpunkte": [
+            "Hohes Amputationsrisiko bei akutem Verschluss"
+          ]
+        },
+        {
+          "id": "ANG_N096",
+          "titel": "Iatrogene AV-Fistel",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach Herzkatheter",
+          "praesentation": "Schwirren über der Leiste.",
+          "befunde": [
+            "FKDS: Kontinuierlicher Shunt-Fluss"
+          ],
+          "diagnose": "AV-Fistel",
+          "therapie": [
+            "Verschluss (interven./chir.) bei Shuntvolumen↑"
+          ],
+          "lernpunkte": [
+            "Volumenbelastung des Herzens möglich"
+          ]
+        },
+        {
+          "id": "ANG_N097",
+          "titel": "Venöse Malformation (Klippel-Trenaunay)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Kind mit Beingroßwuchs",
+          "praesentation": "Feuermal, Varizen, Hypertrophie.",
+          "befunde": [
+            "Tiefe Venen teils aplastisch"
+          ],
+          "diagnose": "Klippel-Trenaunay-Weber-Syndrom",
+          "therapie": [
+            "Kompression",
+            "keine vorschnelle Varizen-OP!"
+          ],
+          "lernpunkte": [
+            "Trias beachten"
+          ]
+        },
+        {
+          "id": "ANG_N098",
+          "titel": "Hitze-induziertes Ödem",
+          "tags": [
+            "Umwelt"
+          ],
+          "patient": "Urlauber im Sommer",
+          "praesentation": "Beidseitige Knöchelschwellung.",
+          "befunde": [
+            "Keine Insuffizienzzeichen",
+            "Herz/Niere gesund"
+          ],
+          "diagnose": "Phleboedem bei Hitze",
+          "therapie": [
+            "Hochlagern",
+            "Kühlen"
+          ],
+          "lernpunkte": [
+            "Gefäßdilatation ohne Klappenschaden"
+          ]
+        },
+        {
+          "id": "ANG_N099",
+          "titel": "EBM Chronikerpauschale (Gefäßmedizin)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Pat. mit pAVK IIb",
+          "praesentation": "Zweiter Kontakt im Quartal.",
+          "befunde": [
+            "Dauerbehandlung."
+          ],
+          "diagnose": "Chronische Erkrankung",
+          "therapie": [
+            "Ziffer 03220/03221"
+          ],
+          "lernpunkte": [
+            "Anforderungen an hausärztliche/fachärztliche Chronikerpauschale"
+          ]
+        },
+        {
+          "id": "ANG_N100",
+          "titel": "Vermeidung von Amputationen (Ethik)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Terminal kranker Pat., CLI",
+          "praesentation": "Gangrän.",
+          "befunde": [
+            "Keine therapeutische Option."
+          ],
+          "diagnose": "Finalstadium pAVK",
+          "therapie": [
+            "Adäquate Analgesie (Morphin-Perfusor)",
+            "Wundpflege"
+          ],
+          "lernpunkte": [
+            "Sterbebegleitung vor Verstümmelung"
+          ]
+        }
+      ]
+    }
+  }
+}

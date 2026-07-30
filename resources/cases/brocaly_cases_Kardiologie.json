@@ -1,0 +1,2126 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Kardiologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "koronare_herzkrankheit": {
+      "label": "Koronare Herzkrankheit (CCS & ACS)",
+      "emoji": "🫀",
+      "faelle": [
+        {
+          "id": "CARD_K001",
+          "titel": "ST-Hebungsinfarkt (STEMI) Vorderwand",
+          "tags": [
+            "Notfall",
+            "ACS",
+            "Vorderwand"
+          ],
+          "patient": "55-jähriger Raucher, akuter Thoraxschmerz",
+          "praesentation": "Vernichtungsschmerz seit 45 Min., kaltschweißig, Dyspnoe.",
+          "befunde": [
+            "EKG: ST-Hebungen in V1-V6",
+            "Echo: Hypokinesie Apex",
+            "Troponin T massiv↑"
+          ],
+          "diagnose": "Akuter Vorderwand-STEMI",
+          "therapie": [
+            "Notfall-Koronarangiographie (PCI)",
+            "DAPT (ASS + Prasugrel)",
+            "Statine + Betablocker"
+          ],
+          "lernpunkte": [
+            "PCI-Zielzeit < 90 Min.",
+            "Lokalisation RIVA (LAD)"
+          ]
+        },
+        {
+          "id": "CARD_K002",
+          "titel": "NSTEMI (Hinterwand)",
+          "tags": [
+            "ACS"
+          ],
+          "patient": "68-j. Diabetiker",
+          "praesentation": "Zunehmende Belastungsangina seit 2 Tagen, jetzt Ruheangina.",
+          "befunde": [
+            "EKG: ST-Senkung II, III, aVF",
+            "Troponin-Dynamik positiv"
+          ],
+          "diagnose": "NSTEMI",
+          "therapie": [
+            "Frühe invasive Strategie (< 24h)",
+            "Fondaparinux / Heparin",
+            "DAPT"
+          ],
+          "lernpunkte": [
+            "Troponin-Dynamik entscheidend für Abgrenzung zu instabiler Angina"
+          ]
+        },
+        {
+          "id": "CARD_K003",
+          "titel": "Chronisches Koronarsyndrom (CCS)",
+          "tags": [
+            "KHK",
+            "Ambulant"
+          ],
+          "patient": "62-j. Mann, Belastungsdyspnoe",
+          "praesentation": "Druckgefühl retrosternal bei 2 Etagen Treppensteigen.",
+          "befunde": [
+            "Ergo: ST-Senkung 0,2 mV bei 100W",
+            "Echo: EF 55%"
+          ],
+          "diagnose": "CCS (Stabile Angina Pectoris)",
+          "therapie": [
+            "Medikamentös: ASS + Statin + Nitrolingual",
+            "ggf. Ischämie-Nachweis-gesteuerte PCI"
+          ],
+          "lernpunkte": [
+            "ORBITA/ISCHEMIA-Studie: Stellenwert der medikamentösen Therapie"
+          ]
+        },
+        {
+          "id": "CARD_K004",
+          "titel": "Prinzmetal-Angina (Vasospasmus)",
+          "tags": [
+            "KHK",
+            "Spasmus"
+          ],
+          "patient": "45-j. Frau, nächtliche Schmerzen",
+          "praesentation": "Thoraxschmerz in Ruhe, meist nachts/früh morgens.",
+          "befunde": [
+            "EKG im Anfall: Passagere ST-Hebung",
+            "Angio: Keine relevante Stenose"
+          ],
+          "diagnose": "Vasospastische Angina",
+          "therapie": [
+            "Calciumantagonisten",
+            "Nitrate",
+            "Vermeidung Betablocker"
+          ],
+          "lernpunkte": [
+            "Betablocker können Spasmen triggern"
+          ]
+        },
+        {
+          "id": "CARD_K005",
+          "titel": "MINOCA",
+          "tags": [
+            "ACS",
+            "Diagnostik"
+          ],
+          "patient": "50-j. Frau nach Infarkt-Symptomatik",
+          "praesentation": "Positives Troponin, typisches EKG.",
+          "befunde": [
+            "Koronarangiographie: Unauffällige Herzkranzgefäße"
+          ],
+          "diagnose": "Myocardial Infarction with Non-Obstructive Coronary Arteries",
+          "therapie": [
+            "Kardio-MRT zur Differenzierung",
+            "Individualisierte Sekundärprophylaxe"
+          ],
+          "lernpunkte": [
+            "Ausschluss Myokarditis / Takotsubo"
+          ]
+        },
+        {
+          "id": "CARD_K006",
+          "titel": "Dreigefäßerkrankung (CABG-Indikation)",
+          "tags": [
+            "KHK",
+            "Chirurgie"
+          ],
+          "patient": "70-j. Diabetiker",
+          "praesentation": "Rezidivierende Angina Pectoris.",
+          "befunde": [
+            "Angio: Stenosen in RIVA, RCX, RCA",
+            "SYNTAX-Score hoch"
+          ],
+          "diagnose": "Komplexe KHK",
+          "therapie": [
+            "Aortokoronarer Venen/Arterien-Bypass (CABG)"
+          ],
+          "lernpunkte": [
+            "Syntax-Score hilft bei Entscheidung PCI vs. CABG",
+            "Vorteil CABG bei Diabetikern"
+          ]
+        },
+        {
+          "id": "CARD_K007",
+          "titel": "Hauptstammstenose",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "65-j. Patient, Synkope bei Belastung",
+          "praesentation": "Belastungsdyspnoe, EKG zeigt zirkuläre Ischämie.",
+          "befunde": [
+            "Angio: 90% Stenose des linken Hauptstamms"
+          ],
+          "diagnose": "Hauptstammstenose",
+          "therapie": [
+            "Notfall-CABG oder geschützte PCI"
+          ],
+          "lernpunkte": [
+            "Hochrisiko-Konstellation (Prognostisch kritisch)"
+          ]
+        },
+        {
+          "id": "CARD_K008",
+          "titel": "Instabile Angina Pectoris",
+          "tags": [
+            "ACS"
+          ],
+          "patient": "58-j. Mann, Nikotinabusus",
+          "praesentation": "De-novo Angina oder Crescendo-Angina.",
+          "befunde": [
+            "Troponin initial/verlauf negativ",
+            "EKG: Unspezifische T-Inversion"
+          ],
+          "diagnose": "Instabile Angina Pectoris",
+          "therapie": [
+            "Stationäre Aufnahme",
+            "TAH",
+            "zeitnahe Angiographie"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose trotz negativem Biomarker"
+          ]
+        },
+        {
+          "id": "CARD_K009",
+          "titel": "Ventrikelseptumdefekt nach Myokardinfarkt",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "72-j. Pat. am 4. Tag nach Hinterwandinfarkt",
+          "praesentation": "Akutes Rechtsherzversagen, Schock.",
+          "befunde": [
+            "Neu aufgetretenes Systolikum",
+            "Echo: Shuntvitium"
+          ],
+          "diagnose": "Postinfarkt-VSD",
+          "therapie": [
+            "IABP-Einlage",
+            "Herzchirurgische Sanierung"
+          ],
+          "lernpunkte": [
+            "Mechanische Infarktkomplikation"
+          ]
+        },
+        {
+          "id": "CARD_K010",
+          "titel": "Papillarmuskelabriss",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "65-j. nach akutem Hinterwandinfarkt",
+          "praesentation": "Plötzliches Lungenödem.",
+          "befunde": [
+            "Massive Mitralinsuffizienz im Echo",
+            "Systolikum"
+          ],
+          "diagnose": "Akute Mitralinsuffizienz bei Papillarmuskelruptur",
+          "therapie": [
+            "Dringliche Klappen-OP"
+          ],
+          "lernpunkte": [
+            "Hinterwandinfarkt betrifft häufiger die Papillarmuskelversorgung"
+          ]
+        },
+        {
+          "id": "CARD_K011",
+          "titel": "Ischämische Kardiomyopathie",
+          "tags": [
+            "Herzinsuffizienz"
+          ],
+          "patient": "75-j. Pat. mit Z.n. mehreren Infarkten",
+          "praesentation": "Belastungsdyspnoe NYHA III.",
+          "befunde": [
+            "Echo: EF 25%, global dilatiert",
+            "LGE im MRT"
+          ],
+          "diagnose": "Ischämische Kardiomyopathie",
+          "therapie": [
+            "Optimale Herzinsuffizienztherapie",
+            "ggf. ICD/CRT"
+          ],
+          "lernpunkte": [
+            "Endstadium der chronischen KHK"
+          ]
+        },
+        {
+          "id": "CARD_K012",
+          "titel": "Stent-Thrombose (Akut)",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "50-j. nach PCI vor 4 Tagen",
+          "praesentation": "Heftiger Schmerz, erneut ST-Hebungen.",
+          "befunde": [
+            "Absetzen der TAH eigenmächtig"
+          ],
+          "diagnose": "Akute Stentthrombose",
+          "therapie": [
+            "Notfall-Re-PCI"
+          ],
+          "lernpunkte": [
+            "Bedeutung der Adhärenz bei DAPT"
+          ]
+        },
+        {
+          "id": "CARD_K013",
+          "titel": "Kardialer Schock bei Rechtsherzinfarkt",
+          "tags": [
+            "Notfall",
+            "RCA"
+          ],
+          "patient": "60-j. Mann, Hinterwandinfarkt",
+          "praesentation": "Hypotonie, klare Lunge, gestaute Halsvenen.",
+          "befunde": [
+            "EKG: Hebungen in V3R, V4R"
+          ],
+          "diagnose": "Rechtsherzinfarkt",
+          "therapie": [
+            "Volumengabe (Vorlast!)",
+            "keine Nitrate",
+            "PCI RCA"
+          ],
+          "lernpunkte": [
+            "Volumen statt Diuretika beim isolierten Rechtsherzversagen"
+          ]
+        },
+        {
+          "id": "CARD_K014",
+          "titel": "Dressler-Syndrom (Postmyokardinfarkt-Syndrom)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. 3 Wochen nach großem Infarkt",
+          "praesentation": "Fieber, atemabhängiger Thoraxschmerz.",
+          "befunde": [
+            "Perikardreiben",
+            "Labor: Entzündungsparameter↑"
+          ],
+          "diagnose": "Dressler-Syndrom (Autoimmunperikarditis)",
+          "therapie": [
+            "NSAR / Aspirin hochdosiert",
+            "Colchicin"
+          ],
+          "lernpunkte": [
+            "Spätkomplikation, abzugrenzen von Frühperikarditis"
+          ]
+        },
+        {
+          "id": "CARD_K015",
+          "titel": "Silent Ischemia (Stumme Ischämie)",
+          "tags": [
+            "KHK",
+            "Diabetes"
+          ],
+          "patient": "80-j. Diabetiker",
+          "praesentation": "Diffuse Übelkeit, Schwindel.",
+          "befunde": [
+            "EKG: Neu aufgetretener Linksschenkelblock",
+            "Troponin↑"
+          ],
+          "diagnose": "Stummer Myokardinfarkt",
+          "therapie": [
+            "ACS-Protokoll"
+          ],
+          "lernpunkte": [
+            "Diabetische Neuropathie maskiert Schmerzsymptomatik"
+          ]
+        }
+      ]
+    },
+    "rhythmustoerungen": {
+      "label": "Herzrhythmusstörungen",
+      "emoji": "⚡",
+      "faelle": [
+        {
+          "id": "CARD_R016",
+          "titel": "Vorhofflimmern (Erstdiagnose)",
+          "tags": [
+            "Arrhythmie",
+            "VHF"
+          ],
+          "patient": "72-jährige Patientin, Palpitationen",
+          "praesentation": "Herzstolpern seit 2 Tagen, Schwindel.",
+          "befunde": [
+            "EKG: Absolute Arrhythmie, keine P-Wellen",
+            "CHA2DS2-VASc: 4"
+          ],
+          "diagnose": "Neu aufgetretenes Vorhofflimmern",
+          "therapie": [
+            "Antikoagulation (DOAK)",
+            "Frequenzkontrolle (Metoprolol)",
+            "Kardioversion geplant"
+          ],
+          "lernpunkte": [
+            "Schlaganfallprophylaxe ab Score >= 2 bei Männern / >= 3 bei Frauen"
+          ]
+        },
+        {
+          "id": "CARD_R017",
+          "titel": "AV-Block III. Grades",
+          "tags": [
+            "Bradykardie",
+            "Notfall"
+          ],
+          "patient": "85-j. Patient, Synkope",
+          "praesentation": "Schwindel, kurze Bewusstlosigkeit.",
+          "befunde": [
+            "Puls 30/min",
+            "EKG: Komplette Dissoziation Atrien/Ventrikel"
+          ],
+          "diagnose": "AV-Block III",
+          "therapie": [
+            "Passagerer Schrittmacher",
+            "Dauerhafte SM-Implantation"
+          ],
+          "lernpunkte": [
+            "Adams-Stokes-Anfall",
+            "Indikation für Zweikammerschrittmacher (DDD)"
+          ]
+        },
+        {
+          "id": "CARD_R018",
+          "titel": "Ventrikuläre Tachykardie (VT)",
+          "tags": [
+            "Notfall",
+            "Ventrikulär"
+          ],
+          "patient": "65-j. mit Z.n. Infarkt, Herzrasen",
+          "praesentation": "Schwindel, Schockzeichen, breites EKG.",
+          "befunde": [
+            "EKG: Breitkomplextachykardie > 100/min, AV-Dissoziation"
+          ],
+          "diagnose": "Monomorphe VT",
+          "therapie": [
+            "Elektrische Kardioversion (bei Instabilität)",
+            "Amiodaron"
+          ],
+          "lernpunkte": [
+            "Breitkomplextachykardie ist bis zum Beweis des Gegenteils eine VT"
+          ]
+        },
+        {
+          "id": "CARD_R019",
+          "titel": "AV-Knoten-Reentrytachykardie (AVNRT)",
+          "tags": [
+            "Supraventrikulär"
+          ],
+          "patient": "28-j. Frau, plötzliches Herzrasen",
+          "praesentation": "Anfallsartiges 'Pochen am Hals', schlagartiges Ende.",
+          "befunde": [
+            "EKG: Schmale Komplexe, 180/min, P-Wellen im QRS"
+          ],
+          "diagnose": "AVNRT",
+          "therapie": [
+            "Vagale Manöver",
+            "Adenosin i.v.",
+            "Katheterablation (Slow-Pathway)"
+          ],
+          "lernpunkte": [
+            "Frosch-Zeichen am Hals"
+          ]
+        },
+        {
+          "id": "CARD_R020",
+          "titel": "WPW-Syndrom (Präexcitation)",
+          "tags": [
+            "Supraventrikulär"
+          ],
+          "patient": "20-j. Sportler",
+          "praesentation": "Palpitationen.",
+          "befunde": [
+            "EKG: Delta-Welle, PQ-Verkürzung",
+            "FBI-Tachykardie (Fast, Broad, Irregular)"
+          ],
+          "diagnose": "Wolff-Parkinson-White-Syndrom",
+          "therapie": [
+            "Katheterablation der akzessorischen Bahn"
+          ],
+          "lernpunkte": [
+            "Gefahr: Pseudoventrikuläre Tachykardie bei Vorhofflimmern"
+          ]
+        },
+        {
+          "id": "CARD_R021",
+          "titel": "Sick-Sinus-Syndrom",
+          "tags": [
+            "Bradykardie"
+          ],
+          "patient": "78-j. Patient, Leistungsknick",
+          "praesentation": "Belastungsdyspnoe, Schwindel.",
+          "befunde": [
+            "Langzeit-EKG: Sinusbradykardie, Pausen > 3s, Tachykardie-Bradykardie-Syndrom"
+          ],
+          "diagnose": "Sindu-Knoten-Erkrankung",
+          "therapie": [
+            "Schrittmacher (AAI/DDD)"
+          ],
+          "lernpunkte": [
+            "Tachykardie-Phasen benötigen oft trotzdem Antikoagulation"
+          ]
+        },
+        {
+          "id": "CARD_R022",
+          "titel": "Torsade-de-Pointes (Spitzentachykardie)",
+          "tags": [
+            "Ventrikulär",
+            "Notfall"
+          ],
+          "patient": "50-j. Frau unter Antidepressiva",
+          "praesentation": "Synkope.",
+          "befunde": [
+            "EKG: Verlängertes QTc-Intervall (520ms)",
+            "Spindelförmige VT"
+          ],
+          "diagnose": "Erworbenes Long-QT-Syndrom",
+          "therapie": [
+            "Absetzen Trigger",
+            "Magnesium i.v.",
+            "Kalium-Substitution"
+          ],
+          "lernpunkte": [
+            "Medikamenten-induzierte QT-Verlängerung"
+          ]
+        },
+        {
+          "id": "CARD_R023",
+          "titel": "Vorhofflattern",
+          "tags": [
+            "Supraventrikulär"
+          ],
+          "patient": "65-j. Mann, belastungsabhängiges Herzrasen",
+          "praesentation": "Regelmäßiges Herzklopfen.",
+          "befunde": [
+            "EKG: Sägezahnmuster (V1, II, III, aVF)",
+            "2:1 Überleitung"
+          ],
+          "diagnose": "Vorhofflattern (Isthmus-abhängig)",
+          "therapie": [
+            "Katheterablation (Isthmus-Blockade)"
+          ],
+          "lernpunkte": [
+            "Hohe Erfolgsquote der Ablation (> 95%)"
+          ]
+        },
+        {
+          "id": "CARD_R024",
+          "titel": "Brugada-Syndrom",
+          "tags": [
+            "Genetik",
+            "Plötzlicher Herztod"
+          ],
+          "patient": "35-j. Mann, nächtliche Atemnot",
+          "praesentation": "Synkope in Ruhe.",
+          "befunde": [
+            "EKG: Rechtsschenkelblock-ähnlich, ST-Hebung V1-V3 (Coved-Typ)"
+          ],
+          "diagnose": "Brugada-Syndrom Typ 1",
+          "therapie": [
+            "ICD-Implantation"
+          ],
+          "lernpunkte": [
+            "Ionenkanalerkrankung, Natriumkanal-Mutation"
+          ]
+        },
+        {
+          "id": "CARD_R025",
+          "titel": "Karotissinus-Syndrom",
+          "tags": [
+            "Synkope"
+          ],
+          "patient": "82-j. Mann, Sturz beim Rasieren",
+          "praesentation": "Kurze Bewusstlosigkeit bei Kopfdrehung.",
+          "befunde": [
+            "Karotissinus-Druckversuch: Asystolie > 3s"
+          ],
+          "diagnose": "Hypersensitiver Karotissinus",
+          "therapie": [
+            "Schrittmacher"
+          ],
+          "lernpunkte": [
+            "Wichtige Differentialdiagnose der Sturzneigung im Alter"
+          ]
+        },
+        {
+          "id": "CARD_R026",
+          "titel": "AV-Block Mobitz Typ I (Wenckebach)",
+          "tags": [
+            "Bradykardie"
+          ],
+          "patient": "22-j. Ausdauersportler",
+          "praesentation": "Zufallsbefund im EKG.",
+          "befunde": [
+            "Zunehmende PQ-Verlängerung bis ein Schlag ausfällt"
+          ],
+          "diagnose": "Wenckebach-Periodik",
+          "therapie": [
+            "Meist keine (physiologisch bei Sportlern)"
+          ],
+          "lernpunkte": [
+            "Benigne Form des AV-Blocks"
+          ]
+        },
+        {
+          "id": "CARD_R027",
+          "titel": "AV-Block Mobitz Typ II",
+          "tags": [
+            "Bradykardie",
+            "Gefährlich"
+          ],
+          "patient": "70-j. mit bifaszikulärem Block",
+          "praesentation": "Leichte Benommenheit.",
+          "befunde": [
+            "EKG: Plötzlicher Ausfall eines QRS-Komplexes ohne PQ-Vorwarnung"
+          ],
+          "diagnose": "Mobitz II",
+          "therapie": [
+            "Schrittmacher (unabhängig von Symptomen!)"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für Übergang in AV-Block III"
+          ]
+        },
+        {
+          "id": "CARD_R028",
+          "titel": "Paroxysmales Vorhofflimmern (Pill-in-the-pocket)",
+          "tags": [
+            "VHF"
+          ],
+          "patient": "55-j. ohne strukturelle Herzerkrankung",
+          "praesentation": "Seltene Attacken (1x/Jahr).",
+          "befunde": [
+            "Kein erhöhtes Embolierisiko (CHA2DS2-VASc 0)"
+          ],
+          "diagnose": "Paroxysmales VHF",
+          "therapie": [
+            "Flecainid bei Bedarf",
+            "keine Dauertherapie"
+          ],
+          "lernpunkte": [
+            "Strategie nur bei Ausschluss struktureller Defekte"
+          ]
+        },
+        {
+          "id": "CARD_R029",
+          "titel": "Herzstillstand (Asystolie)",
+          "tags": [
+            "Reanimation",
+            "Notfall"
+          ],
+          "patient": "60-j. Kollaps",
+          "praesentation": "Keine Atmung, kein Puls.",
+          "befunde": [
+            "EKG: Nulllinie"
+          ],
+          "diagnose": "Asystolie",
+          "therapie": [
+            "CPR 30:2",
+            "Adrenalin 1mg alle 3-5 Min.",
+            "keine Defibrillation!"
+          ],
+          "lernpunkte": [
+            "Nicht-schockbarer Rhythmus"
+          ]
+        },
+        {
+          "id": "CARD_R030",
+          "titel": "Hyperkaliämie (Rhythmusfolgen)",
+          "tags": [
+            "Elektrolyte",
+            "Notfall"
+          ],
+          "patient": "Dialyse-Pat., Schwäche",
+          "praesentation": "Breite QRS-Komplexe, Bradykardie.",
+          "befunde": [
+            "Kalium 7,5 mmol/l",
+            "EKG: Zeltdach-T-Wellen"
+          ],
+          "diagnose": "Schwere Hyperkaliämie",
+          "therapie": [
+            "Calciumgluconat",
+            "Insulin/Glukose",
+            "Dialyse"
+          ],
+          "lernpunkte": [
+            "Membranstabilisierung vor Kalium-Senkung"
+          ]
+        }
+      ]
+    },
+    "herzinsuffizienz_myokard": {
+      "label": "Herzinsuffizienz & Myokarderkrankungen",
+      "emoji": "🫁",
+      "faelle": [
+        {
+          "id": "CARD_H031",
+          "titel": "Chronische Herzinsuffizienz (HFrEF)",
+          "tags": [
+            "Insuffizienz",
+            "HFrEF"
+          ],
+          "patient": "72-jähriger Patient, Orthopnoe",
+          "praesentation": "Belastungsdyspnoe NYHA III, Beinödeme.",
+          "befunde": [
+            "Echo: EF 30%, dilatiert",
+            "NT-proBNP 2500 pg/ml"
+          ],
+          "diagnose": "Herzinsuffizienz mit reduzierter Ejektionsfraktion",
+          "therapie": [
+            "ARNI (Sacubitril/Valsartan)",
+            "Betablocker",
+            "MRA",
+            "SGLT2-Inhibitor (The Big Four)"
+          ],
+          "lernpunkte": [
+            "Frühzeitige Vierfach-Therapie senkt Mortalität"
+          ]
+        },
+        {
+          "id": "CARD_H032",
+          "titel": "Herzinsuffizienz mit erhaltener EF (HFpEF)",
+          "tags": [
+            "Insuffizienz",
+            "HFpEF"
+          ],
+          "patient": "78-j. adipöse Patientin mit Hypertonus",
+          "praesentation": "Luftnot, Leistungsknick.",
+          "befunde": [
+            "Echo: EF 55%, Diastolische Dysfunktion Grad II, LA-Vergrößerung"
+          ],
+          "diagnose": "HFpEF",
+          "therapie": [
+            "SGLT2-Inhibitoren (Dapagliflozin/Empagliflozin)",
+            "Diuretika",
+            "RR-Einstellung"
+          ],
+          "lernpunkte": [
+            "Häufige Form im Alter und bei Frauen"
+          ]
+        },
+        {
+          "id": "CARD_H033",
+          "titel": "Akute Myokarditis",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "25-j. nach grippalem Infekt vor 2 Wochen",
+          "praesentation": "Thoraxschmerz, neu aufgetretene Herzrhythmusstörungen.",
+          "befunde": [
+            "Troponin↑",
+            "Echo: Diskrete Wandbewegungsstörung",
+            "MRT: Late Gadolinium Enhancement (LGE) subepikardial"
+          ],
+          "diagnose": "Akute Myokarditis",
+          "therapie": [
+            "Sportverbot (3-6 Monate)",
+            "Schonung",
+            "Herzinsuffizienz-Medikation"
+          ],
+          "lernpunkte": [
+            "MRT ist Goldstandard der nicht-invasiven Diagnostik"
+          ]
+        },
+        {
+          "id": "CARD_H034",
+          "titel": "Hypertroph-obstruktive Kardiomyopathie (HOCM)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "30-j. Mann, Synkope beim Fußball",
+          "praesentation": "Belastungsangina, Schwindel.",
+          "befunde": [
+            "Echo: Septumhypertrophie 22mm, SAM-Phänomen",
+            "Systolikum"
+          ],
+          "diagnose": "HOCM",
+          "therapie": [
+            "Beta-Blocker",
+            "Mavacamten",
+            "ggf. TASH (Alkoholablation)"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache des plötzlichen Herztodes bei jungen Sportlern"
+          ]
+        },
+        {
+          "id": "CARD_H035",
+          "titel": "Takotsubo-Kardiomyopathie (Stress-Kardiomyopathie)",
+          "tags": [
+            "Stress"
+          ],
+          "patient": "65-j. Frau nach schwerem emotionalem Ereignis",
+          "praesentation": "Akuter Thoraxschmerz, EKG wie Vorderwandinfarkt.",
+          "befunde": [
+            "Angio: Koronarien frei",
+            "Laevo: Apikaler Ballonierung (Ballooning)"
+          ],
+          "diagnose": "Takotsubo-Syndrom (Broken Heart Syndrome)",
+          "therapie": [
+            "Supportiv",
+            "Betablocker",
+            "meist vollständige Erholung"
+          ],
+          "lernpunkte": [
+            "Häufig Frauen in der Postmenopause betroffen"
+          ]
+        },
+        {
+          "id": "CARD_H036",
+          "titel": "Dilatative Kardiomyopathie (DCM)",
+          "tags": [
+            "Kardiomyopathie"
+          ],
+          "patient": "45-j. Mann, Alkoholabusus",
+          "praesentation": "Zunehmende Dyspnoe, Stauungszeichen.",
+          "befunde": [
+            "Echo: EF 20%, massive Dilatation aller Höhlen"
+          ],
+          "diagnose": "DCM (Alkohol-toxisches Komponente?)",
+          "therapie": [
+            "Abstinenz",
+            "Medikamentöse HI-Therapie",
+            "ICD-Evaluation"
+          ],
+          "lernpunkte": [
+            "Ausschluss KHK zwingend"
+          ]
+        },
+        {
+          "id": "CARD_H037",
+          "titel": "Kardiale Amyloidose",
+          "tags": [
+            "Speicherkrankheit"
+          ],
+          "patient": "75-j. mit Polyneuropathie und Herzinsuffizienz",
+          "praesentation": "Ödeme, rezidivierende Synkopen.",
+          "befunde": [
+            "Echo: Speckled-Tracking Muster, verdicktes Myokard bei Niedrigvolt-EKG (Mismatch)",
+            "Szinti (DPD): Herz-Uptake"
+          ],
+          "diagnose": "ATTR-Amyloidose",
+          "therapie": [
+            "Tafamidis"
+          ],
+          "lernpunkte": [
+            "Niedrigvolt-EKG trotz 'Hypertrophie' im Echo ist klassisch"
+          ]
+        },
+        {
+          "id": "CARD_H038",
+          "titel": "Kardiale Sarkoidose",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "48-j. Pat. mit bekannter Lungensarkoidose",
+          "praesentation": "Synkope, AV-Block II.",
+          "befunde": [
+            "PET-CT: Mehranreicherung Myokard",
+            "MRT: Patchy LGE"
+          ],
+          "diagnose": "Kardiale Sarkoidose",
+          "therapie": [
+            "Glukokortikoide",
+            "ICD-Implantation"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für maligne Rhythmusstörungen"
+          ]
+        },
+        {
+          "id": "CARD_H039",
+          "titel": "Restriktive Kardiomyopathie",
+          "tags": [
+            "Kardiomyopathie"
+          ],
+          "patient": "55-j. Patient",
+          "praesentation": "Rechtsherzversagen im Vordergrund.",
+          "befunde": [
+            "Echo: Kleine Ventrikel, massiv vergrößerte Vorhöfe, Diastole-Störung"
+          ],
+          "diagnose": "Restriktive Kardiomyopathie",
+          "therapie": [
+            "Diuretika",
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Seltenste Form der Kardiomyopathien"
+          ]
+        },
+        {
+          "id": "CARD_H040",
+          "titel": "Arrhythmogene rechtsventrikuläre Kardiomyopathie (ARVC)",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "22-j. Sportler, Palpitationen",
+          "praesentation": "LBT-VT (VT mit Linksschenkelblock-Morphologie).",
+          "befunde": [
+            "EKG: Epsilon-Welle V1-V3",
+            "MRT: Fettig-fibröser Umbau RV"
+          ],
+          "diagnose": "ARVC",
+          "therapie": [
+            "Sportverbot",
+            "ICD",
+            "Betablocker"
+          ],
+          "lernpunkte": [
+            "Epsilon-Welle ist pathognomonisch, aber selten"
+          ]
+        },
+        {
+          "id": "CARD_H041",
+          "titel": "Peripartale Kardiomyopathie (PPCM)",
+          "tags": [
+            "Schwangerschaft"
+          ],
+          "patient": "Wöchnerin, 2 Wochen nach Entbindung",
+          "praesentation": "Akute Atemnot, Lungenödem.",
+          "befunde": [
+            "Echo: EF 30%"
+          ],
+          "diagnose": "PPCM",
+          "therapie": [
+            "Abstillen (Bromocriptin)",
+            "Herzinsuffizienztherapie"
+          ],
+          "lernpunkte": [
+            "Bromocriptin blockiert Prolaktin, das in toxisches Spaltprodukt umgewandelt wird"
+          ]
+        },
+        {
+          "id": "CARD_H042",
+          "titel": "Eisenmenger-Reaktion",
+          "tags": [
+            "GUCH",
+            "Pulm. Hypertonie"
+          ],
+          "patient": "35-j. mit nicht korrigiertem VSD",
+          "praesentation": "Zyanose, Trommelschlägelfinger, Belastungsdyspnoe.",
+          "befunde": [
+            "Rechts-Links-Shunt im Echo/Katheter",
+            "Pulmonaler Druck > Systemdruck"
+          ],
+          "diagnose": "Eisenmenger-Syndrom",
+          "therapie": [
+            "Endothelin-Antagonisten",
+            "keine OP mehr möglich!"
+          ],
+          "lernpunkte": [
+            "Fixierte pulmonale Hypertonie führt zum Shunt-Winkel"
+          ]
+        },
+        {
+          "id": "CARD_H043",
+          "titel": "Kardiale Hämochromatose",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "50-j. Mann, Bronzediabetes",
+          "praesentation": "Rhythmusstörungen, Herzinsuffizienz.",
+          "befunde": [
+            "Ferritin > 1000",
+            "MRT-T2*: Massive Eisenüberladung Myokard"
+          ],
+          "diagnose": "Hämochromatose-Kardiomyopathie",
+          "therapie": [
+            "Aderlass",
+            "Eisenchelatoren"
+          ],
+          "lernpunkte": [
+            "Frühe Diagnose kann Herzfunktion normalisieren"
+          ]
+        },
+        {
+          "id": "CARD_H044",
+          "titel": "Chronisch-konstriktive Perikarditis (Panzerherz)",
+          "tags": [
+            "Perikard"
+          ],
+          "patient": "60-j. nach Strahlentherapie Thorax",
+          "praesentation": "Rechtsherzversagen, Halsvenenstauung mit Kussmaul-Zeichen.",
+          "befunde": [
+            "Echo: Septum-Shift",
+            "CT: Verkalktes Perikard"
+          ],
+          "diagnose": "Pericarditis constrictiva",
+          "therapie": [
+            "Perikardektomie"
+          ],
+          "lernpunkte": [
+            "Einstrombehinderung beider Ventrikel"
+          ]
+        },
+        {
+          "id": "CARD_H045",
+          "titel": "Herztransplantation (Nachsorge)",
+          "tags": [
+            "Chirurgie"
+          ],
+          "patient": "Pat. nach HTX vor 1 Jahr",
+          "praesentation": "Routinekontrolle.",
+          "befunde": [
+            "FKDS: Fehlende respiratorische Variabilität (denerviert)",
+            "Biopsie: Kein Hinweis auf Abstoßung"
+          ],
+          "diagnose": "Zustand nach HTX",
+          "therapie": [
+            "Immunsuppression (Tacrolimus/MMF)"
+          ],
+          "lernpunkte": [
+            "Denerviertes Herz reagiert nicht auf vagale Reize"
+          ]
+        }
+      ]
+    },
+    "vitien_endokard": {
+      "label": "Klappenvitien & Endokarditis",
+      "emoji": "🎺",
+      "faelle": [
+        {
+          "id": "CARD_V046",
+          "titel": "Aortenklappenstenose (Kalzifizierend)",
+          "tags": [
+            "Vitiium",
+            "Geriatrie"
+          ],
+          "patient": "80-jähriger Patient, Synkope",
+          "praesentation": "Belastungsdyspnoe, Angina Pectoris, Schwindel (Trias).",
+          "befunde": [
+            "Auskultation: Spindelförmiges Systolikum, Fortleitung Karotiden",
+            "Echo: Vmax 4,5 m/s, AVA 0,7 cm²"
+          ],
+          "diagnose": "Schwere Low-Flow-Low-Gradient Aortenstenose",
+          "therapie": [
+            "TAVI (Transkatheter-Aortenklappenimplantation)"
+          ],
+          "lernpunkte": [
+            "Indikation bei Symptomen oder EF-Abfall"
+          ]
+        },
+        {
+          "id": "CARD_V047",
+          "titel": "Mitralinsuffizienz (Primär)",
+          "tags": [
+            "Vitium"
+          ],
+          "patient": "55-j. Frau, Herzrasen",
+          "praesentation": "Belastungsdyspnoe NYHA II.",
+          "befunde": [
+            "Echo: Prolaps des Hintersegels, P2-Abriss, massive Regurgitation"
+          ],
+          "diagnose": "Mitralklappenprolaps-Insuffizienz",
+          "therapie": [
+            "Klappenrekonstruktion (Minimal-invasiv)"
+          ],
+          "lernpunkte": [
+            "Rekonstruktion vor Ersatz bevorzugen"
+          ]
+        },
+        {
+          "id": "CARD_V048",
+          "titel": "Aorteninsuffizienz (Akut)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "40-j. mit Aortendissektion Typ A",
+          "praesentation": "Lungenödem, diastolischer Schock.",
+          "befunde": [
+            "Leises Diastolikum",
+            "Echo: Freie Regurgitation, vorzeitiger Mitralklappenschluss"
+          ],
+          "diagnose": "Akute Aorteninsuffizienz",
+          "therapie": [
+            "Sofortige Herz-OP (Bentall-OP)"
+          ],
+          "lernpunkte": [
+            "Akute AI führt rasch zum Lungenödem, da LV nicht adaptiert"
+          ]
+        },
+        {
+          "id": "CARD_V049",
+          "titel": "Mitralklappenstenose",
+          "tags": [
+            "Vitium",
+            "Rheuma"
+          ],
+          "patient": "45-j. Migrantin, Vorhofflimmern",
+          "praesentation": "Hämoptysen, Embolie.",
+          "befunde": [
+            "Auskultation: Mitralöffnungston, Mitralgesicht (Facies mitralis)"
+          ],
+          "diagnose": "Rheumatische Mitralstenose",
+          "therapie": [
+            "Mitral-Valvuloplastie (Ballon)"
+          ],
+          "lernpunkte": [
+            "Folge von rheumatischem Fieber"
+          ]
+        },
+        {
+          "id": "CARD_V050",
+          "titel": "Trikuspidalinsuffizienz",
+          "tags": [
+            "Vitium"
+          ],
+          "patient": "70-j. mit chronischem VHF",
+          "praesentation": "Ödeme, Stauungsleber.",
+          "befunde": [
+            "Echo: Dilatierter TV-Ring, massive Insuffizienz"
+          ],
+          "diagnose": "Sekundäre Trikuspidalinsuffizienz",
+          "therapie": [
+            "TriClip oder Rekonstruktion"
+          ],
+          "lernpunkte": [
+            "Die 'vergessene' Klappe"
+          ]
+        },
+        {
+          "id": "CARD_V051",
+          "titel": "Bikuspidale Aortenklappe",
+          "tags": [
+            "GUCH",
+            "Genetik"
+          ],
+          "patient": "25-j. Mann, Zufallsfund",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "Echo: Zwei Segel, Raphe, asymmetrische Öffnung"
+          ],
+          "diagnose": "Bikuspidale Aortenklappe (BAV)",
+          "therapie": [
+            "Kontrolle Aorta ascendens (Aneurysma-Gefahr)"
+          ],
+          "lernpunkte": [
+            "Häufigste angeborene Herzfehlbildung (1-2%)"
+          ]
+        },
+        {
+          "id": "CARD_V052",
+          "titel": "Infektiöse Endokarditis (Nativklappe)",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "50-j. Mann, Fieber seit 3 Wochen",
+          "praesentation": "Nachtschweiß, neues Herzgeräusch, Petechien.",
+          "befunde": [
+            "Echo: Vegetation an Mitralklappe 1,2 cm",
+            "Blutkultur: Staph. aureus"
+          ],
+          "diagnose": "Infektiöse Endokarditis",
+          "therapie": [
+            "Gezielte Antibiose (6 Wochen i.v.)",
+            "ggf. OP bei Embolierisiko"
+          ],
+          "lernpunkte": [
+            "Duke-Kriterien zur Diagnose"
+          ]
+        },
+        {
+          "id": "CARD_V053",
+          "titel": "Prothesen-Endokarditis",
+          "tags": [
+            "Notfall",
+            "Infekt"
+          ],
+          "patient": "70-j. nach Aortenklappenersatz vor 2 Monaten",
+          "praesentation": "Sepsis.",
+          "befunde": [
+            "TEE: Paravalvulärer Abszess"
+          ],
+          "diagnose": "Früh-Endokarditis der Prothese",
+          "therapie": [
+            "Herzchirurgische Re-OP zwingend"
+          ],
+          "lernpunkte": [
+            "Sehr hohe Mortalität"
+          ]
+        },
+        {
+          "id": "CARD_V054",
+          "titel": "Aortenklappen-Endokarditis bei i.v. Drogenkonsum",
+          "tags": [
+            "Infekt",
+            "Sucht"
+          ],
+          "patient": "28-j. i.v. Drogenabusus",
+          "praesentation": "Schüttelfrost, septische Lungenembolien.",
+          "befunde": [
+            "Echo: Trikuspidalklappenvegetation"
+          ],
+          "diagnose": "Rechtsherz-Endokarditis",
+          "therapie": [
+            "Kalkulierte Antibiose inkl. MRSA-Schutz"
+          ],
+          "lernpunkte": [
+            "Häufig Trikuspidalklappe betroffen"
+          ]
+        },
+        {
+          "id": "CARD_V055",
+          "titel": "Libman-Sacks-Endokarditis",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "30-j. Frau mit SLE (Lupus)",
+          "praesentation": "Gelenkschmerzen, Fieber.",
+          "befunde": [
+            "Echo: Kleine, sterile Vegetationen an Klappenrändern"
+          ],
+          "diagnose": "Abakterielle Endokarditis bei Kollagenose",
+          "therapie": [
+            "Behandlung der Grunderkrankung",
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Sterile Thromben"
+          ]
+        },
+        {
+          "id": "CARD_V056",
+          "titel": "Karzinoid-Syndrom (Hedinger-Syndrom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. mit metastasiertem NET",
+          "praesentation": "Flush, Diarrhö.",
+          "befunde": [
+            "Echo: Endokardfibrose Rechtsherz, Trikuspidalstenose/-insuffizienz"
+          ],
+          "diagnose": "Hedinger-Syndrom",
+          "therapie": [
+            "Somatostatin-Analoga",
+            "Klappenersatz"
+          ],
+          "lernpunkte": [
+            "Serotonin schädigt nur das Rechtsherz (Lungenfilter)"
+          ]
+        },
+        {
+          "id": "CARD_V057",
+          "titel": "Endokarditis-Prophylaxe",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "Pat. mit künstlicher Herzklappe vor Zahnreinigung",
+          "praesentation": "Anfrage wegen Antibiotika.",
+          "befunde": [
+            "Hochrisiko-Patient"
+          ],
+          "diagnose": "Indikation Prophylaxe",
+          "therapie": [
+            "2g Amoxicillin 60 Min. vor Eingriff"
+          ],
+          "lernpunkte": [
+            "Indikation nur bei Hochrisiko-Patienten (Klappe, Z.n. Endokarditis, angeboren)"
+          ]
+        },
+        {
+          "id": "CARD_V058",
+          "titel": "Mitralklappen-Clip (MitraClip)",
+          "tags": [
+            "Intervention"
+          ],
+          "patient": "82-j. Inoperabel, funktionelle MI",
+          "praesentation": "Rezidivierende HI-Dekompensation.",
+          "befunde": [
+            "Echo: EROA groß, EF 35%"
+          ],
+          "diagnose": "Funktionelle Mitralinsuffizienz",
+          "therapie": [
+            "Perkutane Mitralklappenrekonstruktion (Edge-to-Edge)"
+          ],
+          "lernpunkte": [
+            "COAPT-Studie"
+          ]
+        },
+        {
+          "id": "CARD_V059",
+          "titel": "Paravalvuläres Leck",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "70-j. nach Klappen-OP",
+          "praesentation": "Hämolytische Anämie, Ikterus.",
+          "befunde": [
+            "Echo: Hochgeschwindigkeits-Jet neben der Prothese"
+          ],
+          "diagnose": "Paravalvuläres Leck",
+          "therapie": [
+            "Interventioneller Plug-Verschluss"
+          ],
+          "lernpunkte": [
+            "Hämolyse durch Scherkräfte"
+          ]
+        },
+        {
+          "id": "CARD_V060",
+          "titel": "Lungenklappenstenose (Pulmonalstenose)",
+          "tags": [
+            "Vitium",
+            "GUCH"
+          ],
+          "patient": "18-j. Patient, Zufallsfund",
+          "praesentation": "Leistungsminderung.",
+          "befunde": [
+            "Echo: Rechtsventrikuläre Hypertrophie, Druckgradient 60 mmHg"
+          ],
+          "diagnose": "Valvuläre Pulmonalstenose",
+          "therapie": [
+            "Ballonvalvuloplastie"
+          ],
+          "lernpunkte": [
+            "Gute Prognose nach Intervention"
+          ]
+        }
+      ]
+    },
+    "perikard_pulmonal_notfall": {
+      "label": "Perikard, Pulmonale Zirkulation & Notfall",
+      "emoji": "🚨",
+      "faelle": [
+        {
+          "id": "CARD_N061",
+          "titel": "Herzbeuteltamponade",
+          "tags": [
+            "Notfall",
+            "Perikard"
+          ],
+          "patient": "45-jähriger Mann nach Thorax-Trauma",
+          "praesentation": "Beck-Trias: Hypotonie, Halsvenenstauung, leise Herztöne.",
+          "befunde": [
+            "FAST-Echo: Perikarderguss mit diastolischem Kollaps des RV",
+            "Pulsus paradoxus"
+          ],
+          "diagnose": "Akute Herzbeuteltamponade",
+          "therapie": [
+            "Notfall-Punktion (Perikardiozentese)",
+            "chirurgische Revision"
+          ],
+          "lernpunkte": [
+            "Obstruktiver Schock, lebensbedrohlich"
+          ]
+        },
+        {
+          "id": "CARD_N062",
+          "titel": "Akute Perikarditis",
+          "tags": [
+            "Perikard"
+          ],
+          "patient": "30-j. nach viralem Infekt",
+          "praesentation": "Atemabhängiger, lageabhängiger Thoraxschmerz (Besserung beim Vorbeugen).",
+          "befunde": [
+            "Auskultation: Perikardreiben",
+            "EKG: Konkave ST-Hebungen aus dem absteigenden R"
+          ],
+          "diagnose": "Akute Perikarditis",
+          "therapie": [
+            "Ibuprofen / Aspirin",
+            "Colchicin (Rezidivprophylaxe)"
+          ],
+          "lernpunkte": [
+            "ST-Hebung im Gegensatz zum Infekt fast in allen Ableitungen"
+          ]
+        },
+        {
+          "id": "CARD_N063",
+          "titel": "Massive Lungenembolie (LE)",
+          "tags": [
+            "Notfall",
+            "Pulmologie"
+          ],
+          "patient": "40-j. Frau nach Knie-OP",
+          "praesentation": "Akute Dyspnoe, Synkope, RR 80 systolisch.",
+          "befunde": [
+            "Echo: Akute Rechtsherzbelastung (McConnell Sign)",
+            "D-Dimere↑↑",
+            "Angio-CT: Zentraler Verschluss"
+          ],
+          "diagnose": "Massive Lungenembolie (High Risk)",
+          "therapie": [
+            "Systemische Fibrinolyse",
+            "Heparin"
+          ],
+          "lernpunkte": [
+            "Lyse nur bei hämodynamischer Instabilität"
+          ]
+        },
+        {
+          "id": "CARD_N064",
+          "titel": "Pulmonal-arterielle Hypertonie (PAH)",
+          "tags": [
+            "Pulmonal"
+          ],
+          "patient": "35-j. Frau, Sklerodermie",
+          "praesentation": "Progrediente Dyspnoe.",
+          "befunde": [
+            "Echo: sPAP 70 mmHg",
+            "Rechtsherzkatheter: mPAP 35 mmHg, PCWP normal"
+          ],
+          "diagnose": "Präkapilläre pulmonale Hypertonie (Gruppe 1)",
+          "therapie": [
+            "ERA / PDE-5-Hemmer / Prostaglandine"
+          ],
+          "lernpunkte": [
+            "Definition: mPAP > 20 mmHg"
+          ]
+        },
+        {
+          "id": "CARD_N065",
+          "titel": "Kardiogener Schock",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. nach ausgedehntem Vorderwandinfarkt",
+          "praesentation": "Kaltschweißig, Oligurie, Bewusstseinstrübung.",
+          "befunde": [
+            "RR 75/40 mmHg",
+            "Laktat 5,0 mmol/l",
+            "PCWP↑ (Lungenstauung)"
+          ],
+          "diagnose": "Kardiogener Schock",
+          "therapie": [
+            "Dobutamin/Noradrenalin",
+            "Frühe PCI",
+            "ggf. Impella/ECLS"
+          ],
+          "lernpunkte": [
+            "Pumpversagen als Todesursache Nr. 1 beim Infarkt"
+          ]
+        },
+        {
+          "id": "CARD_N066",
+          "titel": "Lungenödem (Akut)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. Mann, hypertensive Entgleisung",
+          "praesentation": "Massive Atemnot, Rasselgeräusche beidseits, schaumiges Sputum.",
+          "befunde": [
+            "SPO2 82%",
+            "RR 220/120 mmHg"
+          ],
+          "diagnose": "Akutes Lungenödem bei Linksherzinsuffizienz",
+          "therapie": [
+            "NIV-Beatmung",
+            "Nitroglyzerin i.v.",
+            "Furosemid i.v."
+          ],
+          "lernpunkte": [
+            "NIV reduziert Intubationspflichtigkeit"
+          ]
+        },
+        {
+          "id": "CARD_N067",
+          "titel": "Kardiale Synkope (Morgagni-Adams-Stokes)",
+          "tags": [
+            "Rhythmus"
+          ],
+          "patient": "75-j. Patient, Sturz ohne Vorwarnung",
+          "praesentation": "Plötzlicher Bewusstseinsverlust für 30s, danach sofort orientiert.",
+          "befunde": [
+            "EKG: Sinusarrest 6s im LZ-EKG"
+          ],
+          "diagnose": "Kardiale Synkope bei SSS",
+          "therapie": [
+            "Schrittmacher-Implantation"
+          ],
+          "lernpunkte": [
+            "Keine Prodromi bei kardialer Ursache"
+          ]
+        },
+        {
+          "id": "CARD_N068",
+          "titel": "Aortendissektion (Stanford A)",
+          "tags": [
+            "Notfall",
+            "Chirurgie"
+          ],
+          "patient": "55-j. Mann, reißender Schmerz Thorax",
+          "praesentation": "Schmerz strahlt in Rücken aus, Pulsdifferenz Arme.",
+          "befunde": [
+            "CTA: Intima-Flap in Aorta ascendens"
+          ],
+          "diagnose": "Stanford A Dissektion",
+          "therapie": [
+            "Sofortige Herz-OP"
+          ],
+          "lernpunkte": [
+            "Chirurgischer Notfall! Letalität steigt stündlich"
+          ]
+        },
+        {
+          "id": "CARD_N069",
+          "titel": "Hypertensive Krise mit Papillenödem",
+          "tags": [
+            "Notfall",
+            "Auge"
+          ],
+          "patient": "50-j. Mann, Kopfschmerz, Sehstörung",
+          "praesentation": "RR 240/130 mmHg.",
+          "befunde": [
+            "Funduskopie: Papillenödem, Blutungen (Fundus hypertonicus IV)"
+          ],
+          "diagnose": "Maligne Hypertonie / Hypertensiver Notfall",
+          "therapie": [
+            "Gesteuerte RR-Senkung i.v. (Urapidil/Nitrate)"
+          ],
+          "lernpunkte": [
+            "Ziel: Senkung um max. 25% in der ersten Stunde"
+          ]
+        },
+        {
+          "id": "CARD_N070",
+          "titel": "Lungenembolie bei Schwangerschaft",
+          "tags": [
+            "Notfall",
+            "Schwangerschaft"
+          ],
+          "patient": "30-j. Schwangere (3. Trimenon), akute Atemnot",
+          "praesentation": "Einseitige Beinschwellung.",
+          "befunde": [
+            "Sono-Beinvene: TVT",
+            "CT-Angio indiziert trotz SS"
+          ],
+          "diagnose": "Lungenembolie",
+          "therapie": [
+            "NMH (Heparin) gewichtsadaptiert"
+          ],
+          "lernpunkte": [
+            "Therapie der Wahl in der SS: Heparin (nicht plazentagängig)"
+          ]
+        },
+        {
+          "id": "CARD_N071",
+          "titel": "Reanimation bei Kammerflimmern",
+          "tags": [
+            "Reanimation",
+            "Notfall"
+          ],
+          "patient": "Pat. bricht zusammen",
+          "praesentation": "Kein Puls, keine Atmung.",
+          "befunde": [
+            "EKG: Kammerflimmern"
+          ],
+          "diagnose": "Kreislaufstillstand",
+          "therapie": [
+            "Asynchrone Defibrillation (360J monophasisch)",
+            "Amiodaron nach 3. Schock"
+          ],
+          "lernpunkte": [
+            "Frühe Defibrillation rettet Leben"
+          ]
+        },
+        {
+          "id": "CARD_N072",
+          "titel": "CO-Intoxikation (Kardial)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Hausbrand-Opfer",
+          "praesentation": "Verwirrtheit, Brustschmerz.",
+          "befunde": [
+            "CO-Hb 30%",
+            "Troponin↑ (Sekundäre Ischämie)"
+          ],
+          "diagnose": "Kardiale Ischämie bei CO-Vergiftung",
+          "therapie": [
+            "100% O2",
+            "ggf. Hyperbare Kammer"
+          ],
+          "lernpunkte": [
+            "O2-Affinität des CO ist 200x höher als O2"
+          ]
+        },
+        {
+          "id": "CARD_N073",
+          "titel": "Anaphylaxie mit Kreislaufstillstand",
+          "tags": [
+            "Notfall",
+            "Allergie"
+          ],
+          "patient": "Pat. nach Kontrastmittelgabe",
+          "praesentation": "Urtikaria, dann Kollaps.",
+          "befunde": [
+            "Kein Puls"
+          ],
+          "diagnose": "Anaphylaktischer Schock Grad IV",
+          "therapie": [
+            "Adrenalin i.v. / i.m.",
+            "Volumen",
+            "CPR"
+          ],
+          "lernpunkte": [
+            "Adrenalin ist das Medikament der Wahl"
+          ]
+        },
+        {
+          "id": "CARD_N074",
+          "titel": "Hyperkalzämische Krise (EKG-Zeichen)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Onkologie-Pat., Somnolenz",
+          "praesentation": "Verwirrtheit.",
+          "befunde": [
+            "EKG: Verkürzte QT-Dauer",
+            "Calcium 4,0 mmol/l"
+          ],
+          "diagnose": "Hyperkalzämie",
+          "therapie": [
+            "Aggressive Hydrierung",
+            "Bisphosphonate",
+            "Schleifendiuretika"
+          ],
+          "lernpunkte": [
+            "'Short QT'"
+          ]
+        },
+        {
+          "id": "CARD_N075",
+          "titel": "Hypokaliämie (Rhythmus)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Pat. nach Diuretika-Abusus",
+          "praesentation": "Muskelschwäche, Extrasystolen.",
+          "befunde": [
+            "EKG: Abgeflachte T-Welle, U-Welle, QT-Verlängerung"
+          ],
+          "diagnose": "Hypokaliämie",
+          "therapie": [
+            "Kalium-Substitution"
+          ],
+          "lernpunkte": [
+            "Gefahr der Torsade-de-Pointes"
+          ]
+        }
+      ]
+    },
+    "risikofaktoren_praevention": {
+      "label": "Risikofaktoren & Prävention",
+      "emoji": "🥗",
+      "faelle": [
+        {
+          "id": "CARD_P076",
+          "titel": "Essenzielle Hypertonie",
+          "tags": [
+            "Prävention",
+            "Hypertonie"
+          ],
+          "patient": "50-jähriger Patient, Manager",
+          "praesentation": "Zufallsfund 160/95 mmHg bei Routinecheck.",
+          "befunde": [
+            "Fundus hypertonicus I",
+            "keine Mikroalbuminurie"
+          ],
+          "diagnose": "Essenzielle Hypertonie Grad II",
+          "therapie": [
+            "Lebensstilmodifikation",
+            "ACE-Hemmer + Diuretikum (Fixkombi)"
+          ],
+          "lernpunkte": [
+            "Zielwert < 130/80 mmHg bei den meisten Patienten"
+          ]
+        },
+        {
+          "id": "CARD_P077",
+          "titel": "Familiäre Hypercholesterinämie",
+          "tags": [
+            "Lipide",
+            "Genetik"
+          ],
+          "patient": "25-j. Mann, Xanthome an Sehnen",
+          "praesentation": "Vater mit Infarkt mit 40 J.",
+          "befunde": [
+            "LDL-C 350 mg/dl"
+          ],
+          "diagnose": "Familiäre Hypercholesterinämie (heterozygot)",
+          "therapie": [
+            "Hochpotente Statine + Ezetimib",
+            "ggf. PCSK9-Inhibitor"
+          ],
+          "lernpunkte": [
+            "Frühzeitige Therapie zur Vermeidung vorzeitiger KHK"
+          ]
+        },
+        {
+          "id": "CARD_P078",
+          "titel": "Diabetes mellitus & KHK-Risiko",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "60-j. Diabetiker Typ 2",
+          "praesentation": "Vorsorge.",
+          "befunde": [
+            "SCORE2-Risiko: sehr hoch"
+          ],
+          "diagnose": "Kardiovaskuläres Risiko bei Diabetes",
+          "therapie": [
+            "SGLT2-Inhibitor oder GLP-1-Agonist (unabhängig von HbA1c zur Protektion)"
+          ],
+          "lernpunkte": [
+            "SGLT2-I senken HI-Hospitalisierungen"
+          ]
+        },
+        {
+          "id": "CARD_P079",
+          "titel": "Metabolisches Syndrom",
+          "tags": [
+            "Adipositas"
+          ],
+          "patient": "45-j. adipös, BMI 35",
+          "praesentation": "Leistungsknick.",
+          "befunde": [
+            "Taillenumfang > 102 cm, TG↑, HDL↓, RR↑, BZ↑"
+          ],
+          "diagnose": "Metabolisches Syndrom",
+          "therapie": [
+            "Multimodale Gewichtsreduktion",
+            "Sport"
+          ],
+          "lernpunkte": [
+            "Summation von Risikofaktoren"
+          ]
+        },
+        {
+          "id": "CARD_P080",
+          "titel": "Nikotinabhängigkeit (Rauchstopp)",
+          "tags": [
+            "Sucht"
+          ],
+          "patient": "50-j. KHK-Patient",
+          "praesentation": "Raucht 20 Zigaretten/Tag nach Stent-OP.",
+          "befunde": [
+            "Harter Tabakabusus"
+          ],
+          "diagnose": "Nikotinabhängigkeit",
+          "therapie": [
+            "Vareniclin / Bupropion",
+            "Nikotinersatz",
+            "Verhaltenstherapie"
+          ],
+          "lernpunkte": [
+            "Rauchstopp ist die effektivste Einzelmaßnahme der Sekundärprophylaxe"
+          ]
+        },
+        {
+          "id": "CARD_P081",
+          "titel": "Hyperlipoproteinämie(a)",
+          "tags": [
+            "Lipide"
+          ],
+          "patient": "40-j. mit Infarkt trotz normalem LDL",
+          "praesentation": "Rezidivierende Ereignisse.",
+          "befunde": [
+            "Lp(a) > 50 mg/dl"
+          ],
+          "diagnose": "Lp(a)-Erhöhung",
+          "therapie": [
+            "Strenge LDL-Senkung (< 40 mg/dl)",
+            "ggf. Lipidapherese"
+          ],
+          "lernpunkte": [
+            "Lp(a) ist genetisch fixiert und nicht durch Diät beeinflussbar"
+          ]
+        },
+        {
+          "id": "CARD_P082",
+          "titel": "Obstruktives Schlafapnoe-Syndrom (OSAS)",
+          "tags": [
+            "Hypertonus"
+          ],
+          "patient": "55-j. Mann, nächtliches Schnarchen, Tagesmüdigkeit",
+          "praesentation": "Therapierefraktäre Hypertonie.",
+          "befunde": [
+            "Polygraphie: AHI 35/h"
+          ],
+          "diagnose": "Schweres OSAS",
+          "therapie": [
+            "CPAP-Maskentherapie"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache für nächtliche Non-Dipping Blutdruckprofile"
+          ]
+        },
+        {
+          "id": "CARD_P083",
+          "titel": "Kardiovaskuläre Rehabilitation",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Pat. 2 Wochen nach Infarkt/PCI",
+          "praesentation": "Wunsch nach Belastungssteigerung.",
+          "befunde": [
+            "Belastbarkeit 50W"
+          ],
+          "diagnose": "Zustand nach ACS",
+          "therapie": [
+            "Phase-II Reha (Stationär/Ambulant)"
+          ],
+          "lernpunkte": [
+            "Verbesserung der Prognose und Lebensqualität durch strukturiertes Training"
+          ]
+        },
+        {
+          "id": "CARD_P084",
+          "titel": "Primärprävention (SCORE2-Modell)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "52-j. beschwerdefreier Mann",
+          "praesentation": "Frage nach Risiko.",
+          "befunde": [
+            "Nichtraucher, RR 140/90, Nicht-HDL 160"
+          ],
+          "diagnose": "Moderates kardiovaskuläres Risiko",
+          "therapie": [
+            "Beratung, Kontrolle in 2 Jahren"
+          ],
+          "lernpunkte": [
+            "SCORE2 schätzt das 10-Jahres-Risiko für fatale und nicht-fatale CV-Ereignisse"
+          ]
+        },
+        {
+          "id": "CARD_P085",
+          "titel": "Sportkardiologische Vorsorge",
+          "tags": [
+            "Sport"
+          ],
+          "patient": "40-j. Marathon-Einsteiger",
+          "praesentation": "Wunsch nach Check-Up.",
+          "befunde": [
+            "Ruhe-EKG o.B., Echo o.B."
+          ],
+          "diagnose": "Sporttauglichkeit",
+          "therapie": [
+            "Belastungs-EKG bis Ausbelastung"
+          ],
+          "lernpunkte": [
+            "Ausschluss KHK und Kardiomyopathien vor Trainingsaufnahme"
+          ]
+        }
+      ]
+    },
+    "spezielle_kardiologie": {
+      "label": "GUCH, Schwangerschaft & Sport",
+      "emoji": "🏃",
+      "faelle": [
+        {
+          "id": "CARD_S086",
+          "titel": "Vorhofseptumdefekt (ASD Typ II)",
+          "tags": [
+            "GUCH"
+          ],
+          "patient": "28-jährige Frau",
+          "praesentation": "Zufallsbefund Herzgeräusch, leichte Belastungsdyspnoe.",
+          "befunde": [
+            "Auskultation: Fixierte Spaltung des 2. Herztons",
+            "Echo: Rechtsherzbelastung, Shuntnachweis"
+          ],
+          "diagnose": "ASD II",
+          "therapie": [
+            "Interventioneller Schirmverschluss (Amplatzer Occluder)"
+          ],
+          "lernpunkte": [
+            "Häufigster angeborener Herzfehler im Erwachsenenalter"
+          ]
+        },
+        {
+          "id": "CARD_S087",
+          "titel": "Aortenisthmusstenose (GUCH)",
+          "tags": [
+            "GUCH",
+            "Hypertonus"
+          ],
+          "patient": "22-j. Mann, therapierefraktäre Hypertonie",
+          "praesentation": "Blutdruckdifferenz Arm/Bein (Arm 170/95, Bein 110/70).",
+          "befunde": [
+            "Pulse an Füßen schwach",
+            "Rö-Thorax: Rippenusuren"
+          ],
+          "diagnose": "Coarctatio aortae (Kinking)",
+          "therapie": [
+            "Stenting der Isthmusstenose"
+          ],
+          "lernpunkte": [
+            "Hypertonie-Abklärung beim jungen Menschen"
+          ]
+        },
+        {
+          "id": "CARD_S088",
+          "titel": "Herzinsuffizienz in der Schwangerschaft",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "32-j. Schwangere (32. SSW)",
+          "praesentation": "Zunehmende Luftnot, kann nicht mehr flach liegen.",
+          "befunde": [
+            "Echo: EF 35%",
+            "Keine Vorerkrankung"
+          ],
+          "diagnose": "Peripartale Kardiomyopathie (PPCM)",
+          "therapie": [
+            "Stabilisierung",
+            "Bromocriptin",
+            "Frühzeitige Entbindung"
+          ],
+          "lernpunkte": [
+            "Definition: Herzinsuffizienz im letzten Monat der SS oder bis 5 Monate postpartal"
+          ]
+        },
+        {
+          "id": "CARD_S089",
+          "titel": "Sportlerherz",
+          "tags": [
+            "Sport"
+          ],
+          "patient": "25-j. Profi-Radsportler",
+          "praesentation": "Vorsorgeuntersuchung.",
+          "befunde": [
+            "Ruhe-Puls 38/min",
+            "Echo: Septum 13mm, LVEDD 60mm (dilatiert)",
+            "EKG: Erhöhte Amplituden"
+          ],
+          "diagnose": "Physiologisches Sportlerherz",
+          "therapie": [
+            "Keine Intervention"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur DCM/HCM: Harmonische Vergrößerung, gute Funktion"
+          ]
+        },
+        {
+          "id": "CARD_S090",
+          "titel": "Myokardbrücke",
+          "tags": [
+            "Variante"
+          ],
+          "patient": "40-j. Pat., belastungsabhängige Angina",
+          "praesentation": "Troponin negativ.",
+          "befunde": [
+            "Angio: Systolische Kompression des RIVA ('Milking')"
+          ],
+          "diagnose": "Myokardbrücke",
+          "therapie": [
+            "Betablocker",
+            "Vermeidung von Nitraten"
+          ],
+          "lernpunkte": [
+            "Intramurale Lage der Koronarie"
+          ]
+        },
+        {
+          "id": "CARD_S091",
+          "titel": "Kardiale Tumoren (Myxom)",
+          "tags": [
+            "Tumor"
+          ],
+          "patient": "50-j. Frau, TIA-Symptomatik",
+          "praesentation": "Schwindel, kurzzeitige Lähmung.",
+          "befunde": [
+            "Echo: Gestielte Raumforderung im linken Vorhof, flottierend"
+          ],
+          "diagnose": "Vorhofmyxom",
+          "therapie": [
+            "Herzchirurgische Exstirpation"
+          ],
+          "lernpunkte": [
+            "Häufigster primärer Herztumor, Emboliegefahr"
+          ]
+        },
+        {
+          "id": "CARD_S092",
+          "titel": "Commotio Cordis",
+          "tags": [
+            "Sport",
+            "Trauma"
+          ],
+          "patient": "15-j. Baseballspieler",
+          "praesentation": "Zusammenbruch nach Treffer durch Ball auf den Brustkorb.",
+          "befunde": [
+            "Kammerflimmern"
+          ],
+          "diagnose": "Commotio cordis",
+          "therapie": [
+            "Defibrillation",
+            "Reanimation"
+          ],
+          "lernpunkte": [
+            "Treffer in der vulnerablen Phase der Repolarisation (T-Welle)"
+          ]
+        },
+        {
+          "id": "CARD_S093",
+          "titel": "Kardiotoxizität unter Chemotherapie",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "45-j. Frau mit Mamma-CA unter Anthrazyklinen",
+          "praesentation": "Nachlassende Leistungsfähigkeit.",
+          "befunde": [
+            "Echo: EF-Abfall von 60% auf 45%"
+          ],
+          "diagnose": "Chemotherapie-induzierte Kardiomyopathie",
+          "therapie": [
+            "ACE-Hemmer + Betablocker",
+            "Pausieren der Chemo"
+          ],
+          "lernpunkte": [
+            "Monitoring der Herzfunktion bei Onko-Patienten"
+          ]
+        },
+        {
+          "id": "CARD_S094",
+          "titel": "Herzklappenersatz & Schwangerschaft",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "30-j. mit künstlicher Mitralklappe, Kinderwunsch",
+          "praesentation": "Beratung zur Antikoagulation.",
+          "befunde": [
+            "Dauermedikation Phenprocoumon (Marcumar)"
+          ],
+          "diagnose": "Antikoagulations-Management in der SS",
+          "therapie": [
+            "Umstellung auf Heparin im 1. Trimenon (Embryopathie-Vermeidung)"
+          ],
+          "lernpunkte": [
+            "Marcumar ist teratogen (Warfarin-Embryopathie)"
+          ]
+        },
+        {
+          "id": "CARD_S095",
+          "titel": "Ebstein-Anomalie",
+          "tags": [
+            "GUCH"
+          ],
+          "patient": "22-j. Frau, Zyanose bei Anstrengung",
+          "praesentation": "Belastungsdyspnoe.",
+          "befunde": [
+            "Echo: Tiefstand des septalen Trikuspidalsegels, Atrialisierung des RV"
+          ],
+          "diagnose": "Morbus Ebstein",
+          "therapie": [
+            "Trikuspidalklappen-OP (Cone-Rekonstruktion)"
+          ],
+          "lernpunkte": [
+            "Oft mit ASD vergesellschaftet"
+          ]
+        },
+        {
+          "id": "CARD_S096",
+          "titel": "Hyperoxie-Test (Zyanose-Abklärung)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Neugeborenes, zyanotisch",
+          "praesentation": "Keine Besserung der Sättigung unter 100% O2.",
+          "befunde": [
+            "SPO2 75% unter O2"
+          ],
+          "diagnose": "Zyanotischer Herzfehler (z.B. Transposition)",
+          "therapie": [
+            "Prostavasin-Infusion (Ductus offen halten)"
+          ],
+          "lernpunkte": [
+            "Reagiert die Zyanose nicht auf O2, liegt meist ein Shunt vor"
+          ]
+        },
+        {
+          "id": "CARD_S097",
+          "titel": "Hochdruckherz (Hypertensive Herzkrankheit)",
+          "tags": [
+            "Hypertonus"
+          ],
+          "patient": "65-j. Mann, chronischer Hypertonus",
+          "praesentation": "Belastungsdyspnoe.",
+          "befunde": [
+            "Echo: LV-Hypertrophie (Siv > 12mm), Diastole-Störung"
+          ],
+          "diagnose": "Hypertensive Herzkrankheit (HHK)",
+          "therapie": [
+            "Optimierte Blutdrucksenkung"
+          ],
+          "lernpunkte": [
+            "Hypertrophie erhöht Risiko für VHF und HI"
+          ]
+        },
+        {
+          "id": "CARD_S098",
+          "titel": "Cor pulmonale (Chronisch)",
+          "tags": [
+            "Pulmonal"
+          ],
+          "patient": "70-j. Patient mit schwerer COPD",
+          "praesentation": "Ödeme, gestaute Halsvenen.",
+          "befunde": [
+            "Echo: Dilatierter rechter Ventrikel, TV-Insuffizienz",
+            "EKG: P-pulmonale"
+          ],
+          "diagnose": "Chronisches Cor pulmonale",
+          "therapie": [
+            "Therapie der Lungenerkrankung",
+            "O2-Langzeittherapie"
+          ],
+          "lernpunkte": [
+            "Rechtsherzversagen infolge Lungenerkrankung"
+          ]
+        },
+        {
+          "id": "CARD_S099",
+          "titel": "Kardiovaskuläre Nebenwirkungen von NSAR",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "75-j. KHK-Patient mit Arthrose",
+          "praesentation": "Nimmt täglich Diclofenac.",
+          "befunde": [
+            "RR-Erhöhung, Ödeme"
+          ],
+          "diagnose": "Medikamentöse Verschlechterung HI/Hypertonus",
+          "therapie": [
+            "Absetzen NSAR",
+            "Alternative: Paracetamol/Metamizol"
+          ],
+          "lernpunkte": [
+            "NSAR erhöhen kardiovaskuläres Risiko und HI-Dekompensation"
+          ]
+        },
+        {
+          "id": "CARD_S100",
+          "titel": "Pädiatrischer Herzfehler im Erwachsenenalter (Fontan-Zirkulation)",
+          "tags": [
+            "GUCH"
+          ],
+          "patient": "24-j. nach früherer OP bei Einkammerherz",
+          "praesentation": "Proteinverlustenteropathie, Ödeme.",
+          "befunde": [
+            "Fontan-Zirkulation stabil, aber Leberstauung"
+          ],
+          "diagnose": "Fontan-Failure",
+          "therapie": [
+            "Spezialisierte GUCH-Betreuung"
+          ],
+          "lernpunkte": [
+            "Fontan-Patienten benötigen lebenslanges Monitoring"
+          ]
+        }
+      ]
+    }
+  }
+}

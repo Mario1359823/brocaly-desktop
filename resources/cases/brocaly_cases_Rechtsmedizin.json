@@ -1,0 +1,1835 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Rechtsmedizin",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "thanatologie_leichenschau": {
+      "label": "Thanatologie & Leichenschau",
+      "emoji": "🕯️",
+      "faelle": [
+        {
+          "id": "RM_001",
+          "titel": "Totenflecke (Livores)",
+          "tags": [
+            "Thanatologie",
+            "Todeszeichen"
+          ],
+          "patient": "Leichenfund in Rückenlage",
+          "praesentation": "Lila Verfärbungen an den abhängigen Körperpartien (Rücken, Waden).",
+          "befunde": [
+            "Totenflecke vollständig wegdruckbar",
+            "Umlagerbarkeit nachweisbar"
+          ],
+          "diagnose": "Frühes Todesstadium (Todeszeit < 6-12h)",
+          "maßnahme": [
+            "Dokumentation der Verteilung",
+            "Bestimmung der Wegdrückbarkeit"
+          ],
+          "lernpunkte": [
+            "Vollständige Wegdrückbarkeit bis ca. 6-12h",
+            "Umlagerbarkeit bis ca. 12-24h"
+          ]
+        },
+        {
+          "id": "RM_002",
+          "titel": "Totenstarre (Rigor mortis)",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Leichenfund in Wohnung",
+          "praesentation": "Extremitäten starr, Kiefer nicht zu öffnen.",
+          "befunde": [
+            "Nysten-Regel: Kiefer -> Nacken -> Obere Extremität -> Untere Extremität"
+          ],
+          "diagnose": "Voll ausgeprägte Totenstarre",
+          "maßnahme": [
+            "Prüfung der Brechbarkeit und Wiedereintritt"
+          ],
+          "lernpunkte": [
+            "Beginn nach 2h, volle Ausprägung nach 6-12h, Lösung nach 48-72h"
+          ]
+        },
+        {
+          "id": "RM_003",
+          "titel": "Todeszeitbestimmung (Henssge-Nomogramm)",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Verstorbener im Wald, 15°C Umgebungstemp.",
+          "praesentation": "Leiche bekleidet.",
+          "befunde": [
+            "Rektaltemperatur: 28°C",
+            "Körpergewicht: 80 kg",
+            "Umgebungskonstanz gegeben"
+          ],
+          "diagnose": "Todeszeit-Schätzung via Abkühlung",
+          "maßnahme": [
+            "Anwendung des Henssge-Nomogramms",
+            "Korrekturfaktoren (Kleidung) beachten"
+          ],
+          "lernpunkte": [
+            "Standardmethode im frühen postmortalen Intervall"
+          ]
+        },
+        {
+          "id": "RM_004",
+          "titel": "Supravitale Reaktionen (Idio-Muskelwulst)",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Frisch Verstorbener",
+          "praesentation": "Untersuchung unmittelbar am Fundort.",
+          "befunde": [
+            "Mechanische Reizung des M. biceps brachii führt zu lokaler Kontraktion"
+          ],
+          "diagnose": "Supravitalität vorhanden",
+          "maßnahme": [
+            "Zilienreizung",
+            "Elektrische Erregbarkeit prüfen"
+          ],
+          "lernpunkte": [
+            "Idio-muskulärer Wulst bis zu 13h post mortem auslösbar"
+          ]
+        },
+        {
+          "id": "RM_005",
+          "titel": "Fäulnis & Verwesung (Casper-Regel)",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Wasserleiche vs. Erdgrab",
+          "praesentation": "Fortgeschrittene Dekomposition.",
+          "befunde": [
+            "Grünfärbung rechtes Unterbauchviertel",
+            "Durchschlagendes Venennetz"
+          ],
+          "diagnose": "Fäulnisstadium",
+          "maßnahme": [
+            "Dokumentation der Gasbildung",
+            "Madensammlung (Entomologie)"
+          ],
+          "lernpunkte": [
+            "Casper-Regel: 1 Woche Luft = 2 Wochen Wasser = 8 Wochen Erde"
+          ]
+        },
+        {
+          "id": "RM_006",
+          "titel": "Adipocire (Fettwachsbildung)",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Leiche aus feuchtem Lehmboden",
+          "praesentation": "Körperoberfläche weißlich-grau, wachsartige Konsistenz.",
+          "befunde": [
+            "Saponifikation des Unterhautfettgewebes"
+          ],
+          "diagnose": "Fettwachsleiche",
+          "therapie": [
+            "Konservierende Leichenveränderung"
+          ],
+          "lernpunkte": [
+            "Voraussetzung: Sauerstoffabschluss und Feuchtigkeit"
+          ]
+        },
+        {
+          "id": "RM_007",
+          "titel": "Mumifizierung",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Leiche auf trockenem Dachboden",
+          "praesentation": "Haut lederartig braun, Körpergewicht massiv reduziert.",
+          "befunde": [
+            "Keine Fäulniszeichen",
+            "Gewebe eingetrocknet"
+          ],
+          "diagnose": "Natürliche Mumifizierung",
+          "maßnahme": [
+            "Identitätssicherung",
+            "Suche nach Vitalitätszeichen"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Fäulnis durch rasche Dehydration"
+          ]
+        },
+        {
+          "id": "RM_008",
+          "titel": "Scheintod (Intermediäres Leben)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Patient nach Reanimation/Intoxikation",
+          "praesentation": "Tiefe Bewusstlosigkeit, minimale Vitalzeichen.",
+          "befunde": [
+            "AEEG flach",
+            "keine Reflexe"
+          ],
+          "diagnose": "V.a. Scheintod (Vita reducta)",
+          "maßnahme": [
+            "Intensivmedizinische Überwachung",
+            "Keine Todesbescheinigung!"
+          ],
+          "lernpunkte": [
+            "AEIOU-Regel für Scheintodursachen (Anämie, Elektrizität, Inanition, Opium/Drogen, Urämie)"
+          ]
+        },
+        {
+          "id": "RM_009",
+          "titel": "Agonale Verletzungen",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Patient im Sterbeprozess",
+          "praesentation": "Sturz aus dem Bett unmittelbar vor Todeseintritt.",
+          "befunde": [
+            "Geringes Hämatom",
+            "kaum Gewebereaktion"
+          ],
+          "diagnose": "Agonale Verletzung",
+          "maßnahme": [
+            "Abgrenzung von prä- und postmortalen Verletzungen"
+          ],
+          "lernpunkte": [
+            "Fehlende Entzündungsreaktion spricht für Agonie/Postmortalität"
+          ]
+        },
+        {
+          "id": "RM_010",
+          "titel": "Durchschlagendes Venennetz",
+          "tags": [
+            "Thanatologie"
+          ],
+          "patient": "Leiche nach 4 Tagen in warmer Wohnung",
+          "praesentation": "Marmorierung der Haut (schwarz-grünlich).",
+          "befunde": [
+            "Hämolyse",
+            "Diffusionsvorgänge in Gefäßen"
+          ],
+          "diagnose": "Fäulniszeichen",
+          "maßnahme": [
+            "Feststellung der Todesart (ungeklärt)"
+          ],
+          "lernpunkte": [
+            "Bakterielle Zersetzung von Hämoglobin zu Sulfhämoglobin"
+          ]
+        },
+        {
+          "id": "RM_011",
+          "titel": "Larvenbesiedlung (Forensische Entomologie)",
+          "tags": [
+            "Todeszeit"
+          ],
+          "patient": "Leiche im Freien",
+          "praesentation": "Massiver Fliegenmadenbefall.",
+          "befunde": [
+            "Maden der Schmeißfliege (Calliphoridae) Stadium L3"
+          ],
+          "diagnose": "Todeszeitbestimmung via Insektenentwicklung",
+          "maßnahme": [
+            "Asservierung der größten Maden",
+            "Temperaturmessung Fundort"
+          ],
+          "lernpunkte": [
+            "Berechnung der Accumulated Degree Hours (ADH)"
+          ]
+        },
+        {
+          "id": "RM_012",
+          "titel": "Kirschrote Totenflecke",
+          "tags": [
+            "Todeszeichen"
+          ],
+          "patient": "Fund in Garage (laufender Motor)",
+          "praesentation": "Hellrote, kirschfarbene Totenflecke.",
+          "befunde": [
+            "CO-Hb Konzentration 60%"
+          ],
+          "diagnose": "Kohlenmonoxid-Vergiftung",
+          "maßnahme": [
+            "Toxikologische Blutuntersuchung"
+          ],
+          "lernpunkte": [
+            "Hellrote Totenflecke auch bei Blausäure oder Unterkühlung möglich"
+          ]
+        },
+        {
+          "id": "RM_013",
+          "titel": "Sichere Todeszeichen (Nicht-natürlicher Tod)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Fundlage mit Schusswunde Kopf",
+          "praesentation": "Hirnaustritt, Totenstarre vorhanden.",
+          "befunde": [
+            "Schussdefekt",
+            "Sichere Todeszeichen"
+          ],
+          "diagnose": "Nicht-natürlicher Tod",
+          "maßnahme": [
+            "Sofortiger Abbruch der Leichenschau",
+            "Benachrichtigung der Polizei/Staatsanwaltschaft"
+          ],
+          "lernpunkte": [
+            "Arztpflicht bei nicht-natürlichem Tod: Sicherung, keine Veränderung"
+          ]
+        },
+        {
+          "id": "RM_014",
+          "titel": "Leichenschau (Äußere)",
+          "tags": [
+            "Procedere"
+          ],
+          "patient": "Verstorbener im Krankenhaus",
+          "praesentation": "Durchführung der gesetzlichen Leichenschau.",
+          "befunde": [
+            "Vollständige Entkleidung",
+            "Untersuchung aller Körperöffnungen"
+          ],
+          "diagnose": "Todeseintritt sicher",
+          "maßnahme": [
+            "Ausfüllen des Totenscheins (vertraulicher/nicht-vertraulicher Teil)"
+          ],
+          "lernpunkte": [
+            "Sorgfaltspflicht: Übersehen von Strangmarken oder Einstichen"
+          ]
+        },
+        {
+          "id": "RM_015",
+          "titel": "Kremationsleichenschau (Zweite Leichenschau)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Geplante Feuerbestattung",
+          "praesentation": "Zweite Begutachtung durch Rechtsmediziner im Krematorium.",
+          "befunde": [
+            "Divergenz zur ersten Leichenschau (z.B. Hämatome übersehen)"
+          ],
+          "diagnose": "Ungeklärte Todesart",
+          "maßnahme": [
+            "Stopp der Kremierung",
+            "Einleitung Obduktion"
+          ],
+          "lernpunkte": [
+            "Letzte Kontrollinstanz vor Vernichtung von Beweismitteln"
+          ]
+        }
+      ]
+    },
+    "traumatologie_blunt_sharp": {
+      "label": "Forensische Traumatologie",
+      "emoji": "⚔️",
+      "faelle": [
+        {
+          "id": "RM_016",
+          "titel": "Stumpfe Gewalt (Hutkrempenregel)",
+          "tags": [
+            "Trauma",
+            "Stumpf"
+          ],
+          "patient": "Verletzter mit Kopfplatzwunde",
+          "praesentation": "Wunde oberhalb der Hutkrempenlinie.",
+          "befunde": [
+            "Riss-Quetsch-Wunde (RQW) parietal",
+            "Gewebebrücken nachweisbar"
+          ],
+          "diagnose": "Schlagtrauma (Fremdeinwirkung)",
+          "maßnahme": [
+            "Fotodokumentation",
+            "Spurensicherung"
+          ],
+          "lernpunkte": [
+            "Hutkrempenregel: Oberhalb = Schlag, auf/unterhalb = Sturz"
+          ]
+        },
+        {
+          "id": "RM_017",
+          "titel": "Puppé-Regel (Frakturfolgen)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Schädel-Hirn-Trauma",
+          "praesentation": "Multiple Frakturlinien am Schädeldach.",
+          "befunde": [
+            "Frakturlinie A endet an Frakturlinie B"
+          ],
+          "diagnose": "Rekonstruktion der Schlagreihenfolge",
+          "maßnahme": [
+            "CT-Schädel / Sektion"
+          ],
+          "lernpunkte": [
+            "Später entstandene Risse enden an bereits bestehenden Rissen"
+          ]
+        },
+        {
+          "id": "RM_018",
+          "titel": "Pfeiffer-Regel (Gabelung)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Schädelfraktur",
+          "praesentation": "Y-förmige Fraktur.",
+          "befunde": [
+            "Gabelung der Fraktur zeigt in Richtung des Stoßes"
+          ],
+          "diagnose": "Bestimmung der Stoßrichtung",
+          "maßnahme": [
+            "Präparation der Kalotte"
+          ],
+          "lernpunkte": [
+            "Druck- und Zugspannungen im Knochen"
+          ]
+        },
+        {
+          "id": "RM_019",
+          "titel": "Schnitt- vs. Risswunde",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Verletzung am Unterarm",
+          "praesentation": "Längliche Wunde.",
+          "befunde": [
+            "Keine Gewebebrücken",
+            "Wundränder glatt",
+            "Haare glatt durchtrennt"
+          ],
+          "diagnose": "Schnittwunde (Scharfe Gewalt)",
+          "maßnahme": [
+            "Untersuchung auf 'Zauderschnitte'"
+          ],
+          "lernpunkte": [
+            "Gewebebrücken sind beweisend für stumpfe Gewalt"
+          ]
+        },
+        {
+          "id": "RM_020",
+          "titel": "Stichwunde (Rekonstruktion)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Leiche mit Brustkorbverletzung",
+          "praesentation": "Spindelförmige Hautwunde.",
+          "befunde": [
+            "Ein Wundwinkel spitz, einer schwalbenschwanzartig"
+          ],
+          "diagnose": "Stich mit einschneidiger Waffe (Messer)",
+          "maßnahme": [
+            "Messung der Stichkanal-Tiefe"
+          ],
+          "lernpunkte": [
+            "Schwalbenschwanz entsteht durch Drehen des Messers beim Herausziehen"
+          ]
+        },
+        {
+          "id": "RM_021",
+          "titel": "Abwehrverletzungen",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Opfer eines Angriffs",
+          "praesentation": "Schnittwunden an den Handinnenflächen und Kleinfingerkanten.",
+          "befunde": [
+            "Aktive Abwehr (Greifen in die Klinge)",
+            "Passive Abwehr (Schutz der Vitalregionen)"
+          ],
+          "diagnose": "Fremdeinwirkung (Kampfgeschehen)",
+          "maßnahme": [
+            "DNA-Abstrich von den Fingernägeln"
+          ],
+          "lernpunkte": [
+            "Typische Lokalisation: Extensorseite der Unterarme"
+          ]
+        },
+        {
+          "id": "RM_022",
+          "titel": "Hesitation Marks (Zauderschnitte)",
+          "tags": [
+            "Suizid"
+          ],
+          "patient": "Leiche in Badewanne",
+          "praesentation": "Tiefe Schnittwunde am Handgelenk links.",
+          "befunde": [
+            "Mehrere oberflächliche, parallele Ritzungen daneben"
+          ],
+          "diagnose": "Suizid durch scharfe Gewalt",
+          "maßnahme": [
+            "Ausschluss von Abwehrverletzungen"
+          ],
+          "lernpunkte": [
+            "Zauderschnitte sprechen stark für Eigenbeibringung"
+          ]
+        },
+        {
+          "id": "RM_023",
+          "titel": "Kanten- vs. Schürfspur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Verkehrsunfallopfer",
+          "praesentation": "Parallele Hautschürfungen.",
+          "befunde": [
+            "Reifenprofilmuster auf der Haut (Positivabdruck)"
+          ],
+          "diagnose": "Überrolltrauma",
+          "maßnahme": [
+            "Vergleich mit Reifen des Tatfahrzeugs"
+          ],
+          "lernpunkte": [
+            "Intravitale Reaktion (Rötung/Blutung) prüfen"
+          ]
+        },
+        {
+          "id": "RM_024",
+          "titel": "Bissverletzung",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Kind mit Hautläsion",
+          "praesentation": "Ovale Rötung mit punktförmigen Schürfungen.",
+          "befunde": [
+            "Abstand der Eckzähne messbar",
+            "Zahnbogenform"
+          ],
+          "diagnose": "Menschliche Bisswunde",
+          "maßnahme": [
+            "Forensischer Zahnabdruck",
+            "Speichel-DNA Sicherung"
+          ],
+          "lernpunkte": [
+            "Menschliche Bisse oft mit Quetschung/Hämatom vergesellschaftet"
+          ]
+        },
+        {
+          "id": "RM_025",
+          "titel": "Décollement (Ablederung)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "LKW-Anfahrung",
+          "praesentation": "Haut am Oberschenkel wirkt intakt, aber fluktuierend.",
+          "befunde": [
+            "Großflächige Trennung Cutis von Faszie",
+            "Einblutung (Serom)"
+          ],
+          "diagnose": "Stumpfes Schertrauma",
+          "maßnahme": [
+            "Inzision zur Dokumentation der Tasche"
+          ],
+          "lernpunkte": [
+            "Tangentiale Gewaltanwendung"
+          ]
+        },
+        {
+          "id": "RM_026",
+          "titel": "Drosseln vs. Würgen",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Leiche mit Halsmarken",
+          "praesentation": "Punktförmige Blutungen im Gesicht (Tardieu-Flecke).",
+          "befunde": [
+            "Kehlkopffraktur",
+            "halbmondförmige Schürfungen (Fingernägel)"
+          ],
+          "diagnose": "Erwürgen (Manuelle Strangulation)",
+          "maßnahme": [
+            "Präparation der Halshaut schichtweise"
+          ],
+          "lernpunkte": [
+            "Drosseln = mit Werkzeug, Würgen = mit Händen"
+          ]
+        },
+        {
+          "id": "RM_027",
+          "titel": "Typisches Hängen",
+          "tags": [
+            "Suizid"
+          ],
+          "patient": "Fund im Keller am Seil",
+          "praesentation": "Knoten im Nacken, Strangmarke steigt nach oben an.",
+          "befunde": [
+            "Keine Tardieu-Flecke (da venöser Abfluss komplett unterbrochen)"
+          ],
+          "diagnose": "Suizid durch Hängen",
+          "maßnahme": [
+            "Dokumentation des Knotens (nicht lösen!)"
+          ],
+          "lernpunkte": [
+            "Typisch: Symmetrische Marke, keine Stauungsblutungen"
+          ]
+        },
+        {
+          "id": "RM_028",
+          "titel": "Atypisches Hängen",
+          "tags": [
+            "Suizid"
+          ],
+          "patient": "Halbsitzende Position am Heizkörper",
+          "praesentation": "Knoten seitlich am Hals.",
+          "befunde": [
+            "Ausgeprägte Stauungsblutungen im Gesicht"
+          ],
+          "diagnose": "Hängen mit inkompletter Okklusion",
+          "maßnahme": [
+            "Ausschluss Fremdeinwirkung"
+          ],
+          "lernpunkte": [
+            "Kompression der Venen bei offenbleibenden Arterien"
+          ]
+        },
+        {
+          "id": "RM_029",
+          "titel": "Simon-Blutungen",
+          "tags": [
+            "Vitalitätszeichen"
+          ],
+          "patient": "Verdacht auf Hängen",
+          "praesentation": "Obduktionsbefund.",
+          "befunde": [
+            "Punktförmige Blutungen an der Lendenwirbelsäule (Vorderseite)"
+          ],
+          "diagnose": "Vitales Hängen",
+          "maßnahme": [
+            "Histologie der Strangmarke"
+          ],
+          "lernpunkte": [
+            "Entstehen durch Zerrung der vorderen Längsbänder"
+          ]
+        },
+        {
+          "id": "RM_030",
+          "titel": "Kehlkopffraktur",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Leiche nach Gewalt gegen Hals",
+          "praesentation": "Hämatom am Hals.",
+          "befunde": [
+            "Bruch der oberen Schildknorpelhörner"
+          ],
+          "diagnose": "Mechanische Gewalteinwirkung Hals",
+          "maßnahme": [
+            "Präparation im wasserhellen Feld"
+          ],
+          "lernpunkte": [
+            "Altersabhängige Verknöcherung des Knorpels beachten"
+          ]
+        }
+      ]
+    },
+    "erstickung_ertrinken_thermik": {
+      "label": "Erstickung, Ertrinken & Thermik",
+      "emoji": "🌊",
+      "faelle": [
+        {
+          "id": "RM_031",
+          "titel": "Burking",
+          "tags": [
+            "Erstickung",
+            "Gewalt"
+          ],
+          "patient": "Verstorbener nach Kneipenschlägerei",
+          "praesentation": "Tardieu-Flecke, keine äußeren Halsverletzungen.",
+          "befunde": [
+            "Kombination aus Sitzen auf dem Brustkorb und Zuhalten von Mund/Nase"
+          ],
+          "diagnose": "Burking (Kombinierte Erstickung)",
+          "maßnahme": [
+            "Sektion zum Nachweis von Rippenfrakturen"
+          ],
+          "lernpunkte": [
+            "Historischer Begriff (William Burke)"
+          ]
+        },
+        {
+          "id": "RM_032",
+          "titel": "Bolustod",
+          "tags": [
+            "Erstickung"
+          ],
+          "patient": "Älterer Patient im Pflegeheim",
+          "praesentation": "Plötzlicher Tod beim Essen.",
+          "befunde": [
+            "Großes Fleischstück im Laryngopharynx verkeilt"
+          ],
+          "diagnose": "Vagusreflex-Tod durch Fremdkörper",
+          "maßnahme": [
+            "Ausschluss Herzinfarkt"
+          ],
+          "lernpunkte": [
+            "Reflektorischer Herzstillstand durch Reizung des N. laryngeus sup."
+          ]
+        },
+        {
+          "id": "RM_033",
+          "titel": "Badetod (Reflektorisch)",
+          "tags": [
+            "Wasser"
+          ],
+          "patient": "Schwimmer im kalten Wasser",
+          "praesentation": "Leiche ohne äußere Verletzungen.",
+          "befunde": [
+            "Keine typischen Ertrinkungszeichen (kein Schaumpilz)"
+          ],
+          "diagnose": "Kälteschock / Reflektorischer Herzstillstand",
+          "maßnahme": [
+            "Toxikologie (Alkohol?)"
+          ],
+          "lernpunkte": [
+            "Vagusreizung bei Eintauchen in kaltes Wasser"
+          ]
+        },
+        {
+          "id": "RM_034",
+          "titel": "Ertrinken (Typisch)",
+          "tags": [
+            "Wasser"
+          ],
+          "patient": "Wasserleiche",
+          "praesentation": "Feinblasiger Schaumpilz vor Mund und Nase.",
+          "befunde": [
+            "Paltauf-Flecke der Lunge",
+            "Wywodzew-Zeichen (Flüssigkeit im Keilbeinsinus)"
+          ],
+          "diagnose": "Typisches Ertrinken",
+          "maßnahme": [
+            "Kieselalgen-Nachweis (Diatomeen)"
+          ],
+          "lernpunkte": [
+            "Paltauf-Flecke = Kapillarblutungen unter der Pleura"
+          ]
+        },
+        {
+          "id": "RM_035",
+          "titel": "Waschfrauenhaut",
+          "tags": [
+            "Wasser"
+          ],
+          "patient": "Wasserleiche",
+          "praesentation": "Schrumpelung der Haut an Händen und Füßen.",
+          "befunde": [
+            "Stadium der Mazeration"
+          ],
+          "diagnose": "Wasserimmersion",
+          "maßnahme": [
+            "Schätzung der Liegezeit"
+          ],
+          "lernpunkte": [
+            "Beginn nach ca. 30 Min, Ablösung (Handschuh) nach Tagen"
+          ]
+        },
+        {
+          "id": "RM_036",
+          "titel": "Paltauf-Flecke",
+          "tags": [
+            "Vitalität"
+          ],
+          "patient": "Ertrinkungsopfer",
+          "praesentation": "Sektionsbefund Lunge.",
+          "befunde": [
+            "Verwaschene, hellrote Blutungen unter der Pleura visceralis"
+          ],
+          "diagnose": "Vitales Ertrinken",
+          "therapie": [
+            "Dokumentation"
+          ],
+          "lernpunkte": [
+            "Entstehen durch Verdünnung des Blutes und Kapillarruptur"
+          ]
+        },
+        {
+          "id": "RM_037",
+          "titel": "Brandleiche (Vitalitätszeichen)",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Opfer eines Hausbrandes",
+          "praesentation": "Verkohlte Leiche.",
+          "befunde": [
+            "Ruß im Ösophagus und in den tiefen Luftwegen",
+            "CO-Hb 30%"
+          ],
+          "diagnose": "Vitales Verbrennen",
+          "maßnahme": [
+            "Krähenfüße an den Augenwinkeln dokumentieren"
+          ],
+          "lernpunkte": [
+            "Rußaspiration beweist aktives Atmen im Feuer"
+          ]
+        },
+        {
+          "id": "RM_038",
+          "titel": "Fechterstellung",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Brandleiche",
+          "praesentation": "Arme und Beine in Beugestellung fixiert.",
+          "befunde": [
+            "Hitzeschrumpfung der Muskulatur"
+          ],
+          "diagnose": "Postmortale Hitzeveränderung",
+          "maßnahme": [
+            "Ausschluss von Abwehrbewegungen"
+          ],
+          "lernpunkte": [
+            "Beugemuskeln sind kräftiger als Strecker"
+          ]
+        },
+        {
+          "id": "RM_039",
+          "titel": "Epidurales Brandhämatom",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Brandleiche",
+          "praesentation": "Blutkollektion über der Dura.",
+          "befunde": [
+            "Sichelförmiges, krümeliges Hämatom",
+            "Sinus durae matris leer"
+          ],
+          "diagnose": "Hitzebedingtes Hämatom",
+          "maßnahme": [
+            "Abgrenzung zum traumatischen EDH"
+          ],
+          "lernpunkte": [
+            "Hitzeschrumpfung des Gehirns presst Blut aus Sinus"
+          ]
+        },
+        {
+          "id": "RM_040",
+          "titel": "Kältetod (Wischnewski-Flecke)",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Obdachloser im Winter",
+          "praesentation": "Fund im Freien, teilweise entkleidet (Paradoxes Entkleiden).",
+          "befunde": [
+            "Schleimhautblutungen im Magen (Wischnewski)"
+          ],
+          "diagnose": "Hypothermie-Tod",
+          "maßnahme": [
+            "Histologie des Herzmuskels"
+          ],
+          "lernpunkte": [
+            "Wischnewski-Flecke sind fast beweisend für Kältetod"
+          ]
+        },
+        {
+          "id": "RM_041",
+          "titel": "Strommarke",
+          "tags": [
+            "Elektrizität"
+          ],
+          "patient": "Unfall bei Elektroinstallation",
+          "praesentation": "Kleiner, kraterförmiger Defekt an der Fingerkuppe.",
+          "befunde": [
+            "Zentraler Wall, Metallisierung der Haut"
+          ],
+          "diagnose": "Elektrounfall (Strommarke)",
+          "maßnahme": [
+            "Histologie: Kernpallissaden-Stellung"
+          ],
+          "lernpunkte": [
+            "Widerstandserwärmung am Eintrittspunkt"
+          ]
+        },
+        {
+          "id": "RM_042",
+          "titel": "Lichtenberg-Figuren",
+          "tags": [
+            "Umwelt"
+          ],
+          "patient": "Blitzeinschlag",
+          "praesentation": "Farnkrautartige Hautrötungen.",
+          "befunde": [
+            "Verschwinden nach Stunden"
+          ],
+          "diagnose": "Blitzschlag-Opfer",
+          "maßnahme": [
+            "Prüfung auf Trommelfellruptur"
+          ],
+          "lernpunkte": [
+            "Pathognomonisch für Blitzeinwirkung"
+          ]
+        },
+        {
+          "id": "RM_043",
+          "titel": "Positionsasphyxie",
+          "tags": [
+            "Erstickung"
+          ],
+          "patient": "Drogenkonsument, zusammengesunken",
+          "praesentation": "Kopf auf der Brust fixiert.",
+          "befunde": [
+            "Mechanische Verlegung der Atemwege durch Körperlage"
+          ],
+          "diagnose": "Lagerungsbedingte Erstickung",
+          "maßnahme": [
+            "Rekonstruktion der Auffindesituation"
+          ],
+          "lernpunkte": [
+            "Häufig bei adipösen oder intoxikierten Personen"
+          ]
+        },
+        {
+          "id": "RM_044",
+          "titel": "Hitzschlag (Heat Stroke)",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Sportler bei Hitze",
+          "praesentation": "Körpertemp. 41°C, Bewusstlosigkeit.",
+          "befunde": [
+            "Keine Schweißbildung mehr",
+            "Hirnödem"
+          ],
+          "diagnose": "Klassischer Hitzschlag",
+          "maßnahme": [
+            "Ausschluss Meningitis"
+          ],
+          "lernpunkte": [
+            "Versagen der Thermoregulation"
+          ]
+        },
+        {
+          "id": "RM_045",
+          "titel": "Inhalationstrauma (Brand)",
+          "tags": [
+            "Thermik"
+          ],
+          "patient": "Überlebender Brandopfer",
+          "praesentation": "Heiserkeit, Rußpartikel im Sputum.",
+          "befunde": [
+            "Bronchoskopie: Schleimhautnekrosen"
+          ],
+          "diagnose": "Thermisch-chemisches Inhalationstrauma",
+          "maßnahme": [
+            "Frühzeitige Intubation"
+          ],
+          "lernpunkte": [
+            "Gefahr des verzögerten Glottisödems"
+          ]
+        }
+      ]
+    },
+    "schusswaffen_explosionen": {
+      "label": "Schusswaffen & Explosionen",
+      "emoji": "🔫",
+      "faelle": [
+        {
+          "id": "RM_046",
+          "titel": "Nahschuss (Einschuss)",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Suizidverdacht",
+          "praesentation": "Einschuss Schläfe.",
+          "befunde": [
+            "Schmauchhof (Pulverreste)",
+            "Verbrennungserscheinungen der Haut"
+          ],
+          "diagnose": "Nahschuss (relativ)",
+          "maßnahme": [
+            "Schmauch-Sicherung via Klebefilm"
+          ],
+          "lernpunkte": [
+            "Schmauchhof bis ca. 30-50 cm Schussentfernung"
+          ]
+        },
+        {
+          "id": "RM_047",
+          "titel": "Aufgesetzter Schuss (Stanzmarke)",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Schusswunde Kopf",
+          "praesentation": "Laufenmündungs-Abdruck auf der Haut.",
+          "befunde": [
+            "Sternförmiges Aufplatzen der Haut (bei Knochenunterlage)"
+          ],
+          "diagnose": "Absoluter Nahschuss",
+          "maßnahme": [
+            "Röntgen zum Projektilnachweis"
+          ],
+          "lernpunkte": [
+            "Stanzmarke durch Prägeeffekt der Mündung"
+          ]
+        },
+        {
+          "id": "RM_048",
+          "titel": "Ausschuss vs. Einschuss",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Durchschuss Extremität",
+          "praesentation": "Zwei Wunden.",
+          "befunde": [
+            "Wunde A: Saum von Schmutz/Abrieb (Abstreifring)",
+            "Wunde B: Größer, unregelmäßig, ausgestülpt"
+          ],
+          "diagnose": "Einschuss (A) und Ausschuss (B)",
+          "maßnahme": [
+            "Bestimmung des Schusskanals"
+          ],
+          "lernpunkte": [
+            "Abstreifring ist beweisend für Einschuss"
+          ]
+        },
+        {
+          "id": "RM_049",
+          "titel": "Schrotschuss (Streuung)",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Jagdunfall",
+          "praesentation": "Vielzahl kleiner Einschusslöcher.",
+          "befunde": [
+            "Zentrale Wunde mit Randsatelliten"
+          ],
+          "diagnose": "Schrotschuss aus mittlerer Entfernung",
+          "maßnahme": [
+            "Schussentfernungsbestimmung via Streubild"
+          ],
+          "lernpunkte": [
+            "Zwischenmittel (Wad) im Wundkanal suchen"
+          ]
+        },
+        {
+          "id": "RM_050",
+          "titel": "Bolzenschuss-Verletzung",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Schlachthofmitarbeiter",
+          "praesentation": "Stanzdefekt Stirn.",
+          "befunde": [
+            "Kein Projektil im Kopf",
+            "Gewebezertrümmerung"
+          ],
+          "diagnose": "Verletzung durch Schlachtschussapparat",
+          "maßnahme": [
+            "Differenzierung zum Projektilschuss"
+          ],
+          "lernpunkte": [
+            "Wirkung durch Bolzen und Gasdruck"
+          ]
+        },
+        {
+          "id": "RM_051",
+          "titel": "Blast Injury (Explosion)",
+          "tags": [
+            "Explosion"
+          ],
+          "patient": "Opfer einer Gasexplosion",
+          "praesentation": "Keine äußeren Wunden, akutes Lungenversagen.",
+          "befunde": [
+            "Lungenblutungen",
+            "Trommelfellruptur"
+          ],
+          "diagnose": "Primäres Blast-Syndrom (Druckwelle)",
+          "maßnahme": [
+            "Ganzkörper-CT"
+          ],
+          "lernpunkte": [
+            "Luftgefüllte Organe am stärksten betroffen"
+          ]
+        },
+        {
+          "id": "RM_052",
+          "titel": "Krönlein-Schuss",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Schrotschuss Kopf (Nah)",
+          "praesentation": "Schädelkapsel gesprengt, Gehirn fehlt weitgehend.",
+          "befunde": [
+            "Massive Gasdruckwirkung im geschlossenen Raum"
+          ],
+          "diagnose": "Exenteratio cranii",
+          "maßnahme": [
+            "Asservierung von Knochenfragmenten"
+          ],
+          "lernpunkte": [
+            "Evisceration des Gehirns durch hydrodynamischen Effekt"
+          ]
+        },
+        {
+          "id": "RM_053",
+          "titel": "Gewehrschuss (Hochgeschwindigkeit)",
+          "tags": [
+            "Schuss"
+          ],
+          "patient": "Militärische Waffe",
+          "praesentation": "Kleiner Einschuss, riesiger Ausschuss.",
+          "befunde": [
+            "Massive Kavitationswirkung (temporäre Wundhöhle)"
+          ],
+          "diagnose": "Hochgeschwindigkeits-Trauma",
+          "maßnahme": [
+            "Wundkanal-Exploration"
+          ],
+          "lernpunkte": [
+            "Energieabgabe E = 1/2 m v²"
+          ]
+        },
+        {
+          "id": "RM_054",
+          "titel": "Schmauch-Analyse (REM-EDX)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Verdächtiger nach Schussabgabe",
+          "praesentation": "Handabklatsch-Präparat.",
+          "befunde": [
+            "Nachweis von Blei, Antimon und Barium"
+          ],
+          "diagnose": "Schmauchpartikel-Nachweis",
+          "maßnahme": [
+            "Rasterelektronenmikroskopie"
+          ],
+          "lernpunkte": [
+            "Charakteristische Elementkombination aus dem Zündhütchen"
+          ]
+        },
+        {
+          "id": "RM_055",
+          "titel": "Messerschuss (Besonderheit)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Leiche mit 'Stichwunde'",
+          "praesentation": "Schmaler Defekt.",
+          "befunde": [
+            "Innerlich Knochensplitterung untypisch für Messer"
+          ],
+          "diagnose": "Schuss durch Projektil mit hoher Flächenlast (Mantelgeschoss)",
+          "maßnahme": [
+            "Sektion"
+          ],
+          "lernpunkte": [
+            "Fehldiagnose als scharfe Gewalt möglich"
+          ]
+        }
+      ]
+    },
+    "toxikologie_alkohol": {
+      "label": "Toxikologie & Alkohol",
+      "emoji": "🍷",
+      "faelle": [
+        {
+          "id": "RM_066",
+          "titel": "Alkoholkalkulation (Widmark)",
+          "tags": [
+            "Alkohol",
+            "Recht"
+          ],
+          "patient": "Fahrer nach Unfallgeflucht",
+          "praesentation": "Blutentnahme 2h nach Unfall.",
+          "befunde": [
+            "BAK 1,2 Promille"
+          ],
+          "diagnose": "Absolute Fahruntüchtigkeit",
+          "maßnahme": [
+            "Rückrechnung auf Tatzeit (0,1-0,2 pro Stunde)"
+          ],
+          "lernpunkte": [
+            "Resorptionsdefizit 10-30%",
+            "Reduktionsfaktor (Mann 0,7 / Frau 0,6)"
+          ]
+        },
+        {
+          "id": "RM_067",
+          "titel": "Nachtrunk-Behauptung",
+          "tags": [
+            "Alkohol"
+          ],
+          "patient": "Fahrer behauptet, erst nach dem Unfall getrunken zu haben.",
+          "praesentation": "Ermittlungsfall.",
+          "befunde": [
+            "Begleitstoffanalyse (Congener-Analyse)"
+          ],
+          "diagnose": "V.a. Schutzbehauptung",
+          "maßnahme": [
+            "Berechnung der Doppel-Blutentnahme"
+          ],
+          "lernpunkte": [
+            "Alkohole wie Methanol, Isopropanol als Marker für Getränkeart"
+          ]
+        },
+        {
+          "id": "RM_068",
+          "titel": "Heroin-Überdosierung",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "Fund am Bahnhof mit Nadel in Vene",
+          "praesentation": "Zyanose, Miosis, Schaumpilz.",
+          "befunde": [
+            "Lungenödem",
+            "Frothe-Sign",
+            "6-Monoacetylmorphin im Urin"
+          ],
+          "diagnose": "Opioid-Intoxikation",
+          "maßnahme": [
+            "Sektion + Chemische Toxikologie"
+          ],
+          "lernpunkte": [
+            "6-MAM beweist Heroinkonsum (vs. Morphin)"
+          ]
+        },
+        {
+          "id": "RM_069",
+          "titel": "Kokain-Tod",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "Plötzlicher Tod im Club",
+          "praesentation": "Agitiertheit, Hyperthermie, Krampfanfall.",
+          "befunde": [
+            "Myokardhypertrophie",
+            "Nasenseptum-Perforation"
+          ],
+          "diagnose": "Akutes Herzversagen bei Kokain",
+          "maßnahme": [
+            "Nachweis von Benzoylecgonin"
+          ],
+          "lernpunkte": [
+            "Sympathikomimetisches Toxidrom"
+          ]
+        },
+        {
+          "id": "RM_070",
+          "titel": "Bodypacker (Notfall)",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "Kurier am Flughafen",
+          "praesentation": "Kollaps, Miosis, Atemdepression.",
+          "befunde": [
+            "Rö-Abdomen: Multiple Päckchen (Kondome) im Darm"
+          ],
+          "diagnose": "Leckage eines Drogenbehältnisses",
+          "maßnahme": [
+            "Notfall-Laparotomie"
+          ],
+          "lernpunkte": [
+            "Massive Überdosis bei Ruptur eines 'Body-Packs'"
+          ]
+        },
+        {
+          "id": "RM_071",
+          "titel": "Zyankali-Vergiftung (Blausäure)",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Suizid im Labor",
+          "praesentation": "Bittermandelgeruch der Leiche.",
+          "befunde": [
+            "Hellrote Totenflecke",
+            "Lachsfarbene Muskulatur"
+          ],
+          "diagnose": "Zyanid-Intoxikation",
+          "maßnahme": [
+            "Toxikologische Sicherung"
+          ],
+          "lernpunkte": [
+            "Blockade der Atmungskette (Cytochromoxidase)"
+          ]
+        },
+        {
+          "id": "RM_072",
+          "titel": "Pilzvergiftung (Knollenblätterpilz)",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Patient mit Leberversagen",
+          "praesentation": "Wässrige Durchfälle (choleraform), dann Ikterus.",
+          "befunde": [
+            "Amatoxin-Nachweis",
+            "Leberzellnekrose"
+          ],
+          "diagnose": "Amanita-Phalloides-Syndrom",
+          "maßnahme": [
+            "Silybin-Therapie",
+            "ggf. Listung"
+          ],
+          "lernpunkte": [
+            "Latenzzeit 6-24h ist charakteristisch"
+          ]
+        },
+        {
+          "id": "RM_073",
+          "titel": "Alkoholkrankheit (Pathologie)",
+          "tags": [
+            "Alkohol"
+          ],
+          "patient": "Langzeit-Alkoholiker",
+          "praesentation": "Plötzlicher Tod.",
+          "befunde": [
+            "Leberzirrhose",
+            "Ösophagusvarizen-Blutung",
+            "Wernicke-Enzephalopathie"
+          ],
+          "diagnose": "Chronischer Alkoholabusus",
+          "maßnahme": [
+            "Bestimmung Fettsäuremethylester"
+          ],
+          "lernpunkte": [
+            "Marker für Langzeitkonsum (PEth)"
+          ]
+        },
+        {
+          "id": "RM_074",
+          "titel": "Flussäure-Verätzung (HF)",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Industrieunfall",
+          "praesentation": "Heftige Schmerzen bei kaum sichtbarer Rötung.",
+          "befunde": [
+            "Massive Hypokalzämie"
+          ],
+          "diagnose": "Flussäure-Vergiftung",
+          "maßnahme": [
+            "Calciumgluconat-Gel lokal + i.v."
+          ],
+          "lernpunkte": [
+            "HF penetriert tief und bindet Calcium (Knochenfraß)"
+          ]
+        },
+        {
+          "id": "RM_075",
+          "titel": "Arsen-Vergiftung",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Chronisches Siechtum",
+          "praesentation": "Haarausfall, Mees-Linien (Nägel), Hyperkeratosen.",
+          "befunde": [
+            "Arsen-Nachweis in den Haaren (segmental)"
+          ],
+          "diagnose": "Chronische Arsenikose",
+          "maßnahme": [
+            "Chelattherapie"
+          ],
+          "lernpunkte": [
+            "Historisches Mordgift"
+          ]
+        },
+        {
+          "id": "RM_076",
+          "titel": "Ecstasy-Tod (MDMA)",
+          "tags": [
+            "Drogen"
+          ],
+          "patient": "Junger Mann nach Rave",
+          "praesentation": "Körpertemp. 42°C, Rhabdomyolyse, DIC.",
+          "befunde": [
+            "Hyponatriämie (durch exzessives Wassertrinken)"
+          ],
+          "diagnose": "MDMA-induzierte Hyperthermie / Serotonin-Syndrom",
+          "maßnahme": [
+            "Tox-Screening"
+          ],
+          "lernpunkte": [
+            "Kombination aus Tanz-Anstrengung und Droge"
+          ]
+        },
+        {
+          "id": "RM_077",
+          "titel": "Methanol-Vergiftung",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Konsum von selbstgebranntem Schnaps",
+          "praesentation": "Erblindung, Azidose.",
+          "befunde": [
+            "Ameisensäure-Anstieg im Blut"
+          ],
+          "diagnose": "Methanol-Intoxikation",
+          "maßnahme": [
+            "Fomepizol oder Ethanol-Gabe (Kompetitive Hemmung)"
+          ],
+          "lernpunkte": [
+            "Oxidation zu Formaldehyd und Ameisensäure"
+          ]
+        },
+        {
+          "id": "RM_078",
+          "titel": "Tollkirsche (Atropin)",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Kind nach Beerenverzehr",
+          "praesentation": "Trockene rote Haut, Mydriasis, Halluzinationen.",
+          "befunde": [
+            "'Heiß wie ein Ofen, rot wie eine Rübe'"
+          ],
+          "diagnose": "Anticholinerges Syndrom",
+          "maßnahme": [
+            "Physostigmin"
+          ],
+          "lernpunkte": [
+            "Vorkommen: Atropa belladonna"
+          ]
+        },
+        {
+          "id": "RM_079",
+          "titel": "Insulin-Mord (Nachweis)",
+          "tags": [
+            "Gift"
+          ],
+          "patient": "Pflegefall, unerwartet verstorben",
+          "praesentation": "Hypoglykämie präfinal.",
+          "befunde": [
+            "Einstichstelle Oberschenkel",
+            "C-Peptid niedrig bei hohem Insulin"
+          ],
+          "diagnose": "Exogene Insulingabe",
+          "maßnahme": [
+            "Gewebe-Exzision an der Einstichstelle"
+          ],
+          "lernpunkte": [
+            "C-Peptid Unterscheidung endogen vs. exogen"
+          ]
+        },
+        {
+          "id": "RM_080",
+          "titel": "E-Zigaretten (Vaping-Assoc. Lung Injury)",
+          "tags": [
+            "Toxikologie"
+          ],
+          "patient": "Jugendlicher mit schwerer Pneumonie",
+          "praesentation": "Atemnot, Infiltrate.",
+          "befunde": [
+            "Nachweis von Vitamin-E-Acetat in Lavage"
+          ],
+          "diagnose": "EVALI",
+          "maßnahme": [
+            "Drogen-Screening (THC-Vapes)"
+          ],
+          "lernpunkte": [
+            "Neue toxikologische Entität"
+          ]
+        }
+      ]
+    },
+    "klinische_rechtsmedizin_gewalt": {
+      "label": "Klinische Rechtsmedizin & Gewalt",
+      "emoji": "🛡️",
+      "faelle": [
+        {
+          "id": "RM_081",
+          "titel": "Kindesmisshandlung (Battered Child)",
+          "tags": [
+            "Gewalt",
+            "Pädiatrie"
+          ],
+          "patient": "3-j. Kind in Notaufnahme",
+          "praesentation": "Spiralbruch des Femurs ohne adäquates Trauma.",
+          "befunde": [
+            "Hämatome unterschiedlichen Alters",
+            "Rö-Skelett: alte Rippenbruch-Kalli"
+          ],
+          "diagnose": "Körperliche Misshandlung",
+          "maßnahme": [
+            "Meldung Jugendamt",
+            "Kinderschutzgruppe",
+            "Klinische Rechtsmedizin"
+          ],
+          "lernpunkte": [
+            "Spiralbrüche bei Kleinkindern sind hochverdächtig"
+          ]
+        },
+        {
+          "id": "RM_082",
+          "titel": "Schütteltrauma (Shaken Baby)",
+          "tags": [
+            "Gewalt"
+          ],
+          "patient": "Säugling, apathisch",
+          "praesentation": "Verschlechterung nach Schreiattacke.",
+          "befunde": [
+            "MRT: Subdurale Hämatome (bds.)",
+            "Augenhintergrund: Netzhautblutungen"
+          ],
+          "diagnose": "Schütteltrauma-Syndrom (SBS)",
+          "maßnahme": [
+            "Rechtsmedizinische Begutachtung"
+          ],
+          "lernpunkte": [
+            "Trias: SDH, Netzhautblutungen, Enzephalopathie"
+          ]
+        },
+        {
+          "id": "RM_083",
+          "titel": "Sexuelle Gewalt (Spurensicherung)",
+          "tags": [
+            "Gewalt"
+          ],
+          "patient": "Patientin nach Vergewaltigung",
+          "praesentation": "Vorstellung zur Untersuchung.",
+          "befunde": [
+            "Anogenitale Risse",
+            "Spermaspuren"
+          ],
+          "diagnose": "V.a. Vergewaltigung",
+          "maßnahme": [
+            "DNA-Sicherung (Vaginalswab)",
+            "Kleidungs-Asservierung",
+            "Pille danach"
+          ],
+          "lernpunkte": [
+            "Zeitnahe Untersuchung (< 72h) entscheidend"
+          ]
+        },
+        {
+          "id": "RM_084",
+          "titel": "Häusliche Gewalt (Dokumentation)",
+          "tags": [
+            "Gewalt"
+          ],
+          "patient": "Frau mit multiplen Verletzungen",
+          "praesentation": "Behauptet, 'die Treppe runtergefallen' zu sein.",
+          "befunde": [
+            "Symmetrische Hämatome an Oberarmen (Festhaltegriffe)",
+            "Brillenhaematom"
+          ],
+          "diagnose": "V.a. Partnergewalt",
+          "maßnahme": [
+            "Gerichtsfeste Fotodokumentation",
+            "Angebot von Hilfsstrukturen"
+          ],
+          "lernpunkte": [
+            "Verletzungsmuster passt nicht zur Anamnese"
+          ]
+        },
+        {
+          "id": "RM_085",
+          "titel": "Altersdiagnostik (Forensisch)",
+          "tags": [
+            "Identifikation"
+          ],
+          "patient": "Flüchtling ohne Ausweis",
+          "praesentation": "Behauptet, 15 Jahre alt zu sein.",
+          "befunde": [
+            "Rö-Handwurzel: Epiphysenschluss erfolgt",
+            "Zahnstatus: Weisheitszähne durchgebrochen"
+          ],
+          "diagnose": "Altersschätzung > 18 J.",
+          "maßnahme": [
+            "Gutachten zur Altersschätzung"
+          ],
+          "lernpunkte": [
+            "Methoden-Trias: Körperlich, Zahnstatus, Hand-Röntgen/Clavicula-CT"
+          ]
+        },
+        {
+          "id": "RM_086",
+          "titel": "Münchhausen-Stellvertreter-Syndrom",
+          "tags": [
+            "Gewalt"
+          ],
+          "patient": "Kind mit rezidivierenden Infektionen",
+          "praesentation": "Mutter sehr besorgt, fordert ständig invasive Tests.",
+          "befunde": [
+            "Fäkalbakterien im Katheterurin (manipuliert)",
+            "Symptome nur bei Anwesenheit der Mutter"
+          ],
+          "diagnose": "Münchhausen-by-proxy",
+          "maßnahme": [
+            "Trennung von der Bezugsperson",
+            "Video-Überwachung?"
+          ],
+          "lernpunkte": [
+            "Form der Kindesmisshandlung"
+          ]
+        },
+        {
+          "id": "RM_087",
+          "titel": "K.O.-Tropfen (Liquid Ecstasy)",
+          "tags": [
+            "Gewalt"
+          ],
+          "patient": "Patientin mit Gedächtnislücke nach Barbesuch",
+          "praesentation": "Wacht in fremdem Bett auf, V.a. Missbrauch.",
+          "befunde": [
+            "Übelkeit",
+            "Benommenheit"
+          ],
+          "diagnose": "V.a. GHB/GBL-Intoxikation",
+          "maßnahme": [
+            "Sofortige Urin-Sicherung (GHB nur kurz nachweisbar!)"
+          ],
+          "lernpunkte": [
+            "Nachweisdauer im Blut < 8h, Urin < 12h"
+          ]
+        },
+        {
+          "id": "RM_088",
+          "titel": "Selbstverstümmelung (Simulierte Gewalt)",
+          "tags": [
+            "Differenzialdiagnose"
+          ],
+          "patient": "Mann behauptet, überfallen worden zu sein.",
+          "praesentation": "Multiple parallele Schnittwunden am Rücken.",
+          "befunde": [
+            "Gleichmäßige Tiefe",
+            "Vermeidung empfindlicher Stellen",
+            "Kleidung unbeschädigt!"
+          ],
+          "diagnose": "Selbstbeibringung",
+          "maßnahme": [
+            "Psychiatrisches Konsil"
+          ],
+          "lernpunkte": [
+            "Schonung der Kleidung ist typisch für Selbstverletzung"
+          ]
+        },
+        {
+          "id": "RM_089",
+          "titel": "Plötzlicher Kindstod (SIDS)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Säugling tot im Bett aufgefunden",
+          "praesentation": "Keine Vitalzeichen.",
+          "befunde": [
+            "Obduktion: keine erklärende Ursache",
+            "Petechien Thymus/Pleura"
+          ],
+          "diagnose": "SIDS",
+          "maßnahme": [
+            "Ausschluss Misshandlung",
+            "Angehörigengespräch"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose nach Sektion, Tox und Histologie"
+          ]
+        },
+        {
+          "id": "RM_090",
+          "titel": "Schütteltrauma (Prävention)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Frustrierte Eltern eines Schreibabys",
+          "praesentation": "Beratungsgespräch.",
+          "befunde": [
+            "Überforderung"
+          ],
+          "diagnose": "Risikosituation für Misshandlung",
+          "maßnahme": [
+            "Aufklärung über Gefahren des Schüttelns"
+          ],
+          "lernpunkte": [
+            "Schon 5 Sekunden Schütteln führen zu schweren Hirnschäden"
+          ]
+        }
+      ]
+    },
+    "recht_ethik_identifikation": {
+      "label": "Recht, Ethik & Identifikation",
+      "emoji": "⚖️",
+      "faelle": [
+        {
+          "id": "RM_091",
+          "titel": "Identifizierung (DNA-Analyse)",
+          "tags": [
+            "Forensik"
+          ],
+          "patient": "Skelettierte Leiche im Wald",
+          "praesentation": "Keine Weichteile mehr vorhanden.",
+          "befunde": [
+            "STR-Analyse aus dem Oberschenkelknochen"
+          ],
+          "diagnose": "Identifizierung durch genetischen Fingerabdruck",
+          "maßnahme": [
+            "Vergleich mit Referenzproben der Angehörigen"
+          ],
+          "lernpunkte": [
+            "STR (Short Tandem Repeats) als Goldstandard"
+          ]
+        },
+        {
+          "id": "RM_092",
+          "titel": "Zahnstatus (Identifizierung)",
+          "tags": [
+            "Forensik"
+          ],
+          "patient": "Brandleiche",
+          "praesentation": "Gesicht bis zur Unkenntlichkeit verbrannt.",
+          "befunde": [
+            "Keramikfüllungen",
+            "Zahnstatus passt zu Krankenblatt"
+          ],
+          "diagnose": "Forensisch-odontologische Identifizierung",
+          "maßnahme": [
+            "Postmortales Röntgen der Kiefer"
+          ],
+          "lernpunkte": [
+            "Zähne sind die widerstandsfähigste Substanz des Körpers"
+          ]
+        },
+        {
+          "id": "RM_093",
+          "titel": "Behandlungsfehler (Vorwurf)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Todesfall nach Blinddarm-OP",
+          "praesentation": "Angehörige werfen Chirurgen Fehler vor.",
+          "befunde": [
+            "Sektion: Nahtinsuffizienz mit Peritonitis"
+          ],
+          "diagnose": "Iatrogene Komplikation vs. Fehler",
+          "maßnahme": [
+            "Gutachten zur Standardabweichung"
+          ],
+          "lernpunkte": [
+            "Beweislast im Strafrecht (Arzt) vs. Zivilrecht"
+          ]
+        },
+        {
+          "id": "RM_094",
+          "titel": "Schweigepflicht (§ 203 StGB)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Patient gesteht Arzt eine Straftat",
+          "praesentation": "Ethischer Konflikt.",
+          "befunde": [
+            "Keine aktuelle Gefahr"
+          ],
+          "diagnose": "Schweigepflicht-Situation",
+          "maßnahme": [
+            "Wahrung des Arztgeheimnisses"
+          ],
+          "lernpunkte": [
+            "Offenbarungsbefugnis nur bei rechtfertigendem Notstand (§ 34 StGB)"
+          ]
+        },
+        {
+          "id": "RM_095",
+          "titel": "Organentnahme (Transplantationsgesetz)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Patient mit irreversiblem Hirntod",
+          "praesentation": "Spendersituation.",
+          "befunde": [
+            "Hirntodfeststellung nach BÄK-Richtlinie erfolgt"
+          ],
+          "diagnose": "Potenzieller Organspender",
+          "maßnahme": [
+            "Prüfung der Einwilligung (Zustimmungsregelung)"
+          ],
+          "lernpunkte": [
+            "Rechtliche Hierarchie: Wille des Verstorbenen vor Angehörigen"
+          ]
+        },
+        {
+          "id": "RM_096",
+          "titel": "Forensische Serologie (Blutspritzer)",
+          "tags": [
+            "Rekonstruktion"
+          ],
+          "patient": "Tatort-Rekonstruktion",
+          "praesentation": "Blutspritzer an der Wand.",
+          "befunde": [
+            "Keulenförmige Spritzer",
+            "Tropfwinkel berechenbar"
+          ],
+          "diagnose": "Bestimmung des Verletzungsorts",
+          "maßnahme": [
+            "Luminol-Test zum Nachweis von Altblut"
+          ],
+          "lernpunkte": [
+            "BPA (Bloodstain Pattern Analysis)"
+          ]
+        },
+        {
+          "id": "RM_097",
+          "titel": "Exhumierung",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Nachträglicher Verdacht auf Giftmord",
+          "praesentation": "Beerdigung erfolgte vor 2 Monaten.",
+          "befunde": [
+            "Gerichtlicher Beschluss zur Ausgrabung"
+          ],
+          "diagnose": "Verdacht auf unnatürlichen Tod",
+          "maßnahme": [
+            "Friedhofs-Obduktion"
+          ],
+          "lernpunkte": [
+            "Bodenproben als Kontrollen asservieren"
+          ]
+        },
+        {
+          "id": "RM_098",
+          "titel": "Suizidbegleitung (Rechtslage)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "Terminal kranker Patient wünscht Sterbehilfe",
+          "praesentation": "Anfrage an den Hausarzt.",
+          "befunde": [
+            "Urteil des BVerfG 2020"
+          ],
+          "diagnose": "Wunsch nach assistiertem Suizid",
+          "maßnahme": [
+            "Beratung, Gewissensprüfung des Arztes"
+          ],
+          "lernpunkte": [
+            "Verbot der geschäftsmäßigen Förderung (§ 217 StGB) aufgehoben"
+          ]
+        },
+        {
+          "id": "RM_099",
+          "titel": "Fingerabdrücke (Daktyloskopie)",
+          "tags": [
+            "Identifikation"
+          ],
+          "patient": "Unbekannter Toter",
+          "praesentation": "Leiche gut erhalten.",
+          "befunde": [
+            "Papillarleisten-Muster (Schleifen, Wirbel)"
+          ],
+          "diagnose": "Identifizierung via AFIS-Datenbank",
+          "maßnahme": [
+            "Abnahme der Fingerabdrücke"
+          ],
+          "lernpunkte": [
+            "Daktyloskopie ist biologisch unveränderlich"
+          ]
+        },
+        {
+          "id": "RM_100",
+          "titel": "Obduktionspflicht (Gerichtliche Sektion)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Polizeifund einer Leiche mit Kopfschuss",
+          "praesentation": "Unnatürlicher Tod.",
+          "befunde": [
+            "Staatsanwalt ordnet Sektion an (§ 87 StPO)"
+          ],
+          "diagnose": "Gerichtliche Sektion",
+          "maßnahme": [
+            "Durchführung durch zwei Ärzte (davon ein Facharzt f. RM)"
+          ],
+          "lernpunkte": [
+            "Durchführung zur Feststellung der Todesursache und Schuldfrage"
+          ]
+        }
+      ]
+    }
+  }
+}

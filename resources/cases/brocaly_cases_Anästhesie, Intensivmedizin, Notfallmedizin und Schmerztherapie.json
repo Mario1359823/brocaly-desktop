@@ -1,0 +1,2199 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Anästhesie, Intensivmedizin, Notfallmedizin & Schmerztherapie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "praeoperativ_grundlagen": {
+      "label": "Präoperative Evaluation & Grundlagen",
+      "emoji": "📋",
+      "faelle": [
+        {
+          "id": "AIN_001",
+          "titel": "Präoperative Risikoevaluation (ASA)",
+          "tags": [
+            "Vorbereitung",
+            "Risiko"
+          ],
+          "patient": "68-jähriger Patient zur elektiven Leistenherniotomie",
+          "praesentation": "Anamnese: KHK (Z.n. Stent), COPD (Stadium GOLD II), insulinpflichtiger Diabetes.",
+          "befunde": [
+            "Belastbarkeit < 4 METs",
+            "HbA1c 7,5%",
+            "Medikation: ASS, Metformin"
+          ],
+          "diagnose": "Präoperatives Risiko bei ASA III",
+          "therapie": [
+            "Kardiale Risikoevaluation",
+            "Absetzen Metformin 48h präop",
+            "Überbrückung TAH gemäß Leitlinie"
+          ],
+          "lernpunkte": [
+            "ASA III: Schwere Systemerkrankung mit Funktionseinschränkung",
+            "METs als Prädiktor für perioperatives Outcome"
+          ]
+        },
+        {
+          "id": "AIN_002",
+          "titel": "Nüchternheitsgrenzen",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "35-j. Patient, elektive OP",
+          "praesentation": "Frage nach Frühstück vor Narkose.",
+          "befunde": [
+            "Kein Reflux bekannt",
+            "normale Magenentleerung"
+          ],
+          "diagnose": "Präoperative Nüchternheit",
+          "therapie": [
+            "6h feste Nahrung",
+            "2h klare Flüssigkeit"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Aspiration",
+            "Kaugummi/Rauchen als Sonderregeln"
+          ]
+        },
+        {
+          "id": "AIN_003",
+          "titel": "Prämedikation bei Angst",
+          "tags": [
+            "Vorbereitung"
+          ],
+          "patient": "25-j. sehr ängstliche Patientin",
+          "praesentation": "Massive Angst vor dem Einschlafen.",
+          "befunde": [
+            "Tachykardie bei Visite",
+            "keine Atemwegssorgen"
+          ],
+          "diagnose": "Präoperative Angst",
+          "therapie": [
+            "Midazolam 7,5 mg oral",
+            "Empathische Gesprächsführung"
+          ],
+          "lernpunkte": [
+            "Benzodiazepine zur Anxiolyse",
+            "Kontraindikation Myasthenie beachten"
+          ]
+        },
+        {
+          "id": "AIN_004",
+          "titel": "Mallampati-Score (Atemweg)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "Obese Patientin (BMI 38)",
+          "praesentation": "Vorbereitung zur Intubation.",
+          "befunde": [
+            "Nur harter Gaumen sichtbar",
+            "kurzer Hals"
+          ],
+          "diagnose": "Mallampati IV (Erschwerter Atemweg)",
+          "therapie": [
+            "Bereitstellung Videolaryngoskop",
+            "Fiberoptik-Bereitschaft"
+          ],
+          "lernpunkte": [
+            "Mallampati als Prädiktor für Laryngoskopie-Bedingungen"
+          ]
+        },
+        {
+          "id": "AIN_005",
+          "titel": "Präoperative Anämie (PBM)",
+          "tags": [
+            "Hämotherapie"
+          ],
+          "patient": "72-j. vor Hüft-TEP",
+          "praesentation": "Laborcheck präoperativ.",
+          "befunde": [
+            "Hb 9,5 g/dl",
+            "Ferritin niedrig"
+          ],
+          "diagnose": "Eisenmangelanämie",
+          "therapie": [
+            "Parenterale Eisengabe 2-3 Wochen präop",
+            "Patient Blood Management"
+          ],
+          "lernpunkte": [
+            "Anämiekorrektur senkt Transfusionsbedarf",
+            "Erythropoetin nur in Ausnahmen"
+          ]
+        },
+        {
+          "id": "AIN_006",
+          "titel": "Thrombozytenaggregationshemmer (Perioperativ)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Pat. nach DES vor 3 Monaten",
+          "praesentation": "Dringliche Cholezystektomie.",
+          "befunde": [
+            "DAPT (ASS + Ticagrelor)"
+          ],
+          "diagnose": "Stent-Patient unter DAPT",
+          "therapie": [
+            "Ticagrelor 5 Tage pausieren",
+            "ASS fortführen",
+            "Interdisziplinäre Rücksprache"
+          ],
+          "lernpunkte": [
+            "Stent-Thromboserisiko vs. Blutungsrisiko"
+          ]
+        },
+        {
+          "id": "AIN_007",
+          "titel": "Schrittmacher-Management",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "80-j. mit Herzschrittmacher",
+          "praesentation": "Geplante TUR-Prostata (monopolare Elektrochirurgie).",
+          "befunde": [
+            "DDD-Modus"
+          ],
+          "diagnose": "SM-Träger intraoperativ",
+          "therapie": [
+            "Umstellung auf asynchron (V00/D00)",
+            "Magnetauflegen",
+            "Bipolare Chirurgie bevorzugen"
+          ],
+          "lernpunkte": [
+            "EMI-Vermeidung",
+            "Postoperative Funktionskontrolle"
+          ]
+        },
+        {
+          "id": "AIN_008",
+          "titel": "Aspirationprophylaxe (Ileus)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit akutem Abdomen",
+          "praesentation": "Starker Schmerz, Erbrechen, Ileus-Verdacht.",
+          "befunde": [
+            "Magen voll",
+            "AZ reduziert"
+          ],
+          "diagnose": "Nicht-nüchterner Notfallpatient",
+          "therapie": [
+            "Rapid Sequence Induction (RSI)",
+            "Krikoiddruck (umstritten)",
+            "Oberkörperhochlagerung"
+          ],
+          "lernpunkte": [
+            "Schutz der Atemwege hat Priorität vor Komfort"
+          ]
+        },
+        {
+          "id": "AIN_009",
+          "titel": "PONV-Risikoscore",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Junge Frau, Nichtraucherin",
+          "praesentation": "Z.n. Reisekrankheit, Angst vor Übelkeit.",
+          "befunde": [
+            "Apfel-Score: 4 Punkte"
+          ],
+          "diagnose": "Hohes PONV-Risiko",
+          "therapie": [
+            "TIVA (Propofol)",
+            "Dexamethason + Ondansetron"
+          ],
+          "lernpunkte": [
+            "Multimodale Prophylaxe bei Scores > 2"
+          ]
+        },
+        {
+          "id": "AIN_010",
+          "titel": "Präoperative Betablockade",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Pat. mit Dauertherapie Metoprolol",
+          "praesentation": "Frage nach Einnahme am OP-Tag.",
+          "befunde": [
+            "Hypertonus gut eingestellt"
+          ],
+          "diagnose": "Kardiale Begleitmedikation",
+          "therapie": [
+            "Einnahme am Morgen mit Schluck Wasser"
+          ],
+          "lernpunkte": [
+            "Keine Neuansetzung unmittelbar präop, aber Fortführung obligat"
+          ]
+        }
+      ]
+    },
+    "allgemeinanaesthesie": {
+      "label": "Allgemeinanästhesie & Atemweg",
+      "emoji": "🎭",
+      "faelle": [
+        {
+          "id": "AIN_011",
+          "titel": "Totale Intravenöse Anästhesie (TIVA)",
+          "tags": [
+            "Narkose",
+            "Propofol"
+          ],
+          "patient": "40-jähriger Patient, elektive Nasenkorrektur",
+          "praesentation": "Wunsch nach Narkose ohne 'Gas'.",
+          "befunde": [
+            "Stabiler Kreislauf",
+            "keine Unverträglichkeiten"
+          ],
+          "diagnose": "Allgemeinanästhesie geplant",
+          "therapie": [
+            "Einleitung/Erhalt mit Propofol und Remifentanil",
+            "TCI-Technik"
+          ],
+          "lernpunkte": [
+            "Vorteil: Geringeres PONV-Risiko",
+            "Gefahr des Awareness-Risikos bei Pumpenausfall"
+          ]
+        },
+        {
+          "id": "AIN_012",
+          "titel": "Balancierte Anästhesie",
+          "tags": [
+            "Narkose",
+            "Sevofluran"
+          ],
+          "patient": "60-j. für Laparotomie",
+          "praesentation": "Längere OP-Dauer geplant.",
+          "befunde": [
+            "Normales Leber/Nieren-Profil"
+          ],
+          "diagnose": "Erhalt der Narkose",
+          "therapie": [
+            "Einleitung Propofol",
+            "Erhalt Sevofluran/Desfluran + Fentanyl"
+          ],
+          "lernpunkte": [
+            "Steuerbarkeit via MAC-Wert",
+            "Trigger für Maligne Hyperthermie"
+          ]
+        },
+        {
+          "id": "AIN_013",
+          "titel": "Unerwartet schwieriger Atemweg",
+          "tags": [
+            "Notfall",
+            "Atemweg"
+          ],
+          "patient": "Pat. ohne Vorzeichen (Mallampati I)",
+          "praesentation": "Keine Sicht auf Epiglottis bei Laryngoskopie.",
+          "befunde": [
+            "Cormack/Lehane III",
+            "Sättigungsabfall"
+          ],
+          "diagnose": "Difficult Airway (Unforeseen)",
+          "therapie": [
+            "Atemwegshilfe (Guedel)",
+            "Larynxmaske als Fallback",
+            "Videolaryngoskopie"
+          ],
+          "lernpunkte": [
+            "Plan B, C, D nach Algorithmus (DGAI)"
+          ]
+        },
+        {
+          "id": "AIN_014",
+          "titel": "Larynxmaske (LAMA)",
+          "tags": [
+            "Atemweg"
+          ],
+          "patient": "22-j. für Knie-Arthroskopie",
+          "praesentation": "Kurze OP, Rückenlage.",
+          "befunde": [
+            "Nüchtern",
+            "Normalgewicht"
+          ],
+          "diagnose": "Supraglottische Atemwegshilfe",
+          "therapie": [
+            "Einlage LAMA Gr. 4",
+            "Spontanatmung / Druckunterstützung"
+          ],
+          "lernpunkte": [
+            "Kein Aspirationsschutz!",
+            "Nicht bei Adipositas/Ileus"
+          ]
+        },
+        {
+          "id": "AIN_015",
+          "titel": "Einlungenventilation (Double Lumen Tube)",
+          "tags": [
+            "Thorax"
+          ],
+          "patient": "55-j. zur Lobektomie links",
+          "praesentation": "Thoraxchirurgischer Eingriff.",
+          "befunde": [
+            "Seitengetrennte Beatmung nötig"
+          ],
+          "diagnose": "Einlungenventilation",
+          "therapie": [
+            "Einlage DLT links",
+            "Lagekontrolle fiberoptisch"
+          ],
+          "lernpunkte": [
+            "Lagekontrolle ist obligat",
+            "Risiko der Hypoxämie durch Shuntfluss"
+          ]
+        },
+        {
+          "id": "AIN_016",
+          "titel": "Neuromuskuläres Monitoring (TOF)",
+          "tags": [
+            "Monitoring"
+          ],
+          "patient": "Pat. nach Baucheingriff",
+          "praesentation": "Wunsch nach Extubation.",
+          "befunde": [
+            "Patient atmet",
+            "TOF-Ratio 0,4"
+          ],
+          "diagnose": "Residualkurarisierung",
+          "therapie": [
+            "Antagonisierung (Sugammadex oder Neostigmin)"
+          ],
+          "lernpunkte": [
+            "Extubation erst ab TOF-Ratio > 0,9 sicheres Niveau"
+          ]
+        },
+        {
+          "id": "AIN_017",
+          "titel": "Fiberoptische Intubation (Wach)",
+          "tags": [
+            "Atemweg"
+          ],
+          "patient": "Pat. mit bekannter Ankylose HWS / Tumor",
+          "praesentation": "Mundöffnung < 1cm.",
+          "befunde": [
+            "Sichere Beatmungsunmöglichkeit bei Einleitung"
+          ],
+          "diagnose": "Bekannter schwieriger Atemweg",
+          "therapie": [
+            "Wachfiberoptik nach Lokalanästhesie"
+          ],
+          "lernpunkte": [
+            "Goldstandard bei anatomischen Hindernissen"
+          ]
+        },
+        {
+          "id": "AIN_018",
+          "titel": "Nicht-depolarisierende Relaxanzien",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Routine-Narkose",
+          "praesentation": "Wahl des Relaxans.",
+          "befunde": [
+            "Niereninsuffizienz (Krea 2,5)"
+          ],
+          "diagnose": "Nierenfunktionseinschränkung",
+          "therapie": [
+            "Cis-Atracurium (Hofmann-Elimination)"
+          ],
+          "lernpunkte": [
+            "Organunabhängiger Abbau vorteilhaft bei Insuffizienz"
+          ]
+        },
+        {
+          "id": "AIN_019",
+          "titel": "Suxamethonium (Succinylcholin)",
+          "tags": [
+            "Pharmakologie"
+          ],
+          "patient": "Notfall-RSI",
+          "praesentation": "Vollmagen-Situation.",
+          "befunde": [
+            "AZ reduziert",
+            "Hyperkaliämie-Gefahr?"
+          ],
+          "diagnose": "Indikation Depolarisierendes Relaxans",
+          "therapie": [
+            "Bolus 1mg/kg KG",
+            "schnelle Anschlagzeit"
+          ],
+          "lernpunkte": [
+            "KI: Maligne Hyperthermie, Verbrennungen, Querschnitt"
+          ]
+        },
+        {
+          "id": "AIN_020",
+          "titel": "Awareness während Narkose",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Nach Sectio in ITN",
+          "praesentation": "Berichtet von Geräuschen und Schmerz während OP.",
+          "befunde": [
+            "Psychisches Trauma",
+            "PTBS"
+          ],
+          "diagnose": "Intraoperative Wachheit",
+          "therapie": [
+            "Psychologische Nachsorge",
+            "Protokoll-Check"
+          ],
+          "lernpunkte": [
+            "Häufiger bei Relaxierung ohne adäquate Hypnose",
+            "Monitoring (BIS/NIRS)"
+          ]
+        }
+      ]
+    },
+    "regionalanaesthesie": {
+      "label": "Regionalanästhesie",
+      "emoji": "💉",
+      "faelle": [
+        {
+          "id": "AIN_021",
+          "titel": "Spinalanästhesie (Sectio)",
+          "tags": [
+            "Regional",
+            "Geburtshilfe"
+          ],
+          "patient": "30-jährige Schwangere, elektive Sectio",
+          "praesentation": "Wunsch nach Wach-OP.",
+          "befunde": [
+            "Normale Gerinnung",
+            "keine Infektion am Rücken"
+          ],
+          "diagnose": "Regionalanästhesie geplant",
+          "therapie": [
+            "Lumbale Punktion L3/4",
+            "Bupivacain hyperbar"
+          ],
+          "lernpunkte": [
+            "Komplikation: Hypotension durch Sympathikolyse",
+            "Vermeidung PDPH (Postpunktioneller Kopfschmerz)"
+          ]
+        },
+        {
+          "id": "AIN_022",
+          "titel": "Epiduralanästhesie (Thorakal)",
+          "tags": [
+            "Regional",
+            "Schmerz"
+          ],
+          "patient": "65-j. zur großen Abdominal-OP",
+          "praesentation": "Perioperatives Schmerzkonzept.",
+          "befunde": [
+            "V.a. hohes Schmerzniveau postop"
+          ],
+          "diagnose": "Thorakaler Periduralkatheter (PDK)",
+          "therapie": [
+            "Anlage Th8/9",
+            "Kontinuierliche Ropivacain-Gabe"
+          ],
+          "lernpunkte": [
+            "Vorteil: Frührehabilitation, weniger Pneumonien"
+          ]
+        },
+        {
+          "id": "AIN_023",
+          "titel": "Interskalenärer Plexusblock",
+          "tags": [
+            "Regional",
+            "Schulter"
+          ],
+          "patient": "45-j. zur Schulter-OP",
+          "praesentation": "Schmerztherapie für Oberarm/Schulter.",
+          "befunde": [
+            "Sono-gesteuerte Identifikation Plexus brachialis"
+          ],
+          "diagnose": "Regionalanästhesie obere Extremität",
+          "therapie": [
+            "Block C5-C7 mit Ropivacain"
+          ],
+          "lernpunkte": [
+            "Cave: N. phrenicus Parese (Horner-Syndrom)"
+          ]
+        },
+        {
+          "id": "AIN_024",
+          "titel": "Intoxikation mit Lokalanästhetika (LAST)",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "Pat. während Plexusblockade",
+          "praesentation": "Plötzlicher Krampfanfall, Herzrhythmusstörung.",
+          "befunde": [
+            "Injektion unmittelbar zuvor erfolgt"
+          ],
+          "diagnose": "LAST (Local Anesthetic Systemic Toxicity)",
+          "therapie": [
+            "Lipid-Rescue (Intralipid 20%)",
+            "Standard-Reanimation bei Kreislaufstillstand"
+          ],
+          "lernpunkte": [
+            "Aspirationskontrolle!",
+            "Lipidemulsion muss griffbereit sein"
+          ]
+        },
+        {
+          "id": "AIN_025",
+          "titel": "Postpunktioneller Kopfschmerz",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "28-j. Frau nach Spinalanästhesie",
+          "praesentation": "Heftiger Kopfschmerz im Stehen, Besserung im Liegen.",
+          "befunde": [
+            "Neurologisch sonst o.B."
+          ],
+          "diagnose": "PDPH (Post Dural Puncture Headache)",
+          "therapie": [
+            "Koffein",
+            "Flüssigkeit",
+            "Ultima Ratio: Epidural Blood Patch"
+          ],
+          "lernpunkte": [
+            "Atraumatische Nadeln senken das Risiko"
+          ]
+        },
+        {
+          "id": "AIN_026",
+          "titel": "Axillärer Plexusblock",
+          "tags": [
+            "Regional",
+            "Hand"
+          ],
+          "patient": "Pat. zur Hand-OP",
+          "praesentation": "Ambulante OP geplant.",
+          "befunde": [
+            "Sono: A. axillaris von Nerven umgeben"
+          ],
+          "diagnose": "Plexus-axillaris-Block",
+          "therapie": [
+            "Einzelnerven-Blockade (Medianus, Ulnaris, Radialis)"
+          ],
+          "lernpunkte": [
+            "Keine Phrenicus-Parese",
+            "Hautperfusion am Arm prüfen"
+          ]
+        },
+        {
+          "id": "AIN_027",
+          "titel": "Ischiadicusblock (Popliteal)",
+          "tags": [
+            "Regional",
+            "Fuß"
+          ],
+          "patient": "Pat. zur Sprunggelenks-OP",
+          "praesentation": "Schmerztherapie distales Bein.",
+          "befunde": [
+            "Punktion in Kniekehle"
+          ],
+          "diagnose": "Poplitealer Ischiadicusblock",
+          "therapie": [
+            "Blockade der Teilungsstelle",
+            "Kombination mit Saphenusblock"
+          ],
+          "lernpunkte": [
+            "Vorteil: Erhalt der Kniestreckung"
+          ]
+        },
+        {
+          "id": "AIN_028",
+          "titel": "Tap-Block",
+          "tags": [
+            "Regional",
+            "Abdomen"
+          ],
+          "patient": "Pat. zur Laparoskopie",
+          "praesentation": "Postop Schmerzreduktion Bauchwand.",
+          "befunde": [
+            "Sono: Schicht zwischen M. obliquus int. und M. transversus"
+          ],
+          "diagnose": "Transversus Abdominis Plane Block",
+          "therapie": [
+            "Infiltration Lokalanästhetikum"
+          ],
+          "lernpunkte": [
+            "Rein sensible Blockade der Bauchwand"
+          ]
+        },
+        {
+          "id": "AIN_029",
+          "titel": "Gerinnungsstörung & Regionalanästhesie",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Pat. unter Rivaroxaban (DOAK)",
+          "praesentation": "Wunsch nach Spinalanästhesie.",
+          "befunde": [
+            "Letzte Einnahme vor 12h"
+          ],
+          "diagnose": "Kontraindikation / Absetzfrist",
+          "therapie": [
+            "Abwarten der Pausenzeit (meist 48-72h) oder ITN"
+          ],
+          "lernpunkte": [
+            "Rückenmarksnahe Hämatome sind verheerend",
+            "DGAI-Empfehlungen beachten"
+          ]
+        },
+        {
+          "id": "AIN_030",
+          "titel": "Serratus-Anterior-Block (SAPB)",
+          "tags": [
+            "Regional",
+            "Thorax"
+          ],
+          "patient": "Pat. mit multiplen Rippenfrakturen",
+          "praesentation": "Starker atemabhängiger Schmerz.",
+          "befunde": [
+            "Hypoventilation durch Schmerz"
+          ],
+          "diagnose": "Schmerzmanagement Thoraxwand",
+          "therapie": [
+            "SAP-Block mit Katheter"
+          ],
+          "lernpunkte": [
+            "Gute Alternative zum PDK bei Kontraindikationen"
+          ]
+        }
+      ]
+    },
+    "intensivmedizin": {
+      "label": "Intensivmedizin",
+      "emoji": "🏥",
+      "faelle": [
+        {
+          "id": "AIN_031",
+          "titel": "Sepsis & Septischer Schock",
+          "tags": [
+            "Infekt",
+            "Schock"
+          ],
+          "patient": "75-jähriger Patient nach Darmperforation",
+          "praesentation": "Fieber, Tachykardie, Anurie, Desorientierung.",
+          "befunde": [
+            "Laktat 4,5 mmol/l",
+            "RR 85/50 mmHg trotz Volumengabe",
+            "CRP/PCT massiv↑"
+          ],
+          "diagnose": "Septischer Schock (Fokus: Abdomen)",
+          "therapie": [
+            "Source Control (OP)",
+            "Kalkulierte Antibiose < 1h",
+            "Noradrenalin",
+            "ZVD/SV-Monitoring"
+          ],
+          "lernpunkte": [
+            "Sepsis-3 Definition (qSOFA)",
+            "Early Goal Directed Therapy"
+          ]
+        },
+        {
+          "id": "AIN_032",
+          "titel": "ARDS (Beatmung)",
+          "tags": [
+            "Pulmo",
+            "Beatmung"
+          ],
+          "patient": "40-j. nach schwerer Pneumonie",
+          "praesentation": "Zunehmende Hypoxämie, globale respiratorische Insuffizienz.",
+          "befunde": [
+            "Horovitz-Quotient < 150",
+            "Bilateral Infiltrate"
+          ],
+          "diagnose": "Mäßiges ARDS",
+          "therapie": [
+            "Lungenprotektive Beatmung (6ml/kg KG)",
+            "PEEP-Optimierung",
+            "Bauchlagerung"
+          ],
+          "lernpunkte": [
+            "Driving Pressure minimieren",
+            "Permissive Hyperkapnie"
+          ]
+        },
+        {
+          "id": "AIN_033",
+          "titel": "Akutes Nierenversagen (AKI)",
+          "tags": [
+            "Niere",
+            "Dialyse"
+          ],
+          "patient": "80-j. postoperativ, Schock-Vorgeschichte",
+          "praesentation": "Oligurie < 400ml/d, Kreatinin-Anstieg.",
+          "befunde": [
+            "Kalium 6,2 mmol/l",
+            "Überwässerung"
+          ],
+          "diagnose": "AKI Stadium 3 (KDIGO)",
+          "therapie": [
+            "Kontinuierliche Nierenersatztherapie (CVVHD)"
+          ],
+          "lernpunkte": [
+            "Indikationen zur Dialyse: AEIOU (Acidosis, Electrolytes, Ingestion, Overload, Uremia)"
+          ]
+        },
+        {
+          "id": "AIN_034",
+          "titel": "Weaning-Versagen",
+          "tags": [
+            "Beatmung",
+            "Langzeit"
+          ],
+          "patient": "Pat. nach 3 Wochen Beatmung",
+          "praesentation": "Tachypnoe bei Spontanatmungsversuch.",
+          "befunde": [
+            "RSBI-Index > 105",
+            "Zwerchfellatrophie im Sono"
+          ],
+          "diagnose": "Difficult Weaning",
+          "therapie": [
+            "Tracheotomie",
+            "Kardiale Optimierung",
+            "Frührehabilitation"
+          ],
+          "lernpunkte": [
+            "Zusammenhang Herz-Lungen-Interaktion"
+          ]
+        },
+        {
+          "id": "AIN_035",
+          "titel": "Zerebraler Perfusionsdruck (TBI)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "25-j. nach schwerem SHT",
+          "praesentation": "Koma, ICP-Sonde in situ.",
+          "befunde": [
+            "ICP 25 mmHg",
+            "MAP 70 mmHg"
+          ],
+          "diagnose": "Intrakranielle Hypertension",
+          "therapie": [
+            "Erhöhung MAP (Noradrenalin)",
+            "Osmotherapie",
+            "Oberkörperhoch 30°"
+          ],
+          "lernpunkte": [
+            "CPP = MAP - ICP",
+            "Ziel-CPP 60-70 mmHg"
+          ]
+        },
+        {
+          "id": "AIN_036",
+          "titel": "Hyperkaliämie (Notfall)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Dialyse-Pat. mit Herzrhythmusstörung",
+          "praesentation": "Müdigkeit, Muskelschwäche.",
+          "befunde": [
+            "EKG: Zeltförmige T-Wellen",
+            "K+ 7,2 mmol/l"
+          ],
+          "diagnose": "Schwere Hyperkaliämie",
+          "therapie": [
+            "Calciumgluconat (Membranstabilisierung)",
+            "Insulin/Glukose",
+            "Dialyse"
+          ],
+          "lernpunkte": [
+            "Gefahr des Kammerflimmerns"
+          ]
+        },
+        {
+          "id": "AIN_037",
+          "titel": "Delir-Management",
+          "tags": [
+            "Psyche"
+          ],
+          "patient": "70-j. am 2. postop Tag",
+          "praesentation": "Desorientiert, zieht an Schläuchen, Halluzinationen.",
+          "befunde": [
+            "CAM-ICU positiv"
+          ],
+          "diagnose": "Hyperaktives Delir",
+          "therapie": [
+            "Reorientierung",
+            "Dexmedetomidin",
+            "Neuroleptika"
+          ],
+          "lernpunkte": [
+            "Früherkennung senkt Mortalität",
+            "ABCDEF-Bundle"
+          ]
+        },
+        {
+          "id": "AIN_038",
+          "titel": "Enterale Ernährung (Intensiv)",
+          "tags": [
+            "Ernährung"
+          ],
+          "patient": "Pat. stabilisiert nach Schockphase",
+          "praesentation": "Einleitung der Ernährung.",
+          "befunde": [
+            "Darmgeräusche vorhanden",
+            "kein gastraler Reflux"
+          ],
+          "diagnose": "Beginn enterale Ernährung",
+          "therapie": [
+            "Früh-enteral via Magensonde",
+            "Stufenweiser Aufbau"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Mukosaatrophie",
+            "Parenteral nur supplementär"
+          ]
+        },
+        {
+          "id": "AIN_039",
+          "titel": "Transfusions-assoziierte Lungenreaktion (TRALI)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. während Gabe von FFP",
+          "praesentation": "Akute Dyspnoe, Fieber, Blutdruckabfall.",
+          "befunde": [
+            "Rö: Lungenödem bei normalem ZVD"
+          ],
+          "diagnose": "TRALI",
+          "therapie": [
+            "Stopp Transfusion",
+            "Sauerstoff / PEEP-Beatmung",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Nicht-kardiogenes Lungenödem durch Antikörper"
+          ]
+        },
+        {
+          "id": "AIN_040",
+          "titel": "Heparin-induzierte Thrombozytopenie (HIT)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. unter UFH zur Thromboseprophylaxe",
+          "praesentation": "Abfall der Thrombozyten um 50% an Tag 7.",
+          "befunde": [
+            "Thromboembolien trotz Heparin"
+          ],
+          "diagnose": "HIT Typ II",
+          "therapie": [
+            "Sofortiger Heparinstopp",
+            "Alternative: Argatroban / Danaparoid"
+          ],
+          "lernpunkte": [
+            "Gefahr der paradoxen Thrombose",
+            "Typ-I (harmlos) vs. Typ-II (immunologisch)"
+          ]
+        },
+        {
+          "id": "AIN_041",
+          "titel": "Hyponatriämie (Korrektur)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Pat. mit SIADH",
+          "praesentation": "Krampfanfall, Somnolenz.",
+          "befunde": [
+            "Serum-Natrium 118 mmol/l"
+          ],
+          "diagnose": "Schwere Hyponatriämie",
+          "therapie": [
+            "Langsame Korrektur (max. 8-10 mmol/l pro 24h)",
+            "Hypertone Kochsalzlösung im Notfall"
+          ],
+          "lernpunkte": [
+            "Gefahr der zentralen pontinen Myelinolyse bei zu schneller Korrektur"
+          ]
+        },
+        {
+          "id": "AIN_042",
+          "titel": "Pankreatitis (Schwere Form)",
+          "tags": [
+            "Abdomen"
+          ],
+          "patient": "45-j. Alkoholabusus",
+          "praesentation": "Gürtelförmiger Oberbauchschmerz, SIRS.",
+          "befunde": [
+            "Lipase 1500",
+            "CT: Nekrosen > 30%"
+          ],
+          "diagnose": "Nekrotisierende Pankreatitis",
+          "therapie": [
+            "Aggressives Flüssigkeitsmanagement",
+            "Nahrungskarenz initial",
+            "ggf. Step-up-Intervention"
+          ],
+          "lernpunkte": [
+            "Organversagen bestimmt Prognose"
+          ]
+        },
+        {
+          "id": "AIN_043",
+          "titel": "Obere Gastrointestinalblutung (Intensiv)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit Leberzirrhose",
+          "praesentation": "Hämatemesis, Schock.",
+          "befunde": [
+            "Ösophagusvarizen bekannt"
+          ],
+          "diagnose": "Varizenblutung",
+          "therapie": [
+            "Terlipressin",
+            "Endoskopische Bandligatur",
+            "Sengstaken-Sonde im Notfall"
+          ],
+          "lernpunkte": [
+            "Frühe Antibiose verbessert Outcome"
+          ]
+        },
+        {
+          "id": "AIN_044",
+          "titel": "Lungenembolie (Massiv)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Postop Pat., plötzlicher Kollaps",
+          "praesentation": "Dyspnoe, Tachykardie, RR 70/40 mmHg.",
+          "befunde": [
+            "Rechtsherzbelastung im Echo",
+            "D-Dimere↑↑"
+          ],
+          "diagnose": "Massive Lungenembolie (High Risk)",
+          "therapie": [
+            "Systemische Fibrinolyse",
+            "Vollheparinisierung"
+          ],
+          "lernpunkte": [
+            "Lyseindikation bei hämodynamischer Instabilität"
+          ]
+        },
+        {
+          "id": "AIN_045",
+          "titel": "Vena Cava Katheter (ZVK)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Pat. für Katecholamintherapie",
+          "praesentation": "Bedarf an sicherem venösem Zugang.",
+          "befunde": [
+            "Anlage V. jugularis interna rechts"
+          ],
+          "diagnose": "Indikation für zentralvenösen Zugang",
+          "therapie": [
+            "Sono-gesteuerte Punktion",
+            "Lagekontrolle (Ekg-Ableitung oder Rö)"
+          ],
+          "lernpunkte": [
+            "Vermeidung Pneumothorax via Ultraschall",
+            "ZVD-Messung zur Trendsicherung"
+          ]
+        }
+      ]
+    },
+    "notfallmedizin": {
+      "label": "Notfallmedizin & Reanimation",
+      "emoji": "🚑",
+      "faelle": [
+        {
+          "id": "AIN_046",
+          "titel": "Reanimation (ALS-Algorithmus)",
+          "tags": [
+            "Reanimation",
+            "Notfall"
+          ],
+          "patient": "60-jähriger Mann, Kollaps beim Einkaufen",
+          "praesentation": "Keine Atmung, kein Puls.",
+          "befunde": [
+            "EKG: Kammerflimmern"
+          ],
+          "diagnose": "Kreislaufstillstand bei VF",
+          "therapie": [
+            "Defibrillation (360J monophasisch / 200J biphasisch)",
+            "Thoraxkompressionen 30:2",
+            "Adrenalin/Amiodaron nach Algorithmus"
+          ],
+          "lernpunkte": [
+            "Qualität der Kompression entscheidend",
+            "Frühe Defibrillation bei schockbarem Rhythmus"
+          ]
+        },
+        {
+          "id": "AIN_047",
+          "titel": "Anaphylaxie (Insektengift)",
+          "tags": [
+            "Notfall",
+            "Allergie"
+          ],
+          "patient": "35-j. Mann nach Wespenstich",
+          "praesentation": "Urtikaria, Stridor, RR 70/40 mmHg.",
+          "befunde": [
+            "Distales Ödem",
+            "Tachykardie"
+          ],
+          "diagnose": "Anaphylaktischer Schock Stadium III",
+          "therapie": [
+            "Adrenalin i.m.",
+            "Prednisolon i.v.",
+            "H1/H2-Blocker i.v.",
+            "Volumen"
+          ],
+          "lernpunkte": [
+            "Adrenalin i.m. ist First-Line vor allen anderen Maßnahmen"
+          ]
+        },
+        {
+          "id": "AIN_048",
+          "titel": "Spannungspneumothorax (Präklinik)",
+          "tags": [
+            "Trauma",
+            "Notfall"
+          ],
+          "patient": "20-j. nach Sturz",
+          "praesentation": "Massive Atemnot, einseitig aufgehobenes Atemgeräusch, Halsvenenstauung.",
+          "befunde": [
+            "Hautemphysem",
+            "Trachealverlagerung"
+          ],
+          "diagnose": "Spannungspneumothorax",
+          "therapie": [
+            "Nadeldekompression (Monaldi)",
+            "Thoraxdrainage (Bülau)"
+          ],
+          "lernpunkte": [
+            "Entlastung vor Röntgen-Diagnostik bei klinischem Verdacht"
+          ]
+        },
+        {
+          "id": "AIN_049",
+          "titel": "Akutes Koronarsyndrom (STEMI)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "55-j. Raucher",
+          "praesentation": "Retrosternaler Vernichtungsschmerz, kaltschweißig.",
+          "befunde": [
+            "EKG: ST-Hebung II, III, aVF"
+          ],
+          "diagnose": "Hinterwand-STEMI",
+          "therapie": [
+            "ASS/Heparin/Ticagrelor",
+            "Morphin",
+            "Schneller Transport zur Herzkatheter-PCI"
+          ],
+          "lernpunkte": [
+            "Zeit ist Myokard",
+            "MONA-Schema (Morphin, Sauerstoff, Nitroglyzerin, ASS)"
+          ]
+        },
+        {
+          "id": "AIN_050",
+          "titel": "Status Epilepticus (Präklinisch)",
+          "tags": [
+            "Neuro"
+          ],
+          "patient": "22-j. bekannte Epilepsie",
+          "praesentation": "Anhaltender tonisch-klonischer Krampf > 5 Min.",
+          "befunde": [
+            "Zyanose",
+            "Schaum vor dem Mund"
+          ],
+          "diagnose": "Status epilepticus",
+          "therapie": [
+            "Midazolam (nasal/buccal/i.v.)",
+            "Sicherung der Atemwege"
+          ],
+          "lernpunkte": [
+            "Durchbrechen nach 5 Min obligat zur Hirnprotektion"
+          ]
+        },
+        {
+          "id": "AIN_051",
+          "titel": "Ertrinkungsunfall",
+          "tags": [
+            "Umwelt"
+          ],
+          "patient": "6-j. Kind aus Pool gerettet",
+          "praesentation": "Apnoe, blass-zyanotisch.",
+          "befunde": [
+            "Hypothermie",
+            "Bradykardie"
+          ],
+          "diagnose": "Ertrinken (Submersion)",
+          "therapie": [
+            "Initial 5 Beatmungen",
+            "CPR",
+            "Aufwärmung"
+          ],
+          "lernpunkte": [
+            "Nobody is dead until warm and dead",
+            "Initialbeatmung wichtig"
+          ]
+        },
+        {
+          "id": "AIN_052",
+          "titel": "Kohlenmonoxid-Vergiftung (CO)",
+          "tags": [
+            "Intox"
+          ],
+          "patient": "Pat. aus brennendem Haus gerettet",
+          "praesentation": "Kopfschmerz, Verwirrtheit, kirschrote Hautfarbe (selten).",
+          "befunde": [
+            "SPO2 100% (falsch positiv)",
+            "CO-Hb 25%"
+          ],
+          "diagnose": "CO-Intoxikation",
+          "therapie": [
+            "100% Sauerstoff via Maske",
+            "ggf. Hyperbare Oxygenierung (HBO)"
+          ],
+          "lernpunkte": [
+            "Pulsoxymetrie unterscheidet nicht zwischen O2 und CO"
+          ]
+        },
+        {
+          "id": "AIN_053",
+          "titel": "Hypoglykämie (Präklinik)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "70-j. Diabetiker, desorientiert",
+          "praesentation": "Aggressivität, Schwitzen, Tachykardie.",
+          "befunde": [
+            "Blutzucker 32 mg/dl"
+          ],
+          "diagnose": "Hypoglykämie",
+          "therapie": [
+            "Traubenzucker oral oder Glukose i.v. (G40%)"
+          ],
+          "lernpunkte": [
+            "Suizidale Absicht bei Insulinüberdosierung ausschließen"
+          ]
+        },
+        {
+          "id": "AIN_054",
+          "titel": "Herzbeuteltamponade",
+          "tags": [
+            "Kardio",
+            "Trauma"
+          ],
+          "patient": "Pat. nach Messerstich Thorax",
+          "praesentation": "Beck-Trias (leise Herztöne, Halsvenenstau, Hypotension).",
+          "befunde": [
+            "FAST-Sono: Perikarderguss"
+          ],
+          "diagnose": "Herzbeuteltamponade",
+          "therapie": [
+            "Perikardpunktion",
+            "Thorakotomie"
+          ],
+          "lernpunkte": [
+            "Obstruktiver Schock"
+          ]
+        },
+        {
+          "id": "AIN_055",
+          "titel": "Massenanfall von Verletzten (MANV)",
+          "tags": [
+            "Organisation"
+          ],
+          "patient": "Verkehrsunfall mit 10 Verletzten",
+          "praesentation": "Chaos an der Einsatzstelle.",
+          "befunde": [
+            "Unterschiedliche Verletzungsschwere"
+          ],
+          "diagnose": "MANV-Situation",
+          "therapie": [
+            "Triage nach mSTaRT-Schema",
+            "Nachforderung von Kräften"
+          ],
+          "lernpunkte": [
+            "Struktur vor Individualtherapie"
+          ]
+        },
+        {
+          "id": "AIN_056",
+          "titel": "Asthma-Notfall",
+          "tags": [
+            "Pulmo"
+          ],
+          "patient": "12-j. Kind, Atemnot",
+          "praesentation": "Stilles Thorax, Sprechdyspnoe.",
+          "befunde": [
+            "SPO2 85%",
+            "Giemen/Brummen"
+          ],
+          "diagnose": "Status asthmaticus",
+          "therapie": [
+            "SABA-Inhalation",
+            "Steroide i.v.",
+            "Magnesium i.v.",
+            "Theophyllin?"
+          ],
+          "lernpunkte": [
+            "Gefahr der Erschöpfung und Hyperkapnie"
+          ]
+        },
+        {
+          "id": "AIN_057",
+          "titel": "Lungenödem (Kardial)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "80-j. Frau, massive Atemnot",
+          "praesentation": "Rasselgeräusche beidseits, schaumiges Sputum.",
+          "befunde": [
+            "RR 200/110 mmHg",
+            "Tachypnoe"
+          ],
+          "diagnose": "Akute Linksherzinsuffizienz",
+          "therapie": [
+            "NIV-Beatmung (CPAP)",
+            "Nitrospray",
+            "Furosemid i.v."
+          ],
+          "lernpunkte": [
+            "NIV reduziert Intubationsrate signifikant"
+          ]
+        },
+        {
+          "id": "AIN_058",
+          "titel": "Heroin-Intoxikation",
+          "tags": [
+            "Intox"
+          ],
+          "patient": "25-j. Mann, am Bahnhof aufgefunden",
+          "praesentation": "Atemdepression (AF 4/min), Miosis (Stecknadelpupillen).",
+          "befunde": [
+            "Zyanose",
+            "Nadelstichspuren"
+          ],
+          "diagnose": "Opioid-Überdosierung",
+          "therapie": [
+            "Beatmung",
+            "Naloxon titriert (Cave: Entzug)"
+          ],
+          "lernpunkte": [
+            "Wirkdauer Naloxon < Opioid (Nachdosieren!)"
+          ]
+        },
+        {
+          "id": "AIN_059",
+          "titel": "Polytrauma (ABCDE)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "PKW-Fahrer nach Baumprall",
+          "praesentation": "Instabil, Oberschenkelfraktur, Bewusstseinstrübung.",
+          "befunde": [
+            "A frei, B abgeschwächt, C Schock, D GCS 9, E Wärmeerhalt"
+          ],
+          "diagnose": "Polytrauma",
+          "therapie": [
+            "Volumenmanagement (Restriktive Infusion)",
+            "Blutungsstopp (Tourniquet/Beckenschlinge)",
+            "Analgesie (Ketamin/Midazolam)"
+          ],
+          "lernpunkte": [
+            "Damage Control Resuscitation"
+          ]
+        },
+        {
+          "id": "AIN_060",
+          "titel": "Hypothermie (Notfall)",
+          "tags": [
+            "Umwelt"
+          ],
+          "patient": "Obdachloser im Winter",
+          "praesentation": "Körpertemperatur 28°C, Somnolenz.",
+          "befunde": [
+            "Osborn-Welle im EKG"
+          ],
+          "diagnose": "Akzidentelle Hypothermie Stadium II",
+          "therapie": [
+            "Vorsichtige Umlagerung (Rescue Death vermeiden)",
+            "Warme Infusionen",
+            "Aktive Aufwärmung"
+          ],
+          "lernpunkte": [
+            "Afterdrop-Phänomen bei zu schneller Peripherie-Aufwärmung"
+          ]
+        }
+      ]
+    },
+    "schmerztherapie": {
+      "label": "Schmerztherapie",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "AIN_061",
+          "titel": "Postoperativer Schmerz (PCA)",
+          "tags": [
+            "Akutschmerz",
+            "Opioide"
+          ],
+          "patient": "45-jährige Patientin nach Hysterektomie",
+          "praesentation": "Starke Schmerzen (NRS 8/10).",
+          "befunde": [
+            "Tachykardie",
+            "Schonatmung"
+          ],
+          "diagnose": "Akuter postoperativer Schmerz",
+          "therapie": [
+            "Patienten-kontrollierte Analgesie (PCA) mit Piritramid",
+            "Basismedikation Ibuprofen/Novalgin"
+          ],
+          "lernpunkte": [
+            "PCA erhöht Patientenzufriedenheit",
+            "Bolusdosis und Sperrzeit festlegen"
+          ]
+        },
+        {
+          "id": "AIN_062",
+          "titel": "Neuropathischer Schmerz (Post-Zoster)",
+          "tags": [
+            "Chronisch",
+            "Nerven"
+          ],
+          "patient": "72-j. Mann nach Gürtelrose",
+          "praesentation": "Brennender Schmerz, Allodynie (Berührung schmerzt).",
+          "befunde": [
+            "Narben im Dermatom Th5"
+          ],
+          "diagnose": "Post-Zoster-Neuralgie",
+          "therapie": [
+            "Pregabalin / Gabapentin",
+            "Amitriptylin",
+            "Lidocain-Pflaster"
+          ],
+          "lernpunkte": [
+            "Klassische Analgetika (NSAR) wirken hier kaum"
+          ]
+        },
+        {
+          "id": "AIN_063",
+          "titel": "Tumorschmerz (WHO-Stufenschema)",
+          "tags": [
+            "Palliativ",
+            "Onkologie"
+          ],
+          "patient": "60-j. Frau mit Mamma-CA, Knochenmetastasen",
+          "praesentation": "Dauerschmerz NRS 6, Durchbruchschmerzen.",
+          "befunde": [
+            "Müdigkeit",
+            "Obstipation"
+          ],
+          "diagnose": "Chronischer Tumorschmerz",
+          "therapie": [
+            "WHO Stufe III: Morphin retard + Bedarfsmedikation (Fentanyl nasal)",
+            "Laxanzien!"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Schmerzspitzen",
+            "Fixe Zeitintervalle"
+          ]
+        },
+        {
+          "id": "AIN_064",
+          "titel": "CRPS Typ I (Morbus Sudeck)",
+          "tags": [
+            "Chronisch",
+            "Extremität"
+          ],
+          "patient": "50-j. Frau nach Radiusfraktur",
+          "praesentation": "Brennender Schmerz, Schwellung, glänzende Haut an Hand.",
+          "befunde": [
+            "Temperaturdifferenz",
+            "Eingeschränkte Beweglichkeit"
+          ],
+          "diagnose": "CRPS",
+          "therapie": [
+            "Physiotherapie",
+            "Bisphosphonate",
+            "Spiegeltherapie",
+            "Stufenschema Analgesie"
+          ],
+          "lernpunkte": [
+            "Frühdiagnose verbessert Outcome",
+            "Budapest-Kriterien"
+          ]
+        },
+        {
+          "id": "AIN_065",
+          "titel": "Phantom-Schmerz",
+          "tags": [
+            "Amputation"
+          ],
+          "patient": "40-j. nach Beinamputation",
+          "praesentation": "Schmerz im nicht mehr vorhandenen Fuß.",
+          "befunde": [
+            "Psychischer Leidensdruck"
+          ],
+          "diagnose": "Phantomschmerz",
+          "therapie": [
+            "Spiegeltherapie",
+            "Ketamin-Infusion",
+            "Amitriptylin"
+          ],
+          "lernpunkte": [
+            "Maladaptive kortikale Plastizität",
+            "Präventive Regionalanästhesie senkt Risiko"
+          ]
+        },
+        {
+          "id": "AIN_066",
+          "titel": "Migräne-Therapie (Akut)",
+          "tags": [
+            "Kopfschmerz"
+          ],
+          "patient": "30-j. Frau, Übelkeit, Lichtempfindlichkeit",
+          "praesentation": "Einseitiger pulsierender Kopfschmerz.",
+          "befunde": [
+            "Neurologisch o.B."
+          ],
+          "diagnose": "Migräne-Attacke",
+          "therapie": [
+            "Triptane (z.B. Sumatriptan)",
+            "MCP gegen Übelkeit"
+          ],
+          "lernpunkte": [
+            "Einnahmezeitpunkt Triptane entscheidend (zu Beginn des Schmerzes)"
+          ]
+        },
+        {
+          "id": "AIN_067",
+          "titel": "Opioid-induzierte Obstipation (OIC)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. unter Dauertherapie Oxycodon",
+          "praesentation": "Kein Stuhlgang seit 5 Tagen, Bauchschmerz.",
+          "befunde": [
+            "Harter Bauch",
+            "Skybala"
+          ],
+          "diagnose": "OIC",
+          "therapie": [
+            "Macrogol",
+            "PAMORA (Naloxegol)"
+          ],
+          "lernpunkte": [
+            "Opioide hemmen Darmmotilität via My-Rezeptoren",
+            "Prophylaxe ab Tag 1"
+          ]
+        },
+        {
+          "id": "AIN_068",
+          "titel": "Ko-Analgetika (Depression & Schmerz)",
+          "tags": [
+            "Chronisch"
+          ],
+          "patient": "55-j. mit chronischem Rückenschmerz",
+          "praesentation": "Zusätzliche depressive Verstimmung.",
+          "befunde": [
+            "Somatisierung"
+          ],
+          "diagnose": "Chronisches Schmerzsyndrom",
+          "therapie": [
+            "Duloxetin (SSNRI)",
+            "Multimodale Therapie"
+          ],
+          "lernpunkte": [
+            "Synergismus von Antidepressiva in der Schmerzleitung"
+          ]
+        },
+        {
+          "id": "AIN_069",
+          "titel": "Opioid-Rotation",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. unter Morphin mit massiven NW",
+          "praesentation": "Übelkeit, Halluzinationen.",
+          "befunde": [
+            "Schmerz noch NRS 5"
+          ],
+          "diagnose": "Opioid-Unverträglichkeit",
+          "therapie": [
+            "Rotation auf Oxycodon / Hydromorphon (Dosisumrechnung!)"
+          ],
+          "lernpunkte": [
+            "Äquipotenztabellen nutzen",
+            "Korrekturfaktor 25-50% Abzug"
+          ]
+        },
+        {
+          "id": "AIN_070",
+          "titel": "Schmerztherapie in der Schwangerschaft",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "Schwangere (2. Trimenon), Zahnschmerz",
+          "praesentation": "Frage nach Medikament.",
+          "befunde": [
+            "Keine Vorerkrankung"
+          ],
+          "diagnose": "Akuter Schmerz",
+          "therapie": [
+            "Paracetamol",
+            "Piru/Opiate im Notfall ok",
+            "KEINE NSAR im 3. Trimenon"
+          ],
+          "lernpunkte": [
+            "NSAR-Verschluss Ductus arteriosus Botalli im 3. Trimenon"
+          ]
+        }
+      ]
+    },
+    "spezielle_faelle": {
+      "label": "Spezielle Fachbereiche & Komplikationen",
+      "emoji": "👶",
+      "faelle": [
+        {
+          "id": "AIN_071",
+          "titel": "Maligne Hyperthermie (MH)",
+          "tags": [
+            "Komplikation",
+            "Notfall"
+          ],
+          "patient": "15-jähriger Junge während Narkoseeinleitung",
+          "praesentation": "Anstieg etCO2, Tachykardie, Masseterspasmus nach Succinylcholin.",
+          "befunde": [
+            "Temperaturanstieg (spät)",
+            "Azidose",
+            "Hyperkaliämie"
+          ],
+          "diagnose": "Maligne Hyperthermie",
+          "therapie": [
+            "Stopp aller Triggergase",
+            "Dantrolen i.v. sofort",
+            "Aktive Kühlung",
+            "Hyperventilieren mit 100% O2"
+          ],
+          "lernpunkte": [
+            "Ryzodin-Rezeptor-Störung",
+            "Dantrolen ist lebensrettend"
+          ]
+        },
+        {
+          "id": "AIN_072",
+          "titel": "Kinderanästhesie (Laryngospasmus)",
+          "tags": [
+            "Pädiatrie",
+            "Komplikation"
+          ],
+          "patient": "3-j. Kind bei Narkoseausleitung",
+          "praesentation": "Nach Extubation inspiratorischer Stridor, dann Atemstillstand.",
+          "befunde": [
+            "Paradoxe Atembewegungen"
+          ],
+          "diagnose": "Laryngospasmus",
+          "therapie": [
+            "PEEP-Beatmung (Maske)",
+            "Vertiefung der Narkose (Propofol)",
+            "ggf. Succinylcholin"
+          ],
+          "lernpunkte": [
+            "Häufig nach Manipulation bei zu flacher Narkose"
+          ]
+        },
+        {
+          "id": "AIN_073",
+          "titel": "Präeklampsie / Eklampsie",
+          "tags": [
+            "Gyn",
+            "Geburtshilfe"
+          ],
+          "patient": "Schwangere, 32. SSW",
+          "praesentation": "RR 170/110 mmHg, Proteinurie, jetzt Krampfanfall.",
+          "befunde": [
+            "Ödeme",
+            "Kopfschmerz"
+          ],
+          "diagnose": "Eklampsie",
+          "therapie": [
+            "Magnesiumsulfat i.v.",
+            "RR-Senkung (Urapidil)",
+            "Notsectio"
+          ],
+          "lernpunkte": [
+            "Magnesiumsulfat zur Rezidivprophylaxe"
+          ]
+        },
+        {
+          "id": "AIN_074",
+          "titel": "TUR-Syndrom",
+          "tags": [
+            "Urologie",
+            "Elektrolyte"
+          ],
+          "patient": "70-j. Mann während Prostataresektion",
+          "praesentation": "Bradykardie, Blutdruckanstieg, Verwirrtheit.",
+          "befunde": [
+            "Hyponatriämie 120 mmol/l",
+            "Überwässerung"
+          ],
+          "diagnose": "TUR-Syndrom (Einschwemmung Spülflüssigkeit)",
+          "therapie": [
+            "OP-Stopp",
+            "Schleifendiuretika",
+            "langsame Na-Korrektur"
+          ],
+          "lernpunkte": [
+            "Vermeidung durch bipolare Resektion (NaCl)"
+          ]
+        },
+        {
+          "id": "AIN_075",
+          "titel": "Anästhesie im Alter (POCD)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "85-j. nach Hüft-OP",
+          "praesentation": "Längerfristige kognitive Einschränkung nach Entlassung.",
+          "befunde": [
+            "MMST-Abfall im Vergleich zu präop"
+          ],
+          "diagnose": "Postoperative Kognitive Dysfunktion (POCD)",
+          "therapie": [
+            "Supportiv",
+            "Vermeidung Anticholinergika perioperativ"
+          ],
+          "lernpunkte": [
+            "POCD vs. Delir (zeitlicher Verlauf)"
+          ]
+        },
+        {
+          "id": "AIN_076",
+          "titel": "Luftembolie (Sitzende Position)",
+          "tags": [
+            "Neuro",
+            "Komplikation"
+          ],
+          "patient": "Pat. zur Kleinhirnbrückenwinkel-OP sitzend",
+          "praesentation": "Plötzlicher Abfall etCO2, Blutdruckabfall.",
+          "befunde": [
+            "Mühlradgeräusch (Auskultation)"
+          ],
+          "diagnose": "Venöse Luftembolie",
+          "therapie": [
+            "OP-Feld mit Wasser fluten",
+            "Linke Seitenlage",
+            "Luftaspiration via ZVK"
+          ],
+          "lernpunkte": [
+            "Sitzposition erhöht Risiko durch negativen Druck in Venen"
+          ]
+        },
+        {
+          "id": "AIN_077",
+          "titel": "Myasthene Krise",
+          "tags": [
+            "Neuro",
+            "Intensiv"
+          ],
+          "patient": "Pat. mit Myasthenia gravis",
+          "praesentation": "Zunehmende Muskelschwäche nach Infekt, Atemnot.",
+          "befunde": [
+            "AZ reduziert"
+          ],
+          "diagnose": "Myasthene Krise",
+          "therapie": [
+            "Intubation/Beatmung",
+            "IVIG / Plasmapherese",
+            "KEINE Muskelrelaxanzien!"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur cholinergen Krise (Überdosierung)"
+          ]
+        },
+        {
+          "id": "AIN_078",
+          "titel": "Anaphylaxie während Narkose (Relaxanz)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. unmittelbar nach Relaxans-Gabe",
+          "praesentation": "Massive Bronchospastik (Beatmungsdruck↑), Hautrötung.",
+          "befunde": [
+            "RR-Abfall",
+            "Tachykardie"
+          ],
+          "diagnose": "Intraoperative Anaphylaxie (meist Rocuronium/Succi)",
+          "therapie": [
+            "Adrenalin titriert",
+            "Flüssigkeit",
+            "Abbruch der Einleitung"
+          ],
+          "lernpunkte": [
+            "Muskelrelaxanzien sind häufigste Auslöser intraop"
+          ]
+        },
+        {
+          "id": "AIN_079",
+          "titel": "Pneumothorax nach ZVK",
+          "tags": [
+            "Komplikation",
+            "Technik"
+          ],
+          "patient": "Pat. nach Anlage V. subclavia",
+          "praesentation": "Abfall SPO2, einseitig abgeschwächtes Atemgeräusch.",
+          "befunde": [
+            "Rö-Thorax: Pneu sichtbar"
+          ],
+          "diagnose": "Iatrogenener Pneumothorax",
+          "therapie": [
+            "Thoraxdrainage"
+          ],
+          "lernpunkte": [
+            "Sono-gesteuerte Punktion senkt Risiko massiv"
+          ]
+        },
+        {
+          "id": "AIN_080",
+          "titel": "Mendelson-Syndrom",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Nicht-nüchterner Pat. nach Aspiration",
+          "praesentation": "Schwere Hypoxämie, Rasselgeräusche.",
+          "befunde": [
+            "Rö: Infiltrate basal"
+          ],
+          "diagnose": "Säurepneumonitis (Mendelson)",
+          "therapie": [
+            "Absaugen",
+            "PEEP-Beatmung",
+            "Antibiose nur bei Infekt-Zeichen"
+          ],
+          "lernpunkte": [
+            "Säuregehalt des Magensafts schädigt Lungenepithel"
+          ]
+        },
+        {
+          "id": "AIN_081",
+          "titel": "HELLP-Syndrom (Anästhesie)",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "Schwangere vor Sectio",
+          "praesentation": "Oberbauchschmerz, Thrombozyten 40.000.",
+          "befunde": [
+            "Leberenzyme↑",
+            "Gerinnung gestört"
+          ],
+          "diagnose": "HELLP-Syndrom",
+          "therapie": [
+            "ITN (keine Regionalanästhesie bei < 75.000-100.000 Thrombozyten)"
+          ],
+          "lernpunkte": [
+            "Blutungsrisiko bei Regionalverfahren"
+          ]
+        },
+        {
+          "id": "AIN_082",
+          "titel": "Anästhesie bei Adipositas per magna",
+          "tags": [
+            "Management"
+          ],
+          "patient": "BMI 55, elektive OP",
+          "praesentation": "Vorbereitung Atemweg.",
+          "befunde": [
+            "OSAS bekannt",
+            "kurzer Hals"
+          ],
+          "diagnose": "Adipositas Grad III",
+          "therapie": [
+            "Ramped Position",
+            "Präoxygenierung mit NIV",
+            "frühe Mobilisation"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für Atelektasen und Atemwegsprobleme"
+          ]
+        },
+        {
+          "id": "AIN_083",
+          "titel": "Transfusionsreaktion (Hämolytisch)",
+          "tags": [
+            "Hämotherapie"
+          ],
+          "patient": "Pat. während Bluttransfusion",
+          "praesentation": "Fieber, Schüttelfrost, Schmerzen im Lendenbereich, dunkler Urin.",
+          "befunde": [
+            "Blutdruckabfall",
+            "Hämolysezeichen"
+          ],
+          "diagnose": "Akute hämolytische Transfusionsreaktion (AB0-Fehler)",
+          "therapie": [
+            "Sofortiger Stopp",
+            "Forcierte Diurese",
+            "Gerinnungsmanagement"
+          ],
+          "lernpunkte": [
+            "Bedside-Test obligat!"
+          ]
+        },
+        {
+          "id": "AIN_084",
+          "titel": "Wirbelkanalhämatom",
+          "tags": [
+            "Komplikation",
+            "Regional"
+          ],
+          "patient": "Pat. 4h nach Spinalanästhesie",
+          "praesentation": "Zunehmende Lähmung der Beine, kein Abklingen der Taubheit.",
+          "befunde": [
+            "Stärkster Rückenschmerz"
+          ],
+          "diagnose": "Epidurales Hämatom",
+          "therapie": [
+            "Notfall-MRT",
+            "Notfall-Laminektomie < 6-8h"
+          ],
+          "lernpunkte": [
+            "Neurologische Kontrollen nach Regionalanästhesie postop"
+          ]
+        },
+        {
+          "id": "AIN_085",
+          "titel": "Anästhesie bei Porphyrie",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Pat. mit bekannter Porphyrie",
+          "praesentation": "Präoperative Visite.",
+          "befunde": [
+            "Frühere Krisen nach OPs"
+          ],
+          "diagnose": "Akute intermittierende Porphyrie (AIP)",
+          "therapie": [
+            "Vermeidung von Triggern (z.B. Etomidat, Barbiturate)",
+            "Glukoseinfusion"
+          ],
+          "lernpunkte": [
+            "Medikamentenlisten der Fachgesellschaften prüfen"
+          ]
+        },
+        {
+          "id": "AIN_086",
+          "titel": "Hämorrhagischer Schock (Klassifikation)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Pat. mit Polytrauma",
+          "praesentation": "Blass, kaltschweißig, Puls 130, RR 85/40.",
+          "befunde": [
+            "Blutverlust geschätzt 1500ml"
+          ],
+          "diagnose": "Hämorrhagischer Schock Klasse III",
+          "therapie": [
+            "Massivtransfusionsprotokoll",
+            "Tranexamsäure",
+            "Source Control"
+          ],
+          "lernpunkte": [
+            "Permissive Hypotension bei unkontrollierter Blutung"
+          ]
+        },
+        {
+          "id": "AIN_087",
+          "titel": "Kardiogener Schock (Infarkt)",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Pat. nach STEMI",
+          "praesentation": "Lungenödem, RR 80 systolisch.",
+          "befunde": [
+            "EF 20% im Echo",
+            "Stauung"
+          ],
+          "diagnose": "Kardiogener Schock",
+          "therapie": [
+            "Dobutamin",
+            "Inotropika",
+            "ggf. IABP / Impella",
+            "Notfall-PCI"
+          ],
+          "lernpunkte": [
+            "Vorlast- und Nachlastoptimierung"
+          ]
+        },
+        {
+          "id": "AIN_088",
+          "titel": "Lungenödem (Druckbedingt/Atelektasen)",
+          "tags": [
+            "Pulmo"
+          ],
+          "patient": "Pat. nach Laryngospasmus",
+          "praesentation": "Unmittelbar nach Spasmus massive Atemnot, blutiger Schaum.",
+          "befunde": [
+            "Rö: Lungenödem"
+          ],
+          "diagnose": "Negative Pressure Pulmonary Edema (NPPE)",
+          "therapie": [
+            "PEEP-Beatmung",
+            "Diuretika?"
+          ],
+          "lernpunkte": [
+            "Hoher negativer Druck bei Inspiration gegen geschlossene Glottis"
+          ]
+        },
+        {
+          "id": "AIN_089",
+          "titel": "Palacos-Reaktion (Zementreaktion)",
+          "tags": [
+            "Ortho",
+            "Komplikation"
+          ],
+          "patient": "Pat. während Zementierung Hüft-TEP",
+          "praesentation": "Plötzlicher RR-Abfall, etCO2-Abfall.",
+          "befunde": [
+            "Stabilisierung des Zements erfolgt"
+          ],
+          "diagnose": "Bone Cement Implantation Syndrome (BCIS)",
+          "therapie": [
+            "Volumen",
+            "Vasopressoren",
+            "Sauerstoffanhebung"
+          ],
+          "lernpunkte": [
+            "Fettembolie durch Markraummörtelung"
+          ]
+        },
+        {
+          "id": "AIN_090",
+          "titel": "Anästhesie bei Herzinsuffizienz",
+          "tags": [
+            "Kardio"
+          ],
+          "patient": "Pat. mit NYHA III",
+          "praesentation": "Elektive Cholezystektomie.",
+          "befunde": [
+            "EF 30%"
+          ],
+          "diagnose": "Herzinsuffizienz",
+          "therapie": [
+            "Vermeidung kardiodepressiver Substanzen",
+            "Erhalt der Vorlast",
+            "invasives Monitoring"
+          ],
+          "lernpunkte": [
+            "Stressminimierung bei Einleitung"
+          ]
+        },
+        {
+          "id": "AIN_091",
+          "titel": "Ketamin-Narkose (Notfall)",
+          "tags": [
+            "Trauma"
+          ],
+          "patient": "Eingeklemmter Pat. (Verkehrsunfall)",
+          "praesentation": "Starke Schmerzen, instabil.",
+          "befunde": [
+            "AZ reduziert"
+          ],
+          "diagnose": "Analgesie bei Schock",
+          "therapie": [
+            "S-Ketamin + Midazolam"
+          ],
+          "lernpunkte": [
+            "Sympathikomimetische Wirkung von Ketamin vorteilhaft im Schock"
+          ]
+        },
+        {
+          "id": "AIN_092",
+          "titel": "Hyperkalzämische Krise",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Onkologie-Pat.",
+          "praesentation": "Übelkeit, Polyurie, Somnolenz.",
+          "befunde": [
+            "Calcium 3,8 mmol/l"
+          ],
+          "diagnose": "Hyperkalzämische Krise",
+          "therapie": [
+            "Aggressive NaCl-Infusion",
+            "Schleifendiuretika",
+            "Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Nierenversagen"
+          ]
+        },
+        {
+          "id": "AIN_093",
+          "titel": "Thoracic-Outlet-Syndrom (Anästhesie)",
+          "tags": [
+            "Lagerung"
+          ],
+          "patient": "Pat. in Bauchlage für WS-OP",
+          "praesentation": "Neurologische Ausfälle am Arm postop.",
+          "befunde": [
+            "Lagerungsschaden Plexus brachialis"
+          ],
+          "diagnose": "Iatrogene Lagerungsverletzung",
+          "therapie": [
+            "Physiotherapie",
+            "Prävention"
+          ],
+          "lernpunkte": [
+            "Abduktion Arm < 90°",
+            "Unterpolsterung"
+          ]
+        },
+        {
+          "id": "AIN_094",
+          "titel": "Abrechnung Anästhesie (EBM)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "GKV-Pat. zur Knie-OP",
+          "praesentation": "Dokumentation für KV-Abrechnung.",
+          "befunde": [
+            "Dauer 90 Min"
+          ],
+          "diagnose": "Abrechnungssituation",
+          "therapie": [
+            "Ziffer 31823 (Punktbewertung)",
+            "Zuschläge"
+          ],
+          "lernpunkte": [
+            "Zeitfaktor und Zuschläge (Alter, Risiko) beachten"
+          ]
+        },
+        {
+          "id": "AIN_095",
+          "titel": "Patientenverfügung (Intensiv)",
+          "tags": [
+            "Ethik"
+          ],
+          "patient": "85-j. mit terminalem Multiorganversagen",
+          "praesentation": "Frage nach Fortführung der Therapie.",
+          "befunde": [
+            "Schriftliche PV liegt vor: 'Keine lebensverlängernden Maßnahmen'"
+          ],
+          "diagnose": "End-of-life Situation",
+          "therapie": [
+            "Umstellung auf Palliative Care",
+            "Schmerztherapie (Symptomkontrolle)"
+          ],
+          "lernpunkte": [
+            "Wille des Patienten bindend"
+          ]
+        },
+        {
+          "id": "AIN_096",
+          "titel": "Anästhesie bei Karzinoid",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. mit NET (Neuroendokriner Tumor)",
+          "praesentation": "Hitzewallungen, Diarrhö perioperativ.",
+          "befunde": [
+            "Gefahr der Karzinoidkrise"
+          ],
+          "diagnose": "Funktioneller Tumor",
+          "therapie": [
+            "Octreotid (Somatostatin-Analog) perioperativ"
+          ],
+          "lernpunkte": [
+            "Vermeidung von Histaminliberatoren"
+          ]
+        },
+        {
+          "id": "AIN_097",
+          "titel": "Malignes Neuroleptisches Syndrom (MNS)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. unter Haloperidol auf Intensiv",
+          "praesentation": "Fieber 40°C, Rigor, Tachykardie.",
+          "befunde": [
+            "CK-Anstieg"
+          ],
+          "diagnose": "MNS",
+          "therapie": [
+            "Absetzen Trigger",
+            "Dantrolen / Bromocriptin"
+          ],
+          "lernpunkte": [
+            "DD Maligne Hyperthermie"
+          ]
+        },
+        {
+          "id": "AIN_098",
+          "titel": "Serotonin-Syndrom (Intensiv)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. mit SSRI + Tramadol",
+          "praesentation": "Myoklonien, Durchfall, Agitiertheit.",
+          "befunde": [
+            "Hyperreflexie"
+          ],
+          "diagnose": "Serotonin-Syndrom",
+          "therapie": [
+            "Absetzen",
+            "Symptomatisch",
+            "Benzodiazepine"
+          ],
+          "lernpunkte": [
+            "Gefahr der Hyperthermie"
+          ]
+        },
+        {
+          "id": "AIN_099",
+          "titel": "Zentrales Anticholinerges Syndrom (ZAS)",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. nach Narkose mit Atropin/Scopolamin",
+          "praesentation": "Koma oder Agitiertheit, trockene Haut, Mydriasis.",
+          "befunde": [
+            "Verwirrtheit im Aufwachraum"
+          ],
+          "diagnose": "ZAS",
+          "therapie": [
+            "Physostigmin"
+          ],
+          "lernpunkte": [
+            "ZAS vs. Delir"
+          ]
+        },
+        {
+          "id": "AIN_100",
+          "titel": "Organspende (Hirntod)",
+          "tags": [
+            "Recht",
+            "Ethik"
+          ],
+          "patient": "Pat. nach massiver ICB",
+          "praesentation": "Fehlende Hirnstammreflexe.",
+          "befunde": [
+            "Apnoe-Test positiv",
+            "Perfusionsstopp im CTA"
+          ],
+          "diagnose": "Irreversibler Hirnfunktionsausfall",
+          "therapie": [
+            "Dokumentation gemäß Richtlinien BÄK",
+            "Angehörigengespräch",
+            "Organprotektive Intensivtherapie"
+          ],
+          "lernpunkte": [
+            "Hirntod als biologischer Tod des Menschen"
+          ]
+        }
+      ]
+    }
+  }
+}

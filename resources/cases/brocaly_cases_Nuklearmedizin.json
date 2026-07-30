@@ -1,0 +1,1606 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Nuklearmedizin",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "grundlagen_technik_schutz": {
+      "label": "Grundlagen, Radiopharmaka & Strahlenschutz",
+      "emoji": "☢️",
+      "faelle": [
+        {
+          "id": "NUK_G001",
+          "titel": "Physikalischer vs. Biologischer Halbwertszeit",
+          "tags": [
+            "Physik",
+            "Grundlagen"
+          ],
+          "patient": "Allgemeines Szenario zur Dosiskalkulation",
+          "praesentation": "Berechnung der effektiven Halbwertszeit für ein neues Radiopharmakon.",
+          "befunde": [
+            "Physikalische HWZ ($T_p$) = 6 Stunden ($^{99m}Tc$)",
+            "Biologische HWZ ($T_b$) = 3 Stunden"
+          ],
+          "diagnose": "Effektive Halbwertszeit ($T_{eff}$)",
+          "maßnahme": [
+            "Berechnung nach Formel: $1/T_{eff} = 1/T_p + 1/T_b$",
+            "Ergebnis: $T_{eff} = 2$ Stunden"
+          ],
+          "lernpunkte": [
+            "Die effektive HWZ ist immer kürzer als die kürzeste Einzel-HWZ",
+            "Bedeutung für die Strahlenexposition des Patienten"
+          ]
+        },
+        {
+          "id": "NUK_G002",
+          "titel": "Strahlenexposition beim Personal",
+          "tags": [
+            "Strahlenschutz"
+          ],
+          "patient": "MTRA im Isotopenlabor",
+          "praesentation": "Überwachung der Fingerringdosimetrie.",
+          "befunde": [
+            "Erhöhte Werte bei der Markierung von Zevalin"
+          ],
+          "diagnose": "Expositionsüberschreitung durch mangelnde Abschirmung",
+          "maßnahme": [
+            "Einsatz von Wolfram-Abschirmungen",
+            "Zangenbenutzung"
+          ],
+          "lernpunkte": [
+            "Quadratgesetz der Entfernung",
+            "Beta-Strahler benötigen Plexiglas-Abschirmung"
+          ]
+        },
+        {
+          "id": "NUK_G003",
+          "titel": "Qualitätskontrolle der Gamma-Kamera",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Routineprüfung vor Patientenbetrieb",
+          "praesentation": "Daily QC zeigt Inhomogenitäten im Detektorfeld.",
+          "befunde": [
+            "Feldhomogenität > 5%",
+            "Artefakte im Flutbild"
+          ],
+          "diagnose": "Detektor-Instabilität / Kollimatorschaden",
+          "maßnahme": [
+            "Neu-Kalibrierung der Uniformitäts-Matrix",
+            "Technik-Service"
+          ],
+          "lernpunkte": [
+            "Tägliche Konstanzprüfung ist gesetzliche Pflicht (StrlSchV)"
+          ]
+        },
+        {
+          "id": "NUK_G004",
+          "titel": "Radiochemische Reinheit",
+          "tags": [
+            "Radiopharmaka"
+          ],
+          "patient": "Prüfung einer $^{99m}Tc$-MDP Charge",
+          "praesentation": "Bestimmung des Anteils an freiem Pertechnetat.",
+          "befunde": [
+            "Dünnschichtchromatographie (ITLC): 15% freies Technetium"
+          ],
+          "diagnose": "Mangelnde radiochemische Reinheit (< 95%)",
+          "maßnahme": [
+            "Verwurf der Charge",
+            "Fehlersuche im Markierungsprozess"
+          ],
+          "lernpunkte": [
+            "Freies Pertechnetat führt zu störender Magen- und Schilddrüsenanreicherung"
+          ]
+        },
+        {
+          "id": "NUK_G005",
+          "titel": "Strahlenrisiko-Beratung (Schwangerschaft)",
+          "tags": [
+            "Strahlenschutz"
+          ],
+          "patient": "28-j. Patientin, nach Knochenszintigraphie erfährt sie von Frühschwangerschaft",
+          "praesentation": "Angst vor Fehlbildung des Embryos.",
+          "befunde": [
+            "Applizierte Dosis: 500 MBq $^{99m}Tc$-MDP",
+            "Gerechnete Uterusdosis < 5 mSv"
+          ],
+          "diagnose": "Niedrig-Dosis-Exposition",
+          "maßnahme": [
+            "Fachärztliche Aufklärung: Kein Grund für Schwangerschaftsabbruch",
+            "Dokumentation"
+          ],
+          "lernpunkte": [
+            "Schwellenwert für deterministische Schäden meist > 100 mSv"
+          ]
+        },
+        {
+          "id": "NUK_G006",
+          "titel": "Tc-Generator Elutionsprofil",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Isotopenlabor Management",
+          "praesentation": "Geringe Ausbeute bei der ersten Morgenelution.",
+          "befunde": [
+            "Zeitintervall seit letzter Elution > 48h",
+            "Anreicherung von $^{99}Tc$ (Grundzustand)"
+          ],
+          "diagnose": "Generator-Sättigungseffekt",
+          "maßnahme": [
+            "Zweite Elution nach 2-3 Stunden für höhere Aktivitätskonzentration"
+          ],
+          "lernpunkte": [
+            "$^{99}Tc$ konkurriert mit $^{99m}Tc$ um Bindungsstellen am Kit"
+          ]
+        },
+        {
+          "id": "NUK_G007",
+          "titel": "Positronen-Annihilation",
+          "tags": [
+            "Physik"
+          ],
+          "patient": "Erklärung für Studenten am PET/CT",
+          "praesentation": "Prinzip der Koinzidenzmessung.",
+          "befunde": [
+            "Zerfall von $^{18}F$ unter Emission eines Positrons"
+          ],
+          "diagnose": "Paarvernichtung (Annihilation)",
+          "maßnahme": [
+            "Nachweis zweier 511 keV Photonen im 180° Winkel"
+          ],
+          "lernpunkte": [
+            "Grundlage der elektronischen Kollimation im PET"
+          ]
+        },
+        {
+          "id": "NUK_G008",
+          "titel": "Schwächungskorrektur (CT-basiert)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "Adipöser Patient im PET/CT",
+          "praesentation": "Artefakte in der Wirbelsäule.",
+          "befunde": [
+            "Überkorrektur durch metallische Implantate im CT"
+          ],
+          "diagnose": "Halo-Artefakt bei Schwächungskorrektur",
+          "maßnahme": [
+            "Betrachtung der nicht-korrigierten Bilder (NAC)"
+          ],
+          "lernpunkte": [
+            "Metalle führen zu falsch-hohen SUV-Werten im PET"
+          ]
+        },
+        {
+          "id": "NUK_G009",
+          "titel": "Störfaktor: Freies Jod in der Raumluft",
+          "tags": [
+            "Strahlenschutz"
+          ],
+          "patient": "Aktivitätsüberwachung im Behandlungszimmer (RJT)",
+          "praesentation": "Raumluftmonitor löst Alarm aus.",
+          "befunde": [
+            "Erhöhte $^{131}I$ Konzentration nach Erbrechen des Patienten"
+          ],
+          "diagnose": "Kontamination der Raumluft",
+          "maßnahme": [
+            "Aktivkohlefilter-Einsatz",
+            "Dekontamination"
+          ],
+          "lernpunkte": [
+            "Jod ist flüchtig, besondere bauliche Anforderungen an Therapiestationen"
+          ]
+        },
+        {
+          "id": "NUK_G010",
+          "titel": "ALARA-Prinzip im Klinikalltag",
+          "tags": [
+            "Strahlenschutz"
+          ],
+          "patient": "Pädiatrische Nierenszintigraphie",
+          "praesentation": "Wahl der Aktivität.",
+          "befunde": [
+            "Säugling, 5 kg"
+          ],
+          "diagnose": "Dosisanpassung nötig",
+          "maßnahme": [
+            "Anwendung der EANM Dosage Card (gewichtsadaptiert)"
+          ],
+          "lernpunkte": [
+            "Besonderer Strahlenschutz in der Pädiatrie"
+          ]
+        }
+      ]
+    },
+    "endokrinologie": {
+      "label": "Schilddrüse & Endokrinologie",
+      "emoji": "🦋",
+      "faelle": [
+        {
+          "id": "NUK_E011",
+          "titel": "Morbus Basedow (Szintigraphie)",
+          "tags": [
+            "Schilddrüse",
+            "Autoimmun"
+          ],
+          "patient": "38-jährige Patientin, Tachykardie, Exophthalmus",
+          "praesentation": "Hyperthyreose, TRAK positiv.",
+          "befunde": [
+            "Sono: Echoarm, Hypervaskularisation (Infernopuls)",
+            "Szinti: Diffus massiv erhöhter Uptake (TcTU 12%)"
+          ],
+          "diagnose": "Morbus Basedow",
+          "therapie": [
+            "Thyreostatika",
+            "Radiojodtherapie bei Rezidiv/Persistenz"
+          ],
+          "lernpunkte": [
+            "TcTU (Technetium-Uptake) zur Differenzierung von Thyreoiditis"
+          ]
+        },
+        {
+          "id": "NUK_E012",
+          "titel": "Unifokale Autonomie (Heißer Knoten)",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "65-j. mit latenter Hyperthyreose",
+          "praesentation": "Knoten im rechten Lappen tastbar.",
+          "befunde": [
+            "Szinti: Intensiver Uptake im Knoten, restliches Gewebe supprimiert"
+          ],
+          "diagnose": "Heißer Knoten (Adenom)",
+          "therapie": [
+            "Radiojodtherapie",
+            "ggf. OP"
+          ],
+          "lernpunkte": [
+            "Ein heißer Knoten ist fast immer benigne"
+          ]
+        },
+        {
+          "id": "NUK_E013",
+          "titel": "Kalter Knoten (Malignom-Ausschluss)",
+          "tags": [
+            "Schilddrüse",
+            "Onkologie"
+          ],
+          "patient": "50-j. Frau, Zufallsfund Ultraschall",
+          "praesentation": "Euthyreose, Knoten 2,5 cm links.",
+          "befunde": [
+            "Sono: Echoarm, Mikrokalk",
+            "Szinti: Fehlender Uptake (kalter Knoten)"
+          ],
+          "diagnose": "Kalter Knoten (V.a. Karzinom)",
+          "maßnahme": [
+            "Feinnadelpunktion",
+            "MIBI-Szintigraphie zur Dignitätsprüfung"
+          ],
+          "lernpunkte": [
+            "Kalter Knoten trägt ca. 5% Malignomrisiko"
+          ]
+        },
+        {
+          "id": "NUK_E014",
+          "titel": "MIBI-Szintigraphie der Schilddrüse",
+          "tags": [
+            "Schilddrüse",
+            "Dignität"
+          ],
+          "patient": "45-j. mit großem kalten Knoten",
+          "praesentation": "Abklärung vor OP-Entscheidung.",
+          "befunde": [
+            "Tc-Szinti: Kalt",
+            "MIBI-Szinti: Starker persistierender Uptake (Mismatch)"
+          ],
+          "diagnose": "Dignitätssuspekter kalter Knoten",
+          "maßnahme": [
+            "Operative Sanierung dringend empfohlen"
+          ],
+          "lernpunkte": [
+            "Hoher negativer Vorhersagewert für Malignität bei fehlendem MIBI-Uptake"
+          ]
+        },
+        {
+          "id": "NUK_E015",
+          "titel": "Thyreoiditis de Quervain",
+          "tags": [
+            "Schilddrüse",
+            "Entzündung"
+          ],
+          "patient": "40-j. nach Atemwegsinfekt",
+          "praesentation": "Schmerzhafte Schilddrüse, Fieber, Hyperthyreose-Zeichen.",
+          "befunde": [
+            "BSG massiv↑",
+            "Szinti: Fast fehlender Uptake ('Leere' Schilddrüse)"
+          ],
+          "diagnose": "Subakute Thyreoiditis de Quervain",
+          "therapie": [
+            "NSAR",
+            "ggf. Glukokortikoide"
+          ],
+          "lernpunkte": [
+            "Freisetzungshyperthyreose mit niedrigem Uptake (DD Basedow)"
+          ]
+        },
+        {
+          "id": "NUK_E016",
+          "titel": "Amiodaron-induzierte Hyperthyreose",
+          "tags": [
+            "Schilddrüse",
+            "Kardiologie"
+          ],
+          "patient": "70-j. Mann unter Antiarrhythmikum",
+          "praesentation": "Akute Hyperthyreose.",
+          "befunde": [
+            "Szinti: TcTU < 0,1% (Typ II) oder fokale Autonomie (Typ I)"
+          ],
+          "diagnose": "Amiodaron-Hyperthyreose (AIH)",
+          "therapie": [
+            "Typ I: Perchlorat/Thyreostatika",
+            "Typ II: Steroide"
+          ],
+          "lernpunkte": [
+            "Differenzierung via Farbdoppler-Sono und Szintigraphie"
+          ]
+        },
+        {
+          "id": "NUK_E017",
+          "titel": "Primärer Hyperparathyreoidismus (Nebenschilddrüse)",
+          "tags": [
+            "Endokrinologie"
+          ],
+          "patient": "60-j. Frau, Calcium↑, PTH↑",
+          "praesentation": "Rezidivierende Nierensteine.",
+          "befunde": [
+            "$^{99m}Tc$-MIBI-Zweiphasenszintigraphie: Persistierender Fokus retrothyreoidal rechts"
+          ],
+          "diagnose": "Nebenschilddrüsenadenom",
+          "therapie": [
+            "Minimal-invasive Parathyreoidektomie"
+          ],
+          "lernpunkte": [
+            "MIBI reichert sich in Mitochondrien-reichen Onkozyten des Adenoms an"
+          ]
+        },
+        {
+          "id": "NUK_E018",
+          "titel": "Nebenschilddrüsen-SPECT/CT",
+          "tags": [
+            "Hybridbildgebung"
+          ],
+          "patient": "Patient nach erfolgloser Vor-OP am Hals",
+          "praesentation": "Persistierender pHPT.",
+          "befunde": [
+            "SPECT/CT: Ektopes Adenom im Mediastinum anterior"
+          ],
+          "diagnose": "Ektopes Nebenschilddrüsenadenom",
+          "maßnahme": [
+            "Chirurgische Exstirpation via Sternotomie/Thorakoskopie"
+          ],
+          "lernpunkte": [
+            "Anatomische Lokalisation durch SPECT/CT entscheidend bei Re-Interventionen"
+          ]
+        },
+        {
+          "id": "NUK_E019",
+          "titel": "Disseminierte Schilddrüsenautonomie",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "80-j. Frau aus Jodmangelgebiet",
+          "praesentation": "Tachykardie nach CT mit Kontrastmittel.",
+          "befunde": [
+            "Szinti: Fleckiger Uptake in vergrößerter Struma, TcTU 6%"
+          ],
+          "diagnose": "Marine-Lenhart-ähnliche Konstellation / Disseminierte Autonomie",
+          "therapie": [
+            "Radiojodtherapie"
+          ],
+          "lernpunkte": [
+            "Gefahr der jodinduzierten Hyperthyreose (Jod-Basedow)"
+          ]
+        },
+        {
+          "id": "NUK_E020",
+          "titel": "Medulläres Schilddrüsenkarzinom (Diagnostik)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "45-j. mit erhöhtem Calcitonin",
+          "praesentation": "Struma nodosa.",
+          "befunde": [
+            "$^{18}F$-DOPA-PET/CT: Fokus im rechten Schilddrüsenlappen und LK zervikal"
+          ],
+          "diagnose": "Medulläres Schilddrüsenkarzinom (C-Zell-CA)",
+          "therapie": [
+            "Totale Thyreoidektomie + Neck Dissection"
+          ],
+          "lernpunkte": [
+            "FDG-PET oft weniger sensitiv als DOPA-PET bei medullärem CA"
+          ]
+        }
+      ]
+    },
+    "kardiologie_angiologie": {
+      "label": "Herz & Gefäße",
+      "emoji": "❤️",
+      "faelle": [
+        {
+          "id": "NUK_K031",
+          "titel": "Myokardszintigraphie (Ischämie)",
+          "tags": [
+            "Kardiologie",
+            "Ischämie"
+          ],
+          "patient": "58-jähriger Patient mit stabilen Thoraxschmerzen",
+          "praesentation": "Verdacht auf KHK, Belastungs-EKG nicht auswertbar (Linksschenkelblock).",
+          "befunde": [
+            "Stress-Untersuchung (Adenosin): Reversibler Defekt posterolateral",
+            "Rest-Untersuchung: Normalbefund"
+          ],
+          "diagnose": "Signifikante belastungsinduzierte Myokardischämie",
+          "therapie": [
+            "Herzkatheter-Untersuchung (PCI)"
+          ],
+          "lernpunkte": [
+            "Adenosin-Belastung bei LSB obligat (Vermeidung von Artefakten)"
+          ]
+        },
+        {
+          "id": "NUK_K032",
+          "titel": "Myokardiale Vitalität (FDG-PET)",
+          "tags": [
+            "Kardiologie",
+            "PET"
+          ],
+          "patient": "65-j. nach großem Vorderwandinfarkt",
+          "praesentation": "Frage nach Nutzen einer Bypass-OP (EF 25%).",
+          "befunde": [
+            "Perfusions-Szinti: Narbe apikal",
+            "FDG-PET: Stoffwechselaktivität im apikalen Bereich (Mismatch)"
+          ],
+          "diagnose": "Vitales Myokard (Hibernating Myocardium)",
+          "therapie": [
+            "Revaskularisation indiziert"
+          ],
+          "lernpunkte": [
+            "Mismatch (Perfusion↓ / Stoffwechsel↑) beweist Vitalität"
+          ]
+        },
+        {
+          "id": "NUK_K033",
+          "titel": "Lungenperfusionsszintigraphie (LE)",
+          "tags": [
+            "Lunge",
+            "Notfall"
+          ],
+          "patient": "40-j. Frau, akute Atemnot postoperativ",
+          "praesentation": "V.a. Lungenembolie, CT-Kontrastmittel-Allergie.",
+          "befunde": [
+            "Rö-Thorax: Unauffällig",
+            "Szinti ($^{99m}Tc$-MAA): Multiple segmentale Keildefekte"
+          ],
+          "diagnose": "Akute Lungenembolie",
+          "therapie": [
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Mismatch im Ventilations/Perfusions-Szintigramm ist beweisend"
+          ]
+        },
+        {
+          "id": "NUK_K034",
+          "titel": "Gated-SPECT (Funktionsanalyse)",
+          "tags": [
+            "Kardiologie"
+          ],
+          "patient": "Pat. zur Ischämiediagnostik",
+          "praesentation": "Bestimmung der Ejektionsfraktion.",
+          "befunde": [
+            "EDV 150ml, ESV 100ml",
+            "LVEF 33%"
+          ],
+          "diagnose": "Eingeschränkte linksventrikuläre Pumpfunktion",
+          "maßnahme": [
+            "Beurteilung der Wandbewegung (Motility)"
+          ],
+          "lernpunkte": [
+            "Simultane Messung von Perfusion und Funktion in einer Untersuchung"
+          ]
+        },
+        {
+          "id": "NUK_K035",
+          "titel": "Amyloidose-Szintigraphie",
+          "tags": [
+            "Kardiologie",
+            "Skelett"
+          ],
+          "patient": "75-j. Mann mit Herzinsuffizienz (HFpEF)",
+          "praesentation": "Verdicktes Myokard im Echo, kein Hypertonus.",
+          "befunde": [
+            "$^{99m}Tc$-DPD-Szintigraphie: Intensiver Uptake im Myokard (Perugini Grad 3)"
+          ],
+          "diagnose": "Transthyretin-Amyloidose (ATTR-CM)",
+          "therapie": [
+            "Tafamidis"
+          ],
+          "lernpunkte": [
+            "Skelett-Tracer binden an ATTR-Fibrillen im Herzen"
+          ]
+        },
+        {
+          "id": "NUK_K036",
+          "titel": "Radionuklidventrikulographie (MUGA)",
+          "tags": [
+            "Kardiologie",
+            "Onkologie"
+          ],
+          "patient": "Mamma-CA Patientin vor Trastuzumab-Therapie",
+          "praesentation": "Baseline-Messung der EF.",
+          "befunde": [
+            "Markierung der Erythrozyten in vivo",
+            "EF 55%"
+          ],
+          "diagnose": "Normale Herzfunktion",
+          "lernpunkte": [
+            "Goldstandard für präzise LVEF-Bestimmung bei Kardiotoxizitäts-Monitoring"
+          ]
+        },
+        {
+          "id": "NUK_K037",
+          "titel": "Entzündungsszintigraphie (Herzklappe)",
+          "tags": [
+            "Infektiologie",
+            "PET"
+          ],
+          "patient": "62-j. mit Klappenprothese und Fieber",
+          "praesentation": "V.a. Endokarditis, Echo nicht konklusiv.",
+          "befunde": [
+            "$^{18}F$-FDG-PET/CT: Fokus an der Aortenklappenprothese"
+          ],
+          "diagnose": "Prothesenendokarditis",
+          "therapie": [
+            "Gezielte Antibiose / Re-OP"
+          ],
+          "lernpunkte": [
+            "FDG-PET/CT ist Teil der ESC-Diagnosekriterien für Prothesenendokarditis"
+          ]
+        },
+        {
+          "id": "NUK_K038",
+          "titel": "Vaskulitis-Diagnostik (Großgefäße)",
+          "tags": [
+            "Vaskulär",
+            "PET"
+          ],
+          "patient": "70-j. Frau mit Polymyalgia rheumatica",
+          "praesentation": "Kopfschmerz, BSG 100.",
+          "befunde": [
+            "$^{18}F$-FDG-PET/CT: Zirkulärer Uptake in Aorta und großen Abgängen"
+          ],
+          "diagnose": "Großgefäßvaskulitis (Riesenzellarteriitis)",
+          "therapie": [
+            "Hochdosis-Steroide"
+          ],
+          "lernpunkte": [
+            "PET/CT zeigt die Ausdehnung des Entzündungsmusters am gesamten Gefäßbaum"
+          ]
+        },
+        {
+          "id": "NUK_K039",
+          "titel": "Shunt-Bestimmung (Lunge)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Kind mit Herzfehler",
+          "praesentation": "Quantifizierung eines Rechts-Links-Shunts.",
+          "befunde": [
+            "$^{99m}Tc$-MAA Ganzkörper: Hirn- und Nierenanreicherung nachweisbar"
+          ],
+          "diagnose": "Rechts-Links-Shunt",
+          "maßnahme": [
+            "Berechnung der extra-pulmonalen Aktivität"
+          ],
+          "lernpunkte": [
+            "MAA-Partikel bleiben normalerweise im Kapillarbett der Lunge hängen"
+          ]
+        },
+        {
+          "id": "NUK_K040",
+          "titel": "Sarkoidose des Herzens",
+          "tags": [
+            "Kardiologie",
+            "PET"
+          ],
+          "patient": "45-j. mit AV-Block III",
+          "praesentation": "Ausschluss kardiale Beteiligung bei Lungensarkoidose.",
+          "befunde": [
+            "FDG-PET nach 24h Low-Carb Diät: Fokale Myokardanreicherung"
+          ],
+          "diagnose": "Kardiale Sarkoidose",
+          "therapie": [
+            "Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Diätetische Vorbereitung essenziell zur Unterdrückung des physiologischen Glukosestoffwechsels"
+          ]
+        }
+      ]
+    },
+    "skelett_niere_infekt": {
+      "label": "Skelett, Entzündung & Niere",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "NUK_S041",
+          "titel": "Mehrphasenszintigraphie (Osteomyelitis)",
+          "tags": [
+            "Skelett",
+            "Infekt"
+          ],
+          "patient": "65-jähriger Diabetiker, Wunde am Fuß",
+          "praesentation": "Verdacht auf Knochenbeteiligung.",
+          "befunde": [
+            "Perfusionsphase: Mehrdurchblutung",
+            "Blood-pool: Anreicherung",
+            "Skelettphase: Intensiver Fokus Os metatarsale I"
+          ],
+          "diagnose": "Floride Osteomyelitis",
+          "therapie": [
+            "Langzeit-Antibiose",
+            "chirurgisches Debridement"
+          ],
+          "lernpunkte": [
+            "Die 3-Phasen-Szintigraphie differenziert Weichteilinfekt von Knocheninfekt"
+          ]
+        },
+        {
+          "id": "NUK_S042",
+          "titel": "Skelettmetastasen (Prostatakarzinom)",
+          "tags": [
+            "Skelett",
+            "Onkologie"
+          ],
+          "patient": "72-j. Mann, PSA 50",
+          "praesentation": "Rückenschmerzen.",
+          "befunde": [
+            "Ganzkörperszinti: Multiples 'Super-Bone-Scan' Muster"
+          ],
+          "diagnose": "Diffuse ossäre Metastasierung",
+          "lernpunkte": [
+            "Beim Super-Bone-Scan fehlt oft die Nierendarstellung durch hohen Knochen-Uptake"
+          ]
+        },
+        {
+          "id": "NUK_S043",
+          "titel": "Nierensequenzszintigraphie ($^{99m}Tc$-MAG3)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "8-j. Kind, Hydronephrose",
+          "praesentation": "V.a. Ureterabgangsstenose.",
+          "befunde": [
+            "Kurve: Ständiger Anstieg ohne Abfall",
+            "Nach Lasix: Deutlicher Abfall der Kurve"
+          ],
+          "diagnose": "Funktionelle Obstruktion (Pseudo-Stenose)",
+          "therapie": [
+            "Konservativ / Kontrolle"
+          ],
+          "lernpunkte": [
+            "Differenzierung fixierte vs. funktionelle Stenose via Furosemid-Test"
+          ]
+        },
+        {
+          "id": "NUK_S044",
+          "titel": "DMSA-Szintigraphie (Nierenrinde)",
+          "tags": [
+            "Niere",
+            "Pädiatrie"
+          ],
+          "patient": "5-j. Mädchen nach rezidivierenden HWIs",
+          "praesentation": "Suche nach Narben.",
+          "befunde": [
+            "Fokale Speicherausfälle an den Nierenpolen"
+          ],
+          "diagnose": "Nierenrinden-Narben nach Pyelonephritis",
+          "maßnahme": [
+            "Bestimmung der seitengetrennten Funktion"
+          ],
+          "lernpunkte": [
+            "Statische Szintigraphie zur Beurteilung des funktionellen Parenchyms"
+          ]
+        },
+        {
+          "id": "NUK_S045",
+          "titel": "Stressfraktur (Marschfraktur)",
+          "tags": [
+            "Skelett",
+            "Sport"
+          ],
+          "patient": "22-j. Rekrut, Fußschmerzen",
+          "praesentation": "Röntgen unauffällig.",
+          "befunde": [
+            "Szinti: Umschriebene bandförmige Anreicherung Mittelfuß"
+          ],
+          "diagnose": "Stressfraktur Metatarsale II",
+          "therapie": [
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "Szintigraphie ist sensitiver als Röntgen im Frühstadium"
+          ]
+        },
+        {
+          "id": "NUK_S046",
+          "titel": "Lockerung von Gelenkendoprothesen",
+          "tags": [
+            "Skelett",
+            "Ortho"
+          ],
+          "patient": "70-j. mit schmerzhafter Hüft-TEP",
+          "praesentation": "V.a. Lockerung vs. Infekt.",
+          "befunde": [
+            "Skelettszinti: Anreicherung am Schaftende",
+            "Leukozytenszinti: Kein Fokus"
+          ],
+          "diagnose": "Aseptische Prothesenlockerung",
+          "therapie": [
+            "Prothesenwechsel"
+          ],
+          "lernpunkte": [
+            "Kombination mit markierten Leukozyten zur Infektdiagnostik"
+          ]
+        },
+        {
+          "id": "NUK_S047",
+          "titel": "Morbus Perthes (Frühstadium)",
+          "tags": [
+            "Skelett",
+            "Pädiatrie"
+          ],
+          "patient": "6-j. Junge, Hinken",
+          "praesentation": "Röntgen initial o.B.",
+          "befunde": [
+            "Skelettszinti: Ischämiezone (fehlender Uptake) im Hüftkopf"
+          ],
+          "diagnose": "Aseptische Hüftkopfnekrose",
+          "lernpunkte": [
+            "Szintigraphie zeigt Durchblutungsdefizit vor knöcherner Strukturänderung"
+          ]
+        },
+        {
+          "id": "NUK_S048",
+          "titel": "Captopril-Szintigraphie",
+          "tags": [
+            "Niere",
+            "Hypertonus"
+          ],
+          "patient": "45-j. mit therapierefraktärem Blutdruck",
+          "praesentation": "V.a. Nierenarterienstenose.",
+          "befunde": [
+            "MAG3-Szinti nach Captopril: Deutliche Verschlechterung der Kurve einer Niere"
+          ],
+          "diagnose": "Renovaskuläre Hypertension",
+          "therapie": [
+            "PTA / Stenting"
+          ],
+          "lernpunkte": [
+            "Hemmung des Kompensationsmechanismus (Angiotensin II)"
+          ]
+        },
+        {
+          "id": "NUK_S049",
+          "titel": "Osteoidosteom (Nidus)",
+          "tags": [
+            "Skelett",
+            "Tumor"
+          ],
+          "patient": "19-j. mit nächtlichem Beinschmerz",
+          "praesentation": "Besserung durch ASS.",
+          "befunde": [
+            "Szinti: Punktförmige Mehranreicherung ('Double-Density Sign' im SPECT)"
+          ],
+          "diagnose": "Osteoidosteom",
+          "lernpunkte": [
+            "SPECT/CT hilft bei der exakten Nidus-Lokalisation für die Ablation"
+          ]
+        },
+        {
+          "id": "NUK_S050",
+          "titel": "Granulozytenszintigraphie",
+          "tags": [
+            "Infekt",
+            "Gastro"
+          ],
+          "patient": "30-j. mit M. Crohn",
+          "praesentation": "Frage nach Krankheitsaktivität.",
+          "befunde": [
+            "99mTc-HMPAO-markierte Leukozyten: Akkumulation im terminalen Ileum nach 2h"
+          ],
+          "diagnose": "Akuter Entzündungsschub",
+          "lernpunkte": [
+            "Indiziert bei unklarem Fokus oder zur Beurteilung der Ausdehnung bei CED"
+          ]
+        }
+      ]
+    },
+    "neurologie_psychiatrie": {
+      "label": "ZNS & Neuro-Psychiatrie",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "NUK_N061",
+          "titel": "DaTSCAN (M. Parkinson)",
+          "tags": [
+            "Neurologie",
+            "M. Parkinson"
+          ],
+          "patient": "62-jähriger Patient mit Tremor",
+          "praesentation": "Differenzierung: Essentieller Tremor vs. Parkinson-Syndrom.",
+          "befunde": [
+            "$^{123}I$-FP-CIT SPECT: Deutlich reduzierte Transporterdichte im Putamen beidseits (Komma -> Punkt-Form)"
+          ],
+          "diagnose": "Degeneratives Parkinson-Syndrom",
+          "therapie": [
+            "Einleitung L-Dopa Therapie"
+          ],
+          "lernpunkte": [
+            "DaTSCAN differenziert zwischen präsynaptischer Degeneration und nicht-degenerativen Formen"
+          ]
+        },
+        {
+          "id": "NUK_N062",
+          "titel": "Demenz-Diagnostik (FDG-PET)",
+          "tags": [
+            "Neurologie",
+            "Demenz"
+          ],
+          "patient": "75-j. mit progredienter Vergesslichkeit",
+          "praesentation": "V.a. M. Alzheimer.",
+          "befunde": [
+            "FDG-PET: Bilateraler Hypometabolismus im Temporoparietal-Kortex und Precuneus"
+          ],
+          "diagnose": "M. Alzheimer",
+          "lernpunkte": [
+            "Charakteristisches Stoffwechselmuster hilft bei der Abgrenzung zur FTD oder vaskulären Demenz"
+          ]
+        },
+        {
+          "id": "NUK_N063",
+          "titel": "Liquorabflusstest (Normaldruckhydrozephalus)",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "78-j. mit Gangstörung, Inkontinenz und Demenz",
+          "praesentation": "V.a. NPH.",
+          "befunde": [
+            "Radionuklidzysternographie: Reflux in die Seitenventrikel nach 24-48h, verzögerter Abfluss über die Konvexität"
+          ],
+          "diagnose": "Normaldruckhydrozephalus",
+          "therapie": [
+            "Shunt-OP"
+          ],
+          "lernpunkte": [
+            "Hakim-Trias klinisch wegweisend"
+          ]
+        },
+        {
+          "id": "NUK_N064",
+          "titel": "Hirntodfeststellung (Perfusionsszintigraphie)",
+          "tags": [
+            "Neurochirurgie",
+            "Recht"
+          ],
+          "patient": "35-j. nach schwerem SHT",
+          "praesentation": "Klinisch Hirntod, Bestätigung nötig.",
+          "befunde": [
+            "$^{99m}Tc$-HMPAO: Fehlende intrakranielle Radionuklidbelegung ('Hollow skull sign')"
+          ],
+          "diagnose": "Irreversibler Hirnfunktionsausfall",
+          "lernpunkte": [
+            "Zugelassenes Verfahren zur Hirntodfeststellung in Deutschland"
+          ]
+        },
+        {
+          "id": "NUK_N065",
+          "titel": "Epilepsie-Diagnostik (Interiktales SPECT)",
+          "tags": [
+            "Neurologie",
+            "Epilepsie"
+          ],
+          "patient": "25-j. mit pharmakoresistenter Epilepsie",
+          "praesentation": "Fokussuche vor OP.",
+          "befunde": [
+            "Interiktales HMPAO-SPECT: Hypoperfusion rechts temporal",
+            "Iktales SPECT: Hyperperfusion im gleichen Areal"
+          ],
+          "diagnose": "Temporallappenepilepsie",
+          "lernpunkte": [
+            "Vergleich von iktalem und interiktalem Bild ('SISCOM') erhöht die Lokalisationstreue"
+          ]
+        },
+        {
+          "id": "NUK_N066",
+          "titel": "Amyloid-PET (Diagnosesicherung)",
+          "tags": [
+            "Neurologie",
+            "Demenz"
+          ],
+          "patient": "65-j. mit atypischen kognitiven Defiziten",
+          "praesentation": "Suche nach Beta-Amyloid-Plaques.",
+          "befunde": [
+            "$^{18}F$-Florbetaben PET: Deutlicher Uptake im Neokortex (Aufhebung der Grau-Weiß-Differenzierung)"
+          ],
+          "diagnose": "Nachweis neokortikaler Amyloid-Plaques",
+          "lernpunkte": [
+            "Hoher negativer Vorhersagewert: Negatives Amyloid-PET schließt Alzheimer nahezu aus"
+          ]
+        },
+        {
+          "id": "NUK_N067",
+          "titel": "IBZM-SPECT (Postsynaptik)",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "68-j. Patient, kein Ansprechen auf L-Dopa",
+          "praesentation": "V.a. Atypisches Parkinson-Syndrom (MSA).",
+          "befunde": [
+            "$^{123}I$-IBZM SPECT: Reduzierte Bindung der D2-Rezeptoren im Striatum"
+          ],
+          "diagnose": "Atypisches Parkinson-Syndrom (postsynaptische Beteiligung)",
+          "lernpunkte": [
+            "Differenzierung IPS (normales IBZM) vs. MSA/PSP (reduziertes IBZM)"
+          ]
+        },
+        {
+          "id": "NUK_N068",
+          "titel": "Hirnperfusions-SPECT (SAE)",
+          "tags": [
+            "Neurologie"
+          ],
+          "patient": "80-j. mit kognitiver Verlangsamung",
+          "praesentation": "Ausschluss vaskuläre Demenz.",
+          "befunde": [
+            "Multifokale, fleckige Perfusionsdefizite im gesamten Kortex"
+          ],
+          "diagnose": "Vaskuläre Enzephalopathie",
+          "lernpunkte": [
+            "Muster unterscheidet sich deutlich von der fokalen Degeneration bei Alzheimer"
+          ]
+        },
+        {
+          "id": "NUK_N069",
+          "titel": "Neuroendokriner Hirntumor (DOTATOC-PET)",
+          "tags": [
+            "Onkologie",
+            "ZNS"
+          ],
+          "patient": "50-j. mit V.a. Meningeom",
+          "praesentation": "Abgrenzung zu Rezidiv/Narbe nach Vor-OP.",
+          "befunde": [
+            "$^{68}Ga$-DOTATOC PET: Kräftige Tracer-Anreicherung an der Hirnhaut"
+          ],
+          "diagnose": "Rezidiv-Meningeom",
+          "lernpunkte": [
+            "Meningeome exprimieren Somatostatin-Rezeptoren (SSTR2)"
+          ]
+        },
+        {
+          "id": "NUK_N070",
+          "titel": "Hirntumor-Stoffwechsel (FET-PET)",
+          "tags": [
+            "Neurochirurgie",
+            "PET"
+          ],
+          "patient": "42-j. mit Gliom Grad II",
+          "praesentation": "Verdacht auf anaplastische Transformation.",
+          "befunde": [
+            "$^{18}F$-FET PET: Fokus mit hohem Aminosäure-Uptake und frühem Auswaschen (Kinetik!)"
+          ],
+          "diagnose": "Transformation in High-Grade Gliom",
+          "lernpunkte": [
+            "FET (Fluorethyltyrosin) ist FDG überlegen durch geringen Hintergrund-Uptake im Hirn"
+          ]
+        }
+      ]
+    },
+    "onkologie_diagnostik": {
+      "label": "Molekulare Onkologie (PET/CT)",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "NUK_O071",
+          "titel": "FDG-PET/CT (Lungenkarzinom)",
+          "tags": [
+            "Onkologie",
+            "Lunge"
+          ],
+          "patient": "65-jähriger Raucher, Lungenrundherd 2cm",
+          "praesentation": "Staging vor geplanter OP.",
+          "befunde": [
+            "PET: Hoher Glukosestoffwechsel im Tumor (SUVmax 12)",
+            "Fokus im Hilus links (N1)"
+          ],
+          "diagnose": "NSCLC (Stadium IIB)",
+          "therapie": [
+            "Neoadjuvante Therapie geplant"
+          ],
+          "lernpunkte": [
+            "SUV (Standardized Uptake Value) als Maß für metabolische Aktivität"
+          ]
+        },
+        {
+          "id": "NUK_O072",
+          "titel": "PSMA-PET/CT (Prostatakarzinom)",
+          "tags": [
+            "Urologie",
+            "Onkologie"
+          ],
+          "patient": "68-j. Mann, Rezidiv nach Prostatektomie",
+          "praesentation": "PSA-Anstieg auf 0,8 ng/ml.",
+          "befunde": [
+            "$^{68}Ga$-PSMA-11 PET: Kleiner Lymphknotenfokus iliakal rechts"
+          ],
+          "diagnose": "Oligometastasiertes Rezidiv",
+          "therapie": [
+            "Gezielte Bestrahlung (Bestrahlungsplanung)"
+          ],
+          "lernpunkte": [
+            "PSMA-PET ist extrem sensitiv auch bei niedrigen PSA-Werten"
+          ]
+        },
+        {
+          "id": "NUK_O073",
+          "titel": "DOTATOC-PET/CT (NET)",
+          "tags": [
+            "Onkologie",
+            "Endokrin"
+          ],
+          "patient": "55-j. mit Flush und Diarrhö",
+          "praesentation": "Suche nach Primärtumor bei Lebermetastasen.",
+          "befunde": [
+            "$^{68}Ga$-DOTATOC PET: Kleiner Fokus im terminalen Ileum"
+          ],
+          "diagnose": "Neuroendokriner Tumor (Dünndarm)",
+          "lernpunkte": [
+            "Nachweis von Somatostatin-Rezeptor-Expression (SSTR)"
+          ]
+        },
+        {
+          "id": "NUK_O074",
+          "titel": "FDG-PET/CT (Lymphom)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "22-j. mit M. Hodgkin",
+          "praesentation": "Interims-PET nach 2 Zyklen Chemo.",
+          "befunde": [
+            "Deutliche Regredienz der Lymphknoten, kein Rest-Stoffwechsel (Deauville Score 1)"
+          ],
+          "diagnose": "Komplette metabolische Remission (CMR)",
+          "therapie": [
+            "Deeskalation der Therapie möglich"
+          ],
+          "lernpunkte": [
+            "Deauville-Skala zur Beurteilung des Therapieansprechens"
+          ]
+        },
+        {
+          "id": "NUK_O075",
+          "titel": "Wächterlymphknoten (Sentinel Node)",
+          "tags": [
+            "Chirurgie",
+            "Onkologie"
+          ],
+          "patient": "45-j. Frau mit Mamma-CA",
+          "praesentation": "Vorbereitung zur axillären LK-Diagnostik.",
+          "befunde": [
+            "Lymphabstromszintigraphie: Darstellung eines dominanten LK in der Axilla"
+          ],
+          "diagnose": "Sentinel Lymph Node (SLN) identifiziert",
+          "maßnahme": [
+            "Intraoperative Gamma-Sonden-Detektion"
+          ],
+          "lernpunkte": [
+            "Vermeidung radikaler Axilla-Dissektion bei negativem SLN"
+          ]
+        },
+        {
+          "id": "NUK_O076",
+          "titel": "FDG-PET/CT (Kolorektales CA Rezidiv)",
+          "tags": [
+            "Gastro",
+            "Onkologie"
+          ],
+          "patient": "62-j. nach Colon-CA OP, CEA-Anstieg",
+          "praesentation": "Suche nach Rezidiv bei unauffälligem CT.",
+          "befunde": [
+            "FDG-PET: Lokoregionärer Fokus an der Anastomose"
+          ],
+          "diagnose": "Lokalrezidiv",
+          "lernpunkte": [
+            "PET ist oft sensitiver als morphologische Bildgebung bei Narbenveränderungen"
+          ]
+        },
+        {
+          "id": "NUK_O077",
+          "titel": "Radiojod-Ganzkörperszintigraphie",
+          "tags": [
+            "Schilddrüse",
+            "Onkologie"
+          ],
+          "patient": "55-j. nach Thyreoidektomie (pT3)",
+          "praesentation": "Nachsorge Schilddrüsen-CA.",
+          "befunde": [
+            "Ganzkörper unter rhTSH-Stimulation: Speicherung im Mediastinum"
+          ],
+          "diagnose": "Jodspeichernde Fernmetastase",
+          "therapie": [
+            "Hochdosis-Radiojodtherapie"
+          ],
+          "lernpunkte": [
+            "Voraussetzung: Adäquate TSH-Stimulation (> 30 mU/l)"
+          ]
+        },
+        {
+          "id": "NUK_O078",
+          "titel": "F-DOPA-PET (Phäochromozytom)",
+          "tags": [
+            "Endokrin"
+          ],
+          "patient": "40-j. mit anfallsartiger Hypertonie",
+          "praesentation": "V.a. paraneoplastisches Phäochromozytom.",
+          "befunde": [
+            "$^{18}F$-DOPA-PET/CT: Intensive Speicherung in der linken Nebenniere"
+          ],
+          "diagnose": "Phäochromozytom",
+          "lernpunkte": [
+            "DOPA-PET nutzt den Amintransport in neuroendokrine Zellen"
+          ]
+        },
+        {
+          "id": "NUK_O079",
+          "titel": "FDG-PET/CT (CUP-Syndrom)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "58-j. mit zervikaler Lymphknotenmetastase",
+          "praesentation": "Primärtumorsuche (Unknown Primary).",
+          "befunde": [
+            "PET: Kleiner hypermetaboler Herd im Zungengrund"
+          ],
+          "diagnose": "Oropharynx-Karzinom als Primarius",
+          "lernpunkte": [
+            "Detektionsrate des Primarius bei CUP ca. 25-40% im PET/CT"
+          ]
+        },
+        {
+          "id": "NUK_O080",
+          "titel": "Knochenmarkszintigraphie ($^{99m}Tc$-Nanokolloid)",
+          "tags": [
+            "Hämatologie"
+          ],
+          "patient": "60-j. mit V.a. Osteomyelofibrose",
+          "praesentation": "Beurteilung der Knochenmarkausdehnung.",
+          "befunde": [
+            "Szinti: Peripherisierung des funktionellen Marks in Oberarme/Oberschenkel"
+          ],
+          "diagnose": "Knochenmarkexpansion",
+          "lernpunkte": [
+            "Visualisierung des retikulohistiozytären Systems (RHS)"
+          ]
+        }
+      ]
+    },
+    "therapie": {
+      "label": "Radionuklidtherapie",
+      "emoji": "💊",
+      "faelle": [
+        {
+          "id": "NUK_T081",
+          "titel": "Radiojodtherapie (Benigne)",
+          "tags": [
+            "Therapie",
+            "Schilddrüse"
+          ],
+          "patient": "72-jährige Patientin mit Knotenstruma und Autonomie",
+          "praesentation": "Wunsch nach nicht-chirurgischer Behandlung.",
+          "befunde": [
+            "Radiojodtest: Speicherkapazität 45%",
+            "Berechnete Dosis: 150 Gy"
+          ],
+          "diagnose": "Indikation zur RJT bei funktioneller Autonomie",
+          "therapie": [
+            "Applikation von $^{131}I$ (Kapsel) stationär"
+          ],
+          "lernpunkte": [
+            "Therapieplanung basiert auf dem individuellen Radiojodtest"
+          ]
+        },
+        {
+          "id": "NUK_T082",
+          "titel": "Radiojodtherapie (Maligne)",
+          "tags": [
+            "Therapie",
+            "Onkologie"
+          ],
+          "patient": "50-j. nach OP eines papillären Schilddrüsen-CA (pT2)",
+          "praesentation": "Ablation des Restgewebes.",
+          "befunde": [
+            "rhTSH-Gabe an Tag 1 & 2",
+            "Applikation 3,7 GBq $^{131}I$ an Tag 3"
+          ],
+          "diagnose": "Ablative Radiojodtherapie",
+          "lernpunkte": [
+            "Vermeidung von Myxödem durch rhTSH statt Hormonentzug"
+          ]
+        },
+        {
+          "id": "NUK_T083",
+          "titel": "PSMA-Radioligandentherapie (RLT)",
+          "tags": [
+            "Therapie",
+            "Urologie"
+          ],
+          "patient": "75-j. Mann, mCRPC",
+          "praesentation": "Progress nach Chemotherapie.",
+          "befunde": [
+            "PSMA-Diagnostik: Hoher Tracer-Uptake in allen Metastasen"
+          ],
+          "diagnose": "Indikation zur Theranostik",
+          "therapie": [
+            "$^{177}Lu$-PSMA-617 (6 Zyklen geplant)"
+          ],
+          "lernpunkte": [
+            "Voraussetzung: Target-Expression in der Bildgebung"
+          ]
+        },
+        {
+          "id": "NUK_T084",
+          "titel": "SIRT (Lebertherapie)",
+          "tags": [
+            "Therapie",
+            "Gastro"
+          ],
+          "patient": "60-j. mit inoperablen Lebermetastasen (Kolorektal)",
+          "praesentation": "Lokoregionäre Therapieanfrage.",
+          "befunde": [
+            "MAA-Test: Lungenshunt < 10%"
+          ],
+          "diagnose": "Indikation zur Selektiven Internen Radiotherapie",
+          "therapie": [
+            "Intraarterielle Applikation von $^{90}Y$-Mikrosphären"
+          ],
+          "lernpunkte": [
+            "MAA-Probelauf zur Vermeidung von Strahlenpneumonitis obligat"
+          ]
+        },
+        {
+          "id": "NUK_T085",
+          "titel": "Radiosynoviorthese (RSO)",
+          "tags": [
+            "Therapie",
+            "Rheuma"
+          ],
+          "patient": "55-j. Frau mit chronischer Synovialitis Knie",
+          "praesentation": "Rezidivierende Ergüsse despite Medikation.",
+          "befunde": [
+            "Gelenkszinti: Aktive Entzündung"
+          ],
+          "diagnose": "Indikation zur RSO",
+          "therapie": [
+            "Intraartikuläre Injektion von $^{94}Y$-Kolloid"
+          ],
+          "lernpunkte": [
+            "Wahl des Nuklids abhängig von Gelenkgröße (Yttrium vs. Erbium vs. Rhenium)"
+          ]
+        },
+        {
+          "id": "NUK_T086",
+          "titel": "PRRT (Neuroendokrine Tumoren)",
+          "tags": [
+            "Therapie",
+            "Onkologie"
+          ],
+          "patient": "50-j. mit metastasiertem Dünndarm-NET",
+          "praesentation": "Symptomatische Krankheitskontrolle.",
+          "befunde": [
+            "DOTATOC-Szinti: Kräftige SSTR-Expression"
+          ],
+          "diagnose": "Indikation zur Peptid-Rezeptor-Radionuklidtherapie",
+          "therapie": [
+            "$^{177}Lu$-DOTATATE (Lutathera)"
+          ],
+          "lernpunkte": [
+            "Nierenschutz durch Aminosäureinfusion (Lysin/Arginin)"
+          ]
+        },
+        {
+          "id": "NUK_T087",
+          "titel": "Xofigo-Therapie ($^{223}Ra$)",
+          "tags": [
+            "Therapie",
+            "Urologie"
+          ],
+          "patient": "80-j. mit Prostatakarzinom und rein ossärer Metastasierung",
+          "praesentation": "Knochenschmerzen.",
+          "befunde": [
+            "Hämatologie stabil (Hb > 10, Thrombos > 100k)"
+          ],
+          "diagnose": "Indikation zur Alpha-Strahler-Therapie",
+          "therapie": [
+            "$^{223}Radium$-Dichlorid (6 Injektionen)"
+          ],
+          "lernpunkte": [
+            "Alpha-Strahler haben sehr kurze Reichweite (Zellradius), schonen das Mark"
+          ]
+        },
+        {
+          "id": "NUK_T088",
+          "titel": "Schmerztherapie mit $^{186}Re$ / $^{153}Sm$",
+          "tags": [
+            "Therapie",
+            "Palliative"
+          ],
+          "patient": "70-j. mit multiplen schmerzhaften Knochenmetastasen",
+          "praesentation": "Palliation bei Mamma-CA.",
+          "befunde": [
+            "Starker Analgetikabedarf (WHO III)"
+          ],
+          "diagnose": "Palliativ-nuklearmedizinische Schmerztherapie",
+          "therapie": [
+            "Intravenöse Gabe von $^{153}Sm$-EDTMP"
+          ],
+          "lernpunkte": [
+            "Wirkungseintritt nach ca. 1-2 Wochen, Dauer oft Monate"
+          ]
+        },
+        {
+          "id": "NUK_T089",
+          "titel": "Zevalin-Therapie (Radioimmuntherapie)",
+          "tags": [
+            "Therapie",
+            "Hämatologie"
+          ],
+          "patient": "65-j. mit rezidiviertem follikulärem Lymphom",
+          "praesentation": "Wunsch nach zielgerichteter Therapie.",
+          "befunde": [
+            "CD20 positive Zellen"
+          ],
+          "diagnose": "Indikation zur RIT",
+          "therapie": [
+            "$^{90}Y$-Ibritumomab-Tiuxetan"
+          ],
+          "lernpunkte": [
+            "Kombination aus Antikörperwirkung und Strahlendosis ('Crossfire-Effekt')"
+          ]
+        },
+        {
+          "id": "NUK_T090",
+          "titel": "Nebenwirkung: Speicheldrüsentoxizität",
+          "tags": [
+            "Therapie",
+            "Komplikation"
+          ],
+          "patient": "Pat. nach dem 3. Zyklus $^{177}Lu$-PSMA",
+          "praesentation": "Mundtrockenheit (Xerostomie).",
+          "befunde": [
+            "Reduzierter Speichelfluss"
+          ],
+          "diagnose": "Radiogene Sialadenitis",
+          "maßnahme": [
+            "Kühlen während Therapie",
+            "Sialogoga (Zitrone)"
+          ],
+          "lernpunkte": [
+            "Speicheldrüsen reichern PSMA-Tracer unspezifisch an"
+          ]
+        },
+        {
+          "id": "NUK_T091",
+          "titel": "Jod-Refraktärität",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Pat. mit papillärem SD-Karzinom",
+          "praesentation": "Steigender TG-Wert bei negativem Ganzkörperszintigramm.",
+          "befunde": [
+            "FDG-PET/CT: Mehrere stoffwechselaktive Lungenherde"
+          ],
+          "diagnose": "Jod-refraktäres Schilddrüsenkarzinom (Dendifferenzierung)",
+          "therapie": [
+            "Tyrosinkinaseinhibitoren (z.B. Lenvatinib)"
+          ],
+          "lernpunkte": [
+            "'Flip-Flop-Phänomen': Verlust der Jodaufnahme bei Zunahme des Glukose-Uptakes"
+          ]
+        },
+        {
+          "id": "NUK_T092",
+          "titel": "Ambulante Radiojodtherapie (Rechtslage)",
+          "tags": [
+            "Recht",
+            "Therapie"
+          ],
+          "patient": "Patientenanfrage",
+          "praesentation": "Wunsch nach ambulanter RJT wie in den USA.",
+          "befunde": [
+            "Gesetzliche Grenzwerte in Deutschland"
+          ],
+          "diagnose": "Rechtliche Limitation",
+          "maßnahme": [
+            "Aufklärung: RJT in DE nur stationär (ab 74 MBq $^{131}I$)"
+          ],
+          "lernpunkte": [
+            "Strahlenschutzgesetz (StrlSchG) schreibt Abklingbecken-Pflicht vor"
+          ]
+        },
+        {
+          "id": "NUK_T093",
+          "titel": "Nierentoxizität bei RLT",
+          "tags": [
+            "Therapie",
+            "Sicherheit"
+          ],
+          "patient": "Pat. mit eingeschränkter GFR (45ml/min) vor PRRT",
+          "praesentation": "Risiko-Abwägung.",
+          "befunde": [
+            "Grenzwertige Nierenfunktion"
+          ],
+          "diagnose": "Erhöhtes Risiko für Nephrotoxizität",
+          "maßnahme": [
+            "Fraktionierung der Dosis",
+            "optimierter Aminosäureschutz"
+          ],
+          "lernpunkte": [
+            "Beta-Strahler belasten das Tubulussystem während der Exkretion"
+          ]
+        },
+        {
+          "id": "NUK_T094",
+          "titel": "Dosisberechnung (Dosimetrie)",
+          "tags": [
+            "Therapie"
+          ],
+          "patient": "Patient vor hochdosierter RJT",
+          "praesentation": "Vermeidung von Knochenmarkschäden.",
+          "befunde": [
+            "Ganzkörper-Retentionstest über 48h"
+          ],
+          "diagnose": "Individuelle Dosimetrie",
+          "maßnahme": [
+            "Berechnung der Knochenmark-Dosis (< 2 Gy)"
+          ],
+          "lernpunkte": [
+            "Präzise Therapieplanung bei Patienten mit eingeschränkter Clearance"
+          ]
+        },
+        {
+          "id": "NUK_T095",
+          "titel": "Post-Therapie-Szintigraphie",
+          "tags": [
+            "Therapie",
+            "Diagnostik"
+          ],
+          "patient": "Pat. 5 Tage nach RJT-Ablation",
+          "praesentation": "Nachweis des Therapieerfolgs.",
+          "befunde": [
+            "Speicherung im Schilddrüsenbett und einem zervikalen Lymphknoten"
+          ],
+          "diagnose": "Persistierender Rest / LK-Metastase",
+          "maßnahme": [
+            "Anpassung der Nachsorge-Intervalle"
+          ],
+          "lernpunkte": [
+            "Therapeutische Dosis liefert sensitivere Bilder als diagnostische Dosis"
+          ]
+        },
+        {
+          "id": "NUK_T096",
+          "titel": "Re-RSO (Gelenktherapie)",
+          "tags": [
+            "Therapie"
+          ],
+          "patient": "Pat. mit chronischer Polyarthritis",
+          "praesentation": "Erneuter Erguss 1 Jahr nach RSO.",
+          "befunde": [
+            "Szinti: Wiederaufnahme der Entzündungsaktivität"
+          ],
+          "diagnose": "Rezidiv-Synovialitis",
+          "therapie": [
+            "Zweit-RSO"
+          ],
+          "lernpunkte": [
+            "Wiederholung nach 6-12 Monaten möglich bei Ansprechen der Ersttherapie"
+          ]
+        },
+        {
+          "id": "NUK_T097",
+          "titel": "Radio-Hepatotoxizität (REILD)",
+          "tags": [
+            "Therapie",
+            "Komplikation"
+          ],
+          "patient": "Pat. 4 Wochen nach SIRT",
+          "praesentation": "Ikterus, Aszites, Gewichtszunahme.",
+          "befunde": [
+            "Labor: Bilirubin↑, LDH↑"
+          ],
+          "diagnose": "Radioembolization-induced liver disease (REILD)",
+          "therapie": [
+            "Steroide",
+            "Diuretika"
+          ],
+          "lernpunkte": [
+            "Vermeidung durch Begrenzung der Dosis auf das Nicht-Tumorgewebe"
+          ]
+        },
+        {
+          "id": "NUK_T098",
+          "titel": "Thyreostatika-Pause vor RJT",
+          "tags": [
+            "Therapie",
+            "Vorbereitung"
+          ],
+          "patient": "Basedow-Patient",
+          "praesentation": "Vorbereitung auf stationäre Aufnahme.",
+          "befunde": [
+            "Nimmt 20mg Thiamazol"
+          ],
+          "diagnose": "Medikamentöse Interferenz",
+          "maßnahme": [
+            "Absetzen Thiamazol 2-3 Tage vor RJT"
+          ],
+          "lernpunkte": [
+            "Thyreostatika blockieren die Jod-Organifikation und senken den Therapieeffekt"
+          ]
+        },
+        {
+          "id": "NUK_T099",
+          "titel": "V.a. Hirnabszess (FDG vs. MET)",
+          "tags": [
+            "Diagnostik",
+            "Neuro"
+          ],
+          "patient": "Pat. mit unklarer Raumforderung Hirn",
+          "praesentation": "V.a. Abszess nach Meningitis.",
+          "befunde": [
+            "FDG-PET: Kalter Herd (Hypometabolismus)",
+            "MRT: Ringförmiges Enhancement"
+          ],
+          "diagnose": "Hirnabszess (DD Malignom)",
+          "lernpunkte": [
+            "Malignome sind meist FDG-positiv, Abszesse oft FDG-negativ im Zentrum"
+          ]
+        },
+        {
+          "id": "NUK_T100",
+          "titel": "MIBG-Therapie (Neuroblastom)",
+          "tags": [
+            "Therapie",
+            "Pädiatrie"
+          ],
+          "patient": "4-j. Kind mit rezidiviertem Neuroblastom",
+          "praesentation": "Salvage-Therapie.",
+          "befunde": [
+            "Diagnostik: Speicherung in $^{123}I$-MIBG"
+          ],
+          "diagnose": "Indikation zur $^{131}I$-MIBG Therapie",
+          "therapie": [
+            "Hochdosis MIBG + Stammzellstütze"
+          ],
+          "lernpunkte": [
+            "MIBG nutzt den Noradrenalin-Transporter (NET)"
+          ]
+        }
+      ]
+    }
+  }
+}

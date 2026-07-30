@@ -1,0 +1,18 @@
+export const BRAND_COPY = {
+  TAGLINE_SHORT: 'Deine Plattform für Simulationstraining.',
+  TAGLINE_LONG: 'BROCALY ist ein Simulator für alle Mediziner:innen, die ihre medizinische Sprachfähigkeit mittels Künstlicher Intelligenz trainieren wollen.',
+  PROMISE: 'Simulationstraining für alle Mediziner:innen.',
+  POSITIONING: 'BROCALY bietet dir einen Raum, um strukturiert mit KI zu interagieren.',
+  CTA_PRIMARY: 'Kostenlos starten',
+  PRICE_FREE: 'Kostenlos mit eigenen API-Keys',
+  PRICE_S: 'Google/Gemini über deinen API-Key',
+  PRICE_M: 'Claude über deinen API-Key',
+  PRICE_L: 'Keine Brocaly-Abos',
+  PRICE_SINGLE: 'Keine Einzelsession-Käufe',
+  CREDITS_NOTE: 'Du zahlst KI-Verbrauch direkt bei Google und Anthropic.',
+  DISCLAIMER: 'BROCALY dient ausschließlich der Simulation von medizinischen Fachgesprächen. BROCALY bietet kein medizinisches Lehrwerk, keine medizinische Beratung, keine Diagnose und keine Behandlungsempfehlung.',
+  KI_HINWEIS: 'Du übst mit einer KI-Gesprächspartnerin, nicht mit einem Menschen.',
+  LIMITS_NOTE: 'BROCALY vermittelt kein medizinisches Wissen und kontrolliert keine Fakten menschlich. Die KI kann sich irren — prüfe Inhalte immer eigenverantwortlich.',
+  AUDIENCE_NOTE: 'BROCALY richtet sich an (angehende) Ärzt:innen.',
+  ZFU_PENDING: 'BROCALY verkauft aktuell keine Abos oder Session-Pakete. Du nutzt eigene API-Keys.',
+} as const;

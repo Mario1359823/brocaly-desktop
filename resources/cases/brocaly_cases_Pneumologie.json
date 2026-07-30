@@ -1,0 +1,1485 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Pneumologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "diagnostik_funktion": {
+      "label": "Diagnostik & Lungenfunktion",
+      "emoji": "📊",
+      "faelle": [
+        {
+          "id": "PNE_D001",
+          "titel": "Obstruktive Ventilationsstörung (Spirometrie)",
+          "tags": [
+            "Diagnostik",
+            "Spirometrie"
+          ],
+          "patient": "45-jähriger Raucher, Belastungsdyspnoe",
+          "praesentation": "Kurzatmigkeit beim Treppensteigen, chronischer Husten.",
+          "befunde": [
+            "FEV1/FVC (Tiffeneau-Index) 62%",
+            "FEV1 65% vom Soll",
+            "Zunahme nach Broncholyse um 8%"
+          ],
+          "diagnose": "Irreversible Atemwegsobstruktion (V.a. COPD)",
+          "therapie": [
+            "Einleitung einer Dauertherapie mit LAMA/LABA",
+            "Rauchstopp-Beratung"
+          ],
+          "lernpunkte": [
+            "Tiffeneau-Index < 70% definiert Obstruktion",
+            "Differenzierung reversibel (Asthma) vs. irreversibel (COPD)"
+          ]
+        },
+        {
+          "id": "PNE_D002",
+          "titel": "Restriktive Ventilationsstörung (Bodyplethysmografie)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "60-j. Frau, V.a. Lungenfibrose",
+          "praesentation": "Trockener Husten, inspiratorisches Knistern.",
+          "befunde": [
+            "Totalkapazität (TLC) 70% vom Soll",
+            "Residualvolumen vermindert"
+          ],
+          "diagnose": "Restriktion",
+          "therapie": [
+            "HR-CT Lunge",
+            "Diffusionskapazität-Messung"
+          ],
+          "lernpunkte": [
+            "TLC-Verminderung ist beweisend für Restriktion"
+          ]
+        },
+        {
+          "id": "PNE_D003",
+          "titel": "Diffusionskapazität (DLCO-Abfall)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "55-j. Raucher",
+          "praesentation": "Dyspnoe trotz normaler Spirometrie.",
+          "befunde": [
+            "DLCO 45% vom Soll",
+            "KCO ebenfalls erniedrigt"
+          ],
+          "diagnose": "Gasaustauschstörung (V.a. Lungenemphysem)",
+          "therapie": [
+            "Emphysem-Diagnostik im CT"
+          ],
+          "lernpunkte": [
+            "Gasaustauschfläche oder Schrankenstörung beurteilbar via Single-Breath-CO-Diff."
+          ]
+        },
+        {
+          "id": "PNE_D004",
+          "titel": "Blutgasanalyse (Globalinsuffizienz)",
+          "tags": [
+            "Diagnostik",
+            "Notfall"
+          ],
+          "patient": "72-j. COPD-Patient",
+          "praesentation": "Somnolenz, Zyanose.",
+          "befunde": [
+            "paO2 55 mmHg",
+            "paCO2 65 mmHg",
+            "pH 7,32"
+          ],
+          "diagnose": "Respiratorische Globalinsuffizienz (Typ II)",
+          "therapie": [
+            "NIV-Beatmung",
+            "kontrollierte O2-Gabe"
+          ],
+          "lernpunkte": [
+            "Hyperkapnie weist auf alveoläre Hypoventilation hin"
+          ]
+        },
+        {
+          "id": "PNE_D005",
+          "titel": "FeNO-Messung (Eosinophile Entzündung)",
+          "tags": [
+            "Asthma"
+          ],
+          "patient": "25-j. Studentin, Hustenreiz",
+          "praesentation": "V.a. allergisches Asthma.",
+          "befunde": [
+            "FeNO 65 ppb (erhöht)"
+          ],
+          "diagnose": "Eosinophile Atemwegsentzündung",
+          "therapie": [
+            "Einleitung ICS (Inhalative Kortikosteroide)"
+          ],
+          "lernpunkte": [
+            "FeH-Stickstoffmonoxid als Biomarker für Steroid-Ansprechen"
+          ]
+        },
+        {
+          "id": "PNE_D006",
+          "titel": "Bronchoskopie (BAL)",
+          "tags": [
+            "Technik"
+          ],
+          "patient": "40-j. mit unklaren Infiltraten",
+          "praesentation": "Fieber, Husten.",
+          "befunde": [
+            "Bronchoalveoläre Lavage: Lymphozytose 45%, CD4/CD8-Ratio 4,5"
+          ],
+          "diagnose": "V.a. Sarkoidose Typ II",
+          "therapie": [
+            "Steroide bei Symptomatik"
+          ],
+          "lernpunkte": [
+            "BAL-Zelldifferenzierung hilft bei interstitiellen Lungenerkrankungen"
+          ]
+        },
+        {
+          "id": "PNE_D007",
+          "titel": "Atemmuskelkraft (Pimax/Pemax)",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "48-j. Patient mit neuromuskulärer Erkrankung",
+          "praesentation": "Zunehmende Schwäche der Atmung.",
+          "befunde": [
+            "Pimax -30 cmH2O (stark vermindert)"
+          ],
+          "diagnose": "Zwerchfellschwäche / Atemmuskelpumpe insuffizient",
+          "therapie": [
+            "Einleitung nächtliche Heimbeatmung"
+          ],
+          "lernpunkte": [
+            "Frühzeichen einer respiratorischen Erschöpfung"
+          ]
+        },
+        {
+          "id": "PNE_D008",
+          "titel": "Metacholin-Provokationstest",
+          "tags": [
+            "Diagnostik",
+            "Asthma"
+          ],
+          "patient": "30-j. Frau, Giemen nur bei Kälte",
+          "praesentation": "Spirometrie normal.",
+          "befunde": [
+            "PD20 erreicht bei niedriger Konzentration"
+          ],
+          "diagnose": "Hyperreaktives Bronchialsystem",
+          "therapie": [
+            "Bedarfsspray (SABA/ICS)"
+          ],
+          "lernpunkte": [
+            "Ausschluss Asthma bei negativem Provokationstest"
+          ]
+        },
+        {
+          "id": "PNE_D009",
+          "titel": "6-Minuten-Gehtest",
+          "tags": [
+            "Funktion"
+          ],
+          "patient": "65-j. mit COPD IV",
+          "praesentation": "Beurteilung der Belastbarkeit.",
+          "befunde": [
+            "Gehstrecke 280m",
+            "Sättigungsabfall von 94% auf 85%"
+          ],
+          "diagnose": "Belastungsinduzierte Hypoxämie",
+          "therapie": [
+            "Langzeit-Sauerstofftherapie (LTOT) Prüfung"
+          ],
+          "lernpunkte": [
+            "Prognostischer Marker bei chronischen Lungenerkrankungen"
+          ]
+        },
+        {
+          "id": "PNE_D010",
+          "titel": "Kardiopulmonale Spiroergometrie",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "50-j. Mann, unklare Luftnot",
+          "praesentation": "Erschöpfung bei Belastung.",
+          "befunde": [
+            "V'O2max erniedrigt",
+            "Atemgrenzwert-Reserve verbraucht"
+          ],
+          "diagnose": "Pulmonale Limitation der Leistungsfähigkeit",
+          "therapie": [
+            "Pneumologische Rehabilitation"
+          ],
+          "lernpunkte": [
+            "Unterscheidung kardialer vs. pulmonaler Dyspnoe-Ursache"
+          ]
+        }
+      ]
+    },
+    "obstruktive_erkrankungen": {
+      "label": "Obstruktive Lungenerkrankungen",
+      "emoji": "💨",
+      "faelle": [
+        {
+          "id": "PNE_O011",
+          "titel": "COPD GOLD IV (DMP-Verlauf)",
+          "tags": [
+            "COPD",
+            "Chronisch"
+          ],
+          "patient": "70-jähriger langjähriger Raucher (60 py)",
+          "praesentation": "Ruhedyspnoe, häufige Exazerbationen.",
+          "befunde": [
+            "FEV1 25%",
+            "Emphysem-Thorax (Fass-Thorax)",
+            "Hypoxämie paO2 58 mmHg"
+          ],
+          "diagnose": "COPD Stadium IV nach GOLD (Gruppe E)",
+          "therapie": [
+            "LAMA+LABA+ICS-Triple",
+            "LTOT",
+            "Lungensport"
+          ],
+          "lernpunkte": [
+            "Indikation ICS bei Eosinophilie > 300/µl oder rez. Exazerbationen"
+          ]
+        },
+        {
+          "id": "PNE_O012",
+          "titel": "Allergisches Asthma bronchiale",
+          "tags": [
+            "Asthma"
+          ],
+          "patient": "19-j. Studentin",
+          "praesentation": "Hustenanfälle nachts, Heuschnupfen.",
+          "befunde": [
+            "IgE gegen Gräser↑",
+            "Reversibilität in der Lufu nach Salbutamol"
+          ],
+          "diagnose": "Extrinsisches Asthma",
+          "therapie": [
+            "Stufenschema (GINA): ICS-Formoterol als Bedarf/Erhaltung (SMART)"
+          ],
+          "lernpunkte": [
+            "ICS ist Basis jeder Asthmatherapie"
+          ]
+        },
+        {
+          "id": "PNE_O013",
+          "titel": "Status asthmaticus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "25-j. Asthmatiker",
+          "praesentation": "Sprechdyspnoe, stiller Thorax (Silent Chest).",
+          "befunde": [
+            "SPO2 88%",
+            "Tachykardie",
+            "Hyperkapnie-Beginn"
+          ],
+          "diagnose": "Lebensbedrohlicher Asthmaanfall",
+          "therapie": [
+            "Sauerstoff",
+            "Beta-Mimetika vernebelt",
+            "Steroide i.v.",
+            "Magnesium i.v."
+          ],
+          "lernpunkte": [
+            "Erschöpfungszeichen paCO2-Normalisierung/Anstieg ist Warnsignal"
+          ]
+        },
+        {
+          "id": "PNE_O014",
+          "titel": "Alpha-1-Antitrypsin-Mangel",
+          "tags": [
+            "Genetik",
+            "Emphysem"
+          ],
+          "patient": "38-j. Nichtraucher",
+          "praesentation": "Frühzeitiges Lungenemphysem basal.",
+          "befunde": [
+            "AAT-Spiegel massiv erniedrigt",
+            "Genotyp PiZZ"
+          ],
+          "diagnose": "AAT-Mangel",
+          "therapie": [
+            "Augmentationstherapie mit humanem AAT"
+          ],
+          "lernpunkte": [
+            "Suchen bei Emphysem im jungen Alter oder untypischer Lokalisation"
+          ]
+        },
+        {
+          "id": "PNE_O015",
+          "titel": "Bronchiektasen-Erkrankung",
+          "tags": [
+            "Obstruktiv"
+          ],
+          "patient": "50-j. Frau, Z.n. schwerem Keuchhusten in Kindheit",
+          "praesentation": "Chronischer Husten mit 'maulvoller' Expektoration.",
+          "befunde": [
+            "CT: Ring- und Tramline-Schatten",
+            "Besiedlung mit H. influenzae"
+          ],
+          "diagnose": "Zylindrische Bronchiektasen",
+          "therapie": [
+            "Atemphysiotherapie",
+            "Sekretmanagement",
+            "Rotation-AB"
+          ],
+          "lernpunkte": [
+            "Maulvolle Expektoration (Sputum-Dreischichtung)"
+          ]
+        },
+        {
+          "id": "PNE_O016",
+          "titel": "Zystische Fibrose (CF) beim Erwachsenen",
+          "tags": [
+            "Pädiatrie",
+            "Genetik"
+          ],
+          "patient": "22-j. Patient",
+          "praesentation": "Rezidivierende Infekte, Pankreasinsuffizienz.",
+          "befunde": [
+            "Schweißtest positiv",
+            "Mutation Delta-F508"
+          ],
+          "diagnose": "Mukoviszidose",
+          "therapie": [
+            "CFTR-Modulatoren (Kaftrio)",
+            "Inhalative Antibiose (Tobramycin)"
+          ],
+          "lernpunkte": [
+            "Enorme Prognoseverbesserung durch neue Modulatoren"
+          ]
+        },
+        {
+          "id": "PNE_O017",
+          "titel": "Exazerbierte COPD (AECOPD)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "65-j. COPD-Pat.",
+          "praesentation": "Zunahme Sputummenge, eitrige Farbe, Dyspnoe (Anthonisen-Kriterien).",
+          "befunde": [
+            "CRP 80 mg/l",
+            "SPO2 90%"
+          ],
+          "diagnose": "Bakterielle AECOPD",
+          "therapie": [
+            "Prednisolon 40mg für 5 Tage",
+            "Amoxicillin/Clavulansäure"
+          ],
+          "lernpunkte": [
+            "Anthonisen-Kriterien zur AB-Indikation"
+          ]
+        },
+        {
+          "id": "PNE_O018",
+          "titel": "Eosinophiles Asthma (Mepolizumab)",
+          "tags": [
+            "Asthma",
+            "Biologika"
+          ],
+          "patient": "45-j. Frau, schweres Asthma",
+          "praesentation": "Häufige systemische Steroidgaben nötig.",
+          "befunde": [
+            "Bluteosinophile 500/µl"
+          ],
+          "diagnose": "Schweres eosinophiles Asthma",
+          "therapie": [
+            "Anti-IL-5 Antikörper (Mepolizumab)"
+          ],
+          "lernpunkte": [
+            "Biologika ermöglichen Steroid-Einsparung"
+          ]
+        },
+        {
+          "id": "PNE_O019",
+          "titel": "Aspirin-Exacerbated Respiratory Disease (AERD)",
+          "tags": [
+            "Asthma"
+          ],
+          "patient": "40-j. Mann mit Asthma und Nasenpolypen",
+          "praesentation": "Schwerer Anfall nach Einnahme von Ibuprofen.",
+          "befunde": [
+            "Samter-Trias: Asthma, Polypen, NSAR-Intoleranz"
+          ],
+          "diagnose": "Analgetika-Asthma-Syndrom",
+          "therapie": [
+            "NSAR-Karenz",
+            "Adaptive Desaktivierung"
+          ],
+          "lernpunkte": [
+            "Leukotrien-Antagonisten (Montelukast) hier besonders wirksam"
+          ]
+        },
+        {
+          "id": "PNE_O020",
+          "titel": "Lungenemphysem (Volumenreduktion)",
+          "tags": [
+            "COPD",
+            "Technik"
+          ],
+          "patient": "60-j. COPD-Pat., schweres bullöses Emphysem",
+          "praesentation": "Trotz Maximaltherapie Ruhedyspnoe.",
+          "befunde": [
+            "Inhomogenes Emphysem im CT"
+          ],
+          "diagnose": "Schweres Lungenemphysem",
+          "therapie": [
+            "Endoskopische Lungenvolumenreduktion (Ventil-Einlage)"
+          ],
+          "lernpunkte": [
+            "Voraussetzung: Keine Kollateralventilation (Chartis-Messung)"
+          ]
+        }
+      ]
+    },
+    "infektionen_pneumo": {
+      "label": "Infektiologie der Lunge",
+      "emoji": "🦠",
+      "faelle": [
+        {
+          "id": "PNE_I021",
+          "titel": "Pneumokokken-Pneumonie",
+          "tags": [
+            "Infekt",
+            "Pneumonie"
+          ],
+          "patient": "65-jähriger Patient, Fieber, Schüttelfrost",
+          "praesentation": "Produktiver Husten, rostfarbenes Sputum.",
+          "befunde": [
+            "Rö: Lobärinfiltrat rechts",
+            "Urin-Antigen positiv"
+          ],
+          "diagnose": "Ambulant erworbene Pneumonie (CAP)",
+          "therapie": [
+            "Amoxicillin"
+          ],
+          "lernpunkte": [
+            "Häufigster Erreger der CAP",
+            "Rostfarbenes Sputum ist klassisch"
+          ]
+        },
+        {
+          "id": "PNE_I022",
+          "titel": "Tuberkulose (Reaktivierung)",
+          "tags": [
+            "TBC"
+          ],
+          "patient": "70-j. Mann nach Chemotherapie",
+          "praesentation": "Nachtschweiß, Gewichtsverlust, Hämoptysen.",
+          "befunde": [
+            "Rö: Kaverne im rechten Oberlappen"
+          ],
+          "diagnose": "Postprimäre Lungentuberkulose",
+          "therapie": [
+            "Standard-Vierfach-Schema (RIPE)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Reaktivierung bei Immunsuppression"
+          ]
+        },
+        {
+          "id": "PNE_I023",
+          "titel": "Atypische Pneumonie (Mykoplasmen)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "22-j. Student",
+          "praesentation": "Trockener Reizhusten, Kopf- und Gliederschmerzen.",
+          "befunde": [
+            "Rö: Interstitielle Zeichnung, diskret",
+            "CRP mäßig↑"
+          ],
+          "diagnose": "Atypische Pneumonie",
+          "therapie": [
+            "Clarithromycin"
+          ],
+          "lernpunkte": [
+            "Diskrepanz zwischen klinisch schwerem Befinden und kargem Auskultationsbefund"
+          ]
+        },
+        {
+          "id": "PNE_I024",
+          "titel": "Aspergillose (Invasiv)",
+          "tags": [
+            "Pilz",
+            "Immun"
+          ],
+          "patient": "Pat. nach Knochenmarktransplantation",
+          "praesentation": "Fieber trotz Breitband-AB, Thoraxschmerz.",
+          "befunde": [
+            "CT: Rundherd mit Halo-Zeichen",
+            "Galaktomannan im Blut positiv"
+          ],
+          "diagnose": "Invasive pulmonale Aspergillose (IPA)",
+          "therapie": [
+            "Voriconazol"
+          ],
+          "lernpunkte": [
+            "Halo-Zeichen im CT als Frühmerkmal der Angioinvasion"
+          ]
+        },
+        {
+          "id": "PNE_I025",
+          "titel": "Lungenabszess",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "50-j. Alkoholiker nach Aspiration",
+          "praesentation": "Fieber, übelriechendes Sputum.",
+          "befunde": [
+            "Rö: Dickwandige Höhle mit Flüssigkeitsspiegel"
+          ],
+          "diagnose": "Lungenabszess",
+          "therapie": [
+            "Langzeitantibiose (Clindamycin/Unacid)",
+            "Lagerungsdrainage"
+          ],
+          "lernpunkte": [
+            "Häufig Mischinfektion inkl. Anaerobiern"
+          ]
+        },
+        {
+          "id": "PNE_I026",
+          "titel": "Nosokomiale Pneumonie (MRSA)",
+          "tags": [
+            "HAP"
+          ],
+          "patient": "75-j. Patient, 10 Tage auf Intensiv",
+          "praesentation": "Verschlechterung der Beatmungsparameter.",
+          "befunde": [
+            "Trachealsekret: MRSA positiv"
+          ],
+          "diagnose": "HAP (Hospital-acquired pneumonia)",
+          "therapie": [
+            "Linezolid oder Vancomycin"
+          ],
+          "lernpunkte": [
+            "Berücksichtigung der Vorantibiose"
+          ]
+        },
+        {
+          "id": "PNE_I027",
+          "titel": "Aktinomykose der Lunge",
+          "tags": [
+            "Bakteriell"
+          ],
+          "patient": "45-j. mit schlechter Mundhygiene",
+          "praesentation": "Chronischer Husten, Gewichtsverlust, Infiltrat wandüberschreitend.",
+          "befunde": [
+            "Histologie: Drusen (Schwefelkörnchen)"
+          ],
+          "diagnose": "Pulmonale Aktinomykose",
+          "therapie": [
+            "Hochdosiert Penicillin über Monate"
+          ],
+          "lernpunkte": [
+            "Simulation eines Malignoms durch infiltratives Wachstum"
+          ]
+        },
+        {
+          "id": "PNE_I028",
+          "titel": "Histoplasmose (Reiserückkehrer)",
+          "tags": [
+            "Pilz",
+            "Tropen"
+          ],
+          "patient": "30-j. nach Höhlenbesichtigung in den USA",
+          "praesentation": "Grippeähnlich, hiläre Lymphadenopathie.",
+          "befunde": [
+            "Granulome im CT"
+          ],
+          "diagnose": "Pulmonale Histoplasmose",
+          "therapie": [
+            "Itraconazol (nur bei Schwere)"
+          ],
+          "lernpunkte": [
+            "Übertragung durch Fledermausguano"
+          ]
+        },
+        {
+          "id": "PNE_I029",
+          "titel": "Pertussis beim Erwachsenen",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "40-j. Lehrerin",
+          "praesentation": "Hustenattacken seit 6 Wochen, nachts Erbrechen.",
+          "befunde": [
+            "PCR-Abstrich positiv"
+          ],
+          "diagnose": "Keuchhusten",
+          "therapie": [
+            "Azithromycin (wirksam nur in Frühphase)"
+          ],
+          "lernpunkte": [
+            "Wichtige Differentialdiagnose bei chronischem Husten"
+          ]
+        },
+        {
+          "id": "PNE_I030",
+          "titel": "Miliar-Tuberkulose",
+          "tags": [
+            "TBC",
+            "Notfall"
+          ],
+          "patient": "Pat. mit Aids",
+          "praesentation": "Hohes Fieber, Dyspnoe, schlechter AZ.",
+          "befunde": [
+            "Rö: Disseminierte feinfleckige Verschattungen (Hirsekorngroß)"
+          ],
+          "diagnose": "Miliartuberkulose",
+          "therapie": [
+            "Tuberkulostatika + Steroide"
+          ],
+          "lernpunkte": [
+            "Hämatogene Aussaat, oft Organbeteiligung (Leber, ZNS)"
+          ]
+        }
+      ]
+    },
+    "interstitielle_lungenerkrankungen": {
+      "label": "Interstitielle Lungenerkrankungen",
+      "emoji": "🕸️",
+      "faelle": [
+        {
+          "id": "PNE_S051",
+          "titel": "Sarkoidose Typ II",
+          "tags": [
+            "Interstitiell",
+            "Systemisch"
+          ],
+          "patient": "35-jährige Frau",
+          "praesentation": "Reizhusten, Belastungsdyspnoe, Erythema nodosum.",
+          "befunde": [
+            "Rö: Bi-hiläre Lymphadenopathie + netzige Zeichnung",
+            "ACE↑",
+            "sIL-2R↑"
+          ],
+          "diagnose": "Pulmonale Sarkoidose (Stadium II)",
+          "therapie": [
+            "Beobachtung vs. Glukokortikoide"
+          ],
+          "lernpunkte": [
+            "Löfgren-Syndrom als akute Sonderform (Trias: Arthritis, Erythema nodosum, hiläre LK)"
+          ]
+        },
+        {
+          "id": "PNE_S052",
+          "titel": "Idiopathische pulmonale Fibrose (IPF)",
+          "tags": [
+            "Fibrose"
+          ],
+          "patient": "68-j. Mann",
+          "praesentation": "Progrediente Luftnot, Uhrglasnägel, Trommelschlägelfinger.",
+          "befunde": [
+            "HR-CT: UIP-Muster (Honigwaben, Traktionsbronchiektasen)",
+            "Knistern basal"
+          ],
+          "diagnose": "IPF",
+          "therapie": [
+            "Antifibrotika (Nintedanib / Pirfenidon)"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose ohne Therapie (ähnlich Malignom)"
+          ]
+        },
+        {
+          "id": "PNE_S053",
+          "titel": "Exogen-allergische Alveolitis (EAA)",
+          "tags": [
+            "Allergie",
+            "Beruf"
+          ],
+          "patient": "50-j. Taubenzüchter",
+          "praesentation": "Akut Fieber und Schüttelfrost 6h nach Stallarbeit.",
+          "befunde": [
+            "Nachweis von IgG-Präzipitinen gegen Taubenantigen"
+          ],
+          "diagnose": "EAA (Vogelzüchterlunge)",
+          "therapie": [
+            "Antigenkarenz",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Typ-III/IV-Allergie gegen inhalierte organische Stäube"
+          ]
+        },
+        {
+          "id": "PNE_S054",
+          "titel": "Amiodaron-Lunge",
+          "tags": [
+            "Medikamentös"
+          ],
+          "patient": "72-j. Kardiologie-Pat.",
+          "praesentation": "Zunehmender Husten und Dyspnoe.",
+          "befunde": [
+            "CT: Diffuse Infiltrate, hohes Jod-Dichtewert in der Leber/Lunge"
+          ],
+          "diagnose": "Arzneimittelinduzierte Pneumonitis",
+          "therapie": [
+            "Absetzen Amiodaron",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Lange Halbwertszeit von Amiodaron erschwert Abheilung"
+          ]
+        },
+        {
+          "id": "PNE_S055",
+          "titel": "Asbestose",
+          "tags": [
+            "Berufskrankheit"
+          ],
+          "patient": "75-j. ehemaliger Isolierer",
+          "praesentation": "Belastungsdyspnoe.",
+          "befunde": [
+            "Rö: Pleuraplaques, basale Lungenfibrose"
+          ],
+          "diagnose": "Asbeststaublungenerkrankung (BK 4103)",
+          "therapie": [
+            "Supportiv",
+            "Malignom-Screening"
+          ],
+          "lernpunkte": [
+            "Latenzzeit bis 40 Jahre, Risiko für Mesotheliom"
+          ]
+        },
+        {
+          "id": "PNE_S056",
+          "titel": "Lungenbeteiligung bei Sklerodermie",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "45-j. Frau mit Raynaud",
+          "praesentation": "Zunehmende Luftnot.",
+          "befunde": [
+            "CT: NSIP-Muster (Milchglas, keine Honigwaben)"
+          ],
+          "diagnose": "SSc-assoziierte interstitielle Lungenerkrankung (SSc-ILD)",
+          "therapie": [
+            "Mycophenolat-Mofetil",
+            "Nintedanib"
+          ],
+          "lernpunkte": [
+            "Haupttodesursache bei systemischer Sklerose"
+          ]
+        },
+        {
+          "id": "PNE_S057",
+          "titel": "Kryptogen organisierende Pneumonie (COP)",
+          "tags": [
+            "Interstitiell"
+          ],
+          "patient": "55-j. nach vermeintlichem Infekt",
+          "praesentation": "Persistierende Infiltrate trotz mehrfacher AB-Gabe.",
+          "befunde": [
+            "CT: Peribronchovaskuläre Konsolidierungen",
+            "BAL: Gemischtzellig"
+          ],
+          "diagnose": "COP",
+          "therapie": [
+            "Glukokortikoide (meist promptes Ansprechen)"
+          ],
+          "lernpunkte": [
+            "Wichtiges Differenzialdiagnose zur therapieresistenten Pneumonie"
+          ]
+        },
+        {
+          "id": "PNE_S058",
+          "titel": "Langerhanszell-Histiozytose (LCH)",
+          "tags": [
+            "Rauchen"
+          ],
+          "patient": "28-j. starke Raucherin",
+          "praesentation": "Spontanpneumothorax.",
+          "befunde": [
+            "CT: Kombination aus bizarren Zysten und kleinen Knötchen"
+          ],
+          "diagnose": "Pulmonale LCH",
+          "therapie": [
+            "Absoluter Rauchstopp!"
+          ],
+          "lernpunkte": [
+            "Fast ausschließlich bei Rauchern auftretend"
+          ]
+        },
+        {
+          "id": "PNE_S059",
+          "titel": "Lymphangioleiomyomatose (LAM)",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Zunehmende Belastungsdyspnoe, rez. Pneumothorax.",
+          "befunde": [
+            "CT: Dünnwandige, runde Zysten diffus verteilt",
+            "VEGF-D im Blut erhöht"
+          ],
+          "diagnose": "LAM",
+          "therapie": [
+            "Sirolimus (mTOR-Inhibitor)"
+          ],
+          "lernpunkte": [
+            "Erkrankung fast nur bei Frauen im gebärfähigen Alter"
+          ]
+        },
+        {
+          "id": "PNE_S060",
+          "titel": "Silikose (Quarzstaublunge)",
+          "tags": [
+            "Berufskrankheit"
+          ],
+          "patient": "65-j. Steinmetz",
+          "praesentation": "Dyspnoe, trockener Husten.",
+          "befunde": [
+            "Rö: Eierschalenschalenverkalkung der Lymphknoten"
+          ],
+          "diagnose": "Silikose",
+          "therapie": [
+            "Prävention",
+            "keine kausale Therapie"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Tuberkuloserisiko (Silikotuberkulose)"
+          ]
+        }
+      ]
+    },
+    "vaskulaer_hypertonie": {
+      "label": "Vaskuläre Erkrankungen & Hypertonie",
+      "emoji": "🩸",
+      "faelle": [
+        {
+          "id": "PNE_V061",
+          "titel": "Lungenembolie (Zentral)",
+          "tags": [
+            "Vaskulär",
+            "Notfall"
+          ],
+          "patient": "40-jährige Frau nach Langstreckenflug",
+          "praesentation": "Akute Dyspnoe, pleuritischer Schmerz, Tachykardie.",
+          "befunde": [
+            "D-Dimere 4,5 mg/l",
+            "CTA: Zentraler Verschluss der rechten Pulmonalarterie",
+            "Echo: Rechtsherzbelastung"
+          ],
+          "diagnose": "Akute Lungenembolie (Intermediär-Hoch Risiko)",
+          "therapie": [
+            "Heparinisierung",
+            "ggf. Fibrinolyse bei Instabilität"
+          ],
+          "lernpunkte": [
+            "Wells-Score zur Risikoabschätzung",
+            "PESI-Score zur Prognose"
+          ]
+        },
+        {
+          "id": "PNE_V062",
+          "titel": "Pulmonal-arterielle Hypertonie (PAH)",
+          "tags": [
+            "PAH"
+          ],
+          "patient": "35-j. Frau",
+          "praesentation": "Synkopen bei Belastung, progrediente Luftnot.",
+          "befunde": [
+            "Echo: Rechtsherzhypertrophie",
+            "Rechtsherzkatheter: mPAP 35 mmHg, PCWP 10 mmHg"
+          ],
+          "diagnose": "PAH (Gruppe 1)",
+          "therapie": [
+            "Endothelin-Antagonisten / PDE-5-Hemmer"
+          ],
+          "lernpunkte": [
+            "Definition: mPAP > 20 mmHg im RHK"
+          ]
+        },
+        {
+          "id": "PNE_V063",
+          "titel": "Chronisch thromboembolische pulmonale Hypertonie (CTEPH)",
+          "tags": [
+            "PAH"
+          ],
+          "patient": "60-j. nach rezidivierenden Lungenembolien",
+          "praesentation": "Belastungsdyspnoe.",
+          "befunde": [
+            "V/Q-Szintigraphie: Multiple segmentale Defekte"
+          ],
+          "diagnose": "CTEPH (Gruppe 4)",
+          "therapie": [
+            "Pulmonale Endarteriektomie (PEA)"
+          ],
+          "lernpunkte": [
+            "Heilbare Form der pulmonalen Hypertonie durch Operation"
+          ]
+        },
+        {
+          "id": "PNE_V064",
+          "titel": "Hepatopulmonales Syndrom",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "55-j. mit Leberzirrhose",
+          "praesentation": "Platypnoe (Dyspnoe im Stehen, Besserung im Liegen).",
+          "befunde": [
+            "Kontrast-Echo: Übertritt von Bubbles nach 4-6 Schlägen"
+          ],
+          "diagnose": "Hepatopulmonales Syndrom",
+          "therapie": [
+            "Lebertransplantation"
+          ],
+          "lernpunkte": [
+            "Intrapulmonale Gefäßdilatationen führen zu Shunt"
+          ]
+        },
+        {
+          "id": "PNE_V065",
+          "titel": "Morbus Osler (HHT)",
+          "tags": [
+            "Genetik",
+            "Vaskulär"
+          ],
+          "patient": "25-j. Patient, rez. Epistaxis",
+          "praesentation": "Zufallsbefund Lungenrundherd.",
+          "befunde": [
+            "CT: Arteriovenöse Malformation (AVM) Lunge"
+          ],
+          "diagnose": "Hereditäre hämorrhagische Teleangiektasie",
+          "therapie": [
+            "Embolisation der AVM"
+          ],
+          "lernpunkte": [
+            "Gefahr paradoxer Embolien und Hirnabszesse"
+          ]
+        },
+        {
+          "id": "PNE_V066",
+          "titel": "Lungenödem (Kardial)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80-j. mit Vorhofflimmern",
+          "praesentation": "Massive Atemnot, Rasselgeräusche (feucht).",
+          "befunde": [
+            "NT-proBNP massiv↑",
+            "Echo: EF 30%"
+          ],
+          "diagnose": "Akutes Linksherzversagen",
+          "therapie": [
+            "CPAP-Beatmung",
+            "Diuretika",
+            "Nitrate"
+          ],
+          "lernpunkte": [
+            "CPAP senkt Vorlast und Nachlast"
+          ]
+        },
+        {
+          "id": "PNE_V067",
+          "titel": "Granulomatose mit Polyangiitis (Lunge)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Blutiger Schnupfen, Hämoptysen, Nierenversagen.",
+          "befunde": [
+            "c-ANCA (PR3) positiv",
+            "CT: Rundherde mit zentraler Einschmelzung (Kavernen)"
+          ],
+          "diagnose": "GPA (M. Wegener)",
+          "therapie": [
+            "Induktion mit Rituximab/Steroide"
+          ],
+          "lernpunkte": [
+            "Lungenbeteiligung oft mit renaler Beteiligung (Pulmorenales Syndrom)"
+          ]
+        },
+        {
+          "id": "PNE_V068",
+          "titel": "Goodpasture-Syndrom",
+          "tags": [
+            "Autoimmun"
+          ],
+          "patient": "30-j. Raucher",
+          "praesentation": "Hämoptysen, Hämaturie.",
+          "befunde": [
+            "Anti-GBM-Antikörper positiv",
+            "Diffusionskapazität↑ (Alveoläre Blutung)"
+          ],
+          "diagnose": "Anti-GBM-Erkrankung",
+          "therapie": [
+            "Plasmapherese",
+            "Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "Erhöhte DLCO durch Bindung von CO an intraalveoläres Hämoglobin"
+          ]
+        },
+        {
+          "id": "PNE_V069",
+          "titel": "Diffuse Alveoläre Hämorrhagie (DAH)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. unter Marcumar",
+          "praesentation": "Plötzliche Atemnot, Hb-Abfall.",
+          "befunde": [
+            "BAL: Verstärkt blutiger Rücklauf in sequenziellen Fraktionen"
+          ],
+          "diagnose": "Pulmonale Einblutung",
+          "therapie": [
+            "Korrektur der Gerinnung",
+            "Beatmung"
+          ],
+          "lernpunkte": [
+            "BAL als Goldstandard zum Nachweis der Alveolarblutung"
+          ]
+        },
+        {
+          "id": "PNE_V070",
+          "titel": "Alveolarproteinose",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "40-j. Patient, progrediente Dyspnoe",
+          "praesentation": "Trockener Husten.",
+          "befunde": [
+            "CT: 'Crazy Paving' Muster",
+            "BAL: Milchig-trübe Flüssigkeit (PAS-positiv)"
+          ],
+          "diagnose": "Pulmonale Alveolarproteinose (PAP)",
+          "therapie": [
+            "Whole Lung Lavage (WLL)"
+          ],
+          "lernpunkte": [
+            "Akkumulation von Surfactant-Material in den Alveolen"
+          ]
+        }
+      ]
+    },
+    "onkologie": {
+      "label": "Thoraxonkologie",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "PNE_T081",
+          "titel": "Nicht-kleinzelliges Bronchialkarzinom (NSCLC)",
+          "tags": [
+            "Onkologie",
+            "Adeno"
+          ],
+          "patient": "62-jähriger Raucher",
+          "praesentation": "Husten, Hämoptysen, Rundherd peripher 2,5 cm.",
+          "befunde": [
+            "Histologie: Adenokarzinom",
+            "PET-CT: Solitärer Uptake, LK negativ",
+            "Stadium: cT1c N0 M0"
+          ],
+          "diagnose": "NSCLC (Stadium IA)",
+          "therapie": [
+            "Lobektomie + systematische Lymphknotendissektion"
+          ],
+          "lernpunkte": [
+            "Adenokarzinom ist mittlerweile häufigster Subtyp",
+            "Kurative Chirurgie im Frühstadium"
+          ]
+        },
+        {
+          "id": "PNE_T082",
+          "titel": "Kleinzelliges Bronchialkarzinom (SCLC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. starker Raucher",
+          "praesentation": "Stridor, Obere Einflussstauung, rascher Verfall.",
+          "befunde": [
+            "CT: Zentrales Konglomerat, Mediastinalinfiltration",
+            "Stadium: Extensive Disease"
+          ],
+          "diagnose": "SCLC",
+          "therapie": [
+            "Chemotherapie (Platin/Etoposid) + Immuntherapie"
+          ],
+          "lernpunkte": [
+            "Sehr schnelles Wachstum, frühzeitige Metastasierung"
+          ]
+        },
+        {
+          "id": "PNE_T083",
+          "titel": "Paraneoplastisches Cushing-Syndrom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "60-j. mit Bronchial-CA",
+          "praesentation": "Hypokaliämie, Hypertonus, Vollmondgesicht.",
+          "befunde": [
+            "ACTH ektop produziert durch SCLC"
+          ],
+          "diagnose": "Paraneoplasie bei SCLC",
+          "therapie": [
+            "Tumorbehandlung"
+          ],
+          "lernpunkte": [
+            "SCLC ist assoziiert mit vielfältigen paraneoplastischen Syndromen (SIADH, Lambert-Eaton)"
+          ]
+        },
+        {
+          "id": "PNE_T084",
+          "titel": "Pancoast-Tumor",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Raucher",
+          "praesentation": "Schulterschmerz, Ptose, Miosis (Horner-Syndrom).",
+          "befunde": [
+            "CT: Tumor der Lungenspitze mit Infiltration des Plexus brachialis"
+          ],
+          "diagnose": "Pancoast-Tumor (Apexkarzinom)",
+          "therapie": [
+            "Radiochemotherapie + ggf. OP"
+          ],
+          "lernpunkte": [
+            "Horner-Syndrom durch Beteiligung des Ganglion stellatum"
+          ]
+        },
+        {
+          "id": "PNE_T085",
+          "titel": "Malignes Pleuramesotheliom",
+          "tags": [
+            "Onkologie",
+            "Asbest"
+          ],
+          "patient": "70-j. Patient, ehemals Werftarbeiter",
+          "praesentation": "Chronischer Thoraxschmerz, rez. Pleuraerguss.",
+          "befunde": [
+            "Thorakoskopie: Knötchenartige Pleuradeckung"
+          ],
+          "diagnose": "Pleuramesotheliom",
+          "therapie": [
+            "Multimodale Therapie (Chemo + ggf. Pleurektomie/Dekortikation)"
+          ],
+          "lernpunkte": [
+            "Asbest als definierter Auslöser, schlechte Prognose"
+          ]
+        },
+        {
+          "id": "PNE_T086",
+          "titel": "Molekulare Diagnostik (EGFR-Mutation)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "55-j. Nichtraucherin",
+          "praesentation": "Metastasiertes Adenokarzinom Lunge.",
+          "befunde": [
+            "Genetik: Aktivierende EGFR-Mutation"
+          ],
+          "diagnose": "NSCLC (Stadium IV)",
+          "therapie": [
+            "Tyrosinkinaseinhibitor (Osimertinib)"
+          ],
+          "lernpunkte": [
+            "Zielgerichtete Therapie bei Treibermutationen oft Erstlinie"
+          ]
+        },
+        {
+          "id": "PNE_T087",
+          "titel": "Solitärer Lungenrundherd (Abklärung)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "50-j. Zufallsbefund im Screening-CT",
+          "praesentation": "Beschwerdefrei.",
+          "befunde": [
+            "Rundherd 8mm, unregelmäßig begrenzt",
+            "Wachstum im Verlauf"
+          ],
+          "diagnose": "Bronchialkarzinom (Frühstadium)",
+          "therapie": [
+            "VATS-Keilresektion zur Schnellschnittdiagnostik"
+          ],
+          "lernpunkte": [
+            "Fleischner-Kriterien für das Management von Rundherden"
+          ]
+        },
+        {
+          "id": "PNE_T088",
+          "titel": "Kavernisierendes Plattenepithelkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70-j. Raucher",
+          "praesentation": "Hämoptysen, Infiltrat mit zentraler Aufhellung.",
+          "befunde": [
+            "Sputumzytologie positiv"
+          ],
+          "diagnose": "Plattenepithelkarzinom",
+          "therapie": [
+            "Operation"
+          ],
+          "lernpunkte": [
+            "Plattenepithel-CA neigen zu zentralen Nekrosen"
+          ]
+        },
+        {
+          "id": "PNE_T089",
+          "titel": "Maligner Pleuraerguss (Palliation)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Patientin mit Mamma-CA",
+          "praesentation": "Rezidivierende Dyspnoe.",
+          "befunde": [
+            "Punktat: Maligne Zellen nachweisbar"
+          ],
+          "diagnose": "Pleura-Metastasierung",
+          "therapie": [
+            "Dauerverweilkatheter (PleurX) oder Pleurodese"
+          ],
+          "lernpunkte": [
+            "Ziel: Symptomlinderung der Dyspnoe"
+          ]
+        },
+        {
+          "id": "PNE_T090",
+          "titel": "Karzinoid der Lunge",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "35-j. Frau, rezidivierende Pneumonien im gleichen Segment",
+          "praesentation": "Blutiger Husten.",
+          "befunde": [
+            "Bronchoskopie: Kirschroter Endobronchialer Tumor"
+          ],
+          "diagnose": "Typisches Karzinoid",
+          "therapie": [
+            "Chirurgische Manschettenresektion (Parenchym-sparend)"
+          ],
+          "lernpunkte": [
+            "Niedrigmaligner neuroendokriner Tumor"
+          ]
+        }
+      ]
+    },
+    "pleura_schlaf_notfall": {
+      "label": "Pleura, Schlafmedizin & Notfälle",
+      "emoji": "😴",
+      "faelle": [
+        {
+          "id": "PNE_N091",
+          "titel": "Spannungspneumothorax",
+          "tags": [
+            "Notfall",
+            "Pleura"
+          ],
+          "patient": "20-jähriger asthenischer Mann",
+          "praesentation": "Plötzliche Dyspnoe, Schock, gestaute Halsvenen.",
+          "befunde": [
+            "Hypersonorer Klopfschall links",
+            "Trachealverlagerung nach rechts",
+            "SPO2 82%"
+          ],
+          "diagnose": "Spannungspneumothorax links",
+          "therapie": [
+            "Sofortige Nadeldekompression",
+            "Bülau-Drainage"
+          ],
+          "lernpunkte": [
+            "Klinische Diagnose, keine Zeit für Röntgen!"
+          ]
+        },
+        {
+          "id": "PNE_N092",
+          "titel": "Obstruktives Schlafapnoe-Syndrom (OSAS)",
+          "tags": [
+            "Schlaf"
+          ],
+          "patient": "50-j. adipöser Mann (BMI 34)",
+          "praesentation": "Tagesmüdigkeit, Sekundenschlaf, nächtliches Schnarchen mit Atempausen.",
+          "befunde": [
+            "Polysomnographie: AHI 45/h, Entsättigungen"
+          ],
+          "diagnose": "Schweres OSAS",
+          "therapie": [
+            "CPAP-Maskentherapie",
+            "Gewichtsreduktion"
+          ],
+          "lernpunkte": [
+            "Risikofaktor für Schlaganfall und Herzinfarkt"
+          ]
+        },
+        {
+          "id": "PNE_N093",
+          "titel": "Pleuraempyem (Stadium II)",
+          "tags": [
+            "Pleura",
+            "Infekt"
+          ],
+          "patient": "65-j. nach Lungenentzündung",
+          "praesentation": "Erneutes Fieber, stechender Schmerz.",
+          "befunde": [
+            "Sono: Kammerungen im Ergussraum",
+            "pH 6,9"
+          ],
+          "diagnose": "Pleuraempyem",
+          "therapie": [
+            "VATS (Thorakoskopische Ausräumung)"
+          ],
+          "lernpunkte": [
+            "Step-up approach: Punktion -> Drainage -> VATS"
+          ]
+        },
+        {
+          "id": "PNE_N094",
+          "titel": "Chylothorax",
+          "tags": [
+            "Pleura"
+          ],
+          "patient": "45-j. nach Thorax-OP",
+          "praesentation": "Großer Erguss.",
+          "befunde": [
+            "Punktat: Milchig-weiß, Triglyzeride > 110 mg/dl"
+          ],
+          "diagnose": "Chylothorax (Verletzung Dct. thoracicus)",
+          "therapie": [
+            "Fettfreie Ernährung (MCT-Fette)",
+            "ggf. Ligatur"
+          ],
+          "lernpunkte": [
+            "Pseudochylothorax bei chronischer Entzündung abgrenzen"
+          ]
+        },
+        {
+          "id": "PNE_N095",
+          "titel": "Pickwick-Syndrom",
+          "tags": [
+            "Schlaf",
+            "Adipositas"
+          ],
+          "patient": "40-j. Mann, BMI 50",
+          "praesentation": "Ständige Schläfrigkeit, paCO2 am Tag > 45 mmHg.",
+          "befunde": [
+            "Hypoventilation im Wachzustand"
+          ],
+          "diagnose": "Adipositas-Hypoventilations-Syndrom (OHS)",
+          "therapie": [
+            "BIPAP-Beatmung",
+            "Bariatrische Chirurgie Beratung"
+          ],
+          "lernpunkte": [
+            "Hyperkapnie am Tag definiert das OHS"
+          ]
+        },
+        {
+          "id": "PNE_N096",
+          "titel": "ARDS (Berlin-Definition)",
+          "tags": [
+            "Notfall",
+            "Intensiv"
+          ],
+          "patient": "Pat. nach Sepsis",
+          "praesentation": "Schwerste Hypoxämie, Beatmungsdrücke↑.",
+          "befunde": [
+            "Horovitz-Quotient 120",
+            "Bilateral Infiltrate im Röntgen"
+          ],
+          "diagnose": "Mäßiges ARDS",
+          "therapie": [
+            "Lungenprotektive Beatmung",
+            "Bauchlagerung"
+          ],
+          "lernpunkte": [
+            "P/F-Ratio < 300 bei PEEP > 5 mmHg"
+          ]
+        },
+        {
+          "id": "PNE_N097",
+          "titel": "Pleuraerguss (Light-Kriterien)",
+          "tags": [
+            "Pleura",
+            "Diagnostik"
+          ],
+          "patient": "70-j. mit Herzinsuffizienz und Erguss",
+          "praesentation": "Ausschluss Malignom.",
+          "befunde": [
+            "Punktat-Protein / Serum-Protein < 0,5",
+            "LDH niedrig"
+          ],
+          "diagnose": "Transsudat bei Herzinsuffizienz",
+          "therapie": [
+            "Diuretika"
+          ],
+          "lernpunkte": [
+            "Light-Kriterien zur Unterscheidung Transsudat/Exsudat"
+          ]
+        },
+        {
+          "id": "PNE_N098",
+          "titel": "Zentrales Schlafapnoe-Syndrom",
+          "tags": [
+            "Schlaf",
+            "Kardio"
+          ],
+          "patient": "75-j. HI-Patient",
+          "praesentation": "Müdigkeit.",
+          "befunde": [
+            "Polysomnographie: Cheyne-Stokes-Atmung"
+          ],
+          "diagnose": "Zentrales Schlafapnoe-Syndrom (ZSA)",
+          "therapie": [
+            "Optimierung Herzinsuffizienztherapie",
+            "ggf. ASV"
+          ],
+          "lernpunkte": [
+            "Keine Atembemühungen in den Apnoephasen"
+          ]
+        },
+        {
+          "id": "PNE_N099",
+          "titel": "Primärer Spontanpneumothorax",
+          "tags": [
+            "Pleura"
+          ],
+          "patient": "22-j. großer, schlanker Mann (Raucher)",
+          "praesentation": "Plötzlicher stechender Schmerz, leichter Hustenreiz.",
+          "befunde": [
+            "Rö: Saum ca. 2cm apikal",
+            "Zustand stabil"
+          ],
+          "diagnose": "PSP",
+          "therapie": [
+            "Beobachtung / O2-Gabe vs. Drainage"
+          ],
+          "lernpunkte": [
+            "Hohes Rezidivrisiko bei Rauchern (VATS erwägen)"
+          ]
+        },
+        {
+          "id": "PNE_100",
+          "titel": "Thorakale Sarkoidose (Stadium IV)",
+          "tags": [
+            "Interstitiell"
+          ],
+          "patient": "60-j. Patientin",
+          "praesentation": "Zunehmende respiratorische Insuffizienz.",
+          "befunde": [
+            "Rö: Oberlappenbetonte Fibrose, Volumenverlust"
+          ],
+          "diagnose": "Sarkoidose im Endstadium",
+          "therapie": [
+            "Sauerstoff",
+            "Prüfung auf Lungentransplantation"
+          ],
+          "lernpunkte": [
+            "Irreversibler Umbau des Lungenparenchyms"
+          ]
+        }
+      ]
+    }
+  }
+}

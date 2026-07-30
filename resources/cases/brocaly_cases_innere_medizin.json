@@ -1,0 +1,5684 @@
+{
+  "meta": {
+    "name": "BROCALY Master-Falldatenbank Innere Medizin",
+    "fachgebiet": "Innere Medizin",
+    "version": "2.5.0",
+    "total_themen": 295,
+    "erstellt": "2026-04-27",
+    "autor": "Gemini Medical Analytics",
+    "zielgruppe": "Facharzt-Weiterbildung (Allgemeinmedizin/Innere)",
+    "fachlicher_stand": "2024-2026 (regelmäßig geprüft)"
+  },
+  "kategorien": {
+    "1_kardiologie_angiologie": {
+      "label": "Kardiologie & Angiologie (40 Themen)",
+      "faelle": [
+        {
+          "id": "K_001",
+          "titel": "KHK: CCS-Stadium I",
+          "tags": [
+            "KHK",
+            "Stabile AP"
+          ],
+          "patient": "55j ♂, asymptomatisch in Ruhe",
+          "praesentation": "AP-Beschwerden nur bei extremer körperlicher Belastung.",
+          "befunde": [
+            "Ergo: Unauffällig bis 150W",
+            "Echo: EF 60%"
+          ],
+          "diagnose": "Stabile KHK, CCS I",
+          "therapie": [
+            "Lifestyle",
+            "Statin (LDL-Ziel < 55mg/dl)",
+            "ASS 100mg"
+          ],
+          "lernpunkte": [
+            "CCS I = Belastungsextreme"
+          ]
+        },
+        {
+          "id": "K_002",
+          "titel": "KHK: CCS-Stadium II",
+          "tags": [
+            "KHK"
+          ],
+          "patient": "60j ♂, Hypertonie",
+          "praesentation": "Beschwerden bei zügigem Gehen oder Treppensteigen (>1 Etage).",
+          "befunde": [
+            "EKG: Unauffällig",
+            "Belastungs-EKG: ST-Senkung bei 100W"
+          ],
+          "diagnose": "Stabile KHK, CCS II",
+          "therapie": [
+            "Basistherapie",
+            "β-Blocker"
+          ],
+          "lernpunkte": [
+            "Geringe Einschränkung der normalen Aktivität"
+          ]
+        },
+        {
+          "id": "K_003",
+          "titel": "KHK: CCS-Stadium III",
+          "tags": [
+            "KHK"
+          ],
+          "patient": "65j ♀, DM Typ 2",
+          "praesentation": "Beschwerden bei normalem Gehen (1 Etage, 100-200m).",
+          "befunde": [
+            "Szintigraphie: Reversible Ischämie"
+          ],
+          "diagnose": "Stabile KHK, CCS III",
+          "therapie": [
+            "Intensivierung Medikation",
+            "Indikation zur Koronarangiographie"
+          ],
+          "lernpunkte": [
+            "Erhebliche Einschränkung"
+          ]
+        },
+        {
+          "id": "K_004",
+          "titel": "KHK: CCS-Stadium IV",
+          "tags": [
+            "KHK"
+          ],
+          "patient": "72j ♂, Z.n. Myokardinfarkt",
+          "praesentation": "Ruheschmerz oder Beschwerden bei geringster Belastung.",
+          "befunde": [
+            "Troponin: Grenzwertig",
+            "Echo: Hypokinesie"
+          ],
+          "diagnose": "Instabile AP / CCS IV",
+          "therapie": [
+            "Koro zeitnah",
+            "Vollheparinisierung"
+          ],
+          "lernpunkte": [
+            "Notfallcharakter"
+          ]
+        },
+        {
+          "id": "K_005",
+          "titel": "STEMI Vorderwand",
+          "tags": [
+            "Notfall",
+            "LAD"
+          ],
+          "patient": "50j ♂, Raucher",
+          "praesentation": "Akuter Vernichtungsschmerz, V3-V4 Hebungen.",
+          "befunde": [
+            "EKG: ST-Hebung V1-V6",
+            "Troponin T: 2500 ng/l"
+          ],
+          "diagnose": "STEMI Vorderwand (LAD-Verschluss)",
+          "therapie": [
+            "Notfall-PCI",
+            "DAPT (ASS+Ticagrelor)"
+          ],
+          "lernpunkte": [
+            "Gefahr: Kardiogener Schock"
+          ]
+        },
+        {
+          "id": "K_006",
+          "titel": "STEMI Hinterwand",
+          "tags": [
+            "Notfall",
+            "RCA"
+          ],
+          "patient": "55j ♂, bradykard",
+          "praesentation": "Oberbauchschmerz, Erbrechen, Hebungen II, III, aVF.",
+          "befunde": [
+            "EKG: Hebungen inferior",
+            "AV-Block I°"
+          ],
+          "diagnose": "STEMI Hinterwand (meist RCA)",
+          "therapie": [
+            "PCI",
+            "Vorsicht mit Nitraten (RV-Beteiligung)"
+          ],
+          "lernpunkte": [
+            "DD: Gastritis"
+          ]
+        },
+        {
+          "id": "K_007",
+          "titel": "NSTEMI",
+          "tags": [
+            "ACS"
+          ],
+          "patient": "68j ♀, Adipositas",
+          "praesentation": "Retrosternaler Druck, kein EKG-Hebungsnachweis.",
+          "befunde": [
+            "Troponin: Dynamischer Anstieg",
+            "EKG: T-Inversion"
+          ],
+          "diagnose": "NSTEMI",
+          "therapie": [
+            "Antikoagulation",
+            "PCI innerhalb 2-24h"
+          ],
+          "lernpunkte": [
+            "Troponindynamik entscheidend"
+          ]
+        },
+        {
+          "id": "K_008",
+          "titel": "VHF paroxysmal",
+          "tags": [
+            "Rhythmologie"
+          ],
+          "patient": "45j ♂, Sportler",
+          "praesentation": "Anfallsweises Herzrasen < 7 Tage.",
+          "befunde": [
+            "LZ-EKG: VHF-Episoden",
+            "Echo: Vorhof normal"
+          ],
+          "diagnose": "Paroxysmales VHF",
+          "therapie": [
+            "Pill-in-the-pocket (Flecainid)",
+            "Antikoagulation nach CHA2DS2-VASc"
+          ],
+          "lernpunkte": [
+            "Endet meist spontan"
+          ]
+        },
+        {
+          "id": "K_009",
+          "titel": "VHF persistent",
+          "tags": [
+            "Rhythmologie"
+          ],
+          "patient": "66j ♀, Hypertonie",
+          "praesentation": "Dauerhaftes Herzstolpern > 7 Tage.",
+          "befunde": [
+            "EKG: Absolute Arrhythmie"
+          ],
+          "diagnose": "Persistentes VHF",
+          "therapie": [
+            "Kardioversion erwägen",
+            "Frequenzkontrolle"
+          ],
+          "lernpunkte": [
+            "Dauerhafte Rhythmusstörung"
+          ]
+        },
+        {
+          "id": "K_010",
+          "titel": "VHF permanent",
+          "tags": [
+            "Rhythmologie"
+          ],
+          "patient": "80j ♂, Herzinsuffizienz",
+          "praesentation": "VHF akzeptiert, keine Rhythmisierung geplant.",
+          "befunde": [
+            "Echo: Dilatierter Vorhof"
+          ],
+          "diagnose": "Permanentes VHF",
+          "therapie": [
+            "Frequenzkontrolle (β-Blocker/Digitoxin)",
+            "Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Ziel: Frequenz < 110/min"
+          ]
+        },
+        {
+          "id": "K_011",
+          "titel": "AV-Block I°",
+          "tags": [
+            "Bradykardie"
+          ],
+          "patient": "Asymptomatisch",
+          "praesentation": "Zufallsbefund im EKG.",
+          "befunde": [
+            "PQ-Zeit > 200ms, konstant"
+          ],
+          "diagnose": "AV-Block I°",
+          "therapie": [
+            "Beobachtung",
+            "Medikamenten-Check"
+          ],
+          "lernpunkte": [
+            "Keine Schrittmacherindikation"
+          ]
+        },
+        {
+          "id": "K_012",
+          "titel": "AV-Block II° Wenckebach",
+          "tags": [
+            "Bradykardie"
+          ],
+          "patient": "60j ♂, nachts bradykard",
+          "praesentation": "Gelegentlich Schwindel.",
+          "befunde": [
+            "PQ-Zeit nimmt zu bis Ausfall"
+          ],
+          "diagnose": "AV-Block II° Typ 1",
+          "therapie": [
+            "Meist konservativ"
+          ],
+          "lernpunkte": [
+            "Wenckebach = meist benigne"
+          ]
+        },
+        {
+          "id": "K_013",
+          "titel": "AV-Block II° Mobitz",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "75j ♀, Synkope",
+          "praesentation": "Plötzlicher Sturz ohne Vorboten.",
+          "befunde": [
+            "PQ konstant, plötzlicher Ausfall"
+          ],
+          "diagnose": "AV-Block II° Typ 2",
+          "therapie": [
+            "Herzschrittmacher (DDD)"
+          ],
+          "lernpunkte": [
+            "Gefahr: Übergang in III°"
+          ]
+        },
+        {
+          "id": "K_014",
+          "titel": "AV-Block III°",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80j ♂, Ruhepuls 30",
+          "praesentation": "Dyspnoe, Schwindel, Präsynkope.",
+          "befunde": [
+            "EKG: Dissoziation P und QRS"
+          ],
+          "diagnose": "AV-Block III°",
+          "therapie": [
+            "Passagerer/Perm. Schrittmacher"
+          ],
+          "lernpunkte": [
+            "Absoluter Notfall"
+          ]
+        },
+        {
+          "id": "K_015",
+          "titel": "Rechtsschenkelblock (RSB)",
+          "tags": [
+            "EKG"
+          ],
+          "patient": "Asymptomatisch",
+          "praesentation": "Zufallsfund.",
+          "befunde": [
+            "QRS > 120ms, rSR' in V1"
+          ],
+          "diagnose": "Kompletter RSB",
+          "therapie": [
+            "Keine"
+          ],
+          "lernpunkte": [
+            "Häufig isoliert unkritisch"
+          ]
+        },
+        {
+          "id": "K_016",
+          "titel": "Linksschenkelblock (LSB)",
+          "tags": [
+            "EKG"
+          ],
+          "patient": "65j ♂, Belastungsdyspnoe",
+          "praesentation": "EKG-Auffälligkeit.",
+          "befunde": [
+            "QRS > 120ms, tiefes S in V1, hohes R in V6"
+          ],
+          "diagnose": "Kompletter LSB",
+          "therapie": [
+            "KHK-Ausschluss zwingend"
+          ],
+          "lernpunkte": [
+            "LSB ist immer pathologisch"
+          ]
+        },
+        {
+          "id": "K_017",
+          "titel": "WPW-Syndrom",
+          "tags": [
+            "Tachykardie"
+          ],
+          "patient": "20j ♀, anfallsweises Herzrasen",
+          "praesentation": "Plötzlicher Beginn/Ende.",
+          "befunde": [
+            "Delta-Welle, kurzes PQ"
+          ],
+          "diagnose": "WPW-Syndrom",
+          "therapie": [
+            "EPU + Ablation"
+          ],
+          "lernpunkte": [
+            "Kein Verapamil bei VHF+WPW!"
+          ]
+        },
+        {
+          "id": "K_018",
+          "titel": "Ventrikuläre Tachykardie (VT)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "70j ♂, Z.n. Infarkt",
+          "praesentation": "Palpitationen, instabiler RR.",
+          "befunde": [
+            "Breitkomplextachykardie"
+          ],
+          "diagnose": "VT",
+          "therapie": [
+            "Amiodaron oder Kardioversion"
+          ],
+          "lernpunkte": [
+            "Immer als VT behandeln bis Beweis Gegenteil"
+          ]
+        },
+        {
+          "id": "K_019",
+          "titel": "SVT",
+          "tags": [
+            "Rhythmologie"
+          ],
+          "patient": "30j ♀",
+          "praesentation": "Herzrasen 'bis zum Hals'.",
+          "befunde": [
+            "Schmalkomplextachykardie, rhythmisch"
+          ],
+          "diagnose": "AVNRT",
+          "therapie": [
+            "Vagusreiz, Adenosin"
+          ],
+          "lernpunkte": [
+            "Symptomatisch belastend, meist benigne"
+          ]
+        },
+        {
+          "id": "K_020",
+          "titel": "HFrEF",
+          "tags": [
+            "Herzinsuffizienz"
+          ],
+          "patient": "65j ♂, EF 25%",
+          "praesentation": "NYHA III, Ödeme, Orthopnoe.",
+          "befunde": [
+            "NT-proBNP 5000",
+            "Echo: EF↓"
+          ],
+          "diagnose": "Herzinsuffizienz HFrEF",
+          "therapie": [
+            "ARNI, β-Blocker, MRA, SGLT2i"
+          ],
+          "lernpunkte": [
+            "The 'Fantastic Four'"
+          ]
+        },
+        {
+          "id": "K_021",
+          "titel": "HFpEF",
+          "tags": [
+            "Herzinsuffizienz"
+          ],
+          "patient": "75j ♀, Hypertonie, Adipositas",
+          "praesentation": "Belastungsdyspnoe, Ödeme.",
+          "befunde": [
+            "Echo: EF 55%, Diastolische Dysfunktion"
+          ],
+          "diagnose": "Herzinsuffizienz HFpEF",
+          "therapie": [
+            "SGLT2-Inhibitor, Diuretika"
+          ],
+          "lernpunkte": [
+            "Häufig verkannt"
+          ]
+        },
+        {
+          "id": "K_022",
+          "titel": "Myokarditis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "25j ♂, Z.n. viralem Infekt",
+          "praesentation": "Thoraxschmerz, Leistungsknick.",
+          "befunde": [
+            "Troponin↑, MRT: LGE"
+          ],
+          "diagnose": "Myokarditis",
+          "therapie": [
+            "Körperliche Schonung (3-6 Mo)"
+          ],
+          "lernpunkte": [
+            "Gefahr plötzlicher Herztod"
+          ]
+        },
+        {
+          "id": "K_023",
+          "titel": "Dilatative Kardiomyopathie",
+          "tags": [
+            "Kardiomyopathie"
+          ],
+          "patient": "40j ♂, Äthylabusus",
+          "praesentation": "Zunehmende Dyspnoe.",
+          "befunde": [
+            "Echo: Dilatierte Ventrikel, EF 20%"
+          ],
+          "diagnose": "DCM",
+          "therapie": [
+            "HF-Medikation, Abstinenz"
+          ],
+          "lernpunkte": [
+            "Oft toxisch bedingt"
+          ]
+        },
+        {
+          "id": "K_024",
+          "titel": "HOCM",
+          "tags": [
+            "Kardiomyopathie"
+          ],
+          "patient": "18j ♂, Synkope beim Sport",
+          "praesentation": "Systolikum.",
+          "befunde": [
+            "Echo: Septumhypertrophie, SAM"
+          ],
+          "diagnose": "HOCM",
+          "therapie": [
+            "β-Blocker, kein Digitalis/Nitrate"
+          ],
+          "lernpunkte": [
+            "Häufigste Ursache PHT bei jungen Sportlern"
+          ]
+        },
+        {
+          "id": "K_025",
+          "titel": "Aortenstenose",
+          "tags": [
+            "Klappe"
+          ],
+          "patient": "80j ♂, Belastungsdyspnoe",
+          "praesentation": "Systolikum 2. ICR re.",
+          "befunde": [
+            "Echo: Vmax > 4m/s, AVA < 1cm²"
+          ],
+          "diagnose": "Hochgradige AS",
+          "therapie": [
+            "TAVI oder Chirurgie"
+          ],
+          "lernpunkte": [
+            "Indikation bei Symptomen"
+          ]
+        },
+        {
+          "id": "K_026",
+          "titel": "Aorteninsuffizienz",
+          "tags": [
+            "Klappe"
+          ],
+          "patient": "50j ♂, Marfan-Vverdacht",
+          "praesentation": "Diastolikum, hohe Blutdruckamplitude.",
+          "befunde": [
+            "Echo: Jet-Breite/LVOT > 65%"
+          ],
+          "diagnose": "Hochgradige AI",
+          "therapie": [
+            "OP bei Symptomen oder Dilatation"
+          ],
+          "lernpunkte": [
+            "Wasserhammerpuls"
+          ]
+        },
+        {
+          "id": "K_027",
+          "titel": "Mitralinsuffizienz",
+          "tags": [
+            "Klappe"
+          ],
+          "patient": "70j ♀, Z.n. Infarkt",
+          "praesentation": "Holosystolikum, Lungenödem.",
+          "befunde": [
+            "Echo: PISA-Radius↑"
+          ],
+          "diagnose": "Funktionelle MI",
+          "therapie": [
+            "HF-Therapie, MitraClip"
+          ],
+          "lernpunkte": [
+            "Häufig sekundär"
+          ]
+        },
+        {
+          "id": "K_028",
+          "titel": "Mitralstenose",
+          "tags": [
+            "Klappe"
+          ],
+          "patient": "55j ♀, Migrationshintergrund",
+          "praesentation": "Dyspnoe, VHF, Mitralgesicht.",
+          "befunde": [
+            "Diastolisches Paukgeräusch"
+          ],
+          "diagnose": "Mitralstenose (meist rheumatisch)",
+          "therapie": [
+            "Valvuloplastie"
+          ],
+          "lernpunkte": [
+            "Z.n. rheumatischem Fieber"
+          ]
+        },
+        {
+          "id": "K_029",
+          "titel": "Trikuspidalinsuffizienz",
+          "tags": [
+            "Klappe"
+          ],
+          "patient": "Herzinsuffizienz-Patient",
+          "praesentation": "Obere Einflussstauung, pulsierende Leber.",
+          "befunde": [
+            "Systolikum über rechtem Herzen"
+          ],
+          "diagnose": "TI",
+          "therapie": [
+            "Diuretika, TriClip"
+          ],
+          "lernpunkte": [
+            "Meist Folge von Rechtsherzbelastung"
+          ]
+        },
+        {
+          "id": "K_030",
+          "titel": "pAVK Stadium I",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Asymptomatisch, Raucher",
+          "praesentation": "Zufallsfund ABI.",
+          "befunde": [
+            "ABI 0,8"
+          ],
+          "diagnose": "pAVK I",
+          "therapie": [
+            "Statin, Gehtraining"
+          ],
+          "lernpunkte": [
+            "Screening wichtig"
+          ]
+        },
+        {
+          "id": "K_031",
+          "titel": "pAVK Stadium IIa",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Gehstrecke > 200m",
+          "praesentation": "Schmerz in Wade beim Gehen.",
+          "befunde": [
+            "ABI 0,6"
+          ],
+          "diagnose": "pAVK IIa (Claudicatio) ",
+          "therapie": [
+            "Gehtraining, ASS, Statin"
+          ],
+          "lernpunkte": [
+            "Konservative Therapie primär"
+          ]
+        },
+        {
+          "id": "K_032",
+          "titel": "pAVK Stadium IIb",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Gehstrecke < 200m",
+          "praesentation": "Starke Einschränkung.",
+          "befunde": [
+            "Angio: Stenose A. femoralis"
+          ],
+          "diagnose": "pAVK IIb",
+          "therapie": [
+            "PTA erwägen"
+          ],
+          "lernpunkte": [
+            "Hoher Leidensdruck"
+          ]
+        },
+        {
+          "id": "K_033",
+          "titel": "pAVK Stadium III",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Ruheschmerz",
+          "praesentation": "Schmerz nachts im Liegen.",
+          "befunde": [
+            "Fuß blass, kalt"
+          ],
+          "diagnose": "Kritische Ischämie Stadium III",
+          "therapie": [
+            "Revaskularisation zwingend"
+          ],
+          "lernpunkte": [
+            "Extremitätenerhalt"
+          ]
+        },
+        {
+          "id": "K_034",
+          "titel": "pAVK Stadium IV",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Nekrose/Ulkus",
+          "praesentation": "Schwarze Zehe.",
+          "befunde": [
+            "Gangrän"
+          ],
+          "diagnose": "pAVK IV",
+          "therapie": [
+            "Revaskularisation + Wunddebridement"
+          ],
+          "lernpunkte": [
+            "Amputationsgefahr"
+          ]
+        },
+        {
+          "id": "K_035",
+          "titel": "Bauchaortenaneurysma (BAA)",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "65j ♂, Raucher",
+          "praesentation": "Pulsierender Bauchttumor.",
+          "befunde": [
+            "Sono: Durchmesser 5,6 cm"
+          ],
+          "diagnose": "BAA",
+          "therapie": [
+            "EVAR oder OP"
+          ],
+          "lernpunkte": [
+            "OP-Indikation > 5,5cm (♂) / 5,0cm (♀)"
+          ]
+        },
+        {
+          "id": "K_036",
+          "titel": "TVT",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Z.n. Langstreckenflug",
+          "praesentation": "Beinschwellung, Druckschmerz.",
+          "befunde": [
+            "D-Dimer↑, Sono: Fehlende Kompressibilität"
+          ],
+          "diagnose": "Tiefe Beinvenenthrombose",
+          "therapie": [
+            "Antikoagulation (DOAC) für 3-6 Mo"
+          ],
+          "lernpunkte": [
+            "Wells-Score nutzen"
+          ]
+        },
+        {
+          "id": "K_037",
+          "titel": "Phlebitis",
+          "tags": [
+            "Gefäße"
+          ],
+          "patient": "Varikosis bekannt",
+          "praesentation": "Roter, schmerzhafter Strang am Bein.",
+          "befunde": [
+            "Lokale Entzündung, oberflächliche Vene"
+          ],
+          "diagnose": "Thrombophlebitis",
+          "therapie": [
+            "Kühlung, Kompression, ggf. Fondaparinux"
+          ],
+          "lernpunkte": [
+            "Abstand zum tiefen System prüfen"
+          ]
+        },
+        {
+          "id": "K_038",
+          "titel": "Chronisch venöse Insuffizienz",
+          "tags": [
+            "Phlebologie"
+          ],
+          "patient": "Ältere ♀, stehende Tätigkeit",
+          "praesentation": "Schwere Beine, Hyperpigmentierung.",
+          "befunde": [
+            "Ulkus cruris venosum (St. III)"
+          ],
+          "diagnose": "CVI",
+          "therapie": [
+            "Kompressionstherapie"
+          ],
+          "lernpunkte": [
+            "Ulkus meist medial"
+          ]
+        },
+        {
+          "id": "K_039",
+          "titel": "Raynaud-Syndrom",
+          "tags": [
+            "Angiologie"
+          ],
+          "patient": "Junge ♀",
+          "praesentation": "Weißwerden der Finger bei Kälte.",
+          "befunde": [
+            "Trikolore-Phänomen"
+          ],
+          "diagnose": "Primäres Raynaud",
+          "therapie": [
+            "Kälteschutz, Nifedipin"
+          ],
+          "lernpunkte": [
+            "Sekundär? -> Kapillarmikroskopie"
+          ]
+        },
+        {
+          "id": "K_040",
+          "titel": "Lungenembolie (Low Risk)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pille, Nikotin",
+          "praesentation": "Atemnot, pleuritischer Schmerz.",
+          "befunde": [
+            "CT-A: Thrombus Segmentarterie, RV normal"
+          ],
+          "diagnose": "LE (niedriges Risiko)",
+          "therapie": [
+            "DOAC, ggf. ambulant"
+          ],
+          "lernpunkte": [
+            "PESI-Score nutzen"
+          ]
+        }
+      ]
+    },
+    "2_gastroenterologie_hepatologie": {
+      "label": "Gastroenterologie & Hepatologie (45 Themen)",
+      "faelle": [
+        {
+          "id": "G_001",
+          "titel": "GERD",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "45j ♂, Sodbrennen",
+          "praesentation": "Symptome nachts schlimmer.",
+          "befunde": [
+            "ÖGD: Refluxösophagitis Grad B"
+          ],
+          "diagnose": "GERD",
+          "therapie": [
+            "PPI Standarddosis"
+          ],
+          "lernpunkte": [
+            "Lifestyle-Anpassung"
+          ]
+        },
+        {
+          "id": "G_002",
+          "titel": "Barrett-Ösophagus",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "Langjähriger Reflux",
+          "praesentation": "Endoskopiekontrolle.",
+          "befunde": [
+            "Zylinderepithel-Metaplasie"
+          ],
+          "diagnose": "Barrett-Ösophagus",
+          "therapie": [
+            "PPI, regelmäßige Biopsien"
+          ],
+          "lernpunkte": [
+            "Präkanzerose"
+          ]
+        },
+        {
+          "id": "G_003",
+          "titel": "Achalasie",
+          "tags": [
+            "Ösophagus"
+          ],
+          "patient": "38j ♀, Dysphagie",
+          "praesentation": "Regurgitation unverdauter Speisen.",
+          "befunde": [
+            "Röntgen: Sektglasform, Manometrie pathologisch"
+          ],
+          "diagnose": "Achalasie",
+          "therapie": [
+            "Pneumatische Dilatation / POEM"
+          ],
+          "lernpunkte": [
+            "Fehlende Peristaltik"
+          ]
+        },
+        {
+          "id": "G_004",
+          "titel": "Gastritis Typ A",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "Ältere ♀, Vit. B12 Mangel",
+          "praesentation": "Anämie, atrophische Mukosa.",
+          "befunde": [
+            "Ak gegen Parietalzellen"
+          ],
+          "diagnose": "Autoimmungastritis",
+          "therapie": [
+            "Vit. B12 Substitution"
+          ],
+          "lernpunkte": [
+            "Karzinoid-Risiko"
+          ]
+        },
+        {
+          "id": "G_005",
+          "titel": "Gastritis Typ B",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "Völlegefühl, Übelkeit",
+          "praesentation": "Chronische Beschwerden.",
+          "befunde": [
+            "H. pylori Nachweis"
+          ],
+          "diagnose": "Bakterielle Gastritis",
+          "therapie": [
+            "Eradikation (French/Italian-Triple)"
+          ],
+          "lernpunkte": [
+            "Häufigste Form"
+          ]
+        },
+        {
+          "id": "G_006",
+          "titel": "Gastritis Typ C",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "NSAR-Dauereinnahme",
+          "praesentation": "Epigastrischer Schmerz.",
+          "befunde": [
+            "Erosionen antral"
+          ],
+          "diagnose": "Chemisch-toxische Gastritis",
+          "therapie": [
+            "Noxenpause, PPI"
+          ],
+          "lernpunkte": [
+            "Prävention bei NSAR"
+          ]
+        },
+        {
+          "id": "G_007",
+          "titel": "Ulcus ventriculi",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "Schmerz nach dem Essen",
+          "praesentation": "Hämatemesis-Risiko.",
+          "befunde": [
+            "Biopsie: Benignes Ulkus"
+          ],
+          "diagnose": "Magengeschwür",
+          "therapie": [
+            "PPI, H.p. Eradikation"
+          ],
+          "lernpunkte": [
+            "Immer Biopsie (Karzinomausschluss)"
+          ]
+        },
+        {
+          "id": "G_008",
+          "titel": "Ulcus duodeni",
+          "tags": [
+            "Magen"
+          ],
+          "patient": "Nüchternschmerz",
+          "praesentation": "Besserung durch Essen.",
+          "befunde": [
+            "Ulkus im Bulbus"
+          ],
+          "diagnose": "Zwölffingerdarmgeschwür",
+          "therapie": [
+            "PPI"
+          ],
+          "lernpunkte": [
+            "Meist H. pylori assoziiert"
+          ]
+        },
+        {
+          "id": "G_009",
+          "titel": "Morbus Crohn",
+          "tags": [
+            "Darm",
+            "CED"
+          ],
+          "patient": "25j ♀, Unterbauchschmerz re",
+          "praesentation": "Gewichtsverlust, Diarrhö unblutig.",
+          "befunde": [
+            "Koloskopie: Skip-lesions, Pflasterstein"
+          ],
+          "diagnose": "M. Crohn",
+          "therapie": [
+            "Budesonid, Anti-TNF"
+          ],
+          "lernpunkte": [
+            "Transmural, Fisteln"
+          ]
+        },
+        {
+          "id": "G_010",
+          "titel": "Colitis ulcerosa",
+          "tags": [
+            "Darm",
+            "CED"
+          ],
+          "patient": "30j ♂, blutige Stühle",
+          "praesentation": "Tenesmen, Drang.",
+          "befunde": [
+            "Kontinuierlicher Befall ab Rektum"
+          ],
+          "diagnose": "C. ulcerosa",
+          "therapie": [
+            "Mesalazin p.o./lokal"
+          ],
+          "lernpunkte": [
+            "Nur Mukosa/Submukosa"
+          ]
+        },
+        {
+          "id": "G_011",
+          "titel": "Zöliakie",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Eisenmangel, Meteorismus",
+          "praesentation": "Unspezifische GI-Beschwerden.",
+          "befunde": [
+            "Transglutaminase-Ak, Zottenatrophie"
+          ],
+          "diagnose": "Zöliakie",
+          "therapie": [
+            "Glutenfreie Diät"
+          ],
+          "lernpunkte": [
+            "HLA-DQ2/8"
+          ]
+        },
+        {
+          "id": "G_012",
+          "titel": "Divertikulitis",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "60j ♂, Schmerz linker Unterbauch",
+          "praesentation": "Fieber, Stuhlveränderung.",
+          "befunde": [
+            "CT: Divertikel + Wandverdickung"
+          ],
+          "diagnose": "Divertikulitis",
+          "therapie": [
+            "Nahrungskarenz, Antibiotika (E.coli/Anaerobier)"
+          ],
+          "lernpunkte": [
+            "'Linksappendizitis'"
+          ]
+        },
+        {
+          "id": "G_013",
+          "titel": "Reizdarmsyndrom",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Ausschlussdiagnostik",
+          "praesentation": "Schmerz gebessert nach Defäkation.",
+          "befunde": [
+            "Labor/Sono unauffällig"
+          ],
+          "diagnose": "RDS",
+          "therapie": [
+            "Symptomatisch, FODMAP-Diät"
+          ],
+          "lernpunkte": [
+            "Psychosomatik"
+          ]
+        },
+        {
+          "id": "G_014",
+          "titel": "Ischämische Kolitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Älterer Patient, pAVK",
+          "praesentation": "Plötzlicher Schmerz, blutiger Stuhl.",
+          "befunde": [
+            "Koloskopie: Ödematöse Schleimhaut (links)"
+          ],
+          "diagnose": "Ischämische Kolitis",
+          "therapie": [
+            "Infusion, Antibiose, ggf. Resektion"
+          ],
+          "lernpunkte": [
+            "Oft linke Flexur"
+          ]
+        },
+        {
+          "id": "G_015",
+          "titel": "Hepatitis A",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Reiserückkehrer",
+          "praesentation": "Ikterus, Übelkeit.",
+          "befunde": [
+            "Anti-HAV IgM+"
+          ],
+          "diagnose": "Hepatitis A",
+          "therapie": [
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Nie chronisch"
+          ]
+        },
+        {
+          "id": "G_016",
+          "titel": "Hepatitis B",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Drogenabusus oder Nadelstich",
+          "praesentation": "Müdigkeit, dunkler Urin.",
+          "befunde": [
+            "HBsAg+, HBeAg+"
+          ],
+          "diagnose": "Hepatitis B",
+          "therapie": [
+            "Tenofovir (bei hoher Viruslast)"
+          ],
+          "lernpunkte": [
+            "Chronifizierungsrisiko Erw. 5%"
+          ]
+        },
+        {
+          "id": "G_017",
+          "titel": "Hepatitis C",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Zufallsbefund erhöhte GPT",
+          "praesentation": "Meist asymptomatisch.",
+          "befunde": [
+            "Anti-HCV+, HCV-RNA+"
+          ],
+          "diagnose": "Hepatitis C",
+          "therapie": [
+            "DAA (Sofosbuvir etc.) - Heilung >95%"
+          ],
+          "lernpunkte": [
+            "Heilbar!"
+          ]
+        },
+        {
+          "id": "G_018",
+          "titel": "MASLD (Fettleber)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Adipositas, DM",
+          "praesentation": "Zufallsbefund Sono.",
+          "befunde": [
+            "Helle Leber, GPT leicht↑"
+          ],
+          "diagnose": "MASLD",
+          "therapie": [
+            "Gewichtsreduktion"
+          ],
+          "lernpunkte": [
+            "Häufigste Lebererkrankung"
+          ]
+        },
+        {
+          "id": "G_019",
+          "titel": "MASH (Steatohepatitis)",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Metabolisches Syndrom",
+          "praesentation": "Progressiv.",
+          "befunde": [
+            "Fibroscan: F2-3"
+          ],
+          "diagnose": "MASH",
+          "therapie": [
+            "Lifestyle, Pioglitazon/Resmetirom erwägen"
+          ],
+          "lernpunkte": [
+            "Zirrhoserisiko"
+          ]
+        },
+        {
+          "id": "G_020",
+          "titel": "Leberzirrhose Child A",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Kompensiert",
+          "praesentation": "Laborauffälligkeiten.",
+          "befunde": [
+            "Bilirubin < 2, Albumin > 3,5, kein Aszites"
+          ],
+          "diagnose": "Zirrhose Child A",
+          "therapie": [
+            "Alkoholkarenz, Screening HCC"
+          ],
+          "lernpunkte": [
+            "Gute Prognose"
+          ]
+        },
+        {
+          "id": "G_021",
+          "titel": "Leberzirrhose Child B",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Aszites, Ikterus",
+          "praesentation": "Reduzierter AZ.",
+          "befunde": [
+            "Bilirubin 2-3, Albumin 2,8-3,5"
+          ],
+          "diagnose": "Zirrhose Child B",
+          "therapie": [
+            "Spironolacton, Proteinreiche Diät"
+          ],
+          "lernpunkte": [
+            "Deutliche Einschränkung"
+          ]
+        },
+        {
+          "id": "G_022",
+          "titel": "Leberzirrhose Child C",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Dekompensiert",
+          "praesentation": "Enzephalopathie, massiver Aszites.",
+          "befunde": [
+            "Bilirubin > 3, Quick < 40%"
+          ],
+          "diagnose": "Zirrhose Child C",
+          "therapie": [
+            "Lactulose, Terlipressin, Tx-Listung"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose"
+          ]
+        },
+        {
+          "id": "G_023",
+          "titel": "Autoimmunhepatitis",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Junge ♀",
+          "praesentation": "Ikterus, Arthralgien.",
+          "befunde": [
+            "ANA, ASMA, IgG↑"
+          ],
+          "diagnose": "AIH",
+          "therapie": [
+            "Prednisolon, Azathioprin"
+          ],
+          "lernpunkte": [
+            "Interface-Hepatitis"
+          ]
+        },
+        {
+          "id": "G_024",
+          "titel": "Hämochromatose",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "40j ♂, Diabetes, 'Bronzediabetes'",
+          "praesentation": "Arthropathie, Impotenz.",
+          "befunde": [
+            "Ferritin > 1000, Transferrinsättigung↑"
+          ],
+          "diagnose": "Hämochromatose (HFE-Gendefekt)",
+          "therapie": [
+            "Aderlass"
+          ],
+          "lernpunkte": [
+            "Eisenüberladung"
+          ]
+        },
+        {
+          "id": "G_025",
+          "titel": "Morbus Wilson",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Junger Patient, Parkinsonoid",
+          "praesentation": "Psychose, Tremor.",
+          "befunde": [
+            "Ceruloplasmin↓, Kupfer im Urin↑"
+          ],
+          "diagnose": "M. Wilson",
+          "therapie": [
+            "D-Penicillamin"
+          ],
+          "lernpunkte": [
+            "Kayser-Fleischer-Ring"
+          ]
+        },
+        {
+          "id": "G_026",
+          "titel": "Cholezystolithiasis",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "6F-Regel (Fair, Fat...)",
+          "praesentation": "Kolik nach fettem Essen.",
+          "befunde": [
+            "Sono: Konkrement mit Schatten"
+          ],
+          "diagnose": "Gallensteine",
+          "therapie": [
+            "Analgetika, Cholezystektomie (elektiv)"
+          ],
+          "lernpunkte": [
+            "Symptomatisch? -> OP"
+          ]
+        },
+        {
+          "id": "G_027",
+          "titel": "Cholezystitis",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "Rechter Oberbauchschmerz",
+          "praesentation": "Fieber, Murphy-Zeichen+.",
+          "befunde": [
+            "Wandverdickung > 4mm, Dreischichtung"
+          ],
+          "diagnose": "Gallenblasenentzündung",
+          "therapie": [
+            "Früh-OP (< 24h)"
+          ],
+          "lernpunkte": [
+            "Murphy-Zeichen"
+          ]
+        },
+        {
+          "id": "G_028",
+          "titel": "Cholangitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Charcot-Trias I",
+          "praesentation": "Schmerz, Ikterus, Fieber.",
+          "befunde": [
+            "Leukozytose, Cholestase↑"
+          ],
+          "diagnose": "Cholangitis",
+          "therapie": [
+            "Notfall-ERCP, Antibiose"
+          ],
+          "lernpunkte": [
+            "Charcot-Trias pathognomonisch"
+          ]
+        },
+        {
+          "id": "G_029",
+          "titel": "Pankreatitis akut",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Gürtelförmiger Schmerz",
+          "praesentation": "Übelkeit, Gummibauch.",
+          "befunde": [
+            "Lipase > 3x Norm"
+          ],
+          "diagnose": "Akute Pankreatitis",
+          "therapie": [
+            "Flüssigkeit (Ringer-Laktat)"
+          ],
+          "lernpunkte": [
+            "I GET SMASHED (Ätiologie)"
+          ]
+        },
+        {
+          "id": "G_030",
+          "titel": "Pankreatitis chronisch",
+          "tags": [
+            "Pankreas"
+          ],
+          "patient": "Langjähriger Alkoholismus",
+          "praesentation": "Fettstühle, Gewichtsverlust.",
+          "befunde": [
+            "Verkalkungen im CT, Elastase im Stuhl↓"
+          ],
+          "diagnose": "Chronische Pankreatitis",
+          "therapie": [
+            "Enzymsubstitution, Alkoholkarenz"
+          ],
+          "lernpunkte": [
+            "Pankreaskarzinom-Risiko"
+          ]
+        },
+        {
+          "id": "G_031",
+          "titel": "Pankreaskarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Schmerzloser Ikterus",
+          "praesentation": "Gewichtsverlust, Courvoisier-Zeichen.",
+          "befunde": [
+            "Raumforderung Pankreaskopf"
+          ],
+          "diagnose": "Pankreaskarzinom",
+          "therapie": [
+            "Whipple-OP, Chemo"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose"
+          ]
+        },
+        {
+          "id": "G_032",
+          "titel": "Ösophagusvarizen",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Zirrhose-Patient",
+          "praesentation": "Hämatemesis.",
+          "befunde": [
+            "Endoskopie: Grad III Blutung"
+          ],
+          "diagnose": "Varizenblutung",
+          "therapie": [
+            "Gummibandligation, Terlipressin"
+          ],
+          "lernpunkte": [
+            "Letalität hoch"
+          ]
+        },
+        {
+          "id": "G_033",
+          "titel": "Spontane bakt. Peritonitis",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Zirrhose mit Aszites",
+          "praesentation": "Druckschmerz, Fieber.",
+          "befunde": [
+            "Aszitespunktat: PMN > 250/µl"
+          ],
+          "diagnose": "SBP",
+          "therapie": [
+            "Ceftriaxon, Albumin"
+          ],
+          "lernpunkte": [
+            "Oft symptomarm"
+          ]
+        },
+        {
+          "id": "G_034",
+          "titel": "Hepatische Enzephalopathie",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Verwirrtheit, Flapping Tremor",
+          "praesentation": "Umkehr Schlaf-Wach-Rhythmus.",
+          "befunde": [
+            "Ammoniak↑ (nicht beweisend)"
+          ],
+          "diagnose": "HE Stadium II",
+          "therapie": [
+            "Lactulose, Rifaximin"
+          ],
+          "lernpunkte": [
+            "Lactulose-Dosis nach Stuhlgang (2-3x/d)"
+          ]
+        },
+        {
+          "id": "G_035",
+          "titel": "Hepatorenales Syndrom",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Zirrhose, Oligurie",
+          "praesentation": "Kreatinin↑.",
+          "befunde": [
+            "Urin-Na < 10, Ausschluss AKI"
+          ],
+          "diagnose": "HRS Typ 1",
+          "therapie": [
+            "Terlipressin + Albumin"
+          ],
+          "lernpunkte": [
+            "Funktionelles Nierenversagen"
+          ]
+        },
+        {
+          "id": "G_036",
+          "titel": "PSC",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "Junger ♂, oft mit C. ulcerosa",
+          "praesentation": "Pruritus, Ikterus.",
+          "befunde": [
+            "Perlschnurartige Gänge im MRCP"
+          ],
+          "diagnose": "Primär sklerosierende Cholangitis",
+          "therapie": [
+            "UDCA, ERCP-Dilatation"
+          ],
+          "lernpunkte": [
+            "Kolon-Ca Risiko erhöht"
+          ]
+        },
+        {
+          "id": "G_037",
+          "titel": "PBC",
+          "tags": [
+            "Galle"
+          ],
+          "patient": "Frau mittleren Alters",
+          "praesentation": "Müdigkeit, Pruritus.",
+          "befunde": [
+            "AMA-Ak+, AP↑"
+          ],
+          "diagnose": "Primär biliäre Cholangitis",
+          "therapie": [
+            "UDCA"
+          ],
+          "lernpunkte": [
+            "AMA-Ak pathognomonisch"
+          ]
+        },
+        {
+          "id": "G_038",
+          "titel": "Laktoseintoleranz",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Blähungen nach Milch",
+          "praesentation": "Wässrige Diarrhö.",
+          "befunde": [
+            "H2-Atemtest+"
+          ],
+          "diagnose": "Laktoseintoleranz",
+          "therapie": [
+            "Laktosefreie Diät, Laktase"
+          ],
+          "lernpunkte": [
+            "Enzymmangel"
+          ]
+        },
+        {
+          "id": "G_039",
+          "titel": "Mikroskopische Kolitis",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Ältere ♀",
+          "praesentation": "Chronisch wässrige Diarrhö, nachts.",
+          "befunde": [
+            "Makroskopie unauffällig, Histologie: Entzündung"
+          ],
+          "diagnose": "Kollagene/Lymphozytäre Kolitis",
+          "therapie": [
+            "Budesonid"
+          ],
+          "lernpunkte": [
+            "Häufig unter PPI/NSAR"
+          ]
+        },
+        {
+          "id": "G_040",
+          "titel": "Whipple-Krankheit",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Malabsorption, Arthralgien",
+          "praesentation": "Fieber, Lymphknotenschwellung.",
+          "befunde": [
+            "PAS-positive Makrophagen"
+          ],
+          "diagnose": "M. Whipple (T. whipplei)",
+          "therapie": [
+            "Ceftriaxon dann Cotrim für 1 Jahr"
+          ],
+          "lernpunkte": [
+            "Tropheryma whipplei"
+          ]
+        },
+        {
+          "id": "G_041",
+          "titel": "Magenkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Fleischabneigung",
+          "praesentation": "Gewichtsverlust, Virchow-Drüse.",
+          "befunde": [
+            "Endoskopie: Ulkus mit wallartigem Rand"
+          ],
+          "diagnose": "Magenkarzinom",
+          "therapie": [
+            "Gastrektomie, Chemo (FLOT)"
+          ],
+          "lernpunkte": [
+            "Adeno-Ca am häufigsten"
+          ]
+        },
+        {
+          "id": "G_042",
+          "titel": "Kolonkarzinom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Blut im Stuhl, Obstipation/Diarrhö",
+          "praesentation": "Leistungsknick.",
+          "befunde": [
+            "Koloskopie: Tumor Sigma"
+          ],
+          "diagnose": "Kolonkarzinom",
+          "therapie": [
+            "Resektion, adjuvante Chemo"
+          ],
+          "lernpunkte": [
+            "Früherkennung ab 50 (♂) / 55 (♀)"
+          ]
+        },
+        {
+          "id": "G_043",
+          "titel": "FAP",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Junger Patient, viele Polypen",
+          "praesentation": "Familiäre Belastung.",
+          "befunde": [
+            "Hunderte Adenome"
+          ],
+          "diagnose": "Familiäre adenomatöse Polyposis",
+          "therapie": [
+            "Proktokolektomie"
+          ],
+          "lernpunkte": [
+            "100% Karzinomrisiko"
+          ]
+        },
+        {
+          "id": "G_044",
+          "titel": "Lynch-Syndrom (HNPCC)",
+          "tags": [
+            "Darm"
+          ],
+          "patient": "Junges Alter Karzinom",
+          "praesentation": "Familiär Häufung (Amsterdam-Kriterien).",
+          "befunde": [
+            "Mikrosatelliteninstabilität (MSI)"
+          ],
+          "diagnose": "Lynch-Syndrom",
+          "therapie": [
+            "Resektion, engmaschige Vorsorge"
+          ],
+          "lernpunkte": [
+            "DNA-Mismatch-Repair"
+          ]
+        },
+        {
+          "id": "G_045",
+          "titel": "Zieve-Syndrom",
+          "tags": [
+            "Leber"
+          ],
+          "patient": "Alkoholiker",
+          "praesentation": "Trias: Ikterus, hämolytische Anämie, Hyperlipidämie.",
+          "befunde": [
+            "Hb↓, Bili↑, TG↑↑"
+          ],
+          "diagnose": "Zieve-Syndrom",
+          "therapie": [
+            "Alkoholkarenz, Supportiv"
+          ],
+          "lernpunkte": [
+            "Seltene alkoholtoxische Manifestation"
+          ]
+        }
+      ]
+    },
+    "3_pneumologie": {
+      "label": "Pneumologie (35 Themen)",
+      "faelle": [
+        {
+          "id": "P_001",
+          "titel": "Asthma Stufe 1",
+          "tags": [
+            "Asthma"
+          ],
+          "patient": "Intermittierend Symptome",
+          "praesentation": "Selten Dyspnoe.",
+          "befunde": [
+            "Lufu normal"
+          ],
+          "diagnose": "Asthma Stufe 1",
+          "therapie": [
+            "Bedarfs-ICS + Formoterol"
+          ],
+          "lernpunkte": [
+            "Keine reine SABA-Monotherapie mehr"
+          ]
+        },
+        {
+          "id": "P_002",
+          "titel": "Asthma Stufe 3",
+          "tags": [
+            "Asthma"
+          ],
+          "patient": "Wöchentlich Symptome",
+          "praesentation": "Nächtliches Erwachen.",
+          "befunde": [
+            "Obstruktion reversibel"
+          ],
+          "diagnose": "Asthma Stufe 3",
+          "therapie": [
+            "ICS-LABA Fixkombi (MART)"
+          ],
+          "lernpunkte": [
+            "ICS-LABA Standard"
+          ]
+        },
+        {
+          "id": "P_003",
+          "titel": "COPD GOLD A",
+          "tags": [
+            "COPD"
+          ],
+          "patient": "Wenig Symptome, keine Exaz.",
+          "praesentation": "Raucher.",
+          "befunde": [
+            "mMRC 0-1, FEV1 > 80%"
+          ],
+          "diagnose": "COPD GOLD A",
+          "therapie": [
+            "Bronchodilatator (SABA/SAMA)"
+          ],
+          "lernpunkte": [
+            "Bedarfstherapie"
+          ]
+        },
+        {
+          "id": "P_004",
+          "titel": "COPD GOLD B",
+          "tags": [
+            "COPD"
+          ],
+          "patient": "Viele Symptome, keine Exaz.",
+          "praesentation": "Belastungsdyspnoe mMRC 2.",
+          "befunde": [
+            "CAT > 10"
+          ],
+          "diagnose": "COPD GOLD B",
+          "therapie": [
+            "LAMA oder LABA (Dauertherapie)"
+          ],
+          "lernpunkte": [
+            "LAMA ist meist First-Line"
+          ]
+        },
+        {
+          "id": "P_005",
+          "titel": "COPD GOLD E",
+          "tags": [
+            "COPD"
+          ],
+          "patient": "Häufige Exazerbationen",
+          "praesentation": "Hospitalisierung im Vorjahr.",
+          "befunde": [
+            "Unabhängig von Symptomen"
+          ],
+          "diagnose": "COPD GOLD E",
+          "therapie": [
+            "LAMA+LABA, ggf. ICS (bei EOS > 300)"
+          ],
+          "lernpunkte": [
+            "Exazerbations-Fokus"
+          ]
+        },
+        {
+          "id": "P_006",
+          "titel": "Alpha-1-Antitrypsin-Mangel",
+          "tags": [
+            "COPD"
+          ],
+          "patient": "Junger Raucher (35j)",
+          "praesentation": "Massives Emphysem.",
+          "befunde": [
+            "A1AT-Spiegel↓, basal betontes Emphysem"
+          ],
+          "diagnose": "AAT-Mangel",
+          "therapie": [
+            "Substitution, Rauchstopp"
+          ],
+          "lernpunkte": [
+            "Basale Betonung pathognomonisch"
+          ]
+        },
+        {
+          "id": "P_007",
+          "titel": "CAP (CRB-65=0)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "40j, Husten, Fieber",
+          "praesentation": "Stabil.",
+          "befunde": [
+            "Infiltrat im Röntgen"
+          ],
+          "diagnose": "Ambulante Pneumonie",
+          "therapie": [
+            "Amoxicillin (ambulant)"
+          ],
+          "lernpunkte": [
+            "Ambulant möglich"
+          ]
+        },
+        {
+          "id": "P_008",
+          "titel": "CAP schwer (CRB-65=3)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "80j, Verwirrt, RR↓",
+          "praesentation": "Tachypnoe > 30/min.",
+          "befunde": [
+            "Bilateraler Befall"
+          ],
+          "diagnose": "Schwere Pneumonie",
+          "therapie": [
+            "Ceftriaxon + Makrolid i.v."
+          ],
+          "lernpunkte": [
+            "Letalität hoch"
+          ]
+        },
+        {
+          "id": "P_009",
+          "titel": "HAP (Nosokomial)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Z.n. OP vor 5 Tagen",
+          "praesentation": "Neues Infiltrat.",
+          "befunde": [
+            "Sputum: Pseudomonas/Staph."
+          ],
+          "diagnose": "HAP",
+          "therapie": [
+            "Piperacillin/Tazobactam"
+          ],
+          "lernpunkte": [
+            "MRSA-Risiko prüfen"
+          ]
+        },
+        {
+          "id": "P_010",
+          "titel": "Lungentuberkulose",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Husten > 3 Wo, Nachtschweiß",
+          "praesentation": "Gewichtsverlust, Hämoptysen.",
+          "befunde": [
+            "Röntgen: Kaverne apikal"
+          ],
+          "diagnose": "Aktive TB",
+          "therapie": [
+            "Viererkombi (RHEZ)"
+          ],
+          "lernpunkte": [
+            "Isolierung, Meldepflicht"
+          ]
+        },
+        {
+          "id": "P_011",
+          "titel": "Sarkoidose Typ I",
+          "tags": [
+            "Interstitiell"
+          ],
+          "patient": "30j ♀, Zufallsbefund Röntgen",
+          "praesentation": "Keine Symptome.",
+          "befunde": [
+            "Bihiläre Lymphadenopathie"
+          ],
+          "diagnose": "Sarkoidose I",
+          "therapie": [
+            "Wait and watch"
+          ],
+          "lernpunkte": [
+            "Hohe Spontanheilung"
+          ]
+        },
+        {
+          "id": "P_012",
+          "titel": "Löfgren-Syndrom",
+          "tags": [
+            "Interstitiell"
+          ],
+          "patient": "Akute Sarkoidose",
+          "praesentation": "Trias: Arthralgie, Erythema nodosum, bihiläre Lymphadenopathie.",
+          "befunde": [
+            "Labor: Entzündungswerte↑"
+          ],
+          "diagnose": "Löfgren-Syndrom",
+          "therapie": [
+            "NSAR, ggf. Steroide"
+          ],
+          "lernpunkte": [
+            "Gute Prognose"
+          ]
+        },
+        {
+          "id": "P_013",
+          "titel": "Idiopathische Lungenfibrose (IPF)",
+          "tags": [
+            "Interstitiell"
+          ],
+          "patient": "65j ♂, trockenes Knistern",
+          "praesentation": "Progrediente Dyspnoe.",
+          "befunde": [
+            "HRCT: UIP-Muster (Wabenlunge)"
+          ],
+          "diagnose": "IPF",
+          "therapie": [
+            "Nintedanib / Pirfenidon"
+          ],
+          "lernpunkte": [
+            "Schlechte Prognose"
+          ]
+        },
+        {
+          "id": "P_014",
+          "titel": "Exogen-allergische Alveolitis",
+          "tags": [
+            "Beruf"
+          ],
+          "patient": "Vogelhalter / Landwirt",
+          "praesentation": "Fieber, Husten 4-8h nach Kontakt.",
+          "befunde": [
+            "CT: Milchglas, Granulome"
+          ],
+          "diagnose": "EAA",
+          "therapie": [
+            "Allergenkarenz, Steroide"
+          ],
+          "lernpunkte": [
+            "Typ III/IV Allergie"
+          ]
+        },
+        {
+          "id": "P_015",
+          "titel": "Lungenembolie (High Risk)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Schock, RR < 90",
+          "praesentation": "Synkope, massiv Dyspnoe.",
+          "befunde": [
+            "CT-A: Zentralembolie, RV-Versagen"
+          ],
+          "diagnose": "LE high risk",
+          "therapie": [
+            "Thrombolyse, Supportiv"
+          ],
+          "lernpunkte": [
+            "Rechtsherzbelastung im EKG (S1Q3)"
+          ]
+        },
+        {
+          "id": "P_016",
+          "titel": "Pulmonale Hypertonie (Gr. 1)",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "Junge ♀",
+          "praesentation": "Synkopen, Belastungsdyspnoe.",
+          "befunde": [
+            "mPAP > 20 mmHg (Rechtsherzkatheter)"
+          ],
+          "diagnose": "PAH (idiopathisch)",
+          "therapie": [
+            "Endothelin-Ak, PDE5-Inhib."
+          ],
+          "lernpunkte": [
+            "Plexiforme Läsionen"
+          ]
+        },
+        {
+          "id": "P_017",
+          "titel": "Bronchialkarzinom (NSCLC)",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70j, chron. Raucher",
+          "praesentation": "Hustenänderung, B-Symptomatik.",
+          "befunde": [
+            "CT: Randständiger Rundherd"
+          ],
+          "diagnose": "Adenokarzinom Lunge",
+          "therapie": [
+            "OP, Chemo, Immuntherapie (PD-L1)"
+          ],
+          "lernpunkte": [
+            "Häufigster Typ bei Nichtrauchern"
+          ]
+        },
+        {
+          "id": "P_018",
+          "titel": "SCLC",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Massives Rauchen",
+          "praesentation": "Vena cava superior Syndrom.",
+          "befunde": [
+            "Zentraler Tumor, paraneoplastisch (SIADH)"
+          ],
+          "diagnose": "Kleinzelliges Ca",
+          "therapie": [
+            "Radiochemo (extrem sensibel)"
+          ],
+          "lernpunkte": [
+            "Frühe Metastasierung"
+          ]
+        },
+        {
+          "id": "P_019",
+          "titel": "Schlafapnoe (OSAS)",
+          "tags": [
+            "Schlaf"
+          ],
+          "patient": "Übergewicht, Schnarchen",
+          "praesentation": "Tagesmüdigkeit, Sekundenschlaf.",
+          "befunde": [
+            "Polygraphie: AHI > 15/h"
+          ],
+          "diagnose": "OSAS",
+          "therapie": [
+            "CPAP-Maske"
+          ],
+          "lernpunkte": [
+            "Kardiovaskuläres Risiko"
+          ]
+        },
+        {
+          "id": "P_020",
+          "titel": "Pneumothorax",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Junger, hagerer ♂",
+          "praesentation": "Plötzlicher stechender Schmerz.",
+          "befunde": [
+            "Röntgen: Fehlende Lungenzeichnung"
+          ],
+          "diagnose": "Spontanpneumothorax",
+          "therapie": [
+            "Drainage (Bülau/Monaldi)"
+          ],
+          "lernpunkte": [
+            "Gefahr Spannungspneumothorax"
+          ]
+        },
+        {
+          "id": "P_021",
+          "titel": "Pleuritis",
+          "tags": [
+            "Entzündung"
+          ],
+          "patient": "Husten, atemabhängiger Schmerz",
+          "praesentation": "Reibeisen-Geräusch.",
+          "befunde": [
+            "Pleurareiben in Auskultation"
+          ],
+          "diagnose": "Pleuritis sicca",
+          "therapie": [
+            "NSAR, Ursachenbehandlung"
+          ],
+          "lernpunkte": [
+            "Oft viral oder bei LE"
+          ]
+        },
+        {
+          "id": "P_022",
+          "titel": "Pleuraerguss",
+          "tags": [
+            "Klinik"
+          ],
+          "patient": "Herzinsuffizienz",
+          "praesentation": "Dämpfung bei Perkussion.",
+          "befunde": [
+            "Sono: Echoarme Flüssigkeit"
+          ],
+          "diagnose": "Transsudat (Herz) / Exsudat (Pneumonie/Ca)",
+          "therapie": [
+            "Punktion (Light-Kriterien)"
+          ],
+          "lernpunkte": [
+            "Light-Kriterien: Protein/LDH"
+          ]
+        },
+        {
+          "id": "P_023",
+          "titel": "Pneumonie (Immunsupprimiert)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "HIV-Patient",
+          "praesentation": "Belastungsdyspnoe, trockener Husten.",
+          "befunde": [
+            "CT: Milchglas, LDH↑"
+          ],
+          "diagnose": "Pneumocystis jirovecii (PCP)",
+          "therapie": [
+            "Cotrimoxazol hochdosiert + Steroide"
+          ],
+          "lernpunkte": [
+            "CD4 < 200"
+          ]
+        },
+        {
+          "id": "P_024",
+          "titel": "Silikose",
+          "tags": [
+            "Beruf"
+          ],
+          "patient": "Bergbau / Steinmetz",
+          "praesentation": "Dyspnoe.",
+          "befunde": [
+            "Röntgen: Eierschalencalcinose der LK"
+          ],
+          "diagnose": "Silikose (Quarzstaub)",
+          "therapie": [
+            "Schonung, Rauchentwöhnung"
+          ],
+          "lernpunkte": [
+            "Erhöhtes TB-Risiko"
+          ]
+        },
+        {
+          "id": "P_025",
+          "titel": "Asbestose",
+          "tags": [
+            "Beruf"
+          ],
+          "patient": "Bauarbeiter (Dachdecker)",
+          "praesentation": "Fibrose.",
+          "befunde": [
+            "Pleuraplaques"
+          ],
+          "diagnose": "Asbestose",
+          "therapie": [
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Mesotheliom-Risiko (Latenz 20-40J)"
+          ]
+        },
+        {
+          "id": "P_026",
+          "titel": "Bronchiektasen",
+          "tags": [
+            "Klinik"
+          ],
+          "patient": "Mukoviszidose oder chron. Infekte",
+          "praesentation": "Drei-Schichten-Sputum.",
+          "befunde": [
+            "HRCT: Siegelschring-Zeichen"
+          ],
+          "diagnose": "Bronchiektasen",
+          "therapie": [
+            "Physiotherapie, Antibiose"
+          ],
+          "lernpunkte": [
+            "Keim: Pseudomonas"
+          ]
+        },
+        {
+          "id": "P_027",
+          "titel": "Aspergillose",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Neutropenie / Chemo",
+          "praesentation": "Fieber trotz Antibiose.",
+          "befunde": [
+            "CT: Halo-Zeichen, Galactomannan+"
+          ],
+          "diagnose": "Invasive Aspergillose",
+          "therapie": [
+            "Voriconazol"
+          ],
+          "lernpunkte": [
+            "Schimmelpilz"
+          ]
+        },
+        {
+          "id": "P_028",
+          "titel": "Lungenabszess",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Z.n. Aspiration / Bewusstlosigkeit",
+          "praesentation": "Foetor, hohes Fieber.",
+          "befunde": [
+            "CT: Spiegelbildung in Kaverne"
+          ],
+          "diagnose": "Lungenabszess",
+          "therapie": [
+            "Langzeitantibiose, Drainage"
+          ],
+          "lernpunkte": [
+            "Häufig Anaerobier"
+          ]
+        },
+        {
+          "id": "P_029",
+          "titel": "ARDS (Mild)",
+          "tags": [
+            "Intensiv"
+          ],
+          "patient": "Sepsis-Patient",
+          "praesentation": "Hypoxämie trotz O2.",
+          "befunde": [
+            "Horovitz 200-300, bilateraler Befall"
+          ],
+          "diagnose": "ARDS",
+          "therapie": [
+            "PEEP, Bauchlagerung"
+          ],
+          "lernpunkte": [
+            "Ausschluss Herzinsuffizienz"
+          ]
+        },
+        {
+          "id": "P_030",
+          "titel": "Chronisches Cor pulmonale",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "Langjähriger COPD-Patient",
+          "praesentation": "Rechtsherzinsuffizienz-Zeichen.",
+          "befunde": [
+            "EKG: P-pulmonale, Echo: RV-Dilatation"
+          ],
+          "diagnose": "Cor pulmonale",
+          "therapie": [
+            "O2 (LTOT), Grunderkrankung behandeln"
+          ],
+          "lernpunkte": [
+            "Folge von chron. Hypoxie (Euler-Liljestrand)"
+          ]
+        },
+        {
+          "id": "P_031",
+          "titel": "Hyperventilationssyndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Junger Mensch, Stress",
+          "praesentation": "Pfötchenstellung, Parästhesien.",
+          "befunde": [
+            "BGA: Resp. Alkalose"
+          ],
+          "diagnose": "Hyperventilation",
+          "therapie": [
+            "Beruhigung, Rückatmung"
+          ],
+          "lernpunkte": [
+            "Ionisiertes Calcium↓ (Tetanie)"
+          ]
+        },
+        {
+          "id": "P_032",
+          "titel": "Status asthmaticus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Bekannter Asthmatiker",
+          "praesentation": "Silent Chest, Sprechdyspnoe.",
+          "befunde": [
+            "pCO2↑ (Erschöpfung)"
+          ],
+          "diagnose": "Status asthmaticus",
+          "therapie": [
+            "Steroide i.v., Magnesium i.v., NIV"
+          ],
+          "lernpunkte": [
+            "Normale BGA bei Asthma-Anfall ist Warnzeichen!"
+          ]
+        },
+        {
+          "id": "P_033",
+          "titel": "Chylothorax",
+          "tags": [
+            "Pleura"
+          ],
+          "patient": "Z.n. Thorax-OP / Lymphom",
+          "praesentation": "Milchiges Punktat.",
+          "befunde": [
+            "Triglyzeride im Punktat > 110 mg/dl"
+          ],
+          "diagnose": "Chylothorax",
+          "therapie": [
+            "MCT-Diät, Drainage"
+          ],
+          "lernpunkte": [
+            "Ductus thoracicus Läsion"
+          ]
+        },
+        {
+          "id": "P_034",
+          "titel": "COPD Exazerbation",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Husten, Auswurf, Atemnot↑",
+          "praesentation": "AZ-Verschlechterung.",
+          "befunde": [
+            "Purulenz des Sputums"
+          ],
+          "diagnose": "AECOPD",
+          "therapie": [
+            "Steroide (5d), Antibiose (Anthonisen-Krit)"
+          ],
+          "lernpunkte": [
+            "NIV bei respiratorischer Azidose"
+          ]
+        },
+        {
+          "id": "P_035",
+          "titel": "Eosinophile Granulomatose (EGPA)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Asthma, Eosinophilie",
+          "praesentation": "Purpura, Mononeuritis multiplex.",
+          "befunde": [
+            "p-ANCA+, Eosinophile > 10%"
+          ],
+          "diagnose": "EGPA (Churg-Strauss)",
+          "therapie": [
+            "Steroide, Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "Asthma als Leitsymptom"
+          ]
+        }
+      ]
+    },
+    "4_nephrologie_elektrolyte": {
+      "label": "Nephrologie & Elektrolyte (35 Themen)",
+      "faelle": [
+        {
+          "id": "N_001",
+          "titel": "AKI Stadium 1",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Post-OP",
+          "praesentation": "Kreatinin leicht↑.",
+          "befunde": [
+            "Anstieg 1,5-fache vom Baseline"
+          ],
+          "diagnose": "AKI KDIGO 1",
+          "therapie": [
+            "Hydrierung, Absetzen Nephrotoxine"
+          ],
+          "lernpunkte": [
+            "Früherkennung"
+          ]
+        },
+        {
+          "id": "N_002",
+          "titel": "AKI Stadium 2",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Exsikkose",
+          "praesentation": "Oligurie > 12h.",
+          "befunde": [
+            "Anstieg 2,0-2,9-fache"
+          ],
+          "diagnose": "AKI KDIGO 2",
+          "therapie": [
+            "Bilanzierung"
+          ],
+          "lernpunkte": [
+            "Flüssigkeitsmanagement"
+          ]
+        },
+        {
+          "id": "N_003",
+          "titel": "AKI Stadium 3",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Sepsis / Rhabdomyolyse",
+          "praesentation": "Anurie.",
+          "befunde": [
+            "Anstieg > 3-fache oder Krea > 4mg/dl"
+          ],
+          "diagnose": "AKI KDIGO 3",
+          "therapie": [
+            "Dialyse-Indikation prüfen"
+          ],
+          "lernpunkte": [
+            "Dialyse bei AEIOU"
+          ]
+        },
+        {
+          "id": "N_004",
+          "titel": "CKD Stadium 1",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Diabetes, eGFR > 90",
+          "praesentation": "Asymptomatisch.",
+          "befunde": [
+            "Nachweis Nierenschaden (z.B. Albuminurie)"
+          ],
+          "diagnose": "CKD G1",
+          "therapie": [
+            "Blutdruck < 130/80, SGLT2i"
+          ],
+          "lernpunkte": [
+            "Proteinurie = Schaden"
+          ]
+        },
+        {
+          "id": "N_005",
+          "titel": "CKD Stadium 3",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Älterer Patient",
+          "praesentation": "Anämie.",
+          "befunde": [
+            "eGFR 30-59"
+          ],
+          "diagnose": "CKD G3",
+          "therapie": [
+            "EPO, Phosphatsenker"
+          ],
+          "lernpunkte": [
+            "Renale Anämie beginnt hier"
+          ]
+        },
+        {
+          "id": "N_006",
+          "titel": "CKD Stadium 5",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Terminal",
+          "praesentation": "Urämie, Juckreiz.",
+          "befunde": [
+            "eGFR < 15"
+          ],
+          "diagnose": "CKD G5 (ESRD)",
+          "therapie": [
+            "Dialyse oder Transplantation"
+          ],
+          "lernpunkte": [
+            "Vorbereitung Shunt"
+          ]
+        },
+        {
+          "id": "N_007",
+          "titel": "Nephrotisches Syndrom",
+          "tags": [
+            "Klinik"
+          ],
+          "patient": "Massive Ödeme",
+          "praesentation": "Schäumender Urin.",
+          "befunde": [
+            "Proteinurie > 3,5g/d, Hypalbuminämie"
+          ],
+          "diagnose": "Nephrotisches Syndrom",
+          "therapie": [
+            "Steroide (je nach Ursache), Statine"
+          ],
+          "lernpunkte": [
+            "Thromboserisiko↑ (AT III Verlust)"
+          ]
+        },
+        {
+          "id": "N_008",
+          "titel": "IgA-Nephropathie",
+          "tags": [
+            "Glomerulo"
+          ],
+          "patient": "Junger ♂, Z.n. Infekt",
+          "praesentation": "Makrohämaturie simultan zum Infekt.",
+          "befunde": [
+            "Biopsie: IgA-Depots"
+          ],
+          "diagnose": "M. Berger",
+          "therapie": [
+            "ACE-Hemmer (Proteinurie-Kontrolle)"
+          ],
+          "lernpunkte": [
+            "Häufigste GN weltweit"
+          ]
+        },
+        {
+          "id": "N_009",
+          "titel": "Minimal Change Disease",
+          "tags": [
+            "Glomerulo"
+          ],
+          "patient": "Kind mit Ödemen",
+          "praesentation": "Plötzliches Vollbild Nephrose.",
+          "befunde": [
+            "Lichtmikroskopie normal, EM: Podozytenfusion"
+          ],
+          "diagnose": "MCD",
+          "therapie": [
+            "Steroide (hervorragendes Ansprechen)"
+          ],
+          "lernpunkte": [
+            "Häufigste GN im Kindesalter"
+          ]
+        },
+        {
+          "id": "N_010",
+          "titel": "RPGN",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Vaskulitis-Zeichen",
+          "praesentation": "Rapider Nierenfunktionsverlust (Tage).",
+          "befunde": [
+            "Biopsie: Halbmonde"
+          ],
+          "diagnose": "RPGN Typ 1-3",
+          "therapie": [
+            "Steroide, Cyclophosphamid, Plasmapherese"
+          ],
+          "lernpunkte": [
+            "Notfall-Biopsie"
+          ]
+        },
+        {
+          "id": "N_011",
+          "titel": "Hyponatriämie (Hypovolämisch)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Diuretika / Erbrechen",
+          "praesentation": "Verwirrtheit.",
+          "befunde": [
+            "Na < 135, ZVD↓"
+          ],
+          "diagnose": "Hypovolämische Hyponatriämie",
+          "therapie": [
+            "NaCl 0,9% Infusion"
+          ],
+          "lernpunkte": [
+            "Volumenmangel vor Natriummangel"
+          ]
+        },
+        {
+          "id": "N_012",
+          "titel": "Hyponatriämie (Hypervolämisch)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Herzinsuffizienz / Zirrhose",
+          "praesentation": "Ödeme.",
+          "befunde": [
+            "Na < 135, ZVD↑"
+          ],
+          "diagnose": "Verdünnungshyponatriämie",
+          "therapie": [
+            "Flüssigkeitsrestriktion"
+          ],
+          "lernpunkte": [
+            "Relativer Na-Mangel"
+          ]
+        },
+        {
+          "id": "N_013",
+          "titel": "SIADH",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Tumor (SCLC) oder ZNS-Erkrankung",
+          "praesentation": "Euvolämische Hyponatriämie.",
+          "befunde": [
+            "Na < 135, Urin-Osomolarität > 100"
+          ],
+          "diagnose": "SIADH (Schwartz-Bartter)",
+          "therapie": [
+            "Flüssigkeitsrestriktion, Tolvaptan"
+          ],
+          "lernpunkte": [
+            "Inadäquate ADH-Sekretion"
+          ]
+        },
+        {
+          "id": "N_014",
+          "titel": "Hyperkaliämie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Nierenversagen / ACE-Hemmer",
+          "praesentation": "Muskelschwäche.",
+          "befunde": [
+            "K > 5,5, EKG: Zelt-T, QRS-Verbreiterung"
+          ],
+          "diagnose": "Hyperkaliämie",
+          "therapie": [
+            "Ca-Gluconat (Membran), Insulin+G, Dialyse"
+          ],
+          "lernpunkte": [
+            "EKG-Monitoring zwingend!"
+          ]
+        },
+        {
+          "id": "N_015",
+          "titel": "Hypokalzämie",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Z.n. Schilddrüsen-OP",
+          "praesentation": "Kribbeln, Tetanie.",
+          "befunde": [
+            "Chvostek-Zeichen, Trousseau-Zeichen+"
+          ],
+          "diagnose": "Hypokalzämie",
+          "therapie": [
+            "Calcium i.v./p.o."
+          ],
+          "lernpunkte": [
+            "PTH-Mangel"
+          ]
+        },
+        {
+          "id": "N_016",
+          "titel": "Metabolische Azidose (Anionenlücke↑)",
+          "tags": [
+            "Säure-Basen"
+          ],
+          "patient": "KUSMAUL",
+          "praesentation": "Tiefe Atmung.",
+          "befunde": [
+            "pH < 7,35, HCO3↓, AG > 12"
+          ],
+          "diagnose": "Ketoazidose / Urämie / Salicylat / Methanol / Laktat",
+          "therapie": [
+            "Kausale Behandlung"
+          ],
+          "lernpunkte": [
+            "Ketoazidose, Urämie, Salicylat, Methanol, Äthylenglycol, Laktatazidose"
+          ]
+        },
+        {
+          "id": "N_017",
+          "titel": "Respiratorische Kompensation",
+          "tags": [
+            "Säure-Basen"
+          ],
+          "patient": "Azidose",
+          "praesentation": "Tachypnoe.",
+          "befunde": [
+            "pCO2↓ als Reaktion auf Azidose"
+          ],
+          "diagnose": "Kompensation",
+          "therapie": [
+            "Keine (physiologisch)"
+          ],
+          "lernpunkte": [
+            "pH-Stabilisierung"
+          ]
+        },
+        {
+          "id": "N_018",
+          "titel": "Membranöse GN",
+          "tags": [
+            "Glomerulo"
+          ],
+          "patient": "Älterer ♂, nephrotisch",
+          "praesentation": "Ödeme.",
+          "befunde": [
+            "PLA2R-Ak positiv"
+          ],
+          "diagnose": "Primär membranöse GN",
+          "therapie": [
+            "Rituximab"
+          ],
+          "lernpunkte": [
+            "Häufigste paraneoplastische GN"
+          ]
+        },
+        {
+          "id": "N_019",
+          "titel": "Postinfektiöse GN",
+          "tags": [
+            "Glomerulo"
+          ],
+          "patient": "Kind, 2 Wo nach Scharlach",
+          "praesentation": "Dunkler Urin, Lidfaltenschwellung.",
+          "befunde": [
+            "ASL-Titer↑, Komplement C3↓"
+          ],
+          "diagnose": "Poststreptokokken-GN",
+          "therapie": [
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Latenzzeit wichtig"
+          ]
+        },
+        {
+          "id": "N_020",
+          "titel": "Goodpasture-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Bluthusten + Nierenversagen",
+          "praesentation": "Hämoptysen.",
+          "befunde": [
+            "Anti-Basalmembran-Ak"
+          ],
+          "diagnose": "Anti-GBM-Erkrankung",
+          "therapie": [
+            "Plasmapherese"
+          ],
+          "lernpunkte": [
+            "Lungen-Nieren-Syndrom"
+          ]
+        },
+        {
+          "id": "N_021",
+          "titel": "Diabetes insipidus centralis",
+          "tags": [
+            "Endo"
+          ],
+          "patient": "Trauma / OP Hypophyse",
+          "praesentation": "Polyurie (> 10L), Polydipsie.",
+          "befunde": [
+            "Urin-Osmolarität↓, Durstversuch path."
+          ],
+          "diagnose": "D. insipidus centralis",
+          "therapie": [
+            "Desmopressin"
+          ],
+          "lernpunkte": [
+            "ADH-Mangel"
+          ]
+        },
+        {
+          "id": "N_022",
+          "titel": "Rhabdomyolyse",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Verschüttung / Statine / Exzess",
+          "praesentation": "Muskelschmerz, dunkler Urin.",
+          "befunde": [
+            "CK > 10.000, Myoglobin im Urin"
+          ],
+          "diagnose": "Rhabdomyolyse",
+          "therapie": [
+            "Flüssigkeit (forcierte Diurese)"
+          ],
+          "lernpunkte": [
+            "Gefahr: Crush-Niere"
+          ]
+        },
+        {
+          "id": "N_023",
+          "titel": "Hypokaliämie",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Abführmittelabusus",
+          "praesentation": "Muskelparesen, Obstipation.",
+          "befunde": [
+            "K < 3,5, EKG: U-Welle, ST-Senkung"
+          ],
+          "diagnose": "Hypokaliämie",
+          "therapie": [
+            "Kalium-Substitution"
+          ],
+          "lernpunkte": [
+            "Digitalis-Toxizität↑"
+          ]
+        },
+        {
+          "id": "N_024",
+          "titel": "Hypernatriämie",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Exsikkose (Pflegeheim)",
+          "praesentation": "Durst, Verwirrtheit.",
+          "befunde": [
+            "Na > 145"
+          ],
+          "diagnose": "Hypernatriämie",
+          "therapie": [
+            "Freies Wasser (G5% / p.o.)"
+          ],
+          "lernpunkte": [
+            "Langsame Korrektur!"
+          ]
+        },
+        {
+          "id": "N_025",
+          "titel": "Hyperkalzämie",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Malignom / pHPT",
+          "praesentation": "Polyurie, Depression, Obstipation.",
+          "befunde": [
+            "Ca > 2,6"
+          ],
+          "diagnose": "Hyperkalzämie",
+          "therapie": [
+            "Hydrierung, Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Hyperkalzämische Krise"
+          ]
+        },
+        {
+          "id": "N_026",
+          "titel": "Analgetikanephropathie",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Chronische Schmerzen",
+          "praesentation": "Schrumpfniere, höckerig.",
+          "befunde": [
+            "CT: Papillennekrosen verkalkt"
+          ],
+          "diagnose": "Analgetikanephropathie",
+          "therapie": [
+            "Noxenpause"
+          ],
+          "lernpunkte": [
+            "Mischpräparate"
+          ]
+        },
+        {
+          "id": "N_027",
+          "titel": "Zystennieren (ADPKD)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Familienanamnese, Hypertonie",
+          "praesentation": "Flankenschmerz.",
+          "befunde": [
+            "Sono: Multiple Zysten bilateral"
+          ],
+          "diagnose": "ADPKD",
+          "therapie": [
+            "Tolvaptan, RR-Einstellung"
+          ],
+          "lernpunkte": [
+            "Extrarenale Zysten (Leber)"
+          ]
+        },
+        {
+          "id": "N_028",
+          "titel": "Nierenarterienstenose",
+          "tags": [
+            "Hypertonie"
+          ],
+          "patient": "Junger Patient (FMD) / Raucher (Athero)",
+          "praesentation": "Refraktäre Hypertonie.",
+          "befunde": [
+            "Sono: Flussbeschleunigung > 200cm/s"
+          ],
+          "diagnose": "NAST",
+          "therapie": [
+            "ACE-Hemmer (Vorsicht!), PTA"
+          ],
+          "lernpunkte": [
+            "Flash-Lungenödem"
+          ]
+        },
+        {
+          "id": "N_029",
+          "titel": "Renal-tubuläre Azidose (RTA)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Hyperchlorämische Azidose",
+          "praesentation": "Normale Anionenlücke.",
+          "befunde": [
+            "Urin-pH > 5,5 (Typ 1)"
+          ],
+          "diagnose": "RTA",
+          "therapie": [
+            "Bicarbonat"
+          ],
+          "lernpunkte": [
+            "Kaliummangel bei Typ 1/2"
+          ]
+        },
+        {
+          "id": "N_030",
+          "titel": "HUS",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Kind nach Durchfall",
+          "praesentation": "Anämie, Thrombozytopenie, Nierenversagen.",
+          "befunde": [
+            "Fragmentozyten, EHEC Nachweis"
+          ],
+          "diagnose": "Hämolytisch-urämisches Syndrom",
+          "therapie": [
+            "Dialyse, Supportiv (keine Antibiose!)"
+          ],
+          "lernpunkte": [
+            "Shiga-Toxin"
+          ]
+        },
+        {
+          "id": "N_031",
+          "titel": "TTP",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Erwachsener, neurolog. Symptome",
+          "praesentation": "Pentade (Fieber, Anämie, Thrombos↓, Niere, Neuro).",
+          "befunde": [
+            "ADAMTS13-Aktivität↓"
+          ],
+          "diagnose": "Thrombotisch-thrombozytopenische Purpura",
+          "therapie": [
+            "Plasmapherese"
+          ],
+          "lernpunkte": [
+            "ADAMTS13"
+          ]
+        },
+        {
+          "id": "N_032",
+          "titel": "Balkenblase (Postrenal)",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Älterer ♂ mit BPH",
+          "praesentation": "Überlaufblase, AKI.",
+          "befunde": [
+            "Sono: Hydronephrose, volle Blase"
+          ],
+          "diagnose": "Postrenales Nierenversagen",
+          "therapie": [
+            "DK-Einlage / Nephrostomie"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache AKI"
+          ]
+        },
+        {
+          "id": "N_033",
+          "titel": "Nierenzellkarzinom",
+          "tags": [
+            "Onko"
+          ],
+          "patient": "Hämaturie, Flankenschmerz",
+          "praesentation": "Paraneoplastisch (Erythrozytose).",
+          "befunde": [
+            "CT: Raumforderung Niere"
+          ],
+          "diagnose": "Hypernephrom",
+          "therapie": [
+            "Nephrektomie, Tyrosinkinase-Inhibitor"
+          ],
+          "lernpunkte": [
+            "Frühe Metastasierung in Lunge"
+          ]
+        },
+        {
+          "id": "N_034",
+          "titel": "Osteodystrophia renalis",
+          "tags": [
+            "Niere"
+          ],
+          "patient": "Dialyse-Patient",
+          "praesentation": "Knochenschmerzen.",
+          "befunde": [
+            "Phosphat↑, Calcium↓, PTH↑↑ (sek. HPT)"
+          ],
+          "diagnose": "Renale Osteopathie",
+          "therapie": [
+            "Phosphatsenker, Vit. D, Calcimimetika"
+          ],
+          "lernpunkte": [
+            "High-turnover Bone Disease"
+          ]
+        },
+        {
+          "id": "N_035",
+          "titel": "Laktatazidose unter Metformin",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Diabetiker mit Infekt",
+          "praesentation": "Azidose, Koma.",
+          "befunde": [
+            "Laktat > 5, Metformin-Spiegel↑"
+          ],
+          "diagnose": "MALA",
+          "therapie": [
+            "Dialyse"
+          ],
+          "lernpunkte": [
+            "Metformin absetzen bei GFR < 30"
+          ]
+        }
+      ]
+    },
+    "5_endokrinologie_stoffwechsel": {
+      "label": "Endokrinologie & Stoffwechsel (35 Themen)",
+      "faelle": [
+        {
+          "id": "E_001",
+          "titel": "Diabetes mellitus Typ 1",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "15j, schlank",
+          "praesentation": "Gewichtsverlust, Polyurie.",
+          "befunde": [
+            "GAD-Ak+, C-Peptid↓"
+          ],
+          "diagnose": "Typ 1 Diabetes",
+          "therapie": [
+            "ICT (Basis-Bolus)"
+          ],
+          "lernpunkte": [
+            "Absoluter Insulinmangel"
+          ]
+        },
+        {
+          "id": "E_002",
+          "titel": "Diabetes mellitus Typ 2",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "50j, Adipositas",
+          "praesentation": "Zufallsbefund BZ.",
+          "befunde": [
+            "HbA1c 7,5%"
+          ],
+          "diagnose": "Typ 2 Diabetes",
+          "therapie": [
+            "Metformin + SGLT2i/GLP-1"
+          ],
+          "lernpunkte": [
+            "Relativer Insulinmangel, Resistenz"
+          ]
+        },
+        {
+          "id": "E_003",
+          "titel": "Diabetische Ketoazidose",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "T1DM, Infekt",
+          "praesentation": "Pseudoperitonitis, Kussmaul-Atmung.",
+          "befunde": [
+            "BZ 500, pH 7,1, Ketone++"
+          ],
+          "diagnose": "Ketoazidose",
+          "therapie": [
+            "Volumen, Insulin i.v., Kalium!"
+          ],
+          "lernpunkte": [
+            "Gefahr: Hirnödem"
+          ]
+        },
+        {
+          "id": "E_004",
+          "titel": "Hyperosmolares Koma",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "T2DM, Exsikkose",
+          "praesentation": "Somnolenz.",
+          "befunde": [
+            "BZ 800, keine Azidose"
+          ],
+          "diagnose": "HHS",
+          "therapie": [
+            "Rehydrierung vorsichtig"
+          ],
+          "lernpunkte": [
+            "Viel Volumen nötig"
+          ]
+        },
+        {
+          "id": "E_005",
+          "titel": "Diabetische Nephropathie",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "Langjähriger Diabetes",
+          "praesentation": "Proteinurie.",
+          "befunde": [
+            "Albumin/Krea Ratio↑"
+          ],
+          "diagnose": "Kimmelstiel-Wilson",
+          "therapie": [
+            "ACE-Hemmer, SGLT2i"
+          ],
+          "lernpunkte": [
+            "Progressionsverzögerung"
+          ]
+        },
+        {
+          "id": "E_006",
+          "titel": "Diabetische Retinopathie",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "Sehverschlechterung",
+          "praesentation": "Cotton-wool-Herde.",
+          "befunde": [
+            "Fundoskopie: Mikroaneurysmen"
+          ],
+          "diagnose": "Nicht-proliferative Retinopathie",
+          "therapie": [
+            "BZ-Einstellung, Laser"
+          ],
+          "lernpunkte": [
+            "Regelmäßiger Augenarzt"
+          ]
+        },
+        {
+          "id": "E_007",
+          "titel": "Diabetische Neuropathie",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "Brennende Füße",
+          "praesentation": "Sockenförmige Parästhesien.",
+          "befunde": [
+            "Stimmgabel (Rydel-Seiffer)↓"
+          ],
+          "diagnose": "PNP",
+          "therapie": [
+            "Duloxetin / Pregabalin"
+          ],
+          "lernpunkte": [
+            "Schmerzkontrolle"
+          ]
+        },
+        {
+          "id": "E_008",
+          "titel": "Morbus Basedow",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "Unruhe, Zittern",
+          "praesentation": "Merseburger Trias (Struma, Exophthalmus, Tachykardie).",
+          "befunde": [
+            "TRAK+, TSH↓, fT4↑"
+          ],
+          "diagnose": "Hyperthyreose M. Basedow",
+          "therapie": [
+            "Thiamazol (block and replace)"
+          ],
+          "lernpunkte": [
+            "TRAK"
+          ]
+        },
+        {
+          "id": "E_009",
+          "titel": "Autonomie (Schilddrüse)",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "Älterer Patient",
+          "praesentation": "Herzrhythmusstörungen nach Kontrastmittel.",
+          "befunde": [
+            "Szinti: Heißer Knoten"
+          ],
+          "diagnose": "Schilddrüsenautonomie",
+          "therapie": [
+            "Radiojod oder OP"
+          ],
+          "lernpunkte": [
+            "Kontrastmittel induziert (Jod-Basedow)"
+          ]
+        },
+        {
+          "id": "E_010",
+          "titel": "Hashimoto-Thyreoiditis",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "Müdigkeit, Gewicht↑",
+          "praesentation": "Depression.",
+          "befunde": [
+            "TPO-Ak+, TSH↑, echoarme SD"
+          ],
+          "diagnose": "Hypothyreose Hashimoto",
+          "therapie": [
+            "L-Thyroxin"
+          ],
+          "lernpunkte": [
+            "Autoimmun-Thyreoiditis"
+          ]
+        },
+        {
+          "id": "E_011",
+          "titel": "Thyreoiditis de Quervain",
+          "tags": [
+            "Schilddrüse"
+          ],
+          "patient": "Halsweh, Fieber",
+          "praesentation": "Schmerzhafte Schilddrüse.",
+          "befunde": [
+            "BSG-Sturzsenkung, CRP↑"
+          ],
+          "diagnose": "Subakute Thyreoiditis",
+          "therapie": [
+            "NSAR / Steroide"
+          ],
+          "lernpunkte": [
+            "Viral induziert"
+          ]
+        },
+        {
+          "id": "E_012",
+          "titel": "Morbus Cushing",
+          "tags": [
+            "Nebenniere"
+          ],
+          "patient": "Vollmondgesicht, Striae rubrae",
+          "praesentation": "Stammfettsucht, Hypertonie.",
+          "befunde": [
+            "Dexamethason-Hemmtest: Keine Suppression"
+          ],
+          "diagnose": "M. Cushing (Hypophysenadenom)",
+          "therapie": [
+            "OP Adenom"
+          ],
+          "lernpunkte": [
+            "ACTH↑"
+          ]
+        },
+        {
+          "id": "E_013",
+          "titel": "Ektopes ACTH-Syndrom",
+          "tags": [
+            "Paraneoplasie"
+          ],
+          "patient": "SCLC-Patient",
+          "praesentation": "Massive Hypokaliämie, Cushing-Habitus.",
+          "befunde": [
+            "ACTH extrem hoch"
+          ],
+          "diagnose": "Ektopes Cushing",
+          "therapie": [
+            "Tumorbehandlung"
+          ],
+          "lernpunkte": [
+            "Meist Kleinzeller"
+          ]
+        },
+        {
+          "id": "E_014",
+          "titel": "Morbus Addison",
+          "tags": [
+            "Nebenniere"
+          ],
+          "patient": "Hyperpigmentierung, Schwäche",
+          "praesentation": "Hypotonie, Salzhunger.",
+          "befunde": [
+            "Natrium↓, Kalium↑, Cortisol↓"
+          ],
+          "diagnose": "Primäre NNR-Insuffizienz",
+          "therapie": [
+            "Hydrocortison + Fludrocortison"
+          ],
+          "lernpunkte": [
+            "Addison-Krise bei Stress!"
+          ]
+        },
+        {
+          "id": "E_015",
+          "titel": "Conn-Syndrom",
+          "tags": [
+            "Hypertonie"
+          ],
+          "patient": "Therapierefraktäre Hypertonie",
+          "praesentation": "Muskelschwäche (Hypokaliämie).",
+          "befunde": [
+            "Aldosteron/Renin-Quotient↑"
+          ],
+          "diagnose": "Primärer Hyperaldosteronismus",
+          "therapie": [
+            "Spironolacton / OP"
+          ],
+          "lernpunkte": [
+            "Häufigste sek. Hypertonie"
+          ]
+        },
+        {
+          "id": "E_016",
+          "titel": "Phäochromozytom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Anfallsartige Kopfschmerzen",
+          "praesentation": "Palpitationen, Schwitzen, RR-Spitzen.",
+          "befunde": [
+            "Metanephrine im Plasma/Urin↑"
+          ],
+          "diagnose": "Phäochromozytom",
+          "therapie": [
+            "α-Blocker (Phenoxybenzamin) dann OP"
+          ],
+          "lernpunkte": [
+            "Nie β-Blocker ohne α-Blockade!"
+          ]
+        },
+        {
+          "id": "E_017",
+          "titel": "Prolaktinom",
+          "tags": [
+            "Hypophyse"
+          ],
+          "patient": "♀ mit Galaktorrhö / Amenorrhö",
+          "praesentation": "♂ mit Libidoverlust.",
+          "befunde": [
+            "Prolaktin > 200 ng/ml"
+          ],
+          "diagnose": "Prolaktinom",
+          "therapie": [
+            "Dopaminagonisten (Cabergolin)"
+          ],
+          "lernpunkte": [
+            "Meist konservativ therapierbar"
+          ]
+        },
+        {
+          "id": "E_018",
+          "titel": "Akromegalie",
+          "tags": [
+            "Hypophyse"
+          ],
+          "patient": "Vergrößerung Hände/Füße",
+          "praesentation": "Zunehmende Ringgröße, grobe Gesichtszüge.",
+          "befunde": [
+            "IGF-1↑, STH-Suppressionstest path."
+          ],
+          "diagnose": "Akromegalie",
+          "therapie": [
+            "OP, Somatostatin-Analoga"
+          ],
+          "lernpunkte": [
+            "Sella-MRT"
+          ]
+        },
+        {
+          "id": "E_019",
+          "titel": "Osteoporose",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "Postmenopausale ♀",
+          "praesentation": "Wirbelkörperfraktur bei Bagatelle.",
+          "befunde": [
+            "DXA-Scan: T-Score < -2,5"
+          ],
+          "diagnose": "Osteoporose",
+          "therapie": [
+            "Calcium+Vit D, Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Ausschluss sek. Ursachen"
+          ]
+        },
+        {
+          "id": "E_020",
+          "titel": "Hyperparathyreoidismus (Primär)",
+          "tags": [
+            "Elektrolyte"
+          ],
+          "patient": "Stein-Bein-Magenpein",
+          "praesentation": "Hyperkalzämie.",
+          "befunde": [
+            "PTH↑, Calcium↑, Phosphat↓"
+          ],
+          "diagnose": "pHPT",
+          "therapie": [
+            "OP (Adenomentfernung)"
+          ],
+          "lernpunkte": [
+            "Schilddrüsen-Sono/Szinti"
+          ]
+        },
+        {
+          "id": "E_021",
+          "titel": "AGS",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Virilisierung bei Neugeborenen",
+          "praesentation": "Salzverlustkrise.",
+          "befunde": [
+            "17-OH-Progesteron↑"
+          ],
+          "diagnose": "Adrenogenitales Syndrom (21-Hydroxylase Mangel)",
+          "therapie": [
+            "Hydrocortison (lebenslang)"
+          ],
+          "lernpunkte": [
+            "Pränatales Screening"
+          ]
+        },
+        {
+          "id": "E_022",
+          "titel": "Insulinom",
+          "tags": [
+            "Pankreas"
+          ],
+          "patient": "Heißhunger nachts",
+          "praesentation": "Neuroglykopenie bei Nüchternheit.",
+          "befunde": [
+            "Whipple-Trias+, Hungerversuch+"
+          ],
+          "diagnose": "Insulinom",
+          "therapie": [
+            "OP"
+          ],
+          "lernpunkte": [
+            "Whipple-Trias"
+          ]
+        },
+        {
+          "id": "E_023",
+          "titel": "PCOS",
+          "tags": [
+            "Gyn"
+          ],
+          "patient": "Adipositas, Hirsutismus",
+          "praesentation": "Infertilität.",
+          "befunde": [
+            "LH/FSH Quotient↑, Ovar-Zysten"
+          ],
+          "diagnose": "PCOS",
+          "therapie": [
+            "Metformin, Antiandrogene"
+          ],
+          "lernpunkte": [
+            "Metabolisches Syndrom"
+          ]
+        },
+        {
+          "id": "E_024",
+          "titel": "Gynäkomastie",
+          "tags": [
+            "Männer"
+          ],
+          "patient": "Brustwachstum",
+          "praesentation": "Leberzirrhose oder Medikamente.",
+          "befunde": [
+            "Palpation: Drüsengewebe"
+          ],
+          "diagnose": "Gynäkomastie",
+          "therapie": [
+            "Grunderkrankung behandeln"
+          ],
+          "lernpunkte": [
+            "DD: Lipomastie"
+          ]
+        },
+        {
+          "id": "E_025",
+          "titel": "Metabolisches Syndrom",
+          "tags": [
+            "Prävention"
+          ],
+          "patient": "Taillenumfang↑",
+          "praesentation": "Atherosklerose-Risiko.",
+          "befunde": [
+            "RR↑, Trigly↑, BZ↑, HDL↓"
+          ],
+          "diagnose": "Metabolisches Syndrom",
+          "therapie": [
+            "Lifestyle"
+          ],
+          "lernpunkte": [
+            "Quartett des Grauens"
+          ]
+        },
+        {
+          "id": "E_026",
+          "titel": "MEN 1",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Gastrinom, pHPT, Hypophysenadenom",
+          "praesentation": "Rezidivierende Ulzera (Zollinger-Ellison).",
+          "befunde": [
+            "Mutation im MEN1-Gen"
+          ],
+          "diagnose": "Multiple endokrine Neoplasie Typ 1",
+          "therapie": [
+            "Tumorspezifisch"
+          ],
+          "lernpunkte": [
+            "3 P's (Pancreas, Pituitary, Parathyroid)"
+          ]
+        },
+        {
+          "id": "E_027",
+          "titel": "MEN 2",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "Medulläres SD-Ca, Phäochromozytom",
+          "praesentation": "Calcitonin↑.",
+          "befunde": [
+            "RET-Protoonkogen Mutation"
+          ],
+          "diagnose": "MEN 2a/2b",
+          "therapie": [
+            "Prophylaktische Thyreoidektomie"
+          ],
+          "lernpunkte": [
+            "Medulläres Karzinom"
+          ]
+        },
+        {
+          "id": "E_028",
+          "titel": "Kallmann-Syndrom",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "Ausbleibende Pubertät",
+          "praesentation": "Anosmie (kein Geruchssinn).",
+          "befunde": [
+            "Hypogonadotroper Hypogonadismus"
+          ],
+          "diagnose": "Kallmann-Syndrom",
+          "therapie": [
+            "Hormonsubstitution"
+          ],
+          "lernpunkte": [
+            "Riechkolben-Aplasie"
+          ]
+        },
+        {
+          "id": "E_029",
+          "titel": "Gynäkomastie durch Medikamente",
+          "tags": [
+            "Pharma"
+          ],
+          "patient": "Spironolacton-Anwender",
+          "praesentation": "Schmerzende Brust.",
+          "befunde": [
+            "Klinik"
+          ],
+          "diagnose": "Iatrogene Gynäkomastie",
+          "therapie": [
+            "Absetzen/Umstellen (z.B. Eplerenon)"
+          ],
+          "lernpunkte": [
+            "Nebenwirkung"
+          ]
+        },
+        {
+          "id": "E_030",
+          "titel": "Hypoglykämie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Diabetiker",
+          "praesentation": "Schwitzen, Tachykardie, Bewusstlosigkeit.",
+          "befunde": [
+            "BZ < 50 mg/dl"
+          ],
+          "diagnose": "Hypoglykämie",
+          "therapie": [
+            "Glukose p.o./i.v., Glukagon"
+          ],
+          "lernpunkte": [
+            "Vorsicht bei β-Blockern (Symptomverschleierung)"
+          ]
+        },
+        {
+          "id": "E_031",
+          "titel": "Adipositas Grad III",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "BMI > 40",
+          "praesentation": "Dyspnoe, Gelenkschmerz.",
+          "befunde": [
+            "Körpergewicht / Größe²"
+          ],
+          "diagnose": "Adipositas permagna",
+          "therapie": [
+            "Bariatrische Chirurgie"
+          ],
+          "lernpunkte": [
+            "Multimodales Konzept"
+          ]
+        },
+        {
+          "id": "E_032",
+          "titel": "Hypertriglyzeridämie",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Zufallsbefund",
+          "praesentation": "Xanthome.",
+          "befunde": [
+            "Triglyzeride > 500 (Gefahr Pankreatitis)"
+          ],
+          "diagnose": "Hyperlipidämie Typ IV",
+          "therapie": [
+            "Fibrate, Fischöl, Diät"
+          ],
+          "lernpunkte": [
+            "Pankreatitis-Prävention"
+          ]
+        },
+        {
+          "id": "E_033",
+          "titel": "Hypercholesterinämie (Familiär)",
+          "tags": [
+            "KHK"
+          ],
+          "patient": "Junger Infarktpatient",
+          "praesentation": "Arcus lipoides, Xanthome.",
+          "befunde": [
+            "LDL > 190"
+          ],
+          "diagnose": "Familiäre Hypercholesterinämie",
+          "therapie": [
+            "Statin, Ezetimib, PCSK9-Inh."
+          ],
+          "lernpunkte": [
+            "Genetik"
+          ]
+        },
+        {
+          "id": "E_034",
+          "titel": "Vitamin D Mangel",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "Bürotätigkeit",
+          "praesentation": "Müdigkeit, Myalgien.",
+          "befunde": [
+            "25-OH-Vit-D < 20 ng/ml"
+          ],
+          "diagnose": "Vit D Defizienz",
+          "therapie": [
+            "Substitution"
+          ],
+          "lernpunkte": [
+            "Wintermonate"
+          ]
+        },
+        {
+          "id": "E_035",
+          "titel": "Gicht (Hyperurikämie)",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Podagra nach Fleisch/Alkohol",
+          "praesentation": "Schmerzhafter Zeh.",
+          "befunde": [
+            "Harnsäure↑ (oft normal im Anfall)"
+          ],
+          "diagnose": "Gichtanfall",
+          "therapie": [
+            "NSAR, Colchicin, Allopurinol (Intervall)"
+          ],
+          "lernpunkte": [
+            "Zielwert < 6 mg/dl"
+          ]
+        }
+      ]
+    },
+    "6_haematologie_onkologie": {
+      "label": "Hämatologie & Onkologie (30 Themen)",
+      "faelle": [
+        {
+          "id": "H_001",
+          "titel": "Eisenmangelanämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Frau mit Hypermenorrhö",
+          "praesentation": "Blässe, Mundwinkelrhagaden.",
+          "befunde": [
+            "Ferritin↓, MCV↓, MCH↓"
+          ],
+          "diagnose": "Eisenmangel",
+          "therapie": [
+            "Eisen oral/i.v., Ursachensuche!"
+          ],
+          "lernpunkte": [
+            "Tumorausschluss bei ♂ und postm. ♀"
+          ]
+        },
+        {
+          "id": "H_002",
+          "titel": "Renale Anämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Dialysepatient",
+          "praesentation": "Schwäche.",
+          "befunde": [
+            "Hb↓, Retikulozyten↓, EPO↓"
+          ],
+          "diagnose": "Renale Anämie",
+          "therapie": [
+            "Erythropoetin-Analoga"
+          ],
+          "lernpunkte": [
+            "Korrektur Eisenstatus vor EPO"
+          ]
+        },
+        {
+          "id": "H_003",
+          "titel": "Hämolytische Anämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Ikterus, Splenomegalie",
+          "praesentation": "Dunkler Urin.",
+          "befunde": [
+            "Haptoglobin↓, LDH↑, Bili↑, Retis↑"
+          ],
+          "diagnose": "Hämolyse",
+          "therapie": [
+            "Je nach Ursache (Steroide bei AIHA)"
+          ],
+          "lernpunkte": [
+            "Coombs-Test"
+          ]
+        },
+        {
+          "id": "H_004",
+          "titel": "Megaloblastäre Anämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Veganer oder Z.n. Magen-OP",
+          "praesentation": "Funikuläre Myelose.",
+          "befunde": [
+            "MCV > 100, Vit B12/Folsäure↓"
+          ],
+          "diagnose": "B12/Folsäure Mangel",
+          "therapie": [
+            "Substitution"
+          ],
+          "lernpunkte": [
+            "Hunter-Glossitis"
+          ]
+        },
+        {
+          "id": "H_005",
+          "titel": "AML",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "Akute Infektneigung",
+          "praesentation": "Blutungen, Fieber.",
+          "befunde": [
+            "Blasten im Blutbild (>20%), Auerstäbchen"
+          ],
+          "diagnose": "Akute myeloische Leukämie",
+          "therapie": [
+            "Chemotherapie (7+3), Stammzell-Tx"
+          ],
+          "lernpunkte": [
+            "Hiatus leukaemicus"
+          ]
+        },
+        {
+          "id": "H_006",
+          "titel": "ALL",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "Kind (3j)",
+          "praesentation": "Knochenschmerzen.",
+          "befunde": [
+            "Hohe Lymphoblastenzahl"
+          ],
+          "diagnose": "Akute lymphatische Leukämie",
+          "therapie": [
+            "Chemo, Asparaginase"
+          ],
+          "lernpunkte": [
+            "ZNS-Beteiligung häufig"
+          ]
+        },
+        {
+          "id": "H_007",
+          "titel": "CML",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "50j, Zufallsfund Leukozytose",
+          "praesentation": "Milzvergrößerung.",
+          "befunde": [
+            "Ph+ (t9;22), BCR-ABL"
+          ],
+          "diagnose": "Chronisch myeloische Leukämie",
+          "therapie": [
+            "TKI (Imatinib etc.)"
+          ],
+          "lernpunkte": [
+            "Philadelphia-Chromosom"
+          ]
+        },
+        {
+          "id": "H_008",
+          "titel": "CLL",
+          "tags": [
+            "Leukämie"
+          ],
+          "patient": "75j",
+          "praesentation": "Lymphknotenschwellung (schmerzlos).",
+          "befunde": [
+            "Gumprecht-Kernschatten"
+          ],
+          "diagnose": "Chronisch lymphatische Leukämie",
+          "therapie": [
+            "Watchful Waiting / Ibrutinib"
+          ],
+          "lernpunkte": [
+            "Niedrigmalignes B-Zell-Lymphom"
+          ]
+        },
+        {
+          "id": "H_009",
+          "titel": "Multiples Myelom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "70j, Rückenschmerzen",
+          "praesentation": "CRAB-Kriterien (Calcium, Renal, Anemia, Bone).",
+          "befunde": [
+            "M-Gradient, Bence-Jones-Proteinuri"
+          ],
+          "diagnose": "Plasmozytom",
+          "therapie": [
+            "Dexamethason, Bortezomib, HD-Chemo"
+          ],
+          "lernpunkte": [
+            "Schrotschussschädel"
+          ]
+        },
+        {
+          "id": "H_010",
+          "titel": "Hodgkin-Lymphom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "25j, Alkoholschmerz",
+          "praesentation": "B-Symptomatik, mediastinale Lymphadenopathie.",
+          "befunde": [
+            "Reed-Sternberg-Zellen"
+          ],
+          "diagnose": "Morbus Hodgkin",
+          "therapie": [
+            "ABVD Schema / Bestrahlung"
+          ],
+          "lernpunkte": [
+            "Heilungschance hoch"
+          ]
+        },
+        {
+          "id": "H_011",
+          "titel": "Folliculäres Lymphom",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Indolente Schwellungen",
+          "praesentation": "Langsamer Verlauf.",
+          "befunde": [
+            "t(14;18)"
+          ],
+          "diagnose": "NHL",
+          "therapie": [
+            "Rituximab + Chemo"
+          ],
+          "lernpunkte": [
+            "Transformation in hochmalignes Lymphom möglich"
+          ]
+        },
+        {
+          "id": "H_012",
+          "titel": "DLBCL",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Rasche Schwellung",
+          "praesentation": "Hohe LDH, aggressiv.",
+          "befunde": [
+            "Histologie: Diffuse große Zellen"
+          ],
+          "diagnose": "Diffuse large B-cell lymphoma",
+          "therapie": [
+            "R-CHOP Schema"
+          ],
+          "lernpunkte": [
+            "Kurativ behandelbar trotz Aggressivität"
+          ]
+        },
+        {
+          "id": "H_013",
+          "titel": "Hämophilie A",
+          "tags": [
+            "Gerinnung"
+          ],
+          "patient": "♂ Kind, Hämatome",
+          "praesentation": "Gelenkeinblutungen.",
+          "befunde": [
+            "PTT verlängert, Faktor VIII↓"
+          ],
+          "diagnose": "Hämophilie A (X-chromosomal)",
+          "therapie": [
+            "Faktorsubstitution, Desmopressin"
+          ],
+          "lernpunkte": [
+            "Frauen sind Konduktorinnen"
+          ]
+        },
+        {
+          "id": "H_014",
+          "titel": "vWS",
+          "tags": [
+            "Gerinnung"
+          ],
+          "patient": "Nasenbluten, lange Regel",
+          "praesentation": "Schleimhautblutungen.",
+          "befunde": [
+            "vWF-Aktivität↓, Ristocetin-Kofaktor↓"
+          ],
+          "diagnose": "von-Willebrand-Syndrom",
+          "therapie": [
+            "DDAVP"
+          ],
+          "lernpunkte": [
+            "Häufigste Blutungsneigung"
+          ]
+        },
+        {
+          "id": "H_015",
+          "titel": "Thrombophilie (Faktor-V-Leiden)",
+          "tags": [
+            "Gerinnung"
+          ],
+          "patient": "Rezidivierende TVT",
+          "praesentation": "Junger Patient.",
+          "befunde": [
+            "APC-Resistenz"
+          ],
+          "diagnose": "APC-Resistenz",
+          "therapie": [
+            "Antikoagulation im Akutfall"
+          ],
+          "lernpunkte": [
+            "Häufigste hereditäre Thrombophilie"
+          ]
+        },
+        {
+          "id": "H_016",
+          "titel": "HIT Typ II",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Patient unter Heparin",
+          "praesentation": "Thrombos↓ um > 50% ab Tag 5-14.",
+          "befunde": [
+            "HIT-Antikörper positiv, Thrombosen!"
+          ],
+          "diagnose": "Heparin-induzierte Thrombozytopenie",
+          "therapie": [
+            "Heparin-Stopp, Argatroban/Danaparoid"
+          ],
+          "lernpunkte": [
+            "Thrombozytenabfall + Thrombose paradox!"
+          ]
+        },
+        {
+          "id": "H_017",
+          "titel": "DIC",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Sepsis-Patient",
+          "praesentation": "Blutung aus Einstichstellen.",
+          "befunde": [
+            "D-Dimere↑↑, Fibrinogen↓, Thrombos↓"
+          ],
+          "diagnose": "Verbrauchskoagulopathie",
+          "therapie": [
+            "Substitution von FFP/Thrombos, Heparin (frühe Phase)"
+          ],
+          "lernpunkte": [
+            "Gefahr Multiorganversagen"
+          ]
+        },
+        {
+          "id": "H_018",
+          "titel": "ITP",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Zufallsfund Thrombos 20.000",
+          "praesentation": "Petechien.",
+          "befunde": [
+            "Isolation Thrombozytopenie, KM normal"
+          ],
+          "diagnose": "Immunthrombozytopenie",
+          "therapie": [
+            "Steroide, Immunglobuline"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose"
+          ]
+        },
+        {
+          "id": "H_019",
+          "titel": "Aplastische Anämie",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Pankytopenie",
+          "praesentation": "Infekte + Blutung + Schwäche.",
+          "befunde": [
+            "KM: Fettmark"
+          ],
+          "diagnose": "Aplastische Anämie",
+          "therapie": [
+            "ATG/Ciclosporin, KM-Tx"
+          ],
+          "lernpunkte": [
+            "Keine pathologischen Zellen"
+          ]
+        },
+        {
+          "id": "H_020",
+          "titel": "Myelodysplastisches Syndrom (MDS)",
+          "tags": [
+            "Malignom"
+          ],
+          "patient": "75j, therapierefraktäre Anämie",
+          "praesentation": "Infekte.",
+          "befunde": [
+            "Zytopenie, Dysplasiezeichen im KM"
+          ],
+          "diagnose": "MDS",
+          "therapie": [
+            "Supportiv, Azacitidin"
+          ],
+          "lernpunkte": [
+            "Präleukämie"
+          ]
+        },
+        {
+          "id": "H_021",
+          "titel": "Polycythaemia vera",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Pruritus nach dem Duschen",
+          "praesentation": "Rotes Gesicht (Plethora), Kopfschmerz.",
+          "befunde": [
+            "Erythrozyten↑↑, JAK2-Mutation+"
+          ],
+          "diagnose": "PV",
+          "therapie": [
+            "Aderlass, ASS, Hydroxyurea"
+          ],
+          "lernpunkte": [
+            "Hämatokrit Ziel < 45%"
+          ]
+        },
+        {
+          "id": "H_022",
+          "titel": "Essentielle Thrombozythämie (ET)",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Thrombos 1,2 Mio",
+          "praesentation": "Thrombosen oder Blutung.",
+          "befunde": [
+            "JAK2/CALR/MPL Mutation"
+          ],
+          "diagnose": "ET",
+          "therapie": [
+            "ASS, Hydroxyurea / Anagrelid"
+          ],
+          "lernpunkte": [
+            "Ausschluss reaktive Ursachen (Eisenmangel!)"
+          ]
+        },
+        {
+          "id": "H_023",
+          "titel": "Primäre Myelofibrose",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Massive Splenomegalie",
+          "praesentation": "Tränenform-Erythrozyten.",
+          "befunde": [
+            "KM-Punktion: Punctio sicca"
+          ],
+          "diagnose": "PMF",
+          "therapie": [
+            "Ruxolitinib"
+          ],
+          "lernpunkte": [
+            "Markfasern↑"
+          ]
+        },
+        {
+          "id": "H_024",
+          "titel": "Paroxysmale nächtliche Hämoglobinurie",
+          "tags": [
+            "Blut"
+          ],
+          "patient": "Morgens dunkler Urin",
+          "praesentation": "Thrombophilie an ungewöhnlichen Orten.",
+          "befunde": [
+            "Flowzytometrie: Fehlendes CD55/CD59"
+          ],
+          "diagnose": "PNH",
+          "therapie": [
+            "Eculizumab"
+          ],
+          "lernpunkte": [
+            "Komplementvermittelte Hämolyse"
+          ]
+        },
+        {
+          "id": "H_025",
+          "titel": "Sichelzellanämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Afrikanischer Hintergrund",
+          "praesentation": "Schmerzkrisen (Vaso-okklusiv).",
+          "befunde": [
+            "Hb-Elektrophorese: HbS"
+          ],
+          "diagnose": "Sichelzellanämie",
+          "therapie": [
+            "Hydroxyurea, Hydrierung"
+          ],
+          "lernpunkte": [
+            "Autosomal-rezessiv"
+          ]
+        },
+        {
+          "id": "H_026",
+          "titel": "Thalassämie",
+          "tags": [
+            "Anämie"
+          ],
+          "patient": "Mediterraner Hintergrund",
+          "praesentation": "Mikrozytäre Anämie ohne Eisenmangel.",
+          "befunde": [
+            "Hb-Analyse, Target-Zellen"
+          ],
+          "diagnose": "β-Thalassaemia minor",
+          "therapie": [
+            "Keine (bei minor)"
+          ],
+          "lernpunkte": [
+            "Eisensubstitution vermeiden!"
+          ]
+        },
+        {
+          "id": "H_027",
+          "titel": "Febrile Neutropenie",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Chemo-Patient",
+          "praesentation": "Fieber > 38,3°C, Neutros < 500.",
+          "befunde": [
+            "Labor"
+          ],
+          "diagnose": "Febrile Neutropenie",
+          "therapie": [
+            "Sofort empirische Antibiose (Piperacillin/Tazo)"
+          ],
+          "lernpunkte": [
+            "Onkologischer Notfall"
+          ]
+        },
+        {
+          "id": "H_028",
+          "titel": "Tumorlyse-Syndrom",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Z.n. Chemostart bei Lymphom",
+          "praesentation": "AKI.",
+          "befunde": [
+            "Harnsäure↑, Phosphat↑, Kalium↑, Calcium↓"
+          ],
+          "diagnose": "TLS",
+          "therapie": [
+            "Aggressive Hydrierung, Rasburicase"
+          ],
+          "lernpunkte": [
+            "Prävention: Allopurinol"
+          ]
+        },
+        {
+          "id": "H_029",
+          "titel": "Monoklonale Gammopathie (MGUS)",
+          "tags": [
+            "Vorsorge"
+          ],
+          "patient": "Zufallsbefund erhöhte BSG",
+          "praesentation": "Keine Symptome.",
+          "befunde": [
+            "M-Gradient < 30g/l, Plasmazellen im KM < 10%"
+          ],
+          "diagnose": "MGUS",
+          "therapie": [
+            "Verlaufskontrolle"
+          ],
+          "lernpunkte": [
+            "Übergang in Myelom 1%/Jahr"
+          ]
+        },
+        {
+          "id": "H_030",
+          "titel": "Maligner Pleuraerguss",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "Fortgeschrittener Tumor",
+          "praesentation": "Dyspnoe.",
+          "befunde": [
+            "Punktat: Zytologie positiv"
+          ],
+          "diagnose": "Maligner Erguss",
+          "therapie": [
+            "Pleurodese, PleurX-Katheter"
+          ],
+          "lernpunkte": [
+            "Palliative Situation"
+          ]
+        }
+      ]
+    },
+    "7_rheumatologie_immunologie": {
+      "label": "Rheumatologie & Immunologie (30 Themen)",
+      "faelle": [
+        {
+          "id": "R_001",
+          "titel": "Rheumatoide Arthritis",
+          "tags": [
+            "Gelenke"
+          ],
+          "patient": "40j ♀, Morgensteifigkeit",
+          "praesentation": "Symmetrische Schwellung MCP/PIP.",
+          "befunde": [
+            "Anti-CCP-Ak+, RF+"
+          ],
+          "diagnose": "RA",
+          "therapie": [
+            "Methotrexat (MTX)"
+          ],
+          "lernpunkte": [
+            "Früher Beginn (Hit hard and early)"
+          ]
+        },
+        {
+          "id": "R_002",
+          "titel": "Psoriasis-Arthritis",
+          "tags": [
+            "Gelenke"
+          ],
+          "patient": "Daktylitis (Wurstfinger)",
+          "praesentation": "Haut-Psoriasis bekannt.",
+          "befunde": [
+            "Befall der DIP-Gelenke, RF negativ"
+          ],
+          "diagnose": "PsA",
+          "therapie": [
+            "MTX, TNF-Blocker"
+          ],
+          "lernpunkte": [
+            "Spondyloarthritis-Gruppe"
+          ]
+        },
+        {
+          "id": "R_003",
+          "titel": "Spondylitis ankylosans (Bechterew)",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "Junger ♂, nächtlicher Rückenschmerz",
+          "praesentation": "Besserung bei Bewegung.",
+          "befunde": [
+            "HLA-B27+, MRT: Sakroiliitis"
+          ],
+          "diagnose": "M. Bechterew",
+          "therapie": [
+            "NSAR, Physiotherapie, Anti-TNF"
+          ],
+          "lernpunkte": [
+            "Bambusstab-Wirbelsäule (Spätstadium)"
+          ]
+        },
+        {
+          "id": "R_004",
+          "titel": "Reaktive Arthritis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Z.n. GI-Infekt / Chlamydien",
+          "praesentation": "Reiter-Trias (Urethritis, Konjunktivitis, Arthritis).",
+          "befunde": [
+            "HLA-B27+"
+          ],
+          "diagnose": "Reaktive Arthritis",
+          "therapie": [
+            "NSAR, Antibiose (nur bei aktivem Fokus)"
+          ],
+          "lernpunkte": [
+            "Can't see, can't pee, can't climb a tree"
+          ]
+        },
+        {
+          "id": "R_005",
+          "titel": "Septische Arthritis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Einseitig heißes, rotes Knie",
+          "praesentation": "Fieber, massiver Schmerz.",
+          "befunde": [
+            "Gelenkpunktat: Leukozyten↑↑, Keime"
+          ],
+          "diagnose": "Septische Arthritis (Staph. aureus)",
+          "therapie": [
+            "Spülung, Antibiose i.v."
+          ],
+          "lernpunkte": [
+            "Chirurgischer Notfall!"
+          ]
+        },
+        {
+          "id": "R_006",
+          "titel": "SLE",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "Junge ♀, Lichtempfindlichkeit",
+          "praesentation": "Schmetterlingserythem.",
+          "befunde": [
+            "ANA+, Anti-dsDNA-Ak+, Komplement↓"
+          ],
+          "diagnose": "Systemischer Lupus erythematodes",
+          "therapie": [
+            "Hydroxychloroquin, Steroide"
+          ],
+          "lernpunkte": [
+            "Multiorganbefall (Lupusnephritis)"
+          ]
+        },
+        {
+          "id": "R_007",
+          "titel": "Sjögren-Syndrom",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "Trockene Augen/Mund (Sicca)",
+          "praesentation": "Karies, Fremdkörpergefühl.",
+          "befunde": [
+            "Anti-Ro/SS-A, Anti-La/SS-B, Schirmer-Test+"
+          ],
+          "diagnose": "Sjögren-Syndrom",
+          "therapie": [
+            "Symptomatisch, Tränenersatz"
+          ],
+          "lernpunkte": [
+            "Lymphomrisiko erhöht"
+          ]
+        },
+        {
+          "id": "R_008",
+          "titel": "Systemische Sklerose (Sklerodermie)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "Raynaud-Syndrom, Maskengesicht",
+          "praesentation": "Sklerodaktylie.",
+          "befunde": [
+            "Anti-Scl-70 (diffus) / Anti-Centromer (limitiert)"
+          ],
+          "diagnose": "SSc",
+          "therapie": [
+            "Immunsuppression, ACE-Hemmer"
+          ],
+          "lernpunkte": [
+            "CREST-Syndrom"
+          ]
+        },
+        {
+          "id": "R_009",
+          "titel": "Polymyalgia rheumatica",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "70j, Schulter/Beckengürtelschmerz",
+          "praesentation": "Morgendliche Schwäche.",
+          "befunde": [
+            "BSG-Sturzsenkung (> 50/1h)"
+          ],
+          "diagnose": "PMR",
+          "therapie": [
+            "Steroide (Heilung auf Probe)"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Riesenzellarteriitis"
+          ]
+        },
+        {
+          "id": "R_010",
+          "titel": "Riesenzellarteriitis",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Temporaler Kopfschmerz",
+          "praesentation": "Claudicatio masticatoria, Sehstörung.",
+          "befunde": [
+            "Biopsie A. temporalis, Halo im Sono"
+          ],
+          "diagnose": "RZA",
+          "therapie": [
+            "Hochdosis-Steroide (sofort!)"
+          ],
+          "lernpunkte": [
+            "Gefahr der Erblindung"
+          ]
+        },
+        {
+          "id": "R_011",
+          "titel": "Granulomatose mit Polyangiitis (GPA)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Blutiger Schnupfen, Hämoptysen",
+          "praesentation": "Chronische Sinusitis, Niere betroffen.",
+          "befunde": [
+            "c-ANCA (PR3) positiv"
+          ],
+          "diagnose": "Wegener-Granulomatose",
+          "therapie": [
+            "Rituximab / Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "HNO-Lunge-Niere"
+          ]
+        },
+        {
+          "id": "R_012",
+          "titel": "GPA (Limitiert)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Nur HNO-Befall",
+          "praesentation": "Borkiger Schnupfen.",
+          "befunde": [
+            "Histologie: Granulome"
+          ],
+          "diagnose": "GPA limitierte Form",
+          "therapie": [
+            "MTX"
+          ],
+          "lernpunkte": [
+            "Übergang in systemisch möglich"
+          ]
+        },
+        {
+          "id": "R_013",
+          "titel": "Panarteriitis nodosa",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Bauchschmerz, Myalgien",
+          "praesentation": "Mononeuritis multiplex.",
+          "befunde": [
+            "Hepatitis B Assoziation (30%), Angio: Aneurysmen"
+          ],
+          "diagnose": "PAN",
+          "therapie": [
+            "Steroide, Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "Vaskulitis mittelgroßer Gefäße"
+          ]
+        },
+        {
+          "id": "R_014",
+          "titel": "Borreliose (Stadium 1)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Zeckenstich vor 1 Woche",
+          "praesentation": "Erythema migrans (Wanderröte).",
+          "befunde": [
+            "Blickdiagnose"
+          ],
+          "diagnose": "Borreliose I",
+          "therapie": [
+            "Doxycyclin 200mg (10-14d)"
+          ],
+          "lernpunkte": [
+            "Keine Serologie im Frühstadium nötig"
+          ]
+        },
+        {
+          "id": "R_015",
+          "titel": "Neuroborreliose",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Fazialisparese",
+          "praesentation": "Radikuläre Schmerzen (Bannwarth-Syndrom).",
+          "befunde": [
+            "Liquor: Pleozytose, Ak-Index+"
+          ],
+          "diagnose": "Borreliose II",
+          "therapie": [
+            "Ceftriaxon i.v."
+          ],
+          "lernpunkte": [
+            "Bannwarth-Syndrom"
+          ]
+        },
+        {
+          "id": "R_016",
+          "titel": "Lyme-Arthritis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Monoarthritis Knie",
+          "praesentation": "Monate nach Zeckenstich.",
+          "befunde": [
+            "Serologie: IgG hochpositiv"
+          ],
+          "diagnose": "Borreliose III",
+          "therapie": [
+            "Doxycyclin (30d)"
+          ],
+          "lernpunkte": [
+            "Meist große Gelenke"
+          ]
+        },
+        {
+          "id": "R_017",
+          "titel": "HIV / AIDS",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Gewichtsverlust, Soor",
+          "praesentation": "Opportunistische Infektionen.",
+          "befunde": [
+            "CD4-Zellen < 200/µl"
+          ],
+          "diagnose": "AIDS",
+          "therapie": [
+            "ART (Antiretrovirale Therapie)"
+          ],
+          "lernpunkte": [
+            "U=U (Undetectable = Untransmittable)"
+          ]
+        },
+        {
+          "id": "R_018",
+          "titel": "Sepsis (qSOFA)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Alte Heimbewohnerin",
+          "praesentation": "Verwirrt, tachypnoeisch.",
+          "befunde": [
+            "RR < 100, AF > 22, Bewusstsein↓"
+          ],
+          "diagnose": "Verdacht auf Sepsis",
+          "therapie": [
+            "Volumen, Antibiotika, Fokus-Suche"
+          ],
+          "lernpunkte": [
+            "Screening-Tool qSOFA"
+          ]
+        },
+        {
+          "id": "R_019",
+          "titel": "Osteomyelitis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Diabetes, Fußulkus",
+          "praesentation": "Knochen liegt frei ('Probe-to-bone').",
+          "befunde": [
+            "MRT: Knochenmarködem"
+          ],
+          "diagnose": "Chron. Osteomyelitis",
+          "therapie": [
+            "Debridement, Langzeitantibiose"
+          ],
+          "lernpunkte": [
+            "Staphylococcus aureus"
+          ]
+        },
+        {
+          "id": "R_020",
+          "titel": "Dermatomyositis",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Muskelschwäche proximal",
+          "praesentation": "Gottron-Papeln, hellrotes Erythem Augenlider.",
+          "befunde": [
+            "CK↑, Jo-1 Ak+, EMG pathol."
+          ],
+          "diagnose": "Dermatomyositis",
+          "therapie": [
+            "Steroide, MTX"
+          ],
+          "lernpunkte": [
+            "Paraneoplasie-Ausschluss!"
+          ]
+        },
+        {
+          "id": "R_021",
+          "titel": "Antiphospholipid-Syndrom",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Rezidivierende Aborte / Thrombosen",
+          "praesentation": "Livedo racemosa.",
+          "befunde": [
+            "Lupus-Antikoagulans, Cardiolipin-Ak"
+          ],
+          "diagnose": "APS",
+          "therapie": [
+            "Antikoagulation (Marcumar / Heparin)"
+          ],
+          "lernpunkte": [
+            "Oft mit SLE assoziiert"
+          ]
+        },
+        {
+          "id": "R_022",
+          "titel": "Morbus Behçet",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Aphthosen oral/genital",
+          "praesentation": "Uveitis, Pathergie-Test+.",
+          "befunde": [
+            "HLA-B51+"
+          ],
+          "diagnose": "Behçet-Syndrom",
+          "therapie": [
+            "Colchicin, Steroide"
+          ],
+          "lernpunkte": [
+            "Seidenstraßen-Krankheit"
+          ]
+        },
+        {
+          "id": "R_023",
+          "titel": "Familiäres Mittelmeerfieber",
+          "tags": [
+            "Rheuma"
+          ],
+          "patient": "Rezidivierendes Fieber + Serositis",
+          "praesentation": "Kurze Attacken (1-3 Tage).",
+          "befunde": [
+            "MEFV-Gen-Mutation"
+          ],
+          "diagnose": "FMF",
+          "therapie": [
+            "Colchicin (lebenslang)"
+          ],
+          "lernpunkte": [
+            "Gefahr: Amyloidose"
+          ]
+        },
+        {
+          "id": "R_024",
+          "titel": "Sarkoidose (Chronisch)",
+          "tags": [
+            "Immunologie"
+          ],
+          "patient": "Husten, Belastungsdyspnoe",
+          "praesentation": "Granulome.",
+          "befunde": [
+            "ACE↑, CD4/CD8 Ratio in BAL↑"
+          ],
+          "diagnose": "Sarkoidose",
+          "therapie": [
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Nicht-verkäsende Granulome"
+          ]
+        },
+        {
+          "id": "R_025",
+          "titel": "IgG4-assoziierte Erkrankung",
+          "tags": [
+            "Immunologie"
+          ],
+          "patient": "Autoimmunpankreatitis",
+          "praesentation": "Pseudotumoren in versch. Organen.",
+          "befunde": [
+            "IgG4 i.S.↑, Histologie typisch"
+          ],
+          "diagnose": "IgG4-RD",
+          "therapie": [
+            "Steroide (sehr gut ansprechend)"
+          ],
+          "lernpunkte": [
+            "Multiorganerkrankung"
+          ]
+        },
+        {
+          "id": "R_026",
+          "titel": "Polyarteriitis nodosa",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Fieber, Gewichtsverlust",
+          "praesentation": "Mononeuritis multiplex, Netzhautinfarkte.",
+          "befunde": [
+            "Angio: Perlschnuraneurysmen"
+          ],
+          "diagnose": "PAN",
+          "therapie": [
+            "Steroide, Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "Vasa nervorum Befall"
+          ]
+        },
+        {
+          "id": "R_027",
+          "titel": "Takayasu-Arteriitis",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Junge ♀",
+          "praesentation": "Pulslose Krankheit (Arme).",
+          "befunde": [
+            "MRT-Angio: Stenosen Aorta/Äste"
+          ],
+          "diagnose": "Großgefäßvaskulitis Takayasu",
+          "therapie": [
+            "Steroide, MTX, biologics"
+          ],
+          "lernpunkte": [
+            "Pulsdifferenz"
+          ]
+        },
+        {
+          "id": "R_028",
+          "titel": "Henoch-Schönlein Purpura",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Kind nach Atemwegsinfekt",
+          "praesentation": "Tastbare Purpura Gesäß/Beine, Bauchschmerz.",
+          "befunde": [
+            "IgA-Immunkomplex-Vaskulitis"
+          ],
+          "diagnose": "IgA-Vaskulitis",
+          "therapie": [
+            "Supportiv, Steroide bei Darmbeteiligung"
+          ],
+          "lernpunkte": [
+            "Gefahr: Nephritis"
+          ]
+        },
+        {
+          "id": "R_029",
+          "titel": "Kawasaki-Syndrom",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Kleinkind, hohes Fieber",
+          "praesentation": "Konjunktivitis, Erdbeerzunge, Exanthem.",
+          "befunde": [
+            "Labor: Entzündung↑↑"
+          ],
+          "diagnose": "Kawasaki",
+          "therapie": [
+            "IVIG + Aspirin (hochdosiert)"
+          ],
+          "lernpunkte": [
+            "Gefahr: Koronaraneurysmen"
+          ]
+        },
+        {
+          "id": "R_030",
+          "titel": "Kryoglobulinämische Vaskulitis",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "Z.n. Hepatitis C",
+          "praesentation": "Purpura, Glomerulonephritis.",
+          "befunde": [
+            "Kryoglobine im Serum positiv"
+          ],
+          "diagnose": "Kryoglobulinämie",
+          "therapie": [
+            "HCV-Therapie, Rituximab"
+          ],
+          "lernpunkte": [
+            "Immunkomplexablagerung"
+          ]
+        }
+      ]
+    },
+    "8_geriatrie_notfallmedizin": {
+      "label": "Geriatrie, Intensiv & Prozeduren (45 Themen)",
+      "faelle": [
+        {
+          "id": "I_001",
+          "titel": "Delir (Hyperaktiv)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Post-OP, unruhig",
+          "praesentation": "Halluzinationen, Nesteln.",
+          "befunde": [
+            "CAM-Score positiv"
+          ],
+          "diagnose": "Delir",
+          "therapie": [
+            "Haloperidol / Risperidon (niedrigdosiert)"
+          ],
+          "lernpunkte": [
+            "Reorientierung wichtig"
+          ]
+        },
+        {
+          "id": "I_002",
+          "titel": "Delir (Hypoaktiv)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Teilnahmslos",
+          "praesentation": "Wird oft übersehen.",
+          "befunde": [
+            "Fluktuierender Verlauf"
+          ],
+          "diagnose": "Stilles Delir",
+          "therapie": [
+            "Ursachensuche (Infekt?)"
+          ],
+          "lernpunkte": [
+            "Schlechtere Prognose"
+          ]
+        },
+        {
+          "id": "I_003",
+          "titel": "Alzheimer Demenz",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Schleichend",
+          "praesentation": "Gedächtnisverlust, Wortfindungsstörung.",
+          "befunde": [
+            "MRT: Hippocampusatrophie"
+          ],
+          "diagnose": "M. Alzheimer",
+          "therapie": [
+            "Donepezil / Memantin"
+          ],
+          "lernpunkte": [
+            "Häufigste Demenzform"
+          ]
+        },
+        {
+          "id": "I_004",
+          "titel": "Vaskuläre Demenz",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Z.n. Schlaganfällen",
+          "praesentation": "Stufenweise Verschlechterung.",
+          "befunde": [
+            "CT: Mikroangiopathie (SAE)"
+          ],
+          "diagnose": "Vaskuläre Demenz",
+          "therapie": [
+            "Sekundärprophylaxe (RR, ASS)"
+          ],
+          "lernpunkte": [
+            "Stufenförmiger Verlauf"
+          ]
+        },
+        {
+          "id": "I_005",
+          "titel": "Lewy-Body Demenz",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Parkinsonismus + Demenz",
+          "praesentation": "Optische Halluzinationen, fluktuierend.",
+          "befunde": [
+            "Klinik"
+          ],
+          "diagnose": "LBD",
+          "therapie": [
+            "Keine klassischen Neuroleptika!"
+          ],
+          "lernpunkte": [
+            "Neuroleptika-Überempfindlichkeit"
+          ]
+        },
+        {
+          "id": "I_006",
+          "titel": "Frontotemporale Demenz",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Verhaltensänderung",
+          "praesentation": "Distanzlosigkeit, Aggressivität.",
+          "befunde": [
+            "MRT: Frontalatrophie"
+          ],
+          "diagnose": "Pick-Krankheit",
+          "therapie": [
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Junges Alter möglich"
+          ]
+        },
+        {
+          "id": "I_007",
+          "titel": "Sturzsyndrom",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Frailty",
+          "praesentation": "Rezidivierende Stürze.",
+          "befunde": [
+            "Timed up and go Test > 20s"
+          ],
+          "diagnose": "Multifaktorielles Sturzrisiko",
+          "therapie": [
+            "Krafttraining, Med-Check"
+          ],
+          "lernpunkte": [
+            "Polypharmazie prüfen"
+          ]
+        },
+        {
+          "id": "I_008",
+          "titel": "Frailty (Gebrechlichkeit)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Gewichtsverlust, Schwäche",
+          "praesentation": "Langsame Gehgeschwindigkeit.",
+          "befunde": [
+            "Fried-Kriterien: 3/5 erfüllt"
+          ],
+          "diagnose": "Frailty",
+          "therapie": [
+            "Ernährung, Bewegung"
+          ],
+          "lernpunkte": [
+            "Risiko für Komplikationen↑"
+          ]
+        },
+        {
+          "id": "I_009",
+          "titel": "Polypharmazie",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "12 verschiedene Medikamente",
+          "praesentation": "Stwindel, Sturz.",
+          "befunde": [
+            "PRISCUS-Liste / FORTA"
+          ],
+          "diagnose": "Interaktionsrisiko",
+          "therapie": [
+            "Deprescribing"
+          ],
+          "lernpunkte": [
+            "Weniger ist oft mehr"
+          ]
+        },
+        {
+          "id": "I_010",
+          "titel": "Sarkopenie",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "Muskelschwund",
+          "praesentation": "Mangelernährung.",
+          "befunde": [
+            "Handkraftmessung↓"
+          ],
+          "diagnose": "Sarkopenie",
+          "therapie": [
+            "Proteinreiche Kost, Kraftsport"
+          ],
+          "lernpunkte": [
+            "Funktioneller Abbau"
+          ]
+        },
+        {
+          "id": "I_011",
+          "titel": "ARDS",
+          "tags": [
+            "Intensiv"
+          ],
+          "patient": "Schwere Hypoxämie",
+          "praesentation": "Bilateraler Befall, kein Herzversagen.",
+          "befunde": [
+            "Horovitz < 300"
+          ],
+          "diagnose": "ARDS",
+          "therapie": [
+            "Lungenprotektive Beatmung, PEEP"
+          ],
+          "lernpunkte": [
+            "Berlin-Definition"
+          ]
+        },
+        {
+          "id": "I_012",
+          "titel": "Kardiogener Schock",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Z.n. STEMI",
+          "praesentation": "RR < 90, Kaltschweißig, Lungenödem.",
+          "befunde": [
+            "ZVD↑, PCWP↑, CI↓"
+          ],
+          "diagnose": "Kardiogener Schock",
+          "therapie": [
+            "Inotropika (Dobutamin), IABP/Impella"
+          ],
+          "lernpunkte": [
+            "Pumpversagen"
+          ]
+        },
+        {
+          "id": "I_013",
+          "titel": "Septischer Schock",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Sepsis + Vasopressorenbedarf",
+          "praesentation": "Laktat > 2 mmol/l trotz Volumen.",
+          "befunde": [
+            "RR niedrig"
+          ],
+          "diagnose": "Septischer Schock",
+          "therapie": [
+            "Noradrenalin, Volumen, Antibiose"
+          ],
+          "lernpunkte": [
+            "Laktat als Progress-Marker"
+          ]
+        },
+        {
+          "id": "I_014",
+          "titel": "Anaphylaktischer Schock",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Insektenstich / i.v. Kontrastmittel",
+          "praesentation": "Urtikaria, Stridor, RR-Abfall.",
+          "befunde": [
+            "Klinik"
+          ],
+          "diagnose": "Anaphylaxie Grad III-IV",
+          "therapie": [
+            "Adrenalin i.m., Volumen, Steroide, Antihistaminika"
+          ],
+          "lernpunkte": [
+            "Adrenalin i.m. ist First-Line"
+          ]
+        },
+        {
+          "id": "I_015",
+          "titel": "Hypovolämischer Schock",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Blutung (GI-Blutung)",
+          "praesentation": "Tachykardie, flache Atmung, RR↓.",
+          "befunde": [
+            "Schockindex > 1"
+          ],
+          "diagnose": "Volumenmangelschock",
+          "therapie": [
+            "Erythrozytenkonzentrate, Kristalloide"
+          ],
+          "lernpunkte": [
+            "Hämorrhagie"
+          ]
+        },
+        {
+          "id": "I_016",
+          "titel": "Reanimation (ACLS)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Kreislaufstillstand",
+          "praesentation": "Keine Atmung, kein Puls.",
+          "befunde": [
+            "EKG: Kammerflimmern oder PEA/Asystolie"
+          ],
+          "diagnose": "Herz-Kreislauf-Stillstand",
+          "therapie": [
+            "CPR 30:2, Defibrillation (wenn schockbar), Adrenalin/Amiodaron"
+          ],
+          "lernpunkte": [
+            "Minimale Unterbrechung der Thoraxkompression"
+          ]
+        },
+        {
+          "id": "I_017",
+          "titel": "Pleurapunktion (Indikation)",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Dyspnoe bei Erguss",
+          "praesentation": "Erstmaliger Erguss.",
+          "befunde": [
+            "Punktat: Protein, LDH, pH, Zytologie"
+          ],
+          "diagnose": "Ergussabklärung",
+          "therapie": [
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "Oberrand der Rippe punktieren"
+          ]
+        },
+        {
+          "id": "I_018",
+          "titel": "ZVK-Anlage",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Katecholaminpflicht",
+          "praesentation": "Kein peripherer Zugang möglich.",
+          "befunde": [
+            "Sono-gestützte Punktion V. jugularis int."
+          ],
+          "diagnose": "ZVK-Indikation",
+          "therapie": [
+            "Anlage nach Seldinger"
+          ],
+          "lernpunkte": [
+            "Lagekontrolle (Rö-Thorax oder EKG-Ableitung)"
+          ]
+        },
+        {
+          "id": "I_019",
+          "titel": "Arterielle Kanüle",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Schock / ARDS",
+          "praesentation": "Kontinuierliches RR-Monitoring nötig.",
+          "befunde": [
+            "A. radialis"
+          ],
+          "diagnose": "Invasives Monitoring",
+          "therapie": [
+            "Anlage"
+          ],
+          "lernpunkte": [
+            "Allen-Test vorher"
+          ]
+        },
+        {
+          "id": "I_020",
+          "titel": "Lumbalpunktion",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Verdacht auf Meningitis",
+          "praesentation": "Meningismus, Fieber.",
+          "befunde": [
+            "Liquor: Pleozytose, Laktat↑, Glukose↓"
+          ],
+          "diagnose": "Bakt. Meningitis",
+          "therapie": [
+            "Antibiose + Dexamethason"
+          ],
+          "lernpunkte": [
+            "Ausschluss Hirndruck vorher (Sono/CT)"
+          ]
+        },
+        {
+          "id": "I_021",
+          "titel": "Aszitespunktion",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Neu aufgetretener Aszites",
+          "praesentation": "Bauchumfang↑.",
+          "befunde": [
+            "Punktat: Eiweiß, SAAG-Quotient"
+          ],
+          "diagnose": "Aszitesabklärung",
+          "therapie": [
+            "Ggf. Parazentese + Albumin"
+          ],
+          "lernpunkte": [
+            "Albumin-Gabe ab 5 Liter Punktion"
+          ]
+        },
+        {
+          "id": "I_022",
+          "titel": "Lungenödem",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Akute Linksherzinsuffizienz",
+          "praesentation": "Schaumiger Auswurf, Rasselgeräusche.",
+          "befunde": [
+            "Rö-Thorax: Schmetterlingsödem"
+          ],
+          "diagnose": "Kardiogenes Lungenödem",
+          "therapie": [
+            "NIV, Furosemid i.v., Nitrate, Morphin"
+          ],
+          "lernpunkte": [
+            "Vorlastsenkung"
+          ]
+        },
+        {
+          "id": "I_023",
+          "titel": "Hypertensive Krise/Notfall",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "RR 220/120",
+          "praesentation": "Kopfschmerz, Sehstörung (Notfall) vs. asymptomatisch (Krise).",
+          "befunde": [
+            "Endorganschaden?"
+          ],
+          "diagnose": "Hypertensiver Notfall",
+          "therapie": [
+            "Urapidil i.v. / Nitrolingual"
+          ],
+          "lernpunkte": [
+            "Senkung um 25% in 1h"
+          ]
+        },
+        {
+          "id": "I_024",
+          "titel": "Obstruktive Atemnot",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Fremdkörperaspiration",
+          "praesentation": "Inspiratorischer Stridor.",
+          "befunde": [
+            "Atemhilfsmuskulatur"
+          ],
+          "diagnose": "Fremdkörper",
+          "therapie": [
+            "Heimlich-Handgriff, Bronchoskopie"
+          ],
+          "lernpunkte": [
+            "Heimlich nur bei drohender Erstickung"
+          ]
+        },
+        {
+          "id": "I_025",
+          "titel": "Akutes Abdomen",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Brettharter Bauch",
+          "praesentation": "Abwehrspannung.",
+          "befunde": [
+            "Rö-Abdomen: Freie Luft"
+          ],
+          "diagnose": "Hohlorganperforation",
+          "therapie": [
+            "Not-OP"
+          ],
+          "lernpunkte": [
+            "Viszeralchirurgischer Notfall"
+          ]
+        },
+        {
+          "id": "I_026",
+          "titel": "Obere GI-Blutung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Teerstuhl (Meläna)",
+          "praesentation": "Hämatemesis.",
+          "befunde": [
+            "ÖGD: Ulcus duodeni Forrest Ia"
+          ],
+          "diagnose": "OGIB",
+          "therapie": [
+            "Endoskopische Blutstillung, PPI hochdosiert"
+          ],
+          "lernpunkte": [
+            "Forrest-Klassifikation"
+          ]
+        },
+        {
+          "id": "I_027",
+          "titel": "Untere GI-Blutung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Hämatochezie (frisches Blut)",
+          "praesentation": "Reichliche Blutung.",
+          "befunde": [
+            "Koloskopie: Divertikelblutung"
+          ],
+          "diagnose": "UGIB",
+          "therapie": [
+            "Clips / Adrenalinunterspritzung"
+          ],
+          "lernpunkte": [
+            "Divertikel häufigste Ursache"
+          ]
+        },
+        {
+          "id": "I_028",
+          "titel": "Mesenterialinfarkt",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "VHF-Patient, massiver Bauchschmerz",
+          "praesentation": "Schmerz -> symptomfreies Intervall -> Peritonitis.",
+          "befunde": [
+            "Laktat↑↑, CT: Verschluss SMA"
+          ],
+          "diagnose": "Akuter Mesenterialinfarkt",
+          "therapie": [
+            "OP / Embolektomie"
+          ],
+          "lernpunkte": [
+            "Hohe Letalität, frühe Diagnose entscheidend"
+          ]
+        },
+        {
+          "id": "I_029",
+          "titel": "Status epilepticus",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Dauerhafter Krampfanfall",
+          "praesentation": "> 5 min konvulsiv.",
+          "befunde": [
+            "Klinik"
+          ],
+          "diagnose": "Status epilepticus",
+          "therapie": [
+            "Lorazepam i.v. / Midazolam i.m."
+          ],
+          "lernpunkte": [
+            "Atemwegssicherung"
+          ]
+        },
+        {
+          "id": "I_030",
+          "titel": "Schlaganfall (Ischämisch)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Halbseitenlähmung, Aphasie",
+          "praesentation": "Akutbeginn.",
+          "befunde": [
+            "CT: Ausschluss Blutung"
+          ],
+          "diagnose": "Apoplex",
+          "therapie": [
+            "Lyse (tPA) < 4,5h, Thrombektomie"
+          ],
+          "lernpunkte": [
+            "Time is brain"
+          ]
+        },
+        {
+          "id": "I_031",
+          "titel": "SAB",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Vernichtungskopfschmerz",
+          "praesentation": "Nackensteifigkeit.",
+          "befunde": [
+            "CT: Blut in den Liquorräumen"
+          ],
+          "diagnose": "Subarachnoidalblutung",
+          "therapie": [
+            "Coiling / Clipping"
+          ],
+          "lernpunkte": [
+            "Aneurysma"
+          ]
+        },
+        {
+          "id": "I_032",
+          "titel": "Aortendissektion",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Wandernder Rückenschmerz",
+          "praesentation": "Vernichtungsschmerz, Blutdruckdifferenz.",
+          "befunde": [
+            "CT-A: Intima-Flap"
+          ],
+          "diagnose": "Aortendissektion Typ A/B",
+          "therapie": [
+            "Typ A: Not-OP, Typ B: Konservativ (RR-Senkung)"
+          ],
+          "lernpunkte": [
+            "Stanfort A = Aszendens"
+          ]
+        },
+        {
+          "id": "I_033",
+          "titel": "Hyperkalzämische Krise",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Exsikkose, Somnolenz",
+          "praesentation": "Erbrechen, Polyurie.",
+          "befunde": [
+            "Calcium > 3,5 mmol/l"
+          ],
+          "diagnose": "Krise",
+          "therapie": [
+            "Flüssigkeit (viele Liter!), Bisphosphonate, Calcitonin"
+          ],
+          "lernpunkte": [
+            "Forcierte Diurese"
+          ]
+        },
+        {
+          "id": "I_034",
+          "titel": "Thyreotoxische Krise",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Z.n. Kontrastmittel bei Hyperthyreose",
+          "praesentation": "Tachykardie, Fieber, Agitierte Psychose.",
+          "befunde": [
+            "TSH↓, fT4↑↑"
+          ],
+          "diagnose": "Thyreotoxische Krise",
+          "therapie": [
+            "Thiamazol, β-Blocker, Plasmapherese"
+          ],
+          "lernpunkte": [
+            "Lebensgefahr"
+          ]
+        },
+        {
+          "id": "I_035",
+          "titel": "Hypothyreotes Koma (Myxödemkoma)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Älterer Patient im Winter",
+          "praesentation": "Bradykardie, Hypothermie, Hypoventilation.",
+          "befunde": [
+            "TSH extrem hoch"
+          ],
+          "diagnose": "Myxödemkoma",
+          "therapie": [
+            "L-Thyroxin i.v., Steroide (Addison-Ausschluss)"
+          ],
+          "lernpunkte": [
+            "Seltene Komplikation"
+          ]
+        },
+        {
+          "id": "I_036",
+          "titel": "Addison-Krise",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Bekannter M. Addison + Infekt",
+          "praesentation": "Erbrechen, Schock, Dehydratation.",
+          "befunde": [
+            "Na↓, K↑, Hypoglykämie"
+          ],
+          "diagnose": "NNR-Insuffizienz Krise",
+          "therapie": [
+            "Hydrocortison 100mg i.v., Volumen"
+          ],
+          "lernpunkte": [
+            "Sofortbehandlung vor Labordiagnostik"
+          ]
+        },
+        {
+          "id": "I_037",
+          "titel": "Lungenödem (Flash)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Nierenarterienstenose bilateral",
+          "praesentation": "Akutes Lungenödem aus voller Gesundheit.",
+          "befunde": [
+            "Sono-Doppler NAST"
+          ],
+          "diagnose": "Pickering-Syndrom",
+          "therapie": [
+            "Behandlung Lungenödem, Stent"
+          ],
+          "lernpunkte": [
+            "Rezivivgefahr"
+          ]
+        },
+        {
+          "id": "I_038",
+          "titel": "Intoxikation (Opiate)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Drogenabhängig",
+          "praesentation": "Miosis (Stecknadel), Atemdepression.",
+          "befunde": [
+            "Bradykardie"
+          ],
+          "diagnose": "Opiat-Intox",
+          "therapie": [
+            "Naloxon (fraktioniert)"
+          ],
+          "lernpunkte": [
+            "Wirkdauer Naloxon < Opiat (Nachspritzen!)"
+          ]
+        },
+        {
+          "id": "I_039",
+          "titel": "Intoxikation (Benzodiazepine)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Suizidversuch",
+          "praesentation": "Somnolenz, Ataxie.",
+          "befunde": [
+            "Stabil"
+          ],
+          "diagnose": "Benzo-Intox",
+          "therapie": [
+            "Flumazenil (Antidot)"
+          ],
+          "lernpunkte": [
+            "Krampfpotential bei Flumazenil"
+          ]
+        },
+        {
+          "id": "I_040",
+          "titel": "CO-Vergiftung",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Wohnungsbrand / Grillen drinnen",
+          "praesentation": "Kopfschmerz, Kirschrote Haut (spät).",
+          "befunde": [
+            "CO-Hb in BGA↑, SpO2 normal (falsch!)"
+          ],
+          "diagnose": "CO-Intox",
+          "therapie": [
+            "100% O2, hyperbare Oxygenierung"
+          ],
+          "lernpunkte": [
+            "Pulsoxy unzuverlässig"
+          ]
+        },
+        {
+          "id": "I_041",
+          "titel": "Aspiration",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Schlaganfall-Patient",
+          "praesentation": "Husten, Dyspnoe nach Essen.",
+          "befunde": [
+            "Infiltrat meist re. Unterlappen"
+          ],
+          "diagnose": "Aspirationspneumonie (Mendelson-S.)",
+          "therapie": [
+            "Absaugen, Antibiose"
+          ],
+          "lernpunkte": [
+            "Schlucktraining"
+          ]
+        },
+        {
+          "id": "I_042",
+          "titel": "Lungenembolie (Intermediate High)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Dyspnoe, stabil",
+          "praesentation": "Rechtsherzbelastung im Echo.",
+          "befunde": [
+            "Troponin↑"
+          ],
+          "diagnose": "LE submassiv",
+          "therapie": [
+            "Antikoagulation, Monitoring Intensiv"
+          ],
+          "lernpunkte": [
+            "Überwachung wichtig"
+          ]
+        },
+        {
+          "id": "I_043",
+          "titel": "Elektrounfall",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Stromschlag",
+          "praesentation": "Verbrennung, Herzrhythmusstörungen.",
+          "befunde": [
+            "EKG: Extrasystolen"
+          ],
+          "diagnose": "Stromunfall",
+          "therapie": [
+            "EKG-Monitoring für 24h"
+          ],
+          "lernpunkte": [
+            "Gefahr: Myoglobinurie (Niere)"
+          ]
+        },
+        {
+          "id": "I_044",
+          "titel": "Meningismus-Check",
+          "tags": [
+            "Prozedur"
+          ],
+          "patient": "Fieber, Kopfschmerz",
+          "praesentation": "Klinik.",
+          "befunde": [
+            "Brudzinski, Kernig, Lasègue"
+          ],
+          "diagnose": "V.a. Meningitis",
+          "therapie": [
+            "Klinische Untersuchung"
+          ],
+          "lernpunkte": [
+            "Nackensteife"
+          ]
+        },
+        {
+          "id": "I_045",
+          "titel": "Triage (MANV)",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Massenanfall",
+          "praesentation": "Großschadensereignis.",
+          "befunde": [
+            "Rot, Gelb, Grün, Schwarz"
+          ],
+          "diagnose": "Triage",
+          "therapie": [
+            "Priorisierung der Behandlung"
+          ],
+          "lernpunkte": [
+            "Schnelle Sichtung"
+          ]
+        }
+      ]
+    }
+  }
+}

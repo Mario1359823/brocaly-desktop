@@ -1,0 +1,2434 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Psychosomatische Medizin und Psychotherapie",
+    "version": "1.0.0",
+    "total": 80,
+    "kategorien": 7,
+    "erstellt": "2026-04-23"
+  },
+  "kategorien": {
+    "somatoforme_funktionelle_stoerungen": {
+      "label": "Somatoforme & Funktionelle Störungen",
+      "emoji": "🫀",
+      "faelle": [
+        {
+          "id": "PSM001",
+          "titel": "Somatisierungsstörung (multiple körperliche Beschwerden ohne Befund)",
+          "tags": ["Somatisierung", "Polysymptomatik", "F45.0"],
+          "patient": "38-jährige Patientin, Verwaltungsangestellte, verheiratet, 2 Kinder",
+          "praesentation": "Seit über 2 Jahren rezidivierende Beschwerden in wechselnden Organsystemen: Kopfschmerzen, Bauchschmerzen, Herzrasen, Rückenschmerzen, Taubheitsgefühle in den Händen. Zahlreiche Arztkonsultationen und unauffällige Befunde. Zunehmende Frustration und Gefühl, nicht ernst genommen zu werden.",
+          "befunde": [
+            "Körperliche Untersuchung unauffällig",
+            "Labor (BB, CRP, TSH, Leber, Niere): Normalbefunde",
+            "EKG, Abdomen-Sonografie, MRT HWS: ohne pathologischen Befund",
+            "PHQ-15: 18 Punkte (schwere somatische Symptomlast)",
+            "SOMS-7: multiple somatoforme Symptome in 4 Organsystemen",
+            "PHQ-9: 12 Punkte (mittelschwere depressive Begleitsymptomatik)"
+          ],
+          "diagnose": "Somatisierungsstörung (F45.0) mit komorbider mittelgradiger depressiver Episode",
+          "therapie": [
+            "Psychoedukation: Erklärungsmodell der somatoformen Störung (Stressreaktion, vegetative Dysregulation)",
+            "Ambulante Psychotherapie (KVT mit Fokus auf Symptomwahrnehmung und -bewertung)",
+            "Einbezug des Hausarztes als Koordinator (feste Termine statt Notfallkonsultationen)",
+            "Antidepressivum (Sertralin 50 mg) bei komorbider Depression",
+            "Entspannungsverfahren (Progressive Muskelrelaxation nach Jacobson)",
+            "Stationäre psychosomatische Behandlung bei Therapieresistenz erwägen"
+          ],
+          "lernpunkte": [
+            "Somatisierungsstörung nach ICD-10: mindestens 2 Jahre multiple somatische Symptome in verschiedenen Organsystemen ohne ausreichende organische Erklärung",
+            "Iatrogene Schädigung durch wiederholte invasive Diagnostik vermeiden (Doctor-Shopping, Chronifizierung)",
+            "Therapeutische Beziehung als zentraler Wirkfaktor: Beschwerden ernst nehmen, ohne organische Ursache zu bestätigen",
+            "PHQ-15 als Screening-Instrument für somatische Symptomlast"
+          ]
+        },
+        {
+          "id": "PSM002",
+          "titel": "Undifferenzierte Somatoforme Störung",
+          "tags": ["Somatoform", "F45.1", "Chronifizierung"],
+          "patient": "52-jähriger Patient, Lagerarbeiter, geschieden",
+          "praesentation": "Seit ca. 8 Monaten persistierende Müdigkeit, diffuse Gliederschmerzen und Druckgefühl im Brustbereich. Keine vollständige Erfüllung der Kriterien einer Somatisierungsstörung. Arbeitsfähigkeit eingeschränkt. Patient befürchtet Herzerkrankung.",
+          "befunde": [
+            "Belastungs-EKG: unauffällig, gute Belastbarkeit",
+            "Echokardiografie: Normalbefund",
+            "Labor (Troponin, CK, CRP, TSH): unauffällig",
+            "PHQ-15: 10 Punkte (mittelschwere somatische Symptomlast)",
+            "Psychopathologischer Befund: leicht ängstliche Grundstimmung, keine formalen Denkstörungen"
+          ],
+          "diagnose": "Undifferenzierte Somatoforme Störung (F45.1)",
+          "therapie": [
+            "Psychoedukation über Zusammenhang von Stress und körperlichen Beschwerden",
+            "Kurzzeitpsychotherapie (12-25 Sitzungen, psychodynamisch)",
+            "Regelmäßige Bewegung (moderate Ausdauerbelastung)",
+            "Entlastungsgespräche bezüglich Scheidungssituation",
+            "Verlaufsbeobachtung alle 4 Wochen beim Hausarzt"
+          ],
+          "lernpunkte": [
+            "Abgrenzung zur Somatisierungsstörung: weniger Symptome oder kürzere Dauer als 2 Jahre",
+            "ICD-11-Neuerung: Bodily Distress Disorder als übergeordnete Kategorie",
+            "Stressoren als auslösende und aufrechterhaltende Faktoren identifizieren",
+            "Vermeidung von Overdiagnostik bei gleichzeitig ausreichender somatischer Basisabklärung"
+          ]
+        },
+        {
+          "id": "PSM003",
+          "titel": "Hypochondrische Störung / Krankheitsangststörung",
+          "tags": ["Hypochondrie", "Krankheitsangst", "F45.2"],
+          "patient": "34-jähriger Patient, Informatiker, ledig",
+          "praesentation": "Seit 1 Jahr zunehmende Überzeugung, an einem Hirntumor zu leiden. Auslöser: Tod eines Kollegen an Glioblastom. Ständiges Googeln von Symptomen, häufige Arztbesuche und Wunsch nach erneuter MRT (bereits 3 MRTs unauffällig). Schlafstörungen und Konzentrationsprobleme durch permanente Sorge.",
+          "befunde": [
+            "Neurologische Untersuchung: komplett unauffällig",
+            "MRT Schädel (3x in 12 Monaten): jeweils Normalbefund",
+            "WAS (Whiteley-Index): 11 Punkte (deutlich erhöht)",
+            "PHQ-9: 9 Punkte (leichte depressive Symptomatik)",
+            "GAD-7: 14 Punkte (mittelschwere Angst)"
+          ],
+          "diagnose": "Hypochondrische Störung (F45.2) / Krankheitsangststörung",
+          "therapie": [
+            "Kognitive Verhaltenstherapie (Expositionsübungen: Reduktion von Rückversicherungsverhalten, Körperwahrnehmungsübungen)",
+            "Psychoedukation: Teufelskreis der Krankheitsangst (selektive Aufmerksamkeit → Symptomverstärkung)",
+            "Vereinbarung: keine weitere Bildgebung ohne klare medizinische Indikation",
+            "Ggf. SSRI (Fluoxetin 20 mg) bei ausgeprägter Angst",
+            "Medienabstinenz bezüglich Symptom-Recherche vereinbaren"
+          ],
+          "lernpunkte": [
+            "Hypochondrische Störung: Angst vor Krankheit steht im Vordergrund, nicht das Symptom selbst",
+            "In ICD-11 als Hypochondrische Störung (6B23) in Zwangsspektrum eingeordnet",
+            "Cyberchondria: Internet-Recherche als aufrechterhaltender Faktor",
+            "Klare Absprachen mit Patient bezüglich diagnostischer Grenzen treffen"
+          ]
+        },
+        {
+          "id": "PSM004",
+          "titel": "Somatoforme Schmerzstörung (chronisch)",
+          "tags": ["Schmerzstörung", "F45.40", "Chronischer Schmerz"],
+          "patient": "47-jährige Patientin, Krankenschwester, verheiratet",
+          "praesentation": "Seit 3 Jahren zunehmende diffuse Schmerzen im gesamten Körper, v.a. Rücken, Schultern und Knie. Keine adäquate organische Erklärung. Mehrfache orthopädische Vorstellungen, 2 Operationen ohne Besserung. Aktuell arbeitsunfähig, sozialer Rückzug, Grübelneigung.",
+          "befunde": [
+            "Orthopädische Untersuchung: degenerative Veränderungen, die das Schmerzausmaß nicht erklären",
+            "MRT WS: altersentsprechend, keine relevante Pathologie",
+            "Labor: CRP, BSG, Rheumafaktor, ANA negativ",
+            "Schmerztagebuch: keine klare Korrelation zu Belastung, aber Zunahme bei emotionalem Stress",
+            "PHQ-9: 16 Punkte (mittelgradige Depression)",
+            "Biografie: Pflegebedürftige Mutter seit 5 Jahren, hohe Doppelbelastung"
+          ],
+          "diagnose": "Anhaltende somatoforme Schmerzstörung (F45.40)",
+          "therapie": [
+            "Multimodale Schmerztherapie (stationär/teilstationär)",
+            "Psychodynamische Psychotherapie (Zusammenhang Biografie/Schmerz)",
+            "Amitriptylin 25-50 mg zur Schlaf (als Ko-Analgetikum)",
+            "Physiotherapie mit aktivierendem Ansatz",
+            "Sozialberatung: Entlastung der häuslichen Pflegesituation",
+            "Erarbeitung eines realistischen Aktivitätsniveaus (Pacing)"
+          ],
+          "lernpunkte": [
+            "F45.40: Anhaltender Schmerz, der durch emotionalen Konflikt oder psychosoziale Belastung erklärt wird",
+            "Abgrenzung zu F45.41 (Schmerz mit somatischer UND psychischer Komponente)",
+            "Operationen ohne klare Indikation verschlechtern häufig die Prognose bei somatoformer Schmerzstörung",
+            "Ko-Analgetika (trizyklische Antidepressiva, Duloxetin) sind medikamentöse Erstlinie"
+          ]
+        },
+        {
+          "id": "PSM005",
+          "titel": "Somatoforme autonome Funktionsstörung (Herz)",
+          "tags": ["Herzneurose", "F45.30", "Funktionell"],
+          "patient": "29-jähriger Patient, Bankkaufmann, ledig",
+          "praesentation": "Wiederkehrende Episoden von Herzrasen, Brustenge und Atemnot seit 6 Monaten. Patient ist überzeugt, einen Herzinfarkt zu erleiden. Mehrfache Notaufnahmebesuche. Zwischen den Episoden ständige Selbstbeobachtung (Pulsmessung mit Smartwatch).",
+          "befunde": [
+            "Ruhe-EKG und Belastungs-EKG: Normalbefund",
+            "Echokardiografie: unauffällig",
+            "24h-EKG: vereinzelte supraventrikuläre Extrasystolen (SVES), klinisch irrelevant",
+            "Troponin: negativ",
+            "Herzangstfragebogen (HAF): deutlich erhöht",
+            "Körperliche Untersuchung: Hyperventilationszeichen bei Angstprovokation"
+          ],
+          "diagnose": "Somatoforme autonome Funktionsstörung des kardiovaskulären Systems (F45.30), Herzneurose",
+          "therapie": [
+            "Psychoedukation: vegetative Reaktion bei Angst (Adrenalin → Herzrasen → Angstverstärkung)",
+            "Kognitive Verhaltenstherapie (Exposition mit interozeptiven Reizen)",
+            "Atemübungen, Atemtechniken bei Hyperventilation",
+            "Reduktion des Checking-Verhaltens (Smartwatch-Nutzung limitieren)",
+            "Ggf. kurzfristig Betablocker (Propranolol 10-20 mg) bei ausgeprägter Symptomatik",
+            "Keine Benzodiazepine wegen Abhängigkeitspotenzial"
+          ],
+          "lernpunkte": [
+            "Herzneurose: häufige Differenzialdiagnose in der Notaufnahme",
+            "SVES sind harmlos und dürfen nicht als Erklärung für die Symptomatik verwendet werden",
+            "Interozeptive Exposition: gezielte Provokation von Herzklopfen (z.B. Treppensteigen) in der Therapie",
+            "Abgrenzung zu Panikstörung: bei somatoformer Störung steht die Organattribution im Vordergrund"
+          ]
+        },
+        {
+          "id": "PSM006",
+          "titel": "Somatoforme autonome Funktionsstörung (GI - Reizdarmsyndrom)",
+          "tags": ["Reizdarm", "IBS", "F45.32"],
+          "patient": "31-jährige Patientin, Lehrerin, in Partnerschaft",
+          "praesentation": "Seit 2 Jahren rezidivierende Bauchschmerzen, Blähungen und wechselnde Stuhlgewohnheiten (Diarrhoe und Obstipation). Symptomverschlechterung vor Prüfungssituationen und bei Konflikten. Bereits umfangreiche gastroenterologische Abklärung ohne pathologischen Befund.",
+          "befunde": [
+            "Koloskopie: unauffälliger Befund, keine Entzündungszeichen",
+            "Abdomen-Sonografie: Normalbefund",
+            "Labor: CRP, Calprotectin im Stuhl, Zöliakie-Serologie: unauffällig",
+            "Atemtest (Laktose, Fruktose): negativ",
+            "Rom-IV-Kriterien: erfüllt (Bauchschmerzen ≥1 Tag/Woche über 3 Monate, assoziiert mit Stuhlveränderung)",
+            "Psychologische Diagnostik: erhöhte Ängstlichkeit, Perfektionismus"
+          ],
+          "diagnose": "Reizdarmsyndrom (K58.0/F45.32), gemischter Typ",
+          "therapie": [
+            "Psychoedukation: Darm-Hirn-Achse (Gut-Brain-Axis)",
+            "Darmgerichtete Hypnotherapie (gut-directed hypnotherapy)",
+            "KVT mit Fokus auf Stressmanagement und Katastrophisieren",
+            "Ernährungsberatung: low-FODMAP-Diät als Versuch",
+            "Pfefferminzölkapseln bei Spasmen, Flohsamenschalen bei Obstipation",
+            "Ggf. Amitriptylin niedrigdosiert (10-25 mg) bei Diarrhoe-dominantem Typ"
+          ],
+          "lernpunkte": [
+            "Reizdarmsyndrom betrifft ca. 10-15% der Bevölkerung, häufig mit psychischer Komorbidität",
+            "Darmgerichtete Hypnotherapie hat gute Evidenz (NNT ~4)",
+            "Rom-IV-Kriterien als diagnostischer Standard",
+            "Calprotectin im Stuhl zum Ausschluss einer CED obligat"
+          ]
+        },
+        {
+          "id": "PSM007",
+          "titel": "Funktionelle Dyspepsie",
+          "tags": ["Dyspepsie", "Funktionell", "K30"],
+          "patient": "44-jähriger Patient, Selbstständiger, verheiratet",
+          "praesentation": "Seit 1 Jahr Oberbauchschmerzen, Völlegefühl, frühes Sättigungsgefühl und Übelkeit. Symptomverstärkung bei beruflichem Stress. 3 kg Gewichtsverlust durch eingeschränkte Nahrungsaufnahme. Patient befürchtet Magenkrebs.",
+          "befunde": [
+            "Ösophagogastroduodenoskopie: unauffällige Schleimhaut, keine Erosionen, kein Ulkus",
+            "Helicobacter-pylori-Test: negativ",
+            "Abdomen-Sonografie: unauffällig (Gallenblase, Pankreas, Leber o.B.)",
+            "Labor: Lipase, Amylase, Leberwerte, BB: Normalbefunde",
+            "Rom-IV-Kriterien für funktionelle Dyspepsie: erfüllt"
+          ],
+          "diagnose": "Funktionelle Dyspepsie (K30), epigastrisches Schmerzsyndrom",
+          "therapie": [
+            "Psychoedukation: funktionelle Störung der Magenentleerung und viszeralen Hypersensitivität",
+            "PPI-Versuch (Pantoprazol 20 mg) für 4 Wochen",
+            "Bei Nichtansprechen: trizyklisches Antidepressivum niedrigdosiert (Amitriptylin 10-25 mg)",
+            "Stressreduktion und Entspannungsverfahren",
+            "Ernährungsberatung: kleine Mahlzeiten, fettarm",
+            "Psychotherapie bei ausgeprägter psychosozialer Belastung"
+          ],
+          "lernpunkte": [
+            "Funktionelle Dyspepsie: Zwei Subtypen (postprandiales Distress-Syndrom vs. epigastrisches Schmerzsyndrom)",
+            "Viszerale Hypersensitivität als zentrales pathophysiologisches Konzept",
+            "PPI und trizyklische Antidepressiva haben moderate Evidenz",
+            "H. pylori-Eradikation nur bei positivem Nachweis (geringe Besserungsrate)"
+          ]
+        },
+        {
+          "id": "PSM008",
+          "titel": "Chronic Fatigue Syndrom (CFS/ME)",
+          "tags": ["CFS", "ME", "G93.3", "Fatigue"],
+          "patient": "28-jährige Patientin, Studentin, ledig",
+          "praesentation": "Seit 8 Monaten nach durchgemachtem Infekt (EBV-positiv) anhaltende schwere Erschöpfung, die durch Ruhe nicht besserbar ist. Post-Exertional Malaise (PEM) nach minimaler Anstrengung. Kognitive Einschränkungen (Brain Fog), Schlafstörungen, orthostatische Intoleranz. Studium musste unterbrochen werden.",
+          "befunde": [
+            "Labor: BB, CRP, TSH, Cortisol, Ferritin, Vitamin D, ANA: unauffällig",
+            "EBV-Serologie: Zustand nach EBV-Infektion (IgG positiv, IgM negativ)",
+            "Schellong-Test: Abfall des systolischen RR um 25 mmHg nach 10 min Stehen",
+            "Neuropsychologische Testung: Verlangsamung der Informationsverarbeitung",
+            "Kanadische Konsensuskriterien (CCC) für ME/CFS: erfüllt",
+            "Bell-CFS-Disability-Scale: 30 (schwere Einschränkung)"
+          ],
+          "diagnose": "Myalgische Enzephalomyelitis/Chronisches Fatigue Syndrom (ME/CFS, G93.3)",
+          "therapie": [
+            "Pacing (Aktivitätsmanagement: Belastung unterhalb der PEM-Schwelle)",
+            "KEINE Graded Exercise Therapy (GET) – kann Zustand verschlechtern",
+            "Orthostase-Management: ausreichend Flüssigkeit, Kompressionsstrümpfe",
+            "Symptomatisch: Schlafhygiene, ggf. niedrigdosiertes Amitriptylin",
+            "Sozialmedizinische Beratung: GdB-Antrag, ggf. Erwerbsminderungsrente",
+            "Psychologische Unterstützung: Krankheitsbewältigung, KEINE kausale Psychotherapie"
+          ],
+          "lernpunkte": [
+            "ME/CFS ist eine neuroimmunologische Erkrankung, KEINE primär psychiatrische Störung",
+            "Post-Exertional Malaise (PEM) ist das Kardinalsymptom",
+            "GET kann bei ME/CFS schaden – NICE 2021 hat GET-Empfehlung zurückgezogen",
+            "Differenzialdiagnose: Depression, Hypothyreose, Addison, Schlafapnoe, MS ausschließen"
+          ]
+        },
+        {
+          "id": "PSM009",
+          "titel": "Fibromyalgiesyndrom",
+          "tags": ["Fibromyalgie", "M79.7", "Chronischer Schmerz"],
+          "patient": "50-jährige Patientin, Einzelhandelskauffrau, geschieden, 3 Kinder",
+          "praesentation": "Seit über 3 Jahren generalisierte Schmerzen am ganzen Körper, ausgeprägte Müdigkeit, nicht erholsamer Schlaf, kognitive Einschränkungen. Zahlreiche Arztbesuche, frustrane medikamentöse Therapieversuche. Biografie: körperliche Misshandlung in der Kindheit.",
+          "befunde": [
+            "Widespread Pain Index (WPI): 12, Symptom Severity Score (SSS): 9 – ACR-2010-Kriterien erfüllt",
+            "Druckschmerzhaftigkeit an 14 von 18 Tender Points",
+            "Labor: BSG, CRP, Rheumafaktor, Anti-CCP, ANA, TSH: unauffällig",
+            "Schlafpolygrafie: Alpha-Delta-Schlaf (Non-REM-Schlafstörung)",
+            "PHQ-9: 14 (mittelschwere Depression), CTQ: erhöhte Werte für körperliche Misshandlung"
+          ],
+          "diagnose": "Fibromyalgiesyndrom (M79.7) mit komorbider Depression und Kindheitstraumatisierung",
+          "therapie": [
+            "Multimodale Therapie: Kombination aus Ausdauertraining, KVT und Patientenedukation (S3-Leitlinie)",
+            "Duloxetin 60 mg oder Pregabalin 150-300 mg bei ausgeprägter Symptomatik",
+            "Moderates aerobes Ausdauertraining (3x/Woche, z.B. Schwimmen, Walking)",
+            "Traumatherapie bei relevanter Kindheitstraumatisierung",
+            "Selbsthilfegruppe",
+            "KEINE Opioide (unwirksam bei Fibromyalgie)"
+          ],
+          "lernpunkte": [
+            "Fibromyalgie ist KEINE entzündlich-rheumatische Erkrankung – Rheumafaktor/ANA dienen dem Ausschluss",
+            "ACR-2010-Kriterien ersetzen die alten Tender-Point-Kriterien",
+            "Zentrale Sensitivierung als pathophysiologisches Konzept",
+            "Kindheitstraumatisierung ist ein häufiger Risikofaktor (2-3x erhöhtes Risiko)"
+          ]
+        },
+        {
+          "id": "PSM010",
+          "titel": "Funktioneller Schwindel (PPPD)",
+          "tags": ["PPPD", "Schwindel", "Funktionell"],
+          "patient": "42-jähriger Patient, Lehrer, verheiratet",
+          "praesentation": "Seit 6 Monaten persistierender Schwankschwindel, verstärkt beim Stehen, Gehen und in visuell komplexen Umgebungen (Supermarkt). Beginn nach einem Lagerungsschwindel-Ereignis, das sich auflöste, aber der Schwindel persistierte. Zunehmende Vermeidung öffentlicher Orte.",
+          "befunde": [
+            "HNO-Befund: Normalbefund, kein Nystagmus",
+            "Videonystagmografie: unauffällig",
+            "MRT Schädel: unauffällig",
+            "Romberg-Stehversuch: subjektive Unsicherheit, aber kein Schwanken",
+            "Posturografie: verstärkte Haltungskontrolle (Stiffening)",
+            "Barany-Society-Kriterien für PPPD: erfüllt"
+          ],
+          "diagnose": "Persistierender Postural-Perzeptueller Schwindel (PPPD)",
+          "therapie": [
+            "Psychoedukation: PPPD als eigenständige neurootologische Diagnose",
+            "KVT mit vestibulärer Rehabilitationstherapie (VRT) kombiniert",
+            "Sertralin 50-100 mg (Evidenz für SSRI bei PPPD)",
+            "Desensibilisierung gegenüber visuellen Stimuli",
+            "Vermeidungsverhalten schrittweise abbauen (Exposition)",
+            "Regelmäßige Bewegung und Gleichgewichtstraining"
+          ],
+          "lernpunkte": [
+            "PPPD ist die häufigste Ursache für chronischen Schwindel in der Psychosomatik",
+            "Typischer Verlauf: organischer Trigger (z.B. BPLS) → Persistenz durch Angst/Vermeidung",
+            "Stiffening in der Posturografie ist ein typischer Befund (übermäßige Haltungskontrolle)",
+            "SSRI haben moderate Evidenz, KVT + VRT ist Therapie der Wahl"
+          ]
+        },
+        {
+          "id": "PSM011",
+          "titel": "Globusgefühl (funktionell)",
+          "tags": ["Globus", "Funktionell", "F45.8"],
+          "patient": "36-jährige Patientin, Marketingmanagerin, ledig",
+          "praesentation": "Seit 4 Monaten Fremdkörpergefühl im Hals (‚als ob da ein Kloß steckt'). Keine Dysphagie, Essen und Trinken ungestört. Symptom verstärkt sich bei Stress und emotionaler Belastung. Angst vor Schilddrüsenkrebs nach Internetrecherche.",
+          "befunde": [
+            "HNO-Endoskopie: unauffälliger Larynx und Pharynx",
+            "Schilddrüsensonografie: Normalbefund, keine Knoten",
+            "TSH, fT3, fT4: im Normbereich",
+            "Ösophagogastroduodenoskopie: kein Reflux, keine Ösophagitis",
+            "24h-pH-Metrie: physiologisch"
+          ],
+          "diagnose": "Funktionelles Globusgefühl (F45.8)",
+          "therapie": [
+            "Psychoedukation: Globusgefühl als häufiges funktionelles Symptom (pharyngeale Muskelverspannung bei Stress)",
+            "Entspannungsübungen, Stimmtherapie/Logopädie",
+            "KVT bei begleitender Krankheitsangst",
+            "Keine weiteren invasiven Untersuchungen",
+            "Stressmanagement und Work-Life-Balance"
+          ],
+          "lernpunkte": [
+            "Globusgefühl: Kein Schluckproblem, Symptom bessert sich beim Essen",
+            "Differenzialdiagnose: Reflux, Schilddrüse, Zenker-Divertikel, Raumforderung ausschließen",
+            "Häufig assoziiert mit Angststörungen und Stress",
+            "Prognose bei funktionellem Globus ist gut (Spontanremission bei ca. 50%)"
+          ]
+        },
+        {
+          "id": "PSM012",
+          "titel": "Funktionelle Bewegungsstörung",
+          "tags": ["Funktionell", "FND", "Konversion"],
+          "patient": "25-jährige Patientin, Studentin, in Partnerschaft",
+          "praesentation": "Plötzlich aufgetretener Tremor der rechten Hand seit 3 Wochen, intermittierend auch Gangstörung. Beginn nach einem Streit mit dem Partner. In der Anamnese Vergewaltigung im Alter von 16 Jahren. Neurologie konnte keine organische Ursache finden.",
+          "befunde": [
+            "Neurologische Untersuchung: inkonstanter Tremor, der bei Ablenkung sistiert (Entrainment-Test positiv)",
+            "Hoover-Zeichen: positiv (unwillkürliche Hüftextension bei kontralateraler Hüftbeugung)",
+            "MRT Schädel: unauffällig",
+            "Nerve Conduction Study: Normalbefund",
+            "Psychopathologischer Befund: emotional labil, dissoziative Symptome"
+          ],
+          "diagnose": "Funktionelle Bewegungsstörung / Konversionsstörung (F44.4)",
+          "therapie": [
+            "Aufklärung über die Diagnose: ‚echte' Störung, keine Simulation",
+            "Physiotherapie mit Fokus auf Ablenkungstechniken und automatische Bewegungen",
+            "Traumatherapie (EMDR oder traumafokussierte KVT) für Vergewaltigungserfahrung",
+            "Multidisziplinärer Ansatz: Neurologie + Psychosomatik + Physiotherapie",
+            "Keine Immobilisierung oder Schonhaltung fördern"
+          ],
+          "lernpunkte": [
+            "Positive klinische Zeichen (Entrainment, Hoover) beweisen funktionelle Genese – keine reine Ausschlussdiagnose mehr",
+            "Funktionelle neurologische Störungen (FND) sind die zweithäufigste Diagnose in neurologischen Ambulanzen",
+            "Prognose hängt von früher Diagnosestellung und konsequenter Therapie ab",
+            "Traumatische Erfahrungen sind häufig, aber nicht obligat"
+          ]
+        },
+        {
+          "id": "PSM013",
+          "titel": "Chronischer Tinnitus (psychosomatisch)",
+          "tags": ["Tinnitus", "Psychosomatik", "H93.1"],
+          "patient": "48-jähriger Patient, Musiklehrer, verheiratet",
+          "praesentation": "Seit 1 Jahr permanentes Ohrgeräusch (hochfrequentes Pfeifen beidseits) nach einem Hörsturz. HNO-Behandlung des Hörsturzes erfolgt. Tinnitus ist persistiert und führt zu Schlafstörungen, Konzentrationsproblemen und depressiver Verstimmung. Patient kann seinen Beruf kaum noch ausüben.",
+          "befunde": [
+            "Audiometrie: leichtgradige Hochtonschwerhörigkeit beidseits (Senke bei 4-6 kHz)",
+            "Tinnitus-Matching: 6 kHz, 10 dB über Hörschwelle",
+            "MRT Felsenbein/Kleinhirnbrückenwinkel: unauffällig (Akustikusneurinom ausgeschlossen)",
+            "Tinnitus-Fragebogen (TF): Grad III (dekompensiert)",
+            "PHQ-9: 15 Punkte (mittelschwere Depression)",
+            "Schlaf: Einschlafstörung, durchschnittlich 4-5 Stunden/Nacht"
+          ],
+          "diagnose": "Chronischer dekompensierter Tinnitus (H93.1) mit komorbider depressiver Episode",
+          "therapie": [
+            "Tinnitus-Retraining-Therapie (TRT): Kombination aus Counseling und Klangtherapie",
+            "KVT für Tinnitus: Aufmerksamkeitsumlenkung, kognitive Umstrukturierung",
+            "Antidepressivum bei komorbider Depression (Sertralin 50 mg)",
+            "Hörgeräteversorgung bei Schwerhörigkeit (Maskierungseffekt)",
+            "Schlafhygiene, ggf. Melatonin, Hintergrundgeräusche zum Einschlafen",
+            "Stationäre psychosomatische Rehabilitation bei Dekompensation"
+          ],
+          "lernpunkte": [
+            "Dekompensierter vs. kompensierter Tinnitus: Leidensdruck und Beeinträchtigung bestimmen die Therapieindikation",
+            "KVT für Tinnitus hat beste Evidenz (Cochrane Review)",
+            "Akustikusneurinom als wichtige Differenzialdiagnose bei einseitigem Tinnitus",
+            "Interdisziplinäre Therapie: HNO + Psychosomatik + Audiologie"
+          ]
+        },
+        {
+          "id": "PSM014",
+          "titel": "Reizblase (Overactive Bladder, funktionell)",
+          "tags": ["Reizblase", "OAB", "Funktionell"],
+          "patient": "39-jährige Patientin, Anwältin, verheiratet, 1 Kind",
+          "praesentation": "Seit 1 Jahr imperativer Harndrang mit erhöhter Miktionsfrequenz (>12x/Tag), auch nachts 3-4x. Gelegentlich Dranginkontinenz. Urologische Abklärung ohne organischen Befund. Symptomatik verstärkt sich in Stresssituationen (Gerichtsverhandlungen).",
+          "befunde": [
+            "Urinanalyse: unauffällig, kein Harnwegsinfekt",
+            "Restharnbestimmung: 20 ml (normal)",
+            "Urodynamik: Detrusorüberaktivität nicht nachweisbar",
+            "Zystoskopie: unauffällige Blasenschleimhaut",
+            "Miktionsprotokoll: 14 Miktionen/Tag, Blasenkapazität reduziert (120-180 ml)",
+            "GAD-7: 12 Punkte (mittelschwere Angst)"
+          ],
+          "diagnose": "Funktionelle Reizblase / Overactive Bladder Syndrom (N31.1/F45.34)",
+          "therapie": [
+            "Blasentraining: schrittweise Verlängerung der Miktionsintervalle",
+            "Beckenbodentraining (Physiotherapie)",
+            "KVT: Zusammenhang Angst/Harndrang bearbeiten, Aufmerksamkeitslenkung",
+            "Trospiumchlorid oder Solifenacin als medikamentöse Option (Anticholinergika)",
+            "Stressmanagement und Entspannungsverfahren",
+            "Ausreichende Trinkmenge (nicht reduzieren!)"
+          ],
+          "lernpunkte": [
+            "OAB betrifft ca. 12-17% der Bevölkerung, häufig psychische Komorbidität",
+            "Blasentraining ist First-Line-Therapie mit guter Evidenz",
+            "Anticholinergika: auf kognitive Nebenwirkungen bei älteren Patienten achten",
+            "Trinkmenge-Reduktion als Copingstrategie verschlechtert die Symptomatik"
+          ]
+        },
+        {
+          "id": "PSM015",
+          "titel": "Bodyload-Syndrom (Somatoforme Belastungsstörung)",
+          "tags": ["Somatic Symptom Disorder", "SSD", "DSM-5"],
+          "patient": "55-jähriger Patient, Ingenieur, verheiratet",
+          "praesentation": "Multiple körperliche Beschwerden (Rückenschmerzen, Kopfschmerzen, Verdauungsprobleme) mit exzessiver Beschäftigung mit den Symptomen. Ständiges Recherchieren im Internet, hohe Gesundheitsausgaben, zahlreiche Arztbesuche. Deutliche Beeinträchtigung des Alltagslebens durch übermäßige Zeit und Energie, die der Gesundheit gewidmet wird.",
+          "befunde": [
+            "Somatische Diagnostik: weitgehend unauffällig (leichte degenerative LWS-Veränderungen)",
+            "PHQ-15: 14 Punkte (mittelschwer)",
+            "SSD-12 (Somatic Symptom Disorder B-Criteria Scale): deutlich erhöht",
+            "PHQ-9: 11 Punkte (mittelschwere depressive Symptomatik)",
+            "Psychopathologischer Befund: ängstlich-grüblerisch, krankheitszentriertes Denken"
+          ],
+          "diagnose": "Somatic Symptom Disorder / Somatische Belastungsstörung (DSM-5: 300.82 / ICD-11: 6C20)",
+          "therapie": [
+            "Psychoedukation: neues Konzept der Somatischen Belastungsstörung (Fokus auf Verhalten, nicht auf Organfreiheit)",
+            "KVT: Reduktion dysfunktionaler Krankheitsüberzeugungen und übermäßigen Gesundheitsverhaltens",
+            "Hausarzt als Lotse: regelmäßige, geplante Termine statt notfallmäßige Konsultationen",
+            "Antidepressivum bei komorbider Depression",
+            "Werteorientierte Therapie: Lebensqualität statt Symptomfreiheit als Ziel"
+          ],
+          "lernpunkte": [
+            "Somatic Symptom Disorder (DSM-5/ICD-11): Shift von ‚medizinisch unerklärt' zu ‚exzessive Beschäftigung mit Symptomen'",
+            "B-Kriterien (Gedanken, Gefühle, Verhalten bzgl. Symptomen) sind entscheidend für die Diagnose",
+            "Kritik: Gefahr der Psychiatrisierung somatisch Kranker (z.B. Krebspatienten mit Sorgen)",
+            "Paradigmenwechsel: Diagnose auch bei vorliegender organischer Erkrankung möglich"
+          ]
+        }
+      ]
+    },
+    "essstoerungen": {
+      "label": "Essstörungen",
+      "emoji": "🍽️",
+      "faelle": [
+        {
+          "id": "PSM016",
+          "titel": "Anorexia nervosa (restriktiv)",
+          "tags": ["Anorexie", "F50.0", "Restriktiv"],
+          "patient": "17-jährige Patientin, Gymnasiastin, lebt bei den Eltern",
+          "praesentation": "Seit 10 Monaten zunehmende Nahrungsrestriktion. Aktueller BMI 14,8 kg/m². Amenorrhoe seit 6 Monaten. Exzessives Sporttreiben (2 Stunden Joggen täglich). Kein Krankheitseinsicht, fühlt sich ‚noch zu dick'. Eltern besorgt wegen zunehmender Isolation.",
+          "befunde": [
+            "BMI 14,8 kg/m² (<3. Perzentile für Alter)",
+            "Labor: Kalium 3,1 mmol/l (↓), Phosphat 0,7 mmol/l (↓), Albumin 30 g/l (↓)",
+            "Östradiol <20 pg/ml, LH/FSH supprimiert",
+            "EKG: Sinusbradykardie (48/min), QTc 450 ms (grenzwertig)",
+            "DEXA: Z-Score -2,5 (Osteoporose)",
+            "EDE-Q: Eating Disorder Examination Questionnaire stark erhöht"
+          ],
+          "diagnose": "Anorexia nervosa, restriktiver Typ (F50.00), schwere Ausprägung (BMI <15)",
+          "therapie": [
+            "Stationäre Aufnahme bei BMI <15 und somatischer Instabilität",
+            "Strukturierter Ernährungsaufbau (Ziel: 0,5-1 kg/Woche Gewichtszunahme)",
+            "Elektrolytmonitoring (Cave: Refeeding-Syndrom, Phosphat-Substitution)",
+            "Psychotherapie: KVT-E (Enhanced) oder fokale psychodynamische Therapie",
+            "Familienbasierte Therapie (FBT/Maudsley-Approach) bei Minderjährigen als First-Line",
+            "Gewichtsvertrag und klare Therapievereinbarungen",
+            "Knochendichtemessung-Kontrolle, ggf. Vitamin D + Calcium-Substitution"
+          ],
+          "lernpunkte": [
+            "Anorexia nervosa hat die höchste Mortalität aller psychiatrischen Erkrankungen (5-10% in 10 Jahren)",
+            "Refeeding-Syndrom: Hypophosphatämie, Hypokaliämie, Herzrhythmusstörungen bei zu schnellem Kostaufbau",
+            "FBT ist bei Minderjährigen mit kurzer Krankheitsdauer die Methode der ersten Wahl (NICE)",
+            "DEXA-Kontrolle: Osteoporose ist eine häufige und ernst zu nehmende Komplikation"
+          ]
+        },
+        {
+          "id": "PSM017",
+          "titel": "Anorexia nervosa (Purging-Typ)",
+          "tags": ["Anorexie", "Purging", "F50.01"],
+          "patient": "22-jährige Patientin, Studentin, ledig",
+          "praesentation": "BMI 16,2 kg/m². Neben Nahrungsrestriktion regelmäßiges selbstinduziertes Erbrechen (3-4x/Woche) und Laxanzienabusus. Geschwollene Parotisdrüsen, erodierte Zähne. Stimmungsschwankungen und Selbstverletzung (Ritzen an den Unterarmen).",
+          "befunde": [
+            "BMI 16,2 kg/m²",
+            "Labor: Kalium 2,8 mmol/l (↓↓), metabolische Alkalose (pH 7,48), Amylase erhöht",
+            "Russell-Zeichen an den Handknöcheln (Schwielen durch Erbrechen)",
+            "Parotisschwellung beidseits",
+            "Zahnärztlicher Befund: massive Erosionen der Zahnschmelzinnenflächen",
+            "EKG: Hypokaliämie-Zeichen (U-Wellen, ST-Senkung)"
+          ],
+          "diagnose": "Anorexia nervosa, Purging-Typ (F50.01) mit Selbstverletzungsverhalten",
+          "therapie": [
+            "Stationäre Behandlung: Elektrolytausgleich (Kalium i.v.)",
+            "Strukturierter Mahlzeitenplan, Begleitung nach dem Essen (Anti-Purging)",
+            "KVT-E mit Fokus auf Purging-Verhalten und Impulskontrolle",
+            "DBT-Elemente bei Selbstverletzung (Skillstraining, Spannungsregulation)",
+            "Zahnärztliche Sanierung, Fluoridierung",
+            "Laxanzien schrittweise ausschleichen (Cave: Rebound-Obstipation)"
+          ],
+          "lernpunkte": [
+            "Purging-Typ hat höheres Risiko für Elektrolytstörungen und kardiale Komplikationen",
+            "Metabolische Alkalose (durch Erbrechen) vs. metabolische Azidose (durch Laxanzien) unterscheiden",
+            "Russell-Zeichen und Parotisschwellung als klinische Hinweise auf Purging",
+            "Laxanzien-Entzug kann zu schwerer Obstipation und Ödemen führen"
+          ]
+        },
+        {
+          "id": "PSM018",
+          "titel": "Bulimia nervosa",
+          "tags": ["Bulimie", "F50.2", "Essanfälle"],
+          "patient": "26-jährige Patientin, kaufmännische Angestellte, in Partnerschaft",
+          "praesentation": "Seit 4 Jahren regelmäßige Essanfälle (2-3x/Woche) mit Kontrollverlust, gefolgt von selbstinduziertem Erbrechen. Normalgewicht (BMI 22). Schamgefühle, Geheimhaltung vor dem Partner. Ausgeprägte Selbstwertproblematik, die stark an Figur und Gewicht gekoppelt ist.",
+          "befunde": [
+            "BMI 22 kg/m² (Normalgewicht)",
+            "Labor: Kalium 3,3 mmol/l (untere Norm), Amylase leicht erhöht",
+            "Zahnärztlich: beginnende Erosionen",
+            "EDE-Q: deutlich erhöhte Werte in allen Subskalen",
+            "PHQ-9: 12 Punkte (mittelschwere depressive Symptomatik)",
+            "Psychopathologischer Befund: Schamaffekt, übermäßige Beschäftigung mit Körpergewicht"
+          ],
+          "diagnose": "Bulimia nervosa (F50.2)",
+          "therapie": [
+            "Ambulante KVT-E als Erstlinientherapie (20 Sitzungen über 20 Wochen)",
+            "Strukturierung der Mahlzeiten: regelmäßige Mahlzeiten zur Reduktion von Essanfällen",
+            "Essprotokoll mit Situationsanalyse (Trigger identifizieren)",
+            "Fluoxetin 60 mg (einziges für Bulimie zugelassenes SSRI, hohe Dosis nötig)",
+            "Selbstwertarbeit unabhängig von Figur und Gewicht",
+            "Paarberatung bei Bedarf (Geheimhaltung als Belastung)"
+          ],
+          "lernpunkte": [
+            "Bulimie: Essanfälle + kompensatorisches Verhalten bei meist normalem Gewicht",
+            "KVT-E ist Goldstandard mit Evidenzlevel A",
+            "Fluoxetin 60 mg: höhere Dosis als bei Depression nötig, einzige zugelassene Substanz",
+            "Elektrolyte regelmäßig kontrollieren, auch bei Normalgewicht"
+          ]
+        },
+        {
+          "id": "PSM019",
+          "titel": "Binge-Eating-Störung",
+          "tags": ["Binge-Eating", "F50.4", "Adipositas"],
+          "patient": "45-jähriger Patient, LKW-Fahrer, geschieden",
+          "praesentation": "Seit mehreren Jahren wiederkehrende Essanfälle (3-5x/Woche) ohne kompensatorische Maßnahmen. BMI 38 kg/m². Isst bis zum unangenehmen Völlegefühl, meist allein aus Scham. Danach Ekel und Schuldgefühle. Mehrere gescheiterte Diätversuche.",
+          "befunde": [
+            "BMI 38 kg/m² (Adipositas Grad II)",
+            "Labor: HbA1c 6,2% (Prädiabetes), Triglyceride 220 mg/dl (↑), HDL 35 mg/dl (↓)",
+            "Blutdruck: 145/92 mmHg",
+            "Binge-Eating-Scale (BES): 32 Punkte (schwer)",
+            "PHQ-9: 14 Punkte (mittelschwere Depression)"
+          ],
+          "diagnose": "Binge-Eating-Störung (F50.4) bei Adipositas Grad II mit metabolischem Syndrom",
+          "therapie": [
+            "KVT mit Fokus auf Essanfälle (Trigger, Emotionsregulation, strukturierte Mahlzeiten)",
+            "Interpersonelle Psychotherapie (IPT) als Alternative",
+            "Lisdexamfetamin (Elvanse): einziges zugelassenes Medikament bei BES",
+            "Ernährungsberatung: keine Diäten (Diäten triggern Essanfälle), sondern regelmäßiges Essen",
+            "Behandlung metabolischer Risikofaktoren",
+            "Moderate Bewegung ohne Gewichtsfokus"
+          ],
+          "lernpunkte": [
+            "Binge-Eating-Störung ist die häufigste Essstörung (3-5% der Bevölkerung)",
+            "Keine kompensatorischen Maßnahmen – dadurch Abgrenzung zur Bulimie",
+            "Lisdexamfetamin ist in Deutschland seit 2016 zugelassen (Missbrauchspotenzial beachten)",
+            "Restriktive Diäten können Essanfälle auslösen und sind kontraproduktiv"
+          ]
+        },
+        {
+          "id": "PSM020",
+          "titel": "Atypische Anorexie (Normalgewicht)",
+          "tags": ["Atypische Anorexie", "OSFED", "F50.1"],
+          "patient": "19-jährige Patientin, Auszubildende, BMI 21 kg/m²",
+          "praesentation": "In 8 Monaten 25 kg abgenommen (BMI von 32 auf 21). Trotz Normalgewicht bestehen intensive Angst vor Gewichtszunahme, exzessive Nahrungsrestriktion (600 kcal/Tag) und Körperschemastörung. Amenorrhoe seit 4 Monaten. Wird von Umfeld für die Gewichtsabnahme gelobt.",
+          "befunde": [
+            "Aktueller BMI 21 kg/m² (vorher BMI 32)",
+            "Gewichtsverlust: 25 kg in 8 Monaten (signifikant)",
+            "Labor: Kalium 3,2 mmol/l (↓), TSH 0,3 mU/l (supprimiert), fT3 erniedrigt (Low-T3-Syndrom)",
+            "RR: 95/60 mmHg, Puls: 52/min",
+            "Östradiol supprimiert, Amenorrhoe",
+            "EDE-Q: Werte vergleichbar mit Anorexia nervosa"
+          ],
+          "diagnose": "Atypische Anorexia nervosa (F50.1 / OSFED)",
+          "therapie": [
+            "Dringend Nahrungsaufbau auf mindestens 1800-2000 kcal/Tag",
+            "Psychoedukation: atypische Anorexie ist ebenso gefährlich wie typische Anorexie",
+            "KVT-E, angepasst an die besondere Situation (Normalgewicht, aber anorektische Kognition)",
+            "Medizinisches Monitoring: Bradykardie und Hypotonie ernst nehmen",
+            "Eltern einbeziehen, Aufklärung: Lob für Gewichtsabnahme ist kontraproduktiv",
+            "Stationäre Therapie bei somatischer Instabilität"
+          ],
+          "lernpunkte": [
+            "Atypische Anorexie: alle Kriterien der AN erfüllt AUSSER Untergewicht – gleich gefährlich!",
+            "Kardiovaskuläre Komplikationen treten auch bei Normalgewicht auf (Rate of Weight Loss entscheidend)",
+            "Low-T3-Syndrom als Zeichen der Mangelernährung trotz normalem BMI",
+            "Häufig verzögerte Diagnose, weil Normalgewicht ‚beruhigt'"
+          ]
+        },
+        {
+          "id": "PSM021",
+          "titel": "Orthorexia nervosa",
+          "tags": ["Orthorexie", "Gesundes Essen", "Zwanghaft"],
+          "patient": "32-jähriger Patient, Fitnesstrainer, ledig",
+          "praesentation": "Zunehmende Fixierung auf ‚reines' und ‚gesundes' Essen seit 2 Jahren. Ausschluss ganzer Nahrungsgruppen (Gluten, Milchprodukte, Zucker, verarbeitete Lebensmittel) ohne medizinische Indikation. Stundenlange Beschäftigung mit Einkauf und Zubereitung. Soziale Isolation, da Essen in Gesellschaft vermieden wird. BMI 19,5.",
+          "befunde": [
+            "BMI 19,5 kg/m² (untere Norm)",
+            "Labor: Vitamin B12 120 pg/ml (↓), Eisen 35 µg/dl (↓), Zink 55 µg/dl (↓)",
+            "Orthorexia Nervosa Inventory (ONI): stark erhöht",
+            "Psychopathologischer Befund: zwanghaftes Denken bezüglich Essen, rigide Regeln",
+            "Keine Körperschemastörung im klassischen Sinne, Fokus auf ‚Reinheit'"
+          ],
+          "diagnose": "Orthorexia nervosa (keine eigenständige ICD-Diagnose, Kodierung unter F50.8 oder F42)",
+          "therapie": [
+            "Psychoedukation: Orthorexie als pathologisches Essverhalten mit Krankheitswert",
+            "KVT mit Exposition: schrittweise Wiedereinführung ‚verbotener' Lebensmittel",
+            "Ernährungsberatung: ausgewogene Ernährung, Defizite ausgleichen",
+            "Substitution: Vitamin B12, Eisen, Zink",
+            "Soziale Aktivierung: gemeinsames Essen als therapeutisches Ziel",
+            "Differenzialdiagnostik: Abgrenzung zu Zwangsstörung und Anorexie"
+          ],
+          "lernpunkte": [
+            "Orthorexia nervosa ist (noch) keine eigenständige Diagnose in ICD-10/11 oder DSM-5",
+            "Abgrenzung zur Anorexie: Fokus auf Qualität/Reinheit statt Menge/Kalorien",
+            "Nährstoffdefizite trotz vermeintlich ‚gesunder' Ernährung",
+            "Überlappung mit Zwangsspektrumstörungen und perfektionistischen Persönlichkeitszügen"
+          ]
+        },
+        {
+          "id": "PSM022",
+          "titel": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+          "tags": ["ARFID", "Vermeidung", "Sensorisch"],
+          "patient": "14-jähriger Patient, Realschüler, lebt bei den Eltern",
+          "praesentation": "Seit der Kindheit extrem eingeschränktes Essrepertoire (ca. 5 Lebensmittel: Nudeln ohne Soße, Weißbrot, Chicken Nuggets, Pommes, Cornflakes). Ablehnung anderer Nahrung aufgrund von Textur, Geruch oder Aussehen. BMI 15,8 (5. Perzentile). Keine Angst vor Gewichtszunahme, kein gestörtes Körperbild.",
+          "befunde": [
+            "BMI 15,8 kg/m² (5. Perzentile für Alter/Geschlecht)",
+            "Labor: Ferritin 8 ng/ml (↓↓), Vitamin D 10 ng/ml (↓↓), Zink 50 µg/dl (↓)",
+            "Wachstumskurve: Abflachung seit 12 Monaten",
+            "Keine Körperschemastörung, kein Kalorienzählen",
+            "Sensorische Hypersensitivität für Texturen und Gerüche",
+            "ARFID-10 Screening: deutlich erhöht"
+          ],
+          "diagnose": "Avoidant/Restrictive Food Intake Disorder (ARFID, ICD-11: 6B83)",
+          "therapie": [
+            "Stufenweise Exposition gegenüber neuen Lebensmitteln (‚Food Chaining')",
+            "KVT mit sensorischer Desensibilisierung",
+            "Ernährungsberatung und Nährstoffsubstitution (Eisen, Vitamin D, Zink)",
+            "Elternschulung: druckfreies Essenumfeld schaffen",
+            "Ergotherapie bei sensorischer Verarbeitungsstörung",
+            "Ggf. hochkalorische Trinknahrung zur Gewichtsstabilisierung"
+          ],
+          "lernpunkte": [
+            "ARFID: seit DSM-5 eigenständige Diagnose, in ICD-11 übernommen",
+            "KEINE Angst vor Gewichtszunahme – Abgrenzung zur Anorexie zentral",
+            "Drei Subtypen: sensorische Vermeidung, Appetitlosigkeit/geringes Interesse, Angst vor negativen Konsequenzen (Verschlucken, Erbrechen)",
+            "Betrifft vor allem Kinder und Jugendliche, kann aber ins Erwachsenenalter persistieren"
+          ]
+        },
+        {
+          "id": "PSM023",
+          "titel": "Night-Eating-Syndrom",
+          "tags": ["Night-Eating", "Schlaf", "Essstörung"],
+          "patient": "41-jährige Patientin, Schichtarbeiterin im Krankenhaus, ledig",
+          "praesentation": "Seit 2 Jahren nächtliches Aufwachen mit unkontrollierbarem Essdrang (2-3x/Nacht). Morgens kein Appetit, abends zunehmender Heißhunger. 10 kg Gewichtszunahme in 2 Jahren. BMI 29. Gestörter Schlaf, Tagesmüdigkeit, depressive Verstimmung.",
+          "befunde": [
+            "BMI 29 kg/m²",
+            "Essprotokoll: >50% der täglichen Kalorien nach 19 Uhr, nächtliches Essen bei voller Bewusstheit",
+            "Night Eating Questionnaire (NEQ): 30 Punkte (deutlich erhöht)",
+            "Schlafprotokoll: fragmentierter Schlaf, Schlafeffizienz 65%",
+            "PHQ-9: 13 Punkte (mittelschwere Depression)",
+            "Cortisol-Tagesprofil: abgeflachte Tagesrhythmik"
+          ],
+          "diagnose": "Night-Eating-Syndrom (NES, F50.8)",
+          "therapie": [
+            "KVT mit Fokus auf Essensstrukturierung und Schlafhygiene",
+            "Lichttherapie morgens (Resynchronisation des zirkadianen Rhythmus)",
+            "Sertralin 50-150 mg (Evidenz aus RCTs bei NES)",
+            "Schlafhygienische Maßnahmen, Schichtplanoptimierung",
+            "Reguläre Mahlzeitenstruktur: ausreichend Frühstück und Mittagessen",
+            "Ggf. Schlafrestriktion/Stimuluskontrolle bei komorbider Insomnie"
+          ],
+          "lernpunkte": [
+            "Night-Eating-Syndrom: >25% der Kalorien nach dem Abendessen UND/ODER nächtliches Essen ≥2x/Woche",
+            "Abgrenzung zu Sleep-Related Eating Disorder (SRED): bei NES ist der Patient wach und erinnert sich",
+            "Zirkadiane Dysregulation als pathophysiologisches Modell (verzögerter Essrhythmus)",
+            "Schichtarbeit ist ein relevanter Risikofaktor"
+          ]
+        },
+        {
+          "id": "PSM024",
+          "titel": "Anorexie bei Leistungssport (Relative Energy Deficiency in Sport)",
+          "tags": ["RED-S", "Sportanorexie", "Leistungssport"],
+          "patient": "20-jährige Patientin, Leistungssportlerin (Langstreckenläuferin), ledig",
+          "praesentation": "Trainerin bemerkt sinkende Leistung trotz erhöhtem Trainingspensum. Patientin berichtet von Stressfrakturen (2 in 12 Monaten). Amenorrhoe seit 14 Monaten. BMI 18. Rigide Nahrungsaufnahme (‚Ich brauche nicht viel Energie'). Trainerin spricht ‚Female Athlete Triad' an.",
+          "befunde": [
+            "BMI 18 kg/m²",
+            "DEXA: Z-Score -2,1 (Osteopenie, für Alter besorgniserregend)",
+            "Östradiol <15 pg/ml, LH/FSH supprimiert",
+            "Labor: Ferritin 8 ng/ml (↓), Vitamin D 15 ng/ml (↓)",
+            "Stressfraktur Os metatarsale III (aktuell), Z.n. Stressfraktur Tibia (vor 8 Monaten)",
+            "RED-S CAT (Clinical Assessment Tool): Warnstufe Rot"
+          ],
+          "diagnose": "Relative Energy Deficiency in Sport (RED-S) / Anorexia athletica",
+          "therapie": [
+            "Sportpause bis somatische Stabilisierung (Stressfraktur verheilt, Menstruation zurückkehrt)",
+            "Erhöhung der Energiezufuhr (Energy Availability >45 kcal/kg FFM/Tag)",
+            "Psychoedukation: RED-S und Langzeitfolgen (Osteoporose, Infertilität, Karriereende)",
+            "Kooperation mit Trainerin und Sportmedizinerin (interdisziplinäres Team)",
+            "KVT bei begleitender Essstörungspsychopathologie",
+            "Calcium 1500 mg/Tag + Vitamin D 2000 IE/Tag, Eisen-Substitution"
+          ],
+          "lernpunkte": [
+            "RED-S (früher ‚Female Athlete Triad') betrifft auch männliche Sportler",
+            "Drei Kernprobleme: niedrige Energieverfügbarkeit → Amenorrhoe → Knochendichteverlust",
+            "Stressfrakturen bei jungen Sportlerinnen: immer an RED-S denken",
+            "Return-to-Sport nur bei Menstruationsrückkehr und adäquater Energiezufuhr"
+          ]
+        },
+        {
+          "id": "PSM025",
+          "titel": "Refeeding-Syndrom (Komplikation)",
+          "tags": ["Refeeding", "Hypophosphatämie", "Komplikation"],
+          "patient": "23-jährige Patientin mit Anorexia nervosa, BMI 12,5, stationäre Aufnahme",
+          "praesentation": "Aufnahme auf die Innere Medizin bei schwerem Untergewicht (BMI 12,5). Beginn des Kostaufbaus mit 1500 kcal/Tag. Am 3. Tag: zunehmende Schwäche, Tachykardie, periphere Ödeme. Laborentgleisung.",
+          "befunde": [
+            "Phosphat: 0,4 mmol/l (↓↓↓, Normbereich 0,8-1,5)",
+            "Kalium: 2,9 mmol/l (↓↓)",
+            "Magnesium: 0,5 mmol/l (↓)",
+            "EKG: Tachykardie 110/min, ST-Senkungen",
+            "Periphere Ödeme an den Unterschenkeln",
+            "Thiamin (Vitamin B1): nicht bestimmt (Risikofaktor!)"
+          ],
+          "diagnose": "Refeeding-Syndrom bei Anorexia nervosa",
+          "therapie": [
+            "SOFORT: Reduktion der Kalorienzufuhr auf 10-15 kcal/kg/Tag",
+            "Phosphatsubstitution i.v. (20-40 mmol über 4-6 Stunden)",
+            "Kaliumausgleich i.v.",
+            "Magnesiumsubstitution",
+            "Thiamin (Vitamin B1) 200-300 mg i.v. VOR Kostaufbau (Prophylaxe der Wernicke-Enzephalopathie)",
+            "Langsame Steigerung der Kalorienzufuhr (‚Start low, go slow')",
+            "Engmaschiges Monitoring: Elektrolyte 2x/Tag, EKG, Bilanzierung"
+          ],
+          "lernpunkte": [
+            "Refeeding-Syndrom: lebensgefährliche Komplikation bei zu raschem Kostaufbau nach Hungerphase",
+            "Pathophysiologie: Insulinausschüttung → intrazellulärer Shift von Phosphat, Kalium, Magnesium",
+            "Risikofaktoren: BMI <16, Nahrungskarenz >10 Tage, niedrige Elektrolyte bei Aufnahme",
+            "NICE-Leitlinie: Start mit 10 kcal/kg/Tag bei hohem Risiko, Thiamin-Gabe VOR Ernährungsbeginn"
+          ]
+        }
+      ]
+    },
+    "dissoziative_stoerungen": {
+      "label": "Dissoziative Störungen",
+      "emoji": "🪞",
+      "faelle": [
+        {
+          "id": "PSM026",
+          "titel": "Dissoziative Amnesie",
+          "tags": ["Dissoziation", "Amnesie", "F44.0"],
+          "patient": "35-jährige Patientin, Erzieherin, verheiratet, 2 Kinder",
+          "praesentation": "Vorstellung in der Notaufnahme durch Ehemann. Patientin kann sich nicht an die letzten 3 Tage erinnern. Keine Verletzungen, kein Substanzkonsum. Vor einer Woche Todesfall der Mutter, mit der ein ambivalentes Verhältnis bestand. Patientin wirkt ratlos, aber nicht verwirrt.",
+          "befunde": [
+            "Neurologische Untersuchung: unauffällig, Orientierung zu Person und Ort erhalten, zeitlich eingeschränkt",
+            "MRT Schädel: unauffällig",
+            "EEG: Normalbefund",
+            "Labor: Alkohol, Drogenscreening negativ, BB und Elektrolyte normal",
+            "Psychopathologischer Befund: wach, klar, retrograde Amnesie für 3 Tage, keine Konfabulation",
+            "Fremdanamnese (Ehemann): Patientin habe normal gewirkt, aber ‚abwesend' in den vergangenen Tagen"
+          ],
+          "diagnose": "Dissoziative Amnesie (F44.0)",
+          "therapie": [
+            "Beruhigung und sicheres Umfeld (keine forcierte Erinnerungsrekonstruktion)",
+            "Psychoedukation: Amnesie als Schutzreaktion der Psyche bei Überlastung",
+            "Psychotherapie: behutsame Exploration des Trauererlebens",
+            "KEINE Hypnose zur Erinnerungsrückgewinnung (Risiko falscher Erinnerungen)",
+            "Verlaufsbeobachtung: Amnesie löst sich häufig spontan innerhalb von Tagen bis Wochen",
+            "Traumatherapie bei persistierenden dissoziativen Symptomen"
+          ],
+          "lernpunkte": [
+            "Dissoziative Amnesie: selektiver Gedächtnisverlust für belastende Ereignisse bei erhaltenem Alltagsgedächtnis",
+            "Differenzialdiagnose: transiente globale Amnesie (TGA), Substanzintoxikation, Epilepsie, organische Ursachen",
+            "Hypnose zur Erinnerungsgewinnung ist kontraindiziert (False Memory Risk)",
+            "Prognose: meist günstig, Erinnerung kehrt häufig spontan zurück"
+          ]
+        },
+        {
+          "id": "PSM027",
+          "titel": "Dissoziative Fugue",
+          "tags": ["Fugue", "Dissoziation", "F44.1"],
+          "patient": "42-jähriger Patient, Buchhalter, verheiratet",
+          "praesentation": "Patient wird 300 km von seinem Wohnort entfernt von der Polizei aufgegriffen. Er kann nicht angeben, wie er dorthin gekommen ist, weiß aber seinen Namen. Ehefrau berichtet, er sei vor 2 Tagen nach einem heftigen Streit aus dem Haus gegangen und seitdem verschwunden. Keine psychiatrische Vorgeschichte.",
+          "befunde": [
+            "Körperliche Untersuchung: keine Verletzungen, Vitalzeichen stabil",
+            "Drogenscreening: negativ",
+            "Neurologische Untersuchung: unauffällig",
+            "MRT Schädel: Normalbefund",
+            "Psychopathologischer Befund: Orientierung zu Person erhalten, zu Ort und Zeit eingeschränkt, amnestische Lücke für 2 Tage",
+            "Keine Hinweise auf Simulation (Konsistenz der Befunde)"
+          ],
+          "diagnose": "Dissoziative Fugue (F44.1)",
+          "therapie": [
+            "Stationäre Aufnahme zur Beobachtung und Stabilisierung",
+            "Sicheres, reizarmes Umfeld",
+            "Behutsame Exploration der Auslösersituation (Ehekonflikt)",
+            "Psychotherapie: Bearbeitung des zugrunde liegenden Konflikts",
+            "Paarberatung nach Stabilisierung",
+            "Längerfristige ambulante Psychotherapie empfohlen"
+          ],
+          "lernpunkte": [
+            "Dissoziative Fugue: plötzliches, unerwartetes Weggehen von zu Hause mit Amnesie",
+            "Identität kann teilweise oder vollständig aufgegeben werden",
+            "Abgrenzung zu epileptischem Fugue-Zustand (EEG) und organisch bedingtem Zustand",
+            "Häufig durch schwere psychosoziale Belastungssituation ausgelöst"
+          ]
+        },
+        {
+          "id": "PSM028",
+          "titel": "Dissoziativer Stupor",
+          "tags": ["Stupor", "Dissoziation", "F44.2"],
+          "patient": "28-jährige Patientin, Krankenschwester, ledig",
+          "praesentation": "Kolleginnen rufen den Notarzt, weil die Patientin im Pausenraum reglos sitzt und nicht auf Ansprache reagiert. Augen geöffnet, reagiert nicht auf Schmerzreize. Vor 2 Stunden hat sie erfahren, dass ihr Ex-Partner ihre gemeinsame Tochter entführt hat.",
+          "befunde": [
+            "Vitalzeichen: stabil (RR 110/70, Puls 72/min)",
+            "Pupillen: isokor, lichtreaktiv",
+            "Muskeltonus: leicht erhöht, aber keine Katalepsie",
+            "EEG: waches Alpha-Muster (nicht kompatibel mit Bewusstlosigkeit)",
+            "Drogenscreening: negativ",
+            "Psychopathologischer Befund: mutistisch, keine willkürliche Motorik, aber Augen folgen kurz Bewegungen"
+          ],
+          "diagnose": "Dissoziativer Stupor (F44.2)",
+          "therapie": [
+            "Sicheres Umfeld, behutsame Ansprache, Reizabschirmung",
+            "Keine Konfrontation oder Schmerzreize",
+            "Ggf. niedrigdosiertes Lorazepam (0,5-1 mg) bei prolongiertem Stupor",
+            "Psychoedukation nach Remission des Stupors",
+            "Psychotherapie: Bearbeitung der akuten Traumatisierung",
+            "Krisenintervention bezüglich der Kindsentführung (Polizei, Jugendamt)"
+          ],
+          "lernpunkte": [
+            "Dissoziativer Stupor: Bewegungslosigkeit und Mutismus bei wachem EEG-Muster",
+            "Differenzialdiagnose: katatoner Stupor (Schizophrenie), organischer Stupor, Locked-in-Syndrom",
+            "EEG ist entscheidend zur Abgrenzung von Bewusstlosigkeit",
+            "Remission häufig innerhalb von Stunden bis Tagen nach Entfernung des Auslösers"
+          ]
+        },
+        {
+          "id": "PSM029",
+          "titel": "Dissoziative Bewegungsstörung (Parese)",
+          "tags": ["Konversion", "Parese", "F44.4"],
+          "patient": "30-jähriger Patient, Soldat (Bundeswehr), verheiratet, 1 Kind",
+          "praesentation": "Plötzliche Lähmung beider Beine nach Rückkehr aus dem Auslandseinsatz (Afghanistan). Kann nicht stehen oder gehen. Keine vorherige neurologische Symptomatik. Im Einsatz Zeugen eines Sprengstoffanschlags mit Todesopfern.",
+          "befunde": [
+            "Neurologische Untersuchung: Parese der unteren Extremitäten ohne Pyramidenbahnzeichen",
+            "Hoover-Zeichen: positiv bilateral",
+            "MR-Myelografie: unauffällig",
+            "NLG/EMG: Normalbefund (keine Denervierungszeichen)",
+            "Babinski: negativ bilateral",
+            "Psychopathologischer Befund: Affektverflachung, auffällige Indifferenz gegenüber der Symptomatik (La belle indifférence)"
+          ],
+          "diagnose": "Dissoziative Bewegungsstörung (F44.4) / Konversionsstörung bei Traumaexposition",
+          "therapie": [
+            "Positive Diagnosestellung erklären (Hoover-Zeichen als Nachweis der Funktionsfähigkeit des Nervensystems)",
+            "Physiotherapie mit Fokus auf automatische Bewegungen (Gangtraining, Ablenkungstechniken)",
+            "Traumatherapie (EMDR oder CPT) für Auslandseinsatz-Erfahrung",
+            "Keine Immobilisierung (Rollstuhl vermeiden, wenn möglich)",
+            "Bundeswehr-psychologischer Dienst einbeziehen",
+            "Stufenweise Belastungssteigerung"
+          ],
+          "lernpunkte": [
+            "La belle indifférence: auffällige emotionale Gleichgültigkeit gegenüber schwerer Symptomatik (nicht obligat!)",
+            "Hoover-Zeichen beweist intakte motorische Bahnen – Schlüsselbefund für funktionelle Parese",
+            "Militärpersonal: erhöhtes Risiko für Konversionsstörungen nach Traumaexposition",
+            "Prognose: besser bei kurzer Symptomdauer und früher Diagnose"
+          ]
+        },
+        {
+          "id": "PSM030",
+          "titel": "Dissoziative Krampfanfälle (PNES)",
+          "tags": ["PNES", "Krampfanfälle", "F44.5"],
+          "patient": "24-jährige Patientin, Studentin, in Partnerschaft",
+          "praesentation": "Seit 6 Monaten wiederkehrende ‚Krampfanfälle' (2-3x/Monat) mit bilateralen motorischen Entäußerungen, geschlossenen Augen und Dauer von 5-20 Minuten. Notärztliche Einsätze mit Benzodiazepinen ohne Effekt. In der Biografie sexueller Missbrauch im Alter von 8-12 Jahren.",
+          "befunde": [
+            "Video-EEG-Monitoring (stationär): 2 typische Anfälle aufgezeichnet OHNE epileptiforme Aktivität im EEG",
+            "Anfallssemiologie: asynchrone Extremitätenbewegungen, Augenkneifen (kein tonisch-klonisches Muster)",
+            "Postiktal: sofortige Reorientierung (kein postiktaler Zustand)",
+            "MRT Schädel: unauffällig",
+            "Routine-EEG: Normalbefund",
+            "CTQ (Childhood Trauma Questionnaire): schwerer sexueller Missbrauch"
+          ],
+          "diagnose": "Psychogene nicht-epileptische Anfälle (PNES) / Dissoziative Krampfanfälle (F44.5)",
+          "therapie": [
+            "Diagnoseübermittlung: empathisch, ohne den Begriff ‚Pseudoanfälle' zu verwenden",
+            "Psychoedukation: PNES sind ‚echte' Anfälle, aber nicht epileptisch – andere Behandlung nötig",
+            "Schrittweises Absetzen von Antiepileptika (falls verordnet)",
+            "KVT als Erstlinientherapie (CODES-Trial: Evidenz für KVT bei PNES)",
+            "Traumatherapie für sexuellen Missbrauch",
+            "Notfallplan: KEINE Benzodiazepine, Sicherung, Reorientierungstechniken"
+          ],
+          "lernpunkte": [
+            "Video-EEG-Monitoring ist Goldstandard für die Diagnose von PNES",
+            "Semiologische Hinweise: asynchrone Bewegungen, Augenkneifen, Kopfschütteln, Dauer >2 min",
+            "Ca. 20-30% der Epilepsie-Patienten haben zusätzlich PNES (Komorbidität möglich!)",
+            "CODES-Trial (2020): KVT reduziert Anfallsfrequenz signifikant"
+          ]
+        },
+        {
+          "id": "PSM031",
+          "titel": "Dissoziative Sensibilitätsstörung",
+          "tags": ["Dissoziation", "Sensibilität", "F44.6"],
+          "patient": "40-jährige Patientin, Reinigungskraft, alleinerziehend",
+          "praesentation": "Plötzlich aufgetretenes Taubheitsgefühl der gesamten linken Körperhälfte seit 3 Tagen. Hemihypästhesie exakt in der Mittellinie (nicht neuroanatomisch plausibel). Beginn am Tag nach einem gewaltsamen Übergriff durch den Ex-Partner.",
+          "befunde": [
+            "Neurologische Untersuchung: Hemihypästhesie links exakt an der Mittellinie endend (midline splitting)",
+            "Vibrationssinn: auf linkem Stirnbein reduziert (physikalisch unmöglich, da ein Knochen)",
+            "MRT Schädel und HWS: unauffällig",
+            "SEP (somatosensorisch evozierte Potenziale): Normalbefund bilateral",
+            "Psychopathologischer Befund: ängstlich, emotional instabil, dissoziative Symptome"
+          ],
+          "diagnose": "Dissoziative Sensibilitätsstörung (F44.6)",
+          "therapie": [
+            "Positive Diagnosestellung: ‚Ihr Nervensystem ist intakt, aber es besteht eine Funktionsstörung'",
+            "Krisenintervention bezüglich häuslicher Gewalt (Frauenhaus, Polizei)",
+            "Psychotherapie: Traumabearbeitung, Stabilisierung",
+            "Sensorische Retraining-Übungen",
+            "Soziale Unterstützung (Frauenberatung, Jugendamt bei Kindern)"
+          ],
+          "lernpunkte": [
+            "Midline Splitting: Sensibilitätsstörung exakt in der Körpermitte – nicht neuroanatomisch erklärbar → funktionell",
+            "Vibrationssinn auf Stirn- oder Brustbein: darf nicht halbseitig ausfallen (Knochen leitet vibrierende Stimmgabel auf beide Seiten)",
+            "SEP und NLG helfen, organische Ursachen auszuschließen",
+            "Häusliche Gewalt als auslösender Faktor: Sicherheit hat Vorrang!"
+          ]
+        },
+        {
+          "id": "PSM032",
+          "titel": "Depersonalisation/Derealisation",
+          "tags": ["Depersonalisation", "Derealisation", "F48.1"],
+          "patient": "27-jähriger Patient, Student der Philosophie, ledig",
+          "praesentation": "Seit 8 Monaten persistierendes Gefühl, ‚neben sich zu stehen', die Welt ‚wie durch eine Glasscheibe' wahrzunehmen. Eigener Körper fühlt sich fremd an, Emotionen ‚abgestumpft'. Beginn nach einer Panikattacke unter Cannabis-Einfluss. Realitätsprüfung intakt.",
+          "befunde": [
+            "Psychopathologischer Befund: wach, orientiert, Realitätsprüfung intakt, Depersonalisation und Derealisation im Vordergrund",
+            "Cambridge Depersonalisation Scale (CDS): 105 (deutlich erhöht, Cut-off 70)",
+            "Drogenscreening: negativ (aktuell kein Konsum)",
+            "PHQ-9: 10 Punkte (leichte Depression, sekundär)",
+            "MRT Schädel: unauffällig",
+            "Schilddrüsenwerte, Cortisol: normwertig"
+          ],
+          "diagnose": "Depersonalisations-/Derealisationsstörung (F48.1)",
+          "therapie": [
+            "Psychoedukation: DP/DR als Schutzmechanismus der Psyche (keine ‚Verrücktheit')",
+            "KVT: Grounding-Techniken, sensorische Ankerübungen (Eiswürfel, starke Gerüche)",
+            "Achtsamkeitsbasierte Therapie (mit Vorsicht: kann initial DP/DR verstärken)",
+            "Strikter Cannabis-Verzicht",
+            "Lamotrigin als Off-Label-Option bei persistierender DP/DR (Evidenz aus Fallserien)",
+            "Keine Benzodiazepine (können DP/DR verstärken)"
+          ],
+          "lernpunkte": [
+            "Depersonalisation/Derealisation: Ich-Störung OHNE Realitätsverlust (Abgrenzung zur Psychose!)",
+            "Cannabis als häufiger Trigger, kann chronische DP/DR auslösen",
+            "Eigenständige Diagnose in ICD-10 (F48.1), nicht nur Symptom anderer Störungen",
+            "Lamotrigin hat die beste (aber dennoch limitierte) Evidenz als Pharmakotherapie"
+          ]
+        },
+        {
+          "id": "PSM033",
+          "titel": "Dissoziative Identitätsstörung (DIS)",
+          "tags": ["DIS", "Multiple Persönlichkeit", "F44.81"],
+          "patient": "33-jährige Patientin, Grafikdesignerin, ledig, in therapeutischer Wohngemeinschaft",
+          "praesentation": "Therapeutische Zuweisung. Patientin berichtet von Zeitlücken (‚Ich finde Sachen in meiner Wohnung, die ich nicht gekauft habe'), Stimmen im Kopf (‚Streit zwischen verschiedenen Teilen von mir'), plötzlichen Persönlichkeitswechseln (kindlich, aggressiv). Schwere Kindheitstraumatisierung (ritueller Missbrauch).",
+          "befunde": [
+            "Psychopathologischer Befund: während der Untersuchung ein beobachteter Switch (kindliches Verhalten, andere Stimmlage)",
+            "DES-II (Dissociative Experience Scale): 52 (deutlich erhöht, Cut-off 30)",
+            "SCID-D (Strukturiertes Klinisches Interview für Dissoziative Störungen): DIS bestätigt",
+            "Kein Substanzkonsum aktuell",
+            "CTQ: schwere emotionale, körperliche und sexuelle Misshandlung",
+            "Komorbidität: komplexe PTBS, Borderline-Züge"
+          ],
+          "diagnose": "Dissoziative Identitätsstörung (F44.81 / ICD-11: 6B65)",
+          "therapie": [
+            "Phasische Traumatherapie nach ISSTD-Empfehlungen (3 Phasen: Stabilisierung → Traumabearbeitung → Integration)",
+            "Phase 1 (prioritär): Stabilisierung, innere Kommunikation zwischen Persönlichkeitsanteilen fördern",
+            "Aufbau eines sicheren inneren Ortes",
+            "KEINE forcierte Integration oder Fusion von Anteilen",
+            "Hochfrequente ambulante Therapie (2x/Woche) oder stationäre Traumatherapie",
+            "Ggf. Pharmakotherapie für Komorbidität (PTBS, Depression), NICHT für DIS selbst"
+          ],
+          "lernpunkte": [
+            "DIS entsteht nahezu immer im Kontext schwerer, früher und wiederholter Traumatisierung",
+            "Stimmenhören bei DIS: Stimmen werden als ‚innen' erlebt (Abgrenzung zu Schizophrenie: ‚außen')",
+            "Therapie ist langfristig (Jahre), Ziel ist zunächst Kooperation der Anteile, nicht zwingend Fusion",
+            "Prävalenz: ca. 1-3% in klinischen Populationen, häufig fehldiagnostiziert als Schizophrenie oder Borderline"
+          ]
+        }
+      ]
+    },
+    "psychoonkologie_konsiliar_liaison": {
+      "label": "Psychoonkologie & Konsiliar-Liaison",
+      "emoji": "🏥",
+      "faelle": [
+        {
+          "id": "PSM034",
+          "titel": "Anpassungsstörung bei Krebsdiagnose",
+          "tags": ["Anpassungsstörung", "Onkologie", "F43.2"],
+          "patient": "54-jährige Patientin, Grundschullehrerin, verheiratet, 2 erwachsene Kinder",
+          "praesentation": "Vor 4 Wochen Diagnose eines Mammakarzinoms (Stadium II). Seitdem Schlafstörungen, häufiges Weinen, Grübelschleifen, Konzentrationsprobleme, sozialer Rückzug. Kann den Unterricht nicht mehr durchführen. Keine psychiatrische Vorgeschichte.",
+          "befunde": [
+            "PHQ-9: 14 Punkte (mittelschwere depressive Symptomatik)",
+            "Distress-Thermometer: 8/10",
+            "Psychopathologischer Befund: ängstlich-depressiv, Intrusionen bezüglich Diagnose, kein Suizidrisiko",
+            "NCCN-Screening: psychosozialer Unterstützungsbedarf bestätigt",
+            "Somatisch: Beginn der neoadjuvanten Chemotherapie geplant"
+          ],
+          "diagnose": "Anpassungsstörung mit gemischter Angst und Depression (F43.22) bei Mammakarzinom",
+          "therapie": [
+            "Psychoonkologische Begleitung: emotionale Entlastung, Krankheitsverarbeitung",
+            "Supportiv-expressive Gruppentherapie für Brustkrebspatientinnen",
+            "Ggf. kurzzeitig Mirtazapin 15 mg bei Schlafstörungen und Appetitminderung",
+            "Einbeziehung des Ehemanns (Angehörigenberatung)",
+            "Informationsvermittlung über Behandlungsplan (Reduktion von Kontrollverlust)",
+            "Entspannungsverfahren vor Chemotherapie (Antizipatorische Übelkeit reduzieren)"
+          ],
+          "lernpunkte": [
+            "Ca. 30-40% aller Krebspatienten entwickeln eine psychische Komorbidität",
+            "Distress-Thermometer: Screening-Instrument der Psychoonkologie (empfohlen ab Diagnosestellung)",
+            "Anpassungsstörung vs. Depression: zeitlicher Zusammenhang mit Stressor, Remission bei Wegfall",
+            "Psychoonkologische Versorgung ist Teil der S3-Leitlinie Mammakarzinom"
+          ]
+        },
+        {
+          "id": "PSM035",
+          "titel": "Depression bei onkologischer Erkrankung",
+          "tags": ["Depression", "Krebs", "Somatopsychisch"],
+          "patient": "62-jähriger Patient, pensionierter Polizist, verheiratet",
+          "praesentation": "Pankreaskarzinom Stadium III, aktuell unter Chemotherapie (Gemcitabin/nab-Paclitaxel). Seit 6 Wochen zunehmende Hoffnungslosigkeit, Todesgedanken, Appetitlosigkeit (über den Chemotherapie-Effekt hinaus), Freudlosigkeit. Äußert den Wunsch, ‚nicht mehr aufzuwachen'.",
+          "befunde": [
+            "PHQ-9: 21 Punkte (schwere Depression)",
+            "Suizidalitätsexploration: passive Todeswünsche, keine konkreten Pläne",
+            "Somatisch: Gewichtsverlust 8 kg in 3 Monaten, Karnofsky-Index 60%",
+            "Labor: Albumin 28 g/l (↓), Vitamin D 12 ng/ml (↓)",
+            "Psychopathologischer Befund: psychomotorisch verlangsamt, hoffnungslos, aber besprechbar"
+          ],
+          "diagnose": "Schwere depressive Episode (F32.2) bei Pankreaskarzinom",
+          "therapie": [
+            "Antidepressive Therapie: Mirtazapin 15-30 mg (appetitanregend, sedierend) oder Sertralin 50-100 mg",
+            "Psychotherapie: supportiv, Sinnfindung, ggf. Dignity Therapy",
+            "Suizid-Monitoring: regelmäßige Kontakte, Sicherheitsplan erstellen",
+            "Einbeziehung des Palliativteams bei fortgeschrittener Erkrankung",
+            "Angehörigenberatung für die Ehefrau",
+            "Vitamin-D-Substitution, Ernährungsberatung"
+          ],
+          "lernpunkte": [
+            "Depression bei Krebs: Symptomüberlappung mit somatischen Beschwerden erschwert Diagnose",
+            "Pankreaskarzinom hat besonders hohe Rate an Depression (bis 50%)",
+            "Passive Todeswünsche bei Schwerstkranken: ernst nehmen, aber im Kontext der Erkrankung bewerten",
+            "Antidepressiva bei Krebspatienten: Wechselwirkungen mit Chemotherapie beachten (CYP2D6 bei Tamoxifen!)"
+          ]
+        },
+        {
+          "id": "PSM036",
+          "titel": "Cancer-Related Fatigue (CRF)",
+          "tags": ["Fatigue", "Krebs", "CRF"],
+          "patient": "48-jährige Patientin, Ärztin, nach adjuvanter Chemotherapie bei Kolonkarzinom",
+          "praesentation": "6 Monate nach Abschluss der Chemotherapie anhaltende schwere Erschöpfung. Kann ihren Beruf nicht wieder aufnehmen. Schläft 10-12 Stunden und fühlt sich nicht erholt. Keine Anämie, kein Rezidiv. ‚Alle sagen, ich soll froh sein, dass der Krebs weg ist, aber ich funktioniere nicht.'",
+          "befunde": [
+            "BFI (Brief Fatigue Inventory): 8/10 (schwere Fatigue)",
+            "Labor: Hb 12,5 g/dl (normal), TSH 2,1 mU/l (normal), Cortisol normal",
+            "Staging: kein Rezidiv (CT unauffällig)",
+            "PHQ-9: 10 Punkte (leichte depressive Symptomatik)",
+            "Schlafqualität: Pittsburgh Sleep Quality Index (PSQI) erhöht",
+            "Aktivitätslevel: massiv reduziert (nur noch Grundversorgung)"
+          ],
+          "diagnose": "Cancer-Related Fatigue (CRF), persistierend nach Chemotherapie",
+          "therapie": [
+            "Moderates aerobes Training als Erstlinie (stärkste Evidenz bei CRF: 150 min/Woche)",
+            "KVT für Fatigue: Aktivitätsplanung, Energiemanagement, kognitive Umstrukturierung",
+            "Achtsamkeitsbasierte Stressreduktion (MBSR)",
+            "Schlafoptimierung (Schlafhygiene, Stimuluskontrolle)",
+            "Ggf. Methylphenidat als Off-Label bei schwerer CRF (begrenzte Evidenz)",
+            "Stufenweise Wiedereingliederung am Arbeitsplatz"
+          ],
+          "lernpunkte": [
+            "CRF betrifft bis zu 40% der Krebsüberlebenden noch Jahre nach Therapieende",
+            "Körperliches Training ist die bestuntersuchte Intervention (Evidenzlevel A)",
+            "CRF ≠ Depression: Fatigue kann ohne Depression bestehen und umgekehrt",
+            "Ausschlussdiagnostik: Anämie, Hypothyreose, Rezidiv, Nebennieren-Insuffizienz"
+          ]
+        },
+        {
+          "id": "PSM037",
+          "titel": "Progredienzangst",
+          "tags": ["Progredienzangst", "Onkologie", "Angst"],
+          "patient": "39-jähriger Patient, Softwareentwickler, verheiratet, 2 kleine Kinder",
+          "praesentation": "Z.n. Hodentumor (Seminom Stadium I) vor 1 Jahr, aktuell in Nachsorge. Trotz guter Prognose (>95% Heilungsrate) extreme Angst vor Rezidiv. Tägliches Abtasten des verbliebenen Hodens, übermäßige Internetrecherche, Panikattacken vor Nachsorgeterminen. Kann sich nicht mehr auf Arbeit konzentrieren.",
+          "befunde": [
+            "Somatisch: Nachsorge-CT und Tumormarker unauffällig",
+            "PA-F-KF (Progredienzangst-Fragebogen, Kurzform): 42 Punkte (klinisch relevant, Cut-off 34)",
+            "GAD-7: 16 Punkte (schwere Angst)",
+            "PHQ-9: 8 Punkte (leichte Depression)",
+            "Psychopathologischer Befund: ängstlich, Grübelneigung, katastrophisierende Gedanken bezüglich Rezidiv"
+          ],
+          "diagnose": "Klinisch relevante Progredienzangst bei Z.n. Hodentumor",
+          "therapie": [
+            "KVT mit Fokus auf Progredienzangst (SEGT – Supportiv-Expressive Gruppentherapie)",
+            "Metakognitive Therapie: Umgang mit Grübelschleifen",
+            "Exposition: Reduktion des Checking-Verhaltens (Abtasten, Internetrecherche)",
+            "Paarberatung: Belastung der Partnerschaft thematisieren",
+            "Realistisches Risiko vermitteln (95% Heilungsrate bei Stadium I)",
+            "MBSR oder achtsamkeitsbasierte Ansätze"
+          ],
+          "lernpunkte": [
+            "Progredienzangst ist die häufigste psychische Belastung bei Krebsüberlebenden (ca. 50%)",
+            "Unterscheidung: funktionale Progredienzangst (motiviert zur Nachsorge) vs. dysfunktionale (beeinträchtigt Lebensqualität)",
+            "PA-F-KF als validiertes deutschsprachiges Screening-Instrument",
+            "Besonders betroffen: junge Patienten, Eltern kleiner Kinder, unsichere Prognose"
+          ]
+        },
+        {
+          "id": "PSM038",
+          "titel": "Psychosomatik auf der Intensivstation (Delir-Prävention)",
+          "tags": ["Delir", "Intensivstation", "Konsiliar-Liaison"],
+          "patient": "74-jährige Patientin, 2. postoperativer Tag nach Hüft-TEP, auf der Intensivstation",
+          "praesentation": "Konsiliaranfrage der Intensivstation: Patientin seit der Nacht unruhig, nestelt an Schläuchen, zeitweise desorientiert, Schlaf-Wach-Rhythmus gestört. Spricht von verstorbenen Verwandten, als ob sie im Raum wären. Vorher kognitiv unauffällig.",
+          "befunde": [
+            "CAM-ICU (Confusion Assessment Method): positiv (Delir bestätigt)",
+            "RASS (Richmond Agitation Sedation Scale): +2 (agitiert)",
+            "Orientierung: zur Person erhalten, zeitlich und örtlich gestört",
+            "Bewusstseinsfluktuationen (wechselnd klar und verwirrt)",
+            "Labor: Hb 9,2 g/dl (↓), CRP 45 mg/l (↑), Na 148 mmol/l (↑, Dehydratation)",
+            "Medikation: Tramadol, Metamizol, Zopiclone (delirfördernde Substanzen!)"
+          ],
+          "diagnose": "Postoperatives Delir (F05.0), hyperaktiver Typ",
+          "therapie": [
+            "Ursachenbehandlung: Flüssigkeitssubstitution, Anämiekorrektur, Infektausschluss",
+            "Medikamentenreview: Tramadol absetzen (→ Piritramid), Zopiclon absetzen",
+            "Nicht-pharmakologisch: Reorientierung, Tag-Nacht-Rhythmus (Licht/Dunkelheit), Brille und Hörgeräte bereitstellen",
+            "Angehörige einbeziehen (vertraute Gesichter, vertraute Gegenstände)",
+            "Bei schwerer Agitation: Haloperidol 0,5-1 mg i.v. (niedrigst mögliche Dosis)",
+            "KEINE Benzodiazepine (verschlechtern Delir, Ausnahme: Alkoholentzugsdelir)"
+          ],
+          "lernpunkte": [
+            "CAM-ICU: Goldstandard zur Delir-Diagnostik auf der Intensivstation",
+            "Anticholinerge Medikamente, Opioide und Benzodiazepine sind häufige iatrogene Ursachen",
+            "Nicht-pharmakologische Maßnahmen reduzieren Delir-Inzidenz um 30-40%",
+            "Postoperatives Delir ist mit erhöhter Mortalität und Langzeit-Kognitionsverlust assoziiert"
+          ]
+        },
+        {
+          "id": "PSM039",
+          "titel": "Somatopsychische Komorbidität bei Diabetes",
+          "tags": ["Diabetes", "Depression", "Somatopsychisch"],
+          "patient": "58-jähriger Patient, Taxifahrer, Diabetes mellitus Typ 2 seit 12 Jahren",
+          "praesentation": "HbA1c trotz Insulintherapie 9,8%. Unregelmäßige Blutzuckerkontrollen, vergisst Insulin. Berichtet auf Nachfrage: ‚Es ist mir alles egal geworden.' Schlafstörungen, Antriebslosigkeit, Libidoverlust, 5 kg Gewichtszunahme. Ehefrau: ‚Er liegt nur noch auf der Couch.'",
+          "befunde": [
+            "HbA1c: 9,8% (Ziel <7%)",
+            "PHQ-9: 18 Punkte (schwere Depression)",
+            "PAID (Problem Areas in Diabetes): 65 Punkte (hohes Diabetes-Distress)",
+            "Labor: Kreatinin 1,4 mg/dl (↑), Albumin im Urin positiv (diabetische Nephropathie Stadium 2)",
+            "Fundoskopie: nicht-proliferative diabetische Retinopathie",
+            "Psychopathologischer Befund: antriebsgemindert, hoffnungslos, aber keine Suizidalität"
+          ],
+          "diagnose": "Schwere depressive Episode (F32.2) bei Diabetes mellitus Typ 2 mit Folgeerkrankungen und Diabetes-Distress",
+          "therapie": [
+            "Antidepressive Therapie: Sertralin 50-100 mg (gewichtsneutral, keine HbA1c-Verschlechterung)",
+            "KVT mit Fokus auf Diabetes-Management (Behavioral Activation, Selbstwirksamkeit)",
+            "Diabetesschulung wiederholen (strukturiert, motivierend)",
+            "Vereinfachung des Insulinregimes (z.B. BOT statt ICT, weniger Injektionen)",
+            "Regelmäßige Arzttermine als Struktur (alle 2 Wochen)",
+            "KEINE trizyklischen Antidepressiva (Gewichtszunahme, Blutzuckererhöhung)"
+          ],
+          "lernpunkte": [
+            "Depression bei Diabetes: 2-3x häufiger als in der Allgemeinbevölkerung",
+            "Bidirektionaler Zusammenhang: Depression verschlechtert Diabetes-Selbstmanagement → HbA1c steigt → Folgeerkrankungen → Depression",
+            "Diabetes-Distress vs. Depression: Diabetes-Distress ist diabetesspezifisch und bildet sich bei Verbesserung des Managements zurück",
+            "Behandlung der Depression verbessert auch die Stoffwechseleinstellung"
+          ]
+        },
+        {
+          "id": "PSM040",
+          "titel": "Psychokardiologie (Herzneurose / Herzangst)",
+          "tags": ["Herzangst", "Psychokardiologie", "Konsiliar-Liaison"],
+          "patient": "51-jähriger Patient, Unternehmer, Z.n. Myokardinfarkt vor 6 Monaten (Stent-Implantation LAD)",
+          "praesentation": "Trotz erfolgreicher Stent-Implantation und guter kardialer Funktion extreme Angst vor erneutem Infarkt. Vermeidet jegliche körperliche Belastung, schläft nicht mehr im Bett (‚Da ist mein Mann gestorben' – Vater verstarb im Schlaf an Herzinfarkt). Drei Mal pro Woche in der Notaufnahme mit Brustschmerzen.",
+          "befunde": [
+            "Echokardiografie: EF 55% (normal), keine Wandbewegungsstörung",
+            "Belastungs-EKG: unauffällig bei guter Belastbarkeit",
+            "Troponin: wiederholt negativ",
+            "Herzangstfragebogen (HAF): maximal erhöhte Werte",
+            "PHQ-9: 12 Punkte (mittelschwere Depression)",
+            "Biografie: Vater mit 55 Jahren an plötzlichem Herztod verstorben"
+          ],
+          "diagnose": "Herzangst / kardiale Angststörung (F45.30/F41.0) bei Z.n. Myokardinfarkt",
+          "therapie": [
+            "Psychokardiologische Behandlung: Angstbewältigung bei realer kardialer Erkrankung",
+            "KVT mit herzspezifischer Exposition (stufenweise Belastungssteigerung, Herzsportgruppe)",
+            "Bearbeitung der Vater-Identifikation (‚Mein Schicksal ist nicht das meines Vaters')",
+            "Kardiologische Rehabilitation mit psychosomatischem Anteil",
+            "Antidepressivum: Sertralin (als sicher nach Infarkt evaluiert – SADHART-Studie)",
+            "Regelmäßige kardiologische Kontrollen mit festen Terminen (Reduktion der Notaufnahmebesuche)"
+          ],
+          "lernpunkte": [
+            "Psychokardiologie: 20-30% der Post-Infarkt-Patienten entwickeln Depression oder Angststörung",
+            "Depression nach Infarkt ist ein unabhängiger Risikofaktor für kardiale Mortalität",
+            "SSRI (v.a. Sertralin) sind nach Myokardinfarkt sicher und wirksam (SADHART, CREATE)",
+            "Abgrenzung: funktionelle Herzangst OHNE kardiale Erkrankung vs. Herzangst BEI kardialer Erkrankung"
+          ]
+        },
+        {
+          "id": "PSM041",
+          "titel": "Transplantationspsychosomatik (Compliance)",
+          "tags": ["Transplantation", "Compliance", "Konsiliar-Liaison"],
+          "patient": "37-jähriger Patient, Z.n. Nierentransplantation vor 2 Jahren, alleinstehend",
+          "praesentation": "Konsiliaranfrage der Nephrologie: Patient hat mehrfach Immunsuppressiva (Tacrolimus) nicht eingenommen, Tacrolimus-Spiegel stark schwankend. Kreatinin steigt (V.a. Abstoßungsreaktion). Patient wirkt desinteressiert, sagt: ‚Mir ist es egal, was mit der Niere passiert.'",
+          "befunde": [
+            "Tacrolimus-Talspiegel: 2,1 ng/ml (Ziel: 5-8 ng/ml) → schwere Non-Adhärenz",
+            "Kreatinin: 2,8 mg/dl (↑, Baseline 1,2 mg/dl)",
+            "Nierenbiopsie: akute T-Zell-vermittelte Abstoßung",
+            "PHQ-9: 19 Punkte (schwere Depression)",
+            "Psychopathologischer Befund: resigniert, Schuldgefühle gegenüber dem verstorbenen Spender",
+            "Biografie: Organspende von verstorbenem Bruder (Verkehrsunfall)"
+          ],
+          "diagnose": "Schwere Depression mit Non-Adhärenz nach Nierentransplantation, komplizierte Trauer um den Spenderbruder",
+          "therapie": [
+            "Akut: Abstoßungsbehandlung (Steroidpulstherapie) + Wiederaufnahme der Immunsuppression",
+            "Antidepressive Therapie: Escitalopram 10 mg (wenig CYP-Interaktionen mit Tacrolimus)",
+            "Psychotherapie: Trauerbewältigung bezüglich des verstorbenen Bruders",
+            "Motivierende Gesprächsführung zur Adhärenzförderung",
+            "Vereinfachung des Medikamentenregimes, Pillendosen, Erinnerungs-Apps",
+            "Regelmäßige psychosomatische Konsile im Transplantationszentrum"
+          ],
+          "lernpunkte": [
+            "Non-Adhärenz ist die häufigste vermeidbare Ursache für Organverlust nach Transplantation",
+            "Psychosomatische Evaluation ist Teil des Transplantationsprozesses (prä- und postoperativ)",
+            "Empfänger-Spender-Beziehung kann belastend sein, insbesondere bei Lebendspende von Verstorbenen",
+            "Depression nach Transplantation: Prävalenz 20-30%, verbessert sich oft durch Behandlung signifikant"
+          ]
+        },
+        {
+          "id": "PSM042",
+          "titel": "Psychosomatik bei chronisch entzündlichen Darmerkrankungen",
+          "tags": ["CED", "Morbus Crohn", "Psychosomatik"],
+          "patient": "26-jährige Patientin, Studentin, mit Morbus Crohn seit 5 Jahren",
+          "praesentation": "Trotz stabiler Remission unter Adalimumab persistierende Bauchschmerzen, Durchfälle und Erschöpfung. Gastroenterologe findet keine Entzündungsaktivität. Zunehmende soziale Isolation (‚Ich traue mich nicht mehr aus dem Haus wegen der Durchfälle'), Angst vor Schüben.",
+          "befunde": [
+            "Calprotectin im Stuhl: 35 µg/g (normal, keine Entzündungsaktivität)",
+            "CRP: 1,2 mg/l (normal)",
+            "Koloskopie: abgeheilte Schleimhaut (SES-CD 0)",
+            "PHQ-9: 14 Punkte (mittelschwere Depression)",
+            "GAD-7: 13 Punkte (mittelschwere Angst)",
+            "IBS-Symptome trotz CED-Remission (Reizdarm-CED-Overlap)"
+          ],
+          "diagnose": "Funktionelle Darmbeschwerden bei CED in Remission (IBS-CED-Overlap), komorbide Depression und Angststörung",
+          "therapie": [
+            "Psychoedukation: Unterschied zwischen Entzündungsaktivität und funktionellen Beschwerden erklären",
+            "KVT für CED-bezogene Ängste und Vermeidungsverhalten",
+            "Darmgerichtete Hypnotherapie",
+            "Sertralin 50 mg bei komorbider Depression und Angst",
+            "Enge Abstimmung mit Gastroenterologen (keine unnötige Therapieeskalation der CED)",
+            "Selbsthilfegruppe für junge CED-Patienten"
+          ],
+          "lernpunkte": [
+            "Bis zu 40% der CED-Patienten in Remission haben IBS-ähnliche Beschwerden (Reizdarm-CED-Overlap)",
+            "Calprotectin und CRP als Marker für Entzündungsaktivität – bei Normwerten: funktionelle Genese wahrscheinlich",
+            "Psychische Komorbidität bei CED: Depression 20-25%, Angststörung 30-35%",
+            "Therapieeskalation der CED bei funktionellen Beschwerden ist iatrogen schädlich (Overtreatment)"
+          ]
+        },
+        {
+          "id": "PSM043",
+          "titel": "Psychosomatik in der Dermatologie (Neurodermitis)",
+          "tags": ["Neurodermitis", "Psychodermatologie", "Juckreiz"],
+          "patient": "19-jähriger Patient, Auszubildender zum Koch, Neurodermitis seit der Kindheit",
+          "praesentation": "Schwere Exazerbation der Neurodermitis seit Beginn der Ausbildung (Handekzem, Gesichtsbeteiligung). Trotz topischer Therapie keine Besserung. Starker Juckreiz, der nachts zum Kratzen führt. Mobbingerfahrungen in der Schule wegen der Haut. Schamgefühl, sozialer Rückzug, Schlafstörung.",
+          "befunde": [
+            "SCORAD: 62 (schwere Neurodermitis)",
+            "Gesamt-IgE: 850 IU/ml (↑)",
+            "Dermatologischer Befund: disseminierte Ekzeme, Lichenifikation, Exkoriationen",
+            "DLQI (Dermatology Life Quality Index): 22 (maximale Beeinträchtigung)",
+            "PHQ-9: 15 Punkte (mittelschwere Depression)",
+            "Juckreiz-VAS: 9/10"
+          ],
+          "diagnose": "Atopische Dermatitis (L20.9) mit schwerer psychosozialer Beeinträchtigung, komorbide Depression",
+          "therapie": [
+            "Interdisziplinär: Dermatologie (Systemtherapie: Dupilumab als Biologikum) + Psychosomatik",
+            "Habit Reversal Training gegen Kratzen (KVT-basiert)",
+            "Stressmanagement und Entspannungsverfahren",
+            "Antidepressive Therapie: Mirtazapin (antipruriginöser Effekt) oder SSRI",
+            "Patientenschulung (AGNES: Arbeitsgemeinschaft Neurodermitisschulung)",
+            "Berufliche Beratung: Koch als Risikoberuf bei Handekzem"
+          ],
+          "lernpunkte": [
+            "Neurodermitis: Juckreiz-Kratz-Zirkel wird durch psychischen Stress verstärkt",
+            "Psychodermatologie: interdisziplinäres Feld zwischen Dermatologie und Psychosomatik",
+            "Habit Reversal Training hat gute Evidenz bei chronischem Kratzen",
+            "Berufsberatung wichtig: Feuchtarbeit, Irritanzien und Allergene können Verlauf verschlechtern"
+          ]
+        }
+      ]
+    },
+    "chronischer_schmerz_psychosomatik": {
+      "label": "Chronischer Schmerz & Psychosomatik",
+      "emoji": "💢",
+      "faelle": [
+        {
+          "id": "PSM044",
+          "titel": "Chronischer Rückenschmerz (psychosomatisch)",
+          "tags": ["Rückenschmerz", "Chronisch", "Psychosomatik"],
+          "patient": "52-jähriger Patient, Bauarbeiter, verheiratet",
+          "praesentation": "Seit 2 Jahren chronische Lumbalgien ohne klares morphologisches Korrelat. Trotz 2 Operationen (Bandscheiben-OP, Spondylodese) keine Besserung. Aktuell arbeitsunfähig, Rentenantrag läuft. Sozialer Rückzug, Schlafstörungen, Reizbarkeit.",
+          "befunde": [
+            "MRT LWS: Z.n. Spondylodese L4/L5, keine Restenose, Nachbarsegment altersgerecht",
+            "Neurologische Untersuchung: keine radikulären Defizite",
+            "Schmerzzeichnung: nicht-anatomische Verteilung (großflächig, bilateral)",
+            "Yellow Flags: Katastrophisieren (PCS erhöht), Vermeidungsverhalten (FABQ erhöht), Rentenbegehren",
+            "PHQ-9: 16 Punkte (mittelschwere Depression)",
+            "Örebro-Score: 135 Punkte (hohes Chronifizierungsrisiko)"
+          ],
+          "diagnose": "Chronische Schmerzstörung mit somatischen und psychischen Faktoren (F45.41), Failed Back Surgery Syndrome",
+          "therapie": [
+            "Multimodale Schmerztherapie (MMST): 3-4 Wochen stationär/teilstationär",
+            "KVT: Reduktion von Katastrophisieren und Vermeidungsverhalten (Fear-Avoidance-Modell)",
+            "Aktivierung: schrittweiser Aufbau körperlicher Aktivität (Pacing, Quotenplan)",
+            "Duloxetin 60-120 mg als Ko-Analgetikum und Antidepressivum",
+            "KEINE weiteren Operationen ohne klare strukturelle Indikation",
+            "Sozialmedizinische Beurteilung: Arbeitsfähigkeit für alternative Tätigkeit prüfen"
+          ],
+          "lernpunkte": [
+            "Yellow Flags (psychosoziale Risikofaktoren) sind die stärksten Prädiktoren für Chronifizierung bei Rückenschmerz",
+            "Fear-Avoidance-Modell: Schmerzkatastrophisieren → Vermeidung → Dekonditionierung → mehr Schmerz",
+            "Failed Back Surgery Syndrome: bis zu 40% der Rücken-OPs führen nicht zu Schmerzreduktion",
+            "Rentenbegehren als aufrechterhaltendem Faktor offen thematisieren"
+          ]
+        },
+        {
+          "id": "PSM045",
+          "titel": "Chronisches Schmerzsyndrom (multilokulär)",
+          "tags": ["Multilokular", "Schmerz", "Chronifizierung"],
+          "patient": "46-jährige Patientin, Sachbearbeiterin, geschieden",
+          "praesentation": "Schmerzen an mehr als 4 Lokalisationen (Kopf, Nacken, Rücken, Knie, Hände) seit über 5 Jahren. 12 verschiedene Fachärzte konsultiert, 8 verschiedene Schmerzmedikamente ohne ausreichenden Effekt. Derzeit Tilidin 200 mg/Tag mit nachlassender Wirkung.",
+          "befunde": [
+            "Somatische Durchuntersuchung: keine relevante organische Erklärung für das Schmerzausmaß",
+            "Mainzer Stadienmodell: Stadium III (Chronifizierung Grad III)",
+            "Schmerzzeichnung: multiple Lokalisationen, bilateral, nicht-anatomisch",
+            "Morphin-Äquivalent: 60 mg/Tag (Tilidin 200 mg)",
+            "PHQ-9: 18 (schwere Depression), Childhood Trauma Questionnaire: positiv",
+            "Funktionskapazität (FFbH): 45% (deutlich eingeschränkt)"
+          ],
+          "diagnose": "Chronisches Schmerzsyndrom bei zentraler Sensitivierung (F45.41), Stadium III nach Gerbershagen, Opioid-Fehlgebrauch",
+          "therapie": [
+            "Stationäre multimodale Schmerztherapie (4 Wochen)",
+            "Opioidreduktion/-entzug mit schrittweisem Ausschleichen (10-20% alle 1-2 Wochen)",
+            "Psychodynamische Schmerztherapie (biografische Zusammenhänge)",
+            "Trizyklisches Antidepressivum oder Duloxetin als Ko-Analgetikum",
+            "Funktionsorientierte Physiotherapie (nicht schmerzorientiert)",
+            "Acceptance and Commitment Therapy (ACT): Schmerzakzeptanz statt Schmerzfreiheit als Ziel"
+          ],
+          "lernpunkte": [
+            "Mainzer Stadienmodell nach Gerbershagen: zeitliche, räumliche, medikamentöse Achse der Chronifizierung",
+            "Zentrale Sensitivierung: das Nervensystem wird ‚überempfindlich' für Schmerzreize",
+            "Opioide bei chronischem nicht-tumorbedingtem Schmerz: häufig unwirksam und schädlich (OIH, Abhängigkeit)",
+            "ACT als evidenzbasierter Ansatz bei chronischem Schmerz (Ziel: Lebensqualität trotz Schmerz)"
+          ]
+        },
+        {
+          "id": "PSM046",
+          "titel": "Spannungskopfschmerz (chronisch, psychosomatisch)",
+          "tags": ["Kopfschmerz", "Spannungstyp", "Chronisch"],
+          "patient": "34-jährige Patientin, Juristin, ledig",
+          "praesentation": "Täglicher bilateraler drückender Kopfschmerz (‚wie ein Band um den Kopf') seit 18 Monaten, >15 Tage/Monat. Ibuprofen 600 mg 3-4x/Woche ohne ausreichende Wirkung. Perfektionistisch, hohe Arbeitsbelastung (70h/Woche), Bruxismus.",
+          "befunde": [
+            "Neurologische Untersuchung: unauffällig, erhöhte perikranielle Druckschmerzhaftigkeit",
+            "MRT Schädel: Normalbefund",
+            "Kopfschmerztagebuch: >22 Tage/Monat Kopfschmerz, 14 Tage/Monat Analgetika",
+            "Zahnärztlich: Bruxismus, Zahnabrasion",
+            "PHQ-9: 10 Punkte, GAD-7: 12 Punkte",
+            "EMG M. temporalis/M. trapezius: erhöhter Muskeltonus"
+          ],
+          "diagnose": "Chronischer Spannungskopfschmerz (G44.2) mit Medikamentenübergebrauch und psychosozialer Belastung",
+          "therapie": [
+            "Amitriptylin 25-75 mg als Prophylaxe (Evidenz A bei chronischem Spannungskopfschmerz)",
+            "Medikamenten-Entzug: Analgetika auf ≤10 Tage/Monat reduzieren",
+            "EMG-Biofeedback (starke Evidenz bei Spannungskopfschmerz)",
+            "Stressmanagement und Arbeitszeitreduktion",
+            "Progressive Muskelrelaxation nach Jacobson",
+            "Okklusionsschiene bei Bruxismus"
+          ],
+          "lernpunkte": [
+            "Chronischer Spannungskopfschmerz: ≥15 Tage/Monat über >3 Monate",
+            "Medikamentenübergebrauchskopfschmerz (MOH): entsteht bei Analgetika ≥15 Tage/Monat",
+            "Amitriptylin 25-75 mg ist pharmakologische Erstlinie (NICHT Triptane oder NSAIDs prophylaktisch!)",
+            "Biofeedback und Entspannungsverfahren haben Evidenzlevel A"
+          ]
+        },
+        {
+          "id": "PSM047",
+          "titel": "Chronischer Unterbauchschmerz (CPPS)",
+          "tags": ["CPPS", "Unterbauchschmerz", "Chronisch"],
+          "patient": "29-jährige Patientin, Sozialarbeiterin, in Partnerschaft",
+          "praesentation": "Seit 2 Jahren chronische Unterbauchschmerzen, die mit der Menstruation zunehmen, aber auch unabhängig davon bestehen. Dyspareunie führt zu sexueller Vermeidung. Bereits Laparoskopie ohne Endometriose-Nachweis. In der Biografie sexueller Missbrauch als Kind.",
+          "befunde": [
+            "Gynäkologische Untersuchung: unauffällig, Vaginalsonografie: normal",
+            "Laparoskopie (vor 6 Monaten): kein Endometriose-Nachweis",
+            "Labor: CRP, BB, Chlamydien/Gonokokken: negativ",
+            "Schmerztagebuch: keine klare Zyklusabhängigkeit, Verstärkung bei Stress",
+            "CTQ: schwerer sexueller Missbrauch",
+            "PHQ-9: 13 Punkte, PHQ-15: 14 Punkte"
+          ],
+          "diagnose": "Chronic Pelvic Pain Syndrome (CPPS, N94.8) bei Traumafolgestörung",
+          "therapie": [
+            "Interdisziplinär: Gynäkologie + Psychosomatik + Physiotherapie",
+            "Beckenbodenphysiotherapie: Lösen von Beckenboden-Hypertonie",
+            "Traumatherapie (EMDR oder SE - Somatic Experiencing)",
+            "Amitriptylin 10-25 mg als Ko-Analgetikum",
+            "Sexualtherapie bei Dyspareunie (behutsam, im Tempo der Patientin)",
+            "Keine weiteren invasiven diagnostischen Eingriffe"
+          ],
+          "lernpunkte": [
+            "CPPS betrifft 15-20% aller Frauen – häufig wird nur nach Endometriose gesucht",
+            "Sexueller Missbrauch erhöht das Risiko für CPPS um das 3-5-fache",
+            "Beckenboden-Hypertonie als vermittelnder Mechanismus (Trauma → Muskelspannung → Schmerz)",
+            "Dyspareunie und sexuelle Funktionsstörungen offen ansprechen"
+          ]
+        },
+        {
+          "id": "PSM048",
+          "titel": "Temporomandibuläre Dysfunktion (CMD, psychosomatisch)",
+          "tags": ["CMD", "Kieferschmerz", "Bruxismus"],
+          "patient": "38-jährige Patientin, Controllerin, ledig",
+          "praesentation": "Seit 1 Jahr zunehmende Kieferschmerzen, Kiefergelenk-Knacken und eingeschränkte Mundöffnung. Morgens besonders ausgeprägt (nächtliches Pressen). Begleitend Kopfschmerzen temporal. Hoher beruflicher Druck, Perfektionismus.",
+          "befunde": [
+            "Zahnärztlich: Abrasionen der Zähne, erhöhter Muskeltonus M. masseter und M. temporalis bilateral",
+            "Mundöffnung: 28 mm (eingeschränkt, Norm >40 mm)",
+            "MRT Kiefergelenk: Diskusverlagerung mit Reposition bilateral",
+            "RDC/TMD (Research Diagnostic Criteria): Myofasziale Schmerzen + Diskopathie",
+            "PHQ-9: 9 Punkte, GAD-7: 11 Punkte",
+            "Bruxismus-Anamnese: Stresskorrelation bestätigt"
+          ],
+          "diagnose": "Craniomandibuläre Dysfunktion (CMD, K07.6) mit psychosomatischer Komponente",
+          "therapie": [
+            "Okklusionsschiene (Michigan-Schiene) für die Nacht",
+            "Physiotherapie: manuelle Therapie der Kaumuskulatur, Kieferübungen",
+            "Biofeedback für M. masseter (EMG-basiert)",
+            "Stressmanagement und Entspannungsverfahren",
+            "KVT bei zugrunde liegender Angst/Perfektionismus",
+            "Ggf. Botox-Injektion in M. masseter bei Therapieresistenz"
+          ],
+          "lernpunkte": [
+            "CMD betrifft ca. 5-12% der Bevölkerung, Frauen 2x häufiger als Männer",
+            "Bruxismus ist häufig stressassoziiert und ein zentraler aufrechterhaltender Faktor",
+            "RDC/TMD-Achse II: psychosoziale Faktoren als integraler Bestandteil der Diagnostik",
+            "Interdisziplinär: Zahnmedizin + Physiotherapie + Psychosomatik"
+          ]
+        },
+        {
+          "id": "PSM049",
+          "titel": "Phantomschmerz (nach Amputation)",
+          "tags": ["Phantomschmerz", "Amputation", "Neuropathisch"],
+          "patient": "56-jähriger Patient, ehemaliger Dachdecker, Z.n. Unterschenkelamputation links nach Arbeitsunfall",
+          "praesentation": "3 Monate nach Amputation quälende Schmerzen im nicht mehr vorhandenen Fuß (‚brennend, krampfartig'). Schmerz verstärkt sich abends und bei emotionaler Belastung. Zusätzlich Trauer über Verlust des Beins, Gefühl der Hilflosigkeit, Schlafstörungen.",
+          "befunde": [
+            "Stumpfuntersuchung: reizlose Narbe, kein Neurom palpabel",
+            "VAS Schmerz: 7-8/10",
+            "Phantomschmerzcharakter: brennend, einschießend, krampfartig",
+            "PHQ-9: 16 Punkte (mittelschwere Depression)",
+            "Neuropsychologisch: vivides Phantomerleben (kann ‚Zehen bewegen')",
+            "Bisherige Therapie: Gabapentin 900 mg ohne ausreichende Wirkung"
+          ],
+          "diagnose": "Phantomschmerz (G54.6) nach traumatischer Unterschenkelamputation, komorbide Anpassungsstörung",
+          "therapie": [
+            "Spiegeltherapie (Ramachandran): Bewegungsillusion des Phantomglieds (starke Evidenz)",
+            "Gabapentin auf 1800-2400 mg aufdosieren oder Umstellung auf Pregabalin",
+            "Amitriptylin 25-50 mg zur Nacht (Ko-Analgetikum + Schlaf)",
+            "Graded Motor Imagery (GMI) als ergänzendes neuroplastisches Training",
+            "Psychotherapie: Trauerbearbeitung, Anpassung an veränderte Lebenssituation",
+            "Prothesenversorgung und Gehschule"
+          ],
+          "lernpunkte": [
+            "Phantomschmerz betrifft 50-80% aller Amputierten – frühzeitige Therapie verbessert Prognose",
+            "Spiegeltherapie: Modulation der kortikalen Reorganisation im somatosensorischen Kortex",
+            "Phantomschmerz ist ein neuropathischer Schmerz – Antikonvulsiva und TCA sind First-Line",
+            "Psychische Faktoren (Depression, Trauma) verstärken Phantomschmerz signifikant"
+          ]
+        },
+        {
+          "id": "PSM050",
+          "titel": "Medikamenteninduzierter Kopfschmerz (MOH)",
+          "tags": ["MOH", "Kopfschmerz", "Medikamentenübergebrauch"],
+          "patient": "50-jährige Patientin, Friseurin, verheiratet",
+          "praesentation": "Ursprünglich episodische Migräne (seit dem 20. Lebensjahr). In den letzten 3 Jahren zunehmende Kopfschmerzfrequenz auf >20 Tage/Monat. Nimmt täglich Ibuprofen 600 mg + Triptane an 18 Tagen/Monat. Kopfschmerz beginnt jetzt schon morgens. ‚Ohne Tablette komme ich nicht durch den Tag.'",
+          "befunde": [
+            "Kopfschmerztagebuch: 22 Kopfschmerztage/Monat, 18 Medikamententage/Monat",
+            "Neurologische Untersuchung: unauffällig",
+            "MRT Schädel: Normalbefund",
+            "ICHD-3-Kriterien für MOH: erfüllt (Kopfschmerz ≥15 Tage/Monat + Akutmedikation ≥10-15 Tage/Monat über >3 Monate)",
+            "Psychologisch: Angst vor Kopfschmerz, medikamentenbezogenes Vermeidungsverhalten"
+          ],
+          "diagnose": "Medikamentenübergebrauchskopfschmerz (MOH, G44.4) bei zugrunde liegender Migräne",
+          "therapie": [
+            "Medikamentenpause (Drug Holiday): abruptes Absetzen aller Akutmedikation (ambulant oder stationär)",
+            "Überbrückung: Prednisolon 100 mg für 5 Tage oder Naproxen 2x 500 mg für 2-3 Wochen",
+            "Migräneprophylaxe starten: Topiramat oder Amitriptylin oder CGRP-Antikörper",
+            "KVT: Kopfschmerzmanagement, Edukation über MOH-Mechanismus",
+            "Entspannungsverfahren (PMR) als Kopfschmerzprophylaxe",
+            "Striktes Limit: Akutmedikation ≤10 Tage/Monat nach Entzug"
+          ],
+          "lernpunkte": [
+            "MOH: 3. häufigste Kopfschmerzform, betrifft ca. 1-2% der Bevölkerung",
+            "Grenzen: Triptane/Opioide ≥10 Tage/Monat, einfache Analgetika ≥15 Tage/Monat",
+            "Pathophysiologie: zentralnervöse Sensitivierung und Modulation des antinozizeptiven Systems",
+            "Rückfallquote: ca. 30-40% im ersten Jahr – Prophylaxe und Edukation sind entscheidend"
+          ]
+        },
+        {
+          "id": "PSM051",
+          "titel": "Komplexes Regionales Schmerzsyndrom (CRPS, psychosomatische Begleitung)",
+          "tags": ["CRPS", "Morbus Sudeck", "Komplex"],
+          "patient": "43-jährige Patientin, Musikerin (Pianistin), Z.n. distaler Radiusfraktur links vor 3 Monaten",
+          "praesentation": "Nach primär unkomplizierter Frakturversorgung zunehmende brennende Schmerzen, Schwellung, Verfärbung und Bewegungseinschränkung der linken Hand. Kann kein Klavier mehr spielen. Überproportionale Schmerzreaktion auf Berührung. Zunehmende Verzweiflung.",
+          "befunde": [
+            "Budapest-Kriterien: erfüllt (Schmerz, Temperaturasymmetrie, Schwellung, Bewegungseinschränkung)",
+            "Thermografie: linke Hand 2,5°C wärmer als rechts (akute Phase)",
+            "3-Phasen-Skelettszintigrafie: vermehrte Speicherung in der linken Hand",
+            "Röntgen: beginnende Demineralisation der Handknochen",
+            "VAS Schmerz: 8/10, Allodynie auf Berührung",
+            "PHQ-9: 17 Punkte (mittelschwere Depression)"
+          ],
+          "diagnose": "Komplexes Regionales Schmerzsyndrom Typ I (CRPS I, M89.0) der linken Hand",
+          "therapie": [
+            "Interdisziplinär: Schmerzmedizin + Physiotherapie + Psychosomatik (AWMF-Leitlinie)",
+            "Graded Motor Imagery → Mirror Therapy → stufenweise aktive Übungen",
+            "Medikamentös: Bisphosphonat (Alendronat), Gabapentin, ggf. Prednisolon-Stoßtherapie in Frühphase",
+            "Psychosomatische Begleitung: Krankheitsverarbeitung, Umgang mit beruflicher Bedrohung",
+            "Antidepressivum bei komorbider Depression",
+            "Ergotherapie: funktionelle Handtherapie"
+          ],
+          "lernpunkte": [
+            "Budapest-Kriterien: klinische Diagnosestellung (Schmerz + Symptome in ≥3 von 4 Kategorien + Zeichen in ≥2 von 4 Kategorien)",
+            "CRPS ist KEINE rein psychogene Störung – neuroinflammatorische Pathophysiologie",
+            "Psychische Faktoren beeinflussen den Verlauf, sind aber NICHT ursächlich",
+            "Frühzeitige Mobilisation und psychosomatische Mitbehandlung verbessern die Prognose erheblich"
+          ]
+        },
+        {
+          "id": "PSM052",
+          "titel": "Vulvodynie (psychosomatisch)",
+          "tags": ["Vulvodynie", "Dyspareunie", "Schmerz"],
+          "patient": "31-jährige Patientin, Physiotherapeutin, in Partnerschaft seit 2 Jahren",
+          "praesentation": "Seit 14 Monaten brennende Schmerzen im Vulvabereich, insbesondere beim Geschlechtsverkehr (Dyspareunie) und beim Sitzen. Gynäkologisch keine Infektion oder Hauterkrankung nachweisbar. Partnerschaft leidet zunehmend. Patientin fühlt sich ‚als Frau defekt'.",
+          "befunde": [
+            "Gynäkologische Untersuchung: Rötung und Allodynie im Vestibulum (Q-Tip-Test positiv)",
+            "Abstrich: keine Infektion (Candida, BV, STI negativ)",
+            "Biopsie: unspezifisch, leichte Entzündung",
+            "EMG Beckenboden: erhöhter Ruhetonus",
+            "PHQ-9: 12 Punkte, FSFI (Female Sexual Function Index): 12 (schwere Dysfunktion)",
+            "Psychologisch: Katastrophisieren bezüglich Schmerz, Vermeidung von Intimität"
+          ],
+          "diagnose": "Vulvodynie (provozierte Vestibulodynie, N94.8), komorbide depressive Symptomatik",
+          "therapie": [
+            "Beckenbodenphysiotherapie: Relaxation des hypertonen Beckenbodens (Biofeedback-gestützt)",
+            "Topisch: Lidocain 5% Creme vor dem Geschlechtsverkehr",
+            "Amitriptylin 10-25 mg als systemisches Ko-Analgetikum",
+            "KVT für Schmerz: Katastrophisieren reduzieren, positive Sexualitätserfahrungen ermöglichen",
+            "Paartherapie/Sexualtherapie: Kommunikation über Schmerz, alternative Intimität",
+            "Ggf. Gabapentin lokal (Kapsel als Vaginalzäpfchen)"
+          ],
+          "lernpunkte": [
+            "Vulvodynie: chronischer Vulvaschmerz ≥3 Monate ohne identifizierbare Ursache",
+            "Q-Tip-Test (Watteträger-Test): Provokationstest am Vestibulum zur Diagnose der Vestibulodynie",
+            "Beckenboden-Hypertonie ist ein häufiger und behandelbarer Faktor",
+            "Partnereinbeziehung ist entscheidend für den Therapieerfolg"
+          ]
+        },
+        {
+          "id": "PSM053",
+          "titel": "Schmerzstörung bei Traumafolge",
+          "tags": ["Trauma", "Schmerz", "PTBS"],
+          "patient": "44-jährige Patientin, Kassiererin, Z.n. Überfall am Arbeitsplatz vor 18 Monaten",
+          "praesentation": "Nach bewaffnetem Überfall auf den Supermarkt chronische Schmerzen im Nacken- und Schulterbereich (‚als hätte ich einen Panzer auf den Schultern'). Gleichzeitig Flashbacks, Hyperarousal, Schreckhaftigkeit. Kann seit dem Überfall nicht mehr an der Kasse arbeiten.",
+          "befunde": [
+            "Orthopädisch: HWS/BWS muskuläre Verspannungen, keine strukturelle Pathologie",
+            "IES-R (Impact of Event Scale): 54 Punkte (schwere PTBS-Symptomatik)",
+            "PHQ-9: 15 Punkte",
+            "Schmerz: NRS 7/10, v.a. Nacken/Schulter, verstärkt bei Erinnerungstriggern",
+            "Psychopathologischer Befund: hypervigilant, Intrusionen, Vermeidungsverhalten, muskuläre Anspannung"
+          ],
+          "diagnose": "PTBS (F43.1) mit komorbider chronischer Schmerzstörung (F45.41)",
+          "therapie": [
+            "Traumatherapie als Priorität: EMDR oder CPT (Cognitive Processing Therapy)",
+            "Physiotherapie: Schulter-Nacken-Entspannung, atemzentrierte Übungen",
+            "Amitriptylin 25-50 mg (Doppelwirkung: Schmerz + Schlaf/PTBS)",
+            "Stationäre Traumatherapie bei Schwere der Symptomatik",
+            "BG-liche Behandlung (Arbeitsunfall) einleiten",
+            "Stufenweise berufliche Wiedereingliederung (nicht an der alten Arbeitsstelle)"
+          ],
+          "lernpunkte": [
+            "PTBS und chronischer Schmerz: Komorbidität in 20-80% der Fälle (Mutual Maintenance Model)",
+            "Hyperarousal bei PTBS führt zu muskulärer Dauerspannung → Schmerz",
+            "Traumatherapie verbessert auch die Schmerzsymptomatik",
+            "Bei Arbeitsunfall: BG-Verfahren beachten (andere Zuständigkeit als GKV)"
+          ]
+        },
+        {
+          "id": "PSM054",
+          "titel": "Opioid-Langzeittherapie (Abhängigkeit + Psychosomatik)",
+          "tags": ["Opioid", "Abhängigkeit", "LONTS"],
+          "patient": "59-jähriger Patient, Verwaltungsangestellter, verheiratet",
+          "praesentation": "Chronischer Rückenschmerz seit 10 Jahren. Aktuell Morphin retard 120 mg/Tag. Trotz hoher Dosis VAS 6/10, keine Funktionsverbesserung. Toleranzentwicklung, Entzugssymptome bei Dosisreduktion. Patient besteht auf Dosiserhöhung. Stimmungsschwankungen, sozialer Rückzug.",
+          "befunde": [
+            "MRT LWS: degenerative Veränderungen, die das Schmerzausmaß nicht erklären",
+            "Funktionskapazität: deutlich eingeschränkt trotz hochdosierter Opioid-Therapie",
+            "Opioid-Äquivalent: 120 mg Morphin/Tag (>120 mg: hohes Risiko)",
+            "COMM (Current Opioid Misuse Measure): erhöht",
+            "PHQ-9: 16 Punkte (mittelschwere Depression)",
+            "Endokrinologisch: Testosteron 3,1 nmol/l (↓↓) – Opioid-induzierter Hypogonadismus"
+          ],
+          "diagnose": "Opioid-Langzeittherapie mit Abhängigkeitsentwicklung bei chronischem nicht-tumorbedingtem Schmerz, Opioid-induzierte Hyperalgesie (OIH)",
+          "therapie": [
+            "Stationäre multimodale Schmerztherapie mit Opioidreduktion (Ziel: ≤90 mg Morphinäquivalent/Tag oder Opioid-Stopp)",
+            "Langsames Ausschleichen (10-20% alle 2 Wochen, Entzugssymptome mit Clonidin abfedern)",
+            "Duloxetin 60-120 mg als Nicht-Opioid-Alternative",
+            "Testosteronsubstitution bei symptomatischem Hypogonadismus",
+            "Psychotherapie: Erarbeitung alternativer Schmerzcopingstrategien",
+            "LONTS-Leitlinie besprechen: Opioid-Therapie >3 Monate nur bei dokumentiertem Nutzen"
+          ],
+          "lernpunkte": [
+            "LONTS-Leitlinie (Langzeitanwendung von Opioiden bei nicht-tumorbedingtem Schmerz): max. 3-monatige Versuchsperiode, dann Re-Evaluation",
+            "Opioid-induzierte Hyperalgesie (OIH): Opioide können Schmerz VERSCHLIMMERN (paradoxe Schmerzsteigerung)",
+            "Opioid-induzierter Hypogonadismus: betrifft ca. 50% der Langzeitanwender (Testosteron ↓, Libido ↓, Osteoporose)",
+            "Opioidreduktion verbessert häufig die Schmerzwahrnehmung und Funktionalität"
+          ]
+        },
+        {
+          "id": "PSM055",
+          "titel": "Multimodale Schmerztherapie (MMST-Konzept)",
+          "tags": ["MMST", "Multimodal", "Interdisziplinär"],
+          "patient": "48-jährige Patientin, Erzieherin, chronisches Schmerzsyndrom seit 6 Jahren",
+          "praesentation": "Zuweisung zur multimodalen Schmerztherapie (MMST) nach gescheiterten unimodalen Therapieversuchen. Chronische Schmerzen in Rücken, Schultern und Kopf. DEGS-Score: Chronifizierung Grad III. Aktuell arbeitsunfähig seit 14 Monaten, sozialer Rückzug, medikamentöse Polypharmazie.",
+          "befunde": [
+            "Mainzer Stadienmodell: Grad III (multilokulär, >2 Jahre, Polypharmazie)",
+            "Medikation: Tilidin 200 mg, Pregabalin 300 mg, Ibuprofen bei Bedarf, Mirtazapin 15 mg",
+            "VAS Schmerz: 7/10 trotz Medikation",
+            "Funktionskapazität (FFbH): 40%",
+            "PHQ-9: 18, PHQ-15: 16",
+            "Interdisziplinäres Assessment: Schmerzmedizin, Psychosomatik, Physiotherapie, Sozialarbeit"
+          ],
+          "diagnose": "Chronisches Schmerzsyndrom (F45.41), Chronifizierungsgrad III, zur Indikation MMST",
+          "therapie": [
+            "Stationäre MMST über 4 Wochen (ICD-OPS 8-918): ≥7 multidisziplinäre Behandlungstage/Woche",
+            "Schmerzbezogene KVT (3x/Woche): Katastrophisieren, Akzeptanz, Pacing",
+            "Aktivierende Physiotherapie (täglich): funktionsorientiert statt schmerzorientiert",
+            "Ärztliche Edukation: Schmerzphysiologie, Medikamentenrationalisierung",
+            "Medikamentenreduktion: Tilidin ausschleichen, Pregabalin überprüfen",
+            "Sozialberatung: berufliche Reintegration, ggf. Umschulung",
+            "Nachsorge: ambulante Fortführung der erlernten Strategien, Booster-Woche nach 3 Monaten"
+          ],
+          "lernpunkte": [
+            "MMST ist der Goldstandard bei chronischen Schmerzen Grad III (Evidenz A, NVL Kreuzschmerz)",
+            "OPS 8-918: mindestens 3 Fachdisziplinen, ≥100h Therapie über ≥3 Wochen",
+            "MMST reduziert Schmerz, Behinderung und Gesundheitskosten signifikant",
+            "Indikation: Chronifizierungsgrad II-III, gescheiterte unimodale Therapie, keine OP-Indikation"
+          ]
+        }
+      ]
+    },
+    "stressfolgeerkrankungen_burnout": {
+      "label": "Stressfolgeerkrankungen & Burnout",
+      "emoji": "🔥",
+      "faelle": [
+        {
+          "id": "PSM056",
+          "titel": "Burnout-Syndrom (Erschöpfungsdepression)",
+          "tags": ["Burnout", "Erschöpfung", "Z73.0"],
+          "patient": "45-jährige Patientin, Oberärztin in der Chirurgie, verheiratet, 3 Kinder",
+          "praesentation": "Seit Monaten zunehmende emotionale Erschöpfung, Zynismus gegenüber Patienten, Gefühl der Ineffektivität. Arbeitet 60-70h/Woche, kann nicht abschalten. Schlafstörungen, morgendliches ‚Nicht-aus-dem-Bett-Kommen'. Zuletzt Fehler bei der OP-Planung. Erstmals Weinen auf dem Parkplatz.",
+          "befunde": [
+            "Maslach Burnout Inventory (MBI): hohe emotionale Erschöpfung, hohe Depersonalisation, niedrige persönliche Leistungsfähigkeit",
+            "PHQ-9: 17 Punkte (mittelschwere bis schwere Depression)",
+            "Cortisoltagesprofil: abgeflachte Kurve (verlust der Morgenspitze)",
+            "Schlaf: PSQI 14 (schwere Schlafstörung)",
+            "Labor: TSH, BB, Ferritin: unauffällig",
+            "Psychopathologischer Befund: erschöpft, zynisch, Schuldgefühle bezüglich Patienten und Familie"
+          ],
+          "diagnose": "Burnout-Syndrom (Z73.0) mit Übergang in mittelgradige depressive Episode (F32.1)",
+          "therapie": [
+            "Sofortige Arbeitsunfähigkeit (Cave: Patientensicherheit bei Fehlern)",
+            "Antidepressive Therapie: Sertralin 50-100 mg",
+            "KVT: Erarbeitung eines gesunden Arbeitsverhaltens, Perfektionismus reduzieren",
+            "Stationäre psychosomatische Rehabilitation erwägen",
+            "Arbeitsbezogene Interventionen: Arbeitszeitreduktion, Delegation, Grenzen setzen",
+            "Schlafhygienische Maßnahmen, Schlafmedikation kurzfristig (z.B. Mirtazapin 15 mg)",
+            "Wiedereingliederung nur unter klaren Rahmenbedingungen"
+          ],
+          "lernpunkte": [
+            "Burnout ist keine eigenständige ICD-Diagnose, sondern ein Zusatzfaktor (Z73.0) – klinische Depression muss abgegrenzt werden",
+            "MBI: Goldstandard mit 3 Dimensionen (Erschöpfung, Depersonalisation, Leistungsfähigkeit)",
+            "Ärzte haben ein erhöhtes Burnout-Risiko (40-60% je nach Fachrichtung)",
+            "Burnout-Prävention erfordert individuelle UND organisationale Maßnahmen"
+          ]
+        },
+        {
+          "id": "PSM057",
+          "titel": "Posttraumatische Belastungsstörung (PTBS)",
+          "tags": ["PTBS", "Trauma", "F43.1"],
+          "patient": "32-jährige Patientin, Polizistin, ledig",
+          "praesentation": "Vor 6 Monaten Schusswechsel im Einsatz, bei dem ein Kollege getötet wurde. Seitdem Flashbacks (‚Ich sehe das Blut'), Albträume (3-4x/Woche), Vermeidung aller Situationen, die an den Einsatz erinnern (kann nicht mehr in den Streifenwagen steigen). Hypervigilanz, übertriebene Schreckreaktionen. Sozialer Rückzug.",
+          "befunde": [
+            "CAPS-5 (Clinician-Administered PTSD Scale): 48 Punkte (schwere PTBS)",
+            "IES-R: 62 Punkte",
+            "PHQ-9: 14 Punkte (mittelschwere Depression)",
+            "Schlaf: fragmentiert, Albträume, durchschnittlich 4 Stunden/Nacht",
+            "Psychopathologischer Befund: hypervigilant, emotional eingeengt, Intrusionen, erhöhter Muskeltonus",
+            "Alkoholscreening (AUDIT): 12 Punkte (risikohafter Konsum zur Symptomreduktion)"
+          ],
+          "diagnose": "Posttraumatische Belastungsstörung (F43.1), schwere Ausprägung, mit risikoreichem Alkoholkonsum",
+          "therapie": [
+            "Traumafokussierte KVT (tf-KVT) oder CPT als Erstlinientherapie (NICE, S3-Leitlinie)",
+            "Alternativ: EMDR (gleichwertige Evidenz)",
+            "Sertralin oder Paroxetin als pharmakologische Erstlinie (bei Bedarf)",
+            "Prazosin 1-10 mg bei Albträumen (Off-Label, moderate Evidenz)",
+            "KEINE Benzodiazepine (verschlechtern PTBS-Verlauf)",
+            "Alkoholreduktion: motivierende Gesprächsführung, Kurzintervention",
+            "Dienstunfähigkeitsbeurteilung über Polizeiarzt"
+          ],
+          "lernpunkte": [
+            "PTBS-Diagnose: Traumaexposition + Intrusionen + Vermeidung + negative Kognitionen/Stimmung + Hyperarousal über >1 Monat",
+            "Traumafokussierte Therapien (tf-KVT, EMDR) sind Therapie der ersten Wahl – NICHT Stabilisierung allein",
+            "Benzodiazepine bei PTBS kontraindiziert (stören Extinktionslernen)",
+            "Alkohol als Selbstmedikation bei PTBS: häufige Komorbidität (ca. 30%)"
+          ]
+        },
+        {
+          "id": "PSM058",
+          "titel": "Komplexe PTBS",
+          "tags": ["kPTBS", "Komplex", "Trauma"],
+          "patient": "36-jährige Patientin, Altenpflegerin, ledig, in betreuter Wohnform",
+          "praesentation": "Langjährige sexualisierte und körperliche Gewalt durch den Stiefvater (Alter 6-16). Rezidivierende Beziehungen mit gewalttätigen Partnern. Emotionale Dysregulation (Wutausbrüche, dann Dissoziation), chronische Suizidalität, negatives Selbstbild (‚Ich bin dreckig und wertlos'). Schwierigkeiten in Beziehungen.",
+          "befunde": [
+            "ITQ (International Trauma Questionnaire): kPTBS bestätigt (PTBS-Kernsymptome + Disturbances in Self-Organization)",
+            "PTBS-Symptome: Intrusionen, Vermeidung, Hyperarousal",
+            "DSO-Symptome: Affektdysregulation, negatives Selbstkonzept, Beziehungsstörungen",
+            "PHQ-9: 20 Punkte (schwere Depression)",
+            "Suizidalität: chronisch, keine akute Handlung, aber NSSI (Ritzen, Brennen)",
+            "DES-II: 35 (erhöhte Dissoziation)"
+          ],
+          "diagnose": "Komplexe Posttraumatische Belastungsstörung (kPTBS, ICD-11: 6B41)",
+          "therapie": [
+            "Phasenmodell: 1. Stabilisierung → 2. Traumabearbeitung → 3. Integration",
+            "Phase 1: Emotionsregulation (DBT-Skills, sicherer Ort), Suizidprävention, Beziehungsaufbau",
+            "Phase 2: Traumafokussierte Therapie (EMDR, CPT, NET) erst nach ausreichender Stabilisierung",
+            "Phase 3: Aufbau positiver Beziehungserfahrungen, Identitätsarbeit",
+            "Pharmakotherapie: SSRI + ggf. Quetiapin niedrigdosiert bei Schlaf und Dissoziation",
+            "Stationäre Traumatherapie-Klinik (spezialisiert auf kPTBS)"
+          ],
+          "lernpunkte": [
+            "kPTBS ist eine neue Diagnose in ICD-11 (nicht in ICD-10!) – nicht identisch mit Borderline-PS",
+            "DSO (Disturbances in Self-Organization): Affektdysregulation, negatives Selbstbild, Beziehungsstörungen",
+            "Stabilisierung VOR Traumabearbeitung – zu frühe Exposition kann retraumatisieren",
+            "Differenzialdiagnose: kPTBS vs. Borderline-PS – Überlappung, aber unterschiedliche Ätiologie und Therapie"
+          ]
+        },
+        {
+          "id": "PSM059",
+          "titel": "Anpassungsstörung (prolongierte Trauerreaktion)",
+          "tags": ["Trauer", "Prolongiert", "F43.21"],
+          "patient": "67-jährige Patientin, Rentnerin, seit 2 Jahren verwitwet",
+          "praesentation": "2 Jahre nach dem Tod des Ehemannes (Pankreaskarzinom) keine Anpassung an das Leben ohne ihn. Spricht täglich mit seinem Foto, hält das Schlafzimmer unverändert, kann seinen Namen nicht aussprechen, ohne zu weinen. Sozialer Rückzug, Gewichtsverlust 8 kg, Todessehnsucht (‚Ich will zu ihm').",
+          "befunde": [
+            "PG-13 (Prolonged Grief Disorder Inventory): 42 Punkte (klinisch relevant)",
+            "PHQ-9: 15 Punkte",
+            "Suizidalitätsexploration: passive Todeswünsche, keine konkreten Pläne",
+            "Psychopathologischer Befund: traurig, emotional eingeengt auf Verlusterleben, Identitätsverlust (‚Ohne ihn bin ich nichts')",
+            "Labor: Schilddrüse, BB, Vitamin D: unauffällig",
+            "Funktionsniveau: eingeschränkt (Haushalt vernachlässigt, Termine vergessen)"
+          ],
+          "diagnose": "Anhaltende Trauerstörung / Prolonged Grief Disorder (ICD-11: 6B42 / F43.21 nach ICD-10-GM 2024)",
+          "therapie": [
+            "Traumafokussierte Trauertherapie: Konfrontation mit dem Verlust (Narrativ, Fotos, Friedhofsbesuche)",
+            "Restaurationsorientierte Arbeit: neue Rollen und Aktivitäten aufbauen",
+            "KVT für komplizierte Trauer (CGT – Complicated Grief Treatment nach Shear)",
+            "Antidepressivum bei komorbider Depression (Escitalopram)",
+            "Suizid-Monitoring: regelmäßige Kontakte",
+            "Selbsthilfegruppe für Trauernde"
+          ],
+          "lernpunkte": [
+            "Anhaltende Trauerstörung: neue Diagnose in ICD-11 (6B42) – Trauer >6 Monate nach Verlust mit Funktionseinschränkung",
+            "Abgrenzung zu normaler Trauer: Intensität und Dauer über den kulturellen Rahmen hinaus",
+            "Duale Prozessmodell der Trauer (Stroebe & Schut): Pendeln zwischen Verlust- und Wiederherstellungsorientierung",
+            "Risikofaktoren: plötzlicher Tod, keine sozialen Ressourcen, ambivalente Beziehung"
+          ]
+        },
+        {
+          "id": "PSM060",
+          "titel": "Akute Belastungsreaktion",
+          "tags": ["Akute Belastung", "Krisenintervention", "F43.0"],
+          "patient": "28-jähriger Patient, Rettungssanitäter, ledig",
+          "praesentation": "Vorstellung in der Notaufnahme 6 Stunden nach einem Einsatz, bei dem ein 5-jähriges Kind trotz Reanimation verstarb. Patient ist psychomotorisch agitiert, weint, zittert, kann den Einsatz nicht zusammenhängend schildern. ‚Ich hatte sein Blut an den Händen.' Dissoziativer Zustand (‚Ich bin wie in Watte').",
+          "befunde": [
+            "Vitalzeichen: Tachykardie (105/min), RR 150/90 mmHg",
+            "Psychopathologischer Befund: agitiert, Affektlabilität, dissoziative Symptome, Intrusionen",
+            "Orientierung: erhalten, aber fluktuierend",
+            "Suizidalität: keine akute Suizidalität",
+            "Alkohol/Drogen: negativ",
+            "Peritraumatische Dissoziation (PDEQ): deutlich erhöht"
+          ],
+          "diagnose": "Akute Belastungsreaktion (F43.0)",
+          "therapie": [
+            "Psychologische Erste Hilfe (PFA): Sicherheit, Beruhigung, Verbundenheit, Selbstwirksamkeit, Hoffnung",
+            "KEIN Critical Incident Stress Debriefing (CISD) – ist nicht wirksam und potenziell schädlich",
+            "Ruhiger Raum, vertraute Person, Grundbedürfnisse sichern",
+            "Kurzfristig Lorazepam 0,5-1 mg bei schwerer Agitation (nur einmalig)",
+            "Psychoedukation: ‚Normale Reaktion auf ein unnormales Ereignis'",
+            "Follow-up nach 2-4 Wochen: Screening auf PTBS-Entwicklung",
+            "Peer-Support im Rettungsdienst aktivieren"
+          ],
+          "lernpunkte": [
+            "Akute Belastungsreaktion: transiente Reaktion (Stunden bis Tage), NICHT gleichzusetzen mit PTBS",
+            "Psychologische Erste Hilfe (PFA) ist der Standard – NICHT Debriefing",
+            "CISD/Critical Incident Stress Debriefing: in Metaanalysen nicht wirksam, teils schädlich (Rose et al., Cochrane)",
+            "Peritraumatische Dissoziation ist ein Risikofaktor für spätere PTBS-Entwicklung"
+          ]
+        },
+        {
+          "id": "PSM061",
+          "titel": "Moralische Verletzung (Moral Injury, z.B. Pflegekräfte)",
+          "tags": ["Moral Injury", "Pflegekräfte", "Ethischer Stress"],
+          "patient": "38-jährige Patientin, Intensivpflegerin, verheiratet, 1 Kind",
+          "praesentation": "Während der COVID-19-Pandemie musste sie Patienten alleine sterben lassen (Besuchsverbot), Triage-Entscheidungen mittragen und erlebte Personalnotstand. Seit 6 Monaten Schuldgefühle, Scham, Vertrauensverlust in das Gesundheitssystem, Sinnkrise. ‚Ich habe Menschen im Stich gelassen.'",
+          "befunde": [
+            "MIES (Moral Injury Event Scale): deutlich erhöht",
+            "PHQ-9: 16 Punkte (mittelschwere Depression)",
+            "Schlaf: Albträume über sterbende Patienten",
+            "Psychopathologischer Befund: Scham, Schuld, moralische Wut, Vertrauensverlust, Sinnkrise",
+            "Überlappung mit PTBS-Symptomen, aber Schuld/Scham dominieren (nicht Angst/Furcht)",
+            "Suizidalität: passive Todeswünsche"
+          ],
+          "diagnose": "Moralische Verletzung (Moral Injury) mit komorbider depressiver Episode (keine eigenständige ICD-Diagnose)",
+          "therapie": [
+            "Adaptive Disclosure Therapy oder Acceptance and Commitment Therapy (ACT)",
+            "Bearbeitung von Schuld und Scham (kognitive Umstrukturierung: ‚Was lag in meiner Macht?')",
+            "Sinnfindungsprozesse: Wertearbeit, moralische Reflexion",
+            "Gruppensitzungen mit anderen betroffenen Pflegekräften (geteilte Erfahrung)",
+            "SSRI bei begleitender Depression",
+            "Supervision und strukturelle Veränderungen am Arbeitsplatz anstoßen"
+          ],
+          "lernpunkte": [
+            "Moral Injury: Verletzung des moralischen Empfindens durch eigenes oder fremdes Handeln (oder Unterlassen)",
+            "Unterschied zu PTBS: Schuldgefühle und Scham stehen im Vordergrund, NICHT Angst und Furcht",
+            "Keine eigenständige Diagnose in ICD/DSM, aber zunehmend anerkanntes Konzept (Militär, Gesundheitswesen)",
+            "COVID-19-Pandemie hat Moral Injury bei Gesundheitspersonal stark erhöht"
+          ]
+        },
+        {
+          "id": "PSM062",
+          "titel": "Berufsbezogene Erschöpfung bei Ärzten",
+          "tags": ["Ärzte-Burnout", "Gratifikationskrise", "Beruflich"],
+          "patient": "52-jähriger Patient, Hausarzt auf dem Land, verheiratet, Praxis seit 20 Jahren",
+          "praesentation": "800 Patienten pro Quartal, chronischer Zeitmangel, Bürokratie, fehlender Nachwuchs. Seit 1 Jahr zunehmende Erschöpfung, Zynismus (‚Die Patienten kommen ja doch alle mit dem Gleichen'), Schlafstörungen, erhöhter Alkoholkonsum (2-3 Bier abends). Ehefrau besorgt.",
+          "befunde": [
+            "MBI: alle 3 Dimensionen pathologisch",
+            "AUDIT: 14 Punkte (schädlicher Alkoholkonsum)",
+            "PHQ-9: 14 Punkte",
+            "Effort-Reward-Imbalance (ERI): deutliche Gratifikationskrise (hohe Verausgabung, niedrige Belohnung)",
+            "Psychopathologischer Befund: erschöpft, desillusioniert, Selbstmedikation mit Alkohol",
+            "Blutdruck: 155/95 mmHg (bisher unbehandelt)"
+          ],
+          "diagnose": "Burnout-Syndrom (Z73.0) mit Übergang in depressive Episode (F32.1) und schädlichem Alkoholgebrauch (F10.1) bei Gratifikationskrise",
+          "therapie": [
+            "Arbeitsunfähigkeit und Praxisvertretung organisieren",
+            "Alkoholreduktion: motivierende Gesprächsführung, ggf. qualifizierte Entgiftung",
+            "Antidepressive Therapie (KEIN Bupropion bei Alkohol – Krampfrisiko): Sertralin 50-100 mg",
+            "Psychotherapie: Werteklärung, Grenzsetzung, Delegation",
+            "Kontakt zur Ärztekammer (Fürsorgestelle für suchtkranke Ärzte)",
+            "Strukturelle Änderungen: Praxisassistenz, VERAH, Terminmanagement, Bürokratiereduktion",
+            "Hypertonie-Behandlung (kardiovaskuläres Risiko)"
+          ],
+          "lernpunkte": [
+            "Ärzte-Burnout: Prävalenz 40-60%, Suizidrate bei Ärzten erhöht (1,5-3x)",
+            "Gratifikationskrise nach Siegrist: Missverhältnis zwischen Verausgabung und Belohnung (Anerkennung, Gehalt, Sicherheit)",
+            "Alkohol als Selbstmedikation: bei Ärzten häufig (Zugang, Wissen, Scham)",
+            "Ärztekammern bieten vertrauliche Unterstützung für suchtkranke Ärzte"
+          ]
+        },
+        {
+          "id": "PSM063",
+          "titel": "Angststörung nach Arbeitsplatzmobbing",
+          "tags": ["Mobbing", "Angst", "Arbeitsplatz"],
+          "patient": "41-jährige Patientin, Buchhalterin, ledig",
+          "praesentation": "Seit 18 Monaten systematisches Mobbing durch den Vorgesetzten (Abwertung, Isolation, Entzug von Aufgaben). Zunächst Schlafstörungen, dann zunehmende Angst vor dem Arbeitsplatz, zuletzt Panikattacken auf dem Weg zur Arbeit. Seit 3 Monaten arbeitsunfähig, traut sich nicht mehr aus dem Haus.",
+          "befunde": [
+            "LIPT-Fragebogen (Leymann Inventory of Psychological Terror): 35 Mobbinghandlungen bestätigt",
+            "PHQ-9: 16 Punkte (mittelschwere Depression)",
+            "GAD-7: 18 Punkte (schwere Angst)",
+            "Agoraphobie-Fragebogen: deutlich erhöht",
+            "Psychopathologischer Befund: ängstlich, Selbstwertminderung, Vermeidungsverhalten, Panikattacken",
+            "Somatic: Schlafstörung, Gewichtsverlust 5 kg, Spannungskopfschmerz"
+          ],
+          "diagnose": "Panikstörung mit Agoraphobie (F40.01) und mittelgradige depressive Episode (F32.1) als Folge von Arbeitsplatzmobbing",
+          "therapie": [
+            "KVT: Expositionstherapie für Agoraphobie, kognitive Umstrukturierung der Mobbingerfahrung",
+            "SSRI: Sertralin 50-100 mg (bei Panikstörung mit Depression)",
+            "Arbeitsrechtliche Beratung: Mobbing-Dokumentation, Betriebsrat, ggf. BEM-Verfahren",
+            "Selbstwertarbeit (‚Das Mobbing definiert nicht meinen Wert')",
+            "Stufenweise Exposition gegenüber gemiedenen Situationen",
+            "Berufliche Neuorientierung als Option evaluieren"
+          ],
+          "lernpunkte": [
+            "Mobbing: systematische, wiederholte Anfeindungen über >6 Monate (Definition nach Leymann)",
+            "Psychische Folgen: Depression, Angststörung, PTBS, Suizidalität",
+            "Betriebliches Eingliederungsmanagement (BEM) ist Pflicht des Arbeitgebers nach >6 Wochen AU",
+            "Therapeutische Haltung: Validierung des Erlebens, ohne vorschnelle Schuldzuweisung an Dritte"
+          ]
+        },
+        {
+          "id": "PSM064",
+          "titel": "Psychosomatische Beschwerden bei pflegenden Angehörigen",
+          "tags": ["Pflegende Angehörige", "Caregiver", "Belastung"],
+          "patient": "56-jährige Patientin, Hausfrau, pflegt ihren demenzkranken Ehemann seit 3 Jahren (Pflegegrad 4)",
+          "praesentation": "Zunehmende Rückenschmerzen, Schlafstörungen (Ehemann ist nachts unruhig), Erschöpfung, depressive Verstimmung. Fühlt sich ‚gefangen', kann den Ehemann nicht alleine lassen. Vernachlässigung eigener Gesundheit (Blutdruck-, Diabetes-Kontrolle ausgesetzt). Schuldgefühle bei dem Gedanken an Heimunterbringung.",
+          "befunde": [
+            "Caregiver Burden Scale: 75 (schwere Belastung)",
+            "PHQ-9: 15 Punkte (mittelschwere Depression)",
+            "Labor: HbA1c 8,2% (verschlechtert, vorher 6,8%)",
+            "RR: 160/95 mmHg (unbehandelt)",
+            "Orthopädisch: LWS-Syndrom, muskuläre Verspannungen",
+            "Psychopathologischer Befund: erschöpft, ambivalente Gefühle (Liebe und Wut gegenüber dem Ehemann)"
+          ],
+          "diagnose": "Psychosomatische Mehrfachbelastung bei Caregiver-Syndrom, komorbide Depression und Verschlechterung somatischer Grunderkrankungen",
+          "therapie": [
+            "Psychoedukation: Pflege des Pflegenden als Voraussetzung für Pflegefähigkeit",
+            "Entlastungsangebote: Tagespflege, Verhinderungspflege, Kurzzeitpflege, Pflegedienst",
+            "Psychotherapie: Bearbeitung von Schuld, Trauer (‚Mein Mann ist da und doch nicht mehr da')",
+            "Medizinische Versorgung der Patientin sicherstellen (Diabetes, Hypertonie)",
+            "Angehörigengruppe für Demenz-Pflegende",
+            "Sozialberatung: Pflegeleistungen ausschöpfen (§ 45 SGB XI)"
+          ],
+          "lernpunkte": [
+            "Ca. 2,5 Millionen Menschen pflegen in Deutschland Angehörige zu Hause",
+            "Pflegende Angehörige haben ein 2-fach erhöhtes Risiko für Depression und körperliche Erkrankungen",
+            "Ambivalente Gefühle (Liebe + Ärger + Schuld) sind normal und sollten thematisiert werden",
+            "Antizipatorische Trauer bei Demenz: ‚Der Partner ist da, aber nicht mehr der, der er war'"
+          ]
+        },
+        {
+          "id": "PSM065",
+          "titel": "Stressinduzierte Kardiomyopathie (Tako-Tsubo, psychosomatische Nachsorge)",
+          "tags": ["Tako-Tsubo", "Stress", "Kardiomyopathie"],
+          "patient": "63-jährige Patientin, Rentnerin, kürzlich verwitwet",
+          "praesentation": "Stationäre Aufnahme über die Notaufnahme mit akutem Brustschmerz, Dyspnoe und ST-Hebungen im EKG 2 Tage nach dem plötzlichen Tod des Ehemannes. Herzkatheter: keine relevanten Koronarstenosen, aber apikales Ballooning (Tako-Tsubo). Psychosomatisches Konsil.",
+          "befunde": [
+            "EKG: ST-Hebungen in V2-V6, T-Inversionen",
+            "Troponin T: 0,8 ng/ml (↑, aber geringer als bei STEMI erwartet)",
+            "Echokardiografie: apikale Akinesie, EF 35% (eingeschränkt)",
+            "Koronarangiografie: keine signifikanten Stenosen",
+            "Katecholamine im Serum: Adrenalin und Noradrenalin deutlich erhöht",
+            "Psychosomatisches Konsil: akute Trauerreaktion, Schock, Hilflosigkeit"
+          ],
+          "diagnose": "Stresskardiomyopathie (Tako-Tsubo-Syndrom, I51.81) bei akuter Trauerreaktion",
+          "therapie": [
+            "Akut: kardiologische Überwachung, Betablocker, ACE-Hemmer",
+            "Psychosomatische Begleitung: emotionale Stabilisierung in der Akutphase",
+            "Psychoedukation: Zusammenhang zwischen emotionalem Stress und Herzfunktion erklären",
+            "Trauertherapie nach kardialer Stabilisierung",
+            "Echokardiografische Kontrolle nach 4-8 Wochen (EF-Erholung erwartet)",
+            "Langzeit-Psychotherapie: Trauerbewältigung, ggf. Progredienzangst bezüglich Herz"
+          ],
+          "lernpunkte": [
+            "Tako-Tsubo: ‚Broken Heart Syndrome' – Katecholamin-vermittelte Myokardschädigung bei emotionalem Stress",
+            "Betrifft v.a. postmenopausale Frauen (>90%)",
+            "Prognose: EF erholt sich meist vollständig innerhalb von 4-8 Wochen",
+            "Rezidivrate: ca. 5%/Jahr – Stressmanagement als Sekundärprävention"
+          ]
+        },
+        {
+          "id": "PSM066",
+          "titel": "Schlafstörung (psychophysiologische Insomnie)",
+          "tags": ["Insomnie", "Schlaf", "G47.0"],
+          "patient": "43-jähriger Patient, Projektmanager, verheiratet",
+          "praesentation": "Seit 8 Monaten zunehmende Ein- und Durchschlafstörungen. Liegt 1-2 Stunden wach, grübelt über die Arbeit. Wacht um 4 Uhr auf und kann nicht mehr einschlafen. Tagsüber müde, gereizt, konzentrationsschwach. Schlafmittel (Zolpidem) anfangs wirksam, jetzt Dosis gesteigert.",
+          "befunde": [
+            "Schlafprotokoll (2 Wochen): Schlafeffizienz 55%, Einschlaflatenz 60-90 min, Bettzeit 10 Stunden (zu lang!)",
+            "ISI (Insomnia Severity Index): 22 (schwere Insomnie)",
+            "Polysomnografie: verlängerte Einschlaflatenz, reduzierter Tiefschlaf, keine Schlafapnoe",
+            "PHQ-9: 10 Punkte (leichte Depression)",
+            "Medikation: Zolpidem 10 mg seit 6 Monaten (Abhängigkeitsrisiko!)",
+            "Dysfunktionale Überzeugungen über Schlaf (DBAS): ‚Wenn ich nicht 8 Stunden schlafe, kann ich nicht funktionieren'"
+          ],
+          "diagnose": "Psychophysiologische Insomnie (F51.0 / G47.0) mit Z-Substanz-Fehlgebrauch",
+          "therapie": [
+            "KVT-I (KVT für Insomnie) als Erstlinientherapie (AASM, DGSM-Leitlinie)",
+            "Schlafrestriktion: Bettzeit auf Schlafzeit beschränken (z.B. 23:30-5:30 Uhr), dann schrittweise erweitern",
+            "Stimuluskontrolle: Bett nur zum Schlafen, bei Wachheit aufstehen",
+            "Kognitive Umstrukturierung: dysfunktionale Schlafüberzeugungen bearbeiten",
+            "Zolpidem schrittweise absetzen (Ausschleichen über 4-8 Wochen)",
+            "Schlafhygiene (regelmäßige Zeiten, kein Bildschirm, kühles Schlafzimmer)"
+          ],
+          "lernpunkte": [
+            "KVT-I ist Therapie der ersten Wahl bei chronischer Insomnie (vor Medikamenten!)",
+            "Schlafrestriktion: kurzfristig paradoxe Verschlechterung, dann deutliche Besserung der Schlafeffizienz",
+            "Z-Substanzen (Zolpidem, Zopiclon): Abhängigkeitsrisiko schon nach 4 Wochen, keine Langzeitverordnung",
+            "Schlafeffizienz <85% ist diagnostisch für Insomnie (Schlafzeit/Bettzeit x 100)"
+          ]
+        },
+        {
+          "id": "PSM067",
+          "titel": "Sexuelle Funktionsstörung (psychogen)",
+          "tags": ["Sexuelle Dysfunktion", "Psychogen", "F52"],
+          "patient": "35-jähriger Patient, Ingenieur, seit 2 Jahren verheiratet",
+          "praesentation": "Seit 6 Monaten erektile Dysfunktion bei Geschlechtsverkehr mit der Ehefrau. Morgendliche Spontanerektionen vorhanden. Masturbation mit Pornografie problemlos möglich. Leistungsdruck (‚Muss funktionieren'), Versagensangst. Partnerschaft belastet, Kinderwunsch besteht.",
+          "befunde": [
+            "Urologische Untersuchung: unauffällig, Doppler-Sonografie der Penisgefäße: normal",
+            "Labor: Testosteron 18 nmol/l (normal), Prolaktin, TSH: normal",
+            "IIEF-5 (International Index of Erectile Function): 10 Punkte (moderate Dysfunktion)",
+            "Nächtliche penile Tumeszenz (NPT): erhalten (Erektion im Schlaf vorhanden)",
+            "Psychopathologischer Befund: Leistungsangst, Vermeidungsverhalten, Scham",
+            "Partnerschaftsfragebogen: erhöhte Unzufriedenheit beider Partner"
+          ],
+          "diagnose": "Psychogene erektile Dysfunktion (F52.2)",
+          "therapie": [
+            "Sexualtherapie (Sensate Focus nach Masters & Johnson): schrittweise Annäherung ohne Leistungsdruck",
+            "KVT: Leistungsangst bearbeiten, kognitive Umstrukturierung (‚Erektion ist kein Leistungsziel')",
+            "PDE-5-Inhibitor (Sildenafil 50 mg) als ‚Brückenmedikation' zur Angstreduktion",
+            "Paartherapie: Kommunikation über Sexualität, Kinderwunschdruck thematisieren",
+            "Pornografie-Konsum reflektieren: habituelle Stimulation kann zu ‚normaler' Stimulation desensitivieren",
+            "Langfristig: Ausschleichen der PDE-5-Inhibitoren, wenn psychogene Faktoren bearbeitet"
+          ],
+          "lernpunkte": [
+            "Erhaltene Morgenerektionen und nächtliche Tumeszenz: starker Hinweis auf psychogene Genese",
+            "Sensate Focus: Goldstandard der sexualtherapeutischen Intervention seit 50 Jahren",
+            "PDE-5-Inhibitoren können als ‚Sicherheitsnetz' den Teufelskreis der Versagensangst durchbrechen",
+            "Pornografie-assoziierte sexuelle Dysfunktion (PASD): zunehmendes Phänomen bei jungen Männern"
+          ]
+        }
+      ]
+    },
+    "psychotherapieverfahren_besonderheiten": {
+      "label": "Psychotherapieverfahren & Besonderheiten",
+      "emoji": "🛋️",
+      "faelle": [
+        {
+          "id": "PSM068",
+          "titel": "Kognitive Verhaltenstherapie (KVT) bei Somatisierung",
+          "tags": ["KVT", "Somatisierung", "Methode"],
+          "patient": "42-jährige Patientin mit Somatisierungsstörung (F45.0), Zuweisung zur KVT",
+          "praesentation": "Multiple körperliche Beschwerden (Kopfschmerzen, Brustschmerz, Bauchschmerzen, Müdigkeit) seit 3 Jahren. Katastrophisierendes Denken (‚Der Schmerz bedeutet, dass etwas Schlimmes in meinem Körper passiert'). Frequente Arztbesuche, Gesundheitsangst.",
+          "befunde": [
+            "Verhaltensanalyse (SORKC): S: körperliches Symptom → O: Aufmerksamkeit auf Körper → R (kognitiv): ‚Das ist gefährlich' → R (emotional): Angst → K: Arztbesuch (kurzfristig: Beruhigung) → C+: Symptomverstärkung langfristig",
+            "Dysfunktionale Kognitionen: Somatosensory Amplification Scale erhöht",
+            "PHQ-15: 16, PHQ-9: 12"
+          ],
+          "diagnose": "Somatisierungsstörung (F45.0), Indikation für KVT",
+          "therapie": [
+            "Therapieziele: Reduktion von Katastrophisieren, Gesundheitsangst und Doctor-Shopping",
+            "Psychoedukation: kognitives Modell der Somatisierung (Teufelskreis Symptom → Aufmerksamkeit → Verstärkung)",
+            "Kognitive Umstrukturierung: alternative Bewertung körperlicher Symptome",
+            "Verhaltensexperimente: bewusst auf Körpersensationen achten vs. Ablenkung → Vergleich",
+            "Exposition: Verzicht auf Rückversicherung (kein Arztbesuch bei Symptomen für 2 Wochen)",
+            "Aufbau angenehmer Aktivitäten: Symptomfokus durch Lebensinhalte ersetzen",
+            "Relapse Prevention: Rückfallprophylaxe erarbeiten"
+          ],
+          "lernpunkte": [
+            "KVT bei Somatisierung: Evidenzlevel A (Cochrane, Metaanalysen)",
+            "SORKC-Modell: Verhaltensanalyse als Grundlage der KVT-Behandlungsplanung",
+            "Typische dysfunktionale Kognitionen: ‚Symptome = Krankheit', ‚Ärzte übersehen etwas'",
+            "Therapeutic Relationship: bei somatoformen Patienten zentral (Patienten fühlen sich oft nicht ernst genommen)"
+          ]
+        },
+        {
+          "id": "PSM069",
+          "titel": "Psychodynamische Therapie bei Konversion",
+          "tags": ["Psychodynamisch", "Konversion", "Methode"],
+          "patient": "30-jährige Patientin mit dissoziativer Bewegungsstörung (funktionelle Parese der Beine)",
+          "praesentation": "Seit 4 Monaten Lähmung beider Beine ohne organisches Korrelat. Beginn nach Trennung vom Partner, der sie jahrelang kontrollierte. La belle indifférence bezüglich der Symptomatik. In der Biografie überangepasstes Verhalten, Konfliktvermeidung, emotional vernachlässigende Eltern.",
+          "befunde": [
+            "OPD-2-Befund (Operationalisierte Psychodynamische Diagnostik): Beziehungsachse: unterwerfend-fürsorglich; Konflikt: Individuation vs. Abhängigkeit; Strukturniveau: mäßig integriert",
+            "Unbewusste Konflikthypothese: Parese als Ausdruck des unbewussten Wunsches, ‚nicht weitergehen zu müssen' (in der Beziehung)",
+            "Primärer Krankheitsgewinn: Vermeidung des Konflikts (Trennung/Autonomie)",
+            "Sekundärer Krankheitsgewinn: Zuwendung durch Umfeld"
+          ],
+          "diagnose": "Dissoziative Bewegungsstörung (F44.4), Indikation für psychodynamische Therapie",
+          "therapie": [
+            "Fokale psychodynamische Kurzzeittherapie (25 Sitzungen)",
+            "Identifizierung des zentralen Konflikts (Autonomie vs. Abhängigkeit)",
+            "Arbeit an der Affektwahrnehmung: ‚Was fühlen Sie, wenn Sie an die Trennung denken?'",
+            "Deutung des Symptoms: Parese als körperlicher Ausdruck eines seelischen Konflikts",
+            "Bearbeitung des primären Krankheitsgewinns",
+            "Übertragungsanalyse: Reproduktion des unterwerfenden Beziehungsmusters in der Therapie",
+            "Parallele Physiotherapie zur Mobilisation"
+          ],
+          "lernpunkte": [
+            "OPD-2: vier Achsen (Beziehung, Konflikt, Struktur, Krankheitserleben) – Standard der psychodynamischen Diagnostik",
+            "Primärer vs. sekundärer Krankheitsgewinn: primär = Konfliktlösung, sekundär = soziale Vorteile",
+            "Konversion nach Freud: Umsetzung eines psychischen Konflikts in ein körperliches Symptom",
+            "Psychodynamische Therapie bei Konversion: moderate Evidenz (v.a. Kurzzeittherapie)"
+          ]
+        },
+        {
+          "id": "PSM070",
+          "titel": "EMDR bei PTBS",
+          "tags": ["EMDR", "PTBS", "Trauma"],
+          "patient": "28-jährige Patientin, Z.n. Vergewaltigung vor 14 Monaten, PTBS-Diagnose",
+          "praesentation": "Persistierende PTBS trotz 6 Monaten stabilisierender Therapie. Intrusionen (visuelle Flashbacks des Tätergesichts), Vermeidung dunkler Orte, Hyperarousal, Schlafstörungen. Genügend Stabilität für traumafokussierte Arbeit gegeben.",
+          "befunde": [
+            "IES-R: 58 Punkte (schwere PTBS)",
+            "SUD (Subjective Units of Disturbance): 9/10 bei Erinnerung an das Trauma",
+            "VoC (Validity of Cognition, negative Kognition ‚Ich bin hilflos'): 7/7 (maximal belastend)",
+            "Positive Kognition (Ziel): ‚Ich bin stark und habe überlebt' → VoC 2/7 (noch kaum geglaubt)",
+            "Körperliche Reaktion bei Erinnerung: Zittern, Tachykardie, Engegefühl im Hals"
+          ],
+          "diagnose": "PTBS (F43.1), Indikation für EMDR-Therapie",
+          "therapie": [
+            "EMDR-Standardprotokoll (8 Phasen nach Shapiro):",
+            "Phase 1-2: Anamnese, Vorbereitung (sicherer Ort etabliert, Affekttoleranz überprüft)",
+            "Phase 3: Assessment (Target: Vergewaltigung, negative Kognition, positive Kognition, SUD, VoC, Körperreaktion)",
+            "Phase 4: Desensibilisierung durch bilaterale Stimulation (Augenbewegungen) → SUD von 9 auf 1",
+            "Phase 5: Verankerung der positiven Kognition (VoC von 2 auf 6-7)",
+            "Phase 6: Körpertest (Restspannung prüfen)",
+            "Phase 7-8: Abschluss und Nachbefragung in der nächsten Sitzung",
+            "In der Regel 6-12 EMDR-Sitzungen bei Einzeltrauma"
+          ],
+          "lernpunkte": [
+            "EMDR: gleichwertige Evidenz wie tf-KVT bei PTBS (WHO, NICE, S3-Leitlinie)",
+            "Wirkprinzip: bilaterale Stimulation unterstützt die Verarbeitung traumatischer Erinnerungen (Adaptive Information Processing)",
+            "SUD (0-10) und VoC (1-7): zentrale Verlaufsmaße der EMDR-Therapie",
+            "Kontraindikation: akute Suizidalität, Psychose, instabile dissoziative Störung, unzureichende Affekttoleranz"
+          ]
+        },
+        {
+          "id": "PSM071",
+          "titel": "Dialektisch-Behaviorale Therapie (DBT) bei Komorbidität",
+          "tags": ["DBT", "Emotionsregulation", "Borderline"],
+          "patient": "27-jährige Patientin, Essstörung (Bulimie) + Borderline-Persönlichkeitszüge, Selbstverletzung",
+          "praesentation": "Wiederholte Essanfälle mit Erbrechen (5x/Woche), Selbstverletzung durch Ritzen bei emotionaler Überflutung, impulsive Beziehungsgestaltung. Stationäre Aufnahme nach Selbstverletzung mit Schnittwunden am Unterarm. Hohe Anspannung.",
+          "befunde": [
+            "BSL-23 (Borderline-Symptom-Liste): 72 (schwer)",
+            "PHQ-9: 18 (schwere Depression)",
+            "Selbstverletzungsverhalten: 3-4x/Woche",
+            "Essanfälle und Erbrechen: 5x/Woche",
+            "Anspannungsniveau: durchschnittlich 8/10",
+            "Affektregulation: stark beeinträchtigt (rapid mood shifts)"
+          ],
+          "diagnose": "Emotional-instabile Persönlichkeitsstörung (F60.31) mit Bulimia nervosa (F50.2) und NSSV",
+          "therapie": [
+            "DBT-Therapiemodule:",
+            "Einzeltherapie (1x/Woche): Hierarchie: 1. Suizidalität/SVV, 2. therapiegefährdendes Verhalten, 3. Lebensqualität",
+            "Skillstraining in der Gruppe (1x/Woche): Stresstoleranz, Emotionsregulation, Zwischenmenschliche Fertigkeiten, Achtsamkeit",
+            "Telefoncoaching: Skill-Anwendung in der Krise",
+            "Konkreter Skills bei Hochanspannung: Eiswürfel, Chilischote, kalte Dusche, Ammoniakstift (TIP-Skill: Temperatur, Intensives Training, Progressive Relaxation)",
+            "Zusätzlich: Essstörungsmodule in der DBT integrieren",
+            "Diary Card: tägliche Protokollierung von Anspannung, Suizidalität, Drang zu SVV/Erbrechen, eingesetzte Skills"
+          ],
+          "lernpunkte": [
+            "DBT: evidenzbasiert für Borderline-PS, auch bei Bulimie + BPS wirksam (DBT-BED/BN)",
+            "Therapie-Hierarchie: Lebensbedrohliches Verhalten hat IMMER Vorrang",
+            "Skills-Akronym: TIPP – Temperatur, Intensive Bewegung, Paced Breathing, Progressive Relaxation",
+            "Diary Card als zentrales Monitoring-Instrument der DBT"
+          ]
+        },
+        {
+          "id": "PSM072",
+          "titel": "Achtsamkeitsbasierte Stressreduktion (MBSR)",
+          "tags": ["MBSR", "Achtsamkeit", "Stressreduktion"],
+          "patient": "50-jährige Patientin, Managerin, chronischer Stress, Spannungskopfschmerz, Reizdarmsyndrom",
+          "praesentation": "Chronische Stressbelastung mit multiplen funktionellen Beschwerden. Bisherige Therapien (Physiotherapie, Medikamente) brachten nur partielle Besserung. Patientin ist motiviert für Selbstmanagement-Ansatz. Keine schwere psychische Erkrankung.",
+          "befunde": [
+            "PSQ (Perceived Stress Questionnaire): 78/100 (hoch)",
+            "PHQ-9: 8 (leichte Depression)",
+            "PHQ-15: 12 (mittelschwere somatische Symptome)",
+            "Five Facet Mindfulness Questionnaire (FFMQ): niedrige Achtsamkeit",
+            "Funktionell: Spannungskopfschmerz 10 Tage/Monat, IBS-Symptome intermittierend"
+          ],
+          "diagnose": "Stressassoziierte funktionelle Beschwerden, Indikation für MBSR-Programm",
+          "therapie": [
+            "8-Wochen-MBSR-Kurs nach Jon Kabat-Zinn:",
+            "Woche 1-2: Body Scan (systematische Körperwahrnehmung, 45 min/Tag)",
+            "Woche 3-4: Sitzmeditation (Atembeobachtung, Gedankenbeobachtung)",
+            "Woche 5-6: Achtsames Yoga (sanfte Hatha-Yoga-Übungen)",
+            "Woche 7-8: Integration (offenes Gewahrsein, Alltagsachtsamkeit)",
+            "Tag der Achtsamkeit (Woche 6): ganztägiges Schweigeretreat",
+            "Tägliche Übungspraxis: 45 Minuten formale Meditation + informelle Übungen (achtsames Essen, Gehen)"
+          ],
+          "lernpunkte": [
+            "MBSR: standardisiertes 8-Wochen-Programm, entwickelt von Jon Kabat-Zinn 1979",
+            "Evidenz: moderate Effekte bei chronischem Schmerz, Stress, Angst, Depression (Cochrane-Reviews)",
+            "Wirkmechanismus: Veränderung der Beziehung zu Gedanken und Körperempfindungen (Decentering)",
+            "MBSR ist keine Therapie, sondern ein Selbstmanagement-Programm – Abgrenzung zu MBCT (Mindfulness-Based Cognitive Therapy für Depressionsrezidivprophylaxe)"
+          ]
+        },
+        {
+          "id": "PSM073",
+          "titel": "Biofeedback bei funktionellen Störungen",
+          "tags": ["Biofeedback", "Funktionell", "Methode"],
+          "patient": "36-jährige Patientin, Grafikdesignerin, Spannungskopfschmerz und chronische Muskelverspannungen",
+          "praesentation": "Chronischer Spannungskopfschmerz (15 Tage/Monat), erhöhter Muskeltonus in M. trapezius und M. frontalis, Stresskorrelation. Motiviert für nicht-medikamentöse Therapie. KVT bereits begonnen, Biofeedback als adjunktive Methode.",
+          "befunde": [
+            "EMG-Baseline M. trapezius: 12 µV (erhöht, Norm <5 µV in Ruhe)",
+            "EMG-Baseline M. frontalis: 8 µV (erhöht)",
+            "Hautleitwert (EDA): erhöht (vegetative Überaktivierung)",
+            "Atemfrequenz in Ruhe: 18/min (tachypnoeisch)",
+            "Finger-Temperatur: 28°C (erniedrigt, Zeichen sympathischer Aktivierung)"
+          ],
+          "diagnose": "Chronischer Spannungskopfschmerz (G44.2) mit muskulärer Hyperaktivität, Biofeedback-Indikation",
+          "therapie": [
+            "EMG-Biofeedback M. trapezius und M. frontalis: 12 Sitzungen über 6 Wochen",
+            "Erlernen der willentlichen Senkung des Muskeltonus mit visueller Rückmeldung",
+            "Temperatur-Biofeedback: Handerwärmung als Indikator für Entspannung",
+            "Atembiofeedback: Verlangsamung auf 6 Atemzüge/min (Resonanzfrequenz-Atmung)",
+            "Transfer in den Alltag: Mini-Entspannungsübungen am Arbeitsplatz",
+            "Kombination mit PMR und KVT"
+          ],
+          "lernpunkte": [
+            "Biofeedback: Rückmeldung physiologischer Parameter zur Erlernung von Selbstregulation",
+            "EMG-Biofeedback hat Evidenzlevel A bei Spannungskopfschmerz und Migräne (AAPB)",
+            "Resonanzfrequenz-Atmung (ca. 6/min): optimiert Herzratenvariabilität (HRV-Biofeedback)",
+            "Biofeedback eignet sich besonders für Patienten, die ‚etwas Messbares' brauchen (Technik-Affinität)"
+          ]
+        },
+        {
+          "id": "PSM074",
+          "titel": "Stationäre psychosomatische Rehabilitation",
+          "tags": ["Rehabilitation", "Stationär", "Konzept"],
+          "patient": "48-jährige Patientin, Altenpflegerin, chronisches Schmerzsyndrom, Depression, 14 Monate arbeitsunfähig",
+          "praesentation": "Zuweisung durch die DRV (Deutsche Rentenversicherung) zur stationären psychosomatischen Rehabilitation. Ziel: Wiederherstellung der Erwerbsfähigkeit. Bisherige ambulante Therapie nicht ausreichend wirksam. Therapiemotivation vorhanden.",
+          "befunde": [
+            "PHQ-9: 16 (mittelschwere Depression)",
+            "PHQ-15: 15 (hohe somatische Symptomlast)",
+            "Funktionskapazität (FFbH): 50%",
+            "AU-Dauer: 14 Monate (Prognose: ohne Reha Erwerbsminderung wahrscheinlich)",
+            "Sozialmedizinische Leistungsbeurteilung: aktuell <3 Stunden erwerbsfähig"
+          ],
+          "diagnose": "Chronische Schmerzstörung (F45.41), rezidivierende depressive Störung (F33.1), Indikation für psychosomatische Rehabilitation",
+          "therapie": [
+            "Stationäre Reha (5 Wochen) mit multimodalem Konzept:",
+            "Einzelpsychotherapie: 2x/Woche (psychodynamisch oder KVT)",
+            "Gruppenpsychotherapie: 3x/Woche (Interaktionelle Gruppe)",
+            "Körpertherapie: Konzentrative Bewegungstherapie, Sport, Physiotherapie",
+            "Kreativtherapie: Kunst- oder Musiktherapie",
+            "Entspannung: PMR, Achtsamkeit",
+            "Sozialberatung: berufliche Wiedereingliederung (Stufenweise, BEM)",
+            "Gesundheitsedukation: Schmerz, Stressmanagement, Bewegung",
+            "Nachsorge: ambulante Nachsorge (Psy-RENA), Reha-Sport"
+          ],
+          "lernpunkte": [
+            "Psychosomatische Rehabilitation: Zugang über DRV (Reha-Antrag) oder GKV (§ 40 SGB V)",
+            "Reha-Ziel: ‚Reha vor Rente' – Wiederherstellung der Erwerbsfähigkeit",
+            "Durchschnittliche Dauer: 5-6 Wochen, Verlängerung bei Bedarf möglich",
+            "Psy-RENA: ambulante psychosomatische Nachsorge der DRV (25 Sitzungen)"
+          ]
+        },
+        {
+          "id": "PSM075",
+          "titel": "Gruppentherapie in der Psychosomatik",
+          "tags": ["Gruppentherapie", "Interaktionell", "Methode"],
+          "patient": "44-jähriger Patient, Informatiker, somatoforme Störung und soziale Unsicherheit",
+          "praesentation": "Trotz ambulanter Einzeltherapie persistierende Beziehungsprobleme und Unsicherheit. Schwierigkeiten, eigene Bedürfnisse zu äußern, Konflikte zu benennen. Somatoforme Beschwerden (Magenschmerzen) v.a. in sozialen Situationen. Gruppentherapie-Indikation gestellt.",
+          "befunde": [
+            "IIP-64 (Inventory of Interpersonal Problems): erhöhte Werte auf den Skalen ‚zu unterwerfend' und ‚zu ausnutzbar'",
+            "Soziale Phobie: SPIN 28 Punkte (moderat)",
+            "PHQ-15: 10 Punkte",
+            "Psychopathologischer Befund: vermeidend, überangepasst, Schwierigkeiten bei Selbstbehauptung"
+          ],
+          "diagnose": "Somatoforme Störung (F45.0) mit komorbider sozialer Phobie (F40.1), Indikation für interaktionelle Gruppentherapie",
+          "therapie": [
+            "Interaktionelle Gruppentherapie (tiefenpsychologisch, 8-10 Teilnehmer, 1x/Woche, 25 Sitzungen):",
+            "Wirkfaktoren nach Yalom: Universalität, Altruismus, Katharsis, korrektive emotionale Erfahrung",
+            "Fokus: Beziehungsmuster in der Gruppe beobachten und reflektieren",
+            "Übung: Feedback geben und annehmen (‚Ich erlebe Sie als...')",
+            "Aufgabe: Konflikte in der Gruppe direkt ansprechen statt somatisch auszudrücken",
+            "Gruppenspezifisch: Identifikation des individuellen Interaktionsstils (‚Wie gehen Sie in der Gruppe mit Ärger um?')"
+          ],
+          "lernpunkte": [
+            "Gruppentherapie: gleichwertige Effektivität wie Einzeltherapie, kosteneffektiver",
+            "Yaloms Wirkfaktoren: Hoffnung, Universalität, Altruismus, korrektive Rekapitulation der Primärfamilie u.a.",
+            "Somatoforme Patienten in Gruppen: Körpersymptome als ‚Sprache' für interpersonelle Konflikte",
+            "Kontraindikation: akute Suizidalität, schwere Psychose, schwere antisoziale PS"
+          ]
+        },
+        {
+          "id": "PSM076",
+          "titel": "Motivierende Gesprächsführung bei Essstörung",
+          "tags": ["MI", "Motivational Interviewing", "Essstörung"],
+          "patient": "20-jährige Patientin mit Anorexia nervosa (BMI 16,5), ambivalent bezüglich Therapie",
+          "praesentation": "Zugewiesen durch die Mutter. Patientin erkennt zwar das Untergewicht, sagt aber: ‚Ich will nicht zunehmen, das macht mir Angst.' Angst vor Kontrollverlust. Bisherige Therapieversuche abgebrochen wegen ‚zu viel Druck'.",
+          "befunde": [
+            "Veränderungsmotivation (URICA): Stadium ‚Contemplation' (Nachdenken, aber noch nicht bereit)",
+            "Ambivalenz: erkennt Nachteile der Anorexie (Kälte, Haarausfall, soziale Isolation) und Vorteile (Kontrolle, Identität, Anerkennung)",
+            "BMI 16,5 kg/m²",
+            "PHQ-9: 11 Punkte"
+          ],
+          "diagnose": "Anorexia nervosa (F50.0) mit niedriger Veränderungsmotivation, Indikation für MI",
+          "therapie": [
+            "Motivierende Gesprächsführung (MI nach Miller & Rollnick):",
+            "OARS: Open questions, Affirmations, Reflective Listening, Summaries",
+            "Change Talk evozieren: ‚Was wäre anders, wenn die Essstörung nicht mehr da wäre?'",
+            "Entscheidungswaage: Vor- und Nachteile der Essstörung vs. Vor- und Nachteile der Veränderung",
+            "Widerstand nicht brechen, sondern ‚mit dem Widerstand rollen' (Rolling with Resistance)",
+            "Diskrepanz aufzeigen: ‚Sie wünschen sich Freundschaften – wie wirkt sich die Essstörung darauf aus?'",
+            "Selbstwirksamkeit stärken: vergangene Veränderungserfolge betonen"
+          ],
+          "lernpunkte": [
+            "MI: Evidenzbasierte Methode zur Förderung von Veränderungsbereitschaft (ursprünglich für Sucht, jetzt breit angewandt)",
+            "Stadien nach Prochaska & DiClemente: Precontemplation → Contemplation → Preparation → Action → Maintenance",
+            "Bei Essstörungen: häufig Ich-Syntonie (‚Die Essstörung ist Teil von mir') – MI adressiert die Ambivalenz",
+            "MI ist komplementär zu KVT: erst MI zur Motivationsförderung, dann KVT zur Verhaltensänderung"
+          ]
+        },
+        {
+          "id": "PSM077",
+          "titel": "Kunsttherapie / Körpertherapie",
+          "tags": ["Kunsttherapie", "Körpertherapie", "Nonverbal"],
+          "patient": "35-jährige Patientin, somatoforme Schmerzstörung, Schwierigkeiten bei der Verbalisierung von Gefühlen (Alexithymie)",
+          "praesentation": "Chronische Schmerzen in Rücken und Bauch. In der Einzeltherapie ‚fällt mir nichts ein', kann Gefühle nicht benennen (TAS-20: 68 Punkte, Alexithymie). Stationäre psychosomatische Behandlung, Kunsttherapie und Körpertherapie als adjunktive Verfahren.",
+          "befunde": [
+            "TAS-20 (Toronto Alexithymie-Skala): 68 Punkte (deutliche Alexithymie, Cut-off 61)",
+            "PHQ-9: 14 Punkte",
+            "PHQ-15: 16 Punkte",
+            "Psychopathologischer Befund: emotional verflacht, Schwierigkeiten, Körperempfindungen und Emotionen zu verbinden",
+            "Biografie: emotional deprivierendes Elternhaus (‚Bei uns wurde nicht über Gefühle gesprochen')"
+          ],
+          "diagnose": "Somatoforme Schmerzstörung (F45.40) mit Alexithymie, Indikation für non-verbale Therapieverfahren",
+          "therapie": [
+            "Kunsttherapie: freies Malen als Zugang zu unbewussten Affekten (‚Malen Sie Ihren Schmerz')",
+            "Konzentrative Bewegungstherapie (KBT): achtsame Körperwahrnehmung, Körperausdruck von Emotionen",
+            "Übung KBT: ‚Wie fühlt sich Ihr Rücken an, wenn Sie an Ihre Mutter denken?'",
+            "Tanztherapie/Ausdruckstanz: Emotionen durch Bewegung erleben",
+            "Musiktherapie (rezeptiv und aktiv): emotionale Resonanz über Klang",
+            "Integration: Bilder und Bewegungserfahrungen in der Einzeltherapie verbal reflektieren"
+          ],
+          "lernpunkte": [
+            "Alexithymie (‚keine Worte für Gefühle'): häufig bei somatoformen Störungen (bis 40%)",
+            "Non-verbale Therapien: niedrigschwelliger Zugang zu Emotionen bei verbal eingeschränkten Patienten",
+            "Konzentrative Bewegungstherapie (KBT): körperorientiertes psychodynamisches Verfahren (in D. entwickelt)",
+            "Evidenz: kreative Therapien als adjunktive Verfahren anerkannt (S3-Leitlinie Psychosomatik)"
+          ]
+        },
+        {
+          "id": "PSM078",
+          "titel": "Psychosomatische Grundversorgung (Hausarzt)",
+          "tags": ["Grundversorgung", "Hausarzt", "Basisintervention"],
+          "patient": "55-jähriger Patient, Schlosser, stellt sich beim Hausarzt mit Herzrasen, Schwindel und Schlafstörungen vor",
+          "praesentation": "Seit 3 Monaten zunehmende Beschwerden, für die der Hausarzt keine organische Ursache findet. Ehefrau kürzlich an Brustkrebs erkrankt. Patient redet aber nur über körperliche Symptome, weicht bei Nachfrage nach Belastung aus.",
+          "befunde": [
+            "Somatische Basisdiagnostik (EKG, Labor, BD): unauffällig",
+            "PHQ-4 (Kurzscreening): 7 Punkte (auffällig für Angst UND Depression)",
+            "Beobachtung: Patient wirkt angespannt, wechselt Thema bei emotionalen Fragen",
+            "Versorgungssituation: ländlicher Raum, 6 Monate Wartezeit für Psychotherapie"
+          ],
+          "diagnose": "V.a. somatoforme Störung mit komorbider Angst/Depression im Kontext der Krebserkrankung der Ehefrau, Indikation für psychosomatische Grundversorgung",
+          "therapie": [
+            "Psychosomatische Grundversorgung durch den Hausarzt (Qualifikation: 80h-Curriculum BÄK):",
+            "Basisintervention: empathisches Zuhören, bio-psycho-soziales Krankheitsmodell vermitteln",
+            "Verbale Intervention: ‚Wie geht es Ihnen mit der Erkrankung Ihrer Frau?' (den Zusammenhang benennen)",
+            "Feste Termine: alle 2-4 Wochen, 20 min (vermeidet erneutes Vorstellen wegen neuer Symptome)",
+            "Übende Verfahren: PMR-Anleitung, Rezept für Entspannungskurs",
+            "Überbrückung bis Psychotherapieplatz verfügbar",
+            "EBM-Ziffern: 35100 (verbal), 35110 (übend), je 15 min, max. 6x/HJ"
+          ],
+          "lernpunkte": [
+            "Psychosomatische Grundversorgung: NICHT gleichbedeutend mit Psychotherapie – niedrigschwellige hausärztliche Intervention",
+            "80h-Curriculum der BÄK: theoretische Grundlagen (20h), verbale Interventionen (30h), Balint-Gruppe (30h)",
+            "Feste Termine reduzieren Inanspruchnahme und iatrogene Diagnostik signifikant",
+            "Ca. 30% aller Hausarzt-Patienten haben primär psychosomatische Beschwerden"
+          ]
+        },
+        {
+          "id": "PSM079",
+          "titel": "Begutachtung psychosomatischer Störungen (Erwerbsminderung)",
+          "tags": ["Begutachtung", "Erwerbsminderung", "Sozialmedizin"],
+          "patient": "53-jährige Patientin, ehemalige Verwaltungsfachangestellte, stellt Antrag auf Erwerbsminderungsrente",
+          "praesentation": "Seit 4 Jahren zunehmende somatoforme Beschwerden (Schmerzen, Fatigue), Depression. Mehrere ambulante und stationäre Therapien mit nur partieller Besserung. Seit 2 Jahren arbeitsunfähig. DRV beauftragt sozialmedizinisches Gutachten.",
+          "befunde": [
+            "Aktenanalyse: 3 stationäre Reha-Maßnahmen, ambulante KVT (40 Sitzungen), Medikation adhärent",
+            "Untersuchung: konsistente Beschwerdeschilderung, keine Aggravation (SFSS negativ)",
+            "PHQ-9: 16 (mittelschwer persistierend trotz Therapie)",
+            "FFbH: 45%, GAF: 50",
+            "Testpsychologisch: konsistente Ergebnisse, keine Hinweise auf Symptomvalidierungsprobleme",
+            "Sozialmedizinische Einschätzung: letzte berufliche Tätigkeit <3h, allgemeiner Arbeitsmarkt <6h"
+          ],
+          "diagnose": "Chronische Schmerzstörung (F45.41), rezidivierende depressive Störung (F33.1), teilweise Erwerbsminderung",
+          "therapie": [
+            "Gutachtliche Empfehlungen:",
+            "Leistungsvermögen auf dem allgemeinen Arbeitsmarkt: 3-6 Stunden (teilweise Erwerbsminderung)",
+            "Qualitative Einschränkungen: kein Zeitdruck, keine schwere körperliche Arbeit, keine Publikumsarbeit",
+            "Weitere Therapieoptionen: ambulante Psychotherapie fortführen, ggf. Anpassung der Medikation",
+            "Befristete EM-Rente für 3 Jahre empfohlen, dann Re-Evaluation",
+            "Keine volle Erwerbsminderung, da Restleistungsvermögen vorhanden"
+          ],
+          "lernpunkte": [
+            "Sozialmedizinische Begutachtung: Unterschied zwischen Diagnose und Funktionseinschränkung – die Diagnose allein begründet KEINE Erwerbsminderung",
+            "Erwerbsminderung: Teilweise EM (<6h), Volle EM (<3h) auf dem allgemeinen Arbeitsmarkt",
+            "Konsistenzprüfung: Übereinstimmung von Beschwerdeschilderung, Befund, Testergebnissen und Alltag",
+            "Beschwerdevalidierungstests (z.B. SFSS, TOMM) zum Ausschluss von Aggravation/Simulation"
+          ]
+        },
+        {
+          "id": "PSM080",
+          "titel": "Interkulturelle Psychosomatik (Migration)",
+          "tags": ["Interkulturell", "Migration", "Somatisierung"],
+          "patient": "35-jährige Patientin, syrische Geflüchtete, seit 4 Jahren in Deutschland, Dolmetscher begleitet",
+          "praesentation": "Überwiesen vom Hausarzt wegen ‚Körperschmerzen überall'. Spricht wenig Deutsch. Berichtet über Dolmetscher: seit Flucht Schmerzen im ganzen Körper, Herzrasen, Albträume, ‚Feuer im Kopf'. Mann auf der Flucht verschollen. 3 Kinder. Somatische Abklärung unauffällig.",
+          "befunde": [
+            "Somatische Diagnostik: unauffällig (Labor, Bildgebung)",
+            "PHQ-9 (übersetzt): 18 Punkte",
+            "PCL-5 (PTBS-Screening, arabische Version): 52 Punkte (schwere PTBS)",
+            "Kulturelle Schmerzexpression: ‚Feuer im Kopf' als Idiom of Distress (keine westliche Diagnose, sondern kulturspezifischer Ausdruck für psychisches Leiden)",
+            "Migrationsbelastungen: unsicherer Aufenthaltsstatus, Trennung vom Ehemann, Isolation, Sprachbarriere"
+          ],
+          "diagnose": "PTBS (F43.1) bei Fluchttraumatisierung mit kulturspezifischer somatischer Symptomexpression, V.a. anhaltende Trauerstörung",
+          "therapie": [
+            "Kultursensible Traumatherapie (z.B. NET – Narrative Expositionstherapie, speziell für Geflüchtete entwickelt)",
+            "Professioneller Dolmetscher (geschult für Psychotherapie, NICHT Familienangehörige!)",
+            "Stabilisierung: sicherer Aufenthaltsstatus anstreben (psychosoziale Beratung), Deutschkurs",
+            "Kulturell angepasste Psychoedukation: Idioms of Distress anerkennen, bio-psycho-soziales Modell vermitteln",
+            "Niedrigschwellige Angebote: Frauengruppe, Gemeindeanbindung, kultursensible Sozialarbeit",
+            "Antidepressivum bei komorbider Depression (Sertralin)"
+          ],
+          "lernpunkte": [
+            "Idioms of Distress: kulturspezifische Ausdrucksformen psychischen Leidens (z.B. ‚Feuer im Kopf', ‚Herzschmerz')",
+            "NET (Narrative Expositionstherapie): Goldstandard für Geflüchtete mit multiplen Traumata (Schauer, Neuner, Elbert)",
+            "Dolmetscher: professionell, geschult, allparteilich – NICHT Familienangehörige oder Kinder!",
+            "Postmigrationsstressoren (Aufenthaltsunsicherheit, Isolation, Diskriminierung) können Traumasymptome aufrechterhalten oder verstärken"
+          ]
+        }
+      ]
+    }
+  }
+}

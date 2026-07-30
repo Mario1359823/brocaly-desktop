@@ -1,0 +1,2071 @@
+{
+  "meta": {
+    "name": "BROCALY Falldatenbank",
+    "fachgebiet": "Rheumatologie",
+    "version": "1.0.0",
+    "total": 100,
+    "kategorien": 7,
+    "erstellt": "2026-03-29"
+  },
+  "kategorien": {
+    "diagnostik_labor_bild": {
+      "label": "Diagnostik (Labor & Bildgebung)",
+      "emoji": "🔬",
+      "faelle": [
+        {
+          "id": "RHE_D001",
+          "titel": "Rheumafaktor vs. ACPA",
+          "tags": [
+            "Labor",
+            "Diagnostik"
+          ],
+          "patient": "45-jährige Patientin mit Gelenkschmerzen",
+          "praesentation": "Morgensteifigkeit 30 Min., symmetrischer Befall der MCP-Gelenke.",
+          "befunde": [
+            "Rheumafaktor (IgM-RF) negativ",
+            "ACPA (Anti-CCP) stark positiv"
+          ],
+          "diagnose": "Seropositive Rheumatoide Arthritis (frühes Stadium)",
+          "therapie": [
+            "Frühzeitiger Beginn mit Basistherapie (MTX)"
+          ],
+          "lernpunkte": [
+            "ACPA ist spezifischer als RF",
+            "Erhöhtes Risiko für radiologische Progression bei ACPA-Positivität"
+          ]
+        },
+        {
+          "id": "RHE_D002",
+          "titel": "ANA-Differenzierung",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "30-j. Frau, Myalgien",
+          "praesentation": "Diffuse Beschwerden, kein Exanthem.",
+          "befunde": [
+            "ANA 1:1280 (homogen)",
+            "Anti-dsDNA positiv"
+          ],
+          "diagnose": "Systemischer Lupus erythematodes (SLE)",
+          "therapie": [
+            "Hydroxychloroquin",
+            "Sonnenschutz"
+          ],
+          "lernpunkte": [
+            "Hoher ANA-Titer erfordert Differenzierung (ENA/dsDNA)"
+          ]
+        },
+        {
+          "id": "RHE_D003",
+          "titel": "ANCA-Diagnostik (GPA)",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "55-j. mit Sinusitis und Hämoptysen",
+          "praesentation": "Zunehmende Nierenfunktionsstörung.",
+          "befunde": [
+            "c-ANCA positiv",
+            "PR3-Antikörper hoch"
+          ],
+          "diagnose": "Granulomatose mit Polyangiitis",
+          "therapie": [
+            "Induktionstherapie mit Rituximab oder Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "c-ANCA/PR3 ist hochspezifisch für GPA"
+          ]
+        },
+        {
+          "id": "RHE_D004",
+          "titel": "Arthrosonographie (Früherosion)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "40-j. mit Handgelenksschmerz",
+          "praesentation": "Schwellung MCP II/III.",
+          "befunde": [
+            "Sono: Gelenkerguss, Synovialitis (Power-Doppler Grad 3), corticale Unterbrechung"
+          ],
+          "diagnose": "Erosive Arthritis",
+          "therapie": [
+            "Intensivierte Basistherapie"
+          ],
+          "lernpunkte": [
+            "Sonographie ist sensitiver als konventionelles Röntgen für Früherosionen"
+          ]
+        },
+        {
+          "id": "RHE_D005",
+          "titel": "HLA-B27 Assoziation",
+          "tags": [
+            "Genetik"
+          ],
+          "patient": "25-j. Mann, nächtlicher Rückenschmerz",
+          "praesentation": "Besserung bei Bewegung.",
+          "befunde": [
+            "HLA-B27 positiv",
+            "CRP leicht erhöht"
+          ],
+          "diagnose": "Axiale Spondyloarthritis (Frühstadium)",
+          "therapie": [
+            "NSAR",
+            "Physiotherapie"
+          ],
+          "lernpunkte": [
+            "HLA-B27 ist ein Risikofaktor, keine Diagnose an sich"
+          ]
+        },
+        {
+          "id": "RHE_D006",
+          "titel": "MRT der Sakroiliakalgelenke",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "30-j. mit V.a. M. Bechterew",
+          "praesentation": "Normales Röntgen der SI-Gelenke.",
+          "befunde": [
+            "MRT-STIR: Knochenmarködem (Osteitis) subchondral beidseits"
+          ],
+          "diagnose": "Nicht-radiographische axiale Spondyloarthritis (nr-axSpA)",
+          "therapie": [
+            "NSAR-Dauertherapie"
+          ],
+          "lernpunkte": [
+            "MRT erkennt Entzündung vor knöchernen Veränderungen"
+          ]
+        },
+        {
+          "id": "RHE_D007",
+          "titel": "Kapillarmikroskopie",
+          "tags": [
+            "Diagnostik"
+          ],
+          "patient": "28-j. Frau mit Raynaud-Phänomen",
+          "praesentation": "Tricolore-Phänomen der Finger bei Kälte.",
+          "befunde": [
+            "Nagelfalz: Riesenkapillaren, Blutungen, avaskuläre Felder"
+          ],
+          "diagnose": "Sekundäres Raynaud-Phänomen bei V.a. Sklerodermie",
+          "therapie": [
+            "Kälteschutz",
+            "Calciumantagonisten"
+          ],
+          "lernpunkte": [
+            "Unterscheidung primäres vs. sekundäres Raynaud-Syndrom"
+          ]
+        },
+        {
+          "id": "RHE_D008",
+          "titel": "Gelenkpunktat-Analyse (Kristalle)",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "60-j. Mann, akutes Knieödem",
+          "praesentation": "Stärkster Schmerz, Rötung.",
+          "befunde": [
+            "Polarisationsmikroskopie: negativ doppelbrechende Nadeln"
+          ],
+          "diagnose": "Urat-Gicht (Arthritis urica)",
+          "therapie": [
+            "Prednisolon oder NSAR akut"
+          ],
+          "lernpunkte": [
+            "Goldstandard der Gichtdiagnose ist der Kristallnachweis"
+          ]
+        },
+        {
+          "id": "RHE_D009",
+          "titel": "Skelettszintigraphie (Mehrphasen)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "50-j. mit unklaren Schmerzen Fuß",
+          "praesentation": "V.a. CRPS vs. Stressfraktur.",
+          "befunde": [
+            "Anreicherung in allen drei Phasen"
+          ],
+          "diagnose": "Florider Entzündungsprozess",
+          "therapie": [
+            "Ursachenabhängig"
+          ],
+          "lernpunkte": [
+            "Differenzierung von Weichteil- und Knochenprozessen"
+          ]
+        },
+        {
+          "id": "RHE_D010",
+          "titel": "Komplement-Diagnostik (C3/C4)",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "SLE-Patientin im Schub",
+          "praesentation": "Nephritis-Zeichen.",
+          "befunde": [
+            "C3 und C4 stark erniedrigt"
+          ],
+          "diagnose": "Aktivitätszeichen des SLE",
+          "therapie": [
+            "Eskalation der Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Komplementverbrauch korreliert mit Krankheitsaktivität"
+          ]
+        },
+        {
+          "id": "RHE_D011",
+          "titel": "Procalcitonin vs. CRP",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "Immunsupprimierter RA-Patient mit Fieber",
+          "praesentation": "V.a. Infekt vs. Rheumaschub.",
+          "befunde": [
+            "CRP 150 mg/l (↑↑)",
+            "PCT 0,1 ng/ml (normal)"
+          ],
+          "diagnose": "Rheumatischer Schub (PCT-Diskordanz)",
+          "therapie": [
+            "Kortisonstoß"
+          ],
+          "lernpunkte": [
+            "PCT bleibt bei rheumatischen Entzündungen oft niedrig (DD bakterielle Sepsis)"
+          ]
+        },
+        {
+          "id": "RHE_D012",
+          "titel": "Antiphospholipid-Antikörper",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "32-j. Frau, rezidivierende Aborte",
+          "praesentation": "Venöse Thrombose Bein.",
+          "befunde": [
+            "Lupus-Antikoagulans positiv",
+            "Anti-Cardiolipin-AK hoch"
+          ],
+          "diagnose": "Antiphospholipid-Syndrom (APS)",
+          "therapie": [
+            "Dauerantikoagulation (Marcumar)"
+          ],
+          "lernpunkte": [
+            "Triple-Positivität erhöht Thromboserisiko massiv"
+          ]
+        },
+        {
+          "id": "RHE_D013",
+          "titel": "PET-CT (Aortitis)",
+          "tags": [
+            "Bildgebung"
+          ],
+          "patient": "70-j. Mann, unklares Fieber, BSG↑↑",
+          "praesentation": "Gewichtsverlust.",
+          "befunde": [
+            "FDG-PET: Zirkulärer Uptake in Aorta und großen Abgängen"
+          ],
+          "diagnose": "Großgefäßvaskulitis (Riesenzellarteriitis)",
+          "therapie": [
+            "Hochdosis-Steroide"
+          ],
+          "lernpunkte": [
+            "PET-CT zur Diagnose der extrakraniellen Riesenzellarteriitis"
+          ]
+        },
+        {
+          "id": "RHE_D014",
+          "titel": "Doppelkontur-Zeichen (Sono)",
+          "tags": [
+            "Gicht"
+          ],
+          "patient": "55-j. mit chronischem Gelenkschmerz",
+          "praesentation": "Verdacht auf Gicht ohne akuten Anfall.",
+          "befunde": [
+            "Sono: Hyperechogene Linie auf dem Gelenkknorpel"
+          ],
+          "diagnose": "Ablagerung von Uratkristallen",
+          "therapie": [
+            "Allopurinol"
+          ],
+          "lernpunkte": [
+            "Pathognomonisches sonographisches Zeichen für Gicht"
+          ]
+        },
+        {
+          "id": "RHE_D015",
+          "titel": "Ferritin bei M. Still",
+          "tags": [
+            "Labor"
+          ],
+          "patient": "22-j. mit intermittierendem Fieber",
+          "praesentation": "Lachsfarbenes Exanthem, Halsschmerzen.",
+          "befunde": [
+            "Ferritin 8.000 ng/ml (extrem↑)"
+          ],
+          "diagnose": "Adultes Still-Syndrom (AOSD)",
+          "therapie": [
+            "IL-1-Inhibitoren (Anakinra)"
+          ],
+          "lernpunkte": [
+            "Massive Hyperferritinämie als diagnostischer Hinweis"
+          ]
+        }
+      ]
+    },
+    "rheumatoide_arthritis": {
+      "label": "Rheumatoide Arthritis (RA)",
+      "emoji": "🖐️",
+      "faelle": [
+        {
+          "id": "RHE_R016",
+          "titel": "RA - Klassische Erstmanifestation",
+          "tags": [
+            "RA",
+            "Basistherapie"
+          ],
+          "patient": "50-jährige Frau",
+          "praesentation": "Symmetrische Polyarthritis der kleinen Gelenke, Morgensteifigkeit 2h.",
+          "befunde": [
+            "Gaenslen-Zeichen positiv",
+            "CRP erhöht",
+            "RF/ACPA positiv"
+          ],
+          "diagnose": "Seropositive Rheumatoide Arthritis",
+          "therapie": [
+            "MTX (Methotrexat) 15mg/Woche + Folsäure",
+            "Glukokortikoid-Bridging"
+          ],
+          "lernpunkte": [
+            "Treat-to-Target Prinzip",
+            "Früher Therapiebeginn verhindert Gelenkdestruktion"
+          ]
+        },
+        {
+          "id": "RHE_R017",
+          "titel": "MTX-Nebenwirkungsmanagement",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "Patient unter MTX 20mg",
+          "praesentation": "Übelkeit am Tag der Einnahme, Mundschleimhautulzera.",
+          "befunde": [
+            "Leberenzyme leicht erhöht"
+          ],
+          "diagnose": "MTX-Unverträglichkeit",
+          "therapie": [
+            "Umstellung auf s.c. Gabe",
+            "Erhöhung Folsäure"
+          ],
+          "lernpunkte": [
+            "Folsäure-Substitution mindert mukokutane Nebenwirkungen"
+          ]
+        },
+        {
+          "id": "RHE_R018",
+          "titel": "Biologika-Versagen (TNF-alpha)",
+          "tags": [
+            "Eskalation"
+          ],
+          "patient": "RA-Pat. unter Adalimumab",
+          "praesentation": "Wiederkehr der Schwellungen nach 6 Monaten.",
+          "befunde": [
+            "DAS28 5,2 (hohe Aktivität)"
+          ],
+          "diagnose": "Sekundäres Wirkungsverlust (Anti-Drug-Antibodies?)",
+          "therapie": [
+            "Switch auf andere Substanzklasse (z.B. JAK-Inhibitor oder IL-6-Inhibitor)"
+          ],
+          "lernpunkte": [
+            "Wechsel der Zielstruktur bei Versagen einer Klasse"
+          ]
+        },
+        {
+          "id": "RHE_R019",
+          "titel": "Pleuritis bei RA",
+          "tags": [
+            "Extraartikulär"
+          ],
+          "patient": "65-j. RA-Patient",
+          "praesentation": "Atemabhängige Thoraxschmerzen.",
+          "befunde": [
+            "Pleuraerguss im Ultraschall",
+            "Biopsie: Rheumaknoten der Pleura"
+          ],
+          "diagnose": "Extraartikuläre Manifestation der RA",
+          "therapie": [
+            "Intensivierung der Systemtherapie"
+          ],
+          "lernpunkte": [
+            "Lunge ist das häufigste extraartikuläre Zielorgan"
+          ]
+        },
+        {
+          "id": "RHE_R020",
+          "titel": "Atlanto-axiale Instabilität",
+          "tags": [
+            "Wirbelsäule"
+          ],
+          "patient": "Langjährig erkrankte RA-Patientin",
+          "praesentation": "Nackenschmerz, Parästhesien in den Händen.",
+          "befunde": [
+            "Rö-HWS (Funktion): Atlanto-dentaler Abstand 6 mm (↑)"
+          ],
+          "diagnose": "HWS-Beteiligung bei RA",
+          "therapie": [
+            "Halskrawatte",
+            "ggf. dorsale Fusion C1/2"
+          ],
+          "lernpunkte": [
+            "Gefahr der hohen Querschnittslähmung bei Intubation/Trauma"
+          ]
+        },
+        {
+          "id": "RHE_R021",
+          "titel": "Felty-Syndrom",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "RA-Patient, chronischer Verlauf",
+          "praesentation": "Rezidivierende Infekte, Ulcus cruris.",
+          "befunde": [
+            "Splenomegalie",
+            "Neutropenie < 500/µl"
+          ],
+          "diagnose": "Felty-Syndrom",
+          "therapie": [
+            "MTX meist effektiv",
+            "G-CSF im Notfall"
+          ],
+          "lernpunkte": [
+            "Trias: RA, Splenomegalie, Granulozytopenie"
+          ]
+        },
+        {
+          "id": "RHE_R022",
+          "titel": "Sicca-Symptomatik bei RA",
+          "tags": [
+            "Sjögren"
+          ],
+          "patient": "RA-Patientin",
+          "praesentation": "Gefühl von Sand in den Augen, trockener Mund.",
+          "befunde": [
+            "Schirmer-Test positiv"
+          ],
+          "diagnose": "Sekundäres Sjögren-Syndrom",
+          "therapie": [
+            "Tränenersatzmittel",
+            "Speichelersatz"
+          ],
+          "lernpunkte": [
+            "Häufige Assoziation mit anderen Autoimmunerkrankungen"
+          ]
+        },
+        {
+          "id": "RHE_R023",
+          "titel": "Rheumaknoten",
+          "tags": [
+            "Klinik"
+          ],
+          "patient": "RA-Pat., Ellbogenbereich",
+          "praesentation": "Derbe, schmerzlose Unterhautknoten.",
+          "befunde": [
+            "Lokalisation an Druckpunkten"
+          ],
+          "diagnose": "Subkutane Rheumaknoten",
+          "therapie": [
+            "Meist keine nötig",
+            "ggf. operative Entfernung"
+          ],
+          "lernpunkte": [
+            "Kommen fast nur bei seropositiven Patienten vor"
+          ]
+        },
+        {
+          "id": "RHE_R024",
+          "titel": "Rheumatoide Vaskulitis",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "RA-Patient, schwere Verlaufsform",
+          "praesentation": "Punktförmige Nekrosen am Nagelfalz (Bywaters-Läsionen).",
+          "befunde": [
+            "Mononeuritis multiplex"
+          ],
+          "diagnose": "RA-assoziierte Vaskulitis",
+          "therapie": [
+            "Cyclophosphamid oder Rituximab"
+          ],
+          "lernpunkte": [
+            "Zeichen einer sehr hohen Krankheitsaktivität"
+          ]
+        },
+        {
+          "id": "RHE_R025",
+          "titel": "Caplan-Syndrom",
+          "tags": [
+            "Extraartikulär"
+          ],
+          "patient": "RA-Patient, Bergmann gewesen",
+          "praesentation": "Husten, Luftnot.",
+          "befunde": [
+            "Rö-Thorax: Multiple Rundherde bei Pneumokoniose"
+          ],
+          "diagnose": "Rheumatoide Anthrakosilikose",
+          "therapie": [
+            "Expositionsstopp",
+            "Rheumatherapie"
+          ],
+          "lernpunkte": [
+            "Kombination aus RA und Staublunge"
+          ]
+        },
+        {
+          "id": "RHE_R026",
+          "titel": "Leflunomid-Nebenwirkung",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "RA-Pat. unter Leflunomid",
+          "praesentation": "Neu aufgetretene Hypertonie.",
+          "befunde": [
+            "RR 165/100 mmHg"
+          ],
+          "diagnose": "Blutdruckanstieg durch Basistherapie",
+          "therapie": [
+            "Antihypertensiva",
+            "ggf. Dosisreduktion Leflunomid"
+          ],
+          "lernpunkte": [
+            "Regelmäßige Blutdruckkontrollen unter Leflunomid obligat"
+          ]
+        },
+        {
+          "id": "RHE_R027",
+          "titel": "JAK-Inhibitor & Herpes Zoster",
+          "tags": [
+            "Sicherheit"
+          ],
+          "patient": "RA-Pat. unter Tofacitinib",
+          "praesentation": "Bläschenausschlag im Dermatom Th4.",
+          "befunde": [
+            "Tzanck-Test positiv"
+          ],
+          "diagnose": "Herpes Zoster Reaktivierung",
+          "therapie": [
+            "Aciclovir",
+            "Pausieren des JAK-Inhibitors"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Zosterrisiko unter JAK-Inhibitoren, Impfung empfohlen"
+          ]
+        },
+        {
+          "id": "RHE_R028",
+          "titel": "Interstitielle Lungenerkrankung (RA-ILD)",
+          "tags": [
+            "Extraartikulär"
+          ],
+          "patient": "RA-Patient, Belastungsdyspnoe",
+          "praesentation": "Trockener Husten.",
+          "befunde": [
+            "HR-CT: UIP-Muster (Honigwaben)"
+          ],
+          "diagnose": "RA-assoziierte Lungenfibrose",
+          "therapie": [
+            "Nintedanib + Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Progrediente ILD verschlechtert die Prognose der RA massiv"
+          ]
+        },
+        {
+          "id": "RHE_R029",
+          "titel": "Ambulante RA-Abrechnung",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "Kassenpatient",
+          "praesentation": "Quartalskontrolle.",
+          "befunde": [
+            "Stabile Remission"
+          ],
+          "diagnose": "RA (M05.8-)",
+          "therapie": [
+            "Abrechnung der fachärztlichen Komplexpauschale"
+          ],
+          "lernpunkte": [
+            "Dokumentation der Gelenkstatus (SJC/TJC) für Qualitätssicherung"
+          ]
+        },
+        {
+          "id": "RHE_R030",
+          "titel": "Schwangerschaft bei RA",
+          "tags": [
+            "Gynäkologie"
+          ],
+          "patient": "28-j. RA-Pat., Kinderwunsch",
+          "praesentation": "Frage nach Medikation.",
+          "befunde": [
+            "Nimmt MTX"
+          ],
+          "diagnose": "Planung Schwangerschaft",
+          "therapie": [
+            "MTX 3 Monate vor Konzeption absetzen",
+            "Umstellung auf Sulfasalazin / Certolizumab"
+          ],
+          "lernpunkte": [
+            "Certolizumab ist das einzige Biologikum ohne Plazentagängigkeit"
+          ]
+        }
+      ]
+    },
+    "spondyloarthritiden": {
+      "label": "Spondyloarthritiden (SpA)",
+      "emoji": "🦴",
+      "faelle": [
+        {
+          "id": "RHE_S031",
+          "titel": "Morbus Bechterew (Spondylitis ankylosans)",
+          "tags": [
+            "SpA",
+            "Wirbelsäule"
+          ],
+          "patient": "30-jähriger Mann",
+          "praesentation": "Entzündlicher Rückenschmerz nachts, Besserung durch Bewegung, Steifigkeit morgens.",
+          "befunde": [
+            "Mennell-Zeichen positiv",
+            "HLA-B27+",
+            "Rö: Syndesmophyten (Bambusstab)"
+          ],
+          "diagnose": "Ankylosierende Spondylitis",
+          "therapie": [
+            "NSAR-Dauertherapie",
+            "intensive Physiotherapie",
+            "ggf. TNF-Blocker"
+          ],
+          "lernpunkte": [
+            "Schober- und Ott-Maß zur Verlaufskontrolle"
+          ]
+        },
+        {
+          "id": "RHE_S032",
+          "titel": "Psoriasis-Arthritis (PsA)",
+          "tags": [
+            "SpA"
+          ],
+          "patient": "45-j. mit bekannter Schuppenflechte",
+          "praesentation": "Schwellung ganzer Finger (Daktylitis), Gelenkschmerz.",
+          "befunde": [
+            "Pencil-in-cup Deformität im Röntgen",
+            "Befall der DIP-Gelenke"
+          ],
+          "diagnose": "Psoriasis-Arthritis (Daktylitis-Typ)",
+          "therapie": [
+            "IL-17-Inhibitoren (Secukinumab)"
+          ],
+          "lernpunkte": [
+            "Spezifisches Befallsmuster (DIP + Daktylitis)"
+          ]
+        },
+        {
+          "id": "RHE_S033",
+          "titel": "Reaktive Arthritis (M. Reiter)",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "22-j. nach Fernreise (Diarrhö)",
+          "praesentation": "Akute Monarthritis des Knies, Augenbrennen, Dysurie.",
+          "befunde": [
+            "Trias: Arthritis, Konjunktivitis, Urethritis"
+          ],
+          "diagnose": "Reaktive Arthritis (HLA-B27 assoziiert)",
+          "therapie": [
+            "NSAR",
+            "ggf. Steroidinjektion",
+            "keine Dauerantibiose!"
+          ],
+          "lernpunkte": [
+            "Zeitlicher Abstand zu Infekt ca. 2-4 Wochen"
+          ]
+        },
+        {
+          "id": "RHE_S034",
+          "titel": "Enteropathische Arthritis",
+          "tags": [
+            "CED"
+          ],
+          "patient": "35-j. mit Morbus Crohn",
+          "praesentation": "Schübe von Gelenkschmerzen Knie/Sprunggelenk.",
+          "befunde": [
+            "Gelenkschmerz korreliert mit Darmaktivität"
+          ],
+          "diagnose": "CED-assoziierte periphere Arthritis",
+          "therapie": [
+            "Behandlung der CED (z.B. TNF-Blocker)"
+          ],
+          "lernpunkte": [
+            "Axiale Beteiligung bei CED korreliert NICHT mit Darmaktivität"
+          ]
+        },
+        {
+          "id": "RHE_S035",
+          "titel": "Uveitis anterior bei SpA",
+          "tags": [
+            "Auge"
+          ],
+          "patient": "30-j. Mann mit Rückenschmerzen",
+          "praesentation": "Rotes, schmerzhaftes Auge, Lichtscheu.",
+          "befunde": [
+            "Spaltlampe: Ziliare Injektion, Hypopyon"
+          ],
+          "diagnose": "Akute Iridozyklitis bei axSpA",
+          "therapie": [
+            "Lokale Steroide (Augenarzt)",
+            "Systemische SpA-Therapie"
+          ],
+          "lernpunkte": [
+            "Häufigste extraartikuläre Manifestation bei HLA-B27+ Patienten"
+          ]
+        },
+        {
+          "id": "RHE_S036",
+          "titel": "Fersenschmerz (Enthesitis)",
+          "tags": [
+            "SpA"
+          ],
+          "patient": "38-j. Patient mit axSpA",
+          "praesentation": "Starker Schmerz an der Achillessehne morgens.",
+          "befunde": [
+            "Sono: Verdickung des Sehnenansatzes, Power-Doppler Signal"
+          ],
+          "diagnose": "Enthesitis bei Spondyloarthritis",
+          "therapie": [
+            "NSAR",
+            "Physio",
+            "ggf. Biologika"
+          ],
+          "lernpunkte": [
+            "Enthesitis ist das pathognomonische Merkmal der SpA"
+          ]
+        },
+        {
+          "id": "RHE_S037",
+          "titel": "SAPHO-Syndrom",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "40-j. Frau mit Akne",
+          "praesentation": "Schwellung und Schmerz über dem Brustbein.",
+          "befunde": [
+            "Rö: Hyperostose Sternoklavikulargelenk"
+          ],
+          "diagnose": "SAPHO-Syndrom (Synovitis, Akne, Pustulose, Hyperostose, Osteitis)",
+          "therapie": [
+            "Bisphosphonate",
+            "NSAR"
+          ],
+          "lernpunkte": [
+            "Assoziation von Haut- und Knochenveränderungen"
+          ]
+        },
+        {
+          "id": "RHE_S038",
+          "titel": "M. Whipple (Rheumatische Symptome)",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "50-j. Mann, Gewichtsverlust, Diarrhö",
+          "praesentation": "Wandernde Polyarthritis.",
+          "befunde": [
+            "Duodenalbiopsie: PAS-positive Makrophagen"
+          ],
+          "diagnose": "Morbus Whipple",
+          "therapie": [
+            "Ceftriaxon -> Cotrimoxazol"
+          ],
+          "lernpunkte": [
+            "Arthritis kann Darmbeschwerden um Jahre vorausgehen"
+          ]
+        },
+        {
+          "id": "RHE_S039",
+          "titel": "Paratiditis bei M. Bechterew",
+          "tags": [
+            "Extraartikulär"
+          ],
+          "patient": "Patient mit Spondylitis ankylosans",
+          "praesentation": "Atemnot.",
+          "befunde": [
+            "Spirometrie: Restriktive Ventilationsstörung"
+          ],
+          "diagnose": "Verminderte Thoraxexkursion bei Ankylose",
+          "therapie": [
+            "Atemgymnastik"
+          ],
+          "lernpunkte": [
+            "Verknöcherung der kostovertebralen Gelenke"
+          ]
+        },
+        {
+          "id": "RHE_S040",
+          "titel": "Spondylitis psoriatica",
+          "tags": [
+            "PsA"
+          ],
+          "patient": "Pat. mit Psoriasis am Kapillitium",
+          "praesentation": "Rückenschmerzen, Steifigkeit.",
+          "befunde": [
+            "Rö: Asymmetrische Syndesmophyten (Parasyndesmophyten)"
+          ],
+          "diagnose": "Axiale Psoriasis-Arthritis",
+          "therapie": [
+            "TNF- oder IL-17-Inhibitoren"
+          ],
+          "lernpunkte": [
+            "Unterscheidet sich röntgenologisch vom klassischen Bechterew"
+          ]
+        },
+        {
+          "id": "RHE_S041",
+          "titel": "Oligoarthritis des Kindesalters (JIA)",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "4-j. Mädchen",
+          "praesentation": "Hinken morgens, Knie geschwollen.",
+          "befunde": [
+            "ANA positiv",
+            "RF negativ"
+          ],
+          "diagnose": "Oligoartikuläre JIA",
+          "therapie": [
+            "NSAR",
+            "Intraartikuläre Steroide",
+            "Augenkontrollen!"
+          ],
+          "lernpunkte": [
+            "Regelmäßige Spaltlampenuntersuchung wegen Gefahr der Erblindung (Uveitis)"
+          ]
+        },
+        {
+          "id": "RHE_S042",
+          "titel": "Arthritis mutilans",
+          "tags": [
+            "PsA"
+          ],
+          "patient": "Langjährige PsA",
+          "praesentation": "Völlig deformierte Finger, teleskopartige Verkürzung.",
+          "befunde": [
+            "Rö: Komplette Gelenkzerstörung (Opera glass hand)"
+          ],
+          "diagnose": "Mutilierende Psoriasis-Arthritis",
+          "therapie": [
+            "Aggressive Systemtherapie"
+          ],
+          "lernpunkte": [
+            "Schwerste Verlaufsform der PsA"
+          ]
+        },
+        {
+          "id": "RHE_S043",
+          "titel": "Acne fulminans mit Arthritis",
+          "tags": [
+            "Dermatologie"
+          ],
+          "patient": "16-j. Junge",
+          "praesentation": "Heftigste Akne, Fieber, Gelenkschmerzen.",
+          "befunde": [
+            "Leukozytose, CRP↑"
+          ],
+          "diagnose": "Systemische Beteiligung bei Acne fulminans",
+          "therapie": [
+            "Steroide + Isotretinoin"
+          ],
+          "lernpunkte": [
+            "Überlappung zum SAPHO-Syndrom"
+          ]
+        },
+        {
+          "id": "RHE_S044",
+          "titel": "Iliakalostitis (Osteitis condensans ilii)",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "35-j. Frau nach Schwangerschaft",
+          "praesentation": "Tiefer Rückenschmerz.",
+          "befunde": [
+            "Rö: Dreieckige Sklerosierung des Os ilium an den SI-Gelenken"
+          ],
+          "diagnose": "Osteitis condensans ilii",
+          "therapie": [
+            "Physiotherapie",
+            "keine Immunsuppression"
+          ],
+          "lernpunkte": [
+            "Wichtige Differentialdiagnose zur Sakroiliitis (keine Entzündung)"
+          ]
+        },
+        {
+          "id": "RHE_S045",
+          "titel": "Andersson-Läsion",
+          "tags": [
+            "Komplikation"
+          ],
+          "patient": "Pat. mit fortgeschrittenem M. Bechterew",
+          "praesentation": "Zunahme des lokalen Schmerzes nach Bagatelltrauma.",
+          "befunde": [
+            "Rö/CT: Destruktion der Bandscheibe/Endplatten (Pseudoarthrose)"
+          ],
+          "diagnose": "Andersson-Läsion",
+          "therapie": [
+            "Stabilisierende OP"
+          ],
+          "lernpunkte": [
+            "Stressfraktur der ankylosierten Wirbelsäule"
+          ]
+        }
+      ]
+    },
+    "kollagenosen": {
+      "label": "Kollagenosen",
+      "emoji": "🦋",
+      "faelle": [
+        {
+          "id": "RHE_K046",
+          "titel": "Systemischer Lupus (SLE)",
+          "tags": [
+            "Kollagenose",
+            "SLE"
+          ],
+          "patient": "25-jährige Frau",
+          "praesentation": "Schmetterlingsexanthem nach Sonnenbad, Gelenkschmerzen, Erschöpfung.",
+          "befunde": [
+            "ANA 1:2560",
+            "Anti-dsDNA+",
+            "Leukopenie"
+          ],
+          "diagnose": "SLE mit Haut- und Gelenkbeteiligung",
+          "therapie": [
+            "Hydroxychloroquin (Basis)",
+            "Sonnenschutz",
+            "ggf. Steroide"
+          ],
+          "lernpunkte": [
+            "Regelmäßige Urinkontrolle zum Ausschluss einer Lupusnephritis"
+          ]
+        },
+        {
+          "id": "RHE_K047",
+          "titel": "Limitierte Systemische Sklerose (CREST)",
+          "tags": [
+            "Sklerodermie"
+          ],
+          "patient": "50-j. Frau, blaue Finger",
+          "praesentation": "Hautverhärtung der Finger, Schluckbeschwerden.",
+          "befunde": [
+            "Anti-Centromer-AK positiv",
+            "Teleangiektasien, Calcinosis cutis"
+          ],
+          "diagnose": "CREST-Syndrom",
+          "therapie": [
+            "Gefäßdilatatoren",
+            "Hautpflege",
+            "PPI"
+          ],
+          "lernpunkte": [
+            "Calcinosis, Raynaud, Esophageal dysmotility, Sclerodactyly, Telangiectasia"
+          ]
+        },
+        {
+          "id": "RHE_K048",
+          "titel": "Diffuse Systemische Sklerose",
+          "tags": [
+            "Sklerodermie"
+          ],
+          "patient": "45-j. Patient, rasche Hautveränderungen",
+          "praesentation": "Spannende Haut am gesamten Körper, Atemnot.",
+          "befunde": [
+            "Scl-70 Antikörper positiv",
+            "HR-CT: Lungenfibrose"
+          ],
+          "diagnose": "Diffuse systemische Sklerose",
+          "therapie": [
+            "Mycophenolat-Mofetil (MMF)",
+            "ggf. Nintedanib"
+          ],
+          "lernpunkte": [
+            "Hohes Risiko für Lungenfibrose und renale Krise"
+          ]
+        },
+        {
+          "id": "RHE_K049",
+          "titel": "Sjögren-Syndrom (Primär)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "55-j. Frau",
+          "praesentation": "Extreme Trockenheit Augen/Mund, geschwollene Ohrspeicheldrüse.",
+          "befunde": [
+            "Anti-Ro (SS-A) und Anti-La (SS-B) positiv",
+            "Lippenspeicheldrüsenbiopsie: Fokus-Score > 1"
+          ],
+          "diagnose": "Primäres Sjögren-Syndrom",
+          "therapie": [
+            "Symptomatisch",
+            "ggf. Rituximab bei Systembeteiligung"
+          ],
+          "lernpunkte": [
+            "Erhöhtes Risiko für B-Zell-Lymphome"
+          ]
+        },
+        {
+          "id": "RHE_K050",
+          "titel": "Dermatomyositis",
+          "tags": [
+            "Myositis"
+          ],
+          "patient": "60-j. Mann",
+          "praesentation": "Violettes Erythem periorbital (Heliotrop), Muskelschwäche (Treppensteigen).",
+          "befunde": [
+            "Gottron-Papeln Fingerknöchel",
+            "CK-Wert 5.000 (↑↑)"
+          ],
+          "diagnose": "Dermatomyositis",
+          "therapie": [
+            "Hochdosis Steroide",
+            "Azathioprin",
+            "Tumorsuche!"
+          ],
+          "lernpunkte": [
+            "Häufig paraneoplastisch bei älteren Patienten"
+          ]
+        },
+        {
+          "id": "RHE_K051",
+          "titel": "Mischkollagenose (Sharp-Syndrom)",
+          "tags": [
+            "Kollagenose"
+          ],
+          "patient": "38-j. Frau",
+          "praesentation": "Symptome von SLE, Sklerodermie und RA gleichzeitig.",
+          "befunde": [
+            "U1-RNP Antikörper massiv erhöht"
+          ],
+          "diagnose": "Sharp-Syndrom (MCTD)",
+          "therapie": [
+            "Immunsuppression je nach führender Symptomatik"
+          ],
+          "lernpunkte": [
+            "U1-RNP ist das definierende Merkmal"
+          ]
+        },
+        {
+          "id": "RHE_K052",
+          "titel": "Lupus-Nephritis",
+          "tags": [
+            "SLE",
+            "Niere"
+          ],
+          "patient": "SLE-Patientin",
+          "praesentation": "Ödeme, Bluthochdruck.",
+          "befunde": [
+            "Urin: Proteinurie 3g/d, Erythrozytenzylinder"
+          ],
+          "diagnose": "Lupus-Nephritis Stadium IV",
+          "therapie": [
+            "Induktion mit MMF oder Cyclophosphamid"
+          ],
+          "lernpunkte": [
+            "Nierenbiopsie ist entscheidend für die Therapieplanung"
+          ]
+        },
+        {
+          "id": "RHE_K053",
+          "titel": "Antisynthetase-Syndrom",
+          "tags": [
+            "Myositis"
+          ],
+          "patient": "45-j. mit Handrötung",
+          "praesentation": "Atemnot, rissige Haut Fingerkuppen (Mechanikerhände).",
+          "befunde": [
+            "Anti-Jo-1 Antikörper positiv",
+            "Myositis im MRT"
+          ],
+          "diagnose": "Antisynthetase-Syndrom",
+          "therapie": [
+            "Aggressive Immunsuppression wegen Lungenbeteiligung"
+          ],
+          "lernpunkte": [
+            "Trias: Myositis, Arthritis, interstitielle Lungenerkrankung"
+          ]
+        },
+        {
+          "id": "RHE_K054",
+          "titel": "Neonataler Lupus",
+          "tags": [
+            "Neonatologie"
+          ],
+          "patient": "Neugeborenes einer Ro-positiven Mutter",
+          "praesentation": "Angeborener Herzblock (AV-Block III), Exanthem.",
+          "befunde": [
+            "Mütterliche Ro-Antikörper plazentagängig"
+          ],
+          "diagnose": "Neonatales Lupus-Syndrom",
+          "therapie": [
+            "Schrittmacher für das Kind"
+          ],
+          "lernpunkte": [
+            "Herzblock ist oft irreversibel"
+          ]
+        },
+        {
+          "id": "RHE_K055",
+          "titel": "Sklerodermie-renale-Krise",
+          "tags": [
+            "Notfall"
+          ],
+          "patient": "Pat. mit diffuser Sklerodermie",
+          "praesentation": "Plötzlicher massiver Blutdruckanstieg, Kopfschmerz.",
+          "befunde": [
+            "Kreatinin-Anstieg"
+          ],
+          "diagnose": "Renale Krise",
+          "therapie": [
+            "ACE-Hemmer (lebensrettend!)",
+            "KEINE hohen Dosen Steroide"
+          ],
+          "lernpunkte": [
+            "ACE-Hemmer sind hier Therapie der Wahl trotz Niereninsuffizienz"
+          ]
+        },
+        {
+          "id": "RHE_K056",
+          "titel": "Subakut Kutaner Lupus (SCLE)",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "40-j. Frau nach Sonnenurlaub",
+          "praesentation": "Anuläre, schuppende Rötungen, keine Narben.",
+          "befunde": [
+            "Anti-Ro positiv",
+            "Histologie typisch"
+          ],
+          "diagnose": "SCLE",
+          "therapie": [
+            "Lokalsteroide",
+            "Antimalariamittel"
+          ],
+          "lernpunkte": [
+            "Medikamenteninduzierte Form ausschließen (z.B. Thiazide)"
+          ]
+        },
+        {
+          "id": "RHE_K057",
+          "titel": "Einschlusskörpermyositis (IBM)",
+          "tags": [
+            "Geriatrie"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Schwäche der Fingerbeuger (Gegenstände fallen aus Hand) und Kniestrecker.",
+          "befunde": [
+            "CK leicht erhöht",
+            "Biopsie: Rimmed Vacuoles"
+          ],
+          "diagnose": "IBM",
+          "therapie": [
+            "Meist therapierefraktär",
+            "Supportiv"
+          ],
+          "lernpunkte": [
+            "Häufigste Myopathie im Alter, asymmetrischer Befall möglich"
+          ]
+        },
+        {
+          "id": "RHE_K058",
+          "titel": "Libman-Sacks-Endokarditis",
+          "tags": [
+            "SLE",
+            "Herz"
+          ],
+          "patient": "SLE-Patientin",
+          "praesentation": "Zufallsbefund im Echo.",
+          "befunde": [
+            "Kleine, sterile Vegetationen an der Mitralklappe"
+          ],
+          "diagnose": "Abakterielle Endokarditis bei Lupus",
+          "therapie": [
+            "Optimierung SLE-Therapie",
+            "ggf. Antikoagulation"
+          ],
+          "lernpunkte": [
+            "Embolierisiko beachten"
+          ]
+        },
+        {
+          "id": "RHE_K059",
+          "titel": "Morbus Still des Erwachsenen",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "25-j. mit hohem Fieber",
+          "praesentation": "Flüchtiges lachsfarbenes Exanthem, Halsschmerzen, Gelenkschwellung.",
+          "befunde": [
+            "Ferritin > 5.000",
+            "Leukozytose"
+          ],
+          "diagnose": "Adult onset Still's disease (AOSD)",
+          "therapie": [
+            "IL-1 oder IL-6 Blockade"
+          ],
+          "lernpunkte": [
+            "Ausschlussdiagnose (Infekt/Malignom)"
+          ]
+        },
+        {
+          "id": "RHE_K060",
+          "titel": "Raynaud-Syndrom (Vorbereitung zur Diagnostik)",
+          "tags": [
+            "Management"
+          ],
+          "patient": "Zuweisung zur Rheuma-Abklärung",
+          "praesentation": "Klassische Raynaud-Symptomatik.",
+          "befunde": [
+            "Kein Nagellack",
+            "warme Hände vor Untersuchung"
+          ],
+          "diagnose": "Standardisierte Kapillarmikroskopie",
+          "therapie": [
+            "Terminplanung"
+          ],
+          "lernpunkte": [
+            "Vorbereitung entscheidend für Bildqualität"
+          ]
+        }
+      ]
+    },
+    "vaskulitiden": {
+      "label": "Vaskulitiden",
+      "emoji": "💉",
+      "faelle": [
+        {
+          "id": "RHE_V061",
+          "titel": "Riesenzellarteriitis (Arteriitis temporalis)",
+          "tags": [
+            "Vaskulitis",
+            "Notfall"
+          ],
+          "patient": "75-jährige Patientin",
+          "praesentation": "Neue Kopfschmerzen, Kauschmerz (Claudicatio masticatoria), Sehstörung.",
+          "befunde": [
+            "BSG 110 (↑↑)",
+            "Sono: Halo-Zeichen um A. temporalis"
+          ],
+          "diagnose": "Riesenzellarteriitis",
+          "therapie": [
+            "Sofort Hochdosis-Steroide!",
+            "Tocilizumab zur Einsparung"
+          ],
+          "lernpunkte": [
+            "Notfall wegen Erblindungsgefahr (AION)"
+          ]
+        },
+        {
+          "id": "RHE_V062",
+          "titel": "Polymyalgia rheumatica (PMR)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "72-j. Mann",
+          "praesentation": "Schmerzhafter Schulter- und Hüftgürtel nachts, morgens wie 'eingerostet'.",
+          "befunde": [
+            "BSG erhöht",
+            "Prompter Erfolg auf 15mg Prednisolon"
+          ],
+          "diagnose": "PMR",
+          "therapie": [
+            "Steroide ausschleichend über 1-2 Jahre"
+          ],
+          "lernpunkte": [
+            "Oft mit Arteriitis temporalis vergesellschaftet"
+          ]
+        },
+        {
+          "id": "RHE_V063",
+          "titel": "Granulomatose mit Polyangiitis (GPA)",
+          "tags": [
+            "Vaskulitis",
+            "ANCA"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Blutiger Schnupfen, Sattelnase, Nierenversagen.",
+          "befunde": [
+            "c-ANCA (PR3) positiv",
+            "CT-Lunge: Rundherde mit Kavernen"
+          ],
+          "diagnose": "GPA (früher Wegener)",
+          "therapie": [
+            "Rituximab",
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "HNO-Beteiligung oft das Erstmerkmal"
+          ]
+        },
+        {
+          "id": "RHE_V064",
+          "titel": "Eosinophile Granulomatose (EGPA)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "40-j. mit schwerem Asthma",
+          "praesentation": "Parästhesien Arm (Mononeuritis multiplex).",
+          "befunde": [
+            "Eosinophilie im Blut > 10%",
+            "p-ANCA (MPO) positiv"
+          ],
+          "diagnose": "EGPA (Churg-Strauss)",
+          "therapie": [
+            "Mepolizumab (Anti-IL-5)"
+          ],
+          "lernpunkte": [
+            "Drei Stadien: Asthma -> Eosinophilie -> Vaskulitis"
+          ]
+        },
+        {
+          "id": "RHE_V065",
+          "titel": "Mikroskopische Polyangiitis (MPA)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "65-j. Patient",
+          "praesentation": "Hämoptysen, rapid progressives Nierenversagen.",
+          "befunde": [
+            "p-ANCA positiv",
+            "Nierenbiopsie: Pauci-immun-Glomerulonephritis"
+          ],
+          "diagnose": "MPA",
+          "therapie": [
+            "Cyclophosphamid-Pulstherapie"
+          ],
+          "lernpunkte": [
+            "Keine Granulome (DD GPA)"
+          ]
+        },
+        {
+          "id": "RHE_V066",
+          "titel": "Panarteriitis nodosa (cPAN)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "55-j. Mann",
+          "praesentation": "Hautknoten (Livedo racemosa), Hodenschmerz, Bluthochdruck.",
+          "befunde": [
+            "Angio: Mikroaneurysmen der Nierenarterien"
+          ],
+          "diagnose": "Klassische PAN",
+          "therapie": [
+            "Steroide",
+            "Ausschluss Hepatitis B"
+          ],
+          "lernpunkte": [
+            "Assoziation mit Hepatitis B beachten"
+          ]
+        },
+        {
+          "id": "RHE_V067",
+          "titel": "Takayasu-Arteriitis",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "22-j. asiatische Frau",
+          "praesentation": "Synkope, fehlende Pulse an den Armen.",
+          "befunde": [
+            "Blutdruckdifferenz Arme/Beine",
+            "Angio: Stenosen Aortenbogen"
+          ],
+          "diagnose": "Takayasu-Arteriitis (Pulslose Krankheit)",
+          "therapie": [
+            "Steroide",
+            "Stenting/Bypass im Intervall"
+          ],
+          "lernpunkte": [
+            "Vaskulitis der großen Gefäße beim jungen Menschen"
+          ]
+        },
+        {
+          "id": "RHE_V068",
+          "titel": "IgA-Vaskulitis (Purpura Schönlein-Henoch)",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "8-j. Junge nach Infekt",
+          "praesentation": "Tastbare Purpura Beine, Bauchschmerzen.",
+          "befunde": [
+            "Urin: Hämaturie"
+          ],
+          "diagnose": "IgA-Vaskulitis",
+          "therapie": [
+            "Symptomatisch",
+            "Steroide nur bei Organbeteiligung"
+          ],
+          "lernpunkte": [
+            "Häufigste Vaskulitis im Kindesalter"
+          ]
+        },
+        {
+          "id": "RHE_V069",
+          "titel": "Kutane leukozytoklastische Vaskulitis",
+          "tags": [
+            "Haut"
+          ],
+          "patient": "50-j. nach Medikamenteneinnahme",
+          "praesentation": "Dichte Purpura an den Unterschenkeln.",
+          "befunde": [
+            "Histologie: Wandnekrose kleiner Gefäße"
+          ],
+          "diagnose": "Hypersensitivitätsvaskulitis",
+          "therapie": [
+            "Absetzen Trigger",
+            "Dapson"
+          ],
+          "lernpunkte": [
+            "Häufiger Auslöser: Medikamente oder Infekte"
+          ]
+        },
+        {
+          "id": "RHE_V070",
+          "titel": "Morbus Behçet",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "30-j. Mann aus dem Mittelmeerraum",
+          "praesentation": "Rezidivierende Aphthen oral/genital, Augenentzündung.",
+          "befunde": [
+            "Pathergie-Test positiv"
+          ],
+          "diagnose": "M. Behçet",
+          "therapie": [
+            "Colchicin",
+            "TNF-Blocker"
+          ],
+          "lernpunkte": [
+            "Häufig Beteiligung von Venen (Thrombosen)"
+          ]
+        },
+        {
+          "id": "RHE_V071",
+          "titel": "Kryoglobulinämische Vaskulitis",
+          "tags": [
+            "Vaskulitis"
+          ],
+          "patient": "60-j. mit Hepatitis C",
+          "praesentation": "Purpura, Gelenkschmerzen.",
+          "befunde": [
+            "Kryoglobuline Typ II nachweisbar",
+            "Komplement C4↓"
+          ],
+          "diagnose": "Essenzielle gemischte Kryoglobulinämie",
+          "therapie": [
+            "Behandlung der Hepatitis C (DAA)",
+            "Rituximab"
+          ],
+          "lernpunkte": [
+            "Enge Kopplung an chronische Infektionen"
+          ]
+        },
+        {
+          "id": "RHE_V072",
+          "titel": "Kawasaki-Syndrom",
+          "tags": [
+            "Pädiatrie"
+          ],
+          "patient": "4-j. Kind",
+          "praesentation": "Hohes Fieber > 5 Tage, Erdbeerzunge, Hand/Fuß-Ödem.",
+          "befunde": [
+            "Echo: Koronararterienaneurysmen"
+          ],
+          "diagnose": "Kawasaki-Syndrom",
+          "therapie": [
+            "Immunglobuline (IVIG) + ASS"
+          ],
+          "lernpunkte": [
+            "Gefahr des Myokardinfarkts im Kindesalter"
+          ]
+        },
+        {
+          "id": "RHE_V073",
+          "titel": "Cogan-Syndrom",
+          "tags": [
+            "Selten"
+          ],
+          "patient": "35-j. Patient",
+          "praesentation": "Hörverlust, Schwindel, Augenrötung (Interstitielle Keratitis).",
+          "befunde": [
+            "Vaskulitis-Zeichen"
+          ],
+          "diagnose": "Cogan-Syndrom",
+          "therapie": [
+            "Steroide"
+          ],
+          "lernpunkte": [
+            "Kombination aus okulären und vestibulokochleären Symptomen"
+          ]
+        },
+        {
+          "id": "RHE_V074",
+          "titel": "Mittelmeerstich (Auskultation)",
+          "tags": [
+            "Vaskulär"
+          ],
+          "patient": "Pat. mit Takayasu",
+          "praesentation": "Routinekontrolle.",
+          "befunde": [
+            "Gefäßgeräusch über A. carotis/subclavia"
+          ],
+          "diagnose": "Turbulenter Fluss bei Stenose",
+          "therapie": [
+            "Verlaufskontrolle Angio"
+          ],
+          "lernpunkte": [
+            "Auskultation der Gefäße obligat bei Vaskulitisverdacht"
+          ]
+        },
+        {
+          "id": "RHE_V075",
+          "titel": "Thromboangiitis obliterans",
+          "tags": [
+            "Gefäß"
+          ],
+          "patient": "30-j. starker Raucher",
+          "praesentation": "Nekrosen der Zehenspitzen, Ruheschmerz.",
+          "befunde": [
+            "Angio: Korkenzieher-Kollateralen"
+          ],
+          "diagnose": "M. Buerger",
+          "therapie": [
+            "Absoluter Rauchstopp!",
+            "Prostazyklin"
+          ],
+          "lernpunkte": [
+            "Keine Heilung ohne Nikotinverzicht"
+          ]
+        }
+      ]
+    },
+    "kristall_knochen_degenerativ": {
+      "label": "Kristallarthropathien, Knochen & Arthrose",
+      "emoji": "🦶",
+      "faelle": [
+        {
+          "id": "RHE_G076",
+          "titel": "Chronische Tophus-Gicht",
+          "tags": [
+            "Gicht"
+          ],
+          "patient": "65-jähriger Patient",
+          "praesentation": "Derbe, weißliche Knoten an Ohrmuschel und Fingern.",
+          "befunde": [
+            "Harnsäure 9,2 mg/dl",
+            "Rö: Lochstanz-Defekte gelenknahe"
+          ],
+          "diagnose": "Chronisch-tophöse Gicht",
+          "therapie": [
+            "Allopurinol (Ziel < 6 mg/dl)",
+            "Anfallsprophylaxe"
+          ],
+          "lernpunkte": [
+            "Harnsäuresenkung erst nach Abklingen des akuten Anfalls"
+          ]
+        },
+        {
+          "id": "RHE_G077",
+          "titel": "Pseudogicht (Chondrokalzinose)",
+          "tags": [
+            "Kristall"
+          ],
+          "patient": "80-j. Frau",
+          "praesentation": "Akute Schwellung Kniegelenk.",
+          "befunde": [
+            "Rö: Verkalkung des Meniskus",
+            "Punktat: positiv doppelbrechende Kristalle (CPPD)"
+          ],
+          "diagnose": "Calcium-Pyrophosphat-Arthropathie",
+          "therapie": [
+            "NSAR",
+            "Kühlung"
+          ],
+          "lernpunkte": [
+            "Vorkommen steigt mit dem Alter"
+          ]
+        },
+        {
+          "id": "RHE_G078",
+          "titel": "Aktivierte Arthrose (Gonarthrose)",
+          "tags": [
+            "Degenerativ"
+          ],
+          "patient": "68-j. adipöser Patient",
+          "praesentation": "Anlaufschmerz, Belastungsschmerz, Überwärmung Knie.",
+          "befunde": [
+            "Rö: Gelenkspaltverschmälerung, Osteophyten"
+          ],
+          "diagnose": "Gonarthrose Stadium III nach Kellgren",
+          "therapie": [
+            "Gewichtsreduktion",
+            "Physio",
+            "NSAR bei Bedarf"
+          ],
+          "lernpunkte": [
+            "Unterscheidung entzündlich vs. mechanisch"
+          ]
+        },
+        {
+          "id": "RHE_G079",
+          "titel": "Heberden-Arthrose",
+          "tags": [
+            "Degenerativ"
+          ],
+          "patient": "60-j. Frau",
+          "praesentation": "Schmerzhafte Knoten an den Fingern distal.",
+          "befunde": [
+            "Befall der DIP-Gelenke",
+            "Mukoidzysten"
+          ],
+          "diagnose": "Heberden-Arthrose",
+          "therapie": [
+            "Lokaltherapie",
+            "Ergotherapie"
+          ],
+          "lernpunkte": [
+            "DIP = Heberden, PIP = Bouchard"
+          ]
+        },
+        {
+          "id": "RHE_G080",
+          "titel": "Rhizarthrose",
+          "tags": [
+            "Degenerativ"
+          ],
+          "patient": "55-j. Hausfrau",
+          "praesentation": "Schmerz an der Daumenbasis beim Aufschrauben von Gläsern.",
+          "befunde": [
+            "Mahlgeräusche im Daumengrundgelenk"
+          ],
+          "diagnose": "Sattelgelenksarthrose",
+          "therapie": [
+            "Daumenorthese",
+            "ggf. OP (Epping-Plastik)"
+          ],
+          "lernpunkte": [
+            "Häufigste Arthrose der Hand"
+          ]
+        },
+        {
+          "id": "RHE_G081",
+          "titel": "Algodystrophie (M. Sudeck)",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "50-j. nach distaler Radiusfraktur",
+          "praesentation": "Brennender Schmerz, Schwellung, livide Verfärbung der Hand.",
+          "befunde": [
+            "Temperaturdifferenz",
+            "Eingeschränkte Beweglichkeit"
+          ],
+          "diagnose": "CRPS Typ I",
+          "therapie": [
+            "Multimodale Schmerztherapie",
+            "Ergotherapie"
+          ],
+          "lernpunkte": [
+            "Budapest-Kriterien"
+          ]
+        },
+        {
+          "id": "RHE_G082",
+          "titel": "Morbus Paget",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "70-j. Mann",
+          "praesentation": "Hörverlust, zunehmender Kopfumfang, Beinschmerz.",
+          "befunde": [
+            "AP massiv erhöht",
+            "Rö: Grobwabiger Knochenumbau"
+          ],
+          "diagnose": "Osteodystrophia deformans",
+          "therapie": [
+            "Bisphosphonate"
+          ],
+          "lernpunkte": [
+            "Gefahr der malignen Entartung (Osteosarkom)"
+          ]
+        },
+        {
+          "id": "RHE_G083",
+          "titel": "Osteonekrose des Femurkopfes",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "40-j. Mann, chronischer Alkoholabusus/Steroide",
+          "praesentation": "Belastungsabhängiger Leistenschmerz.",
+          "befunde": [
+            "MRT: Signalabfall subchondral (Low-signal-line)"
+          ],
+          "diagnose": "Aseptische Hüftkopfnekrose",
+          "therapie": [
+            "Entlastung",
+            "Bohrung (Core decompression)"
+          ],
+          "lernpunkte": [
+            "ARCO-Stadien"
+          ]
+        },
+        {
+          "id": "RHE_G084",
+          "titel": "Stressfraktur (Metatarsale)",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "22-j. Jogger",
+          "praesentation": "Fußschmerz nach Marathon.",
+          "befunde": [
+            "Rö initial o.B., MRT: Knochenmarködem"
+          ],
+          "diagnose": "Marschfraktur",
+          "therapie": [
+            "Entlastung"
+          ],
+          "lernpunkte": [
+            "MRT ist dem Röntgen in der Frühphase überlegen"
+          ]
+        },
+        {
+          "id": "RHE_G085",
+          "titel": "Hyperparathyreoidismus (Knochen)",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "60-j. Frau, Nierensteine",
+          "praesentation": "Knochenschmerzen.",
+          "befunde": [
+            "Rö: Subperiostale Resorption Dig II/III",
+            "Calcium↑, PTH↑"
+          ],
+          "diagnose": "Osteitis fibrosa cystica (v. Recklinghausen)",
+          "therapie": [
+            "Parathyreoidektomie"
+          ],
+          "lernpunkte": [
+            "Knochenmanifestation einer endokrinen Störung"
+          ]
+        },
+        {
+          "id": "RHE_G086",
+          "titel": "Renale Osteodystrophie",
+          "tags": [
+            "Knochen"
+          ],
+          "patient": "Dialysepatient",
+          "praesentation": "Diffuse Knochenschmerzen.",
+          "befunde": [
+            "Phosphat↑, Calcium↓, Vit. D↓"
+          ],
+          "diagnose": "Renales Osteopathie-Syndrom",
+          "therapie": [
+            "Phosphatbinder",
+            "aktives Vitamin D"
+          ],
+          "lernpunkte": [
+            "Sekundärer Hyperparathyreoidismus"
+          ]
+        },
+        {
+          "id": "RHE_G087",
+          "titel": "Diffuse idiopathische Skeletthyperostose (DISH)",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "65-j. adipöser Diabetiker",
+          "praesentation": "Rückenschmerzen, Steifigkeit.",
+          "befunde": [
+            "Rö: Fließende Verknöcherungen (Zuckerguss) an 4 Wirbeln"
+          ],
+          "diagnose": "M. Forestier",
+          "therapie": [
+            "Physio",
+            "NSAR"
+          ],
+          "lernpunkte": [
+            "Keine Beteiligung der SI-Gelenke (DD Bechterew)"
+          ]
+        },
+        {
+          "id": "RHE_G088",
+          "titel": "Charcot-Fuß",
+          "tags": [
+            "Diabetes"
+          ],
+          "patient": "65-j. Diabetiker",
+          "praesentation": "Roter, heißer Fuß ohne Wunde.",
+          "befunde": [
+            "Rö: Trümmerfeld der Fußwurzel"
+          ],
+          "diagnose": "Neuropathische Arthropathie",
+          "therapie": [
+            "Ruhigstellung im Cast (TCC)"
+          ],
+          "lernpunkte": [
+            "Notfall: Muss sofort entlastet werden"
+          ]
+        },
+        {
+          "id": "RHE_G089",
+          "titel": "Klinische Arthrose-Kriterien",
+          "tags": [
+            "Untersuchung"
+          ],
+          "patient": "Patient mit Knieschmerz",
+          "praesentation": "Verdacht auf Arthrose.",
+          "befunde": [
+            "Alter > 50, Morgensteifigkeit < 30 Min, Krepitation"
+          ],
+          "diagnose": "Gonarthrose nach ACR-Kriterien",
+          "therapie": [
+            "Konservativ"
+          ],
+          "lernpunkte": [
+            "Diagnose oft rein klinisch möglich"
+          ]
+        },
+        {
+          "id": "RHE_G090",
+          "titel": "Zingulum-Arthrose",
+          "tags": [
+            "Schulter"
+          ],
+          "patient": "60-j. Patient",
+          "praesentation": "Schmerz beim Liegen auf der Seite.",
+          "befunde": [
+            "Druckschmerz über AC-Gelenk",
+            "Horizontaler Adduktionstest positiv"
+          ],
+          "diagnose": "AC-Gelenksarthrose",
+          "therapie": [
+            "Infiltration",
+            "Physio"
+          ],
+          "lernpunkte": [
+            "Häufige Ursache für Schulterschmerz"
+          ]
+        }
+      ]
+    },
+    "weichteilrheuma_schmerz_diverses": {
+      "label": "Weichteilrheumatismus & Schmerzsyndrome",
+      "emoji": "🧠",
+      "faelle": [
+        {
+          "id": "RHE_P091",
+          "titel": "Fibromyalgie-Syndrom (FMS)",
+          "tags": [
+            "Schmerz",
+            "Weichteil"
+          ],
+          "patient": "45-jährige Frau",
+          "praesentation": "Ganzkörperschmerz seit 1 Jahr, Schlafstörungen, Erschöpfung.",
+          "befunde": [
+            "Tender Points positiv",
+            "Labor und Röntgen unauffällig"
+          ],
+          "diagnose": "Fibromyalgie",
+          "therapie": [
+            "Multimodale Schmerztherapie",
+            "Ausdauersport",
+            "Amitriptylin"
+          ],
+          "lernpunkte": [
+            "WPS (Widespread Pain Index) als neues Diagnosekriterium"
+          ]
+        },
+        {
+          "id": "RHE_P092",
+          "titel": "Tendovaginitis stenosans (Schnappfinger)",
+          "tags": [
+            "Weichteil"
+          ],
+          "patient": "50-j. Frau",
+          "praesentation": "Ringfinger bleibt in Beugung hängen.",
+          "befunde": [
+            "Druckschmerzhafter Knoten über A1-Ringband"
+          ],
+          "diagnose": "Schnellender Finger",
+          "therapie": [
+            "Injektion",
+            "Spaltung Ringband"
+          ],
+          "lernpunkte": [
+            "Häufig bei Diabetikern"
+          ]
+        },
+        {
+          "id": "RHE_P093",
+          "titel": "Epicondylitis radialis (Tennisarm)",
+          "tags": [
+            "Weichteil"
+          ],
+          "patient": "40-j. IT-Mitarbeiter",
+          "praesentation": "Schmerz am äußeren Ellenbogen beim Greifen.",
+          "befunde": [
+            "Druckschmerz am Sehnenansatz der Extensoren"
+          ],
+          "diagnose": "Tennisellenbogen",
+          "therapie": [
+            "Dehnung",
+            "exzentrisches Training"
+          ],
+          "lernpunkte": [
+            "Insertionsstenopathie"
+          ]
+        },
+        {
+          "id": "RHE_P094",
+          "titel": "Bursitis subacromialis",
+          "tags": [
+            "Weichteil"
+          ],
+          "patient": "Pat. nach Gartenarbeit",
+          "praesentation": "Akuter Schulterschmerz, Unfähigkeit den Arm zu heben.",
+          "befunde": [
+            "Sono: Flüssigkeitsfilm in der Bursa"
+          ],
+          "diagnose": "Schleimbeutelentzündung Schulter",
+          "therapie": [
+            "NSAR",
+            "Kühlen",
+            "ggf. Punktion"
+          ],
+          "lernpunkte": [
+            "Oft vergesellschaftet mit Kalkschulter"
+          ]
+        },
+        {
+          "id": "RHE_P095",
+          "titel": "Hyperlipidämische Arthritis",
+          "tags": [
+            "Differentialdiagnose"
+          ],
+          "patient": "Pat. mit massiver Hypercholesterinämie",
+          "praesentation": "Arthralgien, Sehnenknoten.",
+          "befunde": [
+            "Xanthome an der Achillessehne"
+          ],
+          "diagnose": "Pararheumatische Erkrankung bei Lipidstoffwechselstörung",
+          "therapie": [
+            "Lipidsenkung"
+          ],
+          "lernpunkte": [
+            "Stoffwechselstörungen als Rheuma-Mimikry"
+          ]
+        },
+        {
+          "id": "RHE_P096",
+          "titel": "Paraneoplastische Polyarthritis",
+          "tags": [
+            "Onkologie"
+          ],
+          "patient": "65-j. Raucher",
+          "praesentation": "Plötzliche symmetrische Polyarthritis (RF negativ).",
+          "befunde": [
+            "Hautverdickung Handflächen (Palmarfasziitis)"
+          ],
+          "diagnose": "Paraneoplasie (V.a. Bronchial-CA)",
+          "therapie": [
+            "Tumorsuche"
+          ],
+          "lernpunkte": [
+            "Akute Polyarthritis im Alter immer paraneoplastisch abklären"
+          ]
+        },
+        {
+          "id": "RHE_P097",
+          "titel": "Hypermobilitätssyndrom",
+          "tags": [
+            "Bindegewebe"
+          ],
+          "patient": "20-j. Turnerin",
+          "praesentation": "Rezidivierende Gelenkluxationen, diffuse Schmerzen.",
+          "befunde": [
+            "Beighton-Score 8/9",
+            "überstreckbare Gelenke"
+          ],
+          "diagnose": "Ehlers-Danlos-Syndrom (hypermobiler Typ)",
+          "therapie": [
+            "Gelenkschonender Kraftaufbau"
+          ],
+          "lernpunkte": [
+            "Ausschluss Gefäßbeteiligung (vEDS)"
+          ]
+        },
+        {
+          "id": "RHE_P098",
+          "titel": "V.a. Hämochromatose-Arthropathie",
+          "tags": [
+            "Stoffwechsel"
+          ],
+          "patient": "50-j. Mann",
+          "praesentation": "Schmerzen MCP II/III (Händedruck-Schmerz).",
+          "befunde": [
+            "Labor: Ferritin 1.500",
+            "Rö: Hakenförmige Osteophyten"
+          ],
+          "diagnose": "Hämochromatose",
+          "therapie": [
+            "Aderlass",
+            "Symptomatisch"
+          ],
+          "lernpunkte": [
+            "Haken-Osteophyten am MCP II/III sind typisch"
+          ]
+        },
+        {
+          "id": "RHE_P099",
+          "titel": "Parvovirus B19 Arthritis",
+          "tags": [
+            "Infekt"
+          ],
+          "patient": "Erzieherin",
+          "praesentation": "Plötzliche Polyarthritis Hände nach Kontakt mit erkrankten Kindern.",
+          "befunde": [
+            "Parvovirus-B19-IgM positiv"
+          ],
+          "diagnose": "Postinfektöse Virus-Arthritis",
+          "therapie": [
+            "NSAR",
+            "Abwarten"
+          ],
+          "lernpunkte": [
+            "Simuliert oft eine akute RA"
+          ]
+        },
+        {
+          "id": "RHE_P100",
+          "titel": "Verschreibung von Heilmitteln (Rheuma)",
+          "tags": [
+            "Recht"
+          ],
+          "patient": "RA-Pat. mit Kontrakturen",
+          "praesentation": "Bedarf an Krankengymnastik/Ergotherapie.",
+          "befunde": [
+            "Funktionseinschränkung dokumentiert"
+          ],
+          "diagnose": "Chronischer Behandlungsbedarf",
+          "therapie": [
+            "Verordnung außerhalb des Regelfalls (Besonderer Verordnungsbedarf)"
+          ],
+          "lernpunkte": [
+            "RA und Kollagenosen stehen auf der Liste der Praxisbesonderheiten"
+          ]
+        }
+      ]
+    }
+  }
+}
