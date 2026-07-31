@@ -6,7 +6,6 @@ import {
   anthropicClient,
   geminiJson,
   geminiText,
-  geminiUsage,
   hasKey,
   requireKey,
   stripGeminiStructuredPrefix,
@@ -94,7 +93,6 @@ examRouter.post('/exam-response', async (req, res) => {
         ),
       );
       text = geminiText(payload);
-      geminiUsage(payload);
     }
 
     if (!text) throw new Error('Die KI hat eine leere Antwort geliefert.');

@@ -5,9 +5,11 @@ import type {
   AppSettings,
   BrocalyData,
   CaseProgress,
+  ExamDraft,
   ExamSession,
   KeystoreState,
   Profile,
+  UpdateStatus,
 } from '../shared/types';
 
 /**
@@ -38,11 +40,20 @@ const brocaly = {
       status: CaseOutcomeStatus,
     ): Promise<CaseProgress> =>
       ipcRenderer.invoke('store:saveCaseOutcome', subject, caseId, status),
+
+    /** Zwischenstand der laufenden Simulation — Rettungsnetz bei Absturz. */
+    saveDraft: (draft: ExamDraft): Promise<ExamDraft> =>
+      ipcRenderer.invoke('store:saveDraft', draft),
+    readDraft: (): Promise<ExamDraft | null> => ipcRenderer.invoke('store:readDraft'),
+    clearDraft: (): Promise<void> => ipcRenderer.invoke('store:clearDraft'),
   },
 
   keys: {
     state: (): Promise<KeystoreState> => ipcRenderer.invoke('keys:state'),
   },
+
+  /** Fragt GitHub, ob es eine neuere Version gibt. Offline: available=false. */
+  checkUpdate: (): Promise<UpdateStatus> => ipcRenderer.invoke('app:checkUpdate'),
 
   openExternal: (url: string): Promise<boolean> => ipcRenderer.invoke('app:openExternal', url),
   revealDataFolder: (): Promise<void> => ipcRenderer.invoke('app:revealData'),

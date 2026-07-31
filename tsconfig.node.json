@@ -15,5 +15,5 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["electron", "server", "scripts", "shared"]
+  "include": ["electron", "server", "scripts", "shared", "tests", "vitest.config.ts"]
 }

@@ -64,7 +64,10 @@ const ROMAN_TO_DE: Record<string, string> = {
   'V': 'fünf', 'IV': 'vier', 'III': 'drei', 'II': 'zwei', 'I': 'eins',
 };
 // Longest-first alternation so "VIII" and "III" match before "V" or "I".
-const ROMAN_RE = /VIII|VII|III|IX|VI|IV|II|X|V|I/;
+// Non-capturing group is load-bearing: the call sites append `[ab]?` for stages
+// like "IIb", and without the group that suffix would bind to the last
+// alternative only — "Fontaine IIb" would then not match at all.
+const ROMAN_RE = /(?:VIII|VII|III|IX|VI|IV|II|X|V|I)/;
 function romanToDE(r: string): string { return ROMAN_TO_DE[r.toUpperCase()] ?? r; }
 function romanStageToDE(r: string): string {
   return romanToDE(r.replace(/[ab]$/i, '')) + (r.match(/[ab]$/i)?.[0]?.toLowerCase() ?? '');
@@ -246,8 +249,11 @@ export function limitTtsSpokenText(text: string): string {
   const slice = clean.slice(0, TTS_MAX_SPOKEN_CHARS);
   const lastSentenceEnd = Math.max(slice.lastIndexOf('.'), slice.lastIndexOf('!'), slice.lastIndexOf('?'));
   if (lastSentenceEnd >= 180) return slice.slice(0, lastSentenceEnd + 1).trim();
+  // Die Auslassungspunkte zählen mit, sonst liefert genau dieser Zweig mehr
+  // Zeichen aus, als TTS_MAX_SPOKEN_CHARS zusichert.
+  const budget = TTS_MAX_SPOKEN_CHARS - 3;
   const lastSpace = slice.lastIndexOf(' ');
-  return `${slice.slice(0, lastSpace > 180 ? lastSpace : TTS_MAX_SPOKEN_CHARS).trim()}...`;
+  return `${slice.slice(0, lastSpace > 180 && lastSpace <= budget ? lastSpace : budget).trim()}...`;
 }
 
 // Speech-to-text models hallucinate subtitle credits during silence or noise,

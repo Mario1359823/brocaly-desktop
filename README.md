@@ -15,10 +15,11 @@ Die App ist kostenlos, quelloffen und kommt ohne Konto, ohne Server und ohne Abo
 
 | Plattform | Datei |
 |---|---|
-| macOS (Apple Silicon & Intel) | `Brocaly-<version>.dmg` |
-| Windows 10/11 (x64 & ARM) | `Brocaly-Setup-<version>.exe` |
+| macOS (Apple Silicon) | `Brocaly-mac-arm64.dmg` |
+| macOS (Intel) | `Brocaly-mac-x64.dmg` |
+| Windows 10/11 (x64 & ARM) | `Brocaly-Setup.exe` |
 
-Lade die passende Datei aus den [Releases](https://github.com/brocaly/brocaly-desktop/releases)
+Lade die passende Datei aus den [Releases](https://github.com/Mario1359823/brocaly-desktop/releases)
 herunter und installiere sie wie gewohnt.
 
 > **Hinweis zu unsignierten Builds:** Die Releases sind derzeit nicht code-signiert.
@@ -114,7 +115,7 @@ medizinische Inhalte immer eigenverantwortlich anhand verlässlicher Quellen.
 
 ## Lizenz
 
-[AGPL-3.0-or-later](LICENSE) — © 2026 Mario Vasic.
+[AGPL-3.0-or-later](LICENSE) — © 2026 Mario Urbanek.
 
 Du darfst Brocaly nutzen, verändern und weitergeben. Wenn du eine veränderte Fassung verbreitest
 oder als Netzwerkdienst anbietest, musst du deinen Quellcode unter derselben Lizenz offenlegen.

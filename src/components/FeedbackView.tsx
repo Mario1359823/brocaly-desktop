@@ -1,5 +1,6 @@
 import React from 'react';
-import { ChevronLeft, CheckCircle2, AlertCircle, BookOpen, Clock, MessageSquare, Stethoscope, ThumbsUp, ThumbsDown, TrendingUp } from 'lucide-react';
+import { ChevronLeft, CheckCircle2, AlertCircle, BookOpen, Clock, Coins, MessageSquare, Stethoscope, ThumbsUp, ThumbsDown, TrendingUp } from 'lucide-react';
+import { formatEstimatedCost } from '../lib/usageFormat';
 import { cn } from '../lib/utils';
 import type { ExamSession } from '../types';
 import { rateSession } from '../lib/localDb';
@@ -133,11 +134,13 @@ export const FeedbackView = ({
                 </div>
 
                 {/* Stats row */}
-                <div className="grid grid-cols-3 gap-3">
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                     {[
                         { icon: Clock, label: 'Dauer', value: `${durationMin} Min.`, color: 'text-blue-500' },
                         { icon: MessageSquare, label: 'Fragen', value: questions.length || session.messages.filter((m: any) => m.role === 'model').length - 1, color: 'text-brand-navy' },
                         { icon: Stethoscope, label: 'Fachbereich', value: session.subject, color: 'text-brand-green' },
+                        // Bei BYOK zahlt die Nutzer:in direkt beim Anbieter — also zeigen, was es war.
+                        { icon: Coins, label: 'Kosten ca.', value: formatEstimatedCost(session.usage) ?? '—', color: 'text-brand-orange' },
                     ].map(({ icon: Icon, label, value, color }) => (
                         <div key={label} className="bg-white rounded-2xl border border-slate-200 shadow-sm p-4 flex flex-col gap-1">
                             <Icon className={cn("w-4 h-4", color)} />

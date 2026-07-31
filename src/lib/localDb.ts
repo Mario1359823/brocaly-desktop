@@ -2,6 +2,7 @@ import type {
   AppSettings,
   CaseOutcomeStatus,
   CaseProgress,
+  ExamDraft,
   ExamSession,
   PerformanceProfile,
   Profile,
@@ -108,4 +109,18 @@ export async function getPerformanceProfile(subject?: string): Promise<Performan
   }
 
   return { strengths, weaknesses, totalCasesCount: sessions.length };
+}
+
+// --- Entwurf der laufenden Simulation ---------------------------------------
+
+export async function saveExamDraft(draft: ExamDraft): Promise<void> {
+  await bridge.store.saveDraft(draft);
+}
+
+export async function readExamDraft(): Promise<ExamDraft | null> {
+  return bridge.store.readDraft();
+}
+
+export async function clearExamDraft(): Promise<void> {
+  await bridge.store.clearDraft();
 }

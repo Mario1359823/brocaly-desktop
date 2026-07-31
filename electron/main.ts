@@ -15,6 +15,8 @@ import type { AppInfo } from '../shared/types';
 import * as keystore from './keystore';
 import { dataDirectory, isDev } from './paths';
 import * as store from './store';
+import { checkForUpdate } from './updates';
+import { restoredBounds, trackWindow } from './windowState';
 
 const DEV_RENDERER_URL = 'http://127.0.0.1:5273';
 
@@ -59,7 +61,13 @@ function registerIpc(): void {
     store.saveCaseOutcome(subject, caseId, status),
   );
 
+  ipcMain.handle('store:saveDraft', (_event, draft) => store.saveDraft(draft));
+  ipcMain.handle('store:readDraft', () => store.readDraft());
+  ipcMain.handle('store:clearDraft', () => store.clearDraft());
+
   ipcMain.handle('keys:state', () => keystore.state());
+
+  ipcMain.handle('app:checkUpdate', () => checkForUpdate());
 
   ipcMain.handle('app:openExternal', async (_event, url: string) => {
     // Only ever hand real web URLs to the OS — never file:// or custom schemes.
@@ -172,7 +180,7 @@ function buildMenu(): void {
         },
         {
           label: 'Projekt auf GitHub',
-          click: () => shell.openExternal('https://github.com/brocaly/brocaly-desktop'),
+          click: () => shell.openExternal('https://github.com/Mario1359823/brocaly-desktop'),
         },
       ],
     },
@@ -192,9 +200,13 @@ function hardenSession(): void {
 }
 
 function createWindow(): void {
+  const bounds = restoredBounds();
+
   mainWindow = new BrowserWindow({
-    width: 1280,
-    height: 860,
+    width: bounds.width,
+    height: bounds.height,
+    x: bounds.x,
+    y: bounds.y,
     minWidth: 1024,
     minHeight: 700,
     show: false,
@@ -209,6 +221,9 @@ function createWindow(): void {
       spellcheck: false,
     },
   });
+
+  if (bounds.maximized) mainWindow.maximize();
+  trackWindow(mainWindow);
 
   mainWindow.once('ready-to-show', () => mainWindow?.show());
 

@@ -8,6 +8,7 @@ import {
   withRetry,
 } from './providers';
 import { geminiChatModel } from './models';
+import { recordTokens } from '../usage';
 
 export interface StructuredRequest {
   /** System instruction describing the desired JSON shape. */
@@ -42,6 +43,7 @@ export async function generateStructured(request: StructuredRequest): Promise<St
         messages: [{ role: 'user', content: request.user }],
         temperature: request.temperature,
       });
+      recordTokens(message.usage?.input_tokens ?? 0, message.usage?.output_tokens ?? 0);
       const block = message.content[0];
       return {
         text: block?.type === 'text' ? block.text : '{}',

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { AlertTriangle, Check, PlayCircle, MicOff, Volume2, CheckCircle2 } from 'lucide-react';
 import { ExaminerConfig, EXAMINERS } from '../types';
 import { cn } from '../lib/utils';
+import { bridge } from '../lib/bridge';
 import { prewarmMicPermission } from '../hooks/useSpeechToText';
 import { getMicrophonePermissionHelp } from '../lib/microphoneHelp';
 
@@ -202,8 +203,8 @@ export function ExamSetupModal({
                                 <div className="flex items-start gap-2 px-3 py-2.5 bg-slate-50 border border-slate-200 rounded-xl">
                                     <span className="text-slate-500 text-xs mt-0.5">🔒</span>
                                     <p className="text-sm text-slate-500 leading-relaxed">
-                                        Sprachaufnahmen werden verschlüsselt übertragen, sofort nach Transkription gelöscht und nicht für KI-Training genutzt.{' '}
-                                        <a href="/datensicherheit" target="_blank" rel="noopener" onClick={e => e.stopPropagation()} className="underline text-slate-500 hover:text-slate-600">Datenschutz</a>
+                                        Sprachaufnahmen gehen verschlüsselt direkt von deinem Rechner an den KI-Anbieter, dessen Schlüssel du hinterlegt hast, und werden von Brocaly nicht gespeichert. Ob sie dort zum Training genutzt werden, richtet sich nach den Bedingungen des Anbieters.{' '}
+                                        <button type="button" onClick={e => { e.stopPropagation(); bridge.openExternal('https://brocaly.de/datensicherheit'); }} className="underline text-slate-500 hover:text-slate-600">Datenschutz</button>
                                     </p>
                                 </div>
                             </div>

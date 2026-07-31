@@ -1,6 +1,6 @@
 appId: de.brocaly.desktop
 productName: Brocaly
-copyright: © 2026 Mario Vasic — AGPL-3.0-or-later
+copyright: © 2026 Mario Urbanek — AGPL-3.0-or-later
 directories:
   output: release
   buildResources: build
@@ -19,7 +19,15 @@ extraResources:
 asar: true
 npmRebuild: false
 
+# Signiert das fertige macOS-Bundle ad hoc. Ohne das meldet macOS
+# „Brocaly ist beschädigt" — Begründung steht im Script.
+afterPack: scripts/adhoc-sign.mjs
+
 mac:
+  # Ohne ${version} im Namen bleiben die „releases/latest/download"-URLs auf
+  # brocaly.de über alle Releases hinweg gültig. Bei x64 setzt electron-builder
+  # den Arch-Teil sonst nicht — deshalb steht ${arch} hier explizit.
+  artifactName: Brocaly-mac-${arch}.${ext}
   category: public.app-category.education
   target:
     - target: dmg
@@ -27,10 +35,12 @@ mac:
     - target: zip
       arch: [arm64, x64]
   icon: build/icon.png
-  hardenedRuntime: true
+  # Ohne Developer-ID: electron-builder soll nicht signieren (das übernimmt der
+  # afterPack-Hook ad hoc) und Hardened Runtime bleibt aus — das ergibt nur mit
+  # notarisierter Signatur Sinn und blockiert sonst den Start.
+  identity: null
+  hardenedRuntime: false
   gatekeeperAssess: false
-  entitlements: build/entitlements.mac.plist
-  entitlementsInherit: build/entitlements.mac.plist
   extendInfo:
     NSMicrophoneUsageDescription: >-
       Brocaly braucht dein Mikrofon, damit du im Prüfungsgespräch frei sprechen
@@ -56,6 +66,8 @@ win:
   icon: build/icon.png
 
 nsis:
+  # Ein Installer für x64 und arm64 — Name bewusst ohne Version, siehe mac.
+  artifactName: Brocaly-Setup.${ext}
   oneClick: false
   perMachine: false
   allowToChangeInstallationDirectory: true

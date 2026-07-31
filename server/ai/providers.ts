@@ -1,6 +1,7 @@
 import { Anthropic } from '@anthropic-ai/sdk';
 import { getKey } from '../../electron/keystore';
 import type { ApiProvider } from '../../shared/types';
+import { recordTokens } from '../usage';
 
 export const ANTHROPIC_EXAM_MODEL = 'claude-sonnet-4-6';
 export const ANTHROPIC_UTILITY_MODEL = 'claude-haiku-4-5-20251001';
@@ -121,7 +122,11 @@ export async function geminiJson<T = any>(
   if (!response.ok) {
     throw upstreamError('google', response.status, await response.text().catch(() => ''));
   }
-  return (await response.json()) as T;
+  const payload = (await response.json()) as T;
+  // Zentral zählen: jeder Gemini-Aufruf — Gespräch, Auswertung, Sprache — geht hier durch.
+  const tokens = geminiUsage(payload);
+  recordTokens(tokens.input, tokens.output);
+  return payload;
 }
 
 export function geminiText(payload: any): string {

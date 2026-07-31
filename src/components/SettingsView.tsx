@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
 import {
+  ArrowUpCircle,
   Download,
+  ExternalLink,
   FolderOpen,
   Info,
   KeyRound,
   Loader2,
+  Scale,
   ShieldAlert,
   Trash2,
   Volume2,
@@ -14,7 +17,7 @@ import { bridge } from '../lib/bridge';
 import { loadSettings, saveSettings } from '../lib/localDb';
 import { keysApi } from '../services/api';
 import { cn } from '../lib/utils';
-import type { AppInfo, AppSettings, KeystoreState, VoiceProvider } from '../types';
+import type { AppInfo, AppSettings, KeystoreState, UpdateStatus, VoiceProvider } from '../types';
 
 const VOICE_OPTIONS: { id: VoiceProvider; label: string; body: string }[] = [
   { id: 'auto', label: 'Automatisch', body: 'Nutzt die beste verfügbare Stimme deiner hinterlegten Schlüssel.' },
@@ -22,6 +25,14 @@ const VOICE_OPTIONS: { id: VoiceProvider; label: string; body: string }[] = [
   { id: 'elevenlabs', label: 'ElevenLabs', body: 'Natürlichste Stimmen. Braucht einen ElevenLabs-Schlüssel.' },
   { id: 'openai', label: 'OpenAI', body: 'Solide Alternative. Braucht einen OpenAI-Schlüssel.' },
   { id: 'off', label: 'Aus', body: 'Nur Text — Simulationen laufen ohne Sprachausgabe.' },
+];
+
+const LEGAL_LINKS = [
+  { label: 'Impressum', url: 'https://brocaly.de/impressum' },
+  { label: 'Datenschutz', url: 'https://brocaly.de/datensicherheit' },
+  { label: 'AGB', url: 'https://brocaly.de/agb' },
+  { label: 'Disclaimer', url: 'https://brocaly.de/disclaimer' },
+  { label: 'Quellcode', url: 'https://github.com/Mario1359823/brocaly-desktop' },
 ];
 
 function Section({
@@ -55,6 +66,8 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
   const [keys, setKeys] = useState<KeystoreState | null>(null);
   const [settings, setSettings] = useState<AppSettings | null>(null);
   const [exporting, setExporting] = useState(false);
+  const [update, setUpdate] = useState<UpdateStatus | null>(null);
+  const [checkingUpdate, setCheckingUpdate] = useState(false);
   const [exportMessage, setExportMessage] = useState<string | null>(null);
 
   useEffect(() => {
@@ -64,6 +77,15 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
 
   const patchSettings = async (patch: Partial<AppSettings>) => {
     setSettings(await saveSettings(patch));
+  };
+
+  const checkUpdate = async () => {
+    setCheckingUpdate(true);
+    try {
+      setUpdate(await bridge.checkUpdate());
+    } finally {
+      setCheckingUpdate(false);
+    }
   };
 
   const exportData = async () => {
@@ -84,9 +106,11 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
 
   return (
     <div className="mx-auto max-w-3xl px-1 py-2">
-      <h1 className="mb-1 text-3xl font-black tracking-tight text-brand-navy">Einstellungen</h1>
+      <h1 className="mb-1 text-3xl font-black tracking-tight text-brand-navy">API-Einstellungen</h1>
       <p className="mb-9 text-sm text-slate-500">
-        Alles hier gilt nur für diesen Rechner. Es gibt kein Konto und keine Synchronisation.
+        Schlüssel, Stimme und lokale Daten. Fachgebiet und Niveau stellst du unter
+        „Profileinstellungen" ein. Alles hier gilt nur für diesen Rechner — kein Konto, keine
+        Synchronisation.
       </p>
 
       <Section
@@ -161,6 +185,49 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
       </Section>
 
       <Section
+        icon={ArrowUpCircle}
+        title="Updates"
+        description="Brocaly lädt und installiert nichts von allein. Du entscheidest, ob und wann du eine neue Version holst."
+      >
+        <div className="rounded-2xl border border-slate-200 bg-white p-4">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p className="text-sm font-bold text-slate-900">
+                Installiert: Version {info?.version ?? '—'}
+              </p>
+              <p className="mt-0.5 text-xs text-slate-500">
+                {update === null
+                  ? 'Noch nicht geprüft.'
+                  : update.available
+                    ? `Version ${update.latestVersion} ist verfügbar.`
+                    : update.error
+                      ? 'Prüfung nicht möglich — bist du online?'
+                      : 'Du bist auf dem neuesten Stand.'}
+              </p>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={checkUpdate}
+                disabled={checkingUpdate}
+                className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition-colors hover:bg-slate-50 disabled:opacity-50"
+              >
+                {checkingUpdate ? <Loader2 className="h-4 w-4 animate-spin" /> : null}
+                Nach Updates suchen
+              </button>
+              {update?.available && update.releaseUrl && (
+                <button
+                  onClick={() => bridge.openExternal(update.releaseUrl!)}
+                  className="inline-flex items-center gap-2 rounded-xl bg-brand-green px-4 py-2.5 text-sm font-bold text-white transition-all hover:brightness-95"
+                >
+                  Release ansehen
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      <Section
         icon={FolderOpen}
         title="Deine Daten"
         description={info?.dataDirectory ?? 'Profil, Simulationen und Auswertungen liegen lokal.'}
@@ -194,10 +261,38 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
         )}
       </Section>
 
+      <Section
+        icon={Scale}
+        title="Rechtliches"
+        description="Anbieter, Rechtstexte und Quellcode."
+      >
+        <p className="mb-3 text-sm leading-relaxed text-slate-600">
+          Mario Urbanek · Bergmannstr. 5 · 10961 Berlin ·{' '}
+          <button
+            onClick={() => bridge.openExternal('mailto:mario@urbanek.de')}
+            className="font-medium text-brand-green hover:underline"
+          >
+            mario@urbanek.de
+          </button>
+        </p>
+        <div className="flex flex-wrap gap-2.5">
+          {LEGAL_LINKS.map(link => (
+            <button
+              key={link.url}
+              onClick={() => bridge.openExternal(link.url)}
+              className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-bold text-slate-700 transition-colors hover:bg-slate-50"
+            >
+              <ExternalLink className="h-4 w-4" />
+              {link.label}
+            </button>
+          ))}
+        </div>
+      </Section>
+
       <p className="border-t border-slate-200 pt-6 text-xs leading-relaxed text-slate-400">
-        Brocaly {info?.version ? `v${info.version}` : ''} — freie Software unter AGPL-3.0. Die
-        Simulation ersetzt keine Prüfung und keine medizinische Beratung; KI-generierte Inhalte
-        können fehlerhaft sein.
+        Brocaly {info?.version ? `v${info.version}` : ''} — freie Software unter AGPL-3.0,
+        © 2026 Mario Urbanek. Die Simulation ersetzt keine Prüfung und keine medizinische
+        Beratung; KI-generierte Inhalte können fehlerhaft sein.
       </p>
     </div>
   );

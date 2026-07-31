@@ -1,5 +1,6 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { examApi } from '../services/api';
+import { clearExamDraft, saveExamDraft } from '../lib/localDb';
 import { User as UserType, ExamSession, Message, ExaminerConfig, ExamMode } from '../types';
 
 interface UseExamChatParams {
@@ -79,7 +80,7 @@ export function useExamChat({
             finishedRef.current = false;
             finishingRef.current = false;
             setExamEnded(false);
-            onError("Fehler beim Abrufen des Epilogs. Bitte erneut versuchen.");
+            onError(navigator.onLine ? "Fehler beim Abrufen des Epilogs. Bitte erneut versuchen." : "Keine Internetverbindung — der Abschluss konnte nicht geladen werden.");
         } finally {
             setIsLoading(false);
         }
@@ -112,6 +113,7 @@ export function useExamChat({
                 status: 'completed',
                 feedback: feedbackData,
             });
+            void clearExamDraft().catch(() => undefined);
             onEnd?.(startTimeRef.current, 'completed');
         } catch {
             // H3: be honest about failure instead of saving fake feedback as "completed".
@@ -183,7 +185,7 @@ export function useExamChat({
 
         } catch (err) {
             console.error('Error switching case:', err);
-            onError("Fehler beim Fallwechsel. Bitte versuche es noch einmal.");
+            onError(navigator.onLine ? "Fehler beim Fallwechsel. Bitte versuche es noch einmal." : "Keine Internetverbindung — der nächste Fall konnte nicht geladen werden.");
         } finally {
             setIsSwitchingCase(false);
         }
@@ -245,6 +247,19 @@ export function useExamChat({
             messagesRef.current = finalMessages;
             setMessages(finalMessages);
 
+            // Rettungsnetz: Nach jedem Wortwechsel sichern, damit ein Absturz
+            // höchstens die letzte Antwort kostet — nicht das ganze Gespräch.
+            void saveExamDraft({
+                subject,
+                startTime: startTimeRef.current,
+                savedAt: Date.now(),
+                messages: finalMessages,
+                casesCompleted,
+                examinerId: activeExaminer.id,
+                examMode,
+                durationMinutes: duration,
+            }).catch(() => undefined);
+
             // Speak the complete response in a single TTS call so voice stays
             // consistent throughout. Progressive TTS (first sentence + continuation)
             // used two separate Gemini API calls whose audio characteristics differ.
@@ -257,7 +272,10 @@ export function useExamChat({
         } catch (err: any) {
             messagesRef.current = newMessages;
             setMessages(newMessages);
-            if (err?.status === 429 || err?.message?.includes('429')) {
+            if (!navigator.onLine) {
+                // Kein Netz ist kein Programmfehler — das gehört klar benannt.
+                onError("Keine Internetverbindung. Deine Antwort ist noch da — sobald du wieder online bist, einfach erneut absenden.");
+            } else if (err?.status === 429 || err?.message?.includes('429')) {
                 onError("Rate-Limit erreicht. Kurze Pause (ca. 30s).");
             } else {
                 onError("Ein Fehler ist aufgetreten. Bitte erneut versuchen.");

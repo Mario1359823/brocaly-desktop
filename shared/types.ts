@@ -83,6 +83,16 @@ export interface ExamSession {
   examinerId?: string;
   examMode?: ExamMode;
   feedback?: SessionFeedback;
+  /** Was diese Simulation beim KI-Anbieter ungefähr verbraucht hat. */
+  usage?: UsageTotals;
+}
+
+export interface UsageTotals {
+  inputTokens: number;
+  outputTokens: number;
+  requests: number;
+  /** Schätzung in Euro auf Basis der Token-Zahlen — keine Abrechnung. */
+  estimatedCostEur: number;
 }
 
 /**
@@ -155,3 +165,26 @@ export const DEFAULT_SETTINGS: AppSettings = {
 };
 
 export const API_PROVIDERS: ApiProvider[] = ['google', 'anthropic', 'elevenlabs', 'openai'];
+
+export interface UpdateStatus {
+  available: boolean;
+  currentVersion: string;
+  latestVersion?: string;
+  releaseUrl?: string;
+  error?: string;
+}
+
+/**
+ * Zwischenstand einer laufenden Simulation. Wird nach jedem Wortwechsel
+ * überschrieben und nach Abschluss oder bewusstem Abbruch gelöscht.
+ */
+export interface ExamDraft {
+  subject: string;
+  startTime: number;
+  savedAt: number;
+  messages: Message[];
+  casesCompleted?: CaseSummary[];
+  examinerId?: string;
+  examMode?: ExamMode;
+  durationMinutes?: number;
+}

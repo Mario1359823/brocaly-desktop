@@ -8,6 +8,7 @@ import type {
   PerformanceProfile,
   Profile,
   SessionFeedback,
+  UsageTotals,
 } from '../types';
 import { appInfo } from '../lib/bridge';
 
@@ -56,6 +57,23 @@ function cleanHistory(history: Message[]): Message[] {
     .filter((message) => message.text.trim().length > 0)
     .map((message) => ({ ...message, text: message.text.trim() }));
 }
+
+// --- Verbrauch ------------------------------------------------------------
+
+export const usageApi = {
+  /** Zähler auf null setzen — beim Start einer Simulation. */
+  async reset(): Promise<UsageTotals> {
+    const res = await fetch('/api/usage/reset', { method: 'POST', headers: headers() });
+    if (!res.ok) throw await readError(res);
+    return res.json();
+  },
+
+  async snapshot(): Promise<UsageTotals> {
+    const res = await fetch('/api/usage', { headers: headers() });
+    if (!res.ok) throw await readError(res);
+    return res.json();
+  },
+};
 
 // --- API keys -------------------------------------------------------------
 

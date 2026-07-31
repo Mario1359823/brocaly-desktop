@@ -11,13 +11,15 @@ import {
   persistSession,
   recordCaseOutcome,
   getPerformanceProfile,
+  readExamDraft,
 } from './lib/localDb';
-import { examApi, initApi } from './services/api';
+import { examApi, initApi, usageApi } from './services/api';
 import {
   EXAMINERS,
   type AppInfo,
   type AppSettings,
   type CaseProgress,
+  type ExamDraft,
   type ExamSession,
   type ExaminerConfig,
   type PerformanceProfile,
@@ -32,6 +34,8 @@ import { ExamSetupModal } from './components/ExamSetupModal';
 import { FeedbackView } from './components/FeedbackView';
 import { ProfileView } from './components/ProfileView';
 import { SettingsView } from './components/SettingsView';
+import { OfflineBar } from './components/OfflineBar';
+import { DraftRecoveryCard } from './components/DraftRecoveryCard';
 import { SetupWizard } from './components/SetupWizard';
 import { Sidebar } from './components/Sidebar';
 import { WelcomeTour } from './components/WelcomeTour';
@@ -112,6 +116,7 @@ export default function App() {
   const [stage, setStage] = useState<Stage>('loading');
   const [info, setInfo] = useState<AppInfo | null>(null);
   const [profile, setProfile] = useState<Profile | null>(null);
+  const [draft, setDraft] = useState<ExamDraft | null>(null);
   const [settings, setSettings] = useState<AppSettings | null>(null);
   const [view, setView] = useState<View>('dashboard');
   const [error, setError] = useState<string | null>(null);
@@ -156,6 +161,8 @@ export default function App() {
       setSettings(storedSettings);
       setSessions(storedSessions);
       setProfile(data.profile);
+      // Lag beim letzten Mal eine Simulation offen? Dann anbieten, sie zu retten.
+      readExamDraft().then(setDraft).catch(() => undefined);
       setExaminer(
         EXAMINERS.find((item) => item.id === storedSettings.defaultExaminerId) ?? EXAMINERS[1],
       );
@@ -232,6 +239,9 @@ export default function App() {
     if (!settings?.introPlayedAt) {
       setSettings(await saveSettings({ introPlayedAt: new Date().toISOString() }));
     }
+    // Verbrauchszähler gilt immer für genau eine Simulation.
+    await usageApi.reset().catch(() => undefined);
+
     setPendingExam(null);
     setExamKey((k) => k + 1);
     setView('exam');
@@ -248,10 +258,14 @@ export default function App() {
 
   const handleExamFinish = useCallback(
     async (session: Partial<ExamSession>) => {
+      // Der Verbrauch der gerade gelaufenen Simulation gehört zur Session —
+      // scheitert die Abfrage, wird die Session trotzdem gespeichert.
+      const usage = await usageApi.snapshot().catch(() => undefined);
       const complete: ExamSession = {
         ...(session as ExamSession),
         sessionId: sessionIdRef.current,
         examinerId: examiner.id,
+        ...(usage ? { usage } : {}),
       };
       setLastSession(complete);
       setView('feedback');
@@ -310,6 +324,7 @@ export default function App() {
         />
 
         <main className="flex-1 flex flex-col overflow-hidden">
+          <OfflineBar />
           {/* Drag strip for the frameless window — hidden during exam to avoid
               dead space above the exam header. The sidebar has its own drag
               strip that keeps the window draggable from the left edge. */}
@@ -353,6 +368,20 @@ export default function App() {
               <div className="px-8 pb-12 pt-2 max-w-6xl mx-auto">
                 <ErrorBoundary>
                   <Suspense fallback={<ViewLoading />}>
+                    {view === 'dashboard' && draft && (
+                      <DraftRecoveryCard
+                        draft={draft}
+                        profile={profile}
+                        onRecovered={(session) => {
+                          setDraft(null);
+                          setLastSession(session);
+                          void refreshSessions();
+                          setView('feedback');
+                        }}
+                        onDismissed={() => setDraft(null)}
+                      />
+                    )}
+
                     {view === 'dashboard' && profile && (
                       <DashboardView
                         user={profile}

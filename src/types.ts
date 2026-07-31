@@ -7,6 +7,7 @@ export type {
   CaseOutcomeStatus,
   CaseProgress,
   CaseSummary,
+  ExamDraft,
   ExamMode,
   ExamSession,
   ExamWindow,
@@ -15,6 +16,8 @@ export type {
   PerformanceProfile,
   Profile,
   SessionFeedback,
+  UpdateStatus,
+  UsageTotals,
   UserRole,
   VoiceProvider,
 } from '../shared/types';

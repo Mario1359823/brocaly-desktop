@@ -8,6 +8,7 @@ import { examRouter } from './routes/exam';
 import { feedbackRouter } from './routes/feedback';
 import { keysRouter } from './routes/keys';
 import { speechRouter } from './routes/speech';
+import { usageRouter } from './routes/usage';
 import { logServerError } from './text';
 
 export interface LocalApi {
@@ -78,6 +79,7 @@ export async function startLocalApi(): Promise<LocalApi> {
   app.use('/api', speechRouter);
   app.use('/api', casesRouter);
   app.use('/api', keysRouter);
+  app.use('/api', usageRouter);
 
   // In development the renderer is served by Vite; in production the built
   // bundle is served from here so `fetch('/api/...')` stays same-origin.

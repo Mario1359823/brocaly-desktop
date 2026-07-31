@@ -3,9 +3,10 @@ import { motion } from 'motion/react';
 import {
     BarChart3, TrendingUp, Award, BookOpen, AlertCircle, RefreshCw,
     ChevronDown, ChevronUp, CheckCircle2, XCircle, Clock, RepeatIcon,
-    Target, Trash2
+    Target, Trash2, Coins
 } from 'lucide-react';
 import { listSessions, deleteSession, deleteAllSessions } from '../lib/localDb';
+import { formatEstimatedCost } from '../lib/usageFormat';
 import { ExamSession } from '../types';
 
 function formatDuration(start: string | number, end?: string | number): string {
@@ -122,6 +123,20 @@ export function StatsView({ onRepeatExam, onStartExam }: { onRepeatExam?: (subje
     }
 
     const totalExams = sessions.length;
+    // Was alle Simulationen zusammen beim KI-Anbieter gekostet haben (Schätzung).
+    const totalUsage = sessions.reduce(
+        (acc, session) => {
+            const usage = session.usage;
+            if (!usage) return acc;
+            return {
+                inputTokens: acc.inputTokens + usage.inputTokens,
+                outputTokens: acc.outputTokens + usage.outputTokens,
+                requests: acc.requests + usage.requests,
+                estimatedCostEur: acc.estimatedCostEur + usage.estimatedCostEur,
+            };
+        },
+        { inputTokens: 0, outputTokens: 0, requests: 0, estimatedCostEur: 0 },
+    );
     const averageScore = Math.round(
         sessions.reduce((acc, curr) => acc + (curr.feedback?.score || 0), 0) / totalExams
     );
@@ -218,7 +233,7 @@ export function StatsView({ onRepeatExam, onStartExam }: { onRepeatExam?: (subje
             })()}
 
             {/* Section 1: Summary cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}
                     className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between"
@@ -242,6 +257,26 @@ export function StatsView({ onRepeatExam, onStartExam }: { onRepeatExam?: (subje
                     </div>
                     <div className="w-12 h-12 rounded-full bg-brand-green/5 flex items-center justify-center text-brand-green">
                         <BookOpen className="w-6 h-6" />
+                    </div>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+                    className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between"
+                >
+                    <div>
+                        <p className="text-sm text-slate-500 font-medium mb-1">Kosten gesamt ca.</p>
+                        <p className="text-3xl font-bold text-brand-orange">
+                            {totalUsage.requests > 0
+                                ? `${(totalUsage.estimatedCostEur).toLocaleString('de-DE', { style: 'currency', currency: 'EUR' })}`
+                                : '—'}
+                        </p>
+                        <p className="mt-1 text-xs text-slate-400">
+                            Schätzung · fällt direkt beim KI-Anbieter an
+                        </p>
+                    </div>
+                    <div className="w-12 h-12 rounded-full bg-brand-orange/10 flex items-center justify-center text-brand-orange">
+                        <Coins className="w-6 h-6" />
                     </div>
                 </motion.div>
             </div>
@@ -300,6 +335,12 @@ export function StatsView({ onRepeatExam, onStartExam }: { onRepeatExam?: (subje
                                                 <span className="text-sm text-slate-500 flex items-center gap-1">
                                                     <Clock className="w-3 h-3" />
                                                     {duration}
+                                                </span>
+                                            )}
+                                            {formatEstimatedCost(session.usage) && (
+                                                <span className="text-sm text-slate-500 flex items-center gap-1" title="Geschätzte Kosten beim KI-Anbieter">
+                                                    <Coins className="w-3 h-3" />
+                                                    {formatEstimatedCost(session.usage)}
                                                 </span>
                                             )}
                                         </div>

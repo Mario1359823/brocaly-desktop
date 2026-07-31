@@ -9,8 +9,9 @@ import {
   type ExamSession,
   type Profile,
   DEFAULT_SETTINGS,
+  type ExamDraft,
 } from '../shared/types';
-import { dataFile } from './paths';
+import { dataDirectory, dataFile } from './paths';
 
 const CURRENT_VERSION = 1;
 const MAX_SESSIONS = 500;
@@ -64,13 +65,16 @@ export function read(): BrocalyData {
 }
 
 /** Atomic write: a crash mid-write can never truncate the user's data. */
-function persist(data: BrocalyData): BrocalyData {
-  cache = data;
-  const file = dataFile();
+function writeFileAtomic(file: string, contents: unknown): void {
   const tmp = path.join(path.dirname(file), `.${path.basename(file)}.${process.pid}.tmp`);
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), { encoding: 'utf-8', mode: 0o600 });
+  fs.writeFileSync(tmp, JSON.stringify(contents, null, 2), { encoding: 'utf-8', mode: 0o600 });
   fs.renameSync(tmp, file);
+}
+
+function persist(data: BrocalyData): BrocalyData {
+  cache = data;
+  writeFileAtomic(dataFile(), data);
   return data;
 }
 
@@ -152,7 +156,45 @@ export function saveCaseOutcome(
   return next;
 }
 
+/**
+ * Entwurf der gerade laufenden Simulation.
+ *
+ * Bewusst eine eigene Datei neben den Nutzerdaten: Ein Entwurf ist ein
+ * Rettungsnetz, kein Ergebnis — er gehört weder in den Export noch in die
+ * Sitzungsliste. Nach jedem Wortwechsel überschrieben, damit ein Absturz
+ * höchstens die letzte Antwort kostet.
+ */
+function draftFile(): string {
+  return path.join(dataDirectory(), 'exam-draft.json');
+}
+
+export function saveDraft(draft: ExamDraft): ExamDraft {
+  // Ebenfalls atomar: ein Absturz mitten im Schreiben würde sonst genau die
+  // Datei zerstören, die den Absturz abfedern soll.
+  writeFileAtomic(draftFile(), draft);
+  return draft;
+}
+
+export function readDraft(): ExamDraft | null {
+  try {
+    const raw = JSON.parse(fs.readFileSync(draftFile(), 'utf-8')) as ExamDraft;
+    // Ein Entwurf ohne Wortwechsel ist wertlos.
+    return raw?.messages?.length ? raw : null;
+  } catch {
+    return null;
+  }
+}
+
+export function clearDraft(): void {
+  try {
+    fs.unlinkSync(draftFile());
+  } catch {
+    // Nicht vorhanden ist der Normalfall.
+  }
+}
+
 export function resetAll(): BrocalyData {
+  clearDraft();
   return persist(emptyData());
 }
 

@@ -41,7 +41,7 @@ export function ProfileView({
 
   return (
     <div className="mx-auto max-w-2xl px-1 py-2">
-      <h1 className="mb-1 text-3xl font-black tracking-tight text-brand-navy">Dein Profil</h1>
+      <h1 className="mb-1 text-3xl font-black tracking-tight text-brand-navy">Profileinstellungen</h1>
       <p className="mb-9 text-sm text-slate-500">
         Steuert Niveau, Fachgebiet und Schwerpunkte deiner Simulationen.
       </p>

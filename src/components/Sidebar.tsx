@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AlertTriangle, BarChart3, KeyRound, LayoutDashboard, Stethoscope, User } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { BrocalyTextLogo } from './BrocalyLogo';
+import { UpdateBanner } from './UpdateBanner';
 import { cn } from '../lib/utils';
 import type { User as UserType, View } from '../types';
 
@@ -47,7 +48,8 @@ const NAV_ITEMS: { id: View; label: string; icon: typeof LayoutDashboard }[] = [
   { id: 'dashboard', label: 'Start', icon: LayoutDashboard },
   { id: 'subjects', label: 'Fachgebiete', icon: Stethoscope },
   { id: 'stats', label: 'Statistik', icon: BarChart3 },
-  { id: 'settings', label: 'Einstellungen', icon: KeyRound },
+  { id: 'settings', label: 'API-Einstellungen', icon: KeyRound },
+  { id: 'profile', label: 'Profileinstellungen', icon: User },
 ];
 
 export const Sidebar = ({
@@ -111,6 +113,7 @@ export const Sidebar = ({
         </div>
 
         <div className="mt-auto p-5 border-t border-slate-200/50 bg-white/30 backdrop-blur-md">
+          <UpdateBanner />
           <button
             onClick={() => guardExam(() => onViewChange('profile'))}
             className="w-full flex items-center gap-3 rounded-xl p-2 -m-2 hover:bg-slate-100 transition-colors text-left"
