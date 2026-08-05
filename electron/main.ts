@@ -18,6 +18,11 @@ import * as store from './store';
 import { checkForUpdate } from './updates';
 import { restoredBounds, trackWindow } from './windowState';
 
+// Brocaly waits for the full AI response before calling speak(), which can take
+// 5-15 s — long enough for Chrome's user-gesture to expire and autoplay to be
+// blocked. Since this is a local desktop app, allow autoplay unconditionally.
+app.commandLine.appendSwitch('autoplay-policy', 'no-user-gesture-required');
+
 const DEV_RENDERER_URL = 'http://127.0.0.1:5273';
 
 let mainWindow: BrowserWindow | null = null;
