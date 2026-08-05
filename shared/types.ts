@@ -117,8 +117,6 @@ export interface AppSettings {
   defaultExamMode: ExamMode;
   tourCompletedAt: string | null;
   setupCompletedAt: string | null;
-  /** Set after the branded intro has played once; later starts skip it. */
-  introPlayedAt: string | null;
 }
 
 export interface BrocalyData {
@@ -161,7 +159,6 @@ export const DEFAULT_SETTINGS: AppSettings = {
   defaultExamMode: 'relaxed',
   tourCompletedAt: null,
   setupCompletedAt: null,
-  introPlayedAt: null,
 };
 
 export const API_PROVIDERS: ApiProvider[] = ['google', 'anthropic', 'elevenlabs', 'openai'];
