@@ -333,7 +333,7 @@ export const examApi = {
     text: string,
     onChunk: (url: string, index: number) => void,
     onDone: () => void,
-    onError: () => void,
+    onError: (message?: string) => void,
     voice?: string,
   ): AbortController {
     const controller = new AbortController();
@@ -367,7 +367,11 @@ export const examApi = {
           signal: controller.signal,
         });
         if (!res.ok || !res.body) {
-          onError();
+          const message = await res
+            .json()
+            .then((body) => body?.error as string | undefined)
+            .catch(() => undefined);
+          onError(message);
           return;
         }
 
@@ -388,6 +392,12 @@ export const examApi = {
             try {
               const chunk = JSON.parse(line);
               if (chunk.done) {
+                // Every sentence failed: the stream itself was fine, so this is
+                // the only place the user can be told why nothing was spoken.
+                if (chunksToCache.size === 0 && chunk.message) {
+                  onError(chunk.message as string);
+                  return;
+                }
                 if (chunksToCache.size > 0) {
                   const sorted = Array.from(chunksToCache.entries())
                     .sort(([a], [b]) => a - b)

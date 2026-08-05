@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
-import { BookOpen, Clock, Eye, EyeOff, Timer, XCircle, Mic, MicOff, Volume2, Brain, User, AlertCircle, CheckCircle2, Send, ChevronRight, ZoomIn, ZoomOut, Pause, Play, Keyboard } from 'lucide-react';
+import { BookOpen, Clock, Eye, EyeOff, Timer, XCircle, Mic, MicOff, Volume2, VolumeX, Brain, User, AlertCircle, CheckCircle2, Send, ChevronRight, ZoomIn, ZoomOut, Pause, Play, Keyboard, X } from 'lucide-react';
 import Markdown from 'react-markdown';
 import rehypeSanitize from 'rehype-sanitize';
 import { cn } from '../lib/utils';
@@ -71,7 +71,7 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
         onEnd?.(startTime, status);
     }, [onEnd]);
 
-    const { speak, speakProgressive, stop: stopSpeaking, isSpeaking, isLoadingAudio } = useTextToSpeech(activeExaminer.voice);
+    const { speak, speakProgressive, stop: stopSpeaking, isSpeaking, isLoadingAudio, error: ttsError, clearError: clearTtsError } = useTextToSpeech(activeExaminer.voice);
     const { isListening, isTranscribing, isAcquiringMic, isSpeechAPIAvailable, transcript, error: speechError, tooShort, notUnderstood, audioLevel, startListening, stopListening, setTranscript } = useSpeechToText(subject);
 
     const { timeLeft, timerActive, timeWarning, timerActiveRef, timeIsUpRef, timeLeftRef, startTimer, isPaused, pauseReason, pauseTimeLeft, pauseTimer, resumeTimer } = useExamTimer(duration);
@@ -609,6 +609,29 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
                 <div className="shrink-0 bg-red-50 border-b border-red-200 px-4 py-2 flex items-center justify-center gap-2 text-red-600 text-sm font-bold animate-pulse">
                     <Clock className="w-4 h-4" />
                     <span className="tabular-nums">{formatTime(timeLeft)}</span> verbleibend
+                </div>
+            )}
+
+            {/* Sprachausgabe-Störung: ohne diesen Hinweis wird die Simulation
+                einfach stumm, und der Grund (Kontingent, Schlüssel, Ausfall)
+                bleibt unsichtbar. Die Prüfung selbst läuft schriftlich weiter. */}
+            {ttsError && (
+                <div
+                    role="status"
+                    className="shrink-0 flex items-start gap-2 bg-amber-50 border-b border-amber-200 px-4 py-2.5"
+                >
+                    <VolumeX className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                    <p className="text-xs text-amber-800 font-medium flex-1 min-w-0">
+                        Keine Sprachausgabe: {ttsError}{' '}
+                        <span className="font-normal">Die Simulation läuft schriftlich weiter.</span>
+                    </p>
+                    <button
+                        onClick={clearTtsError}
+                        aria-label="Hinweis ausblenden"
+                        className="shrink-0 text-amber-600 hover:text-amber-800 transition-colors"
+                    >
+                        <X className="w-3.5 h-3.5" />
+                    </button>
                 </div>
             )}
 

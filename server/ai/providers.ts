@@ -93,7 +93,10 @@ export function upstreamError(provider: ApiProvider, status: number, body: strin
   if (status === 401 || status === 403) {
     err.message = `Dein ${label}-Schlüssel wurde abgelehnt. Prüfe ihn unter „Einstellungen → API-Schlüssel".`;
   } else if (status === 429) {
-    err.message = `${label} hat dein Kontingent vorerst gedrosselt. Warte kurz und versuche es erneut — im kostenlosen Google-Tarif ist die Zahl der Anfragen pro Minute begrenzt.`;
+    // Der kostenlose Google-Tarif limitiert pro Minute *und* pro Tag (bei den
+    // Sprachmodellen 100 Anfragen). Wer nur „warte kurz" liest, sucht den
+    // Fehler stundenlang bei sich.
+    err.message = `${label} hat dein Kontingent gedrosselt. Im kostenlosen Tarif ist sowohl die Zahl der Anfragen pro Minute als auch pro Tag begrenzt — bei Tageslimit hilft nur Warten bis zum Reset oder ein Abrechnungskonto beim Anbieter.`;
   } else if (status >= 500) {
     err.message = `${label} ist gerade nicht erreichbar. Versuche es in einem Moment noch einmal.`;
   } else {

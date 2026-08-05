@@ -82,8 +82,11 @@ async function synthesizeWithGemini(text: string, voice: unknown): Promise<Synth
   const payload = await geminiJson(
     `${model}:generateContent`,
     {
-      systemInstruction: { parts: [{ text: selected.style }] },
-      contents: [{ parts: [{ text }] }],
+      // Gemini's TTS models reject system instructions ("Developer instruction
+      // is not enabled for this model" on 3.1, HTTP 500 on the 2.5 previews).
+      // The style hint has to ride along in the prompt itself — that is the
+      // documented way to steer delivery, and it is not spoken out loud.
+      contents: [{ parts: [{ text: `${selected.style}\n\n${text}` }] }],
       generationConfig: {
         temperature: 0,
         responseModalities: ['AUDIO'],

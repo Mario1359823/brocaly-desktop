@@ -14,6 +14,17 @@ export function sendError(res: Response, err: unknown): void {
   });
 }
 
+/**
+ * Same exposure rule as `sendError`, but for paths that already committed to a
+ * 200 — a stream can only report a failed chunk inside its own payload.
+ */
+export function exposableMessage(err: unknown): string {
+  const error = err as { status?: number; expose?: boolean; message?: string };
+  const status = Number(error?.status) || 500;
+  const exposable = error?.expose || [400, 401, 402, 403, 404, 429].includes(status);
+  return exposable && error?.message ? error.message : 'Ein Fehler ist aufgetreten.';
+}
+
 export function safeWriteChunk(res: Response, chunk: string | Buffer, scope: string): boolean {
   if (res.destroyed || res.writableEnded) return false;
   try {

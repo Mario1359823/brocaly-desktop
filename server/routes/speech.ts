@@ -4,7 +4,7 @@ import { resolveEngine, synthesize } from '../ai/tts';
 import { readSettings } from '../settings';
 import { fixMedicalPronunciation, limitTtsSpokenText, logServerError, stripMarkdown } from '../text';
 import { TranscribeRequestSchema, TtsRequestSchema } from '../validation';
-import { safeEndResponse, safeWriteChunk, sendError } from './http';
+import { exposableMessage, safeEndResponse, safeWriteChunk, sendError } from './http';
 
 export const speechRouter = Router();
 
@@ -80,6 +80,9 @@ speechRouter.post('/tts-stream', async (req, res) => {
     const MAX_CONCURRENCY = 3;
     const inFlight = new Map<number, Promise<{ buffer: Buffer; contentType: string } | null>>();
     let nextToStart = 0;
+    // The response is already a 200 by the time chunks fail, so the reason has
+    // to travel inside the stream — otherwise the app just falls silent.
+    let firstFailure: string | null = null;
 
     const startNextChunk = () => {
       if (nextToStart >= sentences.length) return;
@@ -88,6 +91,7 @@ speechRouter.post('/tts-stream', async (req, res) => {
         index,
         synthesize(sentences[index], parsed.data.voice, preference).catch((err) => {
           logServerError(`api.tts-stream.chunk${index}`, err);
+          firstFailure ??= exposableMessage(err);
           return null;
         }),
       );
@@ -100,7 +104,11 @@ speechRouter.post('/tts-stream', async (req, res) => {
       inFlight.delete(i);
       startNextChunk();
       if (!result) {
-        safeWriteChunk(res, `${JSON.stringify({ index: i, error: true })}\n`, 'api.tts-stream');
+        safeWriteChunk(
+          res,
+          `${JSON.stringify({ index: i, error: true, message: firstFailure })}\n`,
+          'api.tts-stream',
+        );
         continue;
       }
       safeWriteChunk(
@@ -110,7 +118,11 @@ speechRouter.post('/tts-stream', async (req, res) => {
       );
     }
 
-    safeWriteChunk(res, `${JSON.stringify({ done: true, total: sentences.length })}\n`, 'api.tts-stream');
+    safeWriteChunk(
+      res,
+      `${JSON.stringify({ done: true, total: sentences.length, message: firstFailure })}\n`,
+      'api.tts-stream',
+    );
     safeEndResponse(res, 'api.tts-stream');
   } catch (err) {
     logServerError('api.tts-stream', err);

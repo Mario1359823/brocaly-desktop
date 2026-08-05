@@ -6,6 +6,9 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
   // true while the TTS fetch is in-flight (audio not yet ready to play)
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [enabled, setEnabled] = useState(true);
+  // Last reason the voice stayed silent (quota, rejected key, provider outage).
+  // Without this the simulation just goes quiet and the user has nothing to act on.
+  const [error, setError] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const onEndRef = useRef(onEnd);
   const abortRef = useRef<AbortController | null>(null);
@@ -68,7 +71,10 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
         }
       },
       () => finishStream(),
-      () => finishStream(),
+      (message?: string) => {
+        if (message) setError(message);
+        finishStream();
+      },
       voice,
     );
     continuationAbortRef.current = ctrl;
@@ -142,6 +148,7 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
     if ('speechSynthesis' in window) window.speechSynthesis.cancel();
     setIsSpeaking(false);
     setIsLoadingAudio(false);
+    setError(null);
   }, []);
 
   /**
@@ -208,13 +215,14 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
         }
       },
       // onError — stream failed entirely, fall back to single-shot TTS
-      async () => {
+      async (message?: string) => {
         if (sessionRef.current !== thisSession) return;
         pendingContinuationRef.current = null;
         try {
           const url = await examApi.textToSpeech(text, voice);
           setIsLoadingAudio(false);
-          if (!url) { onEndRef.current?.(); return; }
+          // Both paths failed — surface why instead of falling silent.
+          if (!url) { setError(message ?? 'Die Sprachausgabe ist gerade nicht verfügbar.'); onEndRef.current?.(); return; }
           const audio = new Audio(url);
           audioRef.current = audio;
           audio.onended = () => { setIsSpeaking(false); URL.revokeObjectURL(url); audioRef.current = null; onEndRef.current?.(); };
@@ -228,6 +236,7 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
         } catch {
           setIsLoadingAudio(false);
           setIsSpeaking(false);
+          setError(message ?? 'Die Sprachausgabe ist gerade nicht verfügbar.');
         }
       },
       voice,
@@ -245,5 +254,15 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
     speak(firstSentence, getContinuation);
   }, [enabled, speak]);
 
-  return { speak, speakProgressive, stop, isSpeaking, isLoadingAudio, enabled, setEnabled };
+  return {
+    speak,
+    speakProgressive,
+    stop,
+    isSpeaking,
+    isLoadingAudio,
+    enabled,
+    setEnabled,
+    error,
+    clearError: useCallback(() => setError(null), []),
+  };
 }

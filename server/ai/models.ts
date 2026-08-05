@@ -28,9 +28,14 @@ const CHAT_PREFERENCES: RegExp[] = [
   /flash/,
 ];
 
+/**
+ * Die 2.5-Preview-Modelle stehen oben, weil sie nachweislich Audio liefern.
+ * gemini-3.1-flash-tts-preview wird zwar gelistet, brach im Test aber die
+ * Verbindung ab, statt zu antworten — deshalb nur als späterer Fallback.
+ */
 const TTS_PREFERENCES: RegExp[] = [
-  /^gemini-3\.1-flash-tts-preview$/,
   /^gemini-2\.5-flash-preview-tts$/,
+  /^gemini-2\.5-pro-preview-tts$/,
   /flash.*-tts/,
   /-tts/,
 ];
@@ -75,9 +80,11 @@ async function discover(): Promise<GeminiModelChoice> {
     model.supportedGenerationMethods?.includes('generateContent'),
   );
   // TTS models are excluded from the chat pool — they only return audio.
+  // Matched anywhere in the id, not just at the end: Google moved from
+  // `-preview-tts` to `-tts-preview`, so an anchored check misses the new ids.
   const chat =
     pick(
-      chatCandidates.filter((model) => !shortName(model).endsWith('-tts')),
+      chatCandidates.filter((model) => !/-tts/.test(shortName(model))),
       CHAT_PREFERENCES,
     ) ?? 'gemini-flash-latest';
 
