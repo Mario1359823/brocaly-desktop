@@ -1,9 +1,11 @@
 name: Release Brocaly Desktop
 
-# Tag a version to publish installers, e.g. `git tag desktop-v1.0.0 && git push --tags`.
+# Tag a version to publish installers, e.g. `git tag v1.0.1 && git push --tags`.
+# Das Tag-Schema ist `vX.Y.Z` — der Update-Check in electron/updates.ts schneidet
+# genau ein fuehrendes `v` ab und kann mit anderen Praefixen nichts anfangen.
 on:
   push:
-    tags: ['desktop-v*']
+    tags: ['v*']
   workflow_dispatch:
 
 permissions:
