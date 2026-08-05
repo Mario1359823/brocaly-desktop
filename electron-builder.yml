@@ -50,6 +50,7 @@ mac:
 
 dmg:
   title: Brocaly ${version}
+  background: null
   contents:
     - x: 140
       y: 200
