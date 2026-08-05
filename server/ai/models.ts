@@ -29,9 +29,10 @@ const CHAT_PREFERENCES: RegExp[] = [
 ];
 
 const TTS_PREFERENCES: RegExp[] = [
+  /^gemini-3\.1-flash-tts-preview$/,
   /^gemini-2\.5-flash-preview-tts$/,
-  /flash.*-tts$/,
-  /-tts$/,
+  /flash.*-tts/,
+  /-tts/,
 ];
 
 export interface GeminiModelChoice {

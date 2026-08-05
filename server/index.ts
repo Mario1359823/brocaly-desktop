@@ -109,7 +109,8 @@ export async function startLocalApi(): Promise<LocalApi> {
     origin: `http://127.0.0.1:${port}`,
     close: () =>
       new Promise<void>((resolve) => {
-        server.close(() => resolve());
+        const timeout = setTimeout(() => resolve(), 3000);
+        server.close(() => { clearTimeout(timeout); resolve(); });
       }),
   };
 }

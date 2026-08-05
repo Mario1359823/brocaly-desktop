@@ -22,6 +22,7 @@ const DEV_RENDERER_URL = 'http://127.0.0.1:5273';
 
 let mainWindow: BrowserWindow | null = null;
 let api: LocalApi | null = null;
+let isQuitting = false;
 
 // A second launch should focus the running window rather than start a rival
 // server that would fight over the same data file.
@@ -239,6 +240,12 @@ function createWindow(): void {
     if (url.startsWith('https://')) shell.openExternal(url);
   });
 
+  // When the user chose "Brocaly beenden", bypass the renderer's beforeunload
+  // handler that would otherwise block the close during an active exam.
+  mainWindow.webContents.on('will-prevent-unload', (event) => {
+    if (isQuitting) event.preventDefault();
+  });
+
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
@@ -273,5 +280,6 @@ app.on('window-all-closed', () => {
 });
 
 app.on('before-quit', async () => {
+  isQuitting = true;
   await api?.close();
 });
