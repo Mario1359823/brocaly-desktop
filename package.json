@@ -1,8 +1,8 @@
 {
   "name": "brocaly-desktop",
   "productName": "Brocaly",
-  "version": "1.0.0",
-  "description": "Brocaly \u2014 KI-Pr\u00fcfungssimulation f\u00fcr Medizin. Lokal auf deinem Rechner, mit deinem eigenen API-Schl\u00fcssel.",
+  "version": "1.0.1",
+  "description": "Brocaly — KI-Prüfungssimulation für Medizin. Lokal auf deinem Rechner, mit deinem eigenen API-Schlüssel.",
   "author": {
     "name": "Mario Urbanek",
     "email": "mario@urbanek.de"

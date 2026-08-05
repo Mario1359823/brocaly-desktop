@@ -5,7 +5,6 @@ import { examDataset } from './data/examDataset';
 import { appInfo } from './lib/bridge';
 import {
   listSessions,
-  saveSettings,
   loadCaseProgress,
   loadSettings,
   persistSession,
@@ -235,10 +234,6 @@ export default function App() {
     setExamProgress(progress);
     setInitialPerformanceProfile(performance);
 
-    // The ~48s branded intro is worth it once; after that it is just a wait.
-    if (!settings?.introPlayedAt) {
-      setSettings(await saveSettings({ introPlayedAt: new Date().toISOString() }));
-    }
     // Verbrauchszähler gilt immer für genau eine Simulation.
     await usageApi.reset().catch(() => undefined);
 
@@ -355,7 +350,6 @@ export default function App() {
                     duration={examDuration}
                     examiner={examiner}
                     examMode={settings?.defaultExamMode ?? 'relaxed'}
-                    playIntro={!settings?.introPlayedAt}
                     initialVoiceMode={settings?.autoSpeak ?? true}
                     initialPerformanceProfile={initialPerformanceProfile}
                   />

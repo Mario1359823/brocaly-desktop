@@ -20,7 +20,7 @@ const MessageMarkdown = React.memo(({ text }: { text: string }) => (
 ));
 MessageMarkdown.displayName = 'MessageMarkdown';
 
-export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onEnd, onCaseComplete, onTotalCases, user, focusTopics, excludedTopics, duration = 15, examiner, examMode = 'relaxed', doneIds, endIds, initialPerformanceProfile, initialVoiceMode, playIntro = false }: {
+export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onEnd, onCaseComplete, onTotalCases, user, focusTopics, excludedTopics, duration = 15, examiner, examMode = 'relaxed', doneIds, endIds, initialPerformanceProfile, initialVoiceMode }: {
     subject: string;
     sessionId?: string;
     onFinish: (session: Partial<ExamSession>) => void;
@@ -39,7 +39,6 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
     endIds?: string[];
     initialPerformanceProfile?: { strengths: string[]; weaknesses: string[]; totalCasesCount: number };
     initialVoiceMode?: boolean;
-    playIntro?: boolean;
 }) => {
     const shouldReduceMotion = useReducedMotion();
     const activeExaminer = examiner ?? EXAMINERS[0];
@@ -128,7 +127,6 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
         subject,
         doneIds,
         endIds,
-        playIntro,
         onCaseId: (caseId, total) => {
             currentCaseIdRef.current = caseId;
             totalCasesRef.current = total;

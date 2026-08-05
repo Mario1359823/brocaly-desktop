@@ -21,8 +21,6 @@ export interface UseExamStartParams {
     doneIds?: string[];
     endIds?: string[];
     onCaseId?: (caseId: string, totalCases: number) => void;
-    /** The long branded intro only plays on a user's first ever simulation. */
-    playIntro?: boolean;
 }
 
 export interface UseExamStartReturn {
@@ -51,7 +49,6 @@ export const useExamStart = ({
     doneIds,
     endIds,
     onCaseId,
-    playIntro = false,
 }: UseExamStartParams): UseExamStartReturn => {
     const [isPrologPlaying, setIsPrologPlaying] = useState(true);
     const prologAudioRef = useRef<HTMLAudioElement | null>(null);
@@ -76,9 +73,9 @@ export const useExamStart = ({
                 );
 
                 // 1. Play the branded intro (parallel with the API call above).
-                // It runs ~48s, so it is only worth the wait on the very first
-                // simulation; later starts gate on the API response alone.
-                if (playIntro && voiceMode && !aborted) {
+                // Es läuft vor jeder Simulation; wer nicht warten will, drückt im
+                // Prolog-Screen auf „Überspringen" — das löst resolvePrologRef aus.
+                if (voiceMode && !aborted) {
                     await new Promise<void>((resolve) => {
                         const localResolve = () => {
                             if (resolvePrologRef.current === localResolve) {
