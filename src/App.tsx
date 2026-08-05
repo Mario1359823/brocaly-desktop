@@ -350,7 +350,6 @@ export default function App() {
                     duration={examDuration}
                     examiner={examiner}
                     examMode={examiner.difficulty}
-                    playIntro={!settings?.introPlayedAt}
                     initialVoiceMode={settings?.autoSpeak ?? true}
                     initialPerformanceProfile={initialPerformanceProfile}
                   />
