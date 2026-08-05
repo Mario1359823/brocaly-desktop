@@ -82,8 +82,10 @@ async function synthesizeWithGemini(text: string, voice: unknown): Promise<Synth
   const payload = await geminiJson(
     `${model}:generateContent`,
     {
-      contents: [{ parts: [{ text: `${selected.style}\n\n${text}` }] }],
+      systemInstruction: { parts: [{ text: selected.style }] },
+      contents: [{ parts: [{ text }] }],
       generationConfig: {
+        temperature: 0,
         responseModalities: ['AUDIO'],
         speechConfig: {
           voiceConfig: { prebuiltVoiceConfig: { voiceName: selected.voice } },

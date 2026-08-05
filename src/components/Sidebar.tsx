@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { AlertTriangle, BarChart3, KeyRound, LayoutDashboard, Stethoscope, User } from 'lucide-react';
+import { AlertTriangle, BarChart3, KeyRound, LayoutDashboard, MessageSquarePlus, Stethoscope, User } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { BrocalyTextLogo } from './BrocalyLogo';
 import { UpdateBanner } from './UpdateBanner';
 import { cn } from '../lib/utils';
+import { bridge } from '../lib/bridge';
 import type { User as UserType, View } from '../types';
 
 function AbortExamModal({ onConfirm, onCancel }: { onConfirm: () => void; onCancel: () => void }) {
@@ -128,8 +129,15 @@ export const Sidebar = ({
               </span>
             </div>
           </button>
-          <p className="mt-4 text-[11px] font-medium text-slate-400 text-center">
-            Brocaly {version ? `v${version}` : ''} · Alles bleibt lokal
+          <button
+            onClick={() => bridge.openExternal('https://github.com/Mario1359823/brocaly-desktop/issues/new')}
+            className="mt-3 w-full flex items-center justify-center gap-1.5 text-[11px] font-semibold text-slate-400 hover:text-brand-green transition-colors"
+          >
+            <MessageSquarePlus className="w-3 h-3" />
+            Feedback / Fehler melden
+          </button>
+          <p className="mt-2 text-[11px] font-medium text-slate-400 text-center">
+            Brocaly {version ? `v${version}` : ''} · Dein Schlüssel, deine Daten
           </p>
         </div>
       </div>

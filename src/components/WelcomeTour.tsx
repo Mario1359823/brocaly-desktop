@@ -27,9 +27,9 @@ const SLIDES = [
   },
   {
     icon: ShieldCheck,
-    eyebrow: 'Deine Daten',
-    title: 'Alles bleibt auf deinem Rechner',
-    body: 'Kein Konto, kein Server, kein Abo. Profil, Gespräche und Auswertungen liegen ausschließlich lokal. Du hinterlegst deinen eigenen API-Schlüssel — Brocaly nutzt ihn nur für deine Simulationen.',
+    eyebrow: 'Dein Schlüssel',
+    title: 'Kein Konto, kein Abo',
+    body: 'Du nutzt deinen eigenen Google-API-Schlüssel — Brocaly hat keinen Zugriff darauf. Profil und Auswertungen werden lokal gespeichert, Gespräche laufen direkt über die Google-KI.',
     accent: 'from-violet-100/60 to-fuchsia-100/40',
   },
 ];

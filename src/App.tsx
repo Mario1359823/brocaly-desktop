@@ -349,7 +349,8 @@ export default function App() {
                     excludedTopics={excludedTopics}
                     duration={examDuration}
                     examiner={examiner}
-                    examMode={settings?.defaultExamMode ?? 'relaxed'}
+                    examMode={examiner.difficulty}
+                    playIntro={!settings?.introPlayedAt}
                     initialVoiceMode={settings?.autoSpeak ?? true}
                     initialPerformanceProfile={initialPerformanceProfile}
                   />

@@ -108,9 +108,9 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
     <div className="mx-auto max-w-3xl px-1 py-2">
       <h1 className="mb-1 text-3xl font-black tracking-tight text-brand-navy">API-Einstellungen</h1>
       <p className="mb-9 text-sm text-slate-500">
-        Schlüssel, Stimme und lokale Daten. Fachgebiet und Niveau stellst du unter
-        „Profileinstellungen" ein. Alles hier gilt nur für diesen Rechner — kein Konto, keine
-        Synchronisation.
+        Schlüssel, Stimme und gespeicherte Daten. Fachgebiet und Niveau stellst du unter
+        „Profileinstellungen" ein. Deine Einstellungen gelten nur für diesen Rechner — kein Konto,
+        keine Synchronisation.
       </p>
 
       <Section
@@ -230,7 +230,7 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
       <Section
         icon={FolderOpen}
         title="Deine Daten"
-        description={info?.dataDirectory ?? 'Profil, Simulationen und Auswertungen liegen lokal.'}
+        description={info?.dataDirectory ?? 'Profil, Simulationen und Auswertungen auf diesem Rechner.'}
       >
         <div className="flex flex-wrap gap-2.5">
           <button
