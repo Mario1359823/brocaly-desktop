@@ -43,11 +43,11 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
 
-      # `hdiutil` auf den macOS-Runnern ist unzuverlaessig: v1.0.3 starb an
-      # "ln: /Volumes/Brocaly 1.0.3/Applications: No such file or directory",
-      # weil zwei DMG-Volumes gleichzeitig gemountet wurden. dist:mac baut die
-      # Architekturen deshalb nacheinander — und ein zweiter Versuch faengt
-      # den Rest der Flakiness ab, damit ein Release nicht daran haengt.
+      # Die DMG-Erzeugung ist auf den macOS-Runnern unzuverlaessig, weil beide
+      # Architekturen ein Volume gleichen Namens einhaengen (v1.0.3: "ln:
+      # /Volumes/Brocaly 1.0.3/Applications: No such file or directory",
+      # v1.0.5: fehlende background.tiff im selben Pfad). Der Name traegt
+      # deshalb jetzt die Architektur; ein zweiter Versuch faengt den Rest ab.
       - name: Installer bauen
         shell: bash
         run: |
