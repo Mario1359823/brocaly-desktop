@@ -106,6 +106,35 @@ resources/  Fallbibliothek (28 Fachgebiete)
 Der Renderer wird im Produktionsbuild vom eingebetteten Dienst ausgeliefert. Dadurch bleiben alle
 `/api`-Aufrufe same-origin und das Token-Streaming des Prüfungsgesprächs funktioniert ohne Umwege.
 
+## Signierung und Notarisierung (macOS)
+
+Ohne Apple-Zertifikat wird die App nur ad-hoc signiert. Diese Signatur ist gültig
+(`codesign --verify --deep --strict` läuft durch), reicht Gatekeeper aber nicht: Ein aus dem
+Browser geladenes Bundle trägt das Quarantäne-Merkmal, und dafür verlangt macOS eine
+Notarisierung. Nutzer sehen sonst **„Brocaly ist beschädigt und kann nicht geöffnet werden"** und
+kommen nur über `xattr -dr com.apple.quarantine /Applications/Brocaly.app` weiter. Rechtsklick →
+Öffnen hilft seit macOS 15 nicht mehr.
+
+Der Release-Workflow schaltet automatisch um, sobald die Secrets hinterlegt sind — bis dahin baut
+er unverändert ad-hoc weiter. Nötig sind fünf Repository-Secrets:
+
+| Secret | Inhalt |
+| --- | --- |
+| `MAC_CERT_P12` | „Developer ID Application"-Zertifikat als `.p12`, base64-kodiert (`base64 -i cert.p12 \| pbcopy`) |
+| `MAC_CERT_PASSWORD` | Passwort, das beim Export der `.p12` vergeben wurde |
+| `APPLE_ID` | Apple-ID des Entwicklerkontos |
+| `APPLE_APP_SPECIFIC_PASSWORD` | App-spezifisches Passwort aus appleid.apple.com (nicht das Kontopasswort) |
+| `APPLE_TEAM_ID` | Team-ID aus dem Developer-Portal, z. B. `AB12CD34EF` |
+
+Danach signiert electron-builder mit der Developer-ID, aktiviert Hardened Runtime und lädt die App
+zur Notarisierung bei Apple hoch. Die Entitlements in `build/entitlements.mac.plist` sind bereits
+auf Hardened Runtime ausgelegt — ohne `disable-library-validation` und
+`allow-dyld-environment-variables` startet Electron darunter nicht.
+
+Nebeneffekt: Erst mit einer echten Signatur wird ein stilles Selbst-Update überhaupt möglich.
+`electron/updates.ts` zeigt bewusst nur einen Hinweis, weil ein ad-hoc signiertes Bundle bei jedem
+Build einen anderen CDHash hat und Squirrel.Mac das Update deshalb ablehnt.
+
 ## Wichtiger Hinweis
 
 Brocaly ist ein **Trainingswerkzeug**. Es ist keine Prüfung, keine Prüfungsvorbereitung mit

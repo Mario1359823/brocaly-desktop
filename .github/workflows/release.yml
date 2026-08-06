@@ -50,14 +50,41 @@ jobs:
       # deshalb jetzt die Architektur; ein zweiter Versuch faengt den Rest ab.
       - name: Installer bauen
         shell: bash
-        run: |
-          npm run ${{ matrix.target }} || {
-            echo "::warning::Build fehlgeschlagen — zweiter Versuch."
-            npm run ${{ matrix.target }}
-          }
         env:
-          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Developer-ID-Zertifikat als base64-kodierte .p12 plus Passwort.
+          CSC_LINK: ${{ secrets.MAC_CERT_P12 }}
+          CSC_KEY_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          # Notarisierung ueber Apple-ID und app-spezifisches Passwort.
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_APP_SPECIFIC_PASSWORD: ${{ secrets.APPLE_APP_SPECIFIC_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          set -uo pipefail
+
+          # Solange kein Zertifikat hinterlegt ist, bleibt es beim bisherigen
+          # Ad-hoc-Weg — der Release funktioniert also weiter, auch waehrend die
+          # Apple-Mitgliedschaft noch nicht freigeschaltet ist. Nutzer sehen
+          # dann allerdings "Brocaly ist beschaedigt" und brauchen
+          # `xattr -dr com.apple.quarantine`.
+          if [ "${{ runner.os }}" = "macOS" ] && [ -n "${CSC_LINK:-}" ]; then
+            echo "Developer-ID-Zertifikat gefunden — signiere und notarisiere."
+            export CSC_IDENTITY_AUTO_DISCOVERY=true
+            SIGN_ARGS="--config.mac.hardenedRuntime=true --config.mac.notarize=true"
+          else
+            echo "::warning::Kein Zertifikat hinterlegt — Build bleibt ad-hoc signiert und ist nicht notarisiert."
+            export CSC_IDENTITY_AUTO_DISCOVERY=false
+            SIGN_ARGS="--config.mac.identity=null"
+          fi
+
+          # Windows kennt die mac-Ueberschreibungen nicht.
+          if [ "${{ runner.os }}" != "macOS" ]; then SIGN_ARGS=""; fi
+
+          build() { npm run ${{ matrix.target }} -- $SIGN_ARGS; }
+          build || {
+            echo "::warning::Build fehlgeschlagen — zweiter Versuch."
+            build
+          }
 
       - uses: actions/upload-artifact@v4
         with:

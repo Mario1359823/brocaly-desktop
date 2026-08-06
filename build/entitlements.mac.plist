@@ -6,6 +6,13 @@
     <true/>
     <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
     <true/>
+    <!-- Electron laedt Frameworks, die nicht mit demselben Team-Zertifikat
+         signiert sind; ohne diese beiden Rechte startet die App unter
+         Hardened Runtime nicht. -->
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <true/>
+    <key>com.apple.security.cs.allow-dyld-environment-variables</key>
+    <true/>
     <key>com.apple.security.device.audio-input</key>
     <true/>
     <key>com.apple.security.network.client</key>
