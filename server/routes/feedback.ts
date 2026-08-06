@@ -25,7 +25,6 @@ feedbackRouter.post('/feedback-badge', async (req, res) => {
       system: BADGE_SYSTEM,
       user: `Frage: "${examinerQuestion}"\nAntwort: "${userAnswer}"`,
       maxTokens: 40,
-      temperature: 0,
     });
 
     const parsed = parseJsonLoose(text) as { result?: string } | null;
@@ -58,7 +57,6 @@ feedbackRouter.post('/generate-case-summary', async (req, res) => {
       system: CASE_SUMMARY_SYSTEM,
       user: `Gesprächsverlauf: ${JSON.stringify(parsed.data.history)}`,
       maxTokens: 400,
-      temperature: 0.1,
     });
 
     const validated = CaseSummarySchema.safeParse(parseJsonLoose(text));
@@ -153,7 +151,6 @@ feedbackRouter.post('/final-feedback', async (req, res) => {
       system: FINAL_FEEDBACK_SYSTEM,
       user: `Gespräch (Letzter Fall): ${JSON.stringify(safeHistory)}${previousCasesContext}`,
       maxTokens: 8000,
-      temperature: 0.3,
     });
 
     const validated = FinalFeedbackSchema.safeParse(parseJsonLoose(text));

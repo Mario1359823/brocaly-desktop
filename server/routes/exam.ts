@@ -12,7 +12,11 @@ import { logServerError } from '../text';
 import { ExamRequestSchema } from '../validation';
 import { safeEndResponse, safeWriteChunk, sendError } from './http';
 
-const EXAM_RESPONSE_MAX_TOKENS = 1024;
+// Die GPT-5-Familie denkt intern mit, und diese Tokens zählen gegen das
+// Ausgabelimit. 1024 reichte bei Gemini für Denken plus Antwort — hier wird
+// die Denkstufe niedrig gehalten und das Limit trotzdem angehoben, damit eine
+// vollständige Prüferantwort nie am Budget abgeschnitten wird.
+const EXAM_RESPONSE_MAX_TOKENS = 2048;
 
 /** Der Verlauf geht als Rollen-Turns rein; das System-Prompt über `instructions`. */
 function toInput(messages: { role: string; content: string }[]) {
@@ -39,7 +43,7 @@ examRouter.post('/exam-response', async (req, res) => {
           instructions: systemContent,
           input: toInput(validMessages),
           max_output_tokens: EXAM_RESPONSE_MAX_TOKENS,
-          temperature: 0.7,
+          reasoning: { effort: 'low' },
         });
       } catch (err) {
         throw fromSdkError(err);
@@ -96,7 +100,7 @@ examRouter.post('/exam-response-stream', async (req, res) => {
           instructions: systemContent,
           input: toInput(validMessages),
           max_output_tokens: EXAM_RESPONSE_MAX_TOKENS,
-          temperature: 0.7,
+          reasoning: { effort: 'low' },
           stream: true,
         },
         { signal: abort.signal },

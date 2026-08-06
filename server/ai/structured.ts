@@ -6,7 +6,6 @@ export interface StructuredRequest {
   /** The user turn — usually the serialized conversation. */
   user: string;
   maxTokens: number;
-  temperature: number;
 }
 
 export interface StructuredResult {
@@ -25,9 +24,11 @@ export async function generateStructured(request: StructuredRequest): Promise<St
       const response = await openai(EXAM_TIMEOUT_MS).responses.create({
         model: UTILITY_MODEL,
         instructions: request.system,
-        input: request.user,
+        // `json_object` verlangt, dass das Wort "json" in der Eingabe
+        // vorkommt — sonst antwortet die API mit 400, statt JSON zu erzwingen.
+        input: `${request.user}\n\nAntworte ausschließlich mit einem JSON-Objekt.`,
         max_output_tokens: request.maxTokens,
-        temperature: request.temperature,
+        reasoning: { effort: 'low' },
         text: { format: { type: 'json_object' } },
       });
       recordUsage(response.usage);
