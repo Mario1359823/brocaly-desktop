@@ -24,10 +24,12 @@ npmRebuild: false
 afterPack: scripts/adhoc-sign.mjs
 
 mac:
-  # Ohne ${version} im Namen bleiben die „releases/latest/download"-URLs auf
-  # brocaly.de über alle Releases hinweg gültig. Bei x64 setzt electron-builder
-  # den Arch-Teil sonst nicht — deshalb steht ${arch} hier explizit.
-  artifactName: Brocaly-mac-${arch}.${ext}
+  # Die Version steht im Dateinamen, damit im Downloads-Ordner erkennbar bleibt,
+  # welcher Stand da liegt. Die Download-Links auf brocaly.de lösen den echten
+  # Dateinamen dafür über die Releases-API auf, statt ihn fest zu verdrahten.
+  # Bei x64 setzt electron-builder den Arch-Teil nicht von selbst — deshalb
+  # steht ${arch} hier explizit.
+  artifactName: Brocaly-${version}-mac-${arch}.${ext}
   category: public.app-category.education
   target:
     - target: dmg
@@ -71,8 +73,8 @@ win:
   icon: build/icon.png
 
 nsis:
-  # Ein Installer für x64 und arm64 — Name bewusst ohne Version, siehe mac.
-  artifactName: Brocaly-Setup.${ext}
+  # Ein Installer für x64 und arm64.
+  artifactName: Brocaly-Setup-${version}.${ext}
   oneClick: false
   perMachine: false
   allowToChangeInstallationDirectory: true
