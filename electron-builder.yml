@@ -55,7 +55,7 @@ dmg:
   # Bauen zwei Volumes gleichen Namens unter /Volumes, macOS hängt das zweite
   # als „… 1" ein, und dmgbuild schreibt ins Leere („No such file or directory:
   # /Volumes/Brocaly 1.0.5/.background/background.tiff").
-  title: Brocaly ${version} ${arch}
+  title: Brocaly ${version}${arch}
   background: null
   contents:
     - x: 140
