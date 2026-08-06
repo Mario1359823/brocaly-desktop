@@ -8,7 +8,7 @@ const dev = watch || process.env.BROCALY_DEV === '1';
 
 /**
  * Electron's main process and preload script are bundled to CommonJS.
- * `express`, `zod` and the Anthropic SDK stay external so they are resolved
+ * `express`, `zod` and the OpenAI SDK stay external so they are resolved
  * from node_modules at runtime — electron-builder ships them as prod deps.
  */
 const shared = {
@@ -22,7 +22,7 @@ const shared = {
   define: {
     'process.env.NODE_ENV': JSON.stringify(dev ? 'development' : 'production'),
   },
-  external: ['electron', 'express', 'zod', '@anthropic-ai/sdk'],
+  external: ['electron', 'express', 'zod', 'openai'],
 };
 
 const targets = [
