@@ -1,5 +1,4 @@
 import type {
-  ApiProvider,
   CaseSummary,
   ExamMode,
   ExaminerConfig,
@@ -84,8 +83,8 @@ export const keysApi = {
     return res.json();
   },
 
-  async save(provider: ApiProvider, apiKey: string): Promise<KeystoreState> {
-    const res = await fetch(`/api/keys/${provider}`, {
+  async save(apiKey: string): Promise<KeystoreState> {
+    const res = await fetch('/api/keys', {
       method: 'PUT',
       headers: headers(),
       body: JSON.stringify({ apiKey }),
@@ -94,8 +93,8 @@ export const keysApi = {
     return res.json();
   },
 
-  async test(provider: ApiProvider, apiKey: string): Promise<void> {
-    const res = await fetch(`/api/keys/${provider}/test`, {
+  async test(apiKey: string): Promise<void> {
+    const res = await fetch('/api/keys/test', {
       method: 'POST',
       headers: headers(),
       body: JSON.stringify({ apiKey }),
@@ -103,8 +102,8 @@ export const keysApi = {
     if (!res.ok) throw await readError(res);
   },
 
-  async remove(provider: ApiProvider): Promise<KeystoreState> {
-    const res = await fetch(`/api/keys/${provider}`, { method: 'DELETE', headers: headers() });
+  async remove(): Promise<KeystoreState> {
+    const res = await fetch('/api/keys', { method: 'DELETE', headers: headers() });
     if (!res.ok) throw await readError(res);
     return res.json();
   },
@@ -115,9 +114,9 @@ export const keysApi = {
 const ttsAudioCache = new Map<string, Array<{ buffer: ArrayBuffer; contentType: string }>>();
 const TTS_CACHE_MAX = 60;
 
-function ttsCacheKey(text: string, voice?: string): string {
+function ttsCacheKey(text: string): string {
   const normalized = text.replace(/\s+/g, ' ').trim().toLowerCase().slice(0, 200);
-  return ['v1', voice || 'mueller', normalized].join(':');
+  return `v2:${normalized}`;
 }
 
 export const examApi = {
@@ -308,14 +307,14 @@ export const examApi = {
     return controller;
   },
 
-  async textToSpeech(text: string, voice?: string): Promise<string> {
+  async textToSpeech(text: string): Promise<string> {
     const cleanText = text.trim();
     if (!cleanText) return '';
     try {
       const res = await fetch('/api/tts', {
         method: 'POST',
         headers: headers(),
-        body: JSON.stringify({ text: cleanText, voice }),
+        body: JSON.stringify({ text: cleanText }),
       });
       if (!res.ok) return '';
       return URL.createObjectURL(await res.blob());
@@ -334,7 +333,6 @@ export const examApi = {
     onChunk: (url: string, index: number) => void,
     onDone: () => void,
     onError: (message?: string) => void,
-    voice?: string,
   ): AbortController {
     const controller = new AbortController();
     const cleanText = text.trim();
@@ -343,7 +341,7 @@ export const examApi = {
       return controller;
     }
 
-    const cacheKey = ttsCacheKey(cleanText, voice);
+    const cacheKey = ttsCacheKey(cleanText);
     const cached = ttsAudioCache.get(cacheKey);
     if (cached) {
       setTimeout(() => {
@@ -363,7 +361,7 @@ export const examApi = {
         const res = await fetch('/api/tts-stream', {
           method: 'POST',
           headers: headers(),
-          body: JSON.stringify({ text: cleanText, voice }),
+          body: JSON.stringify({ text: cleanText }),
           signal: controller.signal,
         });
         if (!res.ok || !res.body) {

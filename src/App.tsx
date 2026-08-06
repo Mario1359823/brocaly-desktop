@@ -14,13 +14,12 @@ import {
 } from './lib/localDb';
 import { examApi, initApi, usageApi } from './services/api';
 import {
-  EXAMINERS,
+  EXAMINER,
   type AppInfo,
   type AppSettings,
   type CaseProgress,
   type ExamDraft,
   type ExamSession,
-  type ExaminerConfig,
   type PerformanceProfile,
   type Profile,
   type View,
@@ -142,7 +141,6 @@ export default function App() {
   const [initialPerformanceProfile, setInitialPerformanceProfile] = useState<
     PerformanceProfile | undefined
   >(undefined);
-  const [examiner, setExaminer] = useState<ExaminerConfig>(EXAMINERS[1]);
   const [examKey, setExamKey] = useState(0);
   const [lastSession, setLastSession] = useState<ExamSession | null>(null);
   const sessionIdRef = useRef<string>('');
@@ -162,9 +160,6 @@ export default function App() {
       setProfile(data.profile);
       // Lag beim letzten Mal eine Simulation offen? Dann anbieten, sie zu retten.
       readExamDraft().then(setDraft).catch(() => undefined);
-      setExaminer(
-        EXAMINERS.find((item) => item.id === storedSettings.defaultExaminerId) ?? EXAMINERS[1],
-      );
 
       if (!storedSettings.tourCompletedAt) setStage('tour');
       else if (!storedSettings.setupCompletedAt || !data.profile) setStage('setup');
@@ -259,7 +254,7 @@ export default function App() {
       const complete: ExamSession = {
         ...(session as ExamSession),
         sessionId: sessionIdRef.current,
-        examinerId: examiner.id,
+        examinerId: EXAMINER.id,
         ...(usage ? { usage } : {}),
       };
       setLastSession(complete);
@@ -267,7 +262,7 @@ export default function App() {
       await persistSession(complete);
       await refreshSessions();
     },
-    [examiner.id, refreshSessions],
+    [refreshSessions],
   );
 
   // --- Stages -------------------------------------------------------------
@@ -290,10 +285,9 @@ export default function App() {
     return (
       <SetupWizard
         initialProfile={profile}
-        onFinished={async (nextProfile, startExam, examinerId) => {
+        onFinished={async (nextProfile, startExam) => {
           setProfile(nextProfile);
           setSettings(await loadSettings());
-          setExaminer(EXAMINERS.find((item) => item.id === examinerId) ?? EXAMINERS[1]);
           setStage('app');
 
           const subject =
@@ -348,8 +342,8 @@ export default function App() {
                     focusTopics={focusTopics}
                     excludedTopics={excludedTopics}
                     duration={examDuration}
-                    examiner={examiner}
-                    examMode={examiner.difficulty}
+                    examiner={EXAMINER}
+                    examMode={EXAMINER.difficulty}
                     initialVoiceMode={settings?.autoSpeak ?? true}
                     initialPerformanceProfile={initialPerformanceProfile}
                   />
@@ -449,8 +443,6 @@ export default function App() {
 
         <ExamSetupModal
           open={Boolean(pendingExam)}
-          selectedExaminer={examiner}
-          onSelectExaminer={setExaminer}
           onConfirm={confirmStartExam}
           onCancel={() => setPendingExam(null)}
         />

@@ -1,7 +1,6 @@
 import { Router } from 'express';
-import { deleteKey, isProvider, setKey, state } from '../../electron/keystore';
-import { testProviderKey } from '../ai/providers';
-import { resetGeminiModels } from '../ai/models';
+import { deleteKey, setKey, state } from '../../electron/keystore';
+import { testKey } from '../ai/providers';
 import { logServerError } from '../text';
 import { KeyRequestSchema } from '../validation';
 import { sendError } from './http';
@@ -13,20 +12,16 @@ keysRouter.get('/keys', (_req, res) => {
 });
 
 /**
- * A key is verified against the provider before it is written, so a typo
- * surfaces during setup rather than in the middle of a simulation.
+ * A key is verified against OpenAI before it is written, so a typo surfaces
+ * during setup rather than in the middle of a simulation.
  */
-keysRouter.put('/keys/:provider', async (req, res) => {
+keysRouter.put('/keys', async (req, res) => {
   try {
-    const provider = req.params.provider;
-    if (!isProvider(provider)) return res.status(400).json({ error: 'Unbekannter Anbieter.' });
-
     const parsed = KeyRequestSchema.safeParse(req.body);
     if (!parsed.success) return res.status(400).json({ error: 'Ungültiger API-Schlüssel.' });
 
-    await testProviderKey(provider, parsed.data.apiKey);
-    setKey(provider, parsed.data.apiKey);
-    resetGeminiModels();
+    await testKey(parsed.data.apiKey);
+    setKey(parsed.data.apiKey);
     res.json(state());
   } catch (err) {
     logServerError('api.keys.put', err);
@@ -34,15 +29,12 @@ keysRouter.put('/keys/:provider', async (req, res) => {
   }
 });
 
-keysRouter.post('/keys/:provider/test', async (req, res) => {
+keysRouter.post('/keys/test', async (req, res) => {
   try {
-    const provider = req.params.provider;
-    if (!isProvider(provider)) return res.status(400).json({ error: 'Unbekannter Anbieter.' });
-
     const parsed = KeyRequestSchema.safeParse(req.body);
     if (!parsed.success) return res.status(400).json({ error: 'Ungültiger API-Schlüssel.' });
 
-    await testProviderKey(provider, parsed.data.apiKey);
+    await testKey(parsed.data.apiKey);
     res.json({ ok: true });
   } catch (err) {
     logServerError('api.keys.test', err);
@@ -50,10 +42,7 @@ keysRouter.post('/keys/:provider/test', async (req, res) => {
   }
 });
 
-keysRouter.delete('/keys/:provider', (req, res) => {
-  const provider = req.params.provider;
-  if (!isProvider(provider)) return res.status(400).json({ error: 'Unbekannter Anbieter.' });
-  deleteKey(provider);
-  resetGeminiModels();
+keysRouter.delete('/keys', (_req, res) => {
+  deleteKey();
   res.json(state());
 });

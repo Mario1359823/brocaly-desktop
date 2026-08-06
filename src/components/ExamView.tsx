@@ -9,7 +9,7 @@ import { useTextToSpeech } from '../hooks/useTextToSpeech';
 import { useExamTimer } from '../hooks/useExamTimer';
 import { useExamStart } from '../hooks/useExamStart';
 import { useExamChat } from '../hooks/useExamChat';
-import { User as UserType, ExamSession, Message, ExaminerConfig, ExamMode, EXAMINERS } from '../types';
+import { User as UserType, ExamSession, Message, ExaminerConfig, ExamMode, EXAMINER } from '../types';
 import { AudioVisualizer } from './AudioVisualizer';
 import { BREAKPOINT_QUERIES } from '../config/breakpoints';
 
@@ -41,7 +41,7 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
     initialVoiceMode?: boolean;
 }) => {
     const shouldReduceMotion = useReducedMotion();
-    const activeExaminer = examiner ?? EXAMINERS[0];
+    const activeExaminer = examiner ?? EXAMINER;
 
     const [inputValue, setInputValue] = useState('');
     const [voiceMode, setVoiceMode] = useState(initialVoiceMode ?? true);
@@ -71,7 +71,7 @@ export const ExamView = ({ subject, sessionId, onFinish, onNewExam, onError, onE
         onEnd?.(startTime, status);
     }, [onEnd]);
 
-    const { speak, speakProgressive, stop: stopSpeaking, isSpeaking, isLoadingAudio, error: ttsError, clearError: clearTtsError } = useTextToSpeech(activeExaminer.voice);
+    const { speak, speakProgressive, stop: stopSpeaking, isSpeaking, isLoadingAudio, error: ttsError, clearError: clearTtsError } = useTextToSpeech();
     const { isListening, isTranscribing, isAcquiringMic, isSpeechAPIAvailable, transcript, error: speechError, tooShort, notUnderstood, audioLevel, startListening, stopListening, setTranscript } = useSpeechToText(subject);
 
     const { timeLeft, timerActive, timeWarning, timerActiveRef, timeIsUpRef, timeLeftRef, startTimer, isPaused, pauseReason, pauseTimeLeft, pauseTimer, resumeTimer } = useExamTimer(duration);

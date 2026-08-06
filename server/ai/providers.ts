@@ -1,76 +1,60 @@
-import { Anthropic } from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import { getKey } from '../../electron/keystore';
-import type { ApiProvider } from '../../shared/types';
 import { recordTokens } from '../usage';
 
-export const ANTHROPIC_EXAM_MODEL = 'claude-sonnet-4-6';
-export const ANTHROPIC_UTILITY_MODEL = 'claude-haiku-4-5-20251001';
+/**
+ * Brocaly spricht mit genau einem Anbieter.
+ *
+ * Früher hatte jedes Feature zwei oder drei Pfade mit stillen Rückfällen —
+ * Gespräch wahlweise Claude oder Gemini, Sprachausgabe drei Engines, dazu eine
+ * Modell-Discovery gegen Googles wandernde IDs. Ein Ausfall kam dadurch nie als
+ * Fehler an, sondern als Symptom: Stille, Dauerladen, halbe Antworten. Ein
+ * Anbieter, ein Schlüssel, kein Fallback — Fehler schlagen sichtbar durch.
+ */
 
-export const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
+/** Gespräch: hält den langen klinischen Faden, streamt zügig genug. */
+export const EXAM_MODEL = 'gpt-5.6-terra';
+/** Auswertung, Bewertung, Kurztexte — deutlich günstiger, reicht für JSON. */
+export const UTILITY_MODEL = 'gpt-5.6-luna';
+/** Sprachausgabe und Transkription. */
+export const TTS_MODEL = 'gpt-4o-mini-tts';
+export const TRANSCRIBE_MODEL = 'gpt-transcribe';
 
-export const EXAM_FETCH_TIMEOUT_MS = 45_000;
-export const TTS_FETCH_TIMEOUT_MS = 30_000;
-export const STT_FETCH_TIMEOUT_MS = 120_000;
+export const EXAM_TIMEOUT_MS = 45_000;
+export const TTS_TIMEOUT_MS = 30_000;
+export const STT_TIMEOUT_MS = 120_000;
 
-const PROVIDER_LABELS: Record<ApiProvider, string> = {
-  google: 'Google Gemini',
-  anthropic: 'Anthropic Claude',
-  elevenlabs: 'ElevenLabs',
-  openai: 'OpenAI',
-};
+const LABEL = 'OpenAI';
 
 export class MissingKeyError extends Error {
   status = 402;
   expose = true;
-  constructor(public provider: ApiProvider) {
-    super(
-      `${PROVIDER_LABELS[provider]}-Schlüssel fehlt. Hinterlege ihn unter „Einstellungen → API-Schlüssel".`,
-    );
+  constructor() {
+    super(`${LABEL}-Schlüssel fehlt. Hinterlege ihn unter „Einstellungen → API-Schlüssel".`);
     this.name = 'MissingKeyError';
   }
 }
 
-/** Throws a user-facing 402 when the provider has no key configured. */
-export function requireKey(provider: ApiProvider): string {
-  const key = getKey(provider);
-  if (!key) throw new MissingKeyError(provider);
+/** Wirft einen benutzerlesbaren 402, solange kein Schlüssel hinterlegt ist. */
+export function requireKey(): string {
+  const key = getKey();
+  if (!key) throw new MissingKeyError();
   return key;
 }
 
-export function hasKey(provider: ApiProvider): boolean {
-  return getKey(provider) !== null;
+export function hasKey(): boolean {
+  return getKey() !== null;
 }
 
-export function anthropicClient(): Anthropic {
-  return new Anthropic({ apiKey: requireKey('anthropic') });
-}
-
-/** A hung upstream must never pin the request forever. */
-export async function fetchWithTimeout(
-  url: string,
-  init: RequestInit,
-  timeoutMs: number,
-): Promise<Response> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  // Respect a caller-supplied signal in addition to the timeout.
-  const callerSignal = init.signal;
-  if (callerSignal) {
-    if (callerSignal.aborted) controller.abort();
-    else callerSignal.addEventListener('abort', () => controller.abort(), { once: true });
-  }
-  try {
-    return await fetch(url, { ...init, signal: controller.signal });
-  } finally {
-    clearTimeout(timer);
-  }
+/** Frischer Client pro Aufruf: der Schlüssel kann sich im Betrieb ändern. */
+export function openai(timeoutMs = EXAM_TIMEOUT_MS): OpenAI {
+  return new OpenAI({ apiKey: requireKey(), timeout: timeoutMs, maxRetries: 0 });
 }
 
 export async function withRetry<T>(fn: () => Promise<T>, retries = 2, delay = 1500): Promise<T> {
   try {
     return await fn();
   } catch (error: any) {
-    // Free Gemini tiers rate-limit aggressively — back off instead of failing.
     const retryable = error?.status === 429 || error?.status === 503;
     if (retryable && retries > 0) {
       await new Promise((resolve) => setTimeout(resolve, delay));
@@ -81,132 +65,45 @@ export async function withRetry<T>(fn: () => Promise<T>, retries = 2, delay = 15
 }
 
 /**
- * Turns an upstream error body into something a user can act on: quota
- * exhaustion and invalid keys are by far the most common BYOK failures.
+ * Macht aus einem Anbieterfehler etwas, womit man etwas anfangen kann:
+ * abgelehnter Schlüssel und erschöpftes Guthaben sind bei BYOK die mit Abstand
+ * häufigsten Fälle.
  */
-export function upstreamError(provider: ApiProvider, status: number, body: string): Error {
-  const label = PROVIDER_LABELS[provider];
+export function upstreamError(status: number, body: string): Error {
   const err = new Error() as Error & { status: number; expose: boolean };
   err.status = status;
   err.expose = true;
 
   if (status === 401 || status === 403) {
-    err.message = `Dein ${label}-Schlüssel wurde abgelehnt. Prüfe ihn unter „Einstellungen → API-Schlüssel".`;
+    err.message = `Dein ${LABEL}-Schlüssel wurde abgelehnt. Prüfe ihn unter „Einstellungen → API-Schlüssel".`;
   } else if (status === 429) {
-    // Google limitiert pro Minute *und* pro Tag, und die Sprachmodelle haben
-    // ein eigenes, niedriges Tageskontingent pro Projekt — das gilt auch mit
-    // hinterlegter Zahlung. Wer nur „warte kurz" liest, sucht den Fehler
-    // stundenlang bei sich.
-    err.message = `${label} hat dein Kontingent gedrosselt. Begrenzt sind Anfragen pro Minute und pro Tag; die Sprachmodelle haben ein eigenes, niedriges Tageslimit — auch mit hinterlegter Zahlung. Dann hilft nur Warten bis zum Zurücksetzen, ein höherer Nutzungstarif oder ein anderer Sprach-Anbieter.`;
+    err.message = `${LABEL} hat die Anfrage gedrosselt — entweder zu viele Anfragen kurz hintereinander oder das Guthaben deines Kontos ist aufgebraucht. Prüfe die Abrechnung in deinem ${LABEL}-Konto.`;
   } else if (status >= 500) {
-    err.message = `${label} ist gerade nicht erreichbar. Versuche es in einem Moment noch einmal.`;
+    err.message = `${LABEL} ist gerade nicht erreichbar. Versuche es in einem Moment noch einmal.`;
   } else {
-    err.message = `${label}-Fehler (${status}): ${body.slice(0, 200)}`;
+    err.message = `${LABEL}-Fehler (${status}): ${body.slice(0, 200)}`;
   }
   return err;
 }
 
-export async function geminiJson<T = any>(
-  path: string,
-  body: unknown,
-  timeoutMs: number,
-  signal?: AbortSignal,
-): Promise<T> {
-  const key = requireKey('google');
-  const response = await fetchWithTimeout(
-    `${GEMINI_BASE}/${path}?key=${encodeURIComponent(key)}`,
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-      signal,
-    },
-    timeoutMs,
-  );
-  if (!response.ok) {
-    throw upstreamError('google', response.status, await response.text().catch(() => ''));
-  }
-  const payload = (await response.json()) as T;
-  // Zentral zählen: jeder Gemini-Aufruf — Gespräch, Auswertung, Sprache — geht hier durch.
-  const tokens = geminiUsage(payload);
-  recordTokens(tokens.input, tokens.output);
-  return payload;
+/** Übersetzt einen SDK-Fehler in dieselbe benutzerlesbare Form. */
+export function fromSdkError(err: unknown): Error {
+  const error = err as { status?: number; message?: string };
+  if (error instanceof MissingKeyError) return error;
+  if (typeof error?.status === 'number') return upstreamError(error.status, error.message ?? '');
+  return err instanceof Error ? err : new Error(String(err));
 }
 
-export function geminiText(payload: any): string {
-  const parts = payload?.candidates?.[0]?.content?.parts ?? [];
-  const raw = parts
-    // Gemini 2.5 Flash is a thinking model; skip thinking tokens — only
-    // include the actual response parts (those without thought: true).
-    .filter((part: any) => !part?.thought)
-    .map((part: any) => part?.text ?? '')
-    .join('')
-    .trim();
-  return stripGeminiStructuredPrefix(raw);
+/** Prüft einen Schlüssel gegen OpenAI, bevor er gespeichert wird. */
+export async function testKey(apiKey: string): Promise<void> {
+  try {
+    await new OpenAI({ apiKey, timeout: 15_000, maxRetries: 0 }).models.list();
+  } catch (err) {
+    throw fromSdkError(err);
+  }
 }
 
-/**
- * Gemini 2.5 Flash (and sometimes gemini-flash-latest) leaks structured
- * planning headers into its visible output, e.g.:
- *   "*Greeting & Intro:* Guten Tag"
- *   "Response**:\n    *   *Greeting & Introduction*: Guten Tag"
- *
- * These headers are always in English even when the prompt is German, so
- * detecting and stripping them is safe. Exported for use in the streaming path.
- */
-export function stripGeminiStructuredPrefix(text: string): string {
-  // One or two English-labelled lines before the actual dialogue.
-  const prefixRe = /^(?:\*{0,2}[A-Za-z][A-Za-z\s&]+\*{0,2}\s*:\s*(?:\n\s*(?:\*\s+)?\*{0,2}[A-Za-z][A-Za-z\s&]+\*{0,2}\s*:\s*)?)/;
-  const cleaned = text.replace(prefixRe, '').trim();
-  return cleaned || text; // never return empty if original had content
-}
-
-export function geminiUsage(payload: any): { input: number; output: number } {
-  const usage = payload?.usageMetadata ?? {};
-  return { input: usage.promptTokenCount ?? 0, output: usage.candidatesTokenCount ?? 0 };
-}
-
-/** Verifies a key against the provider before it is stored. */
-export async function testProviderKey(provider: ApiProvider, apiKey: string): Promise<void> {
-  if (provider === 'anthropic') {
-    await new Anthropic({ apiKey }).messages.create({
-      model: ANTHROPIC_UTILITY_MODEL,
-      max_tokens: 8,
-      messages: [{ role: 'user', content: 'Antworte nur mit OK.' }],
-    });
-    return;
-  }
-
-  if (provider === 'google') {
-    const response = await fetchWithTimeout(
-      `https://generativelanguage.googleapis.com/v1beta/models?key=${encodeURIComponent(apiKey)}`,
-      { method: 'GET' },
-      15_000,
-    );
-    if (!response.ok) {
-      throw upstreamError('google', response.status, await response.text().catch(() => ''));
-    }
-    return;
-  }
-
-  if (provider === 'elevenlabs') {
-    const response = await fetchWithTimeout(
-      'https://api.elevenlabs.io/v1/user',
-      { method: 'GET', headers: { 'xi-api-key': apiKey } },
-      15_000,
-    );
-    if (!response.ok) {
-      throw upstreamError('elevenlabs', response.status, await response.text().catch(() => ''));
-    }
-    return;
-  }
-
-  const response = await fetchWithTimeout(
-    'https://api.openai.com/v1/models',
-    { method: 'GET', headers: { Authorization: `Bearer ${apiKey}` } },
-    15_000,
-  );
-  if (!response.ok) {
-    throw upstreamError('openai', response.status, await response.text().catch(() => ''));
-  }
+/** Zentral zählen: jeder Aufruf — Gespräch, Auswertung, Sprache — geht hier durch. */
+export function recordUsage(usage: { input_tokens?: number; output_tokens?: number } | undefined | null): void {
+  recordTokens(usage?.input_tokens ?? 0, usage?.output_tokens ?? 0);
 }

@@ -29,7 +29,7 @@ const SLIDES = [
     icon: ShieldCheck,
     eyebrow: 'Dein Schlüssel',
     title: 'Kein Konto, kein Abo',
-    body: 'Du nutzt deinen eigenen Google-API-Schlüssel — Brocaly hat keinen Zugriff darauf. Profil und Auswertungen werden lokal gespeichert, Gespräche laufen direkt über die Google-KI.',
+    body: 'Du nutzt deinen eigenen OpenAI-API-Schlüssel — Brocaly hat keinen Zugriff darauf. Profil und Auswertungen werden lokal gespeichert, Gespräche laufen direkt über OpenAI.',
     accent: 'from-violet-100/60 to-fuchsia-100/40',
   },
 ];

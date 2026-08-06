@@ -94,7 +94,7 @@ export function fixMedicalPronunciation(text: string): string {
       (_, r) => `Stadium ${romanStageToDE(r)} nach Fontaine`)
     .replace(new RegExp(`\\b(?:Stadium|Grad)\\s+(${ROMAN_RE.source}[ab]?)\\b`, 'g'),
       (m, r) => m.replace(r, romanStageToDE(r)))
-    // ── Häufige medizinische Begriffe, die ElevenLabs sonst gern falsch betont ──
+    // ── Häufige medizinische Begriffe, die Sprachmodelle sonst gern falsch betonen ──
     .replace(/\b([A-Za-zÄÖÜäöüß-]*?)dyspnoe\b/gi,
       (_, prefix) => `${prefix}${prefix ? 'düspnoe' : 'Düspnoe'}`)
     .replace(/\bACE[-\s]?Hemmer(n|s)?\b/gi,

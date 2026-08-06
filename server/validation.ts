@@ -68,7 +68,6 @@ export const FinalFeedbackRequestSchema = z.object({
 
 export const TtsRequestSchema = z.object({
   text: z.string().min(1).max(5000),
-  voice: z.string().trim().max(80).optional(),
 });
 
 export const TranscribeRequestSchema = z.object({

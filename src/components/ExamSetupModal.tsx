@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { AlertTriangle, Check, PlayCircle, MicOff, Volume2, CheckCircle2 } from 'lucide-react';
-import { ExaminerConfig, EXAMINERS } from '../types';
+import { EXAMINER } from '../types';
 import { cn } from '../lib/utils';
 import { bridge } from '../lib/bridge';
 import { prewarmMicPermission } from '../hooks/useSpeechToText';
@@ -9,8 +9,6 @@ import { getMicrophonePermissionHelp } from '../lib/microphoneHelp';
 
 interface ExamSetupModalProps {
     open: boolean;
-    selectedExaminer: ExaminerConfig;
-    onSelectExaminer: (e: ExaminerConfig) => void;
     onConfirm: () => void;
     onCancel: () => void;
     onShowAiInfo?: () => void;
@@ -18,8 +16,6 @@ interface ExamSetupModalProps {
 
 export function ExamSetupModal({
     open,
-    selectedExaminer,
-    onSelectExaminer,
     onConfirm,
     onCancel,
     onShowAiInfo,
@@ -103,8 +99,8 @@ export function ExamSetupModal({
                     >
                         {/* Header */}
                         <div className="px-5 sm:px-6 pt-4 sm:pt-5 pb-3 border-b border-slate-100 shrink-0">
-                            <h2 className="text-lg font-bold text-slate-900">KI-Gesprächspartner:in auswählen</h2>
-                            <p className="text-sm text-slate-500 mt-0.5">Wähle deinen Stil für heute</p>
+                            <h2 className="text-lg font-bold text-slate-900">Simulation starten</h2>
+                            <p className="text-sm text-slate-500 mt-0.5">Mikrofon prüfen, dann geht es los</p>
                         </div>
 
                         {/* Scrollable content */}
@@ -113,63 +109,32 @@ export function ExamSetupModal({
                             <div>
                                 {/* Examiner Cards — 3 columns on mobile too */}
                             <div className="px-4 pt-4 pb-3 sm:px-0 sm:pt-0 sm:pb-3">
-                                <div className="grid grid-cols-3 gap-2">
-                                    {EXAMINERS.map((examiner) => {
-                                        const isSelected = selectedExaminer.id === examiner.id;
-                                        return (
-                                            <button
-                                                key={examiner.id}
-                                                onClick={() => onSelectExaminer(examiner)}
-                                                className={cn(
-                                                    'relative rounded-xl overflow-hidden aspect-[2/3] sm:aspect-[3/4] w-full text-left',
-                                                    'transition-all duration-200',
-                                                    isSelected
-                                                        ? 'ring-2 ring-brand-green ring-offset-1 shadow-md shadow-brand-green/20'
-                                                        : 'opacity-70 hover:opacity-100'
-                                                )}
-                                            >
-                                                {examiner.image
-                                                    ? <img src={examiner.image} alt={examiner.name} className="absolute inset-0 w-full h-full object-cover object-top" />
-                                                    : <div className="absolute inset-0 bg-slate-200 flex items-center justify-center text-2xl font-bold text-slate-500">{examiner.name.charAt(0)}</div>
-                                                }
-                                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
-
-                                                {examiner.tag && (
-                                                    <div className="absolute top-1.5 left-1.5">
-                                                        <span className="px-1.5 py-0.5 text-xs font-bold bg-white/20 backdrop-blur-sm text-white rounded-full leading-tight inline-block">
-                                                            {examiner.tag}
-                                                        </span>
-                                                    </div>
-                                                )}
-
-                                                <div className="absolute bottom-0 inset-x-0 p-2">
-                                                    <p className="text-white font-bold text-xs leading-tight truncate">{examiner.name.split(' ').pop()}</p>
-                                                </div>
-
-                                                <AnimatePresence>
-                                                    {isSelected && (
-                                                        <motion.div
-                                                            initial={{ scale: 0, opacity: 0 }}
-                                                            animate={{ scale: 1, opacity: 1 }}
-                                                            exit={{ scale: 0, opacity: 0 }}
-                                                            className="absolute bottom-2 right-2 w-5 h-5 bg-brand-green rounded-full flex items-center justify-center shadow"
-                                                        >
-                                                            <Check className="w-3 h-3 text-white" strokeWidth={3} />
-                                                        </motion.div>
-                                                    )}
-                                                </AnimatePresence>
-                                            </button>
-                                        );
-                                    })}
+                                <div className="flex items-center gap-3 rounded-xl border border-slate-200 bg-slate-50 p-3">
+                                    {EXAMINER.image ? (
+                                        <img
+                                            src={EXAMINER.image}
+                                            alt={EXAMINER.name}
+                                            className="w-16 h-16 rounded-xl object-cover object-top shrink-0"
+                                        />
+                                    ) : (
+                                        <div className="w-16 h-16 rounded-xl bg-slate-200 flex items-center justify-center text-2xl font-bold text-slate-500 shrink-0">
+                                            {EXAMINER.name.charAt(0)}
+                                        </div>
+                                    )}
+                                    <div className="min-w-0">
+                                        <p className="font-bold text-slate-900 leading-tight">{EXAMINER.name}</p>
+                                        <p className="text-xs text-slate-500">{EXAMINER.title}</p>
+                                        <p className="text-sm text-slate-500 mt-1">{EXAMINER.tagline}</p>
+                                    </div>
                                 </div>
                             </div>
 
                             {/* Selected examiner description — compact */}
                             <div className="px-4 pb-3 sm:px-0 sm:pb-0">
                                 <div className="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5">
-                                    <p className="text-xs font-bold text-slate-700 mb-1.5">{selectedExaminer.name} · {selectedExaminer.tag}</p>
+                                    <p className="text-xs font-bold text-slate-700 mb-1.5">{EXAMINER.name} · {EXAMINER.title}</p>
                                     <ul className="space-y-1">
-                                        {selectedExaminer.stylePoints.slice(0, 2).map((point, i) => (
+                                        {EXAMINER.stylePoints.slice(0, 2).map((point, i) => (
                                             <li key={i} className="flex items-start gap-1.5 text-sm text-slate-500">
                                                 <span className="mt-1 w-1 h-1 rounded-full bg-brand-green flex-shrink-0" />
                                                 {point}

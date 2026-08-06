@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { examApi } from '../services/api';
 
-export function useTextToSpeech(voice?: string, onEnd?: () => void) {
+export function useTextToSpeech(onEnd?: () => void) {
   const [isSpeaking, setIsSpeaking] = useState(false);
   // true while the TTS fetch is in-flight (audio not yet ready to play)
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
@@ -75,11 +75,10 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
         if (message) setError(message);
         finishStream();
       },
-      voice,
     );
     continuationAbortRef.current = ctrl;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [voice, finishStream]);
+  }, [finishStream]);
 
   // Plays the next audio chunk in index order, chaining via onended
   const playNext = useCallback(() => {
@@ -219,7 +218,7 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
         if (sessionRef.current !== thisSession) return;
         pendingContinuationRef.current = null;
         try {
-          const url = await examApi.textToSpeech(text, voice);
+          const url = await examApi.textToSpeech(text);
           setIsLoadingAudio(false);
           // Both paths failed — surface why instead of falling silent.
           if (!url) { setError(message ?? 'Die Sprachausgabe ist gerade nicht verfügbar.'); onEndRef.current?.(); return; }
@@ -239,10 +238,9 @@ export function useTextToSpeech(voice?: string, onEnd?: () => void) {
           setError(message ?? 'Die Sprachausgabe ist gerade nicht verfügbar.');
         }
       },
-      voice,
     );
     abortRef.current = controller;
-  }, [enabled, stop, voice, playNext, fireContinuationTTS, finishStream]);
+  }, [enabled, stop, playNext, fireContinuationTTS, finishStream]);
 
   /**
    * Progressive TTS: starts TTS for `firstSentence` immediately, then when

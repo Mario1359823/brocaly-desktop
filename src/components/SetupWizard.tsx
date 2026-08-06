@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { ArrowRight, Check, ChevronLeft, Loader2, Play, Sparkles } from 'lucide-react';
 import { BrocalyTextLogo } from './BrocalyLogo';
-import { GoogleKeyGuide } from './ApiKeySetup';
+import { KeyGuide } from './ApiKeySetup';
 import {
   ProfileForm,
   type ProfileFormState,
@@ -13,7 +13,7 @@ import {
 import { keysApi } from '../services/api';
 import { saveProfile, saveSettings } from '../lib/localDb';
 import { cn } from '../lib/utils';
-import { EXAMINERS, type KeystoreState, type Profile } from '../types';
+import { EXAMINER, type KeystoreState, type Profile } from '../types';
 
 const STEPS = [
   { title: 'Account erstellen', hint: 'Bleibt auf diesem Rechner' },
@@ -30,21 +30,20 @@ export function SetupWizard({
   onFinished,
 }: {
   initialProfile: Profile | null;
-  onFinished: (profile: Profile, startExam: boolean, examinerId: string) => void;
+  onFinished: (profile: Profile, startExam: boolean) => void;
 }) {
   const [step, setStep] = useState(0);
   const [form, setForm] = useState<ProfileFormState>(() => emptyProfileForm(initialProfile));
   const [showErrors, setShowErrors] = useState(false);
   const [keys, setKeys] = useState<KeystoreState | null>(null);
-  const [examinerId, setExaminerId] = useState('mueller');
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
     keysApi.state().then(setKeys).catch(() => setKeys(null));
   }, []);
 
-  const googleReady = Boolean(keys?.keys.find((item) => item.provider === 'google')?.configured);
-  const canAdvance = step === 0 ? isProfileComplete(form) : step === 1 ? googleReady : true;
+  const keyReady = Boolean(keys?.key.configured);
+  const canAdvance = step === 0 ? isProfileComplete(form) : step === 1 ? keyReady : true;
 
   const goNext = async () => {
     if (!canAdvance) {
@@ -65,18 +64,15 @@ export function SetupWizard({
 
     setBusy(true);
     const profile = await saveProfile(toProfilePatch(form));
-    await saveSettings({
-      setupCompletedAt: new Date().toISOString(),
-      defaultExaminerId: examinerId,
-    });
-    onFinished(profile, true, examinerId);
+    await saveSettings({ setupCompletedAt: new Date().toISOString() });
+    onFinished(profile, true);
   };
 
   const skipFirstExam = async () => {
     setBusy(true);
     const profile = await saveProfile(toProfilePatch(form));
-    await saveSettings({ setupCompletedAt: new Date().toISOString(), defaultExaminerId: examinerId });
-    onFinished(profile, false, examinerId);
+    await saveSettings({ setupCompletedAt: new Date().toISOString() });
+    onFinished(profile, false);
   };
 
   return (
@@ -155,16 +151,16 @@ export function SetupWizard({
                     Hinterlege deinen API-Schlüssel
                   </h1>
                   <p className="mb-4 mt-1.5 text-sm leading-relaxed text-slate-500">
-                    Ein Schlüssel von Google genügt für alles: Gespräch, Auswertung, Sprachausgabe und
+                    Ein Schlüssel von OpenAI genügt für alles: Gespräch, Auswertung, Sprachausgabe und
                     Spracherkennung. Das dauert etwa zwei Minuten.
                   </p>
                   <div className="mb-6 rounded-xl bg-slate-50 border border-slate-200 px-4 py-3 text-xs text-slate-500 leading-relaxed">
                     <span className="font-semibold text-slate-700">Kosten:</span>{' '}
-                    ~5–10 Cent pro 20-Minuten-Session — direkt über dein Google-Konto, kein Aufschlag.{' '}
+                    Abgerechnet wird direkt über dein OpenAI-Konto, kein Aufschlag durch Brocaly.{' '}
                     <span className="font-semibold text-slate-600">Free Tier:</span>{' '}
                     Bis zu 500 Anfragen/Tag kostenlos (~25 Sessions täglich ohne Billing).
                   </div>
-                  <GoogleKeyGuide state={keys} onChanged={setKeys} />
+                  <KeyGuide state={keys} onChanged={setKeys} />
                 </>
               )}
 
@@ -174,39 +170,27 @@ export function SetupWizard({
                     Alles bereit, {form.name.trim() || 'los geht’s'}
                   </h1>
                   <p className="mb-7 mt-1.5 text-sm leading-relaxed text-slate-500">
-                    Wähle, mit wem du sprechen möchtest. Du kannst das vor jeder Simulation ändern.
+                    Sie führt jede Simulation — sachlich, mit präzisen Nachfragen, wie in der echten Prüfung.
                   </p>
 
-                  <div className="grid gap-3">
-                    {EXAMINERS.map((examiner) => (
-                      <button
-                        key={examiner.id}
-                        onClick={() => setExaminerId(examiner.id)}
-                        className={cn(
-                          'flex items-start gap-4 rounded-2xl border p-4 text-left transition-all',
-                          examinerId === examiner.id
-                            ? 'border-brand-green bg-brand-green/5 shadow-sm'
-                            : 'border-slate-200 bg-white hover:border-slate-300',
-                        )}
-                      >
-                        <img
-                          src={examiner.image}
-                          alt=""
-                          className="h-14 w-14 shrink-0 rounded-xl object-cover"
-                        />
-                        <div className="min-w-0">
-                          <div className="flex flex-wrap items-center gap-2">
-                            <p className="text-sm font-bold text-slate-900">{examiner.name}</p>
-                            {examiner.tag && (
-                              <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-slate-500">
-                                {examiner.tag}
-                              </span>
-                            )}
-                          </div>
-                          <p className="mt-1 text-xs leading-relaxed text-slate-500">{examiner.tagline}</p>
-                        </div>
-                      </button>
-                    ))}
+                  <div className="flex items-start gap-4 rounded-2xl border border-brand-green/30 bg-brand-green/5 p-4">
+                    <img
+                      src={EXAMINER.image}
+                      alt=""
+                      className="h-16 w-16 shrink-0 rounded-xl object-cover object-top"
+                    />
+                    <div className="min-w-0">
+                      <p className="text-sm font-bold text-slate-900">{EXAMINER.name}</p>
+                      <p className="text-xs text-slate-500">{EXAMINER.title}</p>
+                      <ul className="mt-2 space-y-1">
+                        {EXAMINER.stylePoints.map((point) => (
+                          <li key={point} className="flex items-start gap-1.5 text-xs text-slate-500">
+                            <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-brand-green" />
+                            {point}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
 
                   <div className="mt-6 flex items-start gap-2.5 rounded-xl bg-amber-50 px-4 py-3">
@@ -243,7 +227,7 @@ export function SetupWizard({
               )}
               <button
                 onClick={goNext}
-                disabled={busy || (step === 1 && !googleReady)}
+                disabled={busy || (step === 1 && !keyReady)}
                 className="inline-flex items-center gap-2 rounded-xl bg-brand-green px-6 py-3 text-sm font-bold text-white shadow-lg shadow-brand-green/25 transition-all hover:brightness-95 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 {busy ? (
@@ -257,9 +241,9 @@ export function SetupWizard({
             </div>
           </div>
 
-          {step === 1 && !googleReady && (
+          {step === 1 && !keyReady && (
             <p className="mt-3 text-center text-xs font-medium text-slate-400">
-              Ohne Google-Schlüssel kann Brocaly keine Simulation starten.
+              Ohne OpenAI-Schlüssel kann Brocaly keine Simulation starten.
             </p>
           )}
         </div>

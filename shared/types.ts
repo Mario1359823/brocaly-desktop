@@ -107,12 +107,12 @@ export interface CaseProgress {
 
 export type CaseOutcomeStatus = 'passed' | 'failed' | 'repeat';
 
-export type VoiceProvider = 'auto' | 'gemini' | 'elevenlabs' | 'openai' | 'off';
+/** Es gibt nur einen Anbieter — bleibt die Frage, ob überhaupt gesprochen wird. */
+export type VoiceProvider = 'on' | 'off';
 
 export interface AppSettings {
   voiceProvider: VoiceProvider;
   autoSpeak: boolean;
-  defaultExaminerId: string;
   defaultDurationMinutes: number;
   defaultExamMode: ExamMode;
   tourCompletedAt: string | null;
@@ -127,10 +127,7 @@ export interface BrocalyData {
   settings: AppSettings;
 }
 
-export type ApiProvider = 'google' | 'anthropic' | 'elevenlabs' | 'openai';
-
 export interface ApiKeyStatus {
-  provider: ApiProvider;
   configured: boolean;
   maskedKey: string | null;
   updatedAt: string | null;
@@ -139,7 +136,7 @@ export interface ApiKeyStatus {
 export interface KeystoreState {
   /** false when the OS keychain is unavailable and keys fall back to plain storage. */
   encryptionAvailable: boolean;
-  keys: ApiKeyStatus[];
+  key: ApiKeyStatus;
 }
 
 export interface AppInfo {
@@ -152,16 +149,13 @@ export interface AppInfo {
 }
 
 export const DEFAULT_SETTINGS: AppSettings = {
-  voiceProvider: 'auto',
+  voiceProvider: 'on',
   autoSpeak: true,
-  defaultExaminerId: 'mueller',
   defaultDurationMinutes: 20,
   defaultExamMode: 'relaxed',
   tourCompletedAt: null,
   setupCompletedAt: null,
 };
-
-export const API_PROVIDERS: ApiProvider[] = ['google', 'anthropic', 'elevenlabs', 'openai'];
 
 export interface UpdateStatus {
   available: boolean;

@@ -77,7 +77,7 @@ export function useSpeechToText(subject?: string) {
     (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition
   );
 
-  // Always use MediaRecorder + /api/transcribe (OpenAI Whisper primary, Gemini fallback) instead of
+  // Always use MediaRecorder + /api/transcribe instead of
   // webkitSpeechRecognition. Reasons:
   // - Much better German transcription quality
   // - Consistent behavior across all browsers and platforms

@@ -251,7 +251,7 @@ Greife diese Schwächen bei Gelegenheit unauffällig im neuen Fall wieder auf, u
 
   const examinerName = sanitizeString(examiner?.name, 80);
   // IMPORTANT: Examiner name goes into system prompt — NOT into the user greeting,
-  // to prevent Gemini Flash from confusing the examiner's name with the candidate's name.
+  // to prevent the model from confusing the examiner's name with the candidate's name.
   const examinerNameContext = examinerName
     ? `\n\nDEINE IDENTITÄT ALS KI-GESPRÄCHSPARTNER: Du heißt "${examinerName}". Stelle dich zu Beginn kurz vor (z.B. "Guten Tag, mein Name ist Dr. ${examinerName.replace(/^Dr\.?\s*/i, '')}.").` +
       (safeName ? ` Der Kandidat heißt "${safeName}". Sprich ihn/sie ausschließlich mit "${safeName}" an — NIEMALS mit deinem eigenen Namen "${examinerName}". Diese Namen dürfen NICHT verwechselt werden.` : ` Sprich den Kandidaten NIEMALS mit deinem eigenen Namen ("${examinerName}") an.`)

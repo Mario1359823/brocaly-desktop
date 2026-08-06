@@ -1,6 +1,6 @@
 import express, { Router } from 'express';
 import { MAX_STT_AUDIO_BYTES, transcribe } from '../ai/stt';
-import { resolveEngine, synthesize } from '../ai/tts';
+import { synthesize, voiceEnabled } from '../ai/tts';
 import { readSettings } from '../settings';
 import { fixMedicalPronunciation, limitTtsSpokenText, logServerError, stripMarkdown } from '../text';
 import { TranscribeRequestSchema, TtsRequestSchema } from '../validation';
@@ -20,9 +20,8 @@ speechRouter.post('/tts', async (req, res) => {
     const cleanText = speakableText(parsed.data.text);
     if (!cleanText) return res.status(400).json({ error: 'Kein sprechbarer Text.' });
 
-    const result = await synthesize(cleanText, parsed.data.voice, readSettings().voiceProvider);
+    const result = await synthesize(cleanText, readSettings().voiceProvider);
     res.setHeader('X-TTS-Chars', String(cleanText.length));
-    res.setHeader('X-TTS-Provider', result.engine);
     res.setHeader('Content-Type', result.contentType);
     res.send(result.buffer);
   } catch (err) {
@@ -42,8 +41,9 @@ speechRouter.post('/tts-stream', async (req, res) => {
     if (!parsed.success) return res.status(400).json({ error: 'Text fehlt (max. 5000 Zeichen).' });
 
     const preference = readSettings().voiceProvider;
-    const engine = resolveEngine(preference);
-    if (!engine) return res.status(503).json({ error: 'Sprachausgabe ist deaktiviert.' });
+    if (!voiceEnabled(preference)) {
+      return res.status(503).json({ error: 'Sprachausgabe ist deaktiviert.' });
+    }
 
     const cleanText = speakableText(parsed.data.text);
     if (!cleanText) return res.status(400).json({ error: 'Kein sprechbarer Text.' });
@@ -72,7 +72,6 @@ speechRouter.post('/tts-stream', async (req, res) => {
     }
 
     res.setHeader('X-TTS-Chars', String(cleanText.length));
-    res.setHeader('X-TTS-Provider', engine);
     res.setHeader('Content-Type', 'application/x-ndjson');
     res.setHeader('Cache-Control', 'no-cache');
 
@@ -89,7 +88,7 @@ speechRouter.post('/tts-stream', async (req, res) => {
       const index = nextToStart++;
       inFlight.set(
         index,
-        synthesize(sentences[index], parsed.data.voice, preference).catch((err) => {
+        synthesize(sentences[index], preference).catch((err) => {
           logServerError(`api.tts-stream.chunk${index}`, err);
           firstFailure ??= exposableMessage(err);
           return null;

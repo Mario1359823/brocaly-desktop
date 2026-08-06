@@ -64,7 +64,7 @@ describe('read / migrate', () => {
 
     const settings = store.read().settings;
     expect(settings.autoSpeak).toBe(false);
-    expect(settings.defaultExaminerId).toBe(DEFAULT_SETTINGS.defaultExaminerId);
+    expect(settings.defaultDurationMinutes).toBe(DEFAULT_SETTINGS.defaultDurationMinutes);
     expect(settings.voiceProvider).toBe(DEFAULT_SETTINGS.voiceProvider);
   });
 

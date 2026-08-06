@@ -12,7 +12,7 @@ import {
   Trash2,
   Volume2,
 } from 'lucide-react';
-import { ApiKeyField, PROVIDER_META } from './ApiKeySetup';
+import { ApiKeyField } from './ApiKeySetup';
 import { bridge } from '../lib/bridge';
 import { loadSettings, saveSettings } from '../lib/localDb';
 import { keysApi } from '../services/api';
@@ -20,10 +20,7 @@ import { cn } from '../lib/utils';
 import type { AppInfo, AppSettings, KeystoreState, UpdateStatus, VoiceProvider } from '../types';
 
 const VOICE_OPTIONS: { id: VoiceProvider; label: string; body: string }[] = [
-  { id: 'auto', label: 'Automatisch', body: 'Nutzt die beste verfügbare Stimme deiner hinterlegten Schlüssel.' },
-  { id: 'gemini', label: 'Google Gemini', body: 'Im Google-Kontingent enthalten — kein zusätzlicher Anbieter nötig.' },
-  { id: 'elevenlabs', label: 'ElevenLabs', body: 'Natürlichste Stimmen. Braucht einen ElevenLabs-Schlüssel.' },
-  { id: 'openai', label: 'OpenAI', body: 'Solide Alternative. Braucht einen OpenAI-Schlüssel.' },
+  { id: 'on', label: 'An', body: 'Dr. Brocaly spricht ihre Fragen und Rückmeldungen.' },
   { id: 'off', label: 'Aus', body: 'Nur Text — Simulationen laufen ohne Sprachausgabe.' },
 ];
 
@@ -116,20 +113,16 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
       <Section
         icon={KeyRound}
         title="API-Schlüssel"
-        description="Der Google-Schlüssel ist erforderlich. Die übrigen sind optional und verbessern Qualität oder Stimme."
+        description="Brocaly braucht genau einen Schlüssel — deinen von OpenAI. Gespräch, Auswertung, Stimme und Mikrofon laufen darüber."
       >
-        <div className="space-y-3">
-          {(['google', 'anthropic', 'elevenlabs', 'openai'] as const).map((provider) => (
-            <ApiKeyField key={provider} provider={provider} state={keys} onChanged={setKeys} />
-          ))}
-        </div>
+        <ApiKeyField state={keys} onChanged={setKeys} />
         {/* Cost estimate */}
         <div className="mt-4 flex items-start gap-2.5 rounded-xl bg-slate-50 border border-slate-200 px-4 py-3">
           <Info className="mt-0.5 h-4 w-4 shrink-0 text-slate-400" />
           <div className="text-xs leading-relaxed text-slate-500 space-y-0.5">
             <p>
               <span className="font-semibold text-slate-700">Kosten pro Session (ca. 20 Min.):</span>{' '}
-              ~5–10 Cent — Abrechnung direkt über dein Google-Konto, kein Aufschlag.
+              Abrechnung direkt über dein OpenAI-Konto, kein Aufschlag durch Brocaly.
             </p>
             <p>
               <span className="font-semibold text-slate-600">Free Tier:</span>{' '}
@@ -152,14 +145,10 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
       <Section
         icon={Volume2}
         title="Sprachausgabe"
-        description="Welche Stimme dein Gegenüber im Gespräch nutzt."
+        description="Ob Dr. Brocaly im Gespräch spricht."
       >
         <div className="grid gap-2.5 sm:grid-cols-2">
           {VOICE_OPTIONS.map((option) => {
-            const requiresKey =
-              option.id === 'elevenlabs' || option.id === 'openai' ? option.id : null;
-            const missingKey =
-              requiresKey && !keys?.keys.find((item) => item.provider === requiresKey)?.configured;
             return (
               <button
                 key={option.id}
@@ -173,11 +162,6 @@ export function SettingsView({ info }: { info: AppInfo | null }) {
               >
                 <p className="text-sm font-bold text-slate-900">{option.label}</p>
                 <p className="mt-0.5 text-xs leading-relaxed text-slate-500">{option.body}</p>
-                {missingKey && (
-                  <p className="mt-1.5 text-[11px] font-bold text-amber-600">
-                    {PROVIDER_META[requiresKey].label}-Schlüssel fehlt — es wird Gemini genutzt.
-                  </p>
-                )}
               </button>
             );
           })}

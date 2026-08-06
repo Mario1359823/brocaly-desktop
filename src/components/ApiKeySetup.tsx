@@ -13,61 +13,34 @@ import {
 import { motion } from 'motion/react';
 import { bridge } from '../lib/bridge';
 import { keysApi } from '../services/api';
-import type { ApiProvider, KeystoreState } from '../types';
+import type { KeystoreState } from '../types';
 
-export const PROVIDER_META: Record<
-  ApiProvider,
-  { label: string; purpose: string; console: string; consoleLabel: string; prefix?: string }
-> = {
-  google: {
-    label: 'Google Gemini',
-    purpose: 'Prüfungsgespräch, Auswertung, Sprachausgabe und Spracherkennung',
-    console: 'https://aistudio.google.com/apikey',
-    consoleLabel: 'Google AI Studio',
-    prefix: 'AIza',
-  },
-  anthropic: {
-    label: 'Anthropic Claude',
-    purpose: 'Stärkerer Prüfer für Facharzt-Gespräche und feinere Auswertung',
-    console: 'https://console.anthropic.com/settings/keys',
-    consoleLabel: 'Anthropic Console',
-    prefix: 'sk-ant-',
-  },
-  elevenlabs: {
-    label: 'ElevenLabs',
-    purpose: 'Natürlichere Prüferstimmen',
-    console: 'https://elevenlabs.io/app/settings/api-keys',
-    consoleLabel: 'ElevenLabs',
-  },
-  openai: {
-    label: 'OpenAI',
-    purpose: 'Whisper-Spracherkennung — robuster bei Dialekt und lauter Umgebung',
-    console: 'https://platform.openai.com/api-keys',
-    consoleLabel: 'OpenAI Platform',
-    prefix: 'sk-',
-  },
+export const PROVIDER_META = {
+  label: 'OpenAI',
+  purpose: 'Prüfungsgespräch, Auswertung, Sprachausgabe und Spracherkennung',
+  console: 'https://platform.openai.com/api-keys',
+  consoleLabel: 'OpenAI Platform',
+  prefix: 'sk-',
 };
 
-const GOOGLE_STEPS = [
-  { title: 'Google AI Studio öffnen', body: 'Melde dich mit deinem normalen Google-Konto an — es braucht keine Kreditkarte.' },
-  { title: '„Create API key" klicken', body: 'Wähle bei der Nachfrage ein beliebiges Projekt aus oder lege ein neues an.' },
-  { title: 'Schlüssel kopieren', body: 'Er beginnt mit AIza… Kopiere ihn vollständig und füge ihn unten ein.' },
+const KEY_STEPS = [
+  { title: 'OpenAI Platform öffnen', body: 'Anmelden und unter „Billing" ein Zahlungsmittel hinterlegen — ein ChatGPT-Abo reicht dafür nicht.' },
+  { title: '„Create new secret key" klicken', body: 'Name frei wählbar, Berechtigungen auf der Voreinstellung lassen.' },
+  { title: 'Schlüssel kopieren', body: 'Er beginnt mit sk-… und wird nur einmal angezeigt. Vollständig kopieren und unten einfügen.' },
 ];
 
 /** Single provider row: enter, verify and store one API key. */
 export function ApiKeyField({
-  provider,
   state,
   onChanged,
   autoFocus = false,
 }: {
-  provider: ApiProvider;
   state: KeystoreState | null;
   onChanged: (next: KeystoreState) => void;
   autoFocus?: boolean;
 }) {
-  const meta = PROVIDER_META[provider];
-  const entry = state?.keys.find((item) => item.provider === provider);
+  const meta = PROVIDER_META;
+  const entry = state?.key;
 
   const [value, setValue] = useState('');
   const [visible, setVisible] = useState(false);
@@ -83,7 +56,7 @@ export function ApiKeyField({
     try {
       // The key is verified against the provider before it is stored, so a
       // typo shows up here instead of mid-simulation.
-      onChanged(await keysApi.save(provider, trimmed));
+      onChanged(await keysApi.save(trimmed));
       setValue('');
       setJustSaved(true);
       setTimeout(() => setJustSaved(false), 2500);
@@ -97,7 +70,7 @@ export function ApiKeyField({
   const remove = async () => {
     setBusy(true);
     try {
-      onChanged(await keysApi.remove(provider));
+      onChanged(await keysApi.remove());
     } finally {
       setBusy(false);
     }
@@ -199,8 +172,8 @@ export function ApiKeyField({
   );
 }
 
-/** The guided Google-key step shown during first-run setup. */
-export function GoogleKeyGuide({
+/** The guided key step shown during first-run setup. */
+export function KeyGuide({
   state,
   onChanged,
 }: {
@@ -213,13 +186,13 @@ export function GoogleKeyGuide({
         <p className="text-sm font-bold text-slate-900 mb-1">Warum ein eigener Schlüssel?</p>
         <p className="text-sm leading-relaxed text-slate-600">
           Brocaly ist kostenlos und hat keinen eigenen Server. Deine Simulationen laufen direkt von
-          deinem Rechner zu Google — mit deinem Schlüssel, in deinem Kontingent. Google bietet dafür
-          ein kostenloses Kontingent, das für regelmäßiges Üben in der Regel ausreicht.
+          deinem Rechner zu OpenAI — mit deinem Schlüssel, auf deine Rechnung. Du zahlst nur, was du
+          tatsächlich nutzt, und siehst jederzeit in deinem OpenAI-Konto, was angefallen ist.
         </p>
       </div>
 
       <ol className="space-y-3">
-        {GOOGLE_STEPS.map((step, index) => (
+        {KEY_STEPS.map((step, index) => (
           <li key={step.title} className="flex gap-3.5">
             <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-slate-900 text-[11px] font-black text-white">
               {index + 1}
@@ -232,14 +205,14 @@ export function GoogleKeyGuide({
         ))}
       </ol>
 
-      <ApiKeyField provider="google" state={state} onChanged={onChanged} autoFocus />
+      <ApiKeyField state={state} onChanged={onChanged} autoFocus />
 
       <div className="flex items-start gap-2.5 rounded-xl bg-slate-50 px-4 py-3">
         <Lock className="mt-0.5 h-3.5 w-3.5 shrink-0 text-slate-400" />
         <p className="text-xs leading-relaxed text-slate-500">
           {state?.encryptionAvailable === false
             ? 'Achtung: Der Schlüsselbund deines Systems ist nicht verfügbar. Der Schlüssel wird nur mit Dateirechten geschützt gespeichert.'
-            : 'Der Schlüssel wird über den Schlüsselbund deines Betriebssystems verschlüsselt und verlässt deinen Rechner nur Richtung Google.'}
+            : 'Der Schlüssel wird über den Schlüsselbund deines Betriebssystems verschlüsselt und verlässt deinen Rechner nur Richtung OpenAI.'}
         </p>
       </div>
     </div>

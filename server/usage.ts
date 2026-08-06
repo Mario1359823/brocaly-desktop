@@ -3,7 +3,7 @@
  *
  * Bei BYOK zahlt die Nutzer:in direkt beim Anbieter — dann soll sie auch sehen,
  * was eine Simulation ungefähr gekostet hat. Gezählt wird zentral dort, wo die
- * Anbieter-Antworten ankommen (`geminiJson`, Anthropic-Aufruf); der Renderer
+ * Anbieter-Antworten ankommen (`recordUsage`); der Renderer
  * holt am Ende eine Momentaufnahme und schreibt sie in die Session.
  *
  * Alles bleibt lokal und wird nirgendwohin gemeldet.
@@ -18,15 +18,17 @@ export interface UsageTotals {
 }
 
 /**
- * Näherungspreise für Gemini 2.5 Flash in Euro je 1 Mio. Tokens, Stand Juli 2026.
+ * Näherungspreise in Euro je 1 Mio. Tokens. Grundlage ist gpt-5.6-terra
+ * (2 $ Eingabe / 12 $ Ausgabe je 1 Mio. Tokens, Stand August 2026), grob in
+ * Euro umgerechnet.
  *
  * Bewusst eine einzige, grobe Stelle: Die Anzeige ist eine Orientierung, keine
- * Abrechnung. Sprachausgabe und Transkription laufen ebenfalls über Tokens,
- * werden hier aber mit denselben Sätzen gerechnet — verbindlich ist immer die
- * Preisliste unter ai.google.dev/pricing. Bei Preisänderungen nur hier anfassen.
+ * Abrechnung. Auswertung läuft über das günstigere gpt-5.6-luna, Sprachausgabe
+ * und Transkription rechnen anders ab — beides wird hier mit denselben Sätzen
+ * überschlagen. Verbindlich ist immer die Abrechnung im OpenAI-Konto.
  */
-const RATE_INPUT_PER_MILLION = 0.28;
-const RATE_OUTPUT_PER_MILLION = 2.3;
+const RATE_INPUT_PER_MILLION = 1.85;
+const RATE_OUTPUT_PER_MILLION = 11.1;
 
 function emptyTotals(): UsageTotals {
   return { inputTokens: 0, outputTokens: 0, requests: 0, estimatedCostEur: 0 };
