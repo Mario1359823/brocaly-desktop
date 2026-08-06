@@ -1,7 +1,7 @@
 {
   "name": "brocaly-desktop",
   "productName": "Brocaly",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Brocaly — KI-Prüfungssimulation für Medizin. Lokal auf deinem Rechner, mit deinem eigenen API-Schlüssel.",
   "author": {
     "name": "Mario Urbanek",

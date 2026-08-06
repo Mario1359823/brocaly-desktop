@@ -13,7 +13,13 @@ export interface SynthesisResult {
  */
 const VOICE = 'sage';
 const INSTRUCTIONS =
-  'Sprich Deutsch mit einer erwachsenen weiblichen Stimme: erfahrene Chefärztin im Prüfungsgespräch. Sachlich, bestimmt, klar artikuliert, zügiges Tempo, kurze Pausen, lebendige Betonung. Nicht langsam, nicht monoton, keine Theatralik.';
+  'Sprich Deutsch mit einer erwachsenen weiblichen Stimme: erfahrene Chefärztin im Prüfungsgespräch. Sprich deutlich zügig — flottes, natürliches Konversationstempo wie im Klinikalltag, keine Kunstpausen, kein Vorlesen. Sachlich, bestimmt, klar artikuliert, lebendige Betonung.';
+/**
+ * Die Sprechanweisung allein bringt nur wenig Tempo (gemessen: −8 %). Erst
+ * `speed` macht den Unterschied hörbar: dieselbe Textprobe dauert bei 1.0
+ * 8,6 s, bei 1.3 noch 5,7 s. 1.3 ist die abgehörte Wahl.
+ */
+const SPEED = 1.3;
 
 export function voiceEnabled(preference: VoiceProvider): boolean {
   return preference !== 'off';
@@ -28,6 +34,7 @@ export async function synthesize(text: string, preference: VoiceProvider): Promi
       input: text,
       voice: VOICE,
       instructions: INSTRUCTIONS,
+      speed: SPEED,
       response_format: 'mp3',
     });
     return {
