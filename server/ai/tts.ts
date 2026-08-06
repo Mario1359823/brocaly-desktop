@@ -19,24 +19,15 @@ export interface SynthesisResult {
 
 // --- Gemini -------------------------------------------------------------
 // Google's TTS model needs no extra subscription, so a single Gemini key is
-// enough to run Brocaly end to end. Voices are picked to match each examiner's
-// character; the style hint steers delivery, which the model honours natively.
-const GEMINI_VOICES: Record<string, { voice: string; style: string }> = {
-  hoffmann: {
-    voice: 'Kore',
-    style:
-      'Sprich als erfahrene Chefärztin: sachlich, bestimmt, klar artikuliert, zügiges Tempo, wenig Wärme, keine Theatralik.',
-  },
-  mueller: {
-    voice: 'Charon',
-    style:
-      'Sprich als erfahrener Facharzt: ruhig, präzise, professionell freundlich, gleichmäßiges Tempo, klare Betonung.',
-  },
-  jamie: {
-    voice: 'Puck',
-    style:
-      'Sprich als entspannter, kollegialer Arzt: warm, locker, ermutigend, natürlicher Gesprächsrhythmus.',
-  },
+// enough to run Brocaly end to end. The examiner's character comes purely from
+// the voice: gemini-2.5-flash-preview-tts antwortet auf einen zusätzlichen
+// Stil-Satz im Prompt gar nicht mehr (gemessen: 4 s mit reinem Text, > 120 s
+// Hänger mit Stil-Satz), und als systemInstruction lehnt das Modell ihn mit
+// 400 ab. Beide Wege führen zu stummer Sprachausgabe — also nur der Sprechtext.
+const GEMINI_VOICES: Record<string, { voice: string }> = {
+  hoffmann: { voice: 'Kore' },
+  mueller: { voice: 'Charon' },
+  jamie: { voice: 'Puck' },
 };
 
 function geminiVoice(voice: unknown) {
@@ -82,11 +73,7 @@ async function synthesizeWithGemini(text: string, voice: unknown): Promise<Synth
   const payload = await geminiJson(
     `${model}:generateContent`,
     {
-      // Gemini's TTS models reject system instructions ("Developer instruction
-      // is not enabled for this model" on 3.1, HTTP 500 on the 2.5 previews).
-      // The style hint has to ride along in the prompt itself — that is the
-      // documented way to steer delivery, and it is not spoken out loud.
-      contents: [{ parts: [{ text: `${selected.style}\n\n${text}` }] }],
+      contents: [{ parts: [{ text }] }],
       generationConfig: {
         temperature: 0,
         responseModalities: ['AUDIO'],

@@ -1,7 +1,7 @@
 {
   "name": "brocaly-desktop",
   "productName": "Brocaly",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Brocaly — KI-Prüfungssimulation für Medizin. Lokal auf deinem Rechner, mit deinem eigenen API-Schlüssel.",
   "author": {
     "name": "Mario Urbanek",
@@ -23,7 +23,9 @@
     "start": "npm run build && electron .",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "dist": "npm run build && electron-builder --mac --win",
-    "dist:mac": "npm run build && electron-builder --mac",
+    "dist:mac": "npm run build && npm run dist:mac:arm64 && npm run dist:mac:x64",
+    "dist:mac:arm64": "electron-builder --mac --arm64",
+    "dist:mac:x64": "electron-builder --mac --x64",
     "dist:win": "npm run build && electron-builder --win",
     "dist:dir": "npm run build && electron-builder --dir",
     "clean": "rm -rf dist release",
