@@ -66,10 +66,8 @@ jobs:
           set -uo pipefail
 
           # Solange kein Zertifikat hinterlegt ist, bleibt es beim bisherigen
-          # Ad-hoc-Weg — der Release funktioniert also weiter, auch waehrend die
-          # Apple-Mitgliedschaft noch nicht freigeschaltet ist. Nutzer sehen
-          # dann allerdings "Brocaly ist beschaedigt" und brauchen
-          # `xattr -dr com.apple.quarantine`.
+          # Ad-hoc-Weg fuer reine Testartefakte. Echte veroeffentlichte macOS-
+          # Releases brechen ohne Developer-ID-Zertifikat unten bewusst ab.
           if [ "${{ runner.os }}" = "macOS" ] && [ -n "${MAC_CERT_P12:-}" ]; then
             echo "Developer-ID-Zertifikat gefunden — signiere und notarisiere."
             export CSC_LINK="$MAC_CERT_P12"

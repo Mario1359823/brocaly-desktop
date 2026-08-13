@@ -51,6 +51,10 @@ function notaryArgs() {
 
 export default async function notarizeDmgArtifacts(context) {
   if (process.platform !== 'darwin') return;
+  if (process.env.GITHUB_ACTIONS && process.env.BROCALY_NOTARIZE_DMG_IN_CI !== '1') {
+    console.log('  • ueberspringe DMG-Container-Notarisierung in GitHub Actions');
+    return;
+  }
 
   const credentials = notaryArgs();
   if (!credentials) {
