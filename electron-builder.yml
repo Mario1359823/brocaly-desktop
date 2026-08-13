@@ -22,6 +22,7 @@ npmRebuild: false
 # Signiert das fertige macOS-Bundle ad hoc. Ohne das meldet macOS
 # „Brocaly ist beschädigt" — Begründung steht im Script.
 afterPack: scripts/adhoc-sign.mjs
+afterAllArtifactBuild: scripts/notarize-dmg-artifacts.mjs
 
 mac:
   # Die Version steht im Dateinamen, damit im Downloads-Ordner erkennbar bleibt,

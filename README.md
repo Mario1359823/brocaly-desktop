@@ -90,6 +90,7 @@ npm run start        # Produktionsbuild bauen und starten
 npm run typecheck    # TypeScript prüfen
 
 npm run dist:mac     # macOS: .dmg + .zip (arm64 + x64)
+npm run dist:mac:signed # macOS: signiert + notarisiert, wenn Zertifikat/Apple-Credentials gesetzt sind
 npm run dist:win     # Windows: NSIS-Installer (x64 + arm64)
 ```
 
@@ -116,7 +117,9 @@ kommen nur über `xattr -dr com.apple.quarantine /Applications/Brocaly.app` weit
 Öffnen hilft seit macOS 15 nicht mehr.
 
 Der Release-Workflow schaltet automatisch um, sobald die Secrets hinterlegt sind — bis dahin baut
-er unverändert ad-hoc weiter. Nötig sind fünf Repository-Secrets:
+er unverändert ad-hoc weiter. Ein veröffentlichter macOS-Release bricht ohne diese Secrets ab,
+damit nicht versehentlich ein Build mit Gatekeeper-Warnung verteilt wird. Nötig sind fünf
+Repository-Secrets:
 
 | Secret | Inhalt |
 | --- | --- |
@@ -130,6 +133,19 @@ Danach signiert electron-builder mit der Developer-ID, aktiviert Hardened Runtim
 zur Notarisierung bei Apple hoch. Die Entitlements in `build/entitlements.mac.plist` sind bereits
 auf Hardened Runtime ausgelegt — ohne `disable-library-validation` und
 `allow-dyld-environment-variables` startet Electron darunter nicht.
+
+Lokal kannst du den Status so prüfen:
+
+```bash
+cd desktop
+npm run check:mac-signing
+```
+
+Wenn dort `0 valid identities found` steht, ist das Zertifikat noch nicht als nutzbare
+Signieridentität installiert. Im Schlüsselbund muss ein **Developer ID Application**-Zertifikat mit
+aufklappbarem privaten Schlüssel liegen. Ein **Apple Development**-Zertifikat ist nur für lokale
+Entwicklung bzw. `mas-dev` gedacht und entfernt die Warnung bei direkt heruntergeladenen DMG/ZIPs
+nicht.
 
 Nebeneffekt: Erst mit einer echten Signatur wird ein stilles Selbst-Update überhaupt möglich.
 `electron/updates.ts` zeigt bewusst nur einen Hinweis, weil ein ad-hoc signiertes Bundle bei jedem

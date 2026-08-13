@@ -24,8 +24,10 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "dist": "npm run build && electron-builder --mac --win",
     "dist:mac": "npm run build && electron-builder --mac",
+    "dist:mac:signed": "APPLE_KEYCHAIN_PROFILE=brocaly-notary npm run check:mac-signing && npm run build && CSC_NAME='Mario Urbanek (3BHTW7LQ3X)' APPLE_KEYCHAIN_PROFILE=brocaly-notary electron-builder --mac --config.mac.hardenedRuntime=true --config.mac.notarize=true",
     "dist:win": "npm run build && electron-builder --win",
     "dist:dir": "npm run build && electron-builder --dir",
+    "check:mac-signing": "node scripts/check-mac-signing.mjs",
     "clean": "rm -rf dist release",
     "test": "vitest run",
     "test:watch": "vitest"
